@@ -1,0 +1,30 @@
+{
+  "id": "real-005",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "lodash/lodash",
+  "commit": "c358aa0c310467b7e80f9bb49ecceef02b1f09d8",
+  "capturedAt": "2026-09-08T11:46:28.649Z",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "569b837254038e587c986d437587b96e9d11ae19bc28a3b8febe38bf5ea50ac5",
+      "sizeBytes": 1999
+    },
+    {
+      "path": "package.json",
+      "sha256": "9b50a0c5d96ceb611bf9a089c8297bb7cac2df137dabc7329194e4f038be4ee8",
+      "sizeBytes": 2045
+    },
+    {
+      "path": "README.md",
+      "sha256": "21d9a8cf8b5a8dc861578bd17a947650b4c17c0253d48a9db12a53bab9b89e46",
+      "sizeBytes": 3706
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "98041153bcae094dce9d5eacd005d9aaace49510654d5dae7870d079f8bb8f6b",
+      "sizeBytes": 2089
+    }
+  ]
+}

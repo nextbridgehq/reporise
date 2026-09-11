@@ -1,0 +1,27 @@
+{
+  "name": "reporise",
+  "displayName": "RepoRise",
+  "version": "0.1.0",
+  "description": "Repository visibility toolkit — audits and improves how a repo is found by search engines (SEO), lifted into direct answers (AEO), and cited by generative engines (GEO). Ships two skills: visibility-audit, an offline 22-check audit that produces a ranked, evidence-backed fix plan, and citation-probe, which measures whether generative engines actually name the project and who gets named instead. No API keys, no network, no telemetry.",
+  "author": {
+    "name": "Nextbridge",
+    "url": "https://github.com/nextbridgehq"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/nextbridgehq/reporise#readme",
+  "repository": "https://github.com/nextbridgehq/reporise",
+  "keywords": [
+    "seo",
+    "geo",
+    "aeo",
+    "generative-engine-optimization",
+    "answer-engine-optimization",
+    "repository-visibility",
+    "developer-marketing",
+    "readme",
+    "discoverability",
+    "llm-citation",
+    "audit",
+    "offline"
+  ]
+}

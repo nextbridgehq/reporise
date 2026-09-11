@@ -1,0 +1,130 @@
+{
+  "id": "real-016",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "hashicorp/terraform",
+  "commit": "633854990d7bd1c62f03f7a659cced65f32997c6",
+  "capturedAt": "2026-09-08T11:49:25.226Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "4f9e4b5b88970ff1a1f8328682007ff7edc236e0e78a0d59a8721fd3aad7c7a7",
+      "sizeBytes": 5325
+    },
+    {
+      "path": "docs/architecture.md",
+      "sha256": "95e655cd6af951300c659210cc6a58febaf07a7255b77f498e6207e98f83ba70",
+      "sizeBytes": 21359
+    },
+    {
+      "path": "docs/debugging.md",
+      "sha256": "48bf4b4c028a1bf280c2f5bd8356d2a40aaac2b5aa6b9ac128e54b15b3f064c5",
+      "sizeBytes": 5363
+    },
+    {
+      "path": "docs/dependency-upgrades.md",
+      "sha256": "63190be35c7bdb5dae6964a082ce897d965bb52261e3eeac272ad12199f11b01",
+      "sizeBytes": 7717
+    },
+    {
+      "path": "docs/destroying.md",
+      "sha256": "a7cdd73c0be7a271472199891bf06d1e5f9a08ee19de708ab475b0b530e20539",
+      "sizeBytes": 10411
+    },
+    {
+      "path": "docs/images/architecture-overview.png",
+      "sha256": "635ef08ebacc4fbb6b3a721f1332698838b76fc98a194758b30e3ed41fae1201",
+      "sizeBytes": 287563
+    },
+    {
+      "path": "docs/images/destroy_then_update.png",
+      "sha256": "c86b3fd6b0bef7abf134618b21d68b53fdb24dce0ff260f6b21b62bdcc516e45",
+      "sizeBytes": 8741
+    },
+    {
+      "path": "docs/images/replace_all.png",
+      "sha256": "8a5cdd617a63d09d4d0f1724ca7990583fba426d4e837186f1a1b52cf830bb84",
+      "sizeBytes": 12463
+    },
+    {
+      "path": "docs/images/replace_all_cbd.png",
+      "sha256": "87437885552cde2b4d05b9f82dfbf619494715f6c5dc9e4dd93f71d95c31f4b6",
+      "sizeBytes": 12469
+    },
+    {
+      "path": "docs/images/replace_all_cbd_dep.png",
+      "sha256": "33040e5be8d423e3b974347da98389547cb334c5fa6e305383b01401077af8cc",
+      "sizeBytes": 13707
+    },
+    {
+      "path": "docs/images/replace_cbd_incorrect.png",
+      "sha256": "9597753703035dbf11729a25ffeb3499d0836ad13780ce31c36e6c741812c414",
+      "sizeBytes": 12577
+    },
+    {
+      "path": "docs/images/replace_dep_cbd_dep.png",
+      "sha256": "c3770067243db373b8588f50d014320b37257b45868445b2aba6689ebabe8b4c",
+      "sizeBytes": 13303
+    },
+    {
+      "path": "docs/images/replace_one.png",
+      "sha256": "9029b35c3b36a0f0a58be7c2894366638cd6e19ef01c3fb14aca61c3156b6bc7",
+      "sizeBytes": 13026
+    },
+    {
+      "path": "docs/images/resource-instance-change-lifecycle.png",
+      "sha256": "39342de96dca6a3dfc57efe6ddab9a13b3a5208f097b48ad8f527b6e57d155d3",
+      "sizeBytes": 199031
+    },
+    {
+      "path": "docs/images/simple_create.png",
+      "sha256": "c947bc74c55e47178b90254a047c6789beef03ead6c055886e0429c448002468",
+      "sizeBytes": 5254
+    },
+    {
+      "path": "docs/images/simple_destroy.png",
+      "sha256": "02a6a84367c7d5721e93a1c43b7dcd6c5593b26e53084adc888e594953aa6824",
+      "sizeBytes": 5921
+    },
+    {
+      "path": "docs/images/simple_update.png",
+      "sha256": "0e80f52edf4b53231f79315fdf109830a0931124a85810197c64d253e787c473",
+      "sizeBytes": 8256
+    },
+    {
+      "path": "docs/images/update_destroy_cbd.png",
+      "sha256": "322bba63eee572c5d9112a5de67a761fa53b302a1dda80e4893ae1e9814e2c86",
+      "sizeBytes": 8734
+    },
+    {
+      "path": "docs/images/vscode-debugging-test.png",
+      "sha256": "3fcb722359a17b754d36b1f35b74c85ce65cbcc4d053369b1f65169811a91a6d",
+      "sizeBytes": 411229
+    },
+    {
+      "path": "docs/images/vscode-debugging.png",
+      "sha256": "c535547934ade0e2027682b039df12bb408a782617012500c87b8b8b31fbba60",
+      "sizeBytes": 391938
+    },
+    {
+      "path": "docs/planning-behaviors.md",
+      "sha256": "53b723a3eabd7e1ae5e7eb49032338b46cded4a1e7d0ca0ca733ada774cb06cb",
+      "sizeBytes": 16839
+    },
+    {
+      "path": "go.mod",
+      "sha256": "13c7a143bc7ca53c638bae178ef9fe541ab867c98878cc4b26d4c13de8655eda",
+      "sizeBytes": 20925
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "eef69c7371826b33faba73b830af0f91916ba09d87061c8fa48a4709ccc63ff4",
+      "sizeBytes": 5042
+    },
+    {
+      "path": "README.md",
+      "sha256": "786be82773ab3a5f47c11324a5e8ca7427c868479cc9b3f251e54c261bf3663e",
+      "sizeBytes": 3983
+    }
+  ]
+}

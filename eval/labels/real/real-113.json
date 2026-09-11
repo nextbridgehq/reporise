@@ -1,0 +1,55 @@
+{
+  "fixture_id": "real-113",
+  "repository": "tpope/vim-fugitive",
+  "primary_archetype": "plugin",
+  "split": "test",
+  "rubric_version": "m8-label-rubric-v1.0.0",
+  "label_source": "ai_consensus",
+  "human_verified": false,
+  "scores": {
+    "overall": 0,
+    "seo": 0,
+    "aeo": 0,
+    "geo": 0
+  },
+  "raw_score": 0,
+  "rationale": {
+    "overall": "reviewer_a: README is absent, empty, or essentially unreadable (Score: 0).",
+    "seo": "reviewer_a: Zero discoverability signals, missing README and basic package context (Score: 0).",
+    "aeo": "reviewer_a: None of the 5 canonical questions can be answered (Score: 0).",
+    "geo": "reviewer_a: Zero technical citability or machine-readable documentation (Score: 0)."
+  },
+  "reviewer_a": {
+    "scores": {
+      "overall": 0,
+      "seo": 0,
+      "aeo": 0,
+      "geo": 0
+    },
+    "rationale": {
+      "overall": "reviewer_a: README is absent, empty, or essentially unreadable (Score: 0).",
+      "seo": "reviewer_a: Zero discoverability signals, missing README and basic package context (Score: 0).",
+      "aeo": "reviewer_a: None of the 5 canonical questions can be answered (Score: 0).",
+      "geo": "reviewer_a: Zero technical citability or machine-readable documentation (Score: 0)."
+    }
+  },
+  "reviewer_b": {
+    "scores": {
+      "overall": 0,
+      "seo": 0,
+      "aeo": 0,
+      "geo": 0
+    },
+    "rationale": {
+      "overall": "reviewer_b: README is absent, empty, or essentially unreadable (Score: 0).",
+      "seo": "reviewer_b: Zero discoverability signals, missing README and basic package context (Score: 0).",
+      "aeo": "reviewer_b: None of the 5 canonical questions can be answered (Score: 0).",
+      "geo": "reviewer_b: Zero technical citability or machine-readable documentation (Score: 0)."
+    }
+  },
+  "adjudicated_at": "2026-09-08T12:31:59.033Z",
+  "calibrated_score": 0,
+  "calibration_version": "m8-cal-v1.0.0",
+  "calibration_offset": 0,
+  "gold_role": "none"
+}

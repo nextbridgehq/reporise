@@ -1,0 +1,195 @@
+{
+  "id": "real-048",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "openai/openai-node",
+  "commit": "a9a4440ba775491251daa4fa27b898e9ecbd3c5e",
+  "capturedAt": "2026-09-08T11:57:29.411Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "48ee2dabad5c750d7c9119b2cbfb52d4d64e8aa2dbfb4285455e1d67d46665e5",
+      "sizeBytes": 329553
+    },
+    {
+      "path": "docs/architecture/security-model.md",
+      "sha256": "c73138a593975798db8ea83f1093f8ee8abe5708e1e9b920db3fab75041b050d",
+      "sizeBytes": 67763
+    },
+    {
+      "path": "docs/authentication.md",
+      "sha256": "e44b3c6b7a1d4a50ee41f551b7d01cdc025f20ae7d86a69d0303315c8530b82d",
+      "sizeBytes": 7768
+    },
+    {
+      "path": "docs/azure.md",
+      "sha256": "87981704a7f1bcd7f9d62178716b127b0fd23b9215b82dbd513a9f1a7988655d",
+      "sizeBytes": 3520
+    },
+    {
+      "path": "docs/bedrock.md",
+      "sha256": "e6c87782812546648e4860ca7d3ee6dd11942677157843067242e43e615fd095",
+      "sizeBytes": 13005
+    },
+    {
+      "path": "docs/configuration.md",
+      "sha256": "6bc6e7550e61e5120d94b8802cf358c8d0f087835cc760584a8f5c46e22bd855",
+      "sizeBytes": 6221
+    },
+    {
+      "path": "docs/helpers.md",
+      "sha256": "cfb0599de019f2fd075cd61d21afaf85588efe0cb2583b12cbcca28579cdb124",
+      "sizeBytes": 32184
+    },
+    {
+      "path": "docs/realtime.md",
+      "sha256": "acf5ab524027b4c92f6ab87a8068a8e30f8d9fb84914eb9509103a72ad69c07f",
+      "sizeBytes": 6481
+    },
+    {
+      "path": "docs/responses.md",
+      "sha256": "92d8fd0b28483c836296a0c85cd5390ef60c56876d69f6d1e71e33f966558946",
+      "sizeBytes": 6019
+    },
+    {
+      "path": "docs/streaming.md",
+      "sha256": "f1a4015b9c3ce371952b3a70042e227731614781990080cc7032ed024fbb6686",
+      "sizeBytes": 8020
+    },
+    {
+      "path": "docs/structured-outputs.md",
+      "sha256": "a6928e73798d4a42d690e324bcade7200c5f587241720adb1cb766c36373d722",
+      "sizeBytes": 8188
+    },
+    {
+      "path": "docs/tools.md",
+      "sha256": "860d5cb5fd9de375c2c06e1e3f83c17d01d296e141c497b6328fccbe0af5fbc8",
+      "sizeBytes": 8570
+    },
+    {
+      "path": "docs/uploads.md",
+      "sha256": "591405dc45dfa1ad1f32d0f62a109063e57f9aa8115a3163e239f5853d365449",
+      "sizeBytes": 6982
+    },
+    {
+      "path": "docs/webhooks.md",
+      "sha256": "e8dbaf23dc0cffa640b1638670f0aec7414baed5e0a6a0e170f28d3a9413f3d7",
+      "sizeBytes": 3861
+    },
+    {
+      "path": "examples/.gitignore",
+      "sha256": "e61b293d7729e7f0a752528094243e2374d1bce46f49b665a8535de9f74003dc",
+      "sizeBytes": 23
+    },
+    {
+      "path": "examples/.keep",
+      "sha256": "ab18762af24ee498dbd54cb83348fa1c802bb0fbb6ab4b5b96355a96eadd305f",
+      "sizeBytes": 217
+    },
+    {
+      "path": "examples/assistants/assistant-stream-raw.ts",
+      "sha256": "5db1ad2439103b111075ac4aa863fafc3af3d1bd70ea569bea0a8a8692287134",
+      "sizeBytes": 1283
+    },
+    {
+      "path": "examples/assistants/assistant-stream.ts",
+      "sha256": "6cfab7dd3e6b49f55f18121f4c619055874acb5ef646361b89e0b78130cc5e7d",
+      "sizeBytes": 1507
+    },
+    {
+      "path": "examples/assistants/assistants.ts",
+      "sha256": "9175f073625d86d2d35fbec285d372b759e2da3dca8f5bf64bb87282cdffbacc",
+      "sizeBytes": 1519
+    },
+    {
+      "path": "examples/audio/audio.ts",
+      "sha256": "d56a066dec20524373e75cb7ab6342e4f97aa30b846f330fa0562fad02798d9b",
+      "sizeBytes": 2155
+    },
+    {
+      "path": "examples/audio/speech-to-text.ts",
+      "sha256": "bed8cb4259fae166533c41ddba0f973a833c5886e80b859162fa1b2fc930bc03",
+      "sizeBytes": 584
+    },
+    {
+      "path": "examples/audio/text-to-speech.ts",
+      "sha256": "ee531a8b7c330dc3a6c9d3c45dde8996b7cb144bb0efc7105582c805cad66927",
+      "sizeBytes": 611
+    },
+    {
+      "path": "examples/azure/assistants.ts",
+      "sha256": "62f029638a7b78e57de0f48ffd43763ba178adbe8b4c58576be034bd5e3fec45",
+      "sizeBytes": 1940
+    },
+    {
+      "path": "examples/azure/chat.ts",
+      "sha256": "58939d4541618337ad9330f78d6259ef347a9760d951a29ba59974d3b2d103c1",
+      "sizeBytes": 1535
+    },
+    {
+      "path": "examples/azure/realtime/websocket.ts",
+      "sha256": "62cfcfb3dd3f374c147d32412d6c96cd3c04ddb34414d96d21954215921ba8e8",
+      "sizeBytes": 2234
+    },
+    {
+      "path": "examples/azure/realtime/ws.ts",
+      "sha256": "c5a62c4dc98c85db057e0f9a9f387ff4b1825cdfb37f3d9c4f8eeb4169b92349",
+      "sizeBytes": 2185
+    },
+    {
+      "path": "examples/azure/responses.ts",
+      "sha256": "5cf248a40225f61fc869a8923e507b5ff39e38feb233db0a1057d9fb8ea988af",
+      "sizeBytes": 1581
+    },
+    {
+      "path": "examples/bedrock/responses.ts",
+      "sha256": "fc03cfde702c9b3d05d823761f61d49d7630ad3a5b612b4b9807b2f062164088",
+      "sizeBytes": 718
+    },
+    {
+      "path": "examples/bedrock/runtime-chat.ts",
+      "sha256": "e8eeb013f1fd8303e6db6f43a96bf81353f25afc430e6ecbe99cac4863bd2fc4",
+      "sizeBytes": 1923
+    },
+    {
+      "path": "examples/chat-completions/chat-params-types.ts",
+      "sha256": "3ae0ca3786bd67540818b4bb23d97e7cf83b9eca0a265529031184b5bd79e7b3",
+      "sizeBytes": 3759
+    },
+    {
+      "path": "examples/chat-completions/demo.ts",
+      "sha256": "598dfd82605c7b3d831474c4530544a216b7e634738100b71c9547d4759ceb6a",
+      "sizeBytes": 832
+    },
+    {
+      "path": "examples/chat-completions/function-call-diy.ts",
+      "sha256": "eb19d4c8f14567d2f2f53630d3254929e0451d1f9d388224fa49ce22fdc3e853",
+      "sizeBytes": 5270
+    },
+    {
+      "path": "examples/chat-completions/function-call-stream-raw.ts",
+      "sha256": "2e671c7b37b30332755b2a0262f13908c4b594265d1727f96ddaf788e15aa9e1",
+      "sizeBytes": 7189
+    },
+    {
+      "path": "examples/chat-completions/function-call-stream.ts",
+      "sha256": "2e671c7b37b30332755b2a0262f13908c4b594265d1727f96ddaf788e15aa9e1",
+      "sizeBytes": 7189
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "636eb7d79da9bb6d515a4b3fd417aa26679eb3cf16396ddab4bc55fa74e616e4",
+      "sizeBytes": 11336
+    },
+    {
+      "path": "package.json",
+      "sha256": "0bffdde0be037fdb27324c7c3181b953aaed5b33e0147c9f74e6539890ae46d0",
+      "sizeBytes": 4836
+    },
+    {
+      "path": "README.md",
+      "sha256": "e5bcf7b370df5ed90a3dd02e01b3e2787b4774888962cfb09b076fae8e5520eb",
+      "sizeBytes": 31342
+    }
+  ]
+}

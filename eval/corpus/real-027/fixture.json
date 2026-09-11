@@ -1,0 +1,140 @@
+{
+  "id": "real-027",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "astral-sh/uv",
+  "commit": "5001296c095a4b3fa8a65527cd121dd3abad3a85",
+  "capturedAt": "2026-09-08T11:51:20.748Z",
+  "files": [
+    {
+      "path": "Cargo.toml",
+      "sha256": "5908ab3e760fe87e508212f6971bc0186f31387184b2c7112442a09ad772df0e",
+      "sizeBytes": 17076
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "5053ed9dd9f756b4f883765abde531cf7054e587d4e4184408f0a9545bc7a008",
+      "sizeBytes": 42540
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "4bb171e4ec1bff6c53546ff211aeb63f5375d9939fb6911b64561fecf2012745",
+      "sizeBytes": 11712
+    },
+    {
+      "path": "docs/.gitignore",
+      "sha256": "3c4dbff9eeda9410a0b9eb423472981db8997d666388b4cd2424700c3974d64b",
+      "sizeBytes": 5
+    },
+    {
+      "path": "docs/.overrides/main.html",
+      "sha256": "1f46459ac1bbf932b48a1770d32440701ae1e3546e735f9bd2b6ddfa8362ef3f",
+      "sizeBytes": 1512
+    },
+    {
+      "path": "docs/assets/favicon.ico",
+      "sha256": "5803113a3690424c38c1f67022f0eb6d4d97db10bf4fd7c7cd09b8a83d21a81b",
+      "sizeBytes": 7406
+    },
+    {
+      "path": "docs/assets/github-add-environment.png",
+      "sha256": "c0ea745988a664a0dff9c282c9228a8b9572c4aad0017b3628f4d5c016a89f2a",
+      "sizeBytes": 84757
+    },
+    {
+      "path": "docs/assets/logo-letter.svg",
+      "sha256": "fc5aeabf925cbdaba99f4e86635eeef2d47a5ecd715d7994490ef9082fd12bfb",
+      "sizeBytes": 532
+    },
+    {
+      "path": "docs/assets/pypi-add-trusted-publisher.png",
+      "sha256": "9bc8603a89f4a5b5b8d5639ab19428065ffc9fd5c94b07374097a90c2f818176",
+      "sizeBytes": 103836
+    },
+    {
+      "path": "docs/assets/pypi-with-trusted-publisher.png",
+      "sha256": "542180ed9df111608dc33ad0c6c1f8cc00f9d8f3e6e062298e4607a02b9e5836",
+      "sizeBytes": 25164
+    },
+    {
+      "path": "docs/assets/uv_gui_script_hello_world.png",
+      "sha256": "9257c1109ce6268a6420c574a348813504cc1fc5af82793dcfb4dc871c76c16b",
+      "sizeBytes": 4001
+    },
+    {
+      "path": "docs/assets/uv_gui_script_hello_world_pyqt.png",
+      "sha256": "d25a88b473d737bd0d7a31d2482d1fbc468c078427876eeb8930ef08d00d9f19",
+      "sizeBytes": 2280
+    },
+    {
+      "path": "docs/concepts/authentication/certificates.md",
+      "sha256": "567627381cb2d816b1b968e8e3e176c6d04d4fe507db01b1e129bfdf92ea57a4",
+      "sizeBytes": 4154
+    },
+    {
+      "path": "docs/concepts/authentication/cli.md",
+      "sha256": "38e51ebbe8c0191b074fc8f9db5838c81c55028e16118343441f6ca3a9a43182",
+      "sizeBytes": 3020
+    },
+    {
+      "path": "docs/concepts/authentication/git.md",
+      "sha256": "fcb882e24185dbc717cd97a12e60cbbea3555f91748284e68a82486840b7446c",
+      "sizeBytes": 2974
+    },
+    {
+      "path": "docs/concepts/authentication/http.md",
+      "sha256": "a57f0ef087bcd2ba706ab26896d826214d834ec8b152e189f2012821c7a64ac8",
+      "sizeBytes": 3633
+    },
+    {
+      "path": "docs/concepts/authentication/index.md",
+      "sha256": "2655d86e26a56a77790498cc8a963108a90a44fb074201007faf53a6b0e12036",
+      "sizeBytes": 334
+    },
+    {
+      "path": "docs/concepts/authentication/third-party.md",
+      "sha256": "216413948bee0129ea8f3d7bd5dec6a059e5e444e1acc2e916b74bf9b2566aa2",
+      "sizeBytes": 1023
+    },
+    {
+      "path": "docs/concepts/build-backend.md",
+      "sha256": "cfc780162e3f6400e2a141666ee4b08020e4d038f7bbb02ec841c3df3a3640ef",
+      "sizeBytes": 10286
+    },
+    {
+      "path": "docs/concepts/cache.md",
+      "sha256": "9800abbe382196c27d15c2ac4d5df950480ec2ec064f5fccb4429a0579c498e0",
+      "sizeBytes": 11350
+    },
+    {
+      "path": "docs/concepts/configuration-files.md",
+      "sha256": "e026002bb6cdb2c2c575fca5ceb29b82981874016d67162baf27693c0e335e91",
+      "sizeBytes": 5774
+    },
+    {
+      "path": "docs/concepts/index.md",
+      "sha256": "fe858e73a4689319231baf9d108c1da9e93a5270b9164ed1d82cda2661b49d03",
+      "sizeBytes": 545
+    },
+    {
+      "path": "docs/concepts/indexes.md",
+      "sha256": "395d010ab8de68a613f513e2d1d33e51dfc59014bb0a7214c375ad4f94a82658",
+      "sizeBytes": 14277
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "675a2dfbe3b5db721ffd160e9dfa316f7c3404a149c2d0b34df9bd213959c78b",
+      "sizeBytes": 4772
+    },
+    {
+      "path": "README.md",
+      "sha256": "57a84a5a635f30e3a26541ebc16ca690944a7750f05713b1af92d3170b58f704",
+      "sizeBytes": 9859
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "2dfdb634778fec3c27dcca9802775c1c5ce4ae7ad8f7cc98aeb729f80ee8002e",
+      "sizeBytes": 757
+    }
+  ]
+}

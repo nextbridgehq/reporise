@@ -1,0 +1,7 @@
+{
+  "name": "formkit-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

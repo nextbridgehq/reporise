@@ -1,0 +1,6 @@
+{
+  "https://docs.deno.com/runtime/manual/": {
+    "http_status": 200,
+    "content": "# Deno Manual\n\n## Installation\n```bash\ncurl -fsSL https://deno.land/install.sh | sh\n```\n\n## Getting Started\n```bash\ndeno run https://deno.land/std/examples/welcome.ts\n```\n"
+  }
+}

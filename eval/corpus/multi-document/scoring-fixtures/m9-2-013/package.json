@@ -1,0 +1,7 @@
+{
+  "name": "headlessui-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

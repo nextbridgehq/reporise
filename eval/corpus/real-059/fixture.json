@@ -1,0 +1,240 @@
+{
+  "id": "real-059",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "vitest-dev/vitest",
+  "commit": "09bc9ad6b3dfce1eb647d775376cdadd7c492694",
+  "capturedAt": "2026-09-08T12:04:01.619Z",
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "0821e807415d53bd79f3e78a47695c4118fe7de69e4048682a419e2a09adf0ea",
+      "sizeBytes": 3431
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "be77cef6673ca368245d4be61e64c772058c59e19aac01f4c5925828badb9ca7",
+      "sizeBytes": 16732
+    },
+    {
+      "path": "docs/.vitepress/blog.data.ts",
+      "sha256": "c78cb4201cb06e25989dbfe86b083768a64904579cfae9d3d60294d6ad4b5275",
+      "sizeBytes": 828
+    },
+    {
+      "path": "docs/.vitepress/components/Advanced.vue",
+      "sha256": "dac4f3e2b8797fc6142600aa9134f0d48a3e1738b2db391a0681c69ce1a6c737",
+      "sizeBytes": 277
+    },
+    {
+      "path": "docs/.vitepress/components/ArrowDown.vue",
+      "sha256": "a238cd17951a31a4162d8c248c04ea34a75170251522fa98e9aac24b7f051b83",
+      "sizeBytes": 457
+    },
+    {
+      "path": "docs/.vitepress/components/BlogIndex.vue",
+      "sha256": "5de58c99e1c697716932a79088c0997d1bef07f3a3bdd08773afeee1d708f00c",
+      "sizeBytes": 859
+    },
+    {
+      "path": "docs/.vitepress/components/Box.vue",
+      "sha256": "693a8e3a73693e845da35d564ad126e91728921b778c91a1205b792bfcff06d5",
+      "sizeBytes": 294
+    },
+    {
+      "path": "docs/.vitepress/components/ChangelogButton.vue",
+      "sha256": "08df0a0b3ae02c065502594aa88a92de4262bac3a8688e0645361eaabec25a20",
+      "sizeBytes": 1327
+    },
+    {
+      "path": "docs/.vitepress/components/CopyPrompt.vue",
+      "sha256": "8899a3f929e23f721939dcfdec065e355aeb14fa8e2d564ed2183b3611d86e48",
+      "sizeBytes": 1677
+    },
+    {
+      "path": "docs/.vitepress/components/CourseLink.vue",
+      "sha256": "c49e079b4cfbb64b7b1b840b491af4f1059cce3ed61da67fc08bfbe02b0813c6",
+      "sizeBytes": 531
+    },
+    {
+      "path": "docs/.vitepress/components/CRoot.vue",
+      "sha256": "7aa35f805bfe08f830b72c1e759ba3fa900620e9359e5ec1400c514e7319caf2",
+      "sizeBytes": 565
+    },
+    {
+      "path": "docs/.vitepress/components/Deprecated.vue",
+      "sha256": "a0f72d25d654fdef70061f60658859bc2af593c9f2101deb0723b1509804f161",
+      "sizeBytes": 73
+    },
+    {
+      "path": "docs/.vitepress/components/Experimental.vue",
+      "sha256": "e9281108ea3dba7b30f8b48272a99197a4036d2a0458d7df616a90aadfbad6ba",
+      "sizeBytes": 233
+    },
+    {
+      "path": "docs/.vitepress/components/FeaturesList.vue",
+      "sha256": "95cbdbf388950fecb0fb95b3681b58d08d2c49d2a7ea9d0cf4aa56bb698ec499",
+      "sizeBytes": 2522
+    },
+    {
+      "path": "docs/.vitepress/components/HomePage.vue",
+      "sha256": "ab99d72f2064b48c6d65f842be9edec1b55110960cfc02dba71904021edb5c4e",
+      "sizeBytes": 1823
+    },
+    {
+      "path": "docs/.vitepress/components/ListItem.vue",
+      "sha256": "3975437a8f008b6ddb52a558d0cefead248ac3bbc5b47cedcf7cbaf985a995c0",
+      "sizeBytes": 2259
+    },
+    {
+      "path": "docs/.vitepress/components/MoonPhase.vue",
+      "sha256": "d037b3d5d0b0546b92eab014725b3e51314522300dd0ef00e4d98e6a4889d476",
+      "sizeBytes": 574
+    },
+    {
+      "path": "docs/.vitepress/components/Version.vue",
+      "sha256": "436c3778784a341720e2d685660c42cc85991a92afd3aaa57c97deb43f3fdecf",
+      "sizeBytes": 407
+    },
+    {
+      "path": "docs/.vitepress/config.ts",
+      "sha256": "b7542fdb22b1c7a959c142fa64b71ab7e4bf6db21ac70e6b6ce16e8b9e14c902",
+      "sizeBytes": 41895
+    },
+    {
+      "path": "docs/.vitepress/contributors.ts",
+      "sha256": "df301e1f2f8e0e7b6215f73b62726e8eb6faf4c6b828bd7bc63c9e166d3f2e00",
+      "sizeBytes": 4950
+    },
+    {
+      "path": "docs/.vitepress/meta.ts",
+      "sha256": "da593bb6e46a3284b4c0d1c0d563d742ffc976293a61f06ca2e8fec34973fbfe",
+      "sizeBytes": 1574
+    },
+    {
+      "path": "docs/.vitepress/scripts/cli-generator.ts",
+      "sha256": "fbf0a88617b832f25246931d15e01d8083d748e76386dbad22acaf33cf3659f8",
+      "sizeBytes": 2692
+    },
+    {
+      "path": "examples/basic/package.json",
+      "sha256": "1911de92d8cf12222bd67a8e7060d8b30e79e7f8fdffc71ee48c20e1d5f1fec5",
+      "sizeBytes": 381
+    },
+    {
+      "path": "examples/basic/README.md",
+      "sha256": "b669d35854fe288d46afe12f0519f4b9d6a40aa18fb70164377791d9556bb9d7",
+      "sizeBytes": 119
+    },
+    {
+      "path": "examples/basic/src/basic.ts",
+      "sha256": "9b82ff27b305fb8fa6080dbf4564b87b5be59ece6e0bd7fdeb5569c32dba4a8e",
+      "sizeBytes": 44
+    },
+    {
+      "path": "examples/basic/test/basic.test.ts",
+      "sha256": "0bb0f9caa9eea24513e5695bc20b79a76bae3b5994c339bbcb687c6f52f4f015",
+      "sizeBytes": 609
+    },
+    {
+      "path": "examples/basic/test/suite.test.ts",
+      "sha256": "16103cb3d7579b3a47024e6a5f08377c923c1e4753d3bfef50f3cebc7041023f",
+      "sizeBytes": 274
+    },
+    {
+      "path": "examples/basic/tsconfig.json",
+      "sha256": "4c7a5d09abd0e128c1f7e361ad930a711ae2320790df9a7bcaf92a799b2ddbfa",
+      "sizeBytes": 269
+    },
+    {
+      "path": "examples/basic/vite.config.ts",
+      "sha256": "9c71f9ac96bf5c8f8f0d3ea49f4c5ff8f20fc22e66fa06f020a1fbecd25e6fd7",
+      "sizeBytes": 283
+    },
+    {
+      "path": "examples/fastify/mockData.ts",
+      "sha256": "7c4cd78d4ad36281c767ad683422057e793afc5ed5467f3b32eb3fc9d72aea56",
+      "sizeBytes": 307
+    },
+    {
+      "path": "examples/fastify/package.json",
+      "sha256": "46ef6f36543cf666b36aa71443a53149ee6a3f42f6547c0b0dcd64057c1c538e",
+      "sizeBytes": 509
+    },
+    {
+      "path": "examples/fastify/src/app.ts",
+      "sha256": "e8407b9c3ce1d74593e6282c566166c24c0a551e796f75de80facb9694b8d4ed",
+      "sizeBytes": 285
+    },
+    {
+      "path": "examples/fastify/src/index.ts",
+      "sha256": "423b2f296f8372665cada796b805395eaf12d061477b0b2c45a2b6f405458b11",
+      "sizeBytes": 173
+    },
+    {
+      "path": "examples/fastify/test/app.test.ts",
+      "sha256": "b6e195bf8232a8381f89ca6144b76ee24950bd040df70e5a47fb5debce4a421f",
+      "sizeBytes": 1081
+    },
+    {
+      "path": "examples/in-source-test/package.json",
+      "sha256": "4e54690446464fed5a1072a9b73d8e60f00a160ce0dcd7446d75a3be479922db",
+      "sizeBytes": 236
+    },
+    {
+      "path": "examples/in-source-test/src/index.ts",
+      "sha256": "e5796410c57991602787a60694f4344a745e2cf69dd62462f4f4741339bbf9be",
+      "sizeBytes": 315
+    },
+    {
+      "path": "examples/in-source-test/tsconfig.json",
+      "sha256": "26d32552ff14a005699252334c6e3f60fc46681994899b1fae1e4ad0988d24e8",
+      "sizeBytes": 252
+    },
+    {
+      "path": "examples/in-source-test/vitest.config.ts",
+      "sha256": "bc0199d41340f4d4c7096030ade60fed1717ebbb2e2b7047d9182b71a2bd0ccd",
+      "sizeBytes": 135
+    },
+    {
+      "path": "examples/lit/.gitignore",
+      "sha256": "9a82f7576f95e8ef3c347aa5ce23c3e370426f7697620d71de23cef21cd11d31",
+      "sizeBytes": 27
+    },
+    {
+      "path": "examples/lit/index.html",
+      "sha256": "29fb1823f88ff4290975c84b4d6346f1d199c4443fb93b9a113987ff3ec058ba",
+      "sizeBytes": 360
+    },
+    {
+      "path": "examples/lit/package.json",
+      "sha256": "119bf15b8d4c7fa5de39f8bbb161c320b38db6771561efa3bbb3bff2eb86e893",
+      "sizeBytes": 551
+    },
+    {
+      "path": "examples/lit/src/my-button.ts",
+      "sha256": "221f9a7a4af87a037b0718f89d9ce2bef81051b70c57851d4da18e3ba5d0bcdd",
+      "sizeBytes": 1018
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "04575fc5bfae19a9b63100f8691f901a2e15a399011ac02db435a9ef27295551",
+      "sizeBytes": 1102
+    },
+    {
+      "path": "package.json",
+      "sha256": "a5ed4767668d055f9f51a8e4de2b25eabc8607b951eb65294b5edeb6342fd94b",
+      "sizeBytes": 3666
+    },
+    {
+      "path": "README.md",
+      "sha256": "e8ebb122af88ef7d54982ada599ffbc3321db6d57f3902b800031d7745b7bdde",
+      "sizeBytes": 4179
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "cd8dba341f6fd8bb8c35a5bc90497589aca73879e9a05fa0ee0a613c5cda149b",
+      "sizeBytes": 6291
+    }
+  ]
+}

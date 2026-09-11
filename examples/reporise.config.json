@@ -1,0 +1,9 @@
+{
+  "$schema": "../schemas/profile.schema.json",
+  "fetch": "websearch",
+  "engines": [
+    "claude"
+  ],
+  "samplesPerQuery": 3,
+  "handoffPath": ".reporise/handoff.json"
+}

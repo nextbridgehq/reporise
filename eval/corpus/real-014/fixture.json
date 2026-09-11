@@ -1,0 +1,135 @@
+{
+  "id": "real-014",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "ollama/ollama",
+  "commit": "d7486eec0854d68e0dcf45f5df8dc0e6e7fb63a3",
+  "capturedAt": "2026-09-08T11:48:45.261Z",
+  "files": [
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "be3a8c4585b311cfb7f85e40e4b52e6fcccda1de9ce9e3889f2335d31a4d490d",
+      "sizeBytes": 3766
+    },
+    {
+      "path": "docs/api/anthropic-compatibility.mdx",
+      "sha256": "2f149e701cde208b58296c243a8cfbb9c2a7c06b77dbbb7bb6efff1fc0128770",
+      "sizeBytes": 10137
+    },
+    {
+      "path": "docs/api/authentication.mdx",
+      "sha256": "3e5e871590faa8dd10a09a7f02e0f6eb3eb1c6b15a2cf7eb37553543953f3741",
+      "sizeBytes": 1766
+    },
+    {
+      "path": "docs/api/errors.mdx",
+      "sha256": "7de6b58fea65178a93b0fbd8912fef9a6e2d6d0b813e1a00b12e74edc880ae71",
+      "sizeBytes": 1488
+    },
+    {
+      "path": "docs/api/introduction.mdx",
+      "sha256": "35c010d401cbf2a8965f8f71d7047df22e2a486ada54ae047a982a6d7c5562ab",
+      "sizeBytes": 1311
+    },
+    {
+      "path": "docs/api/openai-compatibility.mdx",
+      "sha256": "faa7a2216eb6469082df945e3733b49123f871e265aec2c65d061ad0350208b5",
+      "sizeBytes": 22827
+    },
+    {
+      "path": "docs/api/streaming.mdx",
+      "sha256": "4322e2a2c3c7447096ba9945df745301663fcc9164b1cf1c84c66ab0220564e0",
+      "sizeBytes": 1607
+    },
+    {
+      "path": "docs/api/usage.mdx",
+      "sha256": "53e2cf86caa4c0a12293be3d8f3ff58dc55d0c754b2cee8107f88965bd624b7d",
+      "sizeBytes": 1373
+    },
+    {
+      "path": "docs/api.md",
+      "sha256": "2f218e56d3920d3f4ea3b6f4aa25134cc089e140c47d4e1a329e8e03f3f51de1",
+      "sizeBytes": 56831
+    },
+    {
+      "path": "docs/capabilities/embeddings.mdx",
+      "sha256": "4330e9e798e1e4c1a7b3b02cbf0df3d4a9f6a9944ca4e65de455debd3bafb970",
+      "sizeBytes": 3221
+    },
+    {
+      "path": "docs/capabilities/streaming.mdx",
+      "sha256": "41b90b724b4484ae922f45d926696f673804dedd7672bb6ec6497dc621b2f74e",
+      "sizeBytes": 3458
+    },
+    {
+      "path": "docs/capabilities/structured-outputs.mdx",
+      "sha256": "a6fa851d7cc8642bffd07138e31edd5494d9b597cce12c7a5cf59316152a505e",
+      "sizeBytes": 5221
+    },
+    {
+      "path": "docs/capabilities/thinking.mdx",
+      "sha256": "332eff070e0671779651a10472e98a6939c5f88507dc50dd6eeb7ce55bce6b1f",
+      "sizeBytes": 4923
+    },
+    {
+      "path": "docs/capabilities/tool-calling.mdx",
+      "sha256": "4aad675df99841632c78626eae9ba299997964d88c4a8d204dd7a64f8fdf81d2",
+      "sizeBytes": 22990
+    },
+    {
+      "path": "docs/capabilities/vision.mdx",
+      "sha256": "8b93ffcd560301cd54be873fe38352fd79e2deaec7b2b974c6ab1e74f3265eb6",
+      "sizeBytes": 2064
+    },
+    {
+      "path": "docs/capabilities/web-search.mdx",
+      "sha256": "ee49bcf81c495effd1e2674bd1bd3a10e0f7fb5d711dfb9270a2486316f1d599",
+      "sizeBytes": 11419
+    },
+    {
+      "path": "docs/cli.mdx",
+      "sha256": "eb6d1364f015f4bd4060823cb9867e328bbd4a1de905a03446a2c71e045981e5",
+      "sizeBytes": 2053
+    },
+    {
+      "path": "docs/cloud.mdx",
+      "sha256": "2c9fdf5a69c870b5dfd3e33d35597074608e257084e8d716383e93a90b712bb1",
+      "sizeBytes": 6794
+    },
+    {
+      "path": "docs/context-length.mdx",
+      "sha256": "c54005bbb8d09cf355bb2cd807a5812a4db8facc9fd20a78e0bc4f94f182c241",
+      "sizeBytes": 1454
+    },
+    {
+      "path": "docs/development.md",
+      "sha256": "527847ec8ae63bb5b6c9f5e8673f2125e0d63910cf58aa7f5413058f35a6184f",
+      "sizeBytes": 6040
+    },
+    {
+      "path": "docs/docker.mdx",
+      "sha256": "4c2d7c8589013274ca179d158e19e798a98bec88620399c4118292d47a5adc3c",
+      "sizeBytes": 2757
+    },
+    {
+      "path": "go.mod",
+      "sha256": "b951ebba781c65a548a164d6f8c918e8c740bc70474d38ffd435255657d97c83",
+      "sizeBytes": 4747
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "95fa997c6886685f7c1d54ccdfb906519a7e0b33be58d5c1958708688abaa1fd",
+      "sizeBytes": 1079
+    },
+    {
+      "path": "README.md",
+      "sha256": "6c2271032bf15e713b05faeee06462bb219b473d74e181c52fd3546ec1555687",
+      "sizeBytes": 19581
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "14687cb9606add03448e7eef659ed41cc45ea3a7568884496daddedf7b42b3cd",
+      "sizeBytes": 1028
+    }
+  ]
+}

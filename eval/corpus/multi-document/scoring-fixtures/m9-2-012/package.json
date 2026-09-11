@@ -1,0 +1,7 @@
+{
+  "name": "react-native-root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

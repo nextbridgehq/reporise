@@ -1,0 +1,25 @@
+{
+  "id": "real-112",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "nvim-treesitter/nvim-treesitter",
+  "commit": "5cb0114e6242625db56dd6440e945ed1ece10bc7",
+  "capturedAt": "2026-09-08T12:22:01.278Z",
+  "files": [
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "b1180d4c78e063f19e684ffa9808ac52917282f4f63af62a32baae3ba0502575",
+      "sizeBytes": 23196
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "sizeBytes": 11558
+    },
+    {
+      "path": "README.md",
+      "sha256": "15fc79d340863f18ae76e05b44d1de70e7c74e8e492924923e50dd624ca45780",
+      "sizeBytes": 7928
+    }
+  ]
+}

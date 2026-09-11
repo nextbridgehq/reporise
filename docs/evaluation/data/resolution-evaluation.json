@@ -1,0 +1,796 @@
+{
+  "milestone": "M9.1",
+  "title": "RepoRise M9.1 External Documentation Resolution Feasibility Benchmark",
+  "timestamp": "2026-09-09T11:22:23.665Z",
+  "git_head": "4855a1335af306d56f95dc760567219a787e9946",
+  "scoring_engine_sha": "v0.1.0",
+  "acceptance_gates": {
+    "gate_1_m8_immutability": "PASSED",
+    "gate_2_target_acquisition": "PASSED",
+    "gate_3_bounded_resolution": "PASSED",
+    "gate_4_absolute_determinism": "PASSED",
+    "gate_5_complete_provenance": "PASSED",
+    "gate_6_fail_closed_isolation": "PASSED",
+    "gate_7_zero_scoring_changes": "PASSED"
+  },
+  "corpus_summary": {
+    "total_repositories": 30,
+    "cohorts": {
+      "C1_EXTERNAL_DOCS": 10,
+      "C2_MONOREPO_WORKSPACES": 10,
+      "C3_SPARSE_REDIRECT": 10
+    }
+  },
+  "evidence_expansion": {
+    "content_bytes": {
+      "baseline": 2875,
+      "resolved": 6827,
+      "growth_pct": 137.5
+    },
+    "code_blocks": {
+      "baseline": 0,
+      "resolved": 32,
+      "growth_pct": 3200
+    },
+    "headings": {
+      "baseline": 30,
+      "resolved": 103,
+      "growth_pct": 243.3
+    },
+    "install_coverage": {
+      "baseline_count": 0,
+      "resolved_count": 22,
+      "baseline_pct": 0,
+      "resolved_pct": 73.3
+    },
+    "quickstart_coverage": {
+      "baseline_count": 4,
+      "resolved_count": 17,
+      "baseline_pct": 13.3,
+      "resolved_pct": 56.7
+    }
+  },
+  "cohort_breakdown": {
+    "C1_EXTERNAL_DOCS": {
+      "count": 10,
+      "targets_found": 10,
+      "external_found": 10,
+      "local_found": 0
+    },
+    "C2_MONOREPO_WORKSPACES": {
+      "count": 10,
+      "targets_found": 22,
+      "workspace_found": 12,
+      "local_found": 10
+    },
+    "C3_SPARSE_REDIRECT": {
+      "count": 10,
+      "targets_found": 14,
+      "external_found": 7,
+      "local_found": 5,
+      "workspace_found": 2
+    }
+  },
+  "fixtures": [
+    {
+      "fixture_id": "m9-001",
+      "repository": "sqlalchemy/sqlalchemy",
+      "cohort": "C1_EXTERNAL_DOCS",
+      "doc_strategy": "external_readthedocs",
+      "targets_discovered": 2,
+      "targets_resolved": 1,
+      "baseline": {
+        "bytes": 203,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false
+      },
+      "resolved": {
+        "total_nodes": 3,
+        "total_bytes": 478,
+        "total_headings": 5,
+        "total_code_blocks": 2,
+        "has_install": true,
+        "has_quickstart": true,
+        "expansion_ratio": 2.35
+      }
+    },
+    {
+      "fixture_id": "m9-002",
+      "repository": "celery/celery",
+      "cohort": "C1_EXTERNAL_DOCS",
+      "doc_strategy": "external_custom_domain",
+      "targets_discovered": 2,
+      "targets_resolved": 1,
+      "baseline": {
+        "bytes": 150,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": true
+      },
+      "resolved": {
+        "total_nodes": 3,
+        "total_bytes": 279,
+        "total_headings": 4,
+        "total_code_blocks": 1,
+        "has_install": true,
+        "has_quickstart": true,
+        "expansion_ratio": 1.86
+      }
+    },
+    {
+      "fixture_id": "m9-003",
+      "repository": "expressjs/express",
+      "cohort": "C1_EXTERNAL_DOCS",
+      "doc_strategy": "external_custom_domain",
+      "targets_discovered": 0,
+      "targets_resolved": 0,
+      "baseline": {
+        "bytes": 164,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": true
+      },
+      "resolved": {
+        "total_nodes": 1,
+        "total_bytes": 164,
+        "total_headings": 1,
+        "total_code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": true,
+        "expansion_ratio": 1
+      }
+    },
+    {
+      "fixture_id": "m9-004",
+      "repository": "pandas-dev/pandas",
+      "cohort": "C1_EXTERNAL_DOCS",
+      "doc_strategy": "external_pydata",
+      "targets_discovered": 1,
+      "targets_resolved": 1,
+      "baseline": {
+        "bytes": 135,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false
+      },
+      "resolved": {
+        "total_nodes": 2,
+        "total_bytes": 262,
+        "total_headings": 4,
+        "total_code_blocks": 1,
+        "has_install": true,
+        "has_quickstart": true,
+        "expansion_ratio": 1.94
+      }
+    },
+    {
+      "fixture_id": "m9-005",
+      "repository": "django/django",
+      "cohort": "C1_EXTERNAL_DOCS",
+      "doc_strategy": "external_djangoproject",
+      "targets_discovered": 1,
+      "targets_resolved": 1,
+      "baseline": {
+        "bytes": 96,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false
+      },
+      "resolved": {
+        "total_nodes": 2,
+        "total_bytes": 246,
+        "total_headings": 4,
+        "total_code_blocks": 1,
+        "has_install": true,
+        "has_quickstart": false,
+        "expansion_ratio": 2.56
+      }
+    },
+    {
+      "fixture_id": "m9-006",
+      "repository": "pytorch/pytorch",
+      "cohort": "C1_EXTERNAL_DOCS",
+      "doc_strategy": "external_pytorch_org",
+      "targets_discovered": 1,
+      "targets_resolved": 1,
+      "baseline": {
+        "bytes": 89,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false
+      },
+      "resolved": {
+        "total_nodes": 2,
+        "total_bytes": 229,
+        "total_headings": 4,
+        "total_code_blocks": 1,
+        "has_install": true,
+        "has_quickstart": false,
+        "expansion_ratio": 2.57
+      }
+    },
+    {
+      "fixture_id": "m9-007",
+      "repository": "ray-project/ray",
+      "cohort": "C1_EXTERNAL_DOCS",
+      "doc_strategy": "external_readthedocs",
+      "targets_discovered": 2,
+      "targets_resolved": 1,
+      "baseline": {
+        "bytes": 69,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false
+      },
+      "resolved": {
+        "total_nodes": 3,
+        "total_bytes": 193,
+        "total_headings": 4,
+        "total_code_blocks": 1,
+        "has_install": true,
+        "has_quickstart": false,
+        "expansion_ratio": 2.8
+      }
+    },
+    {
+      "fixture_id": "m9-008",
+      "repository": "pallets/flask",
+      "cohort": "C1_EXTERNAL_DOCS",
+      "doc_strategy": "external_palletsprojects",
+      "targets_discovered": 0,
+      "targets_resolved": 0,
+      "baseline": {
+        "bytes": 91,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false
+      },
+      "resolved": {
+        "total_nodes": 1,
+        "total_bytes": 91,
+        "total_headings": 1,
+        "total_code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false,
+        "expansion_ratio": 1
+      }
+    },
+    {
+      "fixture_id": "m9-009",
+      "repository": "k3s-io/k3s",
+      "cohort": "C1_EXTERNAL_DOCS",
+      "doc_strategy": "external_custom_docs",
+      "targets_discovered": 1,
+      "targets_resolved": 1,
+      "baseline": {
+        "bytes": 104,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false
+      },
+      "resolved": {
+        "total_nodes": 2,
+        "total_bytes": 251,
+        "total_headings": 4,
+        "total_code_blocks": 1,
+        "has_install": false,
+        "has_quickstart": true,
+        "expansion_ratio": 2.41
+      }
+    },
+    {
+      "fixture_id": "m9-010",
+      "repository": "fastapi/fastapi",
+      "cohort": "C1_EXTERNAL_DOCS",
+      "doc_strategy": "external_tiangolo",
+      "targets_discovered": 0,
+      "targets_resolved": 0,
+      "baseline": {
+        "bytes": 90,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": true
+      },
+      "resolved": {
+        "total_nodes": 1,
+        "total_bytes": 90,
+        "total_headings": 1,
+        "total_code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": true,
+        "expansion_ratio": 1
+      }
+    },
+    {
+      "fixture_id": "m9-011",
+      "repository": "babel/babel",
+      "cohort": "C2_MONOREPO_WORKSPACES",
+      "doc_strategy": "workspace_packages",
+      "targets_discovered": 3,
+      "targets_resolved": 3,
+      "baseline": {
+        "bytes": 108,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false
+      },
+      "resolved": {
+        "total_nodes": 4,
+        "total_bytes": 352,
+        "total_headings": 4,
+        "total_code_blocks": 2,
+        "has_install": true,
+        "has_quickstart": false,
+        "expansion_ratio": 3.26
+      }
+    },
+    {
+      "fixture_id": "m9-012",
+      "repository": "vercel/turborepo",
+      "cohort": "C2_MONOREPO_WORKSPACES",
+      "doc_strategy": "workspace_packages",
+      "targets_discovered": 2,
+      "targets_resolved": 2,
+      "baseline": {
+        "bytes": 68,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false
+      },
+      "resolved": {
+        "total_nodes": 3,
+        "total_bytes": 204,
+        "total_headings": 3,
+        "total_code_blocks": 1,
+        "has_install": true,
+        "has_quickstart": true,
+        "expansion_ratio": 3
+      }
+    },
+    {
+      "fixture_id": "m9-013",
+      "repository": "jestjs/jest",
+      "cohort": "C2_MONOREPO_WORKSPACES",
+      "doc_strategy": "workspace_packages",
+      "targets_discovered": 2,
+      "targets_resolved": 2,
+      "baseline": {
+        "bytes": 75,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false
+      },
+      "resolved": {
+        "total_nodes": 3,
+        "total_bytes": 211,
+        "total_headings": 3,
+        "total_code_blocks": 1,
+        "has_install": true,
+        "has_quickstart": true,
+        "expansion_ratio": 2.81
+      }
+    },
+    {
+      "fixture_id": "m9-014",
+      "repository": "trpc/trpc",
+      "cohort": "C2_MONOREPO_WORKSPACES",
+      "doc_strategy": "workspace_packages",
+      "targets_discovered": 3,
+      "targets_resolved": 3,
+      "baseline": {
+        "bytes": 43,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false
+      },
+      "resolved": {
+        "total_nodes": 4,
+        "total_bytes": 235,
+        "total_headings": 4,
+        "total_code_blocks": 2,
+        "has_install": true,
+        "has_quickstart": true,
+        "expansion_ratio": 5.47
+      }
+    },
+    {
+      "fixture_id": "m9-015",
+      "repository": "storybookjs/storybook",
+      "cohort": "C2_MONOREPO_WORKSPACES",
+      "doc_strategy": "workspace_packages",
+      "targets_discovered": 2,
+      "targets_resolved": 2,
+      "baseline": {
+        "bytes": 63,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false
+      },
+      "resolved": {
+        "total_nodes": 3,
+        "total_bytes": 190,
+        "total_headings": 3,
+        "total_code_blocks": 1,
+        "has_install": true,
+        "has_quickstart": false,
+        "expansion_ratio": 3.02
+      }
+    },
+    {
+      "fixture_id": "m9-016",
+      "repository": "lerna/lerna",
+      "cohort": "C2_MONOREPO_WORKSPACES",
+      "doc_strategy": "workspace_packages",
+      "targets_discovered": 2,
+      "targets_resolved": 2,
+      "baseline": {
+        "bytes": 72,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false
+      },
+      "resolved": {
+        "total_nodes": 3,
+        "total_bytes": 205,
+        "total_headings": 3,
+        "total_code_blocks": 1,
+        "has_install": true,
+        "has_quickstart": true,
+        "expansion_ratio": 2.85
+      }
+    },
+    {
+      "fixture_id": "m9-017",
+      "repository": "nrwl/nx",
+      "cohort": "C2_MONOREPO_WORKSPACES",
+      "doc_strategy": "workspace_packages",
+      "targets_discovered": 2,
+      "targets_resolved": 2,
+      "baseline": {
+        "bytes": 31,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false
+      },
+      "resolved": {
+        "total_nodes": 3,
+        "total_bytes": 121,
+        "total_headings": 3,
+        "total_code_blocks": 1,
+        "has_install": true,
+        "has_quickstart": false,
+        "expansion_ratio": 3.9
+      }
+    },
+    {
+      "fixture_id": "m9-018",
+      "repository": "pnpm/pnpm",
+      "cohort": "C2_MONOREPO_WORKSPACES",
+      "doc_strategy": "workspace_packages",
+      "targets_discovered": 2,
+      "targets_resolved": 2,
+      "baseline": {
+        "bytes": 51,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false
+      },
+      "resolved": {
+        "total_nodes": 3,
+        "total_bytes": 145,
+        "total_headings": 3,
+        "total_code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false,
+        "expansion_ratio": 2.84
+      }
+    },
+    {
+      "fixture_id": "m9-019",
+      "repository": "remix-run/remix",
+      "cohort": "C2_MONOREPO_WORKSPACES",
+      "doc_strategy": "workspace_packages",
+      "targets_discovered": 2,
+      "targets_resolved": 2,
+      "baseline": {
+        "bytes": 34,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false
+      },
+      "resolved": {
+        "total_nodes": 3,
+        "total_bytes": 189,
+        "total_headings": 3,
+        "total_code_blocks": 1,
+        "has_install": true,
+        "has_quickstart": false,
+        "expansion_ratio": 5.56
+      }
+    },
+    {
+      "fixture_id": "m9-020",
+      "repository": "vitest-dev/vitest",
+      "cohort": "C2_MONOREPO_WORKSPACES",
+      "doc_strategy": "workspace_packages",
+      "targets_discovered": 2,
+      "targets_resolved": 2,
+      "baseline": {
+        "bytes": 39,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false
+      },
+      "resolved": {
+        "total_nodes": 3,
+        "total_bytes": 139,
+        "total_headings": 3,
+        "total_code_blocks": 1,
+        "has_install": true,
+        "has_quickstart": false,
+        "expansion_ratio": 3.56
+      }
+    },
+    {
+      "fixture_id": "m9-021",
+      "repository": "vuejs/core",
+      "cohort": "C3_SPARSE_REDIRECT",
+      "doc_strategy": "sparse_root_with_docs",
+      "targets_discovered": 2,
+      "targets_resolved": 2,
+      "baseline": {
+        "bytes": 149,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": true
+      },
+      "resolved": {
+        "total_nodes": 3,
+        "total_bytes": 343,
+        "total_headings": 5,
+        "total_code_blocks": 1,
+        "has_install": false,
+        "has_quickstart": true,
+        "expansion_ratio": 2.3
+      }
+    },
+    {
+      "fixture_id": "m9-022",
+      "repository": "tailwindlabs/tailwindcss",
+      "cohort": "C3_SPARSE_REDIRECT",
+      "doc_strategy": "sparse_root_external",
+      "targets_discovered": 1,
+      "targets_resolved": 1,
+      "baseline": {
+        "bytes": 120,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false
+      },
+      "resolved": {
+        "total_nodes": 2,
+        "total_bytes": 270,
+        "total_headings": 4,
+        "total_code_blocks": 1,
+        "has_install": true,
+        "has_quickstart": false,
+        "expansion_ratio": 2.25
+      }
+    },
+    {
+      "fixture_id": "m9-023",
+      "repository": "denoland/deno",
+      "cohort": "C3_SPARSE_REDIRECT",
+      "doc_strategy": "sparse_root_external",
+      "targets_discovered": 1,
+      "targets_resolved": 1,
+      "baseline": {
+        "bytes": 128,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false
+      },
+      "resolved": {
+        "total_nodes": 2,
+        "total_bytes": 299,
+        "total_headings": 4,
+        "total_code_blocks": 2,
+        "has_install": false,
+        "has_quickstart": true,
+        "expansion_ratio": 2.34
+      }
+    },
+    {
+      "fixture_id": "m9-024",
+      "repository": "grafana/grafana",
+      "cohort": "C3_SPARSE_REDIRECT",
+      "doc_strategy": "sparse_root_with_docs",
+      "targets_discovered": 1,
+      "targets_resolved": 1,
+      "baseline": {
+        "bytes": 104,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false
+      },
+      "resolved": {
+        "total_nodes": 2,
+        "total_bytes": 203,
+        "total_headings": 3,
+        "total_code_blocks": 1,
+        "has_install": true,
+        "has_quickstart": true,
+        "expansion_ratio": 1.95
+      }
+    },
+    {
+      "fixture_id": "m9-025",
+      "repository": "astral-sh/uv",
+      "cohort": "C3_SPARSE_REDIRECT",
+      "doc_strategy": "sparse_root_external",
+      "targets_discovered": 2,
+      "targets_resolved": 2,
+      "baseline": {
+        "bytes": 121,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false
+      },
+      "resolved": {
+        "total_nodes": 3,
+        "total_bytes": 314,
+        "total_headings": 5,
+        "total_code_blocks": 2,
+        "has_install": true,
+        "has_quickstart": true,
+        "expansion_ratio": 2.6
+      }
+    },
+    {
+      "fixture_id": "m9-026",
+      "repository": "facebook/docusaurus",
+      "cohort": "C3_SPARSE_REDIRECT",
+      "doc_strategy": "workspace_and_docs",
+      "targets_discovered": 2,
+      "targets_resolved": 2,
+      "baseline": {
+        "bytes": 66,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false
+      },
+      "resolved": {
+        "total_nodes": 3,
+        "total_bytes": 202,
+        "total_headings": 3,
+        "total_code_blocks": 1,
+        "has_install": true,
+        "has_quickstart": false,
+        "expansion_ratio": 3.06
+      }
+    },
+    {
+      "fixture_id": "m9-027",
+      "repository": "shadcn-ui/ui",
+      "cohort": "C3_SPARSE_REDIRECT",
+      "doc_strategy": "sparse_root_external",
+      "targets_discovered": 1,
+      "targets_resolved": 1,
+      "baseline": {
+        "bytes": 105,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false
+      },
+      "resolved": {
+        "total_nodes": 2,
+        "total_bytes": 223,
+        "total_headings": 4,
+        "total_code_blocks": 1,
+        "has_install": false,
+        "has_quickstart": true,
+        "expansion_ratio": 2.12
+      }
+    },
+    {
+      "fixture_id": "m9-028",
+      "repository": "directus/directus",
+      "cohort": "C3_SPARSE_REDIRECT",
+      "doc_strategy": "workspace_and_docs",
+      "targets_discovered": 2,
+      "targets_resolved": 2,
+      "baseline": {
+        "bytes": 43,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false
+      },
+      "resolved": {
+        "total_nodes": 3,
+        "total_bytes": 162,
+        "total_headings": 3,
+        "total_code_blocks": 1,
+        "has_install": true,
+        "has_quickstart": false,
+        "expansion_ratio": 3.77
+      }
+    },
+    {
+      "fixture_id": "m9-029",
+      "repository": "langchain-ai/langchain",
+      "cohort": "C3_SPARSE_REDIRECT",
+      "doc_strategy": "sparse_root_external",
+      "targets_discovered": 1,
+      "targets_resolved": 1,
+      "baseline": {
+        "bytes": 147,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false
+      },
+      "resolved": {
+        "total_nodes": 2,
+        "total_bytes": 293,
+        "total_headings": 4,
+        "total_code_blocks": 2,
+        "has_install": true,
+        "has_quickstart": true,
+        "expansion_ratio": 1.99
+      }
+    },
+    {
+      "fixture_id": "m9-030",
+      "repository": "electron/electron",
+      "cohort": "C3_SPARSE_REDIRECT",
+      "doc_strategy": "nested_docs_hierarchy",
+      "targets_discovered": 1,
+      "targets_resolved": 1,
+      "baseline": {
+        "bytes": 117,
+        "headings": 1,
+        "code_blocks": 0,
+        "has_install": false,
+        "has_quickstart": false
+      },
+      "resolved": {
+        "total_nodes": 2,
+        "total_bytes": 244,
+        "total_headings": 4,
+        "total_code_blocks": 1,
+        "has_install": true,
+        "has_quickstart": true,
+        "expansion_ratio": 2.09
+      }
+    }
+  ]
+}

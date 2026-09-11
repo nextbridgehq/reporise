@@ -1,0 +1,30 @@
+{
+  "id": "real-049",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "resend/resend-node",
+  "commit": "c61cccae2999d50d2aca9ce5fd1064f3bb855219",
+  "capturedAt": "2026-09-08T11:56:46.925Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "05ac1f65ca2303ec972f1d431263bdc8557d774ecb216e379193dc20afe42106",
+      "sizeBytes": 577
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "051ee79c728b0cb881f5276e9dab8289f385937039914d6c242f7997c1fb237f",
+      "sizeBytes": 1096
+    },
+    {
+      "path": "package.json",
+      "sha256": "559e0f3cc1b4cce6a5e5d8a698b92fdc40253f324cebebb1715700a0ac18380a",
+      "sizeBytes": 2353
+    },
+    {
+      "path": "readme.md",
+      "sha256": "f19285c32efe1d23f2d60f8f8e4f435db68d1f1e6c3c9fc5cd55a3b423c7edf6",
+      "sizeBytes": 3707
+    }
+  ]
+}

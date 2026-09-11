@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use RepoRise in research or benchmarking, please cite it as below."
+title: "RepoRise: Measuring and Optimizing Repository Retrieval Across SEO, AEO, and GEO"
+version: 0.1.0
+date-released: 2026-09-10
+url: "https://github.com/nextbridgehq/reporise"
+repository-code: "https://github.com/nextbridgehq/reporise"
+license: MIT
+authors:
+  - name: "Nextbridge"
+    website: "https://github.com/nextbridgehq"
+keywords:
+  - "repository-visibility"
+  - "generative-engine-optimization"
+  - "answer-engine-optimization"
+  - "search-engine-optimization"
+  - "llm-citations"

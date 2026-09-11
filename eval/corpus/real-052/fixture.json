@@ -1,0 +1,60 @@
+{
+  "id": "real-052",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "twilio/twilio-python",
+  "commit": "306691e793f417b6974640d1ef88785e9de03b2a",
+  "capturedAt": "2026-09-08T11:57:08.707Z",
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "9bbab2e93c908848a1d7bc35ecfe6ad305bdae3957fe1797058f3b0698bf94df",
+      "sizeBytes": 3324
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "154ccdfff8ddbb225d1c146f56477f4cd8d987b00bb57a0cc21db132abaa889e",
+      "sizeBytes": 6106
+    },
+    {
+      "path": "docs/conf.py",
+      "sha256": "08580c185182edd40f0c82e20b500f52afd53ba4e646a3e81d7d1bfe2cd41cd4",
+      "sizeBytes": 5985
+    },
+    {
+      "path": "docs/source/_templates/sidebarintro.html",
+      "sha256": "da69c132819d7c4875e60f138b6e6f4c9ec93bac2d6dfc3746639a32e8d56fb6",
+      "sizeBytes": 386
+    },
+    {
+      "path": "examples/basic_usage.py",
+      "sha256": "f785001b3aaa496e36630d7cebaea9bbb9ed4d525eb353fe4d2f9d6e9e948f73",
+      "sizeBytes": 1370
+    },
+    {
+      "path": "examples/client_validation.py",
+      "sha256": "c231a504b2eaf0b10d0074a827e9f2195904123b85b8c0c9e83cde98d989f6eb",
+      "sizeBytes": 2390
+    },
+    {
+      "path": "examples/organization_api.py",
+      "sha256": "20058a250c4dd57116bf4bce03d4e9bdb63d0533d869fa4bc10ae0fdc2e8e3f1",
+      "sizeBytes": 856
+    },
+    {
+      "path": "examples/public_oauth.py",
+      "sha256": "a3ff032853146912ca0a450e52afd7b8c2bb0f1a29c4edb94b624415d6ac6bf8",
+      "sizeBytes": 680
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "fc18bbf11a77124f608d1aad49068731ac2eba5571038c6bd0c582574eda1201",
+      "sizeBytes": 1129
+    },
+    {
+      "path": "README.md",
+      "sha256": "f5abe747adb1586dd4a5c88e56b41e0b76cf49b81f032072214dd39eab0872fa",
+      "sizeBytes": 12394
+    }
+  ]
+}

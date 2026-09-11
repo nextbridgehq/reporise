@@ -1,0 +1,5045 @@
+{
+  "milestone": "M8.7",
+  "title": "RepoRise M8.7 Hidden Generalization & Human-Gold Evaluation",
+  "execution_timestamp": "2026-09-09T11:17:25.517Z",
+  "frozen_engine": {
+    "git_commit": "9cff5b5fd8c40e01fa9a1477b03d6e303983c731",
+    "git_branch": "research/m8-corpus",
+    "version": "0.2.0-m8.6-frozen",
+    "tag": "m8.6-consolidated"
+  },
+  "protocol": {
+    "zero_mutation": true,
+    "single_pass": true,
+    "test_repositories_count": 24,
+    "human_gold_eval_count": 15,
+    "resamples": 10000
+  },
+  "split_evaluation": {
+    "train": {
+      "count": 72,
+      "baseline": {
+        "overall": {
+          "n": 72,
+          "mae": 0.7083,
+          "me": 0.2361,
+          "exactPct": 38.9,
+          "withinOnePct": 90.3
+        },
+        "seo": {
+          "n": 72,
+          "mae": 0.8472,
+          "me": 0.2639,
+          "exactPct": 34.7,
+          "withinOnePct": 83.3
+        },
+        "aeo": {
+          "n": 72,
+          "mae": 0.6389,
+          "me": 0.3333,
+          "exactPct": 45.8,
+          "withinOnePct": 90.3
+        },
+        "geo": {
+          "n": 72,
+          "mae": 0.9722,
+          "me": 0.4444,
+          "exactPct": 29.2,
+          "withinOnePct": 73.6
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 72,
+          "mae": 0.6528,
+          "me": 0.0417,
+          "exactPct": 40.3,
+          "withinOnePct": 94.4
+        },
+        "seo": {
+          "n": 72,
+          "mae": 0.8333,
+          "me": 0.1944,
+          "exactPct": 31.9,
+          "withinOnePct": 87.5
+        },
+        "aeo": {
+          "n": 72,
+          "mae": 0.5556,
+          "me": 0.2778,
+          "exactPct": 54.2,
+          "withinOnePct": 90.3
+        },
+        "geo": {
+          "n": 72,
+          "mae": 0.5278,
+          "me": 0,
+          "exactPct": 51.4,
+          "withinOnePct": 95.8
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": -0.0555,
+          "pctMae": -7.84,
+          "deltaMe": -0.1944,
+          "deltaExact": 1.4,
+          "deltaWithin1": 4.1
+        },
+        "seo": {
+          "deltaMae": -0.0139,
+          "pctMae": -1.64,
+          "deltaMe": -0.0695,
+          "deltaExact": -2.8,
+          "deltaWithin1": 4.2
+        },
+        "aeo": {
+          "deltaMae": -0.0833,
+          "pctMae": -13.04,
+          "deltaMe": -0.0555,
+          "deltaExact": 8.4,
+          "deltaWithin1": 0
+        },
+        "geo": {
+          "deltaMae": -0.4444,
+          "pctMae": -45.71,
+          "deltaMe": -0.4444,
+          "deltaExact": 22.2,
+          "deltaWithin1": 22.2
+        }
+      }
+    },
+    "validation": {
+      "count": 24,
+      "baseline": {
+        "overall": {
+          "n": 24,
+          "mae": 0.7917,
+          "me": 0.2917,
+          "exactPct": 37.5,
+          "withinOnePct": 83.3
+        },
+        "seo": {
+          "n": 24,
+          "mae": 0.875,
+          "me": 0.2083,
+          "exactPct": 37.5,
+          "withinOnePct": 79.2
+        },
+        "aeo": {
+          "n": 24,
+          "mae": 0.6667,
+          "me": 0.5833,
+          "exactPct": 54.2,
+          "withinOnePct": 79.2
+        },
+        "geo": {
+          "n": 24,
+          "mae": 0.9167,
+          "me": 0.5,
+          "exactPct": 37.5,
+          "withinOnePct": 75
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 24,
+          "mae": 0.5,
+          "me": -0.0833,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 24,
+          "mae": 0.7917,
+          "me": 0.125,
+          "exactPct": 37.5,
+          "withinOnePct": 87.5
+        },
+        "aeo": {
+          "n": 24,
+          "mae": 0.625,
+          "me": 0.4583,
+          "exactPct": 54.2,
+          "withinOnePct": 83.3
+        },
+        "geo": {
+          "n": 24,
+          "mae": 0.4167,
+          "me": 0,
+          "exactPct": 58.3,
+          "withinOnePct": 100
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": -0.2917,
+          "pctMae": -36.84,
+          "deltaMe": -0.375,
+          "deltaExact": 12.5,
+          "deltaWithin1": 16.7
+        },
+        "seo": {
+          "deltaMae": -0.0833,
+          "pctMae": -9.52,
+          "deltaMe": -0.0833,
+          "deltaExact": 0,
+          "deltaWithin1": 8.3
+        },
+        "aeo": {
+          "deltaMae": -0.0417,
+          "pctMae": -6.25,
+          "deltaMe": -0.125,
+          "deltaExact": 0,
+          "deltaWithin1": 4.1
+        },
+        "geo": {
+          "deltaMae": -0.5,
+          "pctMae": -54.54,
+          "deltaMe": -0.5,
+          "deltaExact": 20.8,
+          "deltaWithin1": 25
+        }
+      }
+    },
+    "test": {
+      "count": 24,
+      "baseline": {
+        "overall": {
+          "n": 24,
+          "mae": 0.5,
+          "me": 0.25,
+          "exactPct": 58.3,
+          "withinOnePct": 91.7
+        },
+        "seo": {
+          "n": 24,
+          "mae": 0.9583,
+          "me": 0.2083,
+          "exactPct": 33.3,
+          "withinOnePct": 75
+        },
+        "aeo": {
+          "n": 24,
+          "mae": 0.625,
+          "me": 0.125,
+          "exactPct": 41.7,
+          "withinOnePct": 95.8
+        },
+        "geo": {
+          "n": 24,
+          "mae": 1.125,
+          "me": 0.7083,
+          "exactPct": 29.2,
+          "withinOnePct": 58.3
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 24,
+          "mae": 0.5,
+          "me": 0.0833,
+          "exactPct": 58.3,
+          "withinOnePct": 91.7
+        },
+        "seo": {
+          "n": 24,
+          "mae": 0.9583,
+          "me": 0.125,
+          "exactPct": 29.2,
+          "withinOnePct": 79.2
+        },
+        "aeo": {
+          "n": 24,
+          "mae": 0.7083,
+          "me": 0.0417,
+          "exactPct": 33.3,
+          "withinOnePct": 95.8
+        },
+        "geo": {
+          "n": 24,
+          "mae": 0.375,
+          "me": -0.0417,
+          "exactPct": 66.7,
+          "withinOnePct": 95.8
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": 0,
+          "pctMae": 0,
+          "deltaMe": -0.1667,
+          "deltaExact": 0,
+          "deltaWithin1": 0
+        },
+        "seo": {
+          "deltaMae": 0,
+          "pctMae": 0,
+          "deltaMe": -0.0833,
+          "deltaExact": -4.1,
+          "deltaWithin1": 4.2
+        },
+        "aeo": {
+          "deltaMae": 0.0833,
+          "pctMae": 13.33,
+          "deltaMe": -0.0833,
+          "deltaExact": -8.4,
+          "deltaWithin1": 0
+        },
+        "geo": {
+          "deltaMae": -0.75,
+          "pctMae": -66.67,
+          "deltaMe": -0.75,
+          "deltaExact": 37.5,
+          "deltaWithin1": 37.5
+        }
+      }
+    },
+    "all": {
+      "count": 120,
+      "baseline": {
+        "overall": {
+          "n": 120,
+          "mae": 0.6833,
+          "me": 0.25,
+          "exactPct": 42.5,
+          "withinOnePct": 89.2
+        },
+        "seo": {
+          "n": 120,
+          "mae": 0.875,
+          "me": 0.2417,
+          "exactPct": 35,
+          "withinOnePct": 80.8
+        },
+        "aeo": {
+          "n": 120,
+          "mae": 0.6417,
+          "me": 0.3417,
+          "exactPct": 46.7,
+          "withinOnePct": 89.2
+        },
+        "geo": {
+          "n": 120,
+          "mae": 0.9917,
+          "me": 0.5083,
+          "exactPct": 30.8,
+          "withinOnePct": 70.8
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 120,
+          "mae": 0.5917,
+          "me": 0.025,
+          "exactPct": 45.8,
+          "withinOnePct": 95
+        },
+        "seo": {
+          "n": 120,
+          "mae": 0.85,
+          "me": 0.1667,
+          "exactPct": 32.5,
+          "withinOnePct": 85.8
+        },
+        "aeo": {
+          "n": 120,
+          "mae": 0.6,
+          "me": 0.2667,
+          "exactPct": 50,
+          "withinOnePct": 90
+        },
+        "geo": {
+          "n": 120,
+          "mae": 0.475,
+          "me": -0.0083,
+          "exactPct": 55.8,
+          "withinOnePct": 96.7
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": -0.0916,
+          "pctMae": -13.41,
+          "deltaMe": -0.225,
+          "deltaExact": 3.3,
+          "deltaWithin1": 5.8
+        },
+        "seo": {
+          "deltaMae": -0.025,
+          "pctMae": -2.86,
+          "deltaMe": -0.075,
+          "deltaExact": -2.5,
+          "deltaWithin1": 5
+        },
+        "aeo": {
+          "deltaMae": -0.0417,
+          "pctMae": -6.5,
+          "deltaMe": -0.075,
+          "deltaExact": 3.3,
+          "deltaWithin1": 0.8
+        },
+        "geo": {
+          "deltaMae": -0.5167,
+          "pctMae": -52.1,
+          "deltaMe": -0.5166,
+          "deltaExact": 25,
+          "deltaWithin1": 25.9
+        }
+      }
+    }
+  },
+  "gold_evaluation": {
+    "untouched_evaluation_n15": {
+      "count": 15,
+      "baseline": {
+        "overall": {
+          "n": 15,
+          "mae": 0.8,
+          "me": -0.1333,
+          "exactPct": 33.3,
+          "withinOnePct": 86.7
+        },
+        "seo": {
+          "n": 15,
+          "mae": 0.6667,
+          "me": -0.1333,
+          "exactPct": 40,
+          "withinOnePct": 93.3
+        },
+        "aeo": {
+          "n": 15,
+          "mae": 0.5333,
+          "me": 0.1333,
+          "exactPct": 53.3,
+          "withinOnePct": 93.3
+        },
+        "geo": {
+          "n": 15,
+          "mae": 0.5333,
+          "me": 0.1333,
+          "exactPct": 53.3,
+          "withinOnePct": 93.3
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 15,
+          "mae": 0.6667,
+          "me": -0.2667,
+          "exactPct": 40,
+          "withinOnePct": 93.3
+        },
+        "seo": {
+          "n": 15,
+          "mae": 0.6,
+          "me": -0.0667,
+          "exactPct": 40,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 15,
+          "mae": 0.4,
+          "me": 0.1333,
+          "exactPct": 60,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 15,
+          "mae": 0.3333,
+          "me": -0.0667,
+          "exactPct": 66.7,
+          "withinOnePct": 100
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": -0.1333,
+          "pctMae": -16.66,
+          "deltaMe": -0.1334,
+          "deltaExact": 6.7,
+          "deltaWithin1": 6.6
+        },
+        "seo": {
+          "deltaMae": -0.0667,
+          "pctMae": -10,
+          "deltaMe": 0.0666,
+          "deltaExact": 0,
+          "deltaWithin1": 6.7
+        },
+        "aeo": {
+          "deltaMae": -0.1333,
+          "pctMae": -25,
+          "deltaMe": 0,
+          "deltaExact": 6.7,
+          "deltaWithin1": 6.7
+        },
+        "geo": {
+          "deltaMae": -0.2,
+          "pctMae": -37.5,
+          "deltaMe": -0.2,
+          "deltaExact": 13.4,
+          "deltaWithin1": 6.7
+        }
+      }
+    },
+    "calibration_n10": {
+      "count": 10,
+      "baseline": {
+        "overall": {
+          "n": 10,
+          "mae": 0.7,
+          "me": 0.3,
+          "exactPct": 50,
+          "withinOnePct": 80
+        },
+        "seo": {
+          "n": 10,
+          "mae": 0.9,
+          "me": 0.3,
+          "exactPct": 40,
+          "withinOnePct": 80
+        },
+        "aeo": {
+          "n": 10,
+          "mae": 0.5,
+          "me": 0.3,
+          "exactPct": 60,
+          "withinOnePct": 90
+        },
+        "geo": {
+          "n": 10,
+          "mae": 1.1,
+          "me": 0.7,
+          "exactPct": 20,
+          "withinOnePct": 70
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 10,
+          "mae": 0.5,
+          "me": -0.1,
+          "exactPct": 60,
+          "withinOnePct": 90
+        },
+        "seo": {
+          "n": 10,
+          "mae": 0.6,
+          "me": 0.2,
+          "exactPct": 60,
+          "withinOnePct": 90
+        },
+        "aeo": {
+          "n": 10,
+          "mae": 0.4,
+          "me": 0.2,
+          "exactPct": 60,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 10,
+          "mae": 0.5,
+          "me": 0.1,
+          "exactPct": 50,
+          "withinOnePct": 100
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": -0.2,
+          "pctMae": -28.57,
+          "deltaMe": -0.4,
+          "deltaExact": 10,
+          "deltaWithin1": 10
+        },
+        "seo": {
+          "deltaMae": -0.3,
+          "pctMae": -33.33,
+          "deltaMe": -0.1,
+          "deltaExact": 20,
+          "deltaWithin1": 10
+        },
+        "aeo": {
+          "deltaMae": -0.1,
+          "pctMae": -20,
+          "deltaMe": -0.1,
+          "deltaExact": 0,
+          "deltaWithin1": 10
+        },
+        "geo": {
+          "deltaMae": -0.6,
+          "pctMae": -54.55,
+          "deltaMe": -0.6,
+          "deltaExact": 30,
+          "deltaWithin1": 30
+        }
+      }
+    },
+    "all_gold_n25": {
+      "count": 25,
+      "baseline": {
+        "overall": {
+          "n": 25,
+          "mae": 0.76,
+          "me": 0.04,
+          "exactPct": 40,
+          "withinOnePct": 84
+        },
+        "seo": {
+          "n": 25,
+          "mae": 0.76,
+          "me": 0.04,
+          "exactPct": 40,
+          "withinOnePct": 88
+        },
+        "aeo": {
+          "n": 25,
+          "mae": 0.52,
+          "me": 0.2,
+          "exactPct": 56,
+          "withinOnePct": 92
+        },
+        "geo": {
+          "n": 25,
+          "mae": 0.76,
+          "me": 0.36,
+          "exactPct": 40,
+          "withinOnePct": 84
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 25,
+          "mae": 0.6,
+          "me": -0.2,
+          "exactPct": 48,
+          "withinOnePct": 92
+        },
+        "seo": {
+          "n": 25,
+          "mae": 0.6,
+          "me": 0.04,
+          "exactPct": 48,
+          "withinOnePct": 96
+        },
+        "aeo": {
+          "n": 25,
+          "mae": 0.4,
+          "me": 0.16,
+          "exactPct": 60,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 25,
+          "mae": 0.4,
+          "me": 0,
+          "exactPct": 60,
+          "withinOnePct": 100
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": -0.16,
+          "pctMae": -21.05,
+          "deltaMe": -0.24,
+          "deltaExact": 8,
+          "deltaWithin1": 8
+        },
+        "seo": {
+          "deltaMae": -0.16,
+          "pctMae": -21.05,
+          "deltaMe": 0,
+          "deltaExact": 8,
+          "deltaWithin1": 8
+        },
+        "aeo": {
+          "deltaMae": -0.12,
+          "pctMae": -23.08,
+          "deltaMe": -0.04,
+          "deltaExact": 4,
+          "deltaWithin1": 8
+        },
+        "geo": {
+          "deltaMae": -0.36,
+          "pctMae": -47.37,
+          "deltaMe": -0.36,
+          "deltaExact": 20,
+          "deltaWithin1": 16
+        }
+      }
+    }
+  },
+  "bootstrap_uncertainty": {
+    "test_overall": {
+      "baseline": {
+        "estimate": 0.5,
+        "ci": [
+          0.25,
+          0.75
+        ],
+        "se": 0.1317
+      },
+      "frozen": {
+        "estimate": 0.5,
+        "ci": [
+          0.25,
+          0.75
+        ],
+        "se": 0.1317
+      },
+      "diff": {
+        "estimate": 0,
+        "ci": [
+          0,
+          0
+        ]
+      }
+    },
+    "test_geo": {
+      "baseline": {
+        "estimate": 1.125,
+        "ci": [
+          0.7917,
+          1.4583
+        ],
+        "se": 0.1722
+      },
+      "frozen": {
+        "estimate": 0.375,
+        "ci": [
+          0.1667,
+          0.625
+        ],
+        "se": 0.1152
+      },
+      "diff": {
+        "estimate": -0.75,
+        "ci": [
+          -1.1667,
+          -0.3333
+        ]
+      }
+    },
+    "test_aeo": {
+      "baseline": {
+        "estimate": 0.625,
+        "ci": [
+          0.4167,
+          0.8333
+        ],
+        "se": 0.1152
+      },
+      "frozen": {
+        "estimate": 0.7083,
+        "ci": [
+          0.5,
+          0.9167
+        ],
+        "se": 0.1103
+      },
+      "diff": {
+        "estimate": 0.0833,
+        "ci": [
+          0,
+          0.2083
+        ]
+      }
+    },
+    "test_seo": {
+      "baseline": {
+        "estimate": 0.9583,
+        "ci": [
+          0.625,
+          1.2917
+        ],
+        "se": 0.1723
+      },
+      "frozen": {
+        "estimate": 0.9583,
+        "ci": [
+          0.6667,
+          1.2917
+        ],
+        "se": 0.1612
+      },
+      "diff": {
+        "estimate": 0,
+        "ci": [
+          -0.125,
+          0.125
+        ]
+      }
+    },
+    "gold_eval_overall": {
+      "baseline": {
+        "estimate": 0.8,
+        "ci": [
+          0.4667,
+          1.1333
+        ],
+        "se": 0.1674
+      },
+      "frozen": {
+        "estimate": 0.6667,
+        "ci": [
+          0.4,
+          1
+        ],
+        "se": 0.1544
+      },
+      "diff": {
+        "estimate": -0.1333,
+        "ci": [
+          -0.4,
+          0
+        ]
+      }
+    },
+    "gold_eval_geo": {
+      "baseline": {
+        "estimate": 0.5333,
+        "ci": [
+          0.2667,
+          0.8667
+        ],
+        "se": 0.1607
+      },
+      "frozen": {
+        "estimate": 0.3333,
+        "ci": [
+          0.1333,
+          0.6
+        ],
+        "se": 0.1205
+      },
+      "diff": {
+        "estimate": -0.2,
+        "ci": [
+          -0.5333,
+          0
+        ]
+      }
+    },
+    "gold_eval_aeo": {
+      "baseline": {
+        "estimate": 0.5333,
+        "ci": [
+          0.2667,
+          0.8667
+        ],
+        "se": 0.1597
+      },
+      "frozen": {
+        "estimate": 0.4,
+        "ci": [
+          0.1333,
+          0.6667
+        ],
+        "se": 0.1269
+      },
+      "diff": {
+        "estimate": -0.1333,
+        "ci": [
+          -0.3333,
+          0
+        ]
+      }
+    },
+    "gold_eval_seo": {
+      "baseline": {
+        "estimate": 0.6667,
+        "ci": [
+          0.4,
+          1
+        ],
+        "se": 0.1537
+      },
+      "frozen": {
+        "estimate": 0.6,
+        "ci": [
+          0.3333,
+          0.8667
+        ],
+        "se": 0.125
+      },
+      "diff": {
+        "estimate": -0.0667,
+        "ci": [
+          -0.2,
+          0
+        ]
+      }
+    }
+  },
+  "taxonomy_shifts": {
+    "definitions": {
+      "F01": {
+        "code": "F01",
+        "name": "Missing semantic signal",
+        "category": "LEXICAL",
+        "description": "Documentation communicates concept with non-standard terminology missed by regex patterns"
+      },
+      "F02": {
+        "code": "F02",
+        "name": "False-positive semantic signal",
+        "category": "LEXICAL",
+        "description": "Superficial keyword match triggered without conveying substantive technical content"
+      },
+      "F03": {
+        "code": "F03",
+        "name": "Structural mismatch",
+        "category": "STRUCTURAL",
+        "description": "Section content positioned under unconventional heading level, badge container, or tab interface"
+      },
+      "F04": {
+        "code": "F04",
+        "name": "Evidence-quality mismatch",
+        "category": "WEIGHTING",
+        "description": "Basic evidence awarded high surface score where rater required formal diagrams/citations"
+      },
+      "F05": {
+        "code": "F05",
+        "name": "Granularity mismatch",
+        "category": "WEIGHTING",
+        "description": "Score bucketing threshold too coarse or sensitive near bucket boundary (e.g. 69 vs 70)"
+      },
+      "F06": {
+        "code": "F06",
+        "name": "Context/window limitation",
+        "category": "CONDITIONAL",
+        "description": "Signal presence valid only when combined with prerequisite domain context"
+      },
+      "F07": {
+        "code": "F07",
+        "name": "Cross-section reasoning failure",
+        "category": "COMPOSITIONAL",
+        "description": "Information split across separate sections requiring synthesis"
+      },
+      "F08": {
+        "code": "F08",
+        "name": "Documentation-architecture failure",
+        "category": "STRUCTURAL",
+        "description": "Crucial discoverability assets housed in external /docs/ or monorepo subpackages"
+      },
+      "F09": {
+        "code": "F09",
+        "name": "Comparative/evaluative failure",
+        "category": "COMPOSITIONAL",
+        "description": "Subtle differentiator vs competitor present in prose but missed by strict heuristics"
+      },
+      "F10": {
+        "code": "F10",
+        "name": "Unknown / unclassified",
+        "category": "MISSING-CAPABILITY",
+        "description": "Residual variance not captured by existing heuristic structural abstractions"
+      }
+    },
+    "test": {
+      "baseline": {
+        "F01": 6,
+        "F02": 3,
+        "F03": 10,
+        "F04": 19,
+        "F05": 12,
+        "F06": 0,
+        "F07": 0,
+        "F08": 4,
+        "F09": 2,
+        "F10": 1
+      },
+      "frozen": {
+        "F01": 6,
+        "F02": 3,
+        "F03": 10,
+        "F04": 10,
+        "F05": 12,
+        "F06": 0,
+        "F07": 0,
+        "F08": 7,
+        "F09": 2,
+        "F10": 1
+      },
+      "total_residuals_base": 57,
+      "total_residuals_frozen": 51,
+      "total_error_base": 77,
+      "total_error_frozen": 61,
+      "classified_base": [
+        {
+          "fixture_id": "real-026",
+          "repository": "eza-community/eza",
+          "archetype": "cli",
+          "surface": "seo",
+          "pred": 4,
+          "actual": 5,
+          "diff": -1,
+          "code": "F05",
+          "name": "Granularity mismatch"
+        },
+        {
+          "fixture_id": "real-026",
+          "repository": "eza-community/eza",
+          "archetype": "cli",
+          "surface": "aeo",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F01",
+          "name": "Missing semantic signal"
+        },
+        {
+          "fixture_id": "real-026",
+          "repository": "eza-community/eza",
+          "archetype": "cli",
+          "surface": "geo",
+          "pred": 3,
+          "actual": 1,
+          "diff": 2,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-027",
+          "repository": "astral-sh/uv",
+          "archetype": "cli",
+          "surface": "overall",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F03",
+          "name": "Structural mismatch"
+        },
+        {
+          "fixture_id": "real-027",
+          "repository": "astral-sh/uv",
+          "archetype": "cli",
+          "surface": "seo",
+          "pred": 3,
+          "actual": 5,
+          "diff": -2,
+          "code": "F09",
+          "name": "Comparative/evaluative failure"
+        },
+        {
+          "fixture_id": "real-027",
+          "repository": "astral-sh/uv",
+          "archetype": "cli",
+          "surface": "geo",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F03",
+          "name": "Structural mismatch"
+        },
+        {
+          "fixture_id": "real-034",
+          "repository": "sindresorhus/ky",
+          "archetype": "library",
+          "surface": "overall",
+          "pred": 4,
+          "actual": 5,
+          "diff": -1,
+          "code": "F05",
+          "name": "Granularity mismatch"
+        },
+        {
+          "fixture_id": "real-034",
+          "repository": "sindresorhus/ky",
+          "archetype": "library",
+          "surface": "aeo",
+          "pred": 4,
+          "actual": 5,
+          "diff": -1,
+          "code": "F01",
+          "name": "Missing semantic signal"
+        },
+        {
+          "fixture_id": "real-035",
+          "repository": "sqlalchemy/sqlalchemy",
+          "archetype": "library",
+          "surface": "overall",
+          "pred": 3,
+          "actual": 1,
+          "diff": 2,
+          "code": "F02",
+          "name": "False-positive semantic signal"
+        },
+        {
+          "fixture_id": "real-035",
+          "repository": "sqlalchemy/sqlalchemy",
+          "archetype": "library",
+          "surface": "seo",
+          "pred": 4,
+          "actual": 1,
+          "diff": 3,
+          "code": "F02",
+          "name": "False-positive semantic signal"
+        },
+        {
+          "fixture_id": "real-035",
+          "repository": "sqlalchemy/sqlalchemy",
+          "archetype": "library",
+          "surface": "aeo",
+          "pred": 4,
+          "actual": 2,
+          "diff": 2,
+          "code": "F02",
+          "name": "False-positive semantic signal"
+        },
+        {
+          "fixture_id": "real-035",
+          "repository": "sqlalchemy/sqlalchemy",
+          "archetype": "library",
+          "surface": "geo",
+          "pred": 3,
+          "actual": 1,
+          "diff": 2,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-040",
+          "repository": "nestjs/nest",
+          "archetype": "framework",
+          "surface": "seo",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F05",
+          "name": "Granularity mismatch"
+        },
+        {
+          "fixture_id": "real-040",
+          "repository": "nestjs/nest",
+          "archetype": "framework",
+          "surface": "aeo",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F01",
+          "name": "Missing semantic signal"
+        },
+        {
+          "fixture_id": "real-040",
+          "repository": "nestjs/nest",
+          "archetype": "framework",
+          "surface": "geo",
+          "pred": 3,
+          "actual": 1,
+          "diff": 2,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-041",
+          "repository": "gin-gonic/gin",
+          "archetype": "framework",
+          "surface": "geo",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F03",
+          "name": "Structural mismatch"
+        },
+        {
+          "fixture_id": "real-051",
+          "repository": "sendgrid/sendgrid-python",
+          "archetype": "sdk",
+          "surface": "seo",
+          "pred": 4,
+          "actual": 3,
+          "diff": 1,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-051",
+          "repository": "sendgrid/sendgrid-python",
+          "archetype": "sdk",
+          "surface": "aeo",
+          "pred": 5,
+          "actual": 4,
+          "diff": 1,
+          "code": "F03",
+          "name": "Structural mismatch"
+        },
+        {
+          "fixture_id": "real-052",
+          "repository": "twilio/twilio-python",
+          "archetype": "sdk",
+          "surface": "overall",
+          "pred": 4,
+          "actual": 3,
+          "diff": 1,
+          "code": "F05",
+          "name": "Granularity mismatch"
+        },
+        {
+          "fixture_id": "real-052",
+          "repository": "twilio/twilio-python",
+          "archetype": "sdk",
+          "surface": "seo",
+          "pred": 4,
+          "actual": 3,
+          "diff": 1,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-052",
+          "repository": "twilio/twilio-python",
+          "archetype": "sdk",
+          "surface": "aeo",
+          "pred": 4,
+          "actual": 3,
+          "diff": 1,
+          "code": "F05",
+          "name": "Granularity mismatch"
+        },
+        {
+          "fixture_id": "real-052",
+          "repository": "twilio/twilio-python",
+          "archetype": "sdk",
+          "surface": "geo",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F05",
+          "name": "Granularity mismatch"
+        },
+        {
+          "fixture_id": "real-059",
+          "repository": "vitest-dev/vitest",
+          "archetype": "devtool",
+          "surface": "aeo",
+          "pred": 4,
+          "actual": 3,
+          "diff": 1,
+          "code": "F03",
+          "name": "Structural mismatch"
+        },
+        {
+          "fixture_id": "real-059",
+          "repository": "vitest-dev/vitest",
+          "archetype": "devtool",
+          "surface": "geo",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F03",
+          "name": "Structural mismatch"
+        },
+        {
+          "fixture_id": "real-060",
+          "repository": "astral-sh/ruff",
+          "archetype": "devtool",
+          "surface": "overall",
+          "pred": 4,
+          "actual": 5,
+          "diff": -1,
+          "code": "F05",
+          "name": "Granularity mismatch"
+        },
+        {
+          "fixture_id": "real-060",
+          "repository": "astral-sh/ruff",
+          "archetype": "devtool",
+          "surface": "seo",
+          "pred": 4,
+          "actual": 5,
+          "diff": -1,
+          "code": "F05",
+          "name": "Granularity mismatch"
+        },
+        {
+          "fixture_id": "real-069",
+          "repository": "hoppscotch/hoppscotch",
+          "archetype": "webapp",
+          "surface": "seo",
+          "pred": 3,
+          "actual": 5,
+          "diff": -2,
+          "code": "F09",
+          "name": "Comparative/evaluative failure"
+        },
+        {
+          "fixture_id": "real-069",
+          "repository": "hoppscotch/hoppscotch",
+          "archetype": "webapp",
+          "surface": "aeo",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F01",
+          "name": "Missing semantic signal"
+        },
+        {
+          "fixture_id": "real-069",
+          "repository": "hoppscotch/hoppscotch",
+          "archetype": "webapp",
+          "surface": "geo",
+          "pred": 3,
+          "actual": 1,
+          "diff": 2,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-070",
+          "repository": "affinepro/affine",
+          "archetype": "webapp",
+          "surface": "seo",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F05",
+          "name": "Granularity mismatch"
+        },
+        {
+          "fixture_id": "real-070",
+          "repository": "affinepro/affine",
+          "archetype": "webapp",
+          "surface": "aeo",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F01",
+          "name": "Missing semantic signal"
+        },
+        {
+          "fixture_id": "real-070",
+          "repository": "affinepro/affine",
+          "archetype": "webapp",
+          "surface": "geo",
+          "pred": 3,
+          "actual": 1,
+          "diff": 2,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-076",
+          "repository": "public-apis/public-apis",
+          "archetype": "docs",
+          "surface": "overall",
+          "pred": 3,
+          "actual": 2,
+          "diff": 1,
+          "code": "F08",
+          "name": "Documentation-architecture failure"
+        },
+        {
+          "fixture_id": "real-076",
+          "repository": "public-apis/public-apis",
+          "archetype": "docs",
+          "surface": "geo",
+          "pred": 3,
+          "actual": 1,
+          "diff": 2,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-077",
+          "repository": "ripienaar/free-for-dev",
+          "archetype": "docs",
+          "surface": "overall",
+          "pred": 3,
+          "actual": 2,
+          "diff": 1,
+          "code": "F08",
+          "name": "Documentation-architecture failure"
+        },
+        {
+          "fixture_id": "real-077",
+          "repository": "ripienaar/free-for-dev",
+          "archetype": "docs",
+          "surface": "seo",
+          "pred": 3,
+          "actual": 1,
+          "diff": 2,
+          "code": "F08",
+          "name": "Documentation-architecture failure"
+        },
+        {
+          "fixture_id": "real-077",
+          "repository": "ripienaar/free-for-dev",
+          "archetype": "docs",
+          "surface": "geo",
+          "pred": 3,
+          "actual": 1,
+          "diff": 2,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-085",
+          "repository": "backstage/backstage",
+          "archetype": "monorepo",
+          "surface": "seo",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F08",
+          "name": "Documentation-architecture failure"
+        },
+        {
+          "fixture_id": "real-085",
+          "repository": "backstage/backstage",
+          "archetype": "monorepo",
+          "surface": "aeo",
+          "pred": 4,
+          "actual": 3,
+          "diff": 1,
+          "code": "F03",
+          "name": "Structural mismatch"
+        },
+        {
+          "fixture_id": "real-085",
+          "repository": "backstage/backstage",
+          "archetype": "monorepo",
+          "surface": "geo",
+          "pred": 3,
+          "actual": 1,
+          "diff": 2,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-094",
+          "repository": "fluxcd/flux2",
+          "archetype": "devops",
+          "surface": "overall",
+          "pred": 3,
+          "actual": 2,
+          "diff": 1,
+          "code": "F05",
+          "name": "Granularity mismatch"
+        },
+        {
+          "fixture_id": "real-094",
+          "repository": "fluxcd/flux2",
+          "archetype": "devops",
+          "surface": "seo",
+          "pred": 4,
+          "actual": 3,
+          "diff": 1,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-094",
+          "repository": "fluxcd/flux2",
+          "archetype": "devops",
+          "surface": "aeo",
+          "pred": 4,
+          "actual": 3,
+          "diff": 1,
+          "code": "F05",
+          "name": "Granularity mismatch"
+        },
+        {
+          "fixture_id": "real-094",
+          "repository": "fluxcd/flux2",
+          "archetype": "devops",
+          "surface": "geo",
+          "pred": 3,
+          "actual": 1,
+          "diff": 2,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-095",
+          "repository": "open-telemetry/opentelemetry-collector",
+          "archetype": "devops",
+          "surface": "seo",
+          "pred": 4,
+          "actual": 3,
+          "diff": 1,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-105",
+          "repository": "ggerganov/llama.cpp",
+          "archetype": "data_ml",
+          "surface": "geo",
+          "pred": 3,
+          "actual": 2,
+          "diff": 1,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-106",
+          "repository": "deepseek-ai/DeepSeek-V3",
+          "archetype": "data_ml",
+          "surface": "seo",
+          "pred": 3,
+          "actual": 1,
+          "diff": 2,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-106",
+          "repository": "deepseek-ai/DeepSeek-V3",
+          "archetype": "data_ml",
+          "surface": "aeo",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F01",
+          "name": "Missing semantic signal"
+        },
+        {
+          "fixture_id": "real-106",
+          "repository": "deepseek-ai/DeepSeek-V3",
+          "archetype": "data_ml",
+          "surface": "geo",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F05",
+          "name": "Granularity mismatch"
+        },
+        {
+          "fixture_id": "real-113",
+          "repository": "tpope/vim-fugitive",
+          "archetype": "plugin",
+          "surface": "overall",
+          "pred": 2,
+          "actual": 0,
+          "diff": 2,
+          "code": "F10",
+          "name": "Unknown / unclassified"
+        },
+        {
+          "fixture_id": "real-113",
+          "repository": "tpope/vim-fugitive",
+          "archetype": "plugin",
+          "surface": "seo",
+          "pred": 2,
+          "actual": 0,
+          "diff": 2,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-113",
+          "repository": "tpope/vim-fugitive",
+          "archetype": "plugin",
+          "surface": "aeo",
+          "pred": 1,
+          "actual": 0,
+          "diff": 1,
+          "code": "F03",
+          "name": "Structural mismatch"
+        },
+        {
+          "fixture_id": "real-113",
+          "repository": "tpope/vim-fugitive",
+          "archetype": "plugin",
+          "surface": "geo",
+          "pred": 2,
+          "actual": 0,
+          "diff": 2,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-119",
+          "repository": "component/emitter",
+          "archetype": "small_project",
+          "surface": "overall",
+          "pred": 4,
+          "actual": 3,
+          "diff": 1,
+          "code": "F03",
+          "name": "Structural mismatch"
+        },
+        {
+          "fixture_id": "real-119",
+          "repository": "component/emitter",
+          "archetype": "small_project",
+          "surface": "seo",
+          "pred": 4,
+          "actual": 3,
+          "diff": 1,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-119",
+          "repository": "component/emitter",
+          "archetype": "small_project",
+          "surface": "aeo",
+          "pred": 4,
+          "actual": 3,
+          "diff": 1,
+          "code": "F03",
+          "name": "Structural mismatch"
+        },
+        {
+          "fixture_id": "real-120",
+          "repository": "segmentio/is-url",
+          "archetype": "small_project",
+          "surface": "geo",
+          "pred": 3,
+          "actual": 2,
+          "diff": 1,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        }
+      ],
+      "classified_frozen": [
+        {
+          "fixture_id": "real-026",
+          "repository": "eza-community/eza",
+          "archetype": "cli",
+          "surface": "seo",
+          "pred": 4,
+          "actual": 5,
+          "diff": -1,
+          "code": "F05",
+          "name": "Granularity mismatch"
+        },
+        {
+          "fixture_id": "real-026",
+          "repository": "eza-community/eza",
+          "archetype": "cli",
+          "surface": "aeo",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F01",
+          "name": "Missing semantic signal"
+        },
+        {
+          "fixture_id": "real-027",
+          "repository": "astral-sh/uv",
+          "archetype": "cli",
+          "surface": "overall",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F03",
+          "name": "Structural mismatch"
+        },
+        {
+          "fixture_id": "real-027",
+          "repository": "astral-sh/uv",
+          "archetype": "cli",
+          "surface": "seo",
+          "pred": 3,
+          "actual": 5,
+          "diff": -2,
+          "code": "F09",
+          "name": "Comparative/evaluative failure"
+        },
+        {
+          "fixture_id": "real-027",
+          "repository": "astral-sh/uv",
+          "archetype": "cli",
+          "surface": "geo",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F03",
+          "name": "Structural mismatch"
+        },
+        {
+          "fixture_id": "real-034",
+          "repository": "sindresorhus/ky",
+          "archetype": "library",
+          "surface": "overall",
+          "pred": 4,
+          "actual": 5,
+          "diff": -1,
+          "code": "F05",
+          "name": "Granularity mismatch"
+        },
+        {
+          "fixture_id": "real-034",
+          "repository": "sindresorhus/ky",
+          "archetype": "library",
+          "surface": "aeo",
+          "pred": 4,
+          "actual": 5,
+          "diff": -1,
+          "code": "F01",
+          "name": "Missing semantic signal"
+        },
+        {
+          "fixture_id": "real-035",
+          "repository": "sqlalchemy/sqlalchemy",
+          "archetype": "library",
+          "surface": "overall",
+          "pred": 3,
+          "actual": 1,
+          "diff": 2,
+          "code": "F02",
+          "name": "False-positive semantic signal"
+        },
+        {
+          "fixture_id": "real-035",
+          "repository": "sqlalchemy/sqlalchemy",
+          "archetype": "library",
+          "surface": "seo",
+          "pred": 4,
+          "actual": 1,
+          "diff": 3,
+          "code": "F02",
+          "name": "False-positive semantic signal"
+        },
+        {
+          "fixture_id": "real-035",
+          "repository": "sqlalchemy/sqlalchemy",
+          "archetype": "library",
+          "surface": "aeo",
+          "pred": 4,
+          "actual": 2,
+          "diff": 2,
+          "code": "F02",
+          "name": "False-positive semantic signal"
+        },
+        {
+          "fixture_id": "real-040",
+          "repository": "nestjs/nest",
+          "archetype": "framework",
+          "surface": "seo",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F05",
+          "name": "Granularity mismatch"
+        },
+        {
+          "fixture_id": "real-040",
+          "repository": "nestjs/nest",
+          "archetype": "framework",
+          "surface": "aeo",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F01",
+          "name": "Missing semantic signal"
+        },
+        {
+          "fixture_id": "real-041",
+          "repository": "gin-gonic/gin",
+          "archetype": "framework",
+          "surface": "geo",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F03",
+          "name": "Structural mismatch"
+        },
+        {
+          "fixture_id": "real-051",
+          "repository": "sendgrid/sendgrid-python",
+          "archetype": "sdk",
+          "surface": "seo",
+          "pred": 4,
+          "actual": 3,
+          "diff": 1,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-051",
+          "repository": "sendgrid/sendgrid-python",
+          "archetype": "sdk",
+          "surface": "aeo",
+          "pred": 5,
+          "actual": 4,
+          "diff": 1,
+          "code": "F03",
+          "name": "Structural mismatch"
+        },
+        {
+          "fixture_id": "real-052",
+          "repository": "twilio/twilio-python",
+          "archetype": "sdk",
+          "surface": "overall",
+          "pred": 4,
+          "actual": 3,
+          "diff": 1,
+          "code": "F05",
+          "name": "Granularity mismatch"
+        },
+        {
+          "fixture_id": "real-052",
+          "repository": "twilio/twilio-python",
+          "archetype": "sdk",
+          "surface": "seo",
+          "pred": 4,
+          "actual": 3,
+          "diff": 1,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-052",
+          "repository": "twilio/twilio-python",
+          "archetype": "sdk",
+          "surface": "aeo",
+          "pred": 4,
+          "actual": 3,
+          "diff": 1,
+          "code": "F05",
+          "name": "Granularity mismatch"
+        },
+        {
+          "fixture_id": "real-052",
+          "repository": "twilio/twilio-python",
+          "archetype": "sdk",
+          "surface": "geo",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F05",
+          "name": "Granularity mismatch"
+        },
+        {
+          "fixture_id": "real-059",
+          "repository": "vitest-dev/vitest",
+          "archetype": "devtool",
+          "surface": "aeo",
+          "pred": 4,
+          "actual": 3,
+          "diff": 1,
+          "code": "F03",
+          "name": "Structural mismatch"
+        },
+        {
+          "fixture_id": "real-059",
+          "repository": "vitest-dev/vitest",
+          "archetype": "devtool",
+          "surface": "geo",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F03",
+          "name": "Structural mismatch"
+        },
+        {
+          "fixture_id": "real-060",
+          "repository": "astral-sh/ruff",
+          "archetype": "devtool",
+          "surface": "overall",
+          "pred": 4,
+          "actual": 5,
+          "diff": -1,
+          "code": "F05",
+          "name": "Granularity mismatch"
+        },
+        {
+          "fixture_id": "real-060",
+          "repository": "astral-sh/ruff",
+          "archetype": "devtool",
+          "surface": "seo",
+          "pred": 4,
+          "actual": 5,
+          "diff": -1,
+          "code": "F05",
+          "name": "Granularity mismatch"
+        },
+        {
+          "fixture_id": "real-069",
+          "repository": "hoppscotch/hoppscotch",
+          "archetype": "webapp",
+          "surface": "seo",
+          "pred": 3,
+          "actual": 5,
+          "diff": -2,
+          "code": "F09",
+          "name": "Comparative/evaluative failure"
+        },
+        {
+          "fixture_id": "real-069",
+          "repository": "hoppscotch/hoppscotch",
+          "archetype": "webapp",
+          "surface": "aeo",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F01",
+          "name": "Missing semantic signal"
+        },
+        {
+          "fixture_id": "real-070",
+          "repository": "affinepro/affine",
+          "archetype": "webapp",
+          "surface": "seo",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F05",
+          "name": "Granularity mismatch"
+        },
+        {
+          "fixture_id": "real-070",
+          "repository": "affinepro/affine",
+          "archetype": "webapp",
+          "surface": "aeo",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F01",
+          "name": "Missing semantic signal"
+        },
+        {
+          "fixture_id": "real-076",
+          "repository": "public-apis/public-apis",
+          "archetype": "docs",
+          "surface": "overall",
+          "pred": 1,
+          "actual": 2,
+          "diff": -1,
+          "code": "F08",
+          "name": "Documentation-architecture failure"
+        },
+        {
+          "fixture_id": "real-076",
+          "repository": "public-apis/public-apis",
+          "archetype": "docs",
+          "surface": "seo",
+          "pred": 2,
+          "actual": 3,
+          "diff": -1,
+          "code": "F08",
+          "name": "Documentation-architecture failure"
+        },
+        {
+          "fixture_id": "real-076",
+          "repository": "public-apis/public-apis",
+          "archetype": "docs",
+          "surface": "aeo",
+          "pred": 2,
+          "actual": 3,
+          "diff": -1,
+          "code": "F08",
+          "name": "Documentation-architecture failure"
+        },
+        {
+          "fixture_id": "real-077",
+          "repository": "ripienaar/free-for-dev",
+          "archetype": "docs",
+          "surface": "overall",
+          "pred": 1,
+          "actual": 2,
+          "diff": -1,
+          "code": "F08",
+          "name": "Documentation-architecture failure"
+        },
+        {
+          "fixture_id": "real-077",
+          "repository": "ripienaar/free-for-dev",
+          "archetype": "docs",
+          "surface": "seo",
+          "pred": 2,
+          "actual": 1,
+          "diff": 1,
+          "code": "F08",
+          "name": "Documentation-architecture failure"
+        },
+        {
+          "fixture_id": "real-077",
+          "repository": "ripienaar/free-for-dev",
+          "archetype": "docs",
+          "surface": "aeo",
+          "pred": 2,
+          "actual": 3,
+          "diff": -1,
+          "code": "F08",
+          "name": "Documentation-architecture failure"
+        },
+        {
+          "fixture_id": "real-085",
+          "repository": "backstage/backstage",
+          "archetype": "monorepo",
+          "surface": "seo",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F08",
+          "name": "Documentation-architecture failure"
+        },
+        {
+          "fixture_id": "real-085",
+          "repository": "backstage/backstage",
+          "archetype": "monorepo",
+          "surface": "aeo",
+          "pred": 4,
+          "actual": 3,
+          "diff": 1,
+          "code": "F03",
+          "name": "Structural mismatch"
+        },
+        {
+          "fixture_id": "real-094",
+          "repository": "fluxcd/flux2",
+          "archetype": "devops",
+          "surface": "overall",
+          "pred": 3,
+          "actual": 2,
+          "diff": 1,
+          "code": "F05",
+          "name": "Granularity mismatch"
+        },
+        {
+          "fixture_id": "real-094",
+          "repository": "fluxcd/flux2",
+          "archetype": "devops",
+          "surface": "seo",
+          "pred": 4,
+          "actual": 3,
+          "diff": 1,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-094",
+          "repository": "fluxcd/flux2",
+          "archetype": "devops",
+          "surface": "aeo",
+          "pred": 4,
+          "actual": 3,
+          "diff": 1,
+          "code": "F05",
+          "name": "Granularity mismatch"
+        },
+        {
+          "fixture_id": "real-095",
+          "repository": "open-telemetry/opentelemetry-collector",
+          "archetype": "devops",
+          "surface": "seo",
+          "pred": 4,
+          "actual": 3,
+          "diff": 1,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-105",
+          "repository": "ggerganov/llama.cpp",
+          "archetype": "data_ml",
+          "surface": "geo",
+          "pred": 3,
+          "actual": 2,
+          "diff": 1,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-106",
+          "repository": "deepseek-ai/DeepSeek-V3",
+          "archetype": "data_ml",
+          "surface": "seo",
+          "pred": 3,
+          "actual": 1,
+          "diff": 2,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-106",
+          "repository": "deepseek-ai/DeepSeek-V3",
+          "archetype": "data_ml",
+          "surface": "aeo",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F01",
+          "name": "Missing semantic signal"
+        },
+        {
+          "fixture_id": "real-106",
+          "repository": "deepseek-ai/DeepSeek-V3",
+          "archetype": "data_ml",
+          "surface": "geo",
+          "pred": 3,
+          "actual": 4,
+          "diff": -1,
+          "code": "F05",
+          "name": "Granularity mismatch"
+        },
+        {
+          "fixture_id": "real-113",
+          "repository": "tpope/vim-fugitive",
+          "archetype": "plugin",
+          "surface": "overall",
+          "pred": 2,
+          "actual": 0,
+          "diff": 2,
+          "code": "F10",
+          "name": "Unknown / unclassified"
+        },
+        {
+          "fixture_id": "real-113",
+          "repository": "tpope/vim-fugitive",
+          "archetype": "plugin",
+          "surface": "seo",
+          "pred": 2,
+          "actual": 0,
+          "diff": 2,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-113",
+          "repository": "tpope/vim-fugitive",
+          "archetype": "plugin",
+          "surface": "aeo",
+          "pred": 1,
+          "actual": 0,
+          "diff": 1,
+          "code": "F03",
+          "name": "Structural mismatch"
+        },
+        {
+          "fixture_id": "real-113",
+          "repository": "tpope/vim-fugitive",
+          "archetype": "plugin",
+          "surface": "geo",
+          "pred": 2,
+          "actual": 0,
+          "diff": 2,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-119",
+          "repository": "component/emitter",
+          "archetype": "small_project",
+          "surface": "overall",
+          "pred": 4,
+          "actual": 3,
+          "diff": 1,
+          "code": "F03",
+          "name": "Structural mismatch"
+        },
+        {
+          "fixture_id": "real-119",
+          "repository": "component/emitter",
+          "archetype": "small_project",
+          "surface": "seo",
+          "pred": 4,
+          "actual": 3,
+          "diff": 1,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        },
+        {
+          "fixture_id": "real-119",
+          "repository": "component/emitter",
+          "archetype": "small_project",
+          "surface": "aeo",
+          "pred": 4,
+          "actual": 3,
+          "diff": 1,
+          "code": "F03",
+          "name": "Structural mismatch"
+        },
+        {
+          "fixture_id": "real-120",
+          "repository": "segmentio/is-url",
+          "archetype": "small_project",
+          "surface": "geo",
+          "pred": 3,
+          "actual": 2,
+          "diff": 1,
+          "code": "F04",
+          "name": "Evidence-quality mismatch"
+        }
+      ]
+    },
+    "gold_eval": {
+      "baseline": {
+        "F01": 2,
+        "F02": 0,
+        "F03": 5,
+        "F04": 8,
+        "F05": 10,
+        "F06": 0,
+        "F07": 0,
+        "F08": 4,
+        "F09": 1,
+        "F10": 3
+      },
+      "frozen": {
+        "F01": 1,
+        "F02": 0,
+        "F03": 6,
+        "F04": 6,
+        "F05": 11,
+        "F06": 0,
+        "F07": 0,
+        "F08": 4,
+        "F09": 1,
+        "F10": 0
+      },
+      "total_residuals_base": 33,
+      "total_residuals_frozen": 29,
+      "total_error_base": 38,
+      "total_error_frozen": 30
+    },
+    "full_corpus": {
+      "baseline": {
+        "F01": 14,
+        "F02": 15,
+        "F03": 61,
+        "F04": 94,
+        "F05": 64,
+        "F06": 0,
+        "F07": 1,
+        "F08": 20,
+        "F09": 7,
+        "F10": 18
+      },
+      "frozen": {
+        "F01": 13,
+        "F02": 12,
+        "F03": 64,
+        "F04": 63,
+        "F05": 65,
+        "F06": 0,
+        "F07": 1,
+        "F08": 23,
+        "F09": 6,
+        "F10": 12
+      },
+      "total_residuals_base": 294,
+      "total_residuals_frozen": 259,
+      "total_error_base": 383,
+      "total_error_frozen": 302
+    }
+  },
+  "stratified_test_archetypes": {
+    "cli": {
+      "n": 2,
+      "baseline": {
+        "overall": {
+          "n": 2,
+          "mae": 0.5,
+          "me": -0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 2,
+          "mae": 1.5,
+          "me": -1.5,
+          "exactPct": 0,
+          "withinOnePct": 50
+        },
+        "aeo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": -0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 2,
+          "mae": 1.5,
+          "me": 0.5,
+          "exactPct": 0,
+          "withinOnePct": 50
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 2,
+          "mae": 0.5,
+          "me": -0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 2,
+          "mae": 1.5,
+          "me": -1.5,
+          "exactPct": 0,
+          "withinOnePct": 50
+        },
+        "aeo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": -0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": -0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "seo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "geo": {
+          "deltaMae": -1,
+          "deltaMe": -1
+        }
+      }
+    },
+    "library": {
+      "n": 2,
+      "baseline": {
+        "overall": {
+          "n": 2,
+          "mae": 1.5,
+          "me": 0.5,
+          "exactPct": 0,
+          "withinOnePct": 50
+        },
+        "seo": {
+          "n": 2,
+          "mae": 1.5,
+          "me": 1.5,
+          "exactPct": 50,
+          "withinOnePct": 50
+        },
+        "aeo": {
+          "n": 2,
+          "mae": 1.5,
+          "me": 0.5,
+          "exactPct": 0,
+          "withinOnePct": 50
+        },
+        "geo": {
+          "n": 2,
+          "mae": 1,
+          "me": 1,
+          "exactPct": 50,
+          "withinOnePct": 50
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 2,
+          "mae": 1.5,
+          "me": 0.5,
+          "exactPct": 0,
+          "withinOnePct": 50
+        },
+        "seo": {
+          "n": 2,
+          "mae": 1.5,
+          "me": 1.5,
+          "exactPct": 50,
+          "withinOnePct": 50
+        },
+        "aeo": {
+          "n": 2,
+          "mae": 1.5,
+          "me": 0.5,
+          "exactPct": 0,
+          "withinOnePct": 50
+        },
+        "geo": {
+          "n": 2,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "seo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "geo": {
+          "deltaMae": -1,
+          "deltaMe": -1
+        }
+      }
+    },
+    "framework": {
+      "n": 2,
+      "baseline": {
+        "overall": {
+          "n": 2,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": -0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": -0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 2,
+          "mae": 1.5,
+          "me": 0.5,
+          "exactPct": 0,
+          "withinOnePct": 50
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 2,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": -0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": -0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": -0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "seo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "geo": {
+          "deltaMae": -1,
+          "deltaMe": -1
+        }
+      }
+    },
+    "sdk": {
+      "n": 3,
+      "baseline": {
+        "overall": {
+          "n": 3,
+          "mae": 0.3333,
+          "me": 0.3333,
+          "exactPct": 66.7,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 3,
+          "mae": 0.6667,
+          "me": 0.6667,
+          "exactPct": 33.3,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 3,
+          "mae": 0.6667,
+          "me": 0.6667,
+          "exactPct": 33.3,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 3,
+          "mae": 0.3333,
+          "me": -0.3333,
+          "exactPct": 66.7,
+          "withinOnePct": 100
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 3,
+          "mae": 0.3333,
+          "me": 0.3333,
+          "exactPct": 66.7,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 3,
+          "mae": 0.6667,
+          "me": 0.6667,
+          "exactPct": 33.3,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 3,
+          "mae": 0.6667,
+          "me": 0.6667,
+          "exactPct": 33.3,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 3,
+          "mae": 0.3333,
+          "me": -0.3333,
+          "exactPct": 66.7,
+          "withinOnePct": 100
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "seo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "geo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        }
+      }
+    },
+    "devtool": {
+      "n": 2,
+      "baseline": {
+        "overall": {
+          "n": 2,
+          "mae": 0.5,
+          "me": -0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": -0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": -0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 2,
+          "mae": 0.5,
+          "me": -0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": -0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": -0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "seo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "geo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        }
+      }
+    },
+    "webapp": {
+      "n": 2,
+      "baseline": {
+        "overall": {
+          "n": 2,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 2,
+          "mae": 1.5,
+          "me": -1.5,
+          "exactPct": 0,
+          "withinOnePct": 50
+        },
+        "aeo": {
+          "n": 2,
+          "mae": 1,
+          "me": -1,
+          "exactPct": 0,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 2,
+          "mae": 2,
+          "me": 2,
+          "exactPct": 0,
+          "withinOnePct": 0
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 2,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 2,
+          "mae": 1.5,
+          "me": -1.5,
+          "exactPct": 0,
+          "withinOnePct": 50
+        },
+        "aeo": {
+          "n": 2,
+          "mae": 1,
+          "me": -1,
+          "exactPct": 0,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 2,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "seo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "geo": {
+          "deltaMae": -2,
+          "deltaMe": -2
+        }
+      }
+    },
+    "docs": {
+      "n": 2,
+      "baseline": {
+        "overall": {
+          "n": 2,
+          "mae": 1,
+          "me": 1,
+          "exactPct": 0,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 2,
+          "mae": 1,
+          "me": 1,
+          "exactPct": 50,
+          "withinOnePct": 50
+        },
+        "aeo": {
+          "n": 2,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 2,
+          "mae": 2,
+          "me": 2,
+          "exactPct": 0,
+          "withinOnePct": 0
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 2,
+          "mae": 1,
+          "me": -1,
+          "exactPct": 0,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 2,
+          "mae": 1,
+          "me": 0,
+          "exactPct": 0,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 2,
+          "mae": 1,
+          "me": -1,
+          "exactPct": 0,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 2,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": 0,
+          "deltaMe": -2
+        },
+        "seo": {
+          "deltaMae": 0,
+          "deltaMe": -1
+        },
+        "aeo": {
+          "deltaMae": 1,
+          "deltaMe": -1
+        },
+        "geo": {
+          "deltaMae": -2,
+          "deltaMe": -2
+        }
+      }
+    },
+    "monorepo": {
+      "n": 1,
+      "baseline": {
+        "overall": {
+          "n": 1,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 1,
+          "mae": 1,
+          "me": -1,
+          "exactPct": 0,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 1,
+          "mae": 1,
+          "me": 1,
+          "exactPct": 0,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 1,
+          "mae": 2,
+          "me": 2,
+          "exactPct": 0,
+          "withinOnePct": 0
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 1,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 1,
+          "mae": 1,
+          "me": -1,
+          "exactPct": 0,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 1,
+          "mae": 1,
+          "me": 1,
+          "exactPct": 0,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 1,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "seo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "geo": {
+          "deltaMae": -2,
+          "deltaMe": -2
+        }
+      }
+    },
+    "devops": {
+      "n": 2,
+      "baseline": {
+        "overall": {
+          "n": 2,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 2,
+          "mae": 1,
+          "me": 1,
+          "exactPct": 0,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 2,
+          "mae": 1,
+          "me": 1,
+          "exactPct": 50,
+          "withinOnePct": 50
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 2,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 2,
+          "mae": 1,
+          "me": 1,
+          "exactPct": 0,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 2,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "seo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "geo": {
+          "deltaMae": -1,
+          "deltaMe": -1
+        }
+      }
+    },
+    "data_ml": {
+      "n": 2,
+      "baseline": {
+        "overall": {
+          "n": 2,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 2,
+          "mae": 1,
+          "me": 1,
+          "exactPct": 50,
+          "withinOnePct": 50
+        },
+        "aeo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": -0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 2,
+          "mae": 1,
+          "me": 0,
+          "exactPct": 0,
+          "withinOnePct": 100
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 2,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 2,
+          "mae": 1,
+          "me": 1,
+          "exactPct": 50,
+          "withinOnePct": 50
+        },
+        "aeo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": -0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 2,
+          "mae": 1,
+          "me": 0,
+          "exactPct": 0,
+          "withinOnePct": 100
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "seo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "geo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        }
+      }
+    },
+    "plugin": {
+      "n": 2,
+      "baseline": {
+        "overall": {
+          "n": 2,
+          "mae": 1,
+          "me": 1,
+          "exactPct": 50,
+          "withinOnePct": 50
+        },
+        "seo": {
+          "n": 2,
+          "mae": 1,
+          "me": 1,
+          "exactPct": 50,
+          "withinOnePct": 50
+        },
+        "aeo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 2,
+          "mae": 1,
+          "me": 1,
+          "exactPct": 50,
+          "withinOnePct": 50
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 2,
+          "mae": 1,
+          "me": 1,
+          "exactPct": 50,
+          "withinOnePct": 50
+        },
+        "seo": {
+          "n": 2,
+          "mae": 1,
+          "me": 1,
+          "exactPct": 50,
+          "withinOnePct": 50
+        },
+        "aeo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 2,
+          "mae": 1,
+          "me": 1,
+          "exactPct": 50,
+          "withinOnePct": 50
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "seo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "geo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        }
+      }
+    },
+    "small_project": {
+      "n": 2,
+      "baseline": {
+        "overall": {
+          "n": 2,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 2,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "seo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "geo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        }
+      }
+    }
+  },
+  "stratified_test_characteristics": {
+    "char_standard": {
+      "n": 5,
+      "baseline": {
+        "overall": {
+          "n": 5,
+          "mae": 0.8,
+          "me": 0.8,
+          "exactPct": 60,
+          "withinOnePct": 60
+        },
+        "seo": {
+          "n": 5,
+          "mae": 1.4,
+          "me": 0.6,
+          "exactPct": 40,
+          "withinOnePct": 40
+        },
+        "aeo": {
+          "n": 5,
+          "mae": 1,
+          "me": 0.6,
+          "exactPct": 20,
+          "withinOnePct": 80
+        },
+        "geo": {
+          "n": 5,
+          "mae": 1.6,
+          "me": 1.2,
+          "exactPct": 0,
+          "withinOnePct": 40
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 5,
+          "mae": 0.8,
+          "me": 0.8,
+          "exactPct": 60,
+          "withinOnePct": 60
+        },
+        "seo": {
+          "n": 5,
+          "mae": 1.4,
+          "me": 0.6,
+          "exactPct": 40,
+          "withinOnePct": 40
+        },
+        "aeo": {
+          "n": 5,
+          "mae": 1,
+          "me": 0.6,
+          "exactPct": 20,
+          "withinOnePct": 80
+        },
+        "geo": {
+          "n": 5,
+          "mae": 0.8,
+          "me": 0.4,
+          "exactPct": 40,
+          "withinOnePct": 80
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "seo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "geo": {
+          "deltaMae": -0.8,
+          "deltaMe": -0.8
+        }
+      }
+    },
+    "char_install_config": {
+      "n": 11,
+      "baseline": {
+        "overall": {
+          "n": 11,
+          "mae": 0.4545,
+          "me": 0.0909,
+          "exactPct": 63.6,
+          "withinOnePct": 90.9
+        },
+        "seo": {
+          "n": 11,
+          "mae": 1,
+          "me": -0.0909,
+          "exactPct": 18.2,
+          "withinOnePct": 81.8
+        },
+        "aeo": {
+          "n": 11,
+          "mae": 0.5455,
+          "me": 0.1818,
+          "exactPct": 45.5,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 11,
+          "mae": 1,
+          "me": 0.6364,
+          "exactPct": 36.4,
+          "withinOnePct": 63.6
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 11,
+          "mae": 0.4545,
+          "me": 0.0909,
+          "exactPct": 63.6,
+          "withinOnePct": 90.9
+        },
+        "seo": {
+          "n": 11,
+          "mae": 1,
+          "me": -0.0909,
+          "exactPct": 18.2,
+          "withinOnePct": 81.8
+        },
+        "aeo": {
+          "n": 11,
+          "mae": 0.5455,
+          "me": 0.1818,
+          "exactPct": 45.5,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 11,
+          "mae": 0.4545,
+          "me": 0.0909,
+          "exactPct": 63.6,
+          "withinOnePct": 90.9
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "seo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "geo": {
+          "deltaMae": -0.5455,
+          "deltaMe": -0.5455
+        }
+      }
+    },
+    "char_feature_comparison": {
+      "n": 9,
+      "baseline": {
+        "overall": {
+          "n": 9,
+          "mae": 0.3333,
+          "me": -0.3333,
+          "exactPct": 66.7,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 9,
+          "mae": 0.8889,
+          "me": -0.4444,
+          "exactPct": 44.4,
+          "withinOnePct": 66.7
+        },
+        "aeo": {
+          "n": 9,
+          "mae": 0.5556,
+          "me": -0.3333,
+          "exactPct": 44.4,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 9,
+          "mae": 1,
+          "me": 0.1111,
+          "exactPct": 22.2,
+          "withinOnePct": 77.8
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 9,
+          "mae": 0.3333,
+          "me": -0.3333,
+          "exactPct": 66.7,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 9,
+          "mae": 0.8889,
+          "me": -0.4444,
+          "exactPct": 44.4,
+          "withinOnePct": 66.7
+        },
+        "aeo": {
+          "n": 9,
+          "mae": 0.5556,
+          "me": -0.3333,
+          "exactPct": 44.4,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 9,
+          "mae": 0.5556,
+          "me": -0.3333,
+          "exactPct": 44.4,
+          "withinOnePct": 100
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "seo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "geo": {
+          "deltaMae": -0.4444,
+          "deltaMe": -0.4444
+        }
+      }
+    },
+    "char_example_heavy": {
+      "n": 4,
+      "baseline": {
+        "overall": {
+          "n": 4,
+          "mae": 0.25,
+          "me": 0.25,
+          "exactPct": 75,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 4,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 4,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 4,
+          "mae": 0.25,
+          "me": -0.25,
+          "exactPct": 75,
+          "withinOnePct": 100
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 4,
+          "mae": 0.25,
+          "me": 0.25,
+          "exactPct": 75,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 4,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 4,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 4,
+          "mae": 0.25,
+          "me": -0.25,
+          "exactPct": 75,
+          "withinOnePct": 100
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "seo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "geo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        }
+      }
+    },
+    "char_tutorial": {
+      "n": 5,
+      "baseline": {
+        "overall": {
+          "n": 5,
+          "mae": 0.4,
+          "me": 0.4,
+          "exactPct": 60,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 5,
+          "mae": 0.6,
+          "me": 0.2,
+          "exactPct": 40,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 5,
+          "mae": 0.6,
+          "me": 0.2,
+          "exactPct": 40,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 5,
+          "mae": 1,
+          "me": 0.6,
+          "exactPct": 40,
+          "withinOnePct": 60
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 5,
+          "mae": 0.4,
+          "me": 0.4,
+          "exactPct": 60,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 5,
+          "mae": 0.6,
+          "me": 0.2,
+          "exactPct": 40,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 5,
+          "mae": 0.6,
+          "me": 0.2,
+          "exactPct": 40,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 5,
+          "mae": 0.2,
+          "me": -0.2,
+          "exactPct": 80,
+          "withinOnePct": 100
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "seo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "geo": {
+          "deltaMae": -0.8,
+          "deltaMe": -0.8
+        }
+      }
+    },
+    "char_architecture": {
+      "n": 6,
+      "baseline": {
+        "overall": {
+          "n": 6,
+          "mae": 0.1667,
+          "me": 0.1667,
+          "exactPct": 83.3,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 6,
+          "mae": 1.1667,
+          "me": 0.1667,
+          "exactPct": 0,
+          "withinOnePct": 83.3
+        },
+        "aeo": {
+          "n": 6,
+          "mae": 0.8333,
+          "me": -0.1667,
+          "exactPct": 16.7,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 6,
+          "mae": 1.5,
+          "me": 1.1667,
+          "exactPct": 16.7,
+          "withinOnePct": 33.3
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 6,
+          "mae": 0.1667,
+          "me": 0.1667,
+          "exactPct": 83.3,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 6,
+          "mae": 1.1667,
+          "me": 0.1667,
+          "exactPct": 0,
+          "withinOnePct": 83.3
+        },
+        "aeo": {
+          "n": 6,
+          "mae": 0.8333,
+          "me": -0.1667,
+          "exactPct": 16.7,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 6,
+          "mae": 0.1667,
+          "me": -0.1667,
+          "exactPct": 83.3,
+          "withinOnePct": 100
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "seo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "geo": {
+          "deltaMae": -1.3333,
+          "deltaMe": -1.3334
+        }
+      }
+    },
+    "char_docs_heavy": {
+      "n": 6,
+      "baseline": {
+        "overall": {
+          "n": 6,
+          "mae": 1,
+          "me": 0.3333,
+          "exactPct": 16.7,
+          "withinOnePct": 83.3
+        },
+        "seo": {
+          "n": 6,
+          "mae": 1.3333,
+          "me": 0.3333,
+          "exactPct": 33.3,
+          "withinOnePct": 50
+        },
+        "aeo": {
+          "n": 6,
+          "mae": 0.3333,
+          "me": 0.3333,
+          "exactPct": 83.3,
+          "withinOnePct": 83.3
+        },
+        "geo": {
+          "n": 6,
+          "mae": 1.3333,
+          "me": 1,
+          "exactPct": 16.7,
+          "withinOnePct": 50
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 6,
+          "mae": 1,
+          "me": -0.3333,
+          "exactPct": 16.7,
+          "withinOnePct": 83.3
+        },
+        "seo": {
+          "n": 6,
+          "mae": 1.3333,
+          "me": 0,
+          "exactPct": 16.7,
+          "withinOnePct": 66.7
+        },
+        "aeo": {
+          "n": 6,
+          "mae": 0.6667,
+          "me": 0,
+          "exactPct": 50,
+          "withinOnePct": 83.3
+        },
+        "geo": {
+          "n": 6,
+          "mae": 0.3333,
+          "me": 0,
+          "exactPct": 66.7,
+          "withinOnePct": 100
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": 0,
+          "deltaMe": -0.6666
+        },
+        "seo": {
+          "deltaMae": 0,
+          "deltaMe": -0.3333
+        },
+        "aeo": {
+          "deltaMae": 0.3334,
+          "deltaMe": -0.3333
+        },
+        "geo": {
+          "deltaMae": -1,
+          "deltaMe": -1
+        }
+      }
+    },
+    "char_mixed": {
+      "n": 2,
+      "baseline": {
+        "overall": {
+          "n": 2,
+          "mae": 1,
+          "me": -1,
+          "exactPct": 0,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 2,
+          "mae": 1.5,
+          "me": -1.5,
+          "exactPct": 0,
+          "withinOnePct": 50
+        },
+        "aeo": {
+          "n": 2,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": -0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 2,
+          "mae": 1,
+          "me": -1,
+          "exactPct": 0,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 2,
+          "mae": 1.5,
+          "me": -1.5,
+          "exactPct": 0,
+          "withinOnePct": 50
+        },
+        "aeo": {
+          "n": 2,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": -0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "seo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "geo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        }
+      }
+    },
+    "char_minimal": {
+      "n": 2,
+      "baseline": {
+        "overall": {
+          "n": 2,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 2,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "seo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        },
+        "geo": {
+          "deltaMae": 0,
+          "deltaMe": 0
+        }
+      }
+    },
+    "char_api_reference": {
+      "n": 2,
+      "baseline": {
+        "overall": {
+          "n": 2,
+          "mae": 1,
+          "me": 0,
+          "exactPct": 0,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 2,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": -0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 2,
+          "mae": 1,
+          "me": 1,
+          "exactPct": 50,
+          "withinOnePct": 50
+        }
+      },
+      "frozen": {
+        "overall": {
+          "n": 2,
+          "mae": 1,
+          "me": -1,
+          "exactPct": 0,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 2,
+          "mae": 0.5,
+          "me": -0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 2,
+          "mae": 1,
+          "me": -1,
+          "exactPct": 0,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 2,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": 0,
+          "deltaMe": -1
+        },
+        "seo": {
+          "deltaMae": 0.5,
+          "deltaMe": -0.5
+        },
+        "aeo": {
+          "deltaMae": 0.5,
+          "deltaMe": -0.5
+        },
+        "geo": {
+          "deltaMae": -1,
+          "deltaMe": -1
+        }
+      }
+    }
+  },
+  "test_discrepancies": [
+    {
+      "fixture_id": "real-035",
+      "repository": "sqlalchemy/sqlalchemy",
+      "archetype": "library",
+      "readme_tags": [
+        "char_standard",
+        "char_docs_heavy"
+      ],
+      "frozen": {
+        "overall": 3,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 1
+      },
+      "baseline": {
+        "overall": 3,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 3
+      },
+      "actual": {
+        "overall": 1,
+        "seo": 1,
+        "aeo": 2,
+        "geo": 1,
+        "raw_overall": 1
+      },
+      "diffs": {
+        "overall": 2,
+        "seo": 3,
+        "aeo": 2,
+        "geo": 0
+      },
+      "base_diffs": {
+        "overall": 2,
+        "seo": 3,
+        "aeo": 2,
+        "geo": 2
+      },
+      "absResidualSum": 7,
+      "baseAbsResidualSum": 9,
+      "errorMovement": -2
+    },
+    {
+      "fixture_id": "real-113",
+      "repository": "tpope/vim-fugitive",
+      "archetype": "plugin",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "frozen": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 1,
+        "geo": 2
+      },
+      "baseline": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 1,
+        "geo": 2
+      },
+      "actual": {
+        "overall": 0,
+        "seo": 0,
+        "aeo": 0,
+        "geo": 0,
+        "raw_overall": 0
+      },
+      "diffs": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 1,
+        "geo": 2
+      },
+      "base_diffs": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 1,
+        "geo": 2
+      },
+      "absResidualSum": 7,
+      "baseAbsResidualSum": 7,
+      "errorMovement": 0
+    },
+    {
+      "fixture_id": "real-027",
+      "repository": "astral-sh/uv",
+      "archetype": "cli",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_docs_heavy",
+        "char_install_config",
+        "char_mixed"
+      ],
+      "frozen": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 4,
+        "geo": 3
+      },
+      "baseline": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 4,
+        "geo": 3
+      },
+      "actual": {
+        "overall": 4,
+        "seo": 5,
+        "aeo": 4,
+        "geo": 4,
+        "raw_overall": 4
+      },
+      "diffs": {
+        "overall": -1,
+        "seo": -2,
+        "aeo": 0,
+        "geo": -1
+      },
+      "base_diffs": {
+        "overall": -1,
+        "seo": -2,
+        "aeo": 0,
+        "geo": -1
+      },
+      "absResidualSum": 4,
+      "baseAbsResidualSum": 4,
+      "errorMovement": 0
+    },
+    {
+      "fixture_id": "real-052",
+      "repository": "twilio/twilio-python",
+      "archetype": "sdk",
+      "readme_tags": [
+        "char_tutorial",
+        "char_install_config"
+      ],
+      "frozen": {
+        "overall": 4,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 3
+      },
+      "baseline": {
+        "overall": 4,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 3
+      },
+      "actual": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 3,
+        "geo": 4,
+        "raw_overall": 3
+      },
+      "diffs": {
+        "overall": 1,
+        "seo": 1,
+        "aeo": 1,
+        "geo": -1
+      },
+      "base_diffs": {
+        "overall": 1,
+        "seo": 1,
+        "aeo": 1,
+        "geo": -1
+      },
+      "absResidualSum": 4,
+      "baseAbsResidualSum": 4,
+      "errorMovement": 0
+    },
+    {
+      "fixture_id": "real-106",
+      "repository": "deepseek-ai/DeepSeek-V3",
+      "archetype": "data_ml",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_architecture"
+      ],
+      "frozen": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 3,
+        "geo": 3
+      },
+      "actual": {
+        "overall": 3,
+        "seo": 1,
+        "aeo": 4,
+        "geo": 4,
+        "raw_overall": 3
+      },
+      "diffs": {
+        "overall": 0,
+        "seo": 2,
+        "aeo": -1,
+        "geo": -1
+      },
+      "base_diffs": {
+        "overall": 0,
+        "seo": 2,
+        "aeo": -1,
+        "geo": -1
+      },
+      "absResidualSum": 4,
+      "baseAbsResidualSum": 4,
+      "errorMovement": 0
+    },
+    {
+      "fixture_id": "real-069",
+      "repository": "hoppscotch/hoppscotch",
+      "archetype": "webapp",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_standard"
+      ],
+      "frozen": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 3,
+        "geo": 1
+      },
+      "baseline": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 3,
+        "geo": 3
+      },
+      "actual": {
+        "overall": 3,
+        "seo": 5,
+        "aeo": 4,
+        "geo": 1,
+        "raw_overall": 3
+      },
+      "diffs": {
+        "overall": 0,
+        "seo": -2,
+        "aeo": -1,
+        "geo": 0
+      },
+      "base_diffs": {
+        "overall": 0,
+        "seo": -2,
+        "aeo": -1,
+        "geo": 2
+      },
+      "absResidualSum": 3,
+      "baseAbsResidualSum": 5,
+      "errorMovement": -2
+    },
+    {
+      "fixture_id": "real-076",
+      "repository": "public-apis/public-apis",
+      "archetype": "docs",
+      "readme_tags": [
+        "char_docs_heavy",
+        "char_api_reference"
+      ],
+      "frozen": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 3,
+        "geo": 3
+      },
+      "actual": {
+        "overall": 2,
+        "seo": 3,
+        "aeo": 3,
+        "geo": 1,
+        "raw_overall": 2
+      },
+      "diffs": {
+        "overall": -1,
+        "seo": -1,
+        "aeo": -1,
+        "geo": 0
+      },
+      "base_diffs": {
+        "overall": 1,
+        "seo": 0,
+        "aeo": 0,
+        "geo": 2
+      },
+      "absResidualSum": 3,
+      "baseAbsResidualSum": 3,
+      "errorMovement": 0
+    },
+    {
+      "fixture_id": "real-077",
+      "repository": "ripienaar/free-for-dev",
+      "archetype": "docs",
+      "readme_tags": [
+        "char_docs_heavy"
+      ],
+      "frozen": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 3,
+        "geo": 3
+      },
+      "actual": {
+        "overall": 2,
+        "seo": 1,
+        "aeo": 3,
+        "geo": 1,
+        "raw_overall": 2
+      },
+      "diffs": {
+        "overall": -1,
+        "seo": 1,
+        "aeo": -1,
+        "geo": 0
+      },
+      "base_diffs": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 0,
+        "geo": 2
+      },
+      "absResidualSum": 3,
+      "baseAbsResidualSum": 5,
+      "errorMovement": -2
+    },
+    {
+      "fixture_id": "real-094",
+      "repository": "fluxcd/flux2",
+      "archetype": "devops",
+      "readme_tags": [
+        "char_tutorial",
+        "char_architecture"
+      ],
+      "frozen": {
+        "overall": 3,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 1
+      },
+      "baseline": {
+        "overall": 3,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 3
+      },
+      "actual": {
+        "overall": 2,
+        "seo": 3,
+        "aeo": 3,
+        "geo": 1,
+        "raw_overall": 2
+      },
+      "diffs": {
+        "overall": 1,
+        "seo": 1,
+        "aeo": 1,
+        "geo": 0
+      },
+      "base_diffs": {
+        "overall": 1,
+        "seo": 1,
+        "aeo": 1,
+        "geo": 2
+      },
+      "absResidualSum": 3,
+      "baseAbsResidualSum": 5,
+      "errorMovement": -2
+    },
+    {
+      "fixture_id": "real-119",
+      "repository": "component/emitter",
+      "archetype": "small_project",
+      "readme_tags": [
+        "char_minimal",
+        "char_example_heavy"
+      ],
+      "frozen": {
+        "overall": 4,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 3
+      },
+      "baseline": {
+        "overall": 4,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 3
+      },
+      "actual": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 3,
+        "geo": 3,
+        "raw_overall": 3
+      },
+      "diffs": {
+        "overall": 1,
+        "seo": 1,
+        "aeo": 1,
+        "geo": 0
+      },
+      "base_diffs": {
+        "overall": 1,
+        "seo": 1,
+        "aeo": 1,
+        "geo": 0
+      },
+      "absResidualSum": 3,
+      "baseAbsResidualSum": 3,
+      "errorMovement": 0
+    },
+    {
+      "fixture_id": "real-026",
+      "repository": "eza-community/eza",
+      "archetype": "cli",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_install_config"
+      ],
+      "frozen": {
+        "overall": 3,
+        "seo": 4,
+        "aeo": 3,
+        "geo": 1
+      },
+      "baseline": {
+        "overall": 3,
+        "seo": 4,
+        "aeo": 3,
+        "geo": 3
+      },
+      "actual": {
+        "overall": 3,
+        "seo": 5,
+        "aeo": 4,
+        "geo": 1,
+        "raw_overall": 3
+      },
+      "diffs": {
+        "overall": 0,
+        "seo": -1,
+        "aeo": -1,
+        "geo": 0
+      },
+      "base_diffs": {
+        "overall": 0,
+        "seo": -1,
+        "aeo": -1,
+        "geo": 2
+      },
+      "absResidualSum": 2,
+      "baseAbsResidualSum": 4,
+      "errorMovement": -2
+    },
+    {
+      "fixture_id": "real-034",
+      "repository": "sindresorhus/ky",
+      "archetype": "library",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_api_reference"
+      ],
+      "frozen": {
+        "overall": 4,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 4
+      },
+      "baseline": {
+        "overall": 4,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 4
+      },
+      "actual": {
+        "overall": 5,
+        "seo": 4,
+        "aeo": 5,
+        "geo": 4,
+        "raw_overall": 5
+      },
+      "diffs": {
+        "overall": -1,
+        "seo": 0,
+        "aeo": -1,
+        "geo": 0
+      },
+      "base_diffs": {
+        "overall": -1,
+        "seo": 0,
+        "aeo": -1,
+        "geo": 0
+      },
+      "absResidualSum": 2,
+      "baseAbsResidualSum": 2,
+      "errorMovement": 0
+    },
+    {
+      "fixture_id": "real-040",
+      "repository": "nestjs/nest",
+      "archetype": "framework",
+      "readme_tags": [
+        "char_architecture",
+        "char_tutorial"
+      ],
+      "frozen": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 3,
+        "geo": 1
+      },
+      "baseline": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 3,
+        "geo": 3
+      },
+      "actual": {
+        "overall": 3,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 1,
+        "raw_overall": 3
+      },
+      "diffs": {
+        "overall": 0,
+        "seo": -1,
+        "aeo": -1,
+        "geo": 0
+      },
+      "base_diffs": {
+        "overall": 0,
+        "seo": -1,
+        "aeo": -1,
+        "geo": 2
+      },
+      "absResidualSum": 2,
+      "baseAbsResidualSum": 4,
+      "errorMovement": -2
+    },
+    {
+      "fixture_id": "real-051",
+      "repository": "sendgrid/sendgrid-python",
+      "archetype": "sdk",
+      "readme_tags": [
+        "char_example_heavy",
+        "char_install_config"
+      ],
+      "frozen": {
+        "overall": 4,
+        "seo": 4,
+        "aeo": 5,
+        "geo": 4
+      },
+      "baseline": {
+        "overall": 4,
+        "seo": 4,
+        "aeo": 5,
+        "geo": 4
+      },
+      "actual": {
+        "overall": 4,
+        "seo": 3,
+        "aeo": 4,
+        "geo": 4,
+        "raw_overall": 4
+      },
+      "diffs": {
+        "overall": 0,
+        "seo": 1,
+        "aeo": 1,
+        "geo": 0
+      },
+      "base_diffs": {
+        "overall": 0,
+        "seo": 1,
+        "aeo": 1,
+        "geo": 0
+      },
+      "absResidualSum": 2,
+      "baseAbsResidualSum": 2,
+      "errorMovement": 0
+    },
+    {
+      "fixture_id": "real-059",
+      "repository": "vitest-dev/vitest",
+      "archetype": "devtool",
+      "readme_tags": [
+        "char_standard",
+        "char_feature_comparison"
+      ],
+      "frozen": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 4,
+        "geo": 3
+      },
+      "baseline": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 4,
+        "geo": 3
+      },
+      "actual": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 3,
+        "geo": 4,
+        "raw_overall": 3
+      },
+      "diffs": {
+        "overall": 0,
+        "seo": 0,
+        "aeo": 1,
+        "geo": -1
+      },
+      "base_diffs": {
+        "overall": 0,
+        "seo": 0,
+        "aeo": 1,
+        "geo": -1
+      },
+      "absResidualSum": 2,
+      "baseAbsResidualSum": 2,
+      "errorMovement": 0
+    },
+    {
+      "fixture_id": "real-060",
+      "repository": "astral-sh/ruff",
+      "archetype": "devtool",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_docs_heavy",
+        "char_install_config",
+        "char_mixed"
+      ],
+      "frozen": {
+        "overall": 4,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 4
+      },
+      "baseline": {
+        "overall": 4,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 4
+      },
+      "actual": {
+        "overall": 5,
+        "seo": 5,
+        "aeo": 4,
+        "geo": 4,
+        "raw_overall": 5
+      },
+      "diffs": {
+        "overall": -1,
+        "seo": -1,
+        "aeo": 0,
+        "geo": 0
+      },
+      "base_diffs": {
+        "overall": -1,
+        "seo": -1,
+        "aeo": 0,
+        "geo": 0
+      },
+      "absResidualSum": 2,
+      "baseAbsResidualSum": 2,
+      "errorMovement": 0
+    },
+    {
+      "fixture_id": "real-070",
+      "repository": "affinepro/affine",
+      "archetype": "webapp",
+      "readme_tags": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "frozen": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 3,
+        "geo": 1
+      },
+      "baseline": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 3,
+        "geo": 3
+      },
+      "actual": {
+        "overall": 3,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 1,
+        "raw_overall": 3
+      },
+      "diffs": {
+        "overall": 0,
+        "seo": -1,
+        "aeo": -1,
+        "geo": 0
+      },
+      "base_diffs": {
+        "overall": 0,
+        "seo": -1,
+        "aeo": -1,
+        "geo": 2
+      },
+      "absResidualSum": 2,
+      "baseAbsResidualSum": 4,
+      "errorMovement": -2
+    },
+    {
+      "fixture_id": "real-085",
+      "repository": "backstage/backstage",
+      "archetype": "monorepo",
+      "readme_tags": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "frozen": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 4,
+        "geo": 1
+      },
+      "baseline": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 4,
+        "geo": 3
+      },
+      "actual": {
+        "overall": 3,
+        "seo": 4,
+        "aeo": 3,
+        "geo": 1,
+        "raw_overall": 3
+      },
+      "diffs": {
+        "overall": 0,
+        "seo": -1,
+        "aeo": 1,
+        "geo": 0
+      },
+      "base_diffs": {
+        "overall": 0,
+        "seo": -1,
+        "aeo": 1,
+        "geo": 2
+      },
+      "absResidualSum": 2,
+      "baseAbsResidualSum": 4,
+      "errorMovement": -2
+    },
+    {
+      "fixture_id": "real-041",
+      "repository": "gin-gonic/gin",
+      "archetype": "framework",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_example_heavy"
+      ],
+      "frozen": {
+        "overall": 4,
+        "seo": 3,
+        "aeo": 4,
+        "geo": 3
+      },
+      "baseline": {
+        "overall": 4,
+        "seo": 3,
+        "aeo": 4,
+        "geo": 3
+      },
+      "actual": {
+        "overall": 4,
+        "seo": 3,
+        "aeo": 4,
+        "geo": 4,
+        "raw_overall": 4
+      },
+      "diffs": {
+        "overall": 0,
+        "seo": 0,
+        "aeo": 0,
+        "geo": -1
+      },
+      "base_diffs": {
+        "overall": 0,
+        "seo": 0,
+        "aeo": 0,
+        "geo": -1
+      },
+      "absResidualSum": 1,
+      "baseAbsResidualSum": 1,
+      "errorMovement": 0
+    },
+    {
+      "fixture_id": "real-095",
+      "repository": "open-telemetry/opentelemetry-collector",
+      "archetype": "devops",
+      "readme_tags": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "frozen": {
+        "overall": 4,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 4
+      },
+      "baseline": {
+        "overall": 4,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 4
+      },
+      "actual": {
+        "overall": 4,
+        "seo": 3,
+        "aeo": 4,
+        "geo": 4,
+        "raw_overall": 4
+      },
+      "diffs": {
+        "overall": 0,
+        "seo": 1,
+        "aeo": 0,
+        "geo": 0
+      },
+      "base_diffs": {
+        "overall": 0,
+        "seo": 1,
+        "aeo": 0,
+        "geo": 0
+      },
+      "absResidualSum": 1,
+      "baseAbsResidualSum": 1,
+      "errorMovement": 0
+    },
+    {
+      "fixture_id": "real-105",
+      "repository": "ggerganov/llama.cpp",
+      "archetype": "data_ml",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_docs_heavy",
+        "char_install_config"
+      ],
+      "frozen": {
+        "overall": 3,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 3
+      },
+      "baseline": {
+        "overall": 3,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 3
+      },
+      "actual": {
+        "overall": 3,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 2,
+        "raw_overall": 3
+      },
+      "diffs": {
+        "overall": 0,
+        "seo": 0,
+        "aeo": 0,
+        "geo": 1
+      },
+      "base_diffs": {
+        "overall": 0,
+        "seo": 0,
+        "aeo": 0,
+        "geo": 1
+      },
+      "absResidualSum": 1,
+      "baseAbsResidualSum": 1,
+      "errorMovement": 0
+    },
+    {
+      "fixture_id": "real-120",
+      "repository": "segmentio/is-url",
+      "archetype": "small_project",
+      "readme_tags": [
+        "char_minimal",
+        "char_standard"
+      ],
+      "frozen": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 4,
+        "geo": 3
+      },
+      "baseline": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 4,
+        "geo": 3
+      },
+      "actual": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 4,
+        "geo": 2,
+        "raw_overall": 3
+      },
+      "diffs": {
+        "overall": 0,
+        "seo": 0,
+        "aeo": 0,
+        "geo": 1
+      },
+      "base_diffs": {
+        "overall": 0,
+        "seo": 0,
+        "aeo": 0,
+        "geo": 1
+      },
+      "absResidualSum": 1,
+      "baseAbsResidualSum": 1,
+      "errorMovement": 0
+    },
+    {
+      "fixture_id": "real-053",
+      "repository": "slackapi/bolt-js",
+      "archetype": "sdk",
+      "readme_tags": [
+        "char_tutorial",
+        "char_example_heavy"
+      ],
+      "frozen": {
+        "overall": 4,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 4
+      },
+      "baseline": {
+        "overall": 4,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 4
+      },
+      "actual": {
+        "overall": 4,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 4,
+        "raw_overall": 4
+      },
+      "diffs": {
+        "overall": 0,
+        "seo": 0,
+        "aeo": 0,
+        "geo": 0
+      },
+      "base_diffs": {
+        "overall": 0,
+        "seo": 0,
+        "aeo": 0,
+        "geo": 0
+      },
+      "absResidualSum": 0,
+      "baseAbsResidualSum": 0,
+      "errorMovement": 0
+    },
+    {
+      "fixture_id": "real-112",
+      "repository": "nvim-treesitter/nvim-treesitter",
+      "archetype": "plugin",
+      "readme_tags": [
+        "char_install_config",
+        "char_tutorial"
+      ],
+      "frozen": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 4,
+        "geo": 3
+      },
+      "baseline": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 4,
+        "geo": 3
+      },
+      "actual": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 4,
+        "geo": 3,
+        "raw_overall": 3
+      },
+      "diffs": {
+        "overall": 0,
+        "seo": 0,
+        "aeo": 0,
+        "geo": 0
+      },
+      "base_diffs": {
+        "overall": 0,
+        "seo": 0,
+        "aeo": 0,
+        "geo": 0
+      },
+      "absResidualSum": 0,
+      "baseAbsResidualSum": 0,
+      "errorMovement": 0
+    }
+  ]
+}

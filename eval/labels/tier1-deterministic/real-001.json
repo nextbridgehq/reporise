@@ -1,0 +1,48 @@
+{
+  "fixture_id": "real-001",
+  "repository": "eslint/eslint",
+  "rubric_version": "m8-label-rubric-v1.0.0",
+  "evaluator_id": "reporise_deterministic_v0.2.0",
+  "label_source": "deterministic_audit",
+  "human_verified": false,
+  "gold_role": "none",
+  "scores": {
+    "overall": 5,
+    "seo": 5,
+    "aeo": 5,
+    "geo": 5
+  },
+  "raw_scores": {
+    "overall": 94,
+    "seo": 100,
+    "aeo": 96,
+    "geo": 91
+  },
+  "rationale": {
+    "overall": "Deterministic audit overall score 94% mapped to bucket 5. Top fixes: Examples directory; Machine-readable attribution (CITATION.cff or llms.txt).",
+    "seo": "Deterministic audit SEO surface score 100% mapped to bucket 5.",
+    "aeo": "Deterministic audit AEO surface score 96% mapped to bucket 5.",
+    "geo": "Deterministic audit GEO surface score 91% mapped to bucket 5."
+  },
+  "top_fixes": [
+    {
+      "id": "examples-surface",
+      "title": "Examples directory",
+      "status": "warn",
+      "priority": 50
+    },
+    {
+      "id": "citation-metadata",
+      "title": "Machine-readable attribution (CITATION.cff or llms.txt)",
+      "status": "warn",
+      "priority": 25
+    },
+    {
+      "id": "when-to-use",
+      "title": "Explicit scope: when to use, when not to",
+      "status": "warn",
+      "priority": 25
+    }
+  ],
+  "reviewed_at": "2026-09-08T12:31:13.052Z"
+}

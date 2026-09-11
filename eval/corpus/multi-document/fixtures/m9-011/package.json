@@ -1,0 +1,7 @@
+{
+  "name": "babel",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

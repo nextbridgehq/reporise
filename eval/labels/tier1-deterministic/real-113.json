@@ -1,0 +1,66 @@
+{
+  "fixture_id": "real-113",
+  "repository": "tpope/vim-fugitive",
+  "rubric_version": "m8-label-rubric-v1.0.0",
+  "evaluator_id": "reporise_deterministic_v0.2.0",
+  "label_source": "deterministic_audit",
+  "human_verified": false,
+  "gold_role": "none",
+  "scores": {
+    "overall": 2,
+    "seo": 2,
+    "aeo": 1,
+    "geo": 2
+  },
+  "raw_scores": {
+    "overall": 39,
+    "seo": 40,
+    "aeo": 25,
+    "geo": 43
+  },
+  "rationale": {
+    "overall": "Deterministic audit overall score 39% mapped to bucket 2. Top fixes: README exists; LICENSE file present.",
+    "seo": "Deterministic audit SEO surface score 40% mapped to bucket 2.",
+    "aeo": "Deterministic audit AEO surface score 25% mapped to bucket 1.",
+    "geo": "Deterministic audit GEO surface score 43% mapped to bucket 2."
+  },
+  "top_fixes": [
+    {
+      "id": "readme-present",
+      "title": "README exists",
+      "status": "fail",
+      "priority": 150
+    },
+    {
+      "id": "license-file",
+      "title": "LICENSE file present",
+      "status": "fail",
+      "priority": 100
+    },
+    {
+      "id": "docs-surface",
+      "title": "Documentation beyond the README",
+      "status": "warn",
+      "priority": 50
+    },
+    {
+      "id": "examples-surface",
+      "title": "Examples directory",
+      "status": "warn",
+      "priority": 50
+    },
+    {
+      "id": "changelog",
+      "title": "CHANGELOG present",
+      "status": "warn",
+      "priority": 40
+    },
+    {
+      "id": "citation-metadata",
+      "title": "Machine-readable attribution (CITATION.cff or llms.txt)",
+      "status": "warn",
+      "priority": 25
+    }
+  ],
+  "reviewed_at": "2026-09-08T12:31:13.052Z"
+}

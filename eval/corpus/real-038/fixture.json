@@ -1,0 +1,35 @@
+{
+  "id": "real-038",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "sveltejs/svelte",
+  "commit": "5895c637b04dc8667020c8d326807c3f3a984472",
+  "capturedAt": "2026-09-08T11:52:56.473Z",
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "a655c11d20c1c509f16872a9ad596e655ad45552ddc059e75d055b7069a8b44c",
+      "sizeBytes": 130
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "ed3f9a8d27fb1befafae5a6840739dc0def58c8734ee0b46b44bb6ccac7be0b0",
+      "sizeBytes": 10449
+    },
+    {
+      "path": "LICENSE.md",
+      "sha256": "e4b4279a504e52a8b67f8b7ed9447044ec7ddb16a12205d5e3335f49fddbebe8",
+      "sizeBytes": 1133
+    },
+    {
+      "path": "package.json",
+      "sha256": "8f58e7f96b17b7cdcaa3e3f48e285b3172debfb93eabb54bb5dd75a34ed250f5",
+      "sizeBytes": 1931
+    },
+    {
+      "path": "README.md",
+      "sha256": "c5c797235d40af58a466a215bc2a1d700347f4497dffd570d014c7dd0a72c430",
+      "sizeBytes": 1768
+    }
+  ]
+}

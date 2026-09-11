@@ -1,0 +1,99 @@
+{
+  "milestone_target": "M8.6",
+  "title": "RepoRise M8.6 Candidate Optimization Targets",
+  "brief_version": "1.1.0",
+  "budget_allocation_summary": {
+    "P0_geo_evidence_quality": "35%",
+    "P0_docs_monorepo_architecture": "30%",
+    "P1_aeo_narrative_phrasing": "20%",
+    "P1_comparative_synthesis": "10%",
+    "P2_boundary_jitter": "5%",
+    "total_budget": "100%"
+  },
+  "geo_competing_hypotheses": [
+    {
+      "hypothesis": "Hypothesis A (Weighting)",
+      "description": "Reduce code-block and table surface contribution directly in surface calculation"
+    },
+    {
+      "hypothesis": "Hypothesis B (Conditional Gating)",
+      "description": "Require citation/architecture evidence before high GEO buckets (4 and 5) become reachable"
+    },
+    {
+      "hypothesis": "Hypothesis C (Contextual Gating)",
+      "description": "Make code/table evidence conditional on presence of a valid technical pitch and clear scope definition"
+    },
+    {
+      "hypothesis": "Hypothesis D (Evidence-Quality Tiers)",
+      "description": "Introduce separate evidence-quality tiers distinguishing syntax examples from formal machine citability assets"
+    }
+  ],
+  "regression_protection_gates": {
+    "real_validation_overall_tolerance": 0.02,
+    "surface_regression_tolerance": 0.05,
+    "archetype_regression_tolerance": 0.15,
+    "non_negotiable_invariants": [
+      "Real Test (24 repos) is held-out and strictly inaccessible to the optimizer",
+      "Human Gold Evaluation subset (15 repos) is strictly inaccessible to the optimizer",
+      "Synthetic Train/Val and Real Train/Val are the only permitted training/tuning signals"
+    ]
+  },
+  "ranking": [
+    {
+      "priority": "P0",
+      "failure_mode": "GEO Citability Evidence Over-Credit (F04)",
+      "scope": "Cross-archetype (Widespread, 12 archetypes affected)",
+      "evidence": "GEO Mean Error is +0.5083; MAE is 0.9917. RepoRise awards bucket 4 based on standard code fences where human raters require formal architecture, comparison, and attribution.",
+      "candidate_modality": "WEIGHTING, CONDITIONAL & STRUCTURAL",
+      "testable_hypotheses": ["Hypothesis A", "Hypothesis B", "Hypothesis C", "Hypothesis D"],
+      "expected_generalization_gain": "High (reduces GEO MAE from 0.99 toward ~0.65 across all splits)",
+      "validation_budget_allocation": "35%",
+      "existing_dsl_capability": "Weight modifiers in checks.mjs and conditional predicate checks",
+      "new_dsl_capability_required": false
+    },
+    {
+      "priority": "P0",
+      "failure_mode": "Docs-Heavy & Deep Architecture Section Misalignment (F08 / F03)",
+      "scope": "Docs, Monorepos, and Architecture-heavy repositories (MAE 1.07)",
+      "evidence": "Heuristics evaluate only root README and top-level headings, failing to inspect nested docs/ structures or subpackage exports.",
+      "candidate_modality": "STRUCTURAL",
+      "expected_generalization_gain": "High (reduces MAE on Docs-Heavy and Monorepo from >1.0 to <0.70)",
+      "validation_budget_allocation": "30%",
+      "existing_dsl_capability": "Directory inspection signals in collect.mjs (docs/ presence, depth checks)",
+      "new_dsl_capability_required": false
+    },
+    {
+      "priority": "P1",
+      "failure_mode": "AEO Conversational & Narrative Prose Disconnect (F01)",
+      "scope": "Cross-archetype (Libraries, SDKs, CLI)",
+      "evidence": "AEO answers exist in descriptive paragraphs but lack exact keyword headings ('Installation', 'Usage').",
+      "candidate_modality": "LEXICAL & COMPOSITIONAL",
+      "expected_generalization_gain": "Medium (AEO MAE currently 0.6417; can reach <0.50)",
+      "validation_budget_allocation": "20%",
+      "existing_dsl_capability": "Regex expansion in SECTION_PATTERNS and DEFINITIONAL_PATTERN",
+      "new_dsl_capability_required": false
+    },
+    {
+      "priority": "P1",
+      "failure_mode": "Comparative Section Synthesis (F09)",
+      "scope": "Feature-comparison and Library archetypes",
+      "evidence": "Repositories explain trade-offs and alternatives in prose without using 'vs' or dedicated comparison table headers.",
+      "candidate_modality": "LEXICAL & STRUCTURAL",
+      "expected_generalization_gain": "Medium (targeted at 24 comparison-heavy repos)",
+      "validation_budget_allocation": "10%",
+      "existing_dsl_capability": "comparison-section heuristic in checks.mjs",
+      "new_dsl_capability_required": false
+    },
+    {
+      "priority": "P2",
+      "failure_mode": "Boundary Threshold Jitter / Granularity Mismatch (F05)",
+      "scope": "Isolated boundary cases (|diff| = 1)",
+      "evidence": "Repositories sitting at 68% or 69% vs 70% bucket threshold.",
+      "candidate_modality": "WEIGHTING",
+      "expected_generalization_gain": "Low (marginal fine-tuning)",
+      "validation_budget_allocation": "5%",
+      "existing_dsl_capability": "scoreToBucket thresholds",
+      "new_dsl_capability_required": false
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "release_tag": "corpus-m8-v1.0.0",
+  "release_title": "RepoRise M8 Real-World Ground Truth Corpus",
+  "schema_version": "1.0.0",
+  "released_at": "2026-09-08T14:04:53.809Z",
+  "evaluation_engine_version": "0.2.0",
+  "rubric_version": "m8-label-rubric-v1.0.0",
+  "calibration_version": "m8-cal-v1.0.0",
+  "corpus": {
+    "repository_count": 120,
+    "fixture_files_count": 1942,
+    "total_bytes": 31097959,
+    "manifest_file": "eval/manifests/corpus.sha256",
+    "manifest_sha256": "c955c737f3f21d940cbb92a20d5d9df9fbc952047b4a2030e4385bab282eedd0"
+  },
+  "metadata": {
+    "inventory_file": "eval/metadata/inventory.json",
+    "splits_file": "eval/metadata/splits.json",
+    "taxonomy_file": "eval/metadata/taxonomy.json",
+    "provenance_file": "eval/metadata/provenance.json"
+  },
+  "labels": {
+    "tier1_deterministic_count": 120,
+    "reviewer_a_count": 120,
+    "reviewer_b_count": 50,
+    "human_gold_count": 25,
+    "consolidated_count": 120,
+    "manifest_file": "eval/manifests/labels.sha256",
+    "manifest_sha256": "a5020bb5f50baa3b9d43fa16b2b4ad6c4626a3d265634803df40a61ed659ac0b",
+    "inter_rater_agreement": {
+      "double_reviewed_n": 50,
+      "mae": 0.02,
+      "exact_match_pct": 98,
+      "within_one_pct": 100,
+      "major_disagreements": 0
+    },
+    "calibration": {
+      "calibration_subset_n": 10,
+      "evaluation_subset_n": 15,
+      "contamination_check": "VERIFIED_ZERO_CONTAMINATION",
+      "empirical_rater_offsets": {
+        "overall": 0,
+        "seo": 0,
+        "aeo": -0.3,
+        "geo": 0
+      },
+      "methodological_note": "dAEO = -0.30 represents an empirical rater divergence on the 10-repo calibration subset, not an absolute objective truth claim. Raw scores are preserved immutably alongside calibrated scores."
+    }
+  },
+  "stratification": {
+    "splits": {
+      "train": 72,
+      "validation": 24,
+      "test": 24
+    },
+    "archetypes": {
+      "devtool": 10,
+      "cli": 10,
+      "library": 12,
+      "framework": 10,
+      "data_ml": 14,
+      "devops": 12,
+      "docs": 8,
+      "sdk": 12,
+      "webapp": 10,
+      "monorepo": 8,
+      "plugin": 7,
+      "small_project": 7
+    },
+    "readme_characteristics": {
+      "char_standard": 50,
+      "char_install_config": 46,
+      "char_feature_comparison": 24,
+      "char_example_heavy": 32,
+      "char_tutorial": 31,
+      "char_architecture": 30,
+      "char_docs_heavy": 15,
+      "char_mixed": 9,
+      "char_minimal": 8,
+      "char_api_reference": 15
+    }
+  },
+  "gates": {
+    "M8.1-A_acquisition_inventory": "PASSED",
+    "M8.1-B_commit_pinning": "PASSED",
+    "M8.1-C_stratification": "PASSED",
+    "M8.1-D_fixture_contract": "PASSED",
+    "M8.2-A_rubric_freeze": "PASSED",
+    "M8.2-B_tier1_audit": "PASSED",
+    "M8.2-C_reviewer_a": "PASSED",
+    "M8.2-D_reviewer_b": "PASSED",
+    "M8.2-E_agreement_threshold": "PASSED",
+    "M8.2-F_human_gold": "PASSED",
+    "M8.2-G_calibration_offset": "PASSED",
+    "M8.2-H_evaluation_separation": "PASSED",
+    "M8.2-I_raw_preservation": "PASSED",
+    "M8.3-A_corpus_manifest_hash": "SEALED",
+    "M8.3-B_labels_manifest_hash": "SEALED",
+    "M8.3-C_release_layers_packaged": "SEALED"
+  }
+}

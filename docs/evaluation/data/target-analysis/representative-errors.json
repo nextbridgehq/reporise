@@ -1,0 +1,477 @@
+{
+  "top_positive_errors": [
+    {
+      "fixture_id": "real-033",
+      "repository": "colinhacks/zod",
+      "archetype": "library",
+      "readme_tags": [
+        "char_docs_heavy",
+        "char_api_reference",
+        "char_example_heavy",
+        "char_mixed"
+      ],
+      "split": "validation",
+      "pred_scores": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 3
+      },
+      "actual_scores": {
+        "overall": 0,
+        "seo": 0,
+        "aeo": 0,
+        "geo": 0
+      },
+      "residuals": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 3
+      },
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "triggered_evidence": "Files & keywords detected (license, code blocks, description)",
+      "expected_evidence": "Raters penalized sparse contextual explanation and missing architectural depth",
+      "potential_remediation": "Require section depth and contextual relevance before awarding top buckets"
+    },
+    {
+      "fixture_id": "real-035",
+      "repository": "sqlalchemy/sqlalchemy",
+      "archetype": "library",
+      "readme_tags": [
+        "char_standard",
+        "char_docs_heavy"
+      ],
+      "split": "test",
+      "pred_scores": {
+        "overall": 3,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 3
+      },
+      "actual_scores": {
+        "overall": 1,
+        "seo": 1,
+        "aeo": 2,
+        "geo": 1
+      },
+      "residuals": {
+        "overall": 2,
+        "seo": 3,
+        "aeo": 2,
+        "geo": 2
+      },
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "triggered_evidence": "Files & keywords detected (license, code blocks, description)",
+      "expected_evidence": "Raters penalized sparse contextual explanation and missing architectural depth",
+      "potential_remediation": "Require section depth and contextual relevance before awarding top buckets"
+    },
+    {
+      "fixture_id": "real-056",
+      "repository": "biomejs/biome",
+      "archetype": "devtool",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_tutorial"
+      ],
+      "split": "train",
+      "pred_scores": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 2
+      },
+      "actual_scores": {
+        "overall": 0,
+        "seo": 0,
+        "aeo": 0,
+        "geo": 0
+      },
+      "residuals": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 2
+      },
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "triggered_evidence": "Files & keywords detected (license, code blocks, description)",
+      "expected_evidence": "Raters penalized sparse contextual explanation and missing architectural depth",
+      "potential_remediation": "Require section depth and contextual relevance before awarding top buckets"
+    },
+    {
+      "fixture_id": "real-097",
+      "repository": "numpy/numpy",
+      "archetype": "data_ml",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "split": "train",
+      "pred_scores": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 3,
+        "geo": 3
+      },
+      "actual_scores": {
+        "overall": 1,
+        "seo": 1,
+        "aeo": 1,
+        "geo": 1
+      },
+      "residuals": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 2
+      },
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "triggered_evidence": "Files & keywords detected (license, code blocks, description)",
+      "expected_evidence": "Raters penalized sparse contextual explanation and missing architectural depth",
+      "potential_remediation": "Require section depth and contextual relevance before awarding top buckets"
+    },
+    {
+      "fixture_id": "real-011",
+      "repository": "django/django",
+      "archetype": "framework",
+      "readme_tags": [
+        "char_standard",
+        "char_docs_heavy"
+      ],
+      "split": "train",
+      "pred_scores": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 3,
+        "geo": 3
+      },
+      "actual_scores": {
+        "overall": 1,
+        "seo": 1,
+        "aeo": 2,
+        "geo": 1
+      },
+      "residuals": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 1,
+        "geo": 2
+      },
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "triggered_evidence": "Files & keywords detected (license, code blocks, description)",
+      "expected_evidence": "Raters penalized sparse contextual explanation and missing architectural depth",
+      "potential_remediation": "Require section depth and contextual relevance before awarding top buckets"
+    }
+  ],
+  "top_negative_errors": [
+    {
+      "fixture_id": "real-003",
+      "repository": "BurntSushi/ripgrep",
+      "archetype": "cli",
+      "readme_tags": [
+        "char_standard",
+        "char_feature_comparison",
+        "char_install_config"
+      ],
+      "split": "train",
+      "pred_scores": {
+        "overall": 3,
+        "seo": 4,
+        "aeo": 3,
+        "geo": 3
+      },
+      "actual_scores": {
+        "overall": 4,
+        "seo": 5,
+        "aeo": 5,
+        "geo": 2
+      },
+      "residuals": {
+        "overall": -1,
+        "seo": -1,
+        "aeo": -2,
+        "geo": 1
+      },
+      "failure_code": "F01",
+      "modality": "LEXICAL",
+      "triggered_evidence": "Strict heading patterns failed to match unconventional prose structure",
+      "expected_evidence": "Human raters easily extracted answers to canonical questions from narrative prose",
+      "potential_remediation": "Expand synonym patterns and conversational phrasing recognizers in AEO"
+    },
+    {
+      "fixture_id": "real-047",
+      "repository": "openai/openai-python",
+      "archetype": "sdk",
+      "readme_tags": [
+        "char_example_heavy",
+        "char_api_reference"
+      ],
+      "split": "train",
+      "pred_scores": {
+        "overall": 4,
+        "seo": 3,
+        "aeo": 5,
+        "geo": 3
+      },
+      "actual_scores": {
+        "overall": 5,
+        "seo": 5,
+        "aeo": 4,
+        "geo": 4
+      },
+      "residuals": {
+        "overall": -1,
+        "seo": -2,
+        "aeo": 1,
+        "geo": -1
+      },
+      "failure_code": "F01",
+      "modality": "LEXICAL",
+      "triggered_evidence": "Strict heading patterns failed to match unconventional prose structure",
+      "expected_evidence": "Human raters easily extracted answers to canonical questions from narrative prose",
+      "potential_remediation": "Expand synonym patterns and conversational phrasing recognizers in AEO"
+    },
+    {
+      "fixture_id": "real-012",
+      "repository": "huggingface/transformers",
+      "archetype": "data_ml",
+      "readme_tags": [
+        "char_tutorial",
+        "char_example_heavy",
+        "char_feature_comparison",
+        "char_mixed"
+      ],
+      "split": "train",
+      "pred_scores": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 4,
+        "geo": 4
+      },
+      "actual_scores": {
+        "overall": 5,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 5
+      },
+      "residuals": {
+        "overall": -2,
+        "seo": -1,
+        "aeo": 0,
+        "geo": -1
+      },
+      "failure_code": "F01",
+      "modality": "LEXICAL",
+      "triggered_evidence": "Strict heading patterns failed to match unconventional prose structure",
+      "expected_evidence": "Human raters easily extracted answers to canonical questions from narrative prose",
+      "potential_remediation": "Expand synonym patterns and conversational phrasing recognizers in AEO"
+    },
+    {
+      "fixture_id": "real-027",
+      "repository": "astral-sh/uv",
+      "archetype": "cli",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_docs_heavy",
+        "char_install_config",
+        "char_mixed"
+      ],
+      "split": "test",
+      "pred_scores": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 4,
+        "geo": 3
+      },
+      "actual_scores": {
+        "overall": 4,
+        "seo": 5,
+        "aeo": 4,
+        "geo": 4
+      },
+      "residuals": {
+        "overall": -1,
+        "seo": -2,
+        "aeo": 0,
+        "geo": -1
+      },
+      "failure_code": "F01",
+      "modality": "LEXICAL",
+      "triggered_evidence": "Strict heading patterns failed to match unconventional prose structure",
+      "expected_evidence": "Human raters easily extracted answers to canonical questions from narrative prose",
+      "potential_remediation": "Expand synonym patterns and conversational phrasing recognizers in AEO"
+    },
+    {
+      "fixture_id": "real-084",
+      "repository": "storybookjs/storybook",
+      "archetype": "monorepo",
+      "readme_tags": [
+        "char_architecture",
+        "char_tutorial"
+      ],
+      "split": "validation",
+      "pred_scores": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 4,
+        "geo": 3
+      },
+      "actual_scores": {
+        "overall": 4,
+        "seo": 5,
+        "aeo": 4,
+        "geo": 2
+      },
+      "residuals": {
+        "overall": -1,
+        "seo": -2,
+        "aeo": 0,
+        "geo": 1
+      },
+      "failure_code": "F01",
+      "modality": "LEXICAL",
+      "triggered_evidence": "Strict heading patterns failed to match unconventional prose structure",
+      "expected_evidence": "Human raters easily extracted answers to canonical questions from narrative prose",
+      "potential_remediation": "Expand synonym patterns and conversational phrasing recognizers in AEO"
+    }
+  ],
+  "near_perfect_examples": [
+    {
+      "fixture_id": "real-006",
+      "repository": "expressjs/express",
+      "archetype": "framework",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "split": "train",
+      "pred_scores": {
+        "overall": 4,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 4
+      },
+      "actual_scores": {
+        "overall": 4,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 4
+      },
+      "alignment_factors": "Canonical H1, clear lede sentence, OSI license, syntax-highlighted quickstart, clean section headers matching heuristics"
+    },
+    {
+      "fixture_id": "real-029",
+      "repository": "chalk/chalk",
+      "archetype": "library",
+      "readme_tags": [
+        "char_example_heavy",
+        "char_api_reference"
+      ],
+      "split": "train",
+      "pred_scores": {
+        "overall": 4,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 4
+      },
+      "actual_scores": {
+        "overall": 4,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 4
+      },
+      "alignment_factors": "Canonical H1, clear lede sentence, OSI license, syntax-highlighted quickstart, clean section headers matching heuristics"
+    },
+    {
+      "fixture_id": "real-053",
+      "repository": "slackapi/bolt-js",
+      "archetype": "sdk",
+      "readme_tags": [
+        "char_tutorial",
+        "char_example_heavy"
+      ],
+      "split": "test",
+      "pred_scores": {
+        "overall": 4,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 4
+      },
+      "actual_scores": {
+        "overall": 4,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 4
+      },
+      "alignment_factors": "Canonical H1, clear lede sentence, OSI license, syntax-highlighted quickstart, clean section headers matching heuristics"
+    },
+    {
+      "fixture_id": "real-072",
+      "repository": "ryanmcdermott/clean-code-javascript",
+      "archetype": "docs",
+      "readme_tags": [
+        "char_docs_heavy",
+        "char_example_heavy"
+      ],
+      "split": "train",
+      "pred_scores": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 3,
+        "geo": 3
+      },
+      "actual_scores": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 3,
+        "geo": 3
+      },
+      "alignment_factors": "Canonical H1, clear lede sentence, OSI license, syntax-highlighted quickstart, clean section headers matching heuristics"
+    },
+    {
+      "fixture_id": "real-109",
+      "repository": "actions/setup-node",
+      "archetype": "plugin",
+      "readme_tags": [
+        "char_example_heavy",
+        "char_api_reference"
+      ],
+      "split": "train",
+      "pred_scores": {
+        "overall": 4,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 4
+      },
+      "actual_scores": {
+        "overall": 4,
+        "seo": 4,
+        "aeo": 4,
+        "geo": 4
+      },
+      "alignment_factors": "Canonical H1, clear lede sentence, OSI license, syntax-highlighted quickstart, clean section headers matching heuristics"
+    }
+  ],
+  "archetype_case_studies": {
+    "library": {
+      "fixture_id": "real-033",
+      "repository": "colinhacks/zod",
+      "issue": "Library README is very code-dense with API samples, but heuristic penalized missing comparison heading while reviewer gave credit."
+    },
+    "webapp": {
+      "fixture_id": "real-060",
+      "repository": "coder/code-server",
+      "issue": "Webapp contains complex setup/config instructions that heuristic fragmented across sections."
+    },
+    "monorepo": {
+      "fixture_id": "real-073",
+      "repository": "babel/babel",
+      "issue": "Root README points to package subdirectories; root-only inspection under-counts documentation depth."
+    }
+  }
+}

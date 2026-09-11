@@ -1,0 +1,6 @@
+{
+  "https://flask.palletsprojects.com/en/stable/": {
+    "http_status": 200,
+    "content": "# Flask Documentation\n\n## Installation\n```bash\npip install Flask\n```\n\n## A Minimal Application\n```python\nfrom flask import Flask\napp = Flask(__name__)\n```\n"
+  }
+}

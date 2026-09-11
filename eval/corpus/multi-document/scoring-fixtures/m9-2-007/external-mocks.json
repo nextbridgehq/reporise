@@ -1,0 +1,6 @@
+{
+  "https://click.palletsprojects.com": {
+    "http_status": 200,
+    "content": "# Click Documentation\n\n## Installing\n```bash\npip install click\n```\n\n## Quickstart\n```python\nimport click\n@click.command()\ndef hello():\n    click.echo('Hello World!')\n```\n"
+  }
+}

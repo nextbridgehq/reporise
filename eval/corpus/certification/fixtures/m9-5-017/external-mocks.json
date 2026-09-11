@@ -1,0 +1,6 @@
+{
+  "https://str-utils.github.io/docs/": {
+    "http_status": 200,
+    "content": "# String Utils Documentation\n\n## Installation\n```bash\nnpm install str-utils\n```\n\n## Quickstart\n```javascript\nconst { camelCase } = require('str-utils');\nconsole.log(camelCase('hello world'));\n```\n\n## Advanced API\n```javascript\nconst { kebabCase } = require('str-utils');\nconsole.log(kebabCase('fooBar'));\n```\n"
+  }
+}

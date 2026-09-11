@@ -1,0 +1,7 @@
+{
+  "name": "mantine-root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

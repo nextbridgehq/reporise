@@ -1,0 +1,25 @@
+{
+  "id": "real-115",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "sindresorhus/is-plain-obj",
+  "commit": "97f38e8836f86a642cce98fc6ab3058bc36df181",
+  "capturedAt": "2026-09-08T12:22:31.342Z",
+  "files": [
+    {
+      "path": "license",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "sizeBytes": 1117
+    },
+    {
+      "path": "package.json",
+      "sha256": "9485ae696971693b5d20ca8e6e38b42460b1c5b89cdc129c6938c055cb2964c6",
+      "sizeBytes": 709
+    },
+    {
+      "path": "readme.md",
+      "sha256": "ff7600f94089bc665966ec712cecaca3bbc881d1a11c41e360feaf79cc81b041",
+      "sizeBytes": 1236
+    }
+  ]
+}

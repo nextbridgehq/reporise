@@ -1,0 +1,7 @@
+{
+  "name": "lerna-project",
+  "description": "Monorepo tool for JavaScript projects",
+  "workspaces": [
+    "packages/*"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "real-075",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "github/gitignore",
+  "commit": "361f1e6afa729dc58ec33bf0849772a03ddf6822",
+  "capturedAt": "2026-09-08T12:23:55.405Z",
+  "files": [
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "9ead03e702e3310b28078ab0aa43e8f94e63bab9e275a5f4a32509184fbb459c",
+      "sizeBytes": 2685
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "4d2eef679d5faf924534bcc132646322e9a852ce50ae5616694e0b95f7b8275d",
+      "sizeBytes": 6671
+    },
+    {
+      "path": "README.md",
+      "sha256": "957f913c67aba512eeb40447fd1c078024a83690ce0f5f1ff0879f1526da2f25",
+      "sizeBytes": 5757
+    }
+  ]
+}

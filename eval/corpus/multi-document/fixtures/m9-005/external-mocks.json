@@ -1,0 +1,6 @@
+{
+  "https://docs.djangoproject.com/en/stable/": {
+    "http_status": 200,
+    "content": "# Django Documentation\n\n## Quick-install guide\n```bash\npip install Django\n```\n\n## Writing your first Django app\nRun django-admin startproject mysite.\n"
+  }
+}

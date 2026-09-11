@@ -1,0 +1,2469 @@
+{
+  "milestone": "M9.4",
+  "title": "RepoRise M9.4 Evidence Relevance & Citation Quality Calibration Report",
+  "timestamp": "2026-09-09T12:02:56.276Z",
+  "git_head": "c8973743d7a036c5eeb6dc5f3cafe628025e759d",
+  "scoring_engine_sha": "v0.1.0",
+  "split_metrics": {
+    "dev": {
+      "count": 24,
+      "baseline": {
+        "overall": {
+          "n": 24,
+          "mae": 1.6667,
+          "me": -1.6667,
+          "exactPct": 0,
+          "withinOnePct": 33.3
+        },
+        "seo": {
+          "n": 24,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 24,
+          "mae": 1,
+          "me": -1,
+          "exactPct": 0,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 24,
+          "mae": 1.6667,
+          "me": -1.6667,
+          "exactPct": 0,
+          "withinOnePct": 33.3
+        }
+      },
+      "multi": {
+        "overall": {
+          "n": 24,
+          "mae": 0.6667,
+          "me": -0.6667,
+          "exactPct": 33.3,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 24,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 24,
+          "mae": 0.25,
+          "me": -0.25,
+          "exactPct": 75,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 24,
+          "mae": 0.625,
+          "me": -0.5417,
+          "exactPct": 50,
+          "withinOnePct": 87.5
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": -1,
+          "pctMae": -60,
+          "deltaMe": 1
+        },
+        "seo": {
+          "deltaMae": 0,
+          "pctMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": -0.75,
+          "pctMae": -75,
+          "deltaMe": 0.75
+        },
+        "geo": {
+          "deltaMae": -1.0417,
+          "pctMae": -62.5,
+          "deltaMe": 1.125
+        }
+      }
+    },
+    "evaluation_sealed": {
+      "count": 16,
+      "baseline": {
+        "overall": {
+          "n": 16,
+          "mae": 1.625,
+          "me": -1.625,
+          "exactPct": 0,
+          "withinOnePct": 37.5
+        },
+        "seo": {
+          "n": 16,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 16,
+          "mae": 1,
+          "me": -1,
+          "exactPct": 0,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 16,
+          "mae": 1.625,
+          "me": -1.625,
+          "exactPct": 0,
+          "withinOnePct": 37.5
+        }
+      },
+      "multi": {
+        "overall": {
+          "n": 16,
+          "mae": 0.6875,
+          "me": -0.6875,
+          "exactPct": 37.5,
+          "withinOnePct": 93.8
+        },
+        "seo": {
+          "n": 16,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 16,
+          "mae": 0.3125,
+          "me": -0.3125,
+          "exactPct": 68.8,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 16,
+          "mae": 0.875,
+          "me": -0.75,
+          "exactPct": 31.3,
+          "withinOnePct": 81.3
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": -0.9375,
+          "pctMae": -57.69,
+          "deltaMe": 0.9375
+        },
+        "seo": {
+          "deltaMae": 0,
+          "pctMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": -0.6875,
+          "pctMae": -68.75,
+          "deltaMe": 0.6875
+        },
+        "geo": {
+          "deltaMae": -0.75,
+          "pctMae": -46.15,
+          "deltaMe": 0.875
+        }
+      }
+    },
+    "all": {
+      "count": 40,
+      "baseline": {
+        "overall": {
+          "n": 40,
+          "mae": 1.65,
+          "me": -1.65,
+          "exactPct": 0,
+          "withinOnePct": 35
+        },
+        "seo": {
+          "n": 40,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 40,
+          "mae": 1,
+          "me": -1,
+          "exactPct": 0,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 40,
+          "mae": 1.65,
+          "me": -1.65,
+          "exactPct": 0,
+          "withinOnePct": 35
+        }
+      },
+      "multi": {
+        "overall": {
+          "n": 40,
+          "mae": 0.675,
+          "me": -0.675,
+          "exactPct": 35,
+          "withinOnePct": 97.5
+        },
+        "seo": {
+          "n": 40,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 40,
+          "mae": 0.275,
+          "me": -0.275,
+          "exactPct": 72.5,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 40,
+          "mae": 0.725,
+          "me": -0.625,
+          "exactPct": 42.5,
+          "withinOnePct": 85
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": -0.975,
+          "pctMae": -59.09,
+          "deltaMe": 0.975
+        },
+        "seo": {
+          "deltaMae": 0,
+          "pctMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": -0.725,
+          "pctMae": -72.5,
+          "deltaMe": 0.725
+        },
+        "geo": {
+          "deltaMae": -0.925,
+          "pctMae": -56.06,
+          "deltaMe": 1.025
+        }
+      }
+    }
+  },
+  "bootstrap_uncertainty": {
+    "dev": {
+      "overall": {
+        "estimate": -1,
+        "ci": [
+          -1,
+          -1
+        ]
+      },
+      "seo": {
+        "estimate": 0,
+        "ci": [
+          0,
+          0
+        ]
+      },
+      "aeo": {
+        "estimate": -0.75,
+        "ci": [
+          -0.9167,
+          -0.5833
+        ]
+      },
+      "geo": {
+        "estimate": -1.0417,
+        "ci": [
+          -1.375,
+          -0.75
+        ]
+      }
+    },
+    "evaluation_sealed": {
+      "overall": {
+        "estimate": -0.9375,
+        "ci": [
+          -1,
+          -0.8125
+        ]
+      },
+      "seo": {
+        "estimate": 0,
+        "ci": [
+          0,
+          0
+        ]
+      },
+      "aeo": {
+        "estimate": -0.6875,
+        "ci": [
+          -0.875,
+          -0.4375
+        ]
+      },
+      "geo": {
+        "estimate": -0.75,
+        "ci": [
+          -1.0625,
+          -0.4375
+        ]
+      }
+    }
+  },
+  "post_calibration_attribution": {
+    "total_residuals_m9_3": 87,
+    "total_residuals_m9_4": 60,
+    "reduction_pct": 31,
+    "by_state": {
+      "scoring_distortion": 12,
+      "selection_mismatch": 45,
+      "unresolved": 3
+    }
+  },
+  "guardrails": {
+    "guard_a_inflation_defense": "ACTIVE_AND_ENFORCED",
+    "guard_b_deduplication": "ACTIVE_AND_ENFORCED",
+    "guard_c_stub_root_seo": {
+      "stub_repos_count": 39,
+      "violations": 0,
+      "status": "PASSED"
+    }
+  },
+  "fixtures": [
+    {
+      "fixture_id": "m9-2-001",
+      "repository": "redis/ioredis",
+      "split": "dev",
+      "archetype": "database",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 2,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "overall",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "scoring_distortion",
+          "substate": "composite_downstream_effect",
+          "reason": "Overall residual (-1) was a composite downstream effect driven by: .",
+          "context": {
+            "dominantState": "scoring_distortion",
+            "aeoState": "exact",
+            "geoState": "exact",
+            "diff": -1
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-002",
+      "repository": "prisma/prisma",
+      "split": "dev",
+      "archetype": "database",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 1,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "overall",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "composite_downstream_effect",
+          "reason": "Overall residual (-1) was a composite downstream effect driven by: GEO (selection_mismatch::sub_threshold_code_count).",
+          "context": {
+            "dominantState": "selection_mismatch",
+            "aeoState": "exact",
+            "geoState": "selection_mismatch",
+            "diff": -1
+          }
+        },
+        {
+          "surface": "geo",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "sub_threshold_code_count",
+          "reason": "Resolved target contained 1 code block, but is_citability_eligible requires >= 2 code blocks and install instructions, failing citability gating.",
+          "context": {
+            "totalEffectiveCode": 1,
+            "hasInstall": true
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-003",
+      "repository": "pydantic/pydantic",
+      "split": "dev",
+      "archetype": "library",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 2,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "overall",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "scoring_distortion",
+          "substate": "composite_downstream_effect",
+          "reason": "Overall residual (-1) was a composite downstream effect driven by: .",
+          "context": {
+            "dominantState": "scoring_distortion",
+            "aeoState": "exact",
+            "geoState": "exact",
+            "diff": -1
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-004",
+      "repository": "tiangolo/sqlmodel",
+      "split": "dev",
+      "archetype": "database",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 1,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "overall",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "composite_downstream_effect",
+          "reason": "Overall residual (-1) was a composite downstream effect driven by: GEO (selection_mismatch::sub_threshold_code_count).",
+          "context": {
+            "dominantState": "selection_mismatch",
+            "aeoState": "exact",
+            "geoState": "selection_mismatch",
+            "diff": -1
+          }
+        },
+        {
+          "surface": "geo",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "sub_threshold_code_count",
+          "reason": "Resolved target contained 1 code block, but is_citability_eligible requires >= 2 code blocks and install instructions, failing citability gating.",
+          "context": {
+            "totalEffectiveCode": 1,
+            "hasInstall": true
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-005",
+      "repository": "encode/httpx",
+      "split": "dev",
+      "archetype": "library",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 2,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "overall",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "scoring_distortion",
+          "substate": "composite_downstream_effect",
+          "reason": "Overall residual (-1) was a composite downstream effect driven by: .",
+          "context": {
+            "dominantState": "scoring_distortion",
+            "aeoState": "exact",
+            "geoState": "exact",
+            "diff": -1
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-006",
+      "repository": "huggingface/transformers",
+      "split": "dev",
+      "archetype": "ai-ml",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 2,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "overall",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "scoring_distortion",
+          "substate": "composite_downstream_effect",
+          "reason": "Overall residual (-1) was a composite downstream effect driven by: .",
+          "context": {
+            "dominantState": "scoring_distortion",
+            "aeoState": "exact",
+            "geoState": "exact",
+            "diff": -1
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-007",
+      "repository": "pallets/click",
+      "split": "dev",
+      "archetype": "cli",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 2,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "overall",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "scoring_distortion",
+          "substate": "composite_downstream_effect",
+          "reason": "Overall residual (-1) was a composite downstream effect driven by: .",
+          "context": {
+            "dominantState": "scoring_distortion",
+            "aeoState": "exact",
+            "geoState": "exact",
+            "diff": -1
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-008",
+      "repository": "encode/starlette",
+      "split": "dev",
+      "archetype": "web-framework",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 2,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "overall",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "scoring_distortion",
+          "substate": "composite_downstream_effect",
+          "reason": "Overall residual (-1) was a composite downstream effect driven by: .",
+          "context": {
+            "dominantState": "scoring_distortion",
+            "aeoState": "exact",
+            "geoState": "exact",
+            "diff": -1
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-009",
+      "repository": "tanstack/query",
+      "split": "dev",
+      "archetype": "monorepo",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 1,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "overall",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "composite_downstream_effect",
+          "reason": "Overall residual (-1) was a composite downstream effect driven by: GEO (selection_mismatch::sub_threshold_code_count).",
+          "context": {
+            "dominantState": "selection_mismatch",
+            "aeoState": "exact",
+            "geoState": "selection_mismatch",
+            "diff": -1
+          }
+        },
+        {
+          "surface": "geo",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "sub_threshold_code_count",
+          "reason": "Resolved target contained 1 code block, but is_citability_eligible requires >= 2 code blocks and install instructions, failing citability gating.",
+          "context": {
+            "totalEffectiveCode": 1,
+            "hasInstall": true
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-010",
+      "repository": "colinhacks/zod",
+      "split": "dev",
+      "archetype": "library",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 2,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "overall",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "scoring_distortion",
+          "substate": "composite_downstream_effect",
+          "reason": "Overall residual (-1) was a composite downstream effect driven by: .",
+          "context": {
+            "dominantState": "scoring_distortion",
+            "aeoState": "exact",
+            "geoState": "exact",
+            "diff": -1
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-011",
+      "repository": "apollographql/apollo-client",
+      "split": "dev",
+      "archetype": "monorepo",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 1,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "overall",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "composite_downstream_effect",
+          "reason": "Overall residual (-1) was a composite downstream effect driven by: GEO (selection_mismatch::sub_threshold_code_count).",
+          "context": {
+            "dominantState": "selection_mismatch",
+            "aeoState": "exact",
+            "geoState": "selection_mismatch",
+            "diff": -1
+          }
+        },
+        {
+          "surface": "geo",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "sub_threshold_code_count",
+          "reason": "Resolved target contained 1 code block, but is_citability_eligible requires >= 2 code blocks and install instructions, failing citability gating.",
+          "context": {
+            "totalEffectiveCode": 1,
+            "hasInstall": true
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-012",
+      "repository": "facebook/react-native",
+      "split": "dev",
+      "archetype": "monorepo",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 0,
+        "aeo": 0,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "overall",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "composite_downstream_effect",
+          "reason": "Overall residual (-1) was a composite downstream effect driven by: GEO (selection_mismatch::sub_threshold_code_count) and AEO (selection_mismatch::shallow_entrypoint_missing_command).",
+          "context": {
+            "dominantState": "selection_mismatch",
+            "aeoState": "selection_mismatch",
+            "geoState": "selection_mismatch",
+            "diff": -1
+          }
+        },
+        {
+          "surface": "aeo",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "shallow_entrypoint_missing_command",
+          "reason": "Resolved target entrypoint (docs/environment-setup.md, packages/react-native/README.md) lacked install commands; commands reside in sub-pages.",
+          "context": {
+            "resolvedUris": [
+              "docs/environment-setup.md",
+              "packages/react-native/README.md"
+            ]
+          }
+        },
+        {
+          "surface": "geo",
+          "pred_bucket": 1,
+          "actual_bucket": 3,
+          "delta": -2,
+          "state": "selection_mismatch",
+          "substate": "sub_threshold_code_count",
+          "reason": "Resolved target contained 1 code block, but is_citability_eligible requires >= 2 code blocks and install instructions, failing citability gating.",
+          "context": {
+            "totalEffectiveCode": 1,
+            "hasInstall": false
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-013",
+      "repository": "tailwindlabs/headlessui",
+      "split": "dev",
+      "archetype": "monorepo",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 2,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "overall",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "scoring_distortion",
+          "substate": "composite_downstream_effect",
+          "reason": "Overall residual (-1) was a composite downstream effect driven by: .",
+          "context": {
+            "dominantState": "scoring_distortion",
+            "aeoState": "exact",
+            "geoState": "exact",
+            "diff": -1
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-014",
+      "repository": "preactjs/preact",
+      "split": "dev",
+      "archetype": "web-framework",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 1,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "overall",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "composite_downstream_effect",
+          "reason": "Overall residual (-1) was a composite downstream effect driven by: GEO (selection_mismatch::sub_threshold_code_count).",
+          "context": {
+            "dominantState": "selection_mismatch",
+            "aeoState": "exact",
+            "geoState": "selection_mismatch",
+            "diff": -1
+          }
+        },
+        {
+          "surface": "geo",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "sub_threshold_code_count",
+          "reason": "Resolved target contained 1 code block, but is_citability_eligible requires >= 2 code blocks and install instructions, failing citability gating.",
+          "context": {
+            "totalEffectiveCode": 1,
+            "hasInstall": true
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-015",
+      "repository": "vitejs/vite",
+      "split": "dev",
+      "archetype": "monorepo",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 0,
+        "aeo": 0,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "overall",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "composite_downstream_effect",
+          "reason": "Overall residual (-1) was a composite downstream effect driven by: GEO (selection_mismatch::sub_threshold_code_count) and AEO (selection_mismatch::shallow_entrypoint_missing_command).",
+          "context": {
+            "dominantState": "selection_mismatch",
+            "aeoState": "selection_mismatch",
+            "geoState": "selection_mismatch",
+            "diff": -1
+          }
+        },
+        {
+          "surface": "aeo",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "shallow_entrypoint_missing_command",
+          "reason": "Resolved target entrypoint (packages/vite/README.md) lacked install commands; commands reside in sub-pages.",
+          "context": {
+            "resolvedUris": [
+              "packages/vite/README.md"
+            ]
+          }
+        },
+        {
+          "surface": "geo",
+          "pred_bucket": 1,
+          "actual_bucket": 3,
+          "delta": -2,
+          "state": "selection_mismatch",
+          "substate": "sub_threshold_code_count",
+          "reason": "Resolved target contained 1 code block, but is_citability_eligible requires >= 2 code blocks and install instructions, failing citability gating.",
+          "context": {
+            "totalEffectiveCode": 1,
+            "hasInstall": false
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-016",
+      "repository": "sveltejs/kit",
+      "split": "dev",
+      "archetype": "monorepo",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 0,
+        "aeo": 0,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "overall",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "composite_downstream_effect",
+          "reason": "Overall residual (-1) was a composite downstream effect driven by: GEO (selection_mismatch::sub_threshold_code_count) and AEO (selection_mismatch::shallow_entrypoint_missing_command).",
+          "context": {
+            "dominantState": "selection_mismatch",
+            "aeoState": "selection_mismatch",
+            "geoState": "selection_mismatch",
+            "diff": -1
+          }
+        },
+        {
+          "surface": "aeo",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "shallow_entrypoint_missing_command",
+          "reason": "Resolved target entrypoint (docs/index.md, packages/kit/README.md) lacked install commands; commands reside in sub-pages.",
+          "context": {
+            "resolvedUris": [
+              "docs/index.md",
+              "packages/kit/README.md"
+            ]
+          }
+        },
+        {
+          "surface": "geo",
+          "pred_bucket": 1,
+          "actual_bucket": 3,
+          "delta": -2,
+          "state": "selection_mismatch",
+          "substate": "sub_threshold_code_count",
+          "reason": "Resolved target contained 1 code block, but is_citability_eligible requires >= 2 code blocks and install instructions, failing citability gating.",
+          "context": {
+            "totalEffectiveCode": 1,
+            "hasInstall": false
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-017",
+      "repository": "esbuild/esbuild",
+      "split": "dev",
+      "archetype": "devtool",
+      "ground_truth": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 2,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "geo",
+          "pred_bucket": 3,
+          "actual_bucket": 2,
+          "delta": 1,
+          "state": "scoring_distortion",
+          "substate": "uncredited_citability_checks",
+          "reason": "Runnable code was recovered and eligible (score 55, Bucket 3), but adapter capped bonus at +12 and left 6 other citability checks uncredited, preventing reach to Bucket 2.",
+          "context": {
+            "geoScore": 55,
+            "gt": 2,
+            "pred": 3,
+            "codeRecovered": 2
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-018",
+      "repository": "swc-project/swc",
+      "split": "dev",
+      "archetype": "devtool",
+      "ground_truth": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 1,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": []
+    },
+    {
+      "fixture_id": "m9-2-019",
+      "repository": "biomejs/biome",
+      "split": "dev",
+      "archetype": "devtool",
+      "ground_truth": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 1,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": []
+    },
+    {
+      "fixture_id": "m9-2-020",
+      "repository": "solidjs/solid",
+      "split": "dev",
+      "archetype": "web-framework",
+      "ground_truth": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 0,
+        "aeo": 0,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "aeo",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "shallow_entrypoint_missing_command",
+          "reason": "Resolved target entrypoint (https://docs.solidjs.com) lacked install commands; commands reside in sub-pages.",
+          "context": {
+            "resolvedUris": [
+              "https://docs.solidjs.com"
+            ]
+          }
+        },
+        {
+          "surface": "geo",
+          "pred_bucket": 1,
+          "actual_bucket": 2,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "sub_threshold_code_count",
+          "reason": "Resolved target contained 1 code block, but is_citability_eligible requires >= 2 code blocks and install instructions, failing citability gating.",
+          "context": {
+            "totalEffectiveCode": 1,
+            "hasInstall": false
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-021",
+      "repository": "honojs/hono",
+      "split": "dev",
+      "archetype": "web-framework",
+      "ground_truth": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 0,
+        "aeo": 0,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "aeo",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "shallow_entrypoint_missing_command",
+          "reason": "Resolved target entrypoint (https://hono.dev) lacked install commands; commands reside in sub-pages.",
+          "context": {
+            "resolvedUris": [
+              "https://hono.dev"
+            ]
+          }
+        },
+        {
+          "surface": "geo",
+          "pred_bucket": 1,
+          "actual_bucket": 2,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "missing_install_requirement",
+          "reason": "Resolved target had 2 code blocks, but lacked install instructions, failing citability eligibility.",
+          "context": {
+            "totalEffectiveCode": 2
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-022",
+      "repository": "astral-sh/ruff",
+      "split": "dev",
+      "archetype": "devtool",
+      "ground_truth": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 1,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": []
+    },
+    {
+      "fixture_id": "m9-2-023",
+      "repository": "oxc-project/oxc",
+      "split": "dev",
+      "archetype": "devtool",
+      "ground_truth": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 1,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": []
+    },
+    {
+      "fixture_id": "m9-2-024",
+      "repository": "shadcn/taxonomy",
+      "split": "dev",
+      "archetype": "web-framework",
+      "ground_truth": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 0,
+        "aeo": 0,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "aeo",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "shallow_entrypoint_missing_command",
+          "reason": "Resolved target entrypoint (docs/getting-started.md) lacked install commands; commands reside in sub-pages.",
+          "context": {
+            "resolvedUris": [
+              "docs/getting-started.md"
+            ]
+          }
+        },
+        {
+          "surface": "geo",
+          "pred_bucket": 1,
+          "actual_bucket": 2,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "sub_threshold_code_count",
+          "reason": "Resolved target contained 1 code block, but is_citability_eligible requires >= 2 code blocks and install instructions, failing citability gating.",
+          "context": {
+            "totalEffectiveCode": 1,
+            "hasInstall": false
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-025",
+      "repository": "tortoise/tortoise-orm",
+      "split": "evaluation_sealed",
+      "archetype": "database",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 1,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "overall",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "composite_downstream_effect",
+          "reason": "Overall residual (-1) was a composite downstream effect driven by: GEO (selection_mismatch::sub_threshold_code_count).",
+          "context": {
+            "dominantState": "selection_mismatch",
+            "aeoState": "exact",
+            "geoState": "selection_mismatch",
+            "diff": -1
+          }
+        },
+        {
+          "surface": "geo",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "sub_threshold_code_count",
+          "reason": "Resolved target contained 1 code block, but is_citability_eligible requires >= 2 code blocks and install instructions, failing citability gating.",
+          "context": {
+            "totalEffectiveCode": 1,
+            "hasInstall": true
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-026",
+      "repository": "aio-libs/aiohttp",
+      "split": "evaluation_sealed",
+      "archetype": "web-framework",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 2,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "overall",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "scoring_distortion",
+          "substate": "composite_downstream_effect",
+          "reason": "Overall residual (-1) was a composite downstream effect driven by: .",
+          "context": {
+            "dominantState": "scoring_distortion",
+            "aeoState": "exact",
+            "geoState": "exact",
+            "diff": -1
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-027",
+      "repository": "marshmallow-code/marshmallow",
+      "split": "evaluation_sealed",
+      "archetype": "library",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 1,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "overall",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "composite_downstream_effect",
+          "reason": "Overall residual (-1) was a composite downstream effect driven by: GEO (selection_mismatch::sub_threshold_code_count).",
+          "context": {
+            "dominantState": "selection_mismatch",
+            "aeoState": "exact",
+            "geoState": "selection_mismatch",
+            "diff": -1
+          }
+        },
+        {
+          "surface": "geo",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "sub_threshold_code_count",
+          "reason": "Resolved target contained 1 code block, but is_citability_eligible requires >= 2 code blocks and install instructions, failing citability gating.",
+          "context": {
+            "totalEffectiveCode": 1,
+            "hasInstall": true
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-028",
+      "repository": "pytest-dev/pytest",
+      "split": "evaluation_sealed",
+      "archetype": "devtool",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 2,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "overall",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "scoring_distortion",
+          "substate": "composite_downstream_effect",
+          "reason": "Overall residual (-1) was a composite downstream effect driven by: .",
+          "context": {
+            "dominantState": "scoring_distortion",
+            "aeoState": "exact",
+            "geoState": "exact",
+            "diff": -1
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-029",
+      "repository": "scikit-learn/scikit-learn",
+      "split": "evaluation_sealed",
+      "archetype": "ai-ml",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 1,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "overall",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "composite_downstream_effect",
+          "reason": "Overall residual (-1) was a composite downstream effect driven by: GEO (selection_mismatch::sub_threshold_code_count).",
+          "context": {
+            "dominantState": "selection_mismatch",
+            "aeoState": "exact",
+            "geoState": "selection_mismatch",
+            "diff": -1
+          }
+        },
+        {
+          "surface": "geo",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "sub_threshold_code_count",
+          "reason": "Resolved target contained 1 code block, but is_citability_eligible requires >= 2 code blocks and install instructions, failing citability gating.",
+          "context": {
+            "totalEffectiveCode": 1,
+            "hasInstall": true
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-030",
+      "repository": "formkit/formkit",
+      "split": "evaluation_sealed",
+      "archetype": "monorepo",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 1,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "overall",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "composite_downstream_effect",
+          "reason": "Overall residual (-1) was a composite downstream effect driven by: GEO (selection_mismatch::sub_threshold_code_count).",
+          "context": {
+            "dominantState": "selection_mismatch",
+            "aeoState": "exact",
+            "geoState": "selection_mismatch",
+            "diff": -1
+          }
+        },
+        {
+          "surface": "geo",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "sub_threshold_code_count",
+          "reason": "Resolved target contained 1 code block, but is_citability_eligible requires >= 2 code blocks and install instructions, failing citability gating.",
+          "context": {
+            "totalEffectiveCode": 1,
+            "hasInstall": true
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-031",
+      "repository": "vueuse/vueuse",
+      "split": "evaluation_sealed",
+      "archetype": "monorepo",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 1,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "overall",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "composite_downstream_effect",
+          "reason": "Overall residual (-1) was a composite downstream effect driven by: GEO (selection_mismatch::sub_threshold_code_count).",
+          "context": {
+            "dominantState": "selection_mismatch",
+            "aeoState": "exact",
+            "geoState": "selection_mismatch",
+            "diff": -1
+          }
+        },
+        {
+          "surface": "geo",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "sub_threshold_code_count",
+          "reason": "Resolved target contained 1 code block, but is_citability_eligible requires >= 2 code blocks and install instructions, failing citability gating.",
+          "context": {
+            "totalEffectiveCode": 1,
+            "hasInstall": true
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-032",
+      "repository": "radix-ui/primitives",
+      "split": "evaluation_sealed",
+      "archetype": "monorepo",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 0,
+        "aeo": 0,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "overall",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "composite_downstream_effect",
+          "reason": "Overall residual (-1) was a composite downstream effect driven by: GEO (selection_mismatch::zero_code_landing_page) and AEO (selection_mismatch::shallow_entrypoint_missing_command).",
+          "context": {
+            "dominantState": "selection_mismatch",
+            "aeoState": "selection_mismatch",
+            "geoState": "selection_mismatch",
+            "diff": -1
+          }
+        },
+        {
+          "surface": "aeo",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "shallow_entrypoint_missing_command",
+          "reason": "Resolved target entrypoint (docs/overview.md) lacked install commands; commands reside in sub-pages.",
+          "context": {
+            "resolvedUris": [
+              "docs/overview.md"
+            ]
+          }
+        },
+        {
+          "surface": "geo",
+          "pred_bucket": 1,
+          "actual_bucket": 3,
+          "delta": -2,
+          "state": "selection_mismatch",
+          "substate": "zero_code_landing_page",
+          "reason": "Resolved target entrypoint (docs/overview.md) contained 0 code blocks; examples reside deeper in doc tree.",
+          "context": {
+            "resolvedUris": [
+              "docs/overview.md"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-033",
+      "repository": "ant-design/ant-design",
+      "split": "evaluation_sealed",
+      "archetype": "monorepo",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "error_movement": {
+        "overall": 0,
+        "geo": 0,
+        "aeo": 0,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "overall",
+          "pred_bucket": 1,
+          "actual_bucket": 3,
+          "delta": -2,
+          "state": "unresolved",
+          "substate": "composite_downstream_effect",
+          "reason": "Overall residual (-2) was a composite downstream effect driven by: GEO (unresolved::target_discovery_filter) and AEO (unresolved::target_discovery_filter).",
+          "context": {
+            "dominantState": "unresolved",
+            "aeoState": "unresolved",
+            "geoState": "unresolved",
+            "diff": -2
+          }
+        },
+        {
+          "surface": "aeo",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "unresolved",
+          "substate": "target_discovery_filter",
+          "reason": "External doc link on custom domain was filtered out by resolver discovery heuristic (lacked /docs path or docs. prefix).",
+          "context": {
+            "totalNodes": 1,
+            "docStrategy": "workspace_and_docs"
+          }
+        },
+        {
+          "surface": "geo",
+          "pred_bucket": 1,
+          "actual_bucket": 3,
+          "delta": -2,
+          "state": "unresolved",
+          "substate": "target_discovery_filter",
+          "reason": "External doc link on custom domain was filtered out by resolver discovery heuristic; repository remained single-document.",
+          "context": {
+            "totalNodes": 1,
+            "docStrategy": "workspace_and_docs"
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-034",
+      "repository": "mantinedev/mantine",
+      "split": "evaluation_sealed",
+      "archetype": "monorepo",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 0,
+        "aeo": 0,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "overall",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "composite_downstream_effect",
+          "reason": "Overall residual (-1) was a composite downstream effect driven by: GEO (selection_mismatch::zero_code_landing_page) and AEO (selection_mismatch::shallow_entrypoint_missing_command).",
+          "context": {
+            "dominantState": "selection_mismatch",
+            "aeoState": "selection_mismatch",
+            "geoState": "selection_mismatch",
+            "diff": -1
+          }
+        },
+        {
+          "surface": "aeo",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "shallow_entrypoint_missing_command",
+          "reason": "Resolved target entrypoint (docs/getting-started.md) lacked install commands; commands reside in sub-pages.",
+          "context": {
+            "resolvedUris": [
+              "docs/getting-started.md"
+            ]
+          }
+        },
+        {
+          "surface": "geo",
+          "pred_bucket": 1,
+          "actual_bucket": 3,
+          "delta": -2,
+          "state": "selection_mismatch",
+          "substate": "zero_code_landing_page",
+          "reason": "Resolved target entrypoint (docs/getting-started.md) contained 0 code blocks; examples reside deeper in doc tree.",
+          "context": {
+            "resolvedUris": [
+              "docs/getting-started.md"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-035",
+      "repository": "unjs/nitro",
+      "split": "evaluation_sealed",
+      "archetype": "web-framework",
+      "ground_truth": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 0,
+        "aeo": 0,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "aeo",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "shallow_entrypoint_missing_command",
+          "reason": "Resolved target entrypoint (https://nitro.unjs.io) lacked install commands; commands reside in sub-pages.",
+          "context": {
+            "resolvedUris": [
+              "https://nitro.unjs.io"
+            ]
+          }
+        },
+        {
+          "surface": "geo",
+          "pred_bucket": 1,
+          "actual_bucket": 2,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "sub_threshold_code_count",
+          "reason": "Resolved target contained 1 code block, but is_citability_eligible requires >= 2 code blocks and install instructions, failing citability gating.",
+          "context": {
+            "totalEffectiveCode": 1,
+            "hasInstall": false
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-036",
+      "repository": "unjs/unplugin",
+      "split": "evaluation_sealed",
+      "archetype": "devtool",
+      "ground_truth": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 1,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": []
+    },
+    {
+      "fixture_id": "m9-2-037",
+      "repository": "drizzle-team/drizzle-orm",
+      "split": "evaluation_sealed",
+      "archetype": "database",
+      "ground_truth": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 1,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": []
+    },
+    {
+      "fixture_id": "m9-2-038",
+      "repository": "lucide-icons/lucide",
+      "split": "evaluation_sealed",
+      "archetype": "library",
+      "ground_truth": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 2,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "geo",
+          "pred_bucket": 3,
+          "actual_bucket": 2,
+          "delta": 1,
+          "state": "scoring_distortion",
+          "substate": "uncredited_citability_checks",
+          "reason": "Runnable code was recovered and eligible (score 55, Bucket 3), but adapter capped bonus at +12 and left 6 other citability checks uncredited, preventing reach to Bucket 2.",
+          "context": {
+            "geoScore": 55,
+            "gt": 2,
+            "pred": 3,
+            "codeRecovered": 2
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "m9-2-039",
+      "repository": "colinhacks/trpc-openapi",
+      "split": "evaluation_sealed",
+      "archetype": "devtool",
+      "ground_truth": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 1,
+        "aeo": 1,
+        "seo": 0
+      },
+      "residuals": []
+    },
+    {
+      "fixture_id": "m9-2-040",
+      "repository": "payloadcms/payload",
+      "split": "evaluation_sealed",
+      "archetype": "web-framework",
+      "ground_truth": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "error_movement": {
+        "overall": 1,
+        "geo": 0,
+        "aeo": 0,
+        "seo": 0
+      },
+      "residuals": [
+        {
+          "surface": "aeo",
+          "pred_bucket": 2,
+          "actual_bucket": 3,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "shallow_entrypoint_missing_command",
+          "reason": "Resolved target entrypoint (https://payloadcms.com/docs) lacked install commands; commands reside in sub-pages.",
+          "context": {
+            "resolvedUris": [
+              "https://payloadcms.com/docs"
+            ]
+          }
+        },
+        {
+          "surface": "geo",
+          "pred_bucket": 1,
+          "actual_bucket": 2,
+          "delta": -1,
+          "state": "selection_mismatch",
+          "substate": "sub_threshold_code_count",
+          "reason": "Resolved target contained 1 code block, but is_citability_eligible requires >= 2 code blocks and install instructions, failing citability gating.",
+          "context": {
+            "totalEffectiveCode": 1,
+            "hasInstall": false
+          }
+        }
+      ]
+    }
+  ]
+}

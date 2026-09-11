@@ -1,0 +1,6 @@
+{
+  "https://www.prisma.io/docs": {
+    "http_status": 200,
+    "content": "# Prisma Documentation\n\n## Quickstart\n```bash\nnpm install prisma --save-dev\nnpx prisma init\n```\n\n## Data modeling\nDefine your schema.prisma file.\n"
+  }
+}

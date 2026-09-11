@@ -1,0 +1,6 @@
+{
+  "https://www.starlette.io": {
+    "http_status": 200,
+    "content": "# Starlette\n\n## Installation\n```bash\npip install starlette uvicorn\n```\n\n## Example\n```python\nfrom starlette.applications import Starlette\n```\n"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "https://ui.shadcn.com/docs": {
+    "http_status": 200,
+    "content": "# Documentation\n\n## Installation\n```bash\nnpx shadcn@latest init\n```\n\n## Usage\nAdd components directly to your source.\n"
+  }
+}

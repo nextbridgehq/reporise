@@ -1,0 +1,35 @@
+{
+  "id": "real-071",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "kamranahmedse/developer-roadmap",
+  "commit": "77f17c777772b62feb7350ac63b4cd92646bb09f",
+  "capturedAt": "2026-09-08T12:05:39.242Z",
+  "files": [
+    {
+      "path": "code_of_conduct.md",
+      "sha256": "8e0a9c4edc35ba1106dfdff286417de6c0b7d405cd86bb5ee3a3c73b3a4e7a2a",
+      "sizeBytes": 3430
+    },
+    {
+      "path": "contributing.md",
+      "sha256": "0896198d4d24f4d2ed6edf11bd4aedbbcfb63af0fa026bdccb6a1ba4521582ed",
+      "sizeBytes": 6799
+    },
+    {
+      "path": "license",
+      "sha256": "7436be23c13b494a99cc7ad56a74bb827da72f40459df2a8e71ed888bbc99697",
+      "sizeBytes": 935
+    },
+    {
+      "path": "package.json",
+      "sha256": "1b7b0e884a8394f537f7220c8ec2859f59621a2fc9dba682770ba8e3c4e35e42",
+      "sizeBytes": 754
+    },
+    {
+      "path": "readme.md",
+      "sha256": "919ff11f425fc3d1d08bdc70fe634ea719ec1af1f0b538be5e68eea15eadd719",
+      "sizeBytes": 9879
+    }
+  ]
+}

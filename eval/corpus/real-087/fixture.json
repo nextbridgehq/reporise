@@ -1,0 +1,35 @@
+{
+  "id": "real-087",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "helm/helm",
+  "commit": "fa11636b01686f16700718a03de9334bbd298500",
+  "capturedAt": "2026-09-08T12:13:58.035Z",
+  "files": [
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "94eccbfc12d13a2ef91fd6d4e4256322252ddf6a33718d669229b4168a4de614",
+      "sizeBytes": 20189
+    },
+    {
+      "path": "go.mod",
+      "sha256": "506096e8ccb2b8cd1fb7e211669828fafe282db9df54116bf6bd441ba1176b04",
+      "sizeBytes": 9650
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "da628e8671b11e7242cf72563bd9316b0618939f6c59349a2b051268e100c3d6",
+      "sizeBytes": 11575
+    },
+    {
+      "path": "README.md",
+      "sha256": "c51ff985372c6f14a298b44c89250190abe956565706dcac51f9996c8e22a1aa",
+      "sizeBytes": 4497
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "3f854812839ea54e8543f46fae1393f8b8023635d3c7c7b5022565cdb8458ae8",
+      "sizeBytes": 173
+    }
+  ]
+}

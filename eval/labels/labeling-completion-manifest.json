@@ -1,0 +1,115 @@
+{
+  "milestone": "M8.2",
+  "name": "Labeling & Gold Calibration Completion Manifest",
+  "status": "APPROVED",
+  "completed_at": "2026-09-08T18:49:00Z",
+  "corpus_acquisition": {
+    "baseline_tag": "m8.1-acquisition-final",
+    "baseline_commit": "bcf95d3",
+    "repository_count": 120,
+    "archetype_count": 12,
+    "readme_characteristics_count": 10,
+    "splits": {
+      "train": 72,
+      "validation": 24,
+      "test": 24
+    },
+    "fixture_contract": "FIXTURE_CONTRACT.md",
+    "fixture_validation": "120/120 valid (0 failed)"
+  },
+  "rubric": {
+    "version": "m8-label-rubric-v1.0.0",
+    "path": "eval/research/RUBRIC.md",
+    "sha256": "01de427170d15e28b9b852df05d0503719fbadfc39f3afd28e2c63d6a5c5bffa",
+    "scale": "discrete 0-5",
+    "dimensions": ["overall", "seo", "aeo", "geo"],
+    "canonical_questions": 5
+  },
+  "evaluators": {
+    "tier1_deterministic": {
+      "version": "reporise_deterministic_v0.2.0",
+      "count": 120,
+      "storage": "eval/labels/tier1-deterministic/",
+      "double_blind": true
+    },
+    "reviewer_a": {
+      "version": "reviewer_a",
+      "count": 120,
+      "storage": "eval/labels/reviewer-a/",
+      "double_blind": true
+    },
+    "reviewer_b": {
+      "version": "reviewer_b",
+      "count": 50,
+      "manifest": "eval/corpus/reviewer-b-manifest.json",
+      "storage": "eval/labels/reviewer-b/",
+      "double_blind": true
+    },
+    "human_gold": {
+      "version": "human_gold_panel",
+      "protocol": "m8-gold-v1.0.0",
+      "count": 25,
+      "calibration_count": 10,
+      "untouched_evaluation_count": 15,
+      "manifest": "eval/corpus/human-gold-manifest.json",
+      "storage": "eval/labels/human-gold/",
+      "double_blind": true
+    }
+  },
+  "calibration": {
+    "version": "m8-cal-v1.0.0",
+    "calibration_subset_size": 10,
+    "untouched_evaluation_subset_size": 15,
+    "empirical_offsets": {
+      "overall": 0.0,
+      "seo": 0.0,
+      "aeo": -0.3,
+      "geo": 0.0
+    },
+    "discrete_applied_shift": 0,
+    "interpretation_constraint": "The 10-repository calibration subset identified a -0.30 AEO systematic difference under the specified calibration protocol, while SEO, GEO, and Overall showed zero measured offset. raw_score remains permanently preserved alongside calibrated_score."
+  },
+  "inter_rater_agreement": {
+    "sample_size": 50,
+    "exact_agreement_pct": 98.0,
+    "within_plus_minus_one_pct": 100.0,
+    "overall_mae": 0.02,
+    "seo_mae": 0.0,
+    "aeo_mae": 0.0,
+    "geo_mae": 0.0
+  },
+  "label_counts": {
+    "tier1_deterministic": 120,
+    "reviewer_a": 120,
+    "reviewer_b": 50,
+    "human_gold": 25,
+    "consolidated_real": 120
+  },
+  "dataset_hashes": {
+    "m8_inventory": "16d3db81ad6548dfccb1b61016d79c79cd8399c67288f66c9ac763a8083d31a1",
+    "reviewer_b_manifest": "eb8da057bfa99451c82a196f4ed688f17677bb1542b5e5fbc1b52cdb6e8c2c1a",
+    "human_gold_manifest": "7b636b4ffec41d8ff85212b32204ea0f6006a724374bfee257e652e423749407",
+    "label_schema": "c12da0f7df8a687837b23a0b09abe3a0303ce42f3e61a5c6e8951fa1f376d9c9",
+    "rubric": "01de427170d15e28b9b852df05d0503719fbadfc39f3afd28e2c63d6a5c5bffa"
+  },
+  "test_results": {
+    "suite": "npm test",
+    "tests_run": 49,
+    "tests_passed": 49,
+    "tests_failed": 0
+  },
+  "gates_verified": {
+    "M8.2-A": "PASS - Rubric Frozen (m8-label-rubric-v1.0.0)",
+    "M8.2-B": "PASS - Tier 1 Audit Complete (120/120)",
+    "M8.2-C": "PASS - Reviewer A Complete (120/120)",
+    "M8.2-D": "PASS - Reviewer B Complete (50/50)",
+    "M8.2-E": "PASS - Agreement Thresholds Satisfied (MAE=0.020 <= 0.65, +-1=100% >= 85%)",
+    "M8.2-F": "PASS - Gold Manifest Frozen (25 fixtures)",
+    "M8.2-G": "PASS - Human Calibration Complete (10/10)",
+    "M8.2-H": "PASS - Human Evaluation Complete (15/15)",
+    "M8.2-I": "PASS - Calibration/Evaluation Separation Verified",
+    "M8.2-J": "PASS - Raw Labels Immutable (raw_score preserved)",
+    "M8.2-K": "PASS - Provenance Recorded (all records)",
+    "M8.2-L": "PASS - Score Independence Confirmed (zero leakage)"
+  }
+}

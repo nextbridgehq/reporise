@@ -1,0 +1,6 @@
+{
+  "https://docs.servererror500.org/crash": {
+    "error": "HTTP 500 Internal Server Error",
+    "http_status": 500
+  }
+}

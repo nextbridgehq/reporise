@@ -1,0 +1,10 @@
+{
+  "fixture_id": "edge-014",
+  "split": "edge",
+  "scores": {
+    "overall": 3,
+    "geo": 2,
+    "aeo": 3,
+    "seo": 4
+  }
+}

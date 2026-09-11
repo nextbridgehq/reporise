@@ -1,0 +1,6 @@
+{
+  "https://marshmallow.readthedocs.io/en/stable/": {
+    "http_status": 200,
+    "content": "# marshmallow documentation\n\n## Installation\n```bash\npip install marshmallow\n```\n\n## Guide\nDeclare schemas.\n"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "id": "real-002",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "prettier/prettier",
+  "commit": "52829385b00c93a9712a4f40f0653df341a46979",
+  "capturedAt": "2026-09-08T11:45:38.776Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "d42251781c5a1ef2782ff7ae42f625da923785b450c2df25421583f78d4e84af",
+      "sizeBytes": 156304
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "2ee808abcdbd27faabada07e2ca0fdf59c5d8bac954470fd8e9efdd15ec8ef22",
+      "sizeBytes": 8486
+    },
+    {
+      "path": "docs/api.md",
+      "sha256": "3b12379bc6023a54d2ddd36dbcef075d3b624a5d47e79ce0cbca601c2efe1c8a",
+      "sizeBytes": 7486
+    },
+    {
+      "path": "docs/browser.md",
+      "sha256": "bbe0e196aa7bccc76d385d8cb5679e195e3d9922fce07821ea39e21f8fd29201",
+      "sizeBytes": 6096
+    },
+    {
+      "path": "docs/ci.md",
+      "sha256": "a9a961eb951b49b2ed3efb4342ab06ab60d5e5fae2cc535f721f9a70af037ecf",
+      "sizeBytes": 894
+    },
+    {
+      "path": "docs/cli.md",
+      "sha256": "2b1a31ec3205ad815122160bf74c268271f7698bd3f8ac3a9f58e6715033fb41",
+      "sizeBytes": 9641
+    },
+    {
+      "path": "docs/comparison.md",
+      "sha256": "6d2a63ce35a26db118d3decde342cdd8825ec13131448e99efc4c5b7c479f2c3",
+      "sizeBytes": 1392
+    },
+    {
+      "path": "docs/configuration.md",
+      "sha256": "dded08df8edf8c1fbd625c4c0fa129170fffafaa326457fdd9acb3dd4f82446d",
+      "sizeBytes": 6839
+    },
+    {
+      "path": "docs/editors.md",
+      "sha256": "f7249a1ad3645a559de16fac480ca2f9f93ae6d6f8505be9a1d7f792369de058",
+      "sizeBytes": 2280
+    },
+    {
+      "path": "docs/for-enterprise.md",
+      "sha256": "8ce2599d9b3e7ce96853a4ac26eb707a434bf4662d97a431296bfbda0c1e33a2",
+      "sizeBytes": 3094
+    },
+    {
+      "path": "docs/ignore.md",
+      "sha256": "fadbffad2bcb752db2029aa6723dd8de762b4c6ad1853a72bf0c6f7324382aed",
+      "sizeBytes": 4114
+    },
+    {
+      "path": "docs/index.md",
+      "sha256": "d90022c2bbdaf81898a4eb7a0b57cd49cf4de4eee9dcae72cd1d22cff09339d2",
+      "sizeBytes": 2753
+    },
+    {
+      "path": "docs/install.md",
+      "sha256": "c272cc5dd2e4ff4ca52268a71a1c27e5a0dcaf3d26bd3895207cbbc27f7bceba",
+      "sizeBytes": 9083
+    },
+    {
+      "path": "docs/integrating-with-linters.md",
+      "sha256": "981b2f794f2826a9f6c0bc10ed9650554fb240bd4dc3d1c2160af6e0ee4f6d60",
+      "sizeBytes": 2250
+    },
+    {
+      "path": "docs/option-philosophy.md",
+      "sha256": "af3ffce584af29443b963ae34d832611a5429e754ab20598210a7ffab6bd2d33",
+      "sizeBytes": 3691
+    },
+    {
+      "path": "docs/options.md",
+      "sha256": "07e71d2baa52a8cc3853958d254f84677674c264eb33c92da5054a0d4acd0b4f",
+      "sizeBytes": 27834
+    },
+    {
+      "path": "docs/plugins.md",
+      "sha256": "d4ac06e1d62e291b9a7b2ca6ef234a78510bc5e258cea9a2dfc780b35b044694",
+      "sizeBytes": 26766
+    },
+    {
+      "path": "docs/precommit.md",
+      "sha256": "6d4c9a28fc813913e3523009bc3472e501a0f76fb89f366eb6d51783ba3748e7",
+      "sizeBytes": 8206
+    },
+    {
+      "path": "docs/rationale.md",
+      "sha256": "a9b464b7a22c2f941bc7bea9fc36e129db37905c8c2457d37b37c8fb10a4eae8",
+      "sizeBytes": 15807
+    },
+    {
+      "path": "docs/related-projects.md",
+      "sha256": "dffbda70d7dcec09ebef4c89f804e4ef0d7be22111d419b2cccf01434d37252e",
+      "sizeBytes": 2800
+    },
+    {
+      "path": "docs/sharing-configurations.md",
+      "sha256": "d2ba40f31ae905dd28c047ce3c6d2c9d0e65e2cfdfd9421c92c94cb120627ab1",
+      "sizeBytes": 5360
+    },
+    {
+      "path": "docs/technical-details.md",
+      "sha256": "565e4992b56ae2edbf968bd77c7e654762b9dacb5b862de3e3bb5e9b842827d9",
+      "sizeBytes": 1378
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "b0f2417199889f1c0d28ec4e0244eacf1a15de5819d61f641dd7d8f45153ac9c",
+      "sizeBytes": 1065
+    },
+    {
+      "path": "package.json",
+      "sha256": "a69f1d7fe13c2d6152ea5748c045a4a0eba484eb278ee7c9cc41beb875220443",
+      "sizeBytes": 9232
+    },
+    {
+      "path": "README.md",
+      "sha256": "f1f5a86cd0fd0f6a288882527830a9bbbd5851e3238c4d7426b7bbb496165cd1",
+      "sizeBytes": 3396
+    }
+  ]
+}

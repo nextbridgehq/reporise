@@ -1,0 +1,45 @@
+{
+  "id": "real-039",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "angular/angular",
+  "commit": "9a58353b1b680f162a55969965ae6a90ae20316d",
+  "capturedAt": "2026-09-08T11:53:15.930Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "cee2984e12c89a8d90ac16370ba5dba31116b2b92a516ed3271bf6aebbff21f3",
+      "sizeBytes": 409600
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "101964ea084974c51152b7c1ed8525c1c4c3aa1cda988bdeca20c604ee6a470c",
+      "sizeBytes": 3728
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "e9a9a9f4a0b6bb4b2f53a8783d084897b82bea76bed6788f114226716911def1",
+      "sizeBytes": 12287
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "4bb9ebd0ba56e9518fd899ee740a0ee37b72728fac414900818547fd5dddf705",
+      "sizeBytes": 1126
+    },
+    {
+      "path": "package.json",
+      "sha256": "a3af672e10e251dce32a85388b26efa8344b23910bf55f936a70704f56426d56",
+      "sizeBytes": 7590
+    },
+    {
+      "path": "README.md",
+      "sha256": "f03fdeed957b62f96e292e1bbae50dfd8c938235a7d53aa7b160300256ab70e1",
+      "sizeBytes": 4839
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "329318c9de680c380d5e3e32d9fa2a2ba18e6088e26622d45c57f87ba3f3f995",
+      "sizeBytes": 416
+    }
+  ]
+}

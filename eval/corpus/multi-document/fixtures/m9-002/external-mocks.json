@@ -1,0 +1,6 @@
+{
+  "https://docs.celeryq.dev/en/stable/": {
+    "http_status": 200,
+    "content": "# Celery - Distributed Task Queue\n\n## Getting Started\n```bash\npip install celery\n```\n\n## First Steps\nRun celery worker commands.\n"
+  }
+}

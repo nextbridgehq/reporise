@@ -1,0 +1,40 @@
+{
+  "id": "real-057",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "evanw/esbuild",
+  "commit": "f6058f8364fe7ab91ca57a83e02577ed74c9cae4",
+  "capturedAt": "2026-09-08T11:58:37.075Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "6e248d5c95931d6f966d882603a65ff0f3a43d96d673a287d255f161480eb168",
+      "sizeBytes": 29533
+    },
+    {
+      "path": "docs/architecture.md",
+      "sha256": "9bdb40064dba460760b56d6dc00b7ac8f75372fa7469c80ab78059e184341798",
+      "sizeBytes": 33925
+    },
+    {
+      "path": "docs/development.md",
+      "sha256": "c799257ed7fd7b23418d0b4ebc8dc91f67e224ec99d1c448f55a435d3a8216a4",
+      "sizeBytes": 1521
+    },
+    {
+      "path": "go.mod",
+      "sha256": "11f7e5dce2cdd88a7b3faa9ab91983ec52098180983cb7b0377889be64f88abb",
+      "sizeBytes": 438
+    },
+    {
+      "path": "LICENSE.md",
+      "sha256": "ae7e8cc53dbd78fdfcb8b6d69fd7e0b8b6f140a26c857cfde87f0a28f593a042",
+      "sizeBytes": 1090
+    },
+    {
+      "path": "README.md",
+      "sha256": "b83aa44427850031b0b414e58813b8114cab6b33fa53f7c720c125f213268465",
+      "sizeBytes": 2143
+    }
+  ]
+}

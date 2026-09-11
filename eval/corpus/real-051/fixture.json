@@ -1,0 +1,140 @@
+{
+  "id": "real-051",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "sendgrid/sendgrid-python",
+  "commit": "76788e70a76b11ce2990821f190e52f887ab9ed6",
+  "capturedAt": "2026-09-08T11:59:12.344Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "32989e0b8e0c82c3d752dc89f7296c6b29ac15082dbfa0b84920ae0d94fa8391",
+      "sizeBytes": 49331
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "9bbab2e93c908848a1d7bc35ecfe6ad305bdae3957fe1797058f3b0698bf94df",
+      "sizeBytes": 3324
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "c68fca43666d866794469cc8acf9d870a5370f06e1fea3aa63eac7fe52940a78",
+      "sizeBytes": 5880
+    },
+    {
+      "path": "examples/accesssettings/accesssettings.py",
+      "sha256": "319745daa720335595e1a5ff10e66bfbd095d6bf3b45c0dbe41404fb3531b229",
+      "sizeBytes": 2155
+    },
+    {
+      "path": "examples/alerts/alerts.py",
+      "sha256": "f750087e4bf14d4a324db3da7503acba9d6a7ff37d7340a593b82907040cf00f",
+      "sizeBytes": 1511
+    },
+    {
+      "path": "examples/apikeys/apikeys.py",
+      "sha256": "87e0c1706af94306357f8c355cdd2821afe3597523db2add0de9c25ca1201171",
+      "sizeBytes": 2092
+    },
+    {
+      "path": "examples/asm/asm.py",
+      "sha256": "9a366dd002f9c21a3e8d5e50f43b1dd33fd5502070d8a1535ea746425cef943d",
+      "sizeBytes": 4985
+    },
+    {
+      "path": "examples/browsers/browsers.py",
+      "sha256": "846ac296c9b0a271e234624d1529722a3857564ad045a6245bbaca92e5d0db16",
+      "sizeBytes": 584
+    },
+    {
+      "path": "examples/campaigns/campaigns.py",
+      "sha256": "747cbf9ba8a994fcdd8e35fb6bd2833e2ddcbd57f3ababce36b01146aacdfe93",
+      "sizeBytes": 4327
+    },
+    {
+      "path": "examples/categories/categories.py",
+      "sha256": "2116f9ade35b9155207cc2541c7e23062c39cd3cdd7452dc31fb1e692a64f6b3",
+      "sizeBytes": 1401
+    },
+    {
+      "path": "examples/clients/clients.py",
+      "sha256": "e0a47460d0f9780a6d6cfdbd063cc8d12063e5e3a8204aebd48379db92c19ad9",
+      "sizeBytes": 912
+    },
+    {
+      "path": "examples/contactdb/contactdb.py",
+      "sha256": "cb8f84cb1c2b6ea2697181d37be95cf7214a813611c0d197ae5946c930e3e5de",
+      "sizeBytes": 11126
+    },
+    {
+      "path": "examples/dataresidency/set_region.py",
+      "sha256": "3566231295ca16c06393dbf56a49735b60c27c75898f4817e1cc7ca278103e0a",
+      "sizeBytes": 1251
+    },
+    {
+      "path": "examples/devices/devices.py",
+      "sha256": "ea7b546123a6317be53a42c964e9d074d0b08730522cd87e62c362db8477622e",
+      "sizeBytes": 512
+    },
+    {
+      "path": "examples/geo/geo.py",
+      "sha256": "b2cb75680584ee3fe7cf2b1388e46baf17a749ecba461b7da7b50c59381b9851",
+      "sizeBytes": 558
+    },
+    {
+      "path": "examples/helpers/eventwebhook/eventwebhook_example.py",
+      "sha256": "140e74e81dd0012ce7b2cf4b9f584ae321886d7e7be12a3afbf1f7583df3392f",
+      "sizeBytes": 482
+    },
+    {
+      "path": "examples/helpers/mail_example.py",
+      "sha256": "7a714279a6f4cc2e399878091a1f21d2eea868f947df26bbc4be55bdbc3a2b60",
+      "sizeBytes": 14839
+    },
+    {
+      "path": "examples/helpers/README.md",
+      "sha256": "1a86ba73db1a8b270cf6162fe976a5492a8441a160d2f0bf0a546eb7813eaa33",
+      "sizeBytes": 3769
+    },
+    {
+      "path": "examples/helpers/stats/stats_example.py",
+      "sha256": "703301f91212e96a489c9b9585494b5e151860d240a4d3f309ff414279e8c132",
+      "sizeBytes": 3069
+    },
+    {
+      "path": "examples/ips/ips.py",
+      "sha256": "5c17b3420235f86ad7650880148d9cda02d36f248b3f05498a177e9793b8ac20",
+      "sizeBytes": 4120
+    },
+    {
+      "path": "examples/mail/mail.py",
+      "sha256": "51d5311488149a7c450e65cb22cafb110ddf53179661df366d21614776bac127",
+      "sizeBytes": 5088
+    },
+    {
+      "path": "examples/mailboxproviders/mailboxproviders.py",
+      "sha256": "b00ea529f5cba209678ea9ba1c678511fb35dfa0c7f5de68f86aac11c57570d8",
+      "sizeBytes": 595
+    },
+    {
+      "path": "examples/mailsettings/mailsettings.py",
+      "sha256": "0f37738ef71a5d78ec54e7ec1638398917496ed171dd96014b694d14e77fd810",
+      "sizeBytes": 5916
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "1b52acae50a9bdc662024fba5b39c88c0404d1002dcdceb816e5d0c44eb7798e",
+      "sizeBytes": 1118
+    },
+    {
+      "path": "README.md",
+      "sha256": "072b2daada4b422f8b806f3a44b160c548d84c89e8a4174540a37c09f3308ef0",
+      "sizeBytes": 8067
+    },
+    {
+      "path": "README.rst",
+      "sha256": "2f9c6578ef3e64b8f15dda1b1e5e569e07fe101116033c9eb80ccd176822dda8",
+      "sizeBytes": 11337
+    }
+  ]
+}

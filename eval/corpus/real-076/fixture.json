@@ -1,0 +1,25 @@
+{
+  "id": "real-076",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "public-apis/public-apis",
+  "commit": "29b7c2bbe20e60f42ab3c3b62e0bc758db98ce0b",
+  "capturedAt": "2026-09-08T12:07:54.873Z",
+  "files": [
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "d890ede9f6d8ef7ee7191d61128300274cce6d2c486f98472784f62f0127863c",
+      "sizeBytes": 6463
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "71236c06f05cc570aa6b12c42d14bdcd4896517e1af7afa34b3ba42c08c8ab63",
+      "sizeBytes": 1089
+    },
+    {
+      "path": "README.md",
+      "sha256": "a4d98ace4a836d40d0820e4adb65d14f9407a85944216eff4f501202af5bf1e4",
+      "sizeBytes": 249564
+    }
+  ]
+}

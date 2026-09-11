@@ -1,0 +1,135 @@
+{
+  "id": "real-001",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "eslint/eslint",
+  "commit": "6b6f70a1a0c7eb163013d3957bdcd653b6eb4c01",
+  "capturedAt": "2026-09-08T11:44:24.772Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "fc134bab21e62f4d89b3d9db3841d66fafc73ebd8e56fe4e8eb2b8d1b9786fce",
+      "sizeBytes": 409600
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "8be45e6f88ea78e116b5b095370582e09c39936d3eaf0c461ace280acd3421e0",
+      "sizeBytes": 1785
+    },
+    {
+      "path": "docs/.eleventy.js",
+      "sha256": "f1b44628d9445bbfa3ff2dc44fd9363c6646232d7c300d67d2d1160fb6129df7",
+      "sizeBytes": 21274
+    },
+    {
+      "path": "docs/.stylelintrc.json",
+      "sha256": "b259505881dfdfc6699b2ff42bc808a1929f9710f082cb5ff324374be9fe91a5",
+      "sizeBytes": 1152
+    },
+    {
+      "path": "docs/netlify.toml",
+      "sha256": "3dcca1dda3fb16cef73d339dcd62e2d0f2b2fb4c7d1773a24bf05f6bb80535c9",
+      "sizeBytes": 73
+    },
+    {
+      "path": "docs/package.json",
+      "sha256": "e15803a51156d99a493acd14eddc7b224da78880ae54e1fef3705ebd40385131",
+      "sizeBytes": 2567
+    },
+    {
+      "path": "docs/postcss.config.js",
+      "sha256": "2b1122b6fbac0dc90a858ad8550dc4a36cd5c782d4af0790d1b9ddd4fe533a23",
+      "sizeBytes": 107
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "54defbaf84470ee07fe1d54b477bb793e4bcf9b84e351c1dd25fc4c953501109",
+      "sizeBytes": 1131
+    },
+    {
+      "path": "docs/src/about/index.md",
+      "sha256": "795c5904a34c1a3c2ce08e99d31e37cdbcc7cd673f30a091eea042d4fdf348d1",
+      "sizeBytes": 2146
+    },
+    {
+      "path": "docs/src/contribute/ai-policy.md",
+      "sha256": "008f65eda059c1425d2114f8e216b4953680068b7ba72112e2b5e1de697828b4",
+      "sizeBytes": 2823
+    },
+    {
+      "path": "docs/src/contribute/code-conventions.md",
+      "sha256": "15fd12a564ee9297cef83bfdff661e3a905163ae046337d318f418d9f4719302",
+      "sizeBytes": 572
+    },
+    {
+      "path": "docs/src/contribute/code-of-conduct.md",
+      "sha256": "5f628fdbf1925dd74619927a401a6672d282a660b9e4ac7c20a10c071e1fb3a3",
+      "sizeBytes": 367
+    },
+    {
+      "path": "docs/src/contribute/core-rules.md",
+      "sha256": "f96d381e956a01f6312c284f8916f9f032243b76db5d111b0b4cefb6ff2eaff2",
+      "sizeBytes": 5190
+    },
+    {
+      "path": "docs/src/contribute/development-environment.md",
+      "sha256": "0387c30b6c566c7c2e98d92c777a9f5e0151101ef6976558192fca6df82e6bd5",
+      "sizeBytes": 4724
+    },
+    {
+      "path": "docs/src/contribute/governance.md",
+      "sha256": "809f365ba8d132cdd2d667901ba0f939320ae9013a8c520ade49f58afde7d195",
+      "sizeBytes": 13718
+    },
+    {
+      "path": "docs/src/contribute/index.md",
+      "sha256": "2011530e1926fd7c2abddaf231e68d11be3a4f57622186884d8210102ee97d3a",
+      "sizeBytes": 3528
+    },
+    {
+      "path": "docs/src/contribute/package-json-conventions.md",
+      "sha256": "1dc387fbe7624cdbd1c09419514154c0e068969fc1a4f535f3d0bf35c4886b3b",
+      "sizeBytes": 5685
+    },
+    {
+      "path": "docs/src/contribute/propose-new-rule.md",
+      "sha256": "103974982377cec75727b396a9481312588563ae8d3c96216310dcb9caa4d192",
+      "sizeBytes": 3932
+    },
+    {
+      "path": "docs/src/contribute/propose-rule-change.md",
+      "sha256": "b445504739918d79b30c2237e9df1d48dfd353b46b14d72657439d3b7ea707a7",
+      "sizeBytes": 1486
+    },
+    {
+      "path": "docs/src/contribute/pull-requests.md",
+      "sha256": "da62dbf6431b9f26a414635fd7899e767513a3883b541ee66ffbb27501af0f46",
+      "sizeBytes": 9354
+    },
+    {
+      "path": "docs/src/contribute/report-bugs.md",
+      "sha256": "d1a8330afd4ddd9146f212c45f1c4121ad4770ade578495d98401374ccd69a58",
+      "sizeBytes": 915
+    },
+    {
+      "path": "docs/src/contribute/report-security-vulnerability.md",
+      "sha256": "4c69de75fd6b091e5304b37ed4d0fddc43682fe917ec0b8c07f7b08e5a800209",
+      "sizeBytes": 363
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "b5c932da8f1425c4b00d4c2c9cafe086b73822029d8a49ad7e0d4440b5af1372",
+      "sizeBytes": 1113
+    },
+    {
+      "path": "package.json",
+      "sha256": "7e0cf8da0af4f50286450a20bcfe7bd846edc6b2e727c5a8c708c3f7bff41527",
+      "sizeBytes": 8034
+    },
+    {
+      "path": "README.md",
+      "sha256": "5eebac35949ed5c3c718a04e9ba7951b782e08f7eabb38417b60bd612b406d83",
+      "sizeBytes": 21015
+    }
+  ]
+}

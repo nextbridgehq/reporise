@@ -1,0 +1,482 @@
+[
+  {
+    "fixture_id": "real-001",
+    "repository": "eslint/eslint",
+    "primary_archetype": "devtool",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/eslint/eslint.git",
+    "commit": "6b6f70a1a0c7eb163013d3957bdcd653b6eb4c01",
+    "commit_source": "legacy_m7_pin",
+    "captured_at": "2026-09-08T11:04:11.053Z",
+    "gold_role": "calibration",
+    "evaluation_access": "calibration_only"
+  },
+  {
+    "fixture_id": "real-007",
+    "repository": "requests/requests",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_standard",
+      "char_tutorial"
+    ],
+    "language": "python",
+    "license": "Apache-2.0",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/requests/requests.git",
+    "commit": "0a7fb0d97034c7a52efcde1bcdd275ff0d1a4da6",
+    "commit_source": "legacy_m7_pin",
+    "captured_at": "2026-09-08T11:04:11.053Z",
+    "gold_role": "calibration",
+    "evaluation_access": "calibration_only"
+  },
+  {
+    "fixture_id": "real-010",
+    "repository": "vuejs/core",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_standard",
+      "char_architecture"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/vuejs/core.git",
+    "commit": "7de31f1f9ecba2725e16543b35eb65ffb44fb7f8",
+    "commit_source": "legacy_m7_pin",
+    "captured_at": "2026-09-08T11:04:11.053Z",
+    "gold_role": "untouched_evaluation",
+    "evaluation_access": "frozen_benchmark"
+  },
+  {
+    "fixture_id": "real-011",
+    "repository": "django/django",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_standard",
+      "char_docs_heavy"
+    ],
+    "language": "python",
+    "license": "BSD-3-Clause",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/django/django.git",
+    "commit": "7be0e495fdbd260fde253a6e877401d4a0deed7a",
+    "commit_source": "legacy_m7_pin",
+    "captured_at": "2026-09-08T11:04:11.053Z",
+    "gold_role": "calibration",
+    "evaluation_access": "calibration_only"
+  },
+  {
+    "fixture_id": "real-012",
+    "repository": "huggingface/transformers",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_example_heavy",
+      "char_feature_comparison",
+      "char_mixed"
+    ],
+    "language": "python",
+    "license": "Apache-2.0",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/huggingface/transformers.git",
+    "commit": "992a76f2b7fef1e505cc2b2ffc87340d8bf7b75b",
+    "commit_source": "legacy_m7_pin",
+    "captured_at": "2026-09-08T11:04:11.053Z",
+    "gold_role": "untouched_evaluation",
+    "evaluation_access": "frozen_benchmark"
+  },
+  {
+    "fixture_id": "real-020",
+    "repository": "jesseduffield/lazygit",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_standard",
+      "char_tutorial",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/jesseduffield/lazygit.git",
+    "commit": "a4fa8a75eefeb31bfbce6cce7545935cc597ffc3",
+    "commit_source": "legacy_m7_pin",
+    "captured_at": "2026-09-08T11:04:11.053Z",
+    "gold_role": "untouched_evaluation",
+    "evaluation_access": "frozen_benchmark"
+  },
+  {
+    "fixture_id": "real-029",
+    "repository": "chalk/chalk",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_api_reference"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/chalk/chalk.git",
+    "commit": "661317e6f91fe7c90306c2c48ea9354562ee9146",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z",
+    "gold_role": "untouched_evaluation",
+    "evaluation_access": "frozen_benchmark"
+  },
+  {
+    "fixture_id": "real-034",
+    "repository": "sindresorhus/ky",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_api_reference"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "split": "test",
+    "repository_url": "https://github.com/sindresorhus/ky.git",
+    "commit": "e68ea7ad3080fa25ce2eba6a367c00dfff74f0f3",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z",
+    "gold_role": "untouched_evaluation",
+    "evaluation_access": "frozen_benchmark"
+  },
+  {
+    "fixture_id": "real-042",
+    "repository": "octokit/octokit.js",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_api_reference",
+      "char_tutorial"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "split": "train",
+    "repository_url": "https://github.com/octokit/octokit.js.git",
+    "commit": "bc34deaf357486594c41f167c05921d16e6aabe9",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z",
+    "gold_role": "calibration",
+    "evaluation_access": "calibration_only"
+  },
+  {
+    "fixture_id": "real-051",
+    "repository": "sendgrid/sendgrid-python",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_install_config"
+    ],
+    "language": "python",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "split": "test",
+    "repository_url": "https://github.com/sendgrid/sendgrid-python.git",
+    "commit": "76788e70a76b11ce2990821f190e52f887ab9ed6",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z",
+    "gold_role": "untouched_evaluation",
+    "evaluation_access": "frozen_benchmark"
+  },
+  {
+    "fixture_id": "real-060",
+    "repository": "astral-sh/ruff",
+    "primary_archetype": "devtool",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_docs_heavy",
+      "char_install_config",
+      "char_mixed"
+    ],
+    "language": "rust",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "test",
+    "repository_url": "https://github.com/astral-sh/ruff.git",
+    "commit": "321eebc2d6574fb868e46312e8ff4ce8e401e8b5",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z",
+    "gold_role": "untouched_evaluation",
+    "evaluation_access": "frozen_benchmark"
+  },
+  {
+    "fixture_id": "real-064",
+    "repository": "mattermost/mattermost",
+    "primary_archetype": "webapp",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "AGPL-3.0",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/mattermost/mattermost.git",
+    "commit": "9c8d4164abd4e3dd585b97ab2f7efcf11b2fc141",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z",
+    "gold_role": "calibration",
+    "evaluation_access": "calibration_only"
+  },
+  {
+    "fixture_id": "real-071",
+    "repository": "kamranahmedse/developer-roadmap",
+    "primary_archetype": "docs",
+    "readme_characteristics": [
+      "char_docs_heavy",
+      "char_architecture"
+    ],
+    "language": "typescript",
+    "license": "CC-BY-NC-SA-4.0",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/kamranahmedse/developer-roadmap.git",
+    "commit": "77f17c777772b62feb7350ac63b4cd92646bb09f",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z",
+    "gold_role": "untouched_evaluation",
+    "evaluation_access": "frozen_benchmark"
+  },
+  {
+    "fixture_id": "real-075",
+    "repository": "github/gitignore",
+    "primary_archetype": "docs",
+    "readme_characteristics": [
+      "char_minimal",
+      "char_standard"
+    ],
+    "language": "shell",
+    "license": "CC0-1.0",
+    "stars_tier": "flagship_50k_plus",
+    "split": "validation",
+    "repository_url": "https://github.com/github/gitignore.git",
+    "commit": "361f1e6afa729dc58ec33bf0849772a03ddf6822",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z",
+    "gold_role": "calibration",
+    "evaluation_access": "calibration_only"
+  },
+  {
+    "fixture_id": "real-078",
+    "repository": "babel/babel",
+    "primary_archetype": "monorepo",
+    "readme_characteristics": [
+      "char_standard",
+      "char_architecture"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/babel/babel.git",
+    "commit": "12996b06d03c76c6834883daf0f8435de5fdb904",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z",
+    "gold_role": "untouched_evaluation",
+    "evaluation_access": "frozen_benchmark"
+  },
+  {
+    "fixture_id": "real-082",
+    "repository": "facebook/docusaurus",
+    "primary_archetype": "monorepo",
+    "readme_characteristics": [
+      "char_standard",
+      "char_tutorial"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/facebook/docusaurus.git",
+    "commit": "1434f56a07d83b6d52c6db2c7ef6403221747256",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z",
+    "gold_role": "calibration",
+    "evaluation_access": "calibration_only"
+  },
+  {
+    "fixture_id": "real-083",
+    "repository": "shadcn-ui/ui",
+    "primary_archetype": "monorepo",
+    "readme_characteristics": [
+      "char_standard",
+      "char_example_heavy"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "split": "validation",
+    "repository_url": "https://github.com/shadcn-ui/ui.git",
+    "commit": "3ba91b1cc83e1bbe4ab35a422ff2a694849c5048",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z",
+    "gold_role": "untouched_evaluation",
+    "evaluation_access": "frozen_benchmark"
+  },
+  {
+    "fixture_id": "real-086",
+    "repository": "ansible/ansible",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "python",
+    "license": "GPL-3.0",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/ansible/ansible.git",
+    "commit": "3827d66bfbdc568f58cce57b113131598c46cd5a",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z",
+    "gold_role": "calibration",
+    "evaluation_access": "calibration_only"
+  },
+  {
+    "fixture_id": "real-095",
+    "repository": "open-telemetry/opentelemetry-collector",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "Apache-2.0",
+    "stars_tier": "medium_1k_10k",
+    "split": "test",
+    "repository_url": "https://github.com/open-telemetry/opentelemetry-collector.git",
+    "commit": "af735319546aa0b4b94e25609d9157fff6f93b6c",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z",
+    "gold_role": "untouched_evaluation",
+    "evaluation_access": "frozen_benchmark"
+  },
+  {
+    "fixture_id": "real-099",
+    "repository": "pytorch/pytorch",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_standard",
+      "char_architecture"
+    ],
+    "language": "python",
+    "license": "BSD-3-Clause",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/pytorch/pytorch.git",
+    "commit": "60147cf18442b8858a728ab0d5f77235f24a3e69",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z",
+    "gold_role": "untouched_evaluation",
+    "evaluation_access": "frozen_benchmark"
+  },
+  {
+    "fixture_id": "real-101",
+    "repository": "run-llama/llama_index",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_example_heavy"
+    ],
+    "language": "python",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/run-llama/llama_index.git",
+    "commit": "d2ac544a27c73d2a68e9c57efec4b2ac0ef99892",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z",
+    "gold_role": "calibration",
+    "evaluation_access": "calibration_only"
+  },
+  {
+    "fixture_id": "real-108",
+    "repository": "actions/checkout",
+    "primary_archetype": "plugin",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_api_reference"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "split": "train",
+    "repository_url": "https://github.com/actions/checkout.git",
+    "commit": "f548e57e544e1ff5a4c46bf1e1b8685f8e4a348a",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z",
+    "gold_role": "untouched_evaluation",
+    "evaluation_access": "frozen_benchmark"
+  },
+  {
+    "fixture_id": "real-109",
+    "repository": "actions/setup-node",
+    "primary_archetype": "plugin",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_api_reference"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "split": "train",
+    "repository_url": "https://github.com/actions/setup-node.git",
+    "commit": "94196ee1d15439c1b6651cd87ef14e88ec435966",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z",
+    "gold_role": "untouched_evaluation",
+    "evaluation_access": "frozen_benchmark"
+  },
+  {
+    "fixture_id": "real-110",
+    "repository": "actions/setup-python",
+    "primary_archetype": "plugin",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_api_reference"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "split": "train",
+    "repository_url": "https://github.com/actions/setup-python.git",
+    "commit": "751276eafca55f10f252026015f43c488f2322ba",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z",
+    "gold_role": "calibration",
+    "evaluation_access": "calibration_only"
+  },
+  {
+    "fixture_id": "real-115",
+    "repository": "sindresorhus/is-plain-obj",
+    "primary_archetype": "small_project",
+    "readme_characteristics": [
+      "char_minimal",
+      "char_example_heavy"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "niche_10_1k",
+    "split": "train",
+    "repository_url": "https://github.com/sindresorhus/is-plain-obj.git",
+    "commit": "97f38e8836f86a642cce98fc6ab3058bc36df181",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z",
+    "gold_role": "untouched_evaluation",
+    "evaluation_access": "frozen_benchmark"
+  }
+]

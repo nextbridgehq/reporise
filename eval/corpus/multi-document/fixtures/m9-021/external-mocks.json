@@ -1,0 +1,6 @@
+{
+  "https://vuejs.org/guide/introduction.html": {
+    "http_status": 200,
+    "content": "# Introduction to Vue\n\n## What is Vue?\nVue is a framework for building UIs.\n\n## Quick Start\n```bash\nnpm create vue@latest\n```\n"
+  }
+}

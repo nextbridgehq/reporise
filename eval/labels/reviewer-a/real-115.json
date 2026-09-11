@@ -1,0 +1,22 @@
+{
+  "fixture_id": "real-115",
+  "repository": "sindresorhus/is-plain-obj",
+  "rubric_version": "m8-label-rubric-v1.0.0",
+  "evaluator_id": "reviewer_a",
+  "label_source": "ai_review",
+  "human_verified": false,
+  "gold_role": "none",
+  "scores": {
+    "overall": 3,
+    "seo": 3,
+    "aeo": 3,
+    "geo": 2
+  },
+  "rationale": {
+    "overall": "reviewer_a: Holistic discoverability assessed at 3/5. Meets competent standard open-source threshold based on evidence synthesis across surfaces.",
+    "seo": "reviewer_a: SEO rated 3/5. Findings: H1 matches repository/package identity, valid root license file, manifest metadata linked back to source.",
+    "aeo": "reviewer_a: AEO rated 3/5. Direct answers verified for 3/5 canonical questions: Q1 (What is it?) answered definitional pitch, Q4 (How is it used?) install & quickstart provided, Q5 (Prerequisites) runtime/ecosystem facts explicit.",
+    "geo": "reviewer_a: GEO rated 2/5. Machine citability supported by: 2 code block(s) present."
+  },
+  "reviewed_at": "2026-09-08T12:31:34.803Z"
+}

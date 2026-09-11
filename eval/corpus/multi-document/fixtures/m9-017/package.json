@@ -1,0 +1,7 @@
+{
+  "name": "nx-root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

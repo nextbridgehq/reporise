@@ -1,0 +1,120 @@
+{
+  "fixture_id": "real-057",
+  "repository": "evanw/esbuild",
+  "rubric_version": "m8-label-rubric-v1.0.0",
+  "evaluator_id": "reporise_deterministic_v0.2.0",
+  "label_source": "deterministic_audit",
+  "human_verified": false,
+  "gold_role": "none",
+  "scores": {
+    "overall": 3,
+    "seo": 3,
+    "aeo": 2,
+    "geo": 3
+  },
+  "raw_scores": {
+    "overall": 56,
+    "seo": 58,
+    "aeo": 45,
+    "geo": 53
+  },
+  "rationale": {
+    "overall": "Deterministic audit overall score 56% mapped to bucket 3. Top fixes: A one-sentence description sits directly under the title; Comparison / alternatives section.",
+    "seo": "Deterministic audit SEO surface score 58% mapped to bucket 3.",
+    "aeo": "Deterministic audit AEO surface score 45% mapped to bucket 2.",
+    "geo": "Deterministic audit GEO surface score 53% mapped to bucket 3."
+  },
+  "top_fixes": [
+    {
+      "id": "one-line-description",
+      "title": "A one-sentence description sits directly under the title",
+      "status": "fail",
+      "priority": 150
+    },
+    {
+      "id": "comparison-section",
+      "title": "Comparison / alternatives section",
+      "status": "fail",
+      "priority": 100
+    },
+    {
+      "id": "install-section",
+      "title": "Install/setup section present",
+      "status": "fail",
+      "priority": 80
+    },
+    {
+      "id": "manifest-description",
+      "title": "Package manifest has a description",
+      "status": "fail",
+      "priority": 80
+    },
+    {
+      "id": "runnable-example",
+      "title": "A runnable usage example with a language-tagged code block",
+      "status": "fail",
+      "priority": 80
+    },
+    {
+      "id": "examples-surface",
+      "title": "Examples directory",
+      "status": "warn",
+      "priority": 50
+    },
+    {
+      "id": "readme-h1",
+      "title": "README opens with an H1 title",
+      "status": "warn",
+      "priority": 50
+    },
+    {
+      "id": "faq-section",
+      "title": "FAQ or troubleshooting section",
+      "status": "warn",
+      "priority": 40
+    },
+    {
+      "id": "manifest-links",
+      "title": "Manifest links back to repository and homepage",
+      "status": "warn",
+      "priority": 40
+    },
+    {
+      "id": "requirements-section",
+      "title": "Requirements or compatibility stated",
+      "status": "warn",
+      "priority": 40
+    },
+    {
+      "id": "citation-metadata",
+      "title": "Machine-readable attribution (CITATION.cff or llms.txt)",
+      "status": "warn",
+      "priority": 25
+    },
+    {
+      "id": "version-stamped-facts",
+      "title": "Claims are version-stamped",
+      "status": "warn",
+      "priority": 25
+    },
+    {
+      "id": "when-to-use",
+      "title": "Explicit scope: when to use, when not to",
+      "status": "warn",
+      "priority": 25
+    },
+    {
+      "id": "readme-length",
+      "title": "README length is in a workable band",
+      "status": "warn",
+      "priority": 20
+    },
+    {
+      "id": "heading-structure",
+      "title": "Heading hierarchy is well-formed",
+      "status": "warn",
+      "priority": 10
+    }
+  ],
+  "reviewed_at": "2026-09-08T12:31:13.052Z"
+}

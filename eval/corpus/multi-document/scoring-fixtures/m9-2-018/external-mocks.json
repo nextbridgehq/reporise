@@ -1,0 +1,6 @@
+{
+  "https://swc.rs/docs/getting-started": {
+    "http_status": 200,
+    "content": "# Getting Started with SWC\n\n## Installation\n```bash\nnpm install -D @swc/cli @swc/core\n```\n\n## Usage\nRun `npx swc ./src -d dist`.\n"
+  }
+}

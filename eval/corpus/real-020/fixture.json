@@ -1,0 +1,130 @@
+{
+  "id": "real-020",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "jesseduffield/lazygit",
+  "commit": "a4fa8a75eefeb31bfbce6cce7545935cc597ffc3",
+  "capturedAt": "2026-09-08T11:50:12.150Z",
+  "files": [
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "b5d286a2f4ece636bddb1a3a7c20320b9d325269862a84b9aa22bfaea67ac347",
+      "sizeBytes": 3925
+    },
+    {
+      "path": "docs/Config.md",
+      "sha256": "c152439c78fc7434acbf6009ea92461afa33f3c324f3d4c24ada9a1d37eb3d15",
+      "sizeBytes": 45574
+    },
+    {
+      "path": "docs/Custom_Command_Keybindings.md",
+      "sha256": "71da4a0e91a40873651bae1c90b0a20a64e033f8e46ca7c0405cca4b518f8374",
+      "sizeBytes": 19211
+    },
+    {
+      "path": "docs/Custom_DiffRenderers.md",
+      "sha256": "8655acebbb5bf84d207e18f6ff269b451043d916aca5b6f34693db2558f8d927",
+      "sizeBytes": 4129
+    },
+    {
+      "path": "docs/dev/Busy.md",
+      "sha256": "ee3d638a9060de0e17c518df1e9d1c490f5478d7afb984127c2778d8f60e9b3b",
+      "sizeBytes": 4726
+    },
+    {
+      "path": "docs/dev/Codebase_Guide.md",
+      "sha256": "b49f8b84d265950b002f86500aeb5c623c7e67904a4a5e5f8ea1d00e50a599bb",
+      "sizeBytes": 12118
+    },
+    {
+      "path": "docs/dev/Demo_Recordings.md",
+      "sha256": "a2eae375d6a05d767a439ce9fb516fc5e35ecb4126557acd6ffb0233bc6a73fc",
+      "sizeBytes": 3554
+    },
+    {
+      "path": "docs/dev/Find_Base_Commit_For_Fixup_Design.md",
+      "sha256": "9572dddbced561fec40bb28862cb7368adf888c5df205d5f779d501db6695dfc",
+      "sizeBytes": 11587
+    },
+    {
+      "path": "docs/dev/Integration_Tests.md",
+      "sha256": "f98afdeccaab9236c6aeac7b52bfdaaa07ca55adad4c2b024155f2ec17ef9071",
+      "sizeBytes": 53
+    },
+    {
+      "path": "docs/dev/Profiling.md",
+      "sha256": "96460c13459fe73f11ae1622dc4cf267b8b9df526b6fb184095eb3302cd6f664",
+      "sizeBytes": 2079
+    },
+    {
+      "path": "docs/dev/README.md",
+      "sha256": "50b90704a5aa4b604cf56c06c9f05f9ad8858ee9f7787b1e910c993643fdb7d5",
+      "sizeBytes": 305
+    },
+    {
+      "path": "docs/Fixup_Commits.md",
+      "sha256": "697575d5a8279a9c3eda0b5c4dead730037314153834ed98a0ed2fa4e4092de2",
+      "sizeBytes": 3487
+    },
+    {
+      "path": "docs/keybindings/Custom_Keybindings.md",
+      "sha256": "5794065c23ce27b3253ff40dd80047767e364c3f25382bcbb0a85492b0c89736",
+      "sizeBytes": 4570
+    },
+    {
+      "path": "docs/keybindings/Keybindings_en.md",
+      "sha256": "89732695ae25745d476f7f0885005f616d65b18f301502809f9916b3405a03e9",
+      "sizeBytes": 26483
+    },
+    {
+      "path": "docs/keybindings/Keybindings_ja.md",
+      "sha256": "3297a93a40b3339e92b72c7d18d93ea86cac32fc3c10ba90067496ee31a6b66c",
+      "sizeBytes": 38931
+    },
+    {
+      "path": "docs/keybindings/Keybindings_ko.md",
+      "sha256": "15284751ea73a0ffc9f3d5e8c2d1f4ad2266020cd8d7312cd494b47c809959b1",
+      "sizeBytes": 26776
+    },
+    {
+      "path": "docs/keybindings/Keybindings_nl.md",
+      "sha256": "4312c40c52a2b786b463ac06db50d39785425bed8c444f2cdc67e7df33857b28",
+      "sizeBytes": 26455
+    },
+    {
+      "path": "docs/keybindings/Keybindings_pl.md",
+      "sha256": "5b8ef56cb1e9ad5ed44b535abd66c52b5dad08e35d4d8936a3a6a6dd70ae6b96",
+      "sizeBytes": 28756
+    },
+    {
+      "path": "docs/keybindings/Keybindings_pt.md",
+      "sha256": "468816e51259c8c74d2fb3955fb0e278d7af5887e4046677f65c5d819d7deca9",
+      "sizeBytes": 29316
+    },
+    {
+      "path": "docs/keybindings/Keybindings_ru.md",
+      "sha256": "c2ac0d61c38a08fdd0afee8f1bcc5f6e7c7118e8b6a9c8eb8e5f57fa25a3ff64",
+      "sizeBytes": 33938
+    },
+    {
+      "path": "docs/keybindings/Keybindings_zh-CN.md",
+      "sha256": "af6b0583692c5f03f7e19de29bdcd6aab7f69df06ef38d2533f8cbeb6b5868fc",
+      "sizeBytes": 24711
+    },
+    {
+      "path": "go.mod",
+      "sha256": "d2b85f96f1355ec69a8f953f19a97fc96fc6241596f37782755fbc24ad5d77cd",
+      "sizeBytes": 3060
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "fb4367f14e5cd7dfc54432ae40d0fb24f0d578b7f74ecf0acbe656257025be33",
+      "sizeBytes": 1092
+    },
+    {
+      "path": "README.md",
+      "sha256": "3e450cf27b05f4db92e40f7fc1007ab9dab4a4d613311c65389982c0124ca463",
+      "sizeBytes": 38288
+    }
+  ]
+}

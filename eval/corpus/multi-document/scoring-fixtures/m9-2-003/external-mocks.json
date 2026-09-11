@@ -1,0 +1,6 @@
+{
+  "https://docs.pydantic.dev/latest/": {
+    "http_status": 200,
+    "content": "# Pydantic Documentation\n\n## Installation\n```bash\npip install pydantic\n```\n\n## Example\n```python\nfrom pydantic import BaseModel\nclass User(BaseModel):\n    id: int\n```\n"
+  }
+}

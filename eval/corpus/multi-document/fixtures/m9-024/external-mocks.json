@@ -1,0 +1,6 @@
+{
+  "https://grafana.com/docs/": {
+    "http_status": 200,
+    "content": "# Grafana Documentation\n\n## Getting Started\n```bash\ndocker run -d -p 3000:3000 grafana/grafana\n```\n"
+  }
+}

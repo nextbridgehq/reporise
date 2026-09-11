@@ -1,0 +1,25 @@
+{
+  "id": "real-114",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "sindresorhus/is-stream",
+  "commit": "ab06c4acc9dce4dcadc9dfc6416e1be2c836862d",
+  "capturedAt": "2026-09-08T12:22:31.331Z",
+  "files": [
+    {
+      "path": "license",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "sizeBytes": 1117
+    },
+    {
+      "path": "package.json",
+      "sha256": "fc7c9b9a57fbe9f4553d969cce8829a91c6f288f593855abacf5b2f2ad2deeb2",
+      "sizeBytes": 850
+    },
+    {
+      "path": "readme.md",
+      "sha256": "cb395471e8634d329a30c6cc34191c4938f6fdfeee7ef459a3b171882f1f7ffc",
+      "sizeBytes": 1737
+    }
+  ]
+}

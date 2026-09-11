@@ -1,0 +1,150 @@
+{
+  "id": "real-047",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "openai/openai-python",
+  "commit": "be928151372e4b62adb4a1571cda52ad759b38be",
+  "capturedAt": "2026-09-08T11:56:28.643Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "c831ae902396e6e6f07de8f1e604ec78185e6702813c7f758ea9c82409a39254",
+      "sizeBytes": 238001
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "05b7b03b15e2e878da5532b67e29ce4fd5fd01fd56c00cd45caefecd17793a93",
+      "sizeBytes": 11344
+    },
+    {
+      "path": "docs/architecture/security-model.md",
+      "sha256": "a8b39a4ee9aa240e14684023fca33280f0e4387dd75d388caa4a926876b44f3a",
+      "sizeBytes": 75955
+    },
+    {
+      "path": "examples/.keep",
+      "sha256": "dcea310c4df9be048ed5c8a6bcd8ff433c7b2f3f07fd161eb6ea6b48bc488645",
+      "sizeBytes": 180
+    },
+    {
+      "path": "examples/async_demo.py",
+      "sha256": "b2f8a14c24d11e31490dd7c222ed392cd1a2254874f41a4a24edd08561f40c1f",
+      "sizeBytes": 636
+    },
+    {
+      "path": "examples/audio.py",
+      "sha256": "9bfd7fcacdbe4f4918e7c20b90879a8d6d53e1c80794010c07947001bbeedc47",
+      "sizeBytes": 973
+    },
+    {
+      "path": "examples/azure.py",
+      "sha256": "9abbe896e01b5609cfb1e124cf0a2218616e453ede6a9a472e9b5ba5003bac30",
+      "sizeBytes": 1471
+    },
+    {
+      "path": "examples/azure_ad.py",
+      "sha256": "7449c002091f6fb0c26cbb81962dc9a9ae640b6abf7c2a0de6243bddce482fb5",
+      "sizeBytes": 2016
+    },
+    {
+      "path": "examples/bedrock.py",
+      "sha256": "bde41af6063351360ffa539d4b888384ce86f65ca68f6b0255ae06f6d9c4c2d6",
+      "sizeBytes": 274
+    },
+    {
+      "path": "examples/bedrock_runtime.py",
+      "sha256": "6f3bb0206154f1b1163ea7c10f4e1b5f5a8147b791a4afcc067467c3bb351569",
+      "sizeBytes": 1786
+    },
+    {
+      "path": "examples/demo.py",
+      "sha256": "b8c048f89de0069e7f118b75ff5c42f67c82146a00e0cbe5cd067cd2b8d16285",
+      "sizeBytes": 1257
+    },
+    {
+      "path": "examples/generate_file.sh",
+      "sha256": "7c6b9aca6c0d7339dff4b596a7e79115e648d540bea4604cb7a58a087fa82594",
+      "sizeBytes": 1007
+    },
+    {
+      "path": "examples/httpx2_client.py",
+      "sha256": "63a693be254c711f5f468d975c881c901fc366ac82d55a964a040ab94ed88c10",
+      "sizeBytes": 230
+    },
+    {
+      "path": "examples/image_stream.py",
+      "sha256": "68be9481e08188fdc927fc805fbf0b6d86da4cf718bc1b7deee6246c52f8cee9",
+      "sizeBytes": 1697
+    },
+    {
+      "path": "examples/module_client.py",
+      "sha256": "f5a1c0db9747b1403ea89e90d6bf38d217ac4c1a8bbb517fe5a6499ea1cfb47f",
+      "sizeBytes": 684
+    },
+    {
+      "path": "examples/mtls_httpx.py",
+      "sha256": "3451833960cd7a10638d7241fe9f5941b592dceac135472c4a709cd55aa89e23",
+      "sizeBytes": 862
+    },
+    {
+      "path": "examples/mtls_httpx2.py",
+      "sha256": "2fa94f84c2a56b4c51e240c40c6dd5f35d848b9259f20f7fc7dd0929740aff59",
+      "sizeBytes": 864
+    },
+    {
+      "path": "examples/mtls_httpx2_async.py",
+      "sha256": "4f46a6a1b2519a2bf32c74bdff2ba7f4ac16d2d3f4df0067bd497d693e61d31a",
+      "sizeBytes": 1054
+    },
+    {
+      "path": "examples/mtls_httpx_async.py",
+      "sha256": "b0587053bbcb0af0a285a299518e3276c2d8b24f583b1e7388cdbfa79a7e5c41",
+      "sizeBytes": 1052
+    },
+    {
+      "path": "examples/parsing.py",
+      "sha256": "205abf33a59244904e094c3dcc60826767cfc2b15064f7071c30f397b52e1f22",
+      "sizeBytes": 736
+    },
+    {
+      "path": "examples/parsing_stream.py",
+      "sha256": "fd7a6877ebf833c0ee70f05919ea9681f538bc2f5ce5c0fe6c3753453995683e",
+      "sizeBytes": 1078
+    },
+    {
+      "path": "examples/parsing_tools.py",
+      "sha256": "328c375ca79b78c24f5aa0672c7e3d5d1ff1b10d7d50bab8d95ba20148c7e167",
+      "sizeBytes": 1820
+    },
+    {
+      "path": "examples/parsing_tools_stream.py",
+      "sha256": "a1f828f9671ec268e2eca802803e81d5727524d83103c9af125374260a096b09",
+      "sizeBytes": 986
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "490612816ac4c9f686a0df221116d6dcf6296e033715544fa06218dd1c8b7392",
+      "sizeBytes": 11537
+    },
+    {
+      "path": "package.json",
+      "sha256": "3c3c48ddb4eb14d0cec8184ab9e3ac66b40d50621cb0abc04b5d7ff13e0634af",
+      "sizeBytes": 199
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "84090b72d9de7ab8395f007d1666dfa8f4c880bef9829af8115aa9103ceec6d1",
+      "sizeBytes": 8187
+    },
+    {
+      "path": "README.md",
+      "sha256": "15746d31aab55f7b83ab72553cb0e27fee736f8c80e8496a90520b06d2f0b64c",
+      "sizeBytes": 40594
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "da0b4317b3ed03fee0d117abca4eb8ac00212d99cf36e7a6c3297b4316acea74",
+      "sizeBytes": 1925
+    }
+  ]
+}

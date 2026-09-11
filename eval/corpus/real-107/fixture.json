@@ -1,0 +1,45 @@
+{
+  "id": "real-107",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "microsoft/vscode-python",
+  "commit": "0f3ddf5879162e8fc465eccd7292f7e9fa8dbdf8",
+  "capturedAt": "2026-09-08T12:21:00.411Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "0795d8c1ef606cd2c9ffe282a20d70321b6b85c47c7b5ad0c909b64085a850b4",
+      "sizeBytes": 409600
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "539b1bfc810aa62738af95866bfe584d568b0dca71aebed0bd81db0bdaebade3",
+      "sizeBytes": 453
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "2c9b8f17aa1173f83c7e3687e769a9b4c3d29e0b617beb9049d39dbf22757f01",
+      "sizeBytes": 110
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "5d177f23ecfeb0ea8e050b6a5a16355e1ae9a0b286436ca8f83ed08b3795be6b",
+      "sizeBytes": 1116
+    },
+    {
+      "path": "package.json",
+      "sha256": "08b13182631751ca630271246bc474db91144ea46f0d799449374681d0c5efe1",
+      "sizeBytes": 86283
+    },
+    {
+      "path": "README.md",
+      "sha256": "28358123db2f878168da53d6ccfbeae55cfa95e27505ca17065b2b152c3e72d0",
+      "sizeBytes": 10871
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "060975679acb5cc49b855745878b474493f72788885f9ac536101f9ef27abc8d",
+      "sizeBytes": 2866
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "id": "real-015",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "docker/compose",
+  "commit": "0c76ce8f041ffdf5c76db35fb4cde17fccf63f58",
+  "capturedAt": "2026-09-08T11:49:07.710Z",
+  "files": [
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "8968b6581581e6e40f98b81dc76fffc411a8787a0ad90052df9ec4c29858ff8e",
+      "sizeBytes": 16406
+    },
+    {
+      "path": "docs/examples/provider.go",
+      "sha256": "b1eddb1a8b317d1bf6ffb12bf49515f6ef124f7649e8c08fdbdf992a86d0c686",
+      "sizeBytes": 4714
+    },
+    {
+      "path": "docs/examples/sdk/main.go",
+      "sha256": "92cdab341708c8e5e3ecafd1ea5f525bc5b670c75fef8b58c1ff975f39dd5b59",
+      "sizeBytes": 2089
+    },
+    {
+      "path": "docs/examples/sdk/options.go",
+      "sha256": "fa2cef0225967eee3c3648f77a4f0bde893f4b082095f99555f1ff96264c99e4",
+      "sizeBytes": 1583
+    },
+    {
+      "path": "docs/examples/sdk/sdk_md_test.go",
+      "sha256": "0cb46fbadd15d48d010649c1b4cf19829cf2e68fc3ac3faf9b7d29d93eaa76b5",
+      "sizeBytes": 2197
+    },
+    {
+      "path": "docs/extension.md",
+      "sha256": "2a4a14c2297905c38bbee4bee91c6acf1874524ecac67c5936ad0e015523caed",
+      "sizeBytes": 9918
+    },
+    {
+      "path": "docs/reference/compose.md",
+      "sha256": "3e3445b8e873e57ae38467789496438828ade0c68bc4c434f24ace3afff58e57",
+      "sizeBytes": 17391
+    },
+    {
+      "path": "docs/reference/compose_alpha.md",
+      "sha256": "9a980c2314c9adb1887f304d461e77c76a26dc4911cf31a4fc1694863619494a",
+      "sizeBytes": 917
+    },
+    {
+      "path": "docs/reference/compose_alpha_dry-run.md",
+      "sha256": "4e03e7f9cf47752f2704112b1832a4176865103f60f9552084e6a209b61d60b3",
+      "sizeBytes": 161
+    },
+    {
+      "path": "docs/reference/compose_alpha_generate.md",
+      "sha256": "723ec336fbff2f916c6735bc96f48bfe0fa089d0551fdc27d78f4e0db60bcf5b",
+      "sizeBytes": 689
+    },
+    {
+      "path": "docs/reference/compose_alpha_publish.md",
+      "sha256": "9102cec38b3ef7cee0dcde5544db452613daf81f21459a27eec3aff617d3f1f5",
+      "sizeBytes": 1067
+    },
+    {
+      "path": "docs/reference/compose_alpha_scale.md",
+      "sha256": "a40f2a88b0807ddd3cbd961530ec2c6a148e7dd8bfd7b01005255c2d83304e59",
+      "sizeBytes": 393
+    },
+    {
+      "path": "docs/reference/compose_alpha_viz.md",
+      "sha256": "a0c0401bb12c6406b2da9e5c4643232914b216eb06fc09dc177ef6cb4fbba55e",
+      "sizeBytes": 1336
+    },
+    {
+      "path": "docs/reference/compose_alpha_watch.md",
+      "sha256": "0d2ccb1f3aad861c866c515177ef5f7797895f739451b9ce1d3c6a49d25ee5c5",
+      "sizeBytes": 602
+    },
+    {
+      "path": "docs/reference/compose_attach.md",
+      "sha256": "716fd921df5c8906cce49e1408bb1e2dffae1580dfbfe91ce1120dcb5aa48754",
+      "sizeBytes": 901
+    },
+    {
+      "path": "docs/reference/compose_bridge.md",
+      "sha256": "1e216d3adaec4669163f79076b981dd0aebe232adaf21a24f89fccfdcd2f557e",
+      "sizeBytes": 931
+    },
+    {
+      "path": "docs/reference/compose_bridge_convert.md",
+      "sha256": "5cf04f6ed19d7441aade2fcaab8e82e2f0aad0f86651f4c8d645086ff0e0daf7",
+      "sizeBytes": 1411
+    },
+    {
+      "path": "docs/reference/compose_bridge_transformations.md",
+      "sha256": "5febf9b7c94830783806aab0f870887bab0d625c11ebe7a024aa09300a13bdbf",
+      "sizeBytes": 743
+    },
+    {
+      "path": "docs/reference/compose_bridge_transformations_create.md",
+      "sha256": "0edae6d58fe56e66363ec2d5e287e4f5c37291bcde326d118722c088857078f2",
+      "sizeBytes": 628
+    },
+    {
+      "path": "docs/reference/compose_bridge_transformations_list.md",
+      "sha256": "3a72a75d1de1ae4fc34e75726ea63e2b701a282860a9fb9932a31609bb0f790c",
+      "sizeBytes": 695
+    },
+    {
+      "path": "docs/reference/compose_build.md",
+      "sha256": "54c73be92529d5db6534c3ce8d3ed7d4e2f18dbfbfdc06e823282cb3a7156e0c",
+      "sizeBytes": 3737
+    },
+    {
+      "path": "go.mod",
+      "sha256": "c6476d4df1b93bacf5a8dc017fa015d0c6eeab1603d22fdf2d38e07c3ef588df",
+      "sizeBytes": 7166
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "49bbe9114e49214df2ccc324cb3ac8d1d1aa1c3a0947f94c286765e86647b32e",
+      "sizeBytes": 11558
+    },
+    {
+      "path": "README.md",
+      "sha256": "b07368039e4d51c5946c4e6b329c943b38a1be7adc0ff8bf906086293ed38e36",
+      "sizeBytes": 3624
+    }
+  ]
+}

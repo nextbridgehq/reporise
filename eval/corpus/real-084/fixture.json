@@ -1,0 +1,145 @@
+{
+  "id": "real-084",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "storybookjs/storybook",
+  "commit": "1fd6cf45a5ef38bbdbaaae8f4bd26abf72f368d2",
+  "capturedAt": "2026-09-08T12:13:40.046Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "ca7091f4fa42f239a8654c4086d33fbe991821d4d33bd0e2fe0f5da32090cf93",
+      "sizeBytes": 513729
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "36dc3625637c6f1f63ab04f31c6e69aa7f6ab248e0e441daf1aa7c1fd44c13d0",
+      "sizeBytes": 5927
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "ecb33f29c1eccb5796ed13513010ad110cc987b00668df063e643de7c014f5ba",
+      "sizeBytes": 12300
+    },
+    {
+      "path": "docs/addons/addon-knowledge-base.mdx",
+      "sha256": "3f1dd7f3a044c7c96ac86c00e529490adf8421e983187a7cd926e43b71bbac0b",
+      "sizeBytes": 9964
+    },
+    {
+      "path": "docs/addons/addon-migration-guide.mdx",
+      "sha256": "6ab84a55518bde05d2e270d82a78c31e9d5a1ae263f304be930292b2db1d857e",
+      "sizeBytes": 14394
+    },
+    {
+      "path": "docs/addons/addon-types.mdx",
+      "sha256": "830f176813e71f47d47921c438ad425ae80ddf9f6165c9f0aab36d48d29c776d",
+      "sizeBytes": 2869
+    },
+    {
+      "path": "docs/addons/addons-api.mdx",
+      "sha256": "b1f821188d0221462aabad24794896df0933a66239af919ff50f63a16ad98690",
+      "sizeBytes": 12919
+    },
+    {
+      "path": "docs/addons/configure-addons.mdx",
+      "sha256": "1a6d9a85f07be2d9ef85d38a8870d63a0bc9285ec369d3001fbb5d77ff3a6757",
+      "sizeBytes": 2557
+    },
+    {
+      "path": "docs/addons/index.mdx",
+      "sha256": "0b2a86112b8cbc1190ab29e82bb5f1c2b9b2176ad9e4b342e911988dcb367a03",
+      "sizeBytes": 2527
+    },
+    {
+      "path": "docs/addons/install-addons.mdx",
+      "sha256": "2523dc4820a539218b2f4fb54db35aa3b04e022ac78ded1e79f65237f54a0b38",
+      "sizeBytes": 2339
+    },
+    {
+      "path": "docs/addons/integration-catalog.mdx",
+      "sha256": "44564d4709196ecab40b90663e57aeec34e1121ad46ae1fe22225b8ffb837042",
+      "sizeBytes": 6582
+    },
+    {
+      "path": "docs/addons/writing-addons.mdx",
+      "sha256": "8d30b2bfdd647759f57852fc19d657a48faeb70cfd80898f06162648d315c804",
+      "sizeBytes": 14986
+    },
+    {
+      "path": "docs/addons/writing-presets.mdx",
+      "sha256": "f284e19ab9885fa3fc50ee69a882f2a9025de67d9692ab7a37c5bbc8bdb1ebd2",
+      "sizeBytes": 7890
+    },
+    {
+      "path": "docs/ai/agentic-review.mdx",
+      "sha256": "01e16d043d74ba1dfcdf47ee17be6bfb4bdfa18773dfe305e5f58aa93e1002ea",
+      "sizeBytes": 3766
+    },
+    {
+      "path": "docs/ai/best-practices.mdx",
+      "sha256": "e042d6d329d05ed7c7be463bb77815117764d304a243c2f560ef77a571c056b3",
+      "sizeBytes": 8197
+    },
+    {
+      "path": "docs/ai/index.mdx",
+      "sha256": "6bcd142b9bf8108b65cc4331811de0af47e1841503d75a63814224055c617263",
+      "sizeBytes": 7510
+    },
+    {
+      "path": "docs/ai/manifests.mdx",
+      "sha256": "c8760d4def374cf34e041a78e8607dd5d991f712c6fe7c11bdee9c31479d1eb7",
+      "sizeBytes": 17663
+    },
+    {
+      "path": "docs/ai/mcp/api.mdx",
+      "sha256": "d59ced62be8783d711904690e078c7190c2ffe18be76a9ca627a23c5f1a67dbc",
+      "sizeBytes": 2022
+    },
+    {
+      "path": "docs/ai/mcp/index.mdx",
+      "sha256": "175b4fe72b9f9ba169752c7047a08701b1f4c69bbbc1fbf0f55c4840fed675d8",
+      "sizeBytes": 732
+    },
+    {
+      "path": "docs/ai/mcp/overview.mdx",
+      "sha256": "e17ab968dab4d3d10d34fa7f2b524b06357d4defe3b7dd1c80c215fcf143327d",
+      "sizeBytes": 16475
+    },
+    {
+      "path": "docs/ai/mcp/sharing.mdx",
+      "sha256": "5ffbfd462596c4396e9f72f66a215a668f1bc60bbbb991f1561f7f6c6275a4ac",
+      "sizeBytes": 4205
+    },
+    {
+      "path": "docs/ai/setup.mdx",
+      "sha256": "e5eeb4570d5763668fdace6792b76345fcb1013e76968e2a0e92b6c658f57a36",
+      "sizeBytes": 4123
+    },
+    {
+      "path": "docs/api/arg-types.mdx",
+      "sha256": "b66b4c0a893443556debe0a5dc2ec9da823959172eddf81136a4c17595968d75",
+      "sizeBytes": 16675
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "bc90586179d44dcb313a9a289d687a2f26226303b2066bd21dbefd2378e894e5",
+      "sizeBytes": 1077
+    },
+    {
+      "path": "package.json",
+      "sha256": "72beccabaa9ec246c1a85f829cbc8a45aed3fd2c663264012a00d9e9fd021ef7",
+      "sizeBytes": 4025
+    },
+    {
+      "path": "README.md",
+      "sha256": "0e03c7906e9d2c72cbc8ecbec24059c691e7a2c7ac9d20fe402d375ee22dad12",
+      "sizeBytes": 21923
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "2ceb5f642a48530b059db518e6d7d4766dd77c32e7582d30d6d6bd3b00703536",
+      "sizeBytes": 2469
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "real-042",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "octokit/octokit.js",
+  "commit": "bc34deaf357486594c41f167c05921d16e6aabe9",
+  "capturedAt": "2026-09-08T11:53:32.664Z",
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "7dcf659389a54173c88f7fd6aa2f0a39a2431e00741d88b6918a588b2ccecb97",
+      "sizeBytes": 3316
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "4ccbe2a8cf5195b8f63cf853dbf0ea2d7ac3f91821680ed2635a35063449e7c8",
+      "sizeBytes": 2663
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "7d0cef07cc9c5ef382219daa6dd0e7911d5e1ef6061fca79ac30defec3af6c4f",
+      "sizeBytes": 1102
+    },
+    {
+      "path": "package.json",
+      "sha256": "9618a41b7cd5ca40509d25dc0713e06ed12ce636b2f619c58d2c0f796b46b19f",
+      "sizeBytes": 2626
+    },
+    {
+      "path": "README.md",
+      "sha256": "64f79f0abd2b4916d0e3a1c82a9e8c575659a5046f6ff55494598317ac2528f2",
+      "sizeBytes": 36211
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "41970175b3846ced118c3f39cc19e290c8c21aa656fd7e060428fbb09c76fdf9",
+      "sizeBytes": 904
+    }
+  ]
+}

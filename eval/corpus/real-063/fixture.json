@@ -1,0 +1,50 @@
+{
+  "id": "real-063",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "outline/outline",
+  "commit": "c1811ffa205748ee0e5350eaec9afaf8072f6817",
+  "capturedAt": "2026-09-08T12:03:50.905Z",
+  "files": [
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "f8850d48882d898d0a4d8426fc17bdb6c42e78aef98fa35d9a5e617ce7abb60a",
+      "sizeBytes": 3978
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT.md",
+      "sha256": "b4e55df883dd1c8f8029a6fba99d4853051b9a4876c727c5af969819bca06e03",
+      "sizeBytes": 3263
+    },
+    {
+      "path": "docs/SECURITY.md",
+      "sha256": "f4297fabb333c7b064ba8535888a41bb304239d475b7f55d3304677adfbd3721",
+      "sizeBytes": 691
+    },
+    {
+      "path": "docs/SERVICES.md",
+      "sha256": "85bfaf7212b1ab5afa34bfd160f6ebdea330303e418df797598b03fa7690b9e7",
+      "sizeBytes": 1478
+    },
+    {
+      "path": "docs/TRANSLATION.md",
+      "sha256": "f0f5d11cd59f37e10d53ab84613fbfcffda73181534a2ca4b1297c336415e9ce",
+      "sizeBytes": 3071
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "806126ace0fef34ea48ef98681125567b6aa47d2029c9dccb55c7bfb6c45d3e1",
+      "sizeBytes": 4757
+    },
+    {
+      "path": "package.json",
+      "sha256": "dfba7aa4e1798bcd808f6f8a53a747fdccc97d49d44b60888ce227e7f0cbbeb1",
+      "sizeBytes": 14589
+    },
+    {
+      "path": "README.md",
+      "sha256": "c0ff1aa02412a9c43a9c557a800ee11d2ce66e2546b160f44573e13e451191a8",
+      "sizeBytes": 5966
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "https://mytoolsite.org/info": {
+    "http_status": 200,
+    "content": "# Info Page\nSome info.\n"
+  }
+}

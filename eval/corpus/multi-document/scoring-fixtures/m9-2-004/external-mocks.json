@@ -1,0 +1,6 @@
+{
+  "https://sqlmodel.tiangolo.com": {
+    "http_status": 200,
+    "content": "# SQLModel Tutorial\n\n## Installation\n```bash\npip install sqlmodel\n```\n\n## First Steps\nCreate your database models.\n"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "id": "real-085",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "backstage/backstage",
+  "commit": "38441ff55abef2b0e2932030f88a26ce35f3acf9",
+  "capturedAt": "2026-09-08T12:14:30.578Z",
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "edd9927f378a69b60eec86bf1e91a2bdfff9d4df38635a43bafec866dcac119d",
+      "sizeBytes": 143
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "2cd20edc5a8ccd7d73c4fa5b781d92a701e36ba88495bdf504de133b0684f976",
+      "sizeBytes": 29917
+    },
+    {
+      "path": "docs/.release-notes-template.md",
+      "sha256": "e8cd68b3984c869257a3cecfb09354b58cc80ee537b7c0a07339646ce487736c",
+      "sizeBytes": 1974
+    },
+    {
+      "path": "docs/.well-known/skills/index.json",
+      "sha256": "07ad7bbfd14897c8e901752384dee6eafa4124060a31748b6fdbde8723acc9ae",
+      "sizeBytes": 2231
+    },
+    {
+      "path": "docs/accessibility/index.md",
+      "sha256": "36b95fcf738658989e1e48a4d6934da85141036beeb6ddb78770d750a3dce5e6",
+      "sizeBytes": 3339
+    },
+    {
+      "path": "docs/ai/ai-in-the-catalog.md",
+      "sha256": "bef29ff5e01485b54652aac4bc63830bf9cb81b00f356e11a3e4b5256ca4ace4",
+      "sizeBytes": 5205
+    },
+    {
+      "path": "docs/ai/index.md",
+      "sha256": "21cb153430b29e506caf0a221b097f5c64e15f5928e3fde36bb8a54ff764f870",
+      "sizeBytes": 2202
+    },
+    {
+      "path": "docs/ai/mcp-actions.md",
+      "sha256": "dce768b4f926f0e317c3f9866e6bb54e246cec077ea565225366e43f735b9ba1",
+      "sizeBytes": 18004
+    },
+    {
+      "path": "docs/ai/skills.md",
+      "sha256": "b27779406042e6f95b1d6abff77b0f1de6f19a8850f777c192748ab2a4bc2c94",
+      "sizeBytes": 4184
+    },
+    {
+      "path": "docs/ai/well-known-actions.md",
+      "sha256": "f1caeb017a97cef4ed2d0518e9ddf7434b0aeeca31892c34e00ec8dd0565f920",
+      "sizeBytes": 3048
+    },
+    {
+      "path": "docs/ai/well-known-skills.md",
+      "sha256": "12ed6586db855ce0688966f8238b3c9b6e1279fec77a6eb8f27239fb409d6782",
+      "sizeBytes": 1997
+    },
+    {
+      "path": "docs/api/deprecations.md",
+      "sha256": "f38fdd7a3c9841f6dda7970bcd8f9f80c3b1b99087eefe200c934b28663a9106",
+      "sizeBytes": 6216
+    },
+    {
+      "path": "docs/api/utility-apis.md",
+      "sha256": "3e774858b6ff15c564443bfa1052e9ecfe742980176f570d7b9300600cf94336",
+      "sizeBytes": 16682
+    },
+    {
+      "path": "docs/architecture-decisions/adr000-template.md",
+      "sha256": "58639a847b0721d06e642a0c32e6f91e8f1131ddfcb335ee3d5a70a98a637e25",
+      "sizeBytes": 1187
+    },
+    {
+      "path": "docs/architecture-decisions/adr001-add-adr-log.md",
+      "sha256": "b5f3b959ccb569ecf06738ca942f9f6419a9755e46d3e2fffd1e8e811e0f9b06",
+      "sizeBytes": 531
+    },
+    {
+      "path": "docs/architecture-decisions/adr002-default-catalog-file-format.md",
+      "sha256": "ceb810ec7420cec0fa70bf07ce48dcaa43bb46eea7593515ba190f9ccf60b3ee",
+      "sizeBytes": 8994
+    },
+    {
+      "path": "docs/architecture-decisions/adr003-avoid-default-exports.md",
+      "sha256": "e2490b6cd18401f67c7dc62c483cb59cbd75f3b07e682bf72cd0b4b8fccb5967",
+      "sizeBytes": 2748
+    },
+    {
+      "path": "docs/architecture-decisions/adr004-module-export-structure.md",
+      "sha256": "fc12aae975c8614c00b8afef92ab3a589c7d530df23f29da28388f3cedbff248",
+      "sizeBytes": 3160
+    },
+    {
+      "path": "docs/architecture-decisions/adr005-catalog-core-entities.md",
+      "sha256": "a78570998cbc96b530196264e86d8ddef45a059120d4eef5ec5c9626837a172f",
+      "sizeBytes": 3771
+    },
+    {
+      "path": "docs/architecture-decisions/adr006-avoid-react-fc.md",
+      "sha256": "9ec0f2920973c79770bee7508fe7759937d220a2a323a5a494ab55024c44d58c",
+      "sizeBytes": 1567
+    },
+    {
+      "path": "docs/architecture-decisions/adr007-use-msw-to-mock-service-requests.md",
+      "sha256": "7c4b6a38109b31bc1fbe7d2768bc00a5c3375f4d928ab4e7ed4bf59fbc4f8e77",
+      "sizeBytes": 1797
+    },
+    {
+      "path": "docs/architecture-decisions/adr008-default-catalog-file-name.md",
+      "sha256": "ff2ccc59478102a9067c82236a8598df9fa696c34df4ee83c3eaffeb4a639649",
+      "sizeBytes": 694
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "4310dfbe4acee499cd591f78974b87816958605edef21e7bf395e7fab88d62a7",
+      "sizeBytes": 11045
+    },
+    {
+      "path": "package.json",
+      "sha256": "81109a721fa05e6e12cf48fe7e39b795f15beae931b832b96d49455c397abba0",
+      "sizeBytes": 8210
+    },
+    {
+      "path": "README.md",
+      "sha256": "539d1ff5c0d368afad0b326baaa707f7791e8ce84dfebf0d00e0598ecda4d20a",
+      "sizeBytes": 5771
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "771ba76faf33ce1ccf00e694becaaf591e0b8667162bb60fe36161260c94578a",
+      "sizeBytes": 7751
+    }
+  ]
+}

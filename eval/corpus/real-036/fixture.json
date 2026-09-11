@@ -1,0 +1,130 @@
+{
+  "id": "real-036",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "tiangolo/fastapi",
+  "commit": "50113da16fec53b66b80d75e80a89296de4fa5a5",
+  "capturedAt": "2026-09-08T11:52:56.232Z",
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "sha256": "b1470b75c6626fbf4c274f2b0a9ef3c79e7c63b0ec1fab76a318a81b193d036c",
+      "sizeBytes": 638
+    },
+    {
+      "path": "docs/de/docs/alternatives.md",
+      "sha256": "8a753c94afd9d5fb990a0f25acd610e2447ae4608f930bf3aa43751811127395",
+      "sizeBytes": 27148
+    },
+    {
+      "path": "docs/de/docs/async.md",
+      "sha256": "4c686b2ac00cf217a6df36831882d0f5e5d4978e8718367f966c40378427097b",
+      "sizeBytes": 28393
+    },
+    {
+      "path": "docs/de/docs/benchmarks.md",
+      "sha256": "fcbb6de769c4c67c47439aa114a611e026829f8448e4c6767f6b3e147ced1c3f",
+      "sizeBytes": 4093
+    },
+    {
+      "path": "docs/de/docs/editor-support.md",
+      "sha256": "412c7ab557d7d89d3b896e08c45d4322824120e2b3fd3540ae4b45fc893937ef",
+      "sizeBytes": 2793
+    },
+    {
+      "path": "docs/de/docs/environment-variables.md",
+      "sha256": "0fc6225e6ef08163ff87a1c7cf00d69683dcb941f04f79922b436a29666ebdbe",
+      "sizeBytes": 852
+    },
+    {
+      "path": "docs/de/docs/fastapi-cli.md",
+      "sha256": "cd49c856755f192758d662eb18c06e2acc7d1a5b341efbc31dd0d5d38c7b1c80",
+      "sizeBytes": 7295
+    },
+    {
+      "path": "docs/de/docs/features.md",
+      "sha256": "0e794b5f7919e844e61ce2fb188e08c34d182ecf208cf4158da4decc5ad02a31",
+      "sizeBytes": 10809
+    },
+    {
+      "path": "docs/de/docs/help-fastapi.md",
+      "sha256": "c5db550d5725f1c94736b15d637609211bb4b7940543e096f9b3d56b292bc502",
+      "sizeBytes": 3978
+    },
+    {
+      "path": "docs/de/docs/history-design-future.md",
+      "sha256": "e1a4efddd514c71bc9a39d66bf9682d84d4b4eeb3fd5ae7549e9378e0fcf3165",
+      "sizeBytes": 4860
+    },
+    {
+      "path": "docs/de/docs/index.md",
+      "sha256": "a5b9e2be7923092c4c87053395e42e07f7f990df79972a598ede031151c39c89",
+      "sizeBytes": 28051
+    },
+    {
+      "path": "docs/de/docs/project-generation.md",
+      "sha256": "fdc7c688c4c054d436549a43a7c83926c62fa3acfb441d3f2a5592ac6e1e9e5c",
+      "sizeBytes": 2250
+    },
+    {
+      "path": "docs/de/docs/python-types.md",
+      "sha256": "75a872158620efb946774f257ded39e89a0bda5909a38449bc065d419ca8773c",
+      "sizeBytes": 13266
+    },
+    {
+      "path": "docs/de/docs/translation-banner.md",
+      "sha256": "02dbf8300f0cebac485e22621c46bc4ecef9af998a4b8c8fc71b7fa90b443cf8",
+      "sizeBytes": 469
+    },
+    {
+      "path": "docs/de/docs/virtual-environments.md",
+      "sha256": "9164ca378b995b8bcd1453f24658c206b229c710543202b16e3ca73f19be6ee8",
+      "sizeBytes": 1318
+    },
+    {
+      "path": "docs/de/docs/_llm-test.md",
+      "sha256": "6b90f5a6606c95a4b5ca0cd2f3467db718b1d7d924050518897a7dcdcaf7af91",
+      "sizeBytes": 12962
+    },
+    {
+      "path": "docs/de/llm-prompt.md",
+      "sha256": "b96c365d5ed86e956000a30bd876e0b0708b053361ab6d90646c8280f1769e88",
+      "sizeBytes": 10374
+    },
+    {
+      "path": "docs/en/data/contributors.yml",
+      "sha256": "987b0ec1b1a853af41f2758e57af1c9b50a4c849caf5a78aed13ac9299548b34",
+      "sizeBytes": 21987
+    },
+    {
+      "path": "docs/en/data/github_sponsors.yml",
+      "sha256": "ab68d1a3e087c5e51798a97bc2d256d995c32f969e169314a3e5ed3fdb84b7dc",
+      "sizeBytes": 19032
+    },
+    {
+      "path": "docs/en/data/members.yml",
+      "sha256": "764ac8ee5e3bea577b25f1875298e669201783884e0fb3f7f8e2a6c0644ba333",
+      "sizeBytes": 841
+    },
+    {
+      "path": "docs/en/data/people.yml",
+      "sha256": "ebd4277742871b9d61074c3b4f0fe5889cd2a7f481336bddaa5d7afa2ab537c6",
+      "sizeBytes": 34276
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "2853a942962e3bb755239b5fecb736503be392554c1d90f97cea7f29f4465d34",
+      "sizeBytes": 1107
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "3c056c944ef4b9036f3727349c8486cb7b1e901c9ddd2f32cea970dbc554667b",
+      "sizeBytes": 11981
+    },
+    {
+      "path": "README.md",
+      "sha256": "2e01c4c4404cbe82c5db340e4cb718b339deb5c89077e86a38fbcf6d286023cf",
+      "sizeBytes": 23315
+    }
+  ]
+}

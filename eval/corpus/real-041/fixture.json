@@ -1,0 +1,50 @@
+{
+  "id": "real-041",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "gin-gonic/gin",
+  "commit": "dcaa4296d111981ffb31ac3eba90bb63e1eb5ab9",
+  "capturedAt": "2026-09-08T11:53:43.762Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "23b82baf78e448ccccb99f7a25f81ee7faa954fd3c4dbb6bdcc1ceb593ec826d",
+      "sizeBytes": 51626
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "63f414f1556ba8edb27ce127bcb13907c9beba0e14f765f1e1e9ce6da987736c",
+      "sizeBytes": 3265
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "f00010fe26a748fb28a58a3e800fdb29d00adbf9b98c58d34c23b007b8406e3a",
+      "sizeBytes": 2147
+    },
+    {
+      "path": "docs/doc.md",
+      "sha256": "b17f3f39ad6b9bdbd1d1e0c97218f3654927193a489c636893a62701d4d53049",
+      "sizeBytes": 71682
+    },
+    {
+      "path": "examples/README.md",
+      "sha256": "94ef80c7c875751b699a78524212d58d60e8b617d5ea2b5e8b463f128288227d",
+      "sizeBytes": 147
+    },
+    {
+      "path": "go.mod",
+      "sha256": "d9fa6551a2f79d00b3a7c187c1eb773841e59dfa0a635b83f6e8277ff8d6367b",
+      "sizeBytes": 1645
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "8a4b6eaec9cc458a2ba7cad019b47d98ed8c6400614f8e1ded27a924d249e3e0",
+      "sizeBytes": 1120
+    },
+    {
+      "path": "README.md",
+      "sha256": "0792b434f5bd446de208cba6bff64c75900f1bbbecfcc983a6aab3f62f761e40",
+      "sizeBytes": 12054
+    }
+  ]
+}

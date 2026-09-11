@@ -1,0 +1,140 @@
+{
+  "id": "real-082",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "facebook/docusaurus",
+  "commit": "1434f56a07d83b6d52c6db2c7ef6403221747256",
+  "capturedAt": "2026-09-08T12:25:18.211Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "68b94e75cff9ac313d4c66279c708a1878d70e6116b427834d4de298e9cd1fcc",
+      "sizeBytes": 220981
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "d6279a55e3b2ed48442bf426643b708754acf7942b11fdea076e3a72b4cd19f8",
+      "sizeBytes": 240
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "ab58674ccb5e7c8622b780874b87c9dc2e6eb224d82ff8e64d0e7fac026a0dcd",
+      "sizeBytes": 18379
+    },
+    {
+      "path": "examples/classic/.gitignore",
+      "sha256": "7c2bf6ba263ba149a2885847a9f7186e0d7af58faae3e01f2e69a7465f7cfecc",
+      "sizeBytes": 233
+    },
+    {
+      "path": "examples/classic/.stackblitzrc",
+      "sha256": "815a56e48b8260c80eb76fec659cf3ab3b7ec92b71434af97630c9d8741e9468",
+      "sizeBytes": 65
+    },
+    {
+      "path": "examples/classic/blog/2019-05-28-first-blog-post.mdx",
+      "sha256": "edc61bb8ea24790ea8118cf30da8cc5fc238d35863e3fe8e88e19ba01248a9c5",
+      "sizeBytes": 311
+    },
+    {
+      "path": "examples/classic/blog/2019-05-29-long-blog-post.mdx",
+      "sha256": "f1aff4e7c9fcfa23c59f62fa19b61ffd4416ecc1e04882e4e936a87781ae6680",
+      "sizeBytes": 3120
+    },
+    {
+      "path": "examples/classic/blog/2021-08-01-mdx-blog-post.mdx",
+      "sha256": "f6d10a1c3144d8b181b6ed6fbf72fee804aa94c5d86cdf409c38b6b6b78a5224",
+      "sizeBytes": 512
+    },
+    {
+      "path": "examples/classic/blog/authors.yml",
+      "sha256": "b161d589f651d921a73d091da15ccd2639c23ff531fd492720b1ee7be93270b6",
+      "sizeBytes": 707
+    },
+    {
+      "path": "examples/classic/blog/tags.yml",
+      "sha256": "94ba7da627f8f90df90e735b1755cbbf59fb7667d1a176d5a8eb9606f0f0e4c3",
+      "sizeBytes": 347
+    },
+    {
+      "path": "examples/classic/docs/intro.mdx",
+      "sha256": "61ea991208e07f6d506ca80a568ed5f789cb529d79c90f98cb392465b41c738d",
+      "sizeBytes": 1403
+    },
+    {
+      "path": "examples/classic/docusaurus.config.js",
+      "sha256": "686ef4001825f50ea1de366cd28e90f3776001013c0678fe8f71cf3d7d0e65ee",
+      "sizeBytes": 4645
+    },
+    {
+      "path": "examples/classic/package.json",
+      "sha256": "0fb9028cc8c34ea1df7a7b3b1852f4665e8de9d34436a250e55d24f8e35f3446",
+      "sizeBytes": 1179
+    },
+    {
+      "path": "examples/classic/README.md",
+      "sha256": "0b6c60e8a35ac8b29b45d0ff994dbf41ae637892f89167cf8d01a3bb0263db08",
+      "sizeBytes": 857
+    },
+    {
+      "path": "examples/classic/sandbox.config.json",
+      "sha256": "60aba46918d43c2de96dfad431f94545305fb15a47793f99a8e56fa9cf4cc90e",
+      "sizeBytes": 171
+    },
+    {
+      "path": "examples/classic/sidebars.js",
+      "sha256": "82c2509b4c8c412a2d42cf9c16c6ab2ef5e50929f6d411e2a2c99d4bfeeaf51e",
+      "sizeBytes": 855
+    },
+    {
+      "path": "examples/classic/static/.nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sizeBytes": 0
+    },
+    {
+      "path": "examples/classic-typescript/.gitignore",
+      "sha256": "7c2bf6ba263ba149a2885847a9f7186e0d7af58faae3e01f2e69a7465f7cfecc",
+      "sizeBytes": 233
+    },
+    {
+      "path": "examples/classic-typescript/.stackblitzrc",
+      "sha256": "815a56e48b8260c80eb76fec659cf3ab3b7ec92b71434af97630c9d8741e9468",
+      "sizeBytes": 65
+    },
+    {
+      "path": "examples/classic-typescript/blog/2019-05-28-first-blog-post.mdx",
+      "sha256": "edc61bb8ea24790ea8118cf30da8cc5fc238d35863e3fe8e88e19ba01248a9c5",
+      "sizeBytes": 311
+    },
+    {
+      "path": "examples/classic-typescript/blog/2019-05-29-long-blog-post.mdx",
+      "sha256": "f1aff4e7c9fcfa23c59f62fa19b61ffd4416ecc1e04882e4e936a87781ae6680",
+      "sizeBytes": 3120
+    },
+    {
+      "path": "examples/classic-typescript/blog/2021-08-01-mdx-blog-post.mdx",
+      "sha256": "f6d10a1c3144d8b181b6ed6fbf72fee804aa94c5d86cdf409c38b6b6b78a5224",
+      "sizeBytes": 512
+    },
+    {
+      "path": "examples/classic-typescript/blog/authors.yml",
+      "sha256": "b161d589f651d921a73d091da15ccd2639c23ff531fd492720b1ee7be93270b6",
+      "sizeBytes": 707
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+      "sizeBytes": 1086
+    },
+    {
+      "path": "package.json",
+      "sha256": "47127a676cb739cf454748d265a7d9f3640da89c43abe4b30e75ca9a7f8afe41",
+      "sizeBytes": 7795
+    },
+    {
+      "path": "README.md",
+      "sha256": "49abe2308d720994c9a78ed80f4a8d31385389c219d1f427623a4f9fa73a13d1",
+      "sizeBytes": 7462
+    }
+  ]
+}

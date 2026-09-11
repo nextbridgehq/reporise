@@ -1,0 +1,7 @@
+{
+  "name": "babel",
+  "description": "The compiler for next generation JavaScript",
+  "workspaces": [
+    "packages/*"
+  ]
+}

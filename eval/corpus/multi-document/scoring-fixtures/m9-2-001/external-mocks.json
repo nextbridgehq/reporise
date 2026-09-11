@@ -1,0 +1,6 @@
+{
+  "https://ioredis.readthedocs.io/en/latest/": {
+    "http_status": 200,
+    "content": "# ioredis Documentation\n\n## Installation\n```bash\nnpm install ioredis\n```\n\n## Basic Usage\n```js\nconst Redis = require(\"ioredis\");\nconst redis = new Redis();\n```\n"
+  }
+}

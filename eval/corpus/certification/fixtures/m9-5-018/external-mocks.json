@@ -1,0 +1,10 @@
+{
+  "https://docs.microcomm.org/install": {
+    "http_status": 200,
+    "content": "# Installation Guide\n```bash\nnpm install microcomm\n```\n"
+  },
+  "https://docs.microcomm.org/api": {
+    "http_status": 200,
+    "content": "# API Reference\n```javascript\nconst client = new MicroClient();\nawait client.send('ping');\n```\n"
+  }
+}

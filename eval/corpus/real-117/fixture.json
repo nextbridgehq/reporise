@@ -1,0 +1,25 @@
+{
+  "id": "real-117",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "jonschlinkert/is-even",
+  "commit": "585f8002bb16f7bec723a47349b67df451f1b25d",
+  "capturedAt": "2026-09-08T12:22:58.742Z",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "aab63d733edfbb74393d94d75ece4ca89577d9f4a852a4cb18fb25cc8e254209",
+      "sizeBytes": 1088
+    },
+    {
+      "path": "package.json",
+      "sha256": "950a1f9b2f6002e46447b4d944f4e93273cddce0a97994512d2c1e4841c59a2c",
+      "sizeBytes": 974
+    },
+    {
+      "path": "README.md",
+      "sha256": "e0b54de53f36180bebfb2129a6bcadd081cf33e6e9215867142db031f37144f1",
+      "sizeBytes": 2129
+    }
+  ]
+}

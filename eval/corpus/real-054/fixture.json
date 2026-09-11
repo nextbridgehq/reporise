@@ -1,0 +1,130 @@
+{
+  "id": "real-054",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "vitejs/vite",
+  "commit": "e6f6b3e3119256daa837b2dc399058c8aa45b470",
+  "capturedAt": "2026-09-08T11:59:24.483Z",
+  "files": [
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "3d56eb2a4a34bfa5731e7388f46e2ed750969cc0a12ca3071a1c3b34ce1fe8a1",
+      "sizeBytes": 23249
+    },
+    {
+      "path": "docs/.vitepress/buildEnd.config.ts",
+      "sha256": "27d1d1f6742e930f07eecd68723daa773bdb42804942f2e6336b41ac880da5a4",
+      "sizeBytes": 1311
+    },
+    {
+      "path": "docs/.vitepress/config.ts",
+      "sha256": "f397124beacabe0d6049edd6da56d6523439400123eb0dd519fb1cf5fc65b5bd",
+      "sizeBytes": 17076
+    },
+    {
+      "path": "docs/.vitepress/theme/index.ts",
+      "sha256": "a762c666d46d31c5238dbb5133695c955bae58307b723fa9c2afe6a73a9e0e93",
+      "sizeBytes": 1039
+    },
+    {
+      "path": "docs/.vitepress/theme/styles.css",
+      "sha256": "165bde42ae4d0596dc7233e3393adad8cd421deeb78147252730ca140f35c7da",
+      "sizeBytes": 409
+    },
+    {
+      "path": "docs/acknowledgements.md",
+      "sha256": "935f829014063bb65988b4e513f274f0df66a30d75c2b4b79fedad2a5adb0475",
+      "sizeBytes": 6177
+    },
+    {
+      "path": "docs/blog/announcing-vite2.md",
+      "sha256": "f9d2217c2a2a97f24ce4902baa74264166d4bdcbff947124380cb01d14296674",
+      "sizeBytes": 5895
+    },
+    {
+      "path": "docs/blog/announcing-vite3.md",
+      "sha256": "60e2e415a301ac16228869081f827aa0b062d058b9ac22f5402dec0349e01029",
+      "sizeBytes": 20712
+    },
+    {
+      "path": "docs/blog/announcing-vite4-3.md",
+      "sha256": "8eb97acd5a6f91ed67e64746f777880556e303017a088e7224627d863f88e468",
+      "sizeBytes": 4565
+    },
+    {
+      "path": "docs/blog/announcing-vite4.md",
+      "sha256": "20db7a539c595db59f65f3fb992097c8b308f671b891fb940da32c27edfcfec4",
+      "sizeBytes": 12039
+    },
+    {
+      "path": "docs/blog/announcing-vite5-1.md",
+      "sha256": "3b2ed60c854259e52ad244a4eb09478380de006fc1f30f327eead8abadb80c2e",
+      "sizeBytes": 11085
+    },
+    {
+      "path": "docs/blog/announcing-vite5.md",
+      "sha256": "3b5a18922eb1eebfbd4458ac87d336a570b6151e4b066cd4208aa08b0a982c41",
+      "sizeBytes": 10526
+    },
+    {
+      "path": "docs/blog/announcing-vite6.md",
+      "sha256": "52dc60b10b623ec40ebdae7b8030e1750727fa695b1cc2de8f69b2d939db6c6f",
+      "sizeBytes": 11639
+    },
+    {
+      "path": "docs/blog/announcing-vite7.md",
+      "sha256": "3e4abe329a5e230fc4e63c46b2ace6aaca2bb1ea2e4cd08ded0ef2032bcfe3c7",
+      "sizeBytes": 8697
+    },
+    {
+      "path": "docs/blog/announcing-vite8-1.md",
+      "sha256": "6332ed62ec37a6a5faff0ba1b16ca534194f60adc55f9dde23f442151d09f844",
+      "sizeBytes": 10384
+    },
+    {
+      "path": "docs/blog/announcing-vite8-beta.md",
+      "sha256": "b3be617cc07ab72bb6ee58ad92efde45efbd0a427f2283d6d68c57f3df7c6150",
+      "sizeBytes": 9002
+    },
+    {
+      "path": "docs/blog/announcing-vite8.md",
+      "sha256": "4ea4895543e362e2424a8e97e3f7742db100d754eef1e04cd0f0b02ac8569a2e",
+      "sizeBytes": 15353
+    },
+    {
+      "path": "docs/blog/cloudflare-supports-vite.md",
+      "sha256": "a4a23ddc1ff0d76aefec54daf618050d31d56a4b9743997d2f8ad7f10195a2cd",
+      "sizeBytes": 4046
+    },
+    {
+      "path": "docs/blog.md",
+      "sha256": "0c6c4debd05c8d99c9b539254e0017fd1c0e772265f0993d4c2e2d59683e95d3",
+      "sizeBytes": 191
+    },
+    {
+      "path": "docs/changes/hotupdate-hook.md",
+      "sha256": "b00e4ebb57da7e852c781e7e9fce8e2341a20bf0fa53bf85ebe4c7f18ec9857f",
+      "sizeBytes": 3529
+    },
+    {
+      "path": "docs/changes/index.md",
+      "sha256": "ebfb34118d47505a2cd09f72712d5be8825bb4b13cc370c4671e7a899eb294a0",
+      "sizeBytes": 1517
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "692057af3d664cbb79ac38293eb50aa3c4987f8182e2a440136e59e08f1b4a54",
+      "sizeBytes": 1101
+    },
+    {
+      "path": "package.json",
+      "sha256": "a0b63c9d935cd8d0ba443c4f640d3f6501adca3f981fd4e5721aff23a737a1f0",
+      "sizeBytes": 3195
+    },
+    {
+      "path": "README.md",
+      "sha256": "588718673f32a3691b8e75b93fb4c2f8e8bc9a6dc0bf61794ba7b6c006594111",
+      "sizeBytes": 3416
+    }
+  ]
+}

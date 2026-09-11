@@ -1,0 +1,7 @@
+{
+  "name": "vite-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

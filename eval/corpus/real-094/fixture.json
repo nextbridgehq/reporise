@@ -1,0 +1,50 @@
+{
+  "id": "real-094",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "fluxcd/flux2",
+  "commit": "dede56a8fdcd1e0edca28630a979a51415bb56f8",
+  "capturedAt": "2026-09-08T12:15:30.445Z",
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "55f0e150cab8058a188f372c391aca0f217e8d923d055c23039da5744dc93b36",
+      "sizeBytes": 141
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "25b70c503d104ffe3b15c084da8f865b9b7c582a2f9d53ffcefe606ccba378dd",
+      "sizeBytes": 8211
+    },
+    {
+      "path": "docs/diagrams/fluxcd-controllers.png",
+      "sha256": "726130bbfd5efd8d8cc849b1d73bfbbdae7f42f01e553d20482e8e18337c55a0",
+      "sizeBytes": 226544
+    },
+    {
+      "path": "docs/release/README.md",
+      "sha256": "13e1966f52a2bea494458b63fe1635345fa6a402f7a9812d6cdab99509f71f6e",
+      "sizeBytes": 393
+    },
+    {
+      "path": "docs/release/release-notes-template.md",
+      "sha256": "a1c2c0806cf6f8737cc682541067e0faf01fcf559ed5444c9179d8d22e8ce9fa",
+      "sizeBytes": 2850
+    },
+    {
+      "path": "go.mod",
+      "sha256": "af985e049b8a7f38860b8dce5486dafbc5100f5735956992de5690515f1b8a06",
+      "sizeBytes": 14841
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "sizeBytes": 11558
+    },
+    {
+      "path": "README.md",
+      "sha256": "242d54128e56dbeb57321e16a6bace3666b65524306987b0716378b30e23aa34",
+      "sizeBytes": 6354
+    }
+  ]
+}

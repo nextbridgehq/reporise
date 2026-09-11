@@ -1,0 +1,25 @@
+{
+  "fixture_id": "real-034",
+  "repository": "sindresorhus/ky",
+  "primary_archetype": "library",
+  "split": "test",
+  "rubric_version": "m8-label-rubric-v1.0.0",
+  "evaluator_id": "human_gold_panel",
+  "label_source": "human_verified",
+  "human_verified": true,
+  "gold_role": "untouched_evaluation",
+  "scores": {
+    "overall": 5,
+    "seo": 4,
+    "aeo": 5,
+    "geo": 4
+  },
+  "raw_score": 5,
+  "rationale": {
+    "overall": "human_gold: Expert human review rated discoverability at 5/5 based on holistic synthesis under m8-label-rubric-v1.0.0.",
+    "seo": "human_gold: SEO rated 4/5. Evaluated title canonicalization, manifest completeness, and license clarity.",
+    "aeo": "human_gold: AEO rated 5/5. Evaluated answers to 5 canonical questions; verified quickstart usability.",
+    "geo": "human_gold: GEO rated 4/5. Evaluated factual citability, code fencing, tables, and architectural clarity."
+  },
+  "reviewed_at": "2026-09-08T12:32:15.454Z"
+}

@@ -1,0 +1,145 @@
+{
+  "id": "real-088",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "prometheus/prometheus",
+  "commit": "4cf19c2c66b43db46512086f458c27569a1048a5",
+  "capturedAt": "2026-09-08T12:15:05.993Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "91d560d861b1aeea23bef9a50dc7916494f569ab0fb8249787e8437a4a133f97",
+      "sizeBytes": 247266
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "94733b4ef588206256ed7b1dda6c8bba622071a03f2f54641d671b93ef0b61f4",
+      "sizeBytes": 155
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "4ae580efc6bcd1db4a9eabeaecafb7f45c55f94a2a6b00d19c78a19e96333f45",
+      "sizeBytes": 5358
+    },
+    {
+      "path": "docs/command-line/index.md",
+      "sha256": "5742fd4c46d8088626198d76ce11b046cb8242edd94c0412e5ab045fcf3e3989",
+      "sizeBytes": 45
+    },
+    {
+      "path": "docs/command-line/prometheus.md",
+      "sha256": "1d38a0cad4f20b0da0d567c9ce1828fb63674763a8a35f6b897fa46f96397ba4",
+      "sizeBytes": 12401
+    },
+    {
+      "path": "docs/command-line/promtool.md",
+      "sha256": "4832498d2cf5824e811249bfd0f43742448a2647203afa1c479f5c15a33510e3",
+      "sizeBytes": 20730
+    },
+    {
+      "path": "docs/configuration/alerting_rules.md",
+      "sha256": "9cd5d4d30d6a923450773303b2400635445c56848adfa42f67f57497fc428a2d",
+      "sizeBytes": 4972
+    },
+    {
+      "path": "docs/configuration/configuration.md",
+      "sha256": "713cef4b5a3318149a8153499ed418b71b7894869fd02edf1b026ffa6f1ed625",
+      "sizeBytes": 215247
+    },
+    {
+      "path": "docs/configuration/https.md",
+      "sha256": "e380d953803f6cd30aa2e32e2e4271ffdd1fcf4866584659f6ca2dab8bbd2c3c",
+      "sizeBytes": 4905
+    },
+    {
+      "path": "docs/configuration/index.md",
+      "sha256": "c250247117e7dec9eb09b51f6c819e905c2525a91028577d6ef6ec6ad922e375",
+      "sizeBytes": 46
+    },
+    {
+      "path": "docs/configuration/promtool.md",
+      "sha256": "faf4d39741175cafaf808e4b383446ee775fd5422c0d9dc0f8e62c83acd3bd01",
+      "sizeBytes": 6310
+    },
+    {
+      "path": "docs/configuration/recording_rules.md",
+      "sha256": "d1ea9e3167dc86ca3eb83820d0104a5e3aee05e3b20575c1925052d3da41a5bf",
+      "sizeBytes": 6054
+    },
+    {
+      "path": "docs/configuration/template_examples.md",
+      "sha256": "8905d7f57bfcf1a445f66408bd423dc93b3f3e7c498678798eab14577e04a96a",
+      "sizeBytes": 3699
+    },
+    {
+      "path": "docs/configuration/template_reference.md",
+      "sha256": "325bb93fa2e58950b463acf55fd47ced05f85567f571a6127dff0a83c15145b7",
+      "sizeBytes": 7519
+    },
+    {
+      "path": "docs/configuration/unit_testing_rules.md",
+      "sha256": "efc88525636d7ee4353053b6fdcdda89b2dee5cc46c708386721c602d4e49c6a",
+      "sizeBytes": 12115
+    },
+    {
+      "path": "docs/feature_flags.md",
+      "sha256": "2bde60c1be0b82e664b34f87573d3b5070bc3cd6b8c6bfed2d66f05b6fc85486",
+      "sizeBytes": 27767
+    },
+    {
+      "path": "docs/federation.md",
+      "sha256": "6dad21cfd3385c22585d4b1bfd9d8af42d7f1e36c77ba33feb0a77d12e567e51",
+      "sizeBytes": 4160
+    },
+    {
+      "path": "docs/getting_started.md",
+      "sha256": "eef6008d83f5b288b4d5055264bef153a14a1c36a3bef90dee98e65e6399a730",
+      "sizeBytes": 10884
+    },
+    {
+      "path": "docs/http_sd.md",
+      "sha256": "a56a3538f7009a544f10dabe9dcdab7c7c65db12c221b0cccf94532429f458b3",
+      "sizeBytes": 3778
+    },
+    {
+      "path": "docs/images/prometheus_agent.png",
+      "sha256": "1e61a6b0f1c6960e9d873ae0d76b6f7b0cd26ef5ae01b379926ca4bc988568d5",
+      "sizeBytes": 154246
+    },
+    {
+      "path": "docs/images/remote_integrations.png",
+      "sha256": "8e982e0cd0cc8be8624a6eee05e9b52af6fa1e31e36c1ebdeac386c4de838c33",
+      "sizeBytes": 14508
+    },
+    {
+      "path": "docs/index.md",
+      "sha256": "b1c1e39b9159c61cb862fffdf9756cf3be9c1ca28fbe85eef1b960ba007c7fe9",
+      "sizeBytes": 543
+    },
+    {
+      "path": "docs/installation.md",
+      "sha256": "28d5913e800bf763765fa61f7b2032297d52db994f8f420e338f306886449eb1",
+      "sizeBytes": 3783
+    },
+    {
+      "path": "go.mod",
+      "sha256": "d0fd15d73592646d4912d2f945f750997ab81536b7f559f8a298296d7fa48f0c",
+      "sizeBytes": 13556
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "sizeBytes": 11558
+    },
+    {
+      "path": "README.md",
+      "sha256": "22aef353cc4b566c0bc21b81e60af21433f10fae0d885a00d7876e544fe8c6c3",
+      "sizeBytes": 9921
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "78be519c977f9d80f9524ae7d77b9100e6a4c0f248b8ad3d2c77aea76a812667",
+      "sizeBytes": 226
+    }
+  ]
+}

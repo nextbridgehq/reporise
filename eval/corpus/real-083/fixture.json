@@ -1,0 +1,35 @@
+{
+  "id": "real-083",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "shadcn-ui/ui",
+  "commit": "3ba91b1cc83e1bbe4ab35a422ff2a694849c5048",
+  "capturedAt": "2026-09-08T12:12:48.961Z",
+  "files": [
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "1fff11e6f48170f68eac37f760393256607a18a585d274856f9b1ed878bdd35b",
+      "sizeBytes": 6778
+    },
+    {
+      "path": "LICENSE.md",
+      "sha256": "a14c2d6fb5ba9925cba04633226a3b93e6c5566ca6b550dbfaead7ab3fa93b24",
+      "sizeBytes": 1084
+    },
+    {
+      "path": "package.json",
+      "sha256": "52eb99630795ea00b52cc44a79552fedc9702896e6cf3d5daffc04191906a030",
+      "sizeBytes": 3731
+    },
+    {
+      "path": "README.md",
+      "sha256": "40b871a994fcba2ddf3d399bed49faf16c6ed02b093d5b437db5d85e9e2c0c99",
+      "sizeBytes": 484
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "9b8a1a52a098a9d8b52e2a51b97c132d5914784086b07acbf09dc8e3c4741130",
+      "sizeBytes": 547
+    }
+  ]
+}

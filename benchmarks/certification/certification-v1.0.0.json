@@ -1,0 +1,482 @@
+[
+  {
+    "fixture_id": "m9-5-001",
+    "repository": "pallets/flask",
+    "cohort": "external_frameworks",
+    "doc_strategy": "external_readthedocs",
+    "ground_truth": {
+      "overall": 3,
+      "seo": 2,
+      "aeo": 3,
+      "geo": 3
+    },
+    "has_external_mock": true,
+    "has_local_nested": false,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-001"
+  },
+  {
+    "fixture_id": "m9-5-002",
+    "repository": "facebook/docusaurus",
+    "cohort": "external_frameworks",
+    "doc_strategy": "external_docusaurus",
+    "ground_truth": {
+      "overall": 3,
+      "seo": 2,
+      "aeo": 3,
+      "geo": 3
+    },
+    "has_external_mock": true,
+    "has_local_nested": false,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-002"
+  },
+  {
+    "fixture_id": "m9-5-003",
+    "repository": "vuejs/vitepress",
+    "cohort": "external_frameworks",
+    "doc_strategy": "external_vitepress",
+    "ground_truth": {
+      "overall": 3,
+      "seo": 2,
+      "aeo": 3,
+      "geo": 3
+    },
+    "has_external_mock": true,
+    "has_local_nested": false,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-003"
+  },
+  {
+    "fixture_id": "m9-5-004",
+    "repository": "squidfunk/mkdocs-material",
+    "cohort": "external_frameworks",
+    "doc_strategy": "external_mkdocs",
+    "ground_truth": {
+      "overall": 3,
+      "seo": 2,
+      "aeo": 3,
+      "geo": 3
+    },
+    "has_external_mock": true,
+    "has_local_nested": false,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-004"
+  },
+  {
+    "fixture_id": "m9-5-005",
+    "repository": "expressjs/express",
+    "cohort": "external_frameworks",
+    "doc_strategy": "external_github_pages",
+    "ground_truth": {
+      "overall": 3,
+      "seo": 2,
+      "aeo": 3,
+      "geo": 3
+    },
+    "has_external_mock": true,
+    "has_local_nested": false,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-005"
+  },
+  {
+    "fixture_id": "m9-5-006",
+    "repository": "reduxjs/redux-toolkit",
+    "cohort": "external_frameworks",
+    "doc_strategy": "external_gitbook",
+    "ground_truth": {
+      "overall": 3,
+      "seo": 2,
+      "aeo": 3,
+      "geo": 3
+    },
+    "has_external_mock": true,
+    "has_local_nested": false,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-006"
+  },
+  {
+    "fixture_id": "m9-5-007",
+    "repository": "sveltejs/kit",
+    "cohort": "external_frameworks",
+    "doc_strategy": "external_custom_domain",
+    "ground_truth": {
+      "overall": 3,
+      "seo": 2,
+      "aeo": 3,
+      "geo": 3
+    },
+    "has_external_mock": true,
+    "has_local_nested": false,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-007"
+  },
+  {
+    "fixture_id": "m9-5-008",
+    "repository": "babel/babel",
+    "cohort": "workspace_topologies",
+    "doc_strategy": "nested_workspace",
+    "ground_truth": {
+      "overall": 3,
+      "seo": 2,
+      "aeo": 3,
+      "geo": 3
+    },
+    "has_external_mock": false,
+    "has_local_nested": true,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-008"
+  },
+  {
+    "fixture_id": "m9-5-009",
+    "repository": "pnpm/pnpm-workspace",
+    "cohort": "workspace_topologies",
+    "doc_strategy": "nested_workspace_pnpm",
+    "ground_truth": {
+      "overall": 3,
+      "seo": 2,
+      "aeo": 3,
+      "geo": 3
+    },
+    "has_external_mock": false,
+    "has_local_nested": true,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-009"
+  },
+  {
+    "fixture_id": "m9-5-010",
+    "repository": "yarnpkg/berry",
+    "cohort": "workspace_topologies",
+    "doc_strategy": "nested_workspace_yarn",
+    "ground_truth": {
+      "overall": 3,
+      "seo": 2,
+      "aeo": 3,
+      "geo": 3
+    },
+    "has_external_mock": false,
+    "has_local_nested": true,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-010"
+  },
+  {
+    "fixture_id": "m9-5-011",
+    "repository": "nrwl/nx-monorepo",
+    "cohort": "workspace_topologies",
+    "doc_strategy": "nested_workspace_nx",
+    "ground_truth": {
+      "overall": 3,
+      "seo": 2,
+      "aeo": 3,
+      "geo": 3
+    },
+    "has_external_mock": false,
+    "has_local_nested": true,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-011"
+  },
+  {
+    "fixture_id": "m9-5-012",
+    "repository": "vercel/turborepo",
+    "cohort": "workspace_topologies",
+    "doc_strategy": "nested_workspace_turbo",
+    "ground_truth": {
+      "overall": 3,
+      "seo": 2,
+      "aeo": 3,
+      "geo": 3
+    },
+    "has_external_mock": false,
+    "has_local_nested": true,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-012"
+  },
+  {
+    "fixture_id": "m9-5-013",
+    "repository": "lerna/lerna-monorepo",
+    "cohort": "workspace_topologies",
+    "doc_strategy": "nested_workspace_lerna",
+    "ground_truth": {
+      "overall": 3,
+      "seo": 2,
+      "aeo": 3,
+      "geo": 3
+    },
+    "has_external_mock": false,
+    "has_local_nested": true,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-013"
+  },
+  {
+    "fixture_id": "m9-5-014",
+    "repository": "fastify/fastify-deep-workspace",
+    "cohort": "workspace_topologies",
+    "doc_strategy": "nested_workspace_deep",
+    "ground_truth": {
+      "overall": 3,
+      "seo": 2,
+      "aeo": 3,
+      "geo": 3
+    },
+    "has_external_mock": false,
+    "has_local_nested": true,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-014"
+  },
+  {
+    "fixture_id": "m9-5-015",
+    "repository": "example/blog-vs-docs",
+    "cohort": "evidence_ambiguity",
+    "doc_strategy": "ambiguous_targets",
+    "ground_truth": {
+      "overall": 3,
+      "seo": 2,
+      "aeo": 3,
+      "geo": 3
+    },
+    "has_external_mock": true,
+    "has_local_nested": false,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-015"
+  },
+  {
+    "fixture_id": "m9-5-016",
+    "repository": "example/social-and-docs",
+    "cohort": "evidence_ambiguity",
+    "doc_strategy": "ambiguous_targets",
+    "ground_truth": {
+      "overall": 3,
+      "seo": 2,
+      "aeo": 3,
+      "geo": 3
+    },
+    "has_external_mock": true,
+    "has_local_nested": false,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-016"
+  },
+  {
+    "fixture_id": "m9-5-017",
+    "repository": "example/duplicate-examples",
+    "cohort": "evidence_ambiguity",
+    "doc_strategy": "duplicate_evidence",
+    "ground_truth": {
+      "overall": 3,
+      "seo": 2,
+      "aeo": 3,
+      "geo": 3
+    },
+    "has_external_mock": true,
+    "has_local_nested": false,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-017"
+  },
+  {
+    "fixture_id": "m9-5-018",
+    "repository": "example/multi-external-links",
+    "cohort": "evidence_ambiguity",
+    "doc_strategy": "multi_doc_links",
+    "ground_truth": {
+      "overall": 3,
+      "seo": 2,
+      "aeo": 3,
+      "geo": 3
+    },
+    "has_external_mock": true,
+    "has_local_nested": false,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-018"
+  },
+  {
+    "fixture_id": "m9-5-019",
+    "repository": "example/interleaved-releases",
+    "cohort": "evidence_ambiguity",
+    "doc_strategy": "interleaved_release_docs",
+    "ground_truth": {
+      "overall": 3,
+      "seo": 2,
+      "aeo": 3,
+      "geo": 3
+    },
+    "has_external_mock": true,
+    "has_local_nested": false,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-019"
+  },
+  {
+    "fixture_id": "m9-5-020",
+    "repository": "example/nested-docs-partial",
+    "cohort": "evidence_ambiguity",
+    "doc_strategy": "nested_partial_snippets",
+    "ground_truth": {
+      "overall": 3,
+      "seo": 2,
+      "aeo": 3,
+      "geo": 3
+    },
+    "has_external_mock": false,
+    "has_local_nested": true,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-020"
+  },
+  {
+    "fixture_id": "m9-5-021",
+    "repository": "edge/broken-link-404",
+    "cohort": "edge_failure",
+    "doc_strategy": "http_404_failure",
+    "ground_truth": {
+      "overall": 2,
+      "seo": 2,
+      "aeo": 2,
+      "geo": 1
+    },
+    "has_external_mock": true,
+    "has_local_nested": false,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-021"
+  },
+  {
+    "fixture_id": "m9-5-022",
+    "repository": "edge/server-error-500",
+    "cohort": "edge_failure",
+    "doc_strategy": "http_500_failure",
+    "ground_truth": {
+      "overall": 2,
+      "seo": 2,
+      "aeo": 2,
+      "geo": 1
+    },
+    "has_external_mock": true,
+    "has_local_nested": false,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-022"
+  },
+  {
+    "fixture_id": "m9-5-023",
+    "repository": "edge/timeout-unreachable",
+    "cohort": "edge_failure",
+    "doc_strategy": "network_timeout",
+    "ground_truth": {
+      "overall": 2,
+      "seo": 2,
+      "aeo": 2,
+      "geo": 1
+    },
+    "has_external_mock": true,
+    "has_local_nested": false,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-023"
+  },
+  {
+    "fixture_id": "m9-5-024",
+    "repository": "edge/binary-target-pdf",
+    "cohort": "edge_failure",
+    "doc_strategy": "binary_file_target",
+    "ground_truth": {
+      "overall": 2,
+      "seo": 2,
+      "aeo": 2,
+      "geo": 1
+    },
+    "has_external_mock": true,
+    "has_local_nested": false,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-024"
+  },
+  {
+    "fixture_id": "m9-5-025",
+    "repository": "edge/generic-anchor-text",
+    "cohort": "edge_failure",
+    "doc_strategy": "generic_anchor_rejection",
+    "ground_truth": {
+      "overall": 2,
+      "seo": 2,
+      "aeo": 2,
+      "geo": 1
+    },
+    "has_external_mock": true,
+    "has_local_nested": false,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-025"
+  },
+  {
+    "fixture_id": "m9-5-026",
+    "repository": "edge/empty-doc-response",
+    "cohort": "edge_failure",
+    "doc_strategy": "empty_doc_content",
+    "ground_truth": {
+      "overall": 2,
+      "seo": 2,
+      "aeo": 2,
+      "geo": 1
+    },
+    "has_external_mock": true,
+    "has_local_nested": false,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-026"
+  },
+  {
+    "fixture_id": "m9-5-027",
+    "repository": "adversarial/massive-doc-payload",
+    "cohort": "adversarial_stress",
+    "doc_strategy": "guard_a_payload_cap",
+    "ground_truth": {
+      "overall": 3,
+      "seo": 2,
+      "aeo": 3,
+      "geo": 3
+    },
+    "has_external_mock": true,
+    "has_local_nested": false,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-027"
+  },
+  {
+    "fixture_id": "m9-5-028",
+    "repository": "adversarial/spam-link-readme",
+    "cohort": "adversarial_stress",
+    "doc_strategy": "guard_d_link_spam",
+    "ground_truth": {
+      "overall": 2,
+      "seo": 2,
+      "aeo": 2,
+      "geo": 1
+    },
+    "has_external_mock": false,
+    "has_local_nested": false,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-028"
+  },
+  {
+    "fixture_id": "m9-5-029",
+    "repository": "adversarial/stub-root-cheat-seo",
+    "cohort": "adversarial_stress",
+    "doc_strategy": "guard_c_stub_cheating",
+    "ground_truth": {
+      "overall": 2,
+      "seo": 2,
+      "aeo": 3,
+      "geo": 3
+    },
+    "has_external_mock": true,
+    "has_local_nested": false,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-029"
+  },
+  {
+    "fixture_id": "m9-5-030",
+    "repository": "adversarial/stub-root-workspace-cheat",
+    "cohort": "adversarial_stress",
+    "doc_strategy": "guard_c_workspace_cheating",
+    "ground_truth": {
+      "overall": 2,
+      "seo": 2,
+      "aeo": 3,
+      "geo": 2
+    },
+    "has_external_mock": false,
+    "has_local_nested": true,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-030"
+  },
+  {
+    "fixture_id": "m9-5-031",
+    "repository": "adversarial/contradictory-examples",
+    "cohort": "adversarial_stress",
+    "doc_strategy": "contradictory_evidence",
+    "ground_truth": {
+      "overall": 3,
+      "seo": 2,
+      "aeo": 3,
+      "geo": 3
+    },
+    "has_external_mock": true,
+    "has_local_nested": false,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-031"
+  },
+  {
+    "fixture_id": "m9-5-032",
+    "repository": "adversarial/circular-reference-docs",
+    "cohort": "adversarial_stress",
+    "doc_strategy": "circular_reference_guard",
+    "ground_truth": {
+      "overall": 3,
+      "seo": 2,
+      "aeo": 3,
+      "geo": 3
+    },
+    "has_external_mock": false,
+    "has_local_nested": true,
+    "fixture_path": "eval/corpus/certification/fixtures/m9-5-032"
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/nextbridgehq/reporise/schemas/profile.schema.json",
+  "title": "RepoRise profile",
+  "description": "The shared artifact at .reporise/profile.json. visibility-audit writes the offline half; the networked skills fill the rest. Every field carries provenance so a later reader can tell a measured fact from an assumed one.",
+  "type": "object",
+  "required": ["version", "updatedAt", "repo"],
+  "properties": {
+    "version": { "type": "string" },
+    "updatedAt": { "type": "string", "format": "date-time" },
+
+    "repo": {
+      "type": "object",
+      "description": "Identity of the audited repository.",
+      "properties": {
+        "name": { "type": ["string", "null"] },
+        "originUrl": { "type": ["string", "null"] },
+        "ecosystem": { "type": ["string", "null"], "enum": ["npm", "pypi", "crates", "go", null] },
+        "oneLiner": { "type": ["string", "null"], "description": "The canonical one-sentence description, as written by the maintainer." }
+      }
+    },
+
+    "category": {
+      "type": "object",
+      "description": "Written by category-profile. What market this repo is in.",
+      "properties": {
+        "label": { "type": "string", "description": "The category noun a user would search for, e.g. 'LLM agent loop detection'." },
+        "confidence": { "type": "string", "enum": ["confirmed", "inferred"], "description": "confirmed = the maintainer agreed to it; inferred = derived from research and not yet validated." },
+        "competitors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "source"],
+            "properties": {
+              "name": { "type": "string" },
+              "url": { "type": "string" },
+              "tier": { "type": "string", "enum": ["direct", "adjacent", "substitute"] },
+              "source": { "type": "string", "description": "Where this competitor was observed. Never assert a competitor without one." }
+            }
+          }
+        },
+        "queries": {
+          "type": "array",
+          "description": "Query phrasings developers actually use for this category.",
+          "items": {
+            "type": "object",
+            "required": ["text", "intent", "source"],
+            "properties": {
+              "text": { "type": "string" },
+              "intent": { "type": "string", "enum": ["navigational", "informational", "comparative", "troubleshooting"] },
+              "source": { "type": "string", "description": "Observed where — autocomplete, forum thread, issue tracker. Not invented." }
+            }
+          }
+        }
+      }
+    },
+
+    "citationSources": {
+      "type": "array",
+      "description": "Third-party pages that currently get cited or ranked for this category. The placement target list.",
+      "items": {
+        "type": "object",
+        "required": ["url", "observedFor"],
+        "properties": {
+          "url": { "type": "string" },
+          "title": { "type": "string" },
+          "kind": { "type": "string", "enum": ["listicle", "comparison", "forum", "docs", "news", "registry", "other"] },
+          "observedFor": { "type": "array", "items": { "type": "string" }, "description": "Which queries surfaced it." },
+          "mentionsUs": { "type": "boolean" },
+          "placementDifficulty": { "type": "string", "enum": ["open", "editorial", "closed", "unknown"] }
+        }
+      }
+    },
+
+    "baseline": {
+      "type": "object",
+      "description": "Written by citation-probe. Non-deterministic by nature — always stored with sample counts so drift can be distinguished from noise.",
+      "properties": {
+        "sampledAt": { "type": "string", "format": "date-time" },
+        "samplesPerQuery": { "type": "integer", "minimum": 1 },
+        "engines": { "type": "array", "items": { "type": "string" } },
+        "results": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["query", "engine", "samples", "mentions"],
+            "properties": {
+              "query": { "type": "string" },
+              "engine": { "type": "string" },
+              "samples": { "type": "integer" },
+              "mentions": { "type": "integer", "description": "How many samples named this repo." },
+              "citedInstead": { "type": "array", "items": { "type": "string" }, "description": "What got recommended in its place." }
+            }
+          }
+        }
+      }
+    },
+
+    "audit": {
+      "type": "object",
+      "description": "Summary of the last offline audit. Full detail lives in .reporise/audit.json.",
+      "properties": {
+        "generatedAt": { "type": "string", "format": "date-time" },
+        "overall": { "type": ["integer", "null"] },
+        "surfaces": {
+          "type": "object",
+          "properties": {
+            "seo": { "type": ["integer", "null"] },
+            "aeo": { "type": ["integer", "null"] },
+            "geo": { "type": ["integer", "null"] }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "real-108",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "actions/checkout",
+  "commit": "f548e57e544e1ff5a4c46bf1e1b8685f8e4a348a",
+  "capturedAt": "2026-09-08T12:21:13.543Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "e1c311ead35ebb19885f945618be9265d118aad06e76ae317806657f7b804fd2",
+      "sizeBytes": 10600
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "e2c9c096d43701256ffc84ea7618c3931c1e79af42e89f015bd19c40f85e449a",
+      "sizeBytes": 1325
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "5653828996f02833d900c9b1e7105aaa11ba0af3eab7940c21461c3231461007",
+      "sizeBytes": 1119
+    },
+    {
+      "path": "package.json",
+      "sha256": "a83fecef9ddbccff351db1cbbeb63e7a3b45fe0323ac4893b197dbe70f8ce9a4",
+      "sizeBytes": 1637
+    },
+    {
+      "path": "README.md",
+      "sha256": "7de7c203b2dd566272d06ca4a7da22359adee73a2495840b4f2a6a8d95ba8ad8",
+      "sizeBytes": 14526
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "real-099",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "pytorch/pytorch",
+  "commit": "60147cf18442b8858a728ab0d5f77235f24a3e69",
+  "capturedAt": "2026-09-08T12:20:12.515Z",
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "sha256": "599dbeb61ab4cfe9fe5dbe10da13be6db5c631f9f1bab68944b1808891a38610",
+      "sizeBytes": 3335
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "ddd28c1b51512864c26021243110b9c201f0410370e9738ef5330bbf09428009",
+      "sizeBytes": 3419
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "25f062e2a3a345a1f3f86a4162a81ef57282e3f46cd5de4f72cd39b2844fe33d",
+      "sizeBytes": 71248
+    },
+    {
+      "path": "docs/.gitignore",
+      "sha256": "232cce73abcc2a9adbba1f867e670a718f20bb95b92c93d5762ecbe880fde9dc",
+      "sizeBytes": 59
+    },
+    {
+      "path": "docs/cpp/check_coverage.py",
+      "sha256": "b99be141b2330d7ea384539ad574c554810196c185110fb032ad4a357e02abf7",
+      "sizeBytes": 28704
+    },
+    {
+      "path": "docs/cpp/cpp_coverage.txt",
+      "sha256": "0941a7e0fb17c54e652193ddadbbb58a5cb536466f216f31eaae3b47d1b5667c",
+      "sizeBytes": 12826
+    },
+    {
+      "path": "docs/cpp/cpp_html_issues.txt",
+      "sha256": "577a0565fff4cce52f40c02d07d4f83094d3adb4b89477e54abfde05d97bb6ff",
+      "sizeBytes": 95
+    },
+    {
+      "path": "docs/cpp/Makefile",
+      "sha256": "c617aa7c43dd3952f3bfd2b1c759ec457523c5ae91740c54668204f81ae7dada",
+      "sizeBytes": 1426
+    },
+    {
+      "path": "docs/cpp/README.md",
+      "sha256": "81ae735fadf1d46b7f2263701f23ba6c393a7ce997c06a8cb4ef87145814df16",
+      "sizeBytes": 9991
+    },
+    {
+      "path": "docs/cpp/source/check-doxygen.sh",
+      "sha256": "e665d77337fb5a2d54879c065e1b56191b72aea33c05cd83a7decf552fc1f36b",
+      "sizeBytes": 1693
+    },
+    {
+      "path": "docs/cpp/source/conf.py",
+      "sha256": "7e740528817aa3ccb0c0ce83e816c6eb5f988d47dd724ce89f655632b8d962dd",
+      "sizeBytes": 9439
+    },
+    {
+      "path": "docs/cpp/source/Doxyfile",
+      "sha256": "d32b7777e43a11fe5e3917617b194e830b7cfcc36f9db1209702e93fb8e41a83",
+      "sizeBytes": 10126
+    },
+    {
+      "path": "docs/cpp/source/faq.md",
+      "sha256": "094e2e9a3c9c87bad41ab321893d026f3083b93a98a203f8a396ec070d9ea361",
+      "sizeBytes": 6781
+    },
+    {
+      "path": "docs/cpp/source/frontend.md",
+      "sha256": "66fbc3a27306ed35e62c2c81d253c2c4dec38e8e5b0b7cd5f6947464bda86f8e",
+      "sizeBytes": 6623
+    },
+    {
+      "path": "docs/cpp/source/index.md",
+      "sha256": "e837d31a46e6349703fe3f892c3c0697f80f7c12bed38c0a209fd1af668fd95b",
+      "sizeBytes": 8078
+    },
+    {
+      "path": "docs/cpp/source/installing.md",
+      "sha256": "795a9b34c75dd242bd0d18ad75814307a141e84446fecfecadd24c1ef957ff12",
+      "sizeBytes": 6714
+    },
+    {
+      "path": "docs/libtorch.rst",
+      "sha256": "697a959c2423736700fc389eed079960847fffb9585d92318a32e6b335e3ec04",
+      "sizeBytes": 2054
+    },
+    {
+      "path": "docs/make.bat",
+      "sha256": "a4bef313ca32fcaad36b3f9b7023dc5150bf653fcc4563912f9de830b3d6aa96",
+      "sizeBytes": 909
+    },
+    {
+      "path": "docs/Makefile",
+      "sha256": "0d7d512f8c0760a664aab74e49b760671fc509009d3d8b3762e5e166b5623d20",
+      "sizeBytes": 1920
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "f5ad4a3040dc774fd7e55bb733ce44abac7d1d6830c4670533a7a0783ef86c15",
+      "sizeBytes": 161
+    },
+    {
+      "path": "docs/requirements.txt",
+      "sha256": "89051993a084b74def112ee29aa3a2785f1a4848917a81689aa9585869817d60",
+      "sizeBytes": 35
+    },
+    {
+      "path": "docs/source/accelerator/amp.md",
+      "sha256": "60774ba9f111b2f628e1d2d7759acd310b545f0f0c0c692cc930fea2cd0c8500",
+      "sizeBytes": 4410
+    },
+    {
+      "path": "docs/source/accelerator/autoload.md",
+      "sha256": "906d1bd9d2f1d47bda205ba789c9a829a11cb6621a27fabc96159e45bed00ace",
+      "sizeBytes": 6686
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "0fc92425d130d9c87a5eb7427082e3afdbff6ef169bc678e15abba4c2d37c934",
+      "sizeBytes": 3548
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "e5fd61d4223ab2498c179401546d9d3b9a7c321fc4cb624a3c544e3c7bfd328e",
+      "sizeBytes": 26775
+    },
+    {
+      "path": "README.md",
+      "sha256": "4d00728eb4589667e288846f1d409ccdd45b8db1082c6543221c8376fef9a530",
+      "sizeBytes": 30695
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "267468699d2b6561add673d56803c74eae8a92ba8c5e0625ba65edca3b7792e0",
+      "sizeBytes": 15612
+    }
+  ]
+}

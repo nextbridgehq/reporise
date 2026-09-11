@@ -1,0 +1,2157 @@
+{
+  "milestone": "M8.6-P0-GEO-002",
+  "title": "Conditional-Gate Counterexample & Transfer Audit Report",
+  "timestamp": "2026-09-09T06:22:44.369Z",
+  "rule_evaluated": "runnable-example === \"fail\" -> surfaces.geo <= 25",
+  "summary": {
+    "train_n": 72,
+    "val_n": 24,
+    "total_evaluated": 96,
+    "held_out_test_n": 24,
+    "test_isolation_verified": true
+  },
+  "counterexample_audit": {
+    "total_counterexamples": 0,
+    "counterexamples": []
+  },
+  "f04_residual_reduction": {
+    "train": {
+      "before": 34,
+      "after": 18
+    },
+    "val": {
+      "before": 10,
+      "after": 5
+    }
+  },
+  "archetype_transfer": {
+    "cli": {
+      "n": 8,
+      "uncapped_mae": 0.625,
+      "gated_mae": 0.625,
+      "mae_delta": 0,
+      "uncapped_bias": -0.375,
+      "gated_bias": -0.375,
+      "bias_delta": 0
+    },
+    "data_ml": {
+      "n": 12,
+      "uncapped_mae": 1.3333,
+      "gated_mae": 1,
+      "mae_delta": -0.3333,
+      "uncapped_bias": -0.3333,
+      "gated_bias": -0.6667,
+      "bias_delta": -0.3334
+    },
+    "devops": {
+      "n": 10,
+      "uncapped_mae": 1,
+      "gated_mae": 0.4,
+      "mae_delta": -0.6,
+      "uncapped_bias": 0.6,
+      "gated_bias": 0,
+      "bias_delta": -0.6
+    },
+    "devtool": {
+      "n": 8,
+      "uncapped_mae": 1.25,
+      "gated_mae": 0.375,
+      "mae_delta": -0.875,
+      "uncapped_bias": 1,
+      "gated_bias": 0.125,
+      "bias_delta": -0.875
+    },
+    "docs": {
+      "n": 6,
+      "uncapped_mae": 1,
+      "gated_mae": 0.6667,
+      "mae_delta": -0.3333,
+      "uncapped_bias": 1,
+      "gated_bias": 0.6667,
+      "bias_delta": -0.3333
+    },
+    "framework": {
+      "n": 8,
+      "uncapped_mae": 1.125,
+      "gated_mae": 0.5,
+      "mae_delta": -0.625,
+      "uncapped_bias": 1.125,
+      "gated_bias": 0.5,
+      "bias_delta": -0.625
+    },
+    "library": {
+      "n": 10,
+      "uncapped_mae": 0.8,
+      "gated_mae": 0.6,
+      "mae_delta": -0.2,
+      "uncapped_bias": 0.6,
+      "gated_bias": 0.4,
+      "bias_delta": -0.2
+    },
+    "monorepo": {
+      "n": 7,
+      "uncapped_mae": 1.4286,
+      "gated_mae": 0.2857,
+      "mae_delta": -1.1429,
+      "uncapped_bias": 1.4286,
+      "gated_bias": 0.2857,
+      "bias_delta": -1.1429
+    },
+    "plugin": {
+      "n": 5,
+      "uncapped_mae": 0.8,
+      "gated_mae": 0,
+      "mae_delta": -0.8,
+      "uncapped_bias": 0.8,
+      "gated_bias": 0,
+      "bias_delta": -0.8
+    },
+    "sdk": {
+      "n": 9,
+      "uncapped_mae": 0.2222,
+      "gated_mae": 0.2222,
+      "mae_delta": 0,
+      "uncapped_bias": -0.2222,
+      "gated_bias": -0.2222,
+      "bias_delta": 0
+    },
+    "small_project": {
+      "n": 5,
+      "uncapped_mae": 0.4,
+      "gated_mae": 0.4,
+      "mae_delta": 0,
+      "uncapped_bias": 0,
+      "gated_bias": 0,
+      "bias_delta": 0
+    },
+    "webapp": {
+      "n": 8,
+      "uncapped_mae": 1.25,
+      "gated_mae": 0.5,
+      "mae_delta": -0.75,
+      "uncapped_bias": 0.5,
+      "gated_bias": -0.25,
+      "bias_delta": -0.75
+    }
+  },
+  "readme_characteristic_transfer": {
+    "char_api_reference": {
+      "n": 13,
+      "uncapped_mae": 0.3846,
+      "gated_mae": 0.2308,
+      "mae_delta": -0.1538,
+      "uncapped_bias": 0.0769,
+      "gated_bias": -0.0769
+    },
+    "char_architecture": {
+      "n": 24,
+      "uncapped_mae": 1.125,
+      "gated_mae": 0.5,
+      "mae_delta": -0.625,
+      "uncapped_bias": 0.625,
+      "gated_bias": 0
+    },
+    "char_docs_heavy": {
+      "n": 9,
+      "uncapped_mae": 1.3333,
+      "gated_mae": 0.4444,
+      "mae_delta": -0.8889,
+      "uncapped_bias": 1.3333,
+      "gated_bias": 0.4444
+    },
+    "char_example_heavy": {
+      "n": 28,
+      "uncapped_mae": 0.8214,
+      "gated_mae": 0.6071,
+      "mae_delta": -0.2143,
+      "uncapped_bias": 0.1071,
+      "gated_bias": -0.1071
+    },
+    "char_feature_comparison": {
+      "n": 15,
+      "uncapped_mae": 1.4,
+      "gated_mae": 0.5333,
+      "mae_delta": -0.8667,
+      "uncapped_bias": 1,
+      "gated_bias": 0.1333
+    },
+    "char_install_config": {
+      "n": 35,
+      "uncapped_mae": 0.8286,
+      "gated_mae": 0.4857,
+      "mae_delta": -0.3429,
+      "uncapped_bias": 0.2571,
+      "gated_bias": -0.0857
+    },
+    "char_minimal": {
+      "n": 6,
+      "uncapped_mae": 0.8333,
+      "gated_mae": 0.5,
+      "mae_delta": -0.3333,
+      "uncapped_bias": 0.5,
+      "gated_bias": 0.1667
+    },
+    "char_mixed": {
+      "n": 7,
+      "uncapped_mae": 1.1429,
+      "gated_mae": 0.5714,
+      "mae_delta": -0.5715,
+      "uncapped_bias": 0.8571,
+      "gated_bias": 0.2857
+    },
+    "char_standard": {
+      "n": 45,
+      "uncapped_mae": 1,
+      "gated_mae": 0.4889,
+      "mae_delta": -0.5111,
+      "uncapped_bias": 0.5556,
+      "gated_bias": 0.0444
+    },
+    "char_tutorial": {
+      "n": 26,
+      "uncapped_mae": 1.0769,
+      "gated_mae": 0.6538,
+      "mae_delta": -0.4231,
+      "uncapped_bias": 0.3846,
+      "gated_bias": -0.0385
+    }
+  },
+  "fixtures": [
+    {
+      "fixture_id": "real-001",
+      "repository": "eslint/eslint",
+      "primary_archetype": "devtool",
+      "readme_characteristics": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 4,
+      "uncapped_raw_geo": 91,
+      "gated_raw_geo": 91,
+      "pred_uncapped": 5,
+      "pred_gated": 5,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-002",
+      "repository": "prettier/prettier",
+      "primary_archetype": "devtool",
+      "readme_characteristics": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 3,
+      "uncapped_raw_geo": 74,
+      "gated_raw_geo": 74,
+      "pred_uncapped": 4,
+      "pred_gated": 4,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-003",
+      "repository": "BurntSushi/ripgrep",
+      "primary_archetype": "cli",
+      "readme_characteristics": [
+        "char_standard",
+        "char_feature_comparison",
+        "char_install_config"
+      ],
+      "split": "train",
+      "run_example_status": "warn",
+      "code_blocks_count": 31,
+      "uncapped_raw_geo": 59,
+      "gated_raw_geo": 59,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 2,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-004",
+      "repository": "sharkdp/bat",
+      "primary_archetype": "cli",
+      "readme_characteristics": [
+        "char_standard",
+        "char_example_heavy",
+        "char_install_config"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 57,
+      "uncapped_raw_geo": 79,
+      "gated_raw_geo": 79,
+      "pred_uncapped": 4,
+      "pred_gated": 4,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-005",
+      "repository": "lodash/lodash",
+      "primary_archetype": "library",
+      "readme_characteristics": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 4,
+      "uncapped_raw_geo": 62,
+      "gated_raw_geo": 62,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 3,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-006",
+      "repository": "expressjs/express",
+      "primary_archetype": "framework",
+      "readme_characteristics": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 11,
+      "uncapped_raw_geo": 71,
+      "gated_raw_geo": 71,
+      "pred_uncapped": 4,
+      "pred_gated": 4,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-007",
+      "repository": "requests/requests",
+      "primary_archetype": "library",
+      "readme_characteristics": [
+        "char_standard",
+        "char_tutorial"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 4,
+      "uncapped_raw_geo": 71,
+      "gated_raw_geo": 71,
+      "pred_uncapped": 4,
+      "pred_gated": 4,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-008",
+      "repository": "moment/moment",
+      "primary_archetype": "library",
+      "readme_characteristics": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "split": "train",
+      "run_example_status": "warn",
+      "code_blocks_count": 1,
+      "uncapped_raw_geo": 68,
+      "gated_raw_geo": 68,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 2,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-009",
+      "repository": "facebook/react",
+      "primary_archetype": "framework",
+      "readme_characteristics": [
+        "char_standard",
+        "char_tutorial"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 1,
+      "uncapped_raw_geo": 62,
+      "gated_raw_geo": 62,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 2,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-010",
+      "repository": "vuejs/core",
+      "primary_archetype": "framework",
+      "readme_characteristics": [
+        "char_standard",
+        "char_architecture"
+      ],
+      "split": "train",
+      "run_example_status": "fail",
+      "code_blocks_count": 0,
+      "uncapped_raw_geo": 47,
+      "gated_raw_geo": 25,
+      "pred_uncapped": 2,
+      "pred_gated": 1,
+      "actual_geo": 1,
+      "affected": true,
+      "classification": "A_correctly_suppressed",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-011",
+      "repository": "django/django",
+      "primary_archetype": "framework",
+      "readme_characteristics": [
+        "char_standard",
+        "char_docs_heavy"
+      ],
+      "split": "train",
+      "run_example_status": "fail",
+      "code_blocks_count": 0,
+      "uncapped_raw_geo": 56,
+      "gated_raw_geo": 25,
+      "pred_uncapped": 3,
+      "pred_gated": 1,
+      "actual_geo": 1,
+      "affected": true,
+      "classification": "A_correctly_suppressed",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-012",
+      "repository": "huggingface/transformers",
+      "primary_archetype": "data_ml",
+      "readme_characteristics": [
+        "char_tutorial",
+        "char_example_heavy",
+        "char_feature_comparison",
+        "char_mixed"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 9,
+      "uncapped_raw_geo": 71,
+      "gated_raw_geo": 71,
+      "pred_uncapped": 4,
+      "pred_gated": 4,
+      "actual_geo": 5,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-013",
+      "repository": "langchain-ai/langchain",
+      "primary_archetype": "data_ml",
+      "readme_characteristics": [
+        "char_architecture",
+        "char_tutorial",
+        "char_example_heavy",
+        "char_mixed"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 2,
+      "uncapped_raw_geo": 77,
+      "gated_raw_geo": 77,
+      "pred_uncapped": 4,
+      "pred_gated": 4,
+      "actual_geo": 3,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-014",
+      "repository": "ollama/ollama",
+      "primary_archetype": "data_ml",
+      "readme_characteristics": [
+        "char_tutorial",
+        "char_install_config"
+      ],
+      "split": "train",
+      "run_example_status": "warn",
+      "code_blocks_count": 12,
+      "uncapped_raw_geo": 59,
+      "gated_raw_geo": 59,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 2,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-015",
+      "repository": "docker/compose",
+      "primary_archetype": "devops",
+      "readme_characteristics": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 1,
+      "uncapped_raw_geo": 62,
+      "gated_raw_geo": 62,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 2,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-016",
+      "repository": "hashicorp/terraform",
+      "primary_archetype": "devops",
+      "readme_characteristics": [
+        "char_standard",
+        "char_architecture"
+      ],
+      "split": "train",
+      "run_example_status": "fail",
+      "code_blocks_count": 0,
+      "uncapped_raw_geo": 56,
+      "gated_raw_geo": 25,
+      "pred_uncapped": 3,
+      "pred_gated": 1,
+      "actual_geo": 1,
+      "affected": true,
+      "classification": "A_correctly_suppressed",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-017",
+      "repository": "twbs/bootstrap",
+      "primary_archetype": "library",
+      "readme_characteristics": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 1,
+      "uncapped_raw_geo": 68,
+      "gated_raw_geo": 68,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 2,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-018",
+      "repository": "microsoft/TypeScript",
+      "primary_archetype": "devtool",
+      "readme_characteristics": [
+        "char_standard",
+        "char_architecture"
+      ],
+      "split": "train",
+      "run_example_status": "warn",
+      "code_blocks_count": 2,
+      "uncapped_raw_geo": 53,
+      "gated_raw_geo": 53,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 3,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-019",
+      "repository": "sindresorhus/awesome",
+      "primary_archetype": "docs",
+      "readme_characteristics": [
+        "char_docs_heavy",
+        "char_minimal"
+      ],
+      "split": "train",
+      "run_example_status": "fail",
+      "code_blocks_count": 0,
+      "uncapped_raw_geo": 57,
+      "gated_raw_geo": 25,
+      "pred_uncapped": 3,
+      "pred_gated": 1,
+      "actual_geo": 1,
+      "affected": true,
+      "classification": "A_correctly_suppressed",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-020",
+      "repository": "jesseduffield/lazygit",
+      "primary_archetype": "cli",
+      "readme_characteristics": [
+        "char_standard",
+        "char_tutorial",
+        "char_install_config"
+      ],
+      "split": "train",
+      "run_example_status": "warn",
+      "code_blocks_count": 30,
+      "uncapped_raw_geo": 68,
+      "gated_raw_geo": 68,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-021",
+      "repository": "junegunn/fzf",
+      "primary_archetype": "cli",
+      "readme_characteristics": [
+        "char_standard",
+        "char_tutorial",
+        "char_install_config"
+      ],
+      "split": "train",
+      "run_example_status": "warn",
+      "code_blocks_count": 51,
+      "uncapped_raw_geo": 59,
+      "gated_raw_geo": 59,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-022",
+      "repository": "cli/cli",
+      "primary_archetype": "cli",
+      "readme_characteristics": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 4,
+      "uncapped_raw_geo": 68,
+      "gated_raw_geo": 68,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-023",
+      "repository": "charmbracelet/bubbletea",
+      "primary_archetype": "cli",
+      "readme_characteristics": [
+        "char_tutorial",
+        "char_example_heavy"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 9,
+      "uncapped_raw_geo": 65,
+      "gated_raw_geo": 65,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-024",
+      "repository": "starship/starship",
+      "primary_archetype": "cli",
+      "readme_characteristics": [
+        "char_install_config",
+        "char_standard"
+      ],
+      "split": "validation",
+      "run_example_status": "warn",
+      "code_blocks_count": 12,
+      "uncapped_raw_geo": 71,
+      "gated_raw_geo": 71,
+      "pred_uncapped": 4,
+      "pred_gated": 4,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-025",
+      "repository": "denisidoro/navi",
+      "primary_archetype": "cli",
+      "readme_characteristics": [
+        "char_tutorial",
+        "char_install_config",
+        "char_mixed"
+      ],
+      "split": "validation",
+      "run_example_status": "pass",
+      "code_blocks_count": 3,
+      "uncapped_raw_geo": 71,
+      "gated_raw_geo": 71,
+      "pred_uncapped": 4,
+      "pred_gated": 4,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-028",
+      "repository": "pydantic/pydantic",
+      "primary_archetype": "library",
+      "readme_characteristics": [
+        "char_example_heavy",
+        "char_feature_comparison"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 1,
+      "uncapped_raw_geo": 74,
+      "gated_raw_geo": 74,
+      "pred_uncapped": 4,
+      "pred_gated": 4,
+      "actual_geo": 2,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-029",
+      "repository": "chalk/chalk",
+      "primary_archetype": "library",
+      "readme_characteristics": [
+        "char_example_heavy",
+        "char_api_reference"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 7,
+      "uncapped_raw_geo": 74,
+      "gated_raw_geo": 74,
+      "pred_uncapped": 4,
+      "pred_gated": 4,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-030",
+      "repository": "axios/axios",
+      "primary_archetype": "library",
+      "readme_characteristics": [
+        "char_api_reference",
+        "char_example_heavy"
+      ],
+      "split": "train",
+      "run_example_status": "warn",
+      "code_blocks_count": 106,
+      "uncapped_raw_geo": 71,
+      "gated_raw_geo": 71,
+      "pred_uncapped": 4,
+      "pred_gated": 4,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-031",
+      "repository": "serde-rs/serde",
+      "primary_archetype": "library",
+      "readme_characteristics": [
+        "char_standard",
+        "char_example_heavy"
+      ],
+      "split": "validation",
+      "run_example_status": "pass",
+      "code_blocks_count": 2,
+      "uncapped_raw_geo": 53,
+      "gated_raw_geo": 53,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 3,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-032",
+      "repository": "tokio-rs/tokio",
+      "primary_archetype": "library",
+      "readme_characteristics": [
+        "char_tutorial",
+        "char_architecture"
+      ],
+      "split": "validation",
+      "run_example_status": "pass",
+      "code_blocks_count": 3,
+      "uncapped_raw_geo": 62,
+      "gated_raw_geo": 62,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-033",
+      "repository": "colinhacks/zod",
+      "primary_archetype": "library",
+      "readme_characteristics": [
+        "char_docs_heavy",
+        "char_api_reference",
+        "char_example_heavy",
+        "char_mixed"
+      ],
+      "split": "validation",
+      "run_example_status": "fail",
+      "code_blocks_count": 0,
+      "uncapped_raw_geo": 50,
+      "gated_raw_geo": 25,
+      "pred_uncapped": 3,
+      "pred_gated": 1,
+      "actual_geo": 0,
+      "affected": true,
+      "classification": "A_correctly_suppressed",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-036",
+      "repository": "tiangolo/fastapi",
+      "primary_archetype": "framework",
+      "readme_characteristics": [
+        "char_example_heavy",
+        "char_tutorial",
+        "char_feature_comparison",
+        "char_mixed"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 12,
+      "uncapped_raw_geo": 88,
+      "gated_raw_geo": 88,
+      "pred_uncapped": 4,
+      "pred_gated": 4,
+      "actual_geo": 3,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-037",
+      "repository": "pallets/flask",
+      "primary_archetype": "framework",
+      "readme_characteristics": [
+        "char_standard",
+        "char_example_heavy"
+      ],
+      "split": "train",
+      "run_example_status": "warn",
+      "code_blocks_count": 2,
+      "uncapped_raw_geo": 68,
+      "gated_raw_geo": 68,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 2,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-038",
+      "repository": "sveltejs/svelte",
+      "primary_archetype": "framework",
+      "readme_characteristics": [
+        "char_standard",
+        "char_tutorial"
+      ],
+      "split": "validation",
+      "run_example_status": "fail",
+      "code_blocks_count": 0,
+      "uncapped_raw_geo": 50,
+      "gated_raw_geo": 25,
+      "pred_uncapped": 3,
+      "pred_gated": 1,
+      "actual_geo": 1,
+      "affected": true,
+      "classification": "A_correctly_suppressed",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-039",
+      "repository": "angular/angular",
+      "primary_archetype": "framework",
+      "readme_characteristics": [
+        "char_standard",
+        "char_architecture"
+      ],
+      "split": "validation",
+      "run_example_status": "warn",
+      "code_blocks_count": 3,
+      "uncapped_raw_geo": 68,
+      "gated_raw_geo": 68,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 2,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-042",
+      "repository": "octokit/octokit.js",
+      "primary_archetype": "sdk",
+      "readme_characteristics": [
+        "char_api_reference",
+        "char_tutorial"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 38,
+      "uncapped_raw_geo": 65,
+      "gated_raw_geo": 65,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-043",
+      "repository": "stripe/stripe-node",
+      "primary_archetype": "sdk",
+      "readme_characteristics": [
+        "char_api_reference",
+        "char_install_config"
+      ],
+      "split": "train",
+      "run_example_status": "warn",
+      "code_blocks_count": 40,
+      "uncapped_raw_geo": 74,
+      "gated_raw_geo": 74,
+      "pred_uncapped": 4,
+      "pred_gated": 4,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-044",
+      "repository": "stripe/stripe-python",
+      "primary_archetype": "sdk",
+      "readme_characteristics": [
+        "char_api_reference",
+        "char_example_heavy"
+      ],
+      "split": "train",
+      "run_example_status": "warn",
+      "code_blocks_count": 29,
+      "uncapped_raw_geo": 76,
+      "gated_raw_geo": 76,
+      "pred_uncapped": 4,
+      "pred_gated": 4,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-045",
+      "repository": "aws/aws-sdk-js-v3",
+      "primary_archetype": "sdk",
+      "readme_characteristics": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "split": "train",
+      "run_example_status": "warn",
+      "code_blocks_count": 31,
+      "uncapped_raw_geo": 71,
+      "gated_raw_geo": 71,
+      "pred_uncapped": 4,
+      "pred_gated": 4,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-046",
+      "repository": "googleapis/google-api-python-client",
+      "primary_archetype": "sdk",
+      "readme_characteristics": [
+        "char_tutorial",
+        "char_install_config"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 2,
+      "uncapped_raw_geo": 73,
+      "gated_raw_geo": 73,
+      "pred_uncapped": 4,
+      "pred_gated": 4,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-047",
+      "repository": "openai/openai-python",
+      "primary_archetype": "sdk",
+      "readme_characteristics": [
+        "char_example_heavy",
+        "char_api_reference"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 48,
+      "uncapped_raw_geo": 68,
+      "gated_raw_geo": 68,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-048",
+      "repository": "openai/openai-node",
+      "primary_archetype": "sdk",
+      "readme_characteristics": [
+        "char_example_heavy",
+        "char_api_reference"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 39,
+      "uncapped_raw_geo": 82,
+      "gated_raw_geo": 82,
+      "pred_uncapped": 4,
+      "pred_gated": 4,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-049",
+      "repository": "resend/resend-node",
+      "primary_archetype": "sdk",
+      "readme_characteristics": [
+        "char_tutorial",
+        "char_standard"
+      ],
+      "split": "validation",
+      "run_example_status": "pass",
+      "code_blocks_count": 6,
+      "uncapped_raw_geo": 68,
+      "gated_raw_geo": 68,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 3,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-050",
+      "repository": "postmanlabs/postman-collection",
+      "primary_archetype": "sdk",
+      "readme_characteristics": [
+        "char_api_reference",
+        "char_docs_heavy"
+      ],
+      "split": "validation",
+      "run_example_status": "pass",
+      "code_blocks_count": 2,
+      "uncapped_raw_geo": 79,
+      "gated_raw_geo": 79,
+      "pred_uncapped": 4,
+      "pred_gated": 4,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-054",
+      "repository": "vitejs/vite",
+      "primary_archetype": "devtool",
+      "readme_characteristics": [
+        "char_standard",
+        "char_tutorial"
+      ],
+      "split": "train",
+      "run_example_status": "fail",
+      "code_blocks_count": 0,
+      "uncapped_raw_geo": 56,
+      "gated_raw_geo": 25,
+      "pred_uncapped": 3,
+      "pred_gated": 1,
+      "actual_geo": 1,
+      "affected": true,
+      "classification": "A_correctly_suppressed",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-055",
+      "repository": "swc-project/swc",
+      "primary_archetype": "devtool",
+      "readme_characteristics": [
+        "char_feature_comparison",
+        "char_architecture"
+      ],
+      "split": "train",
+      "run_example_status": "fail",
+      "code_blocks_count": 0,
+      "uncapped_raw_geo": 56,
+      "gated_raw_geo": 25,
+      "pred_uncapped": 3,
+      "pred_gated": 1,
+      "actual_geo": 1,
+      "affected": true,
+      "classification": "A_correctly_suppressed",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-056",
+      "repository": "biomejs/biome",
+      "primary_archetype": "devtool",
+      "readme_characteristics": [
+        "char_feature_comparison",
+        "char_tutorial"
+      ],
+      "split": "train",
+      "run_example_status": "fail",
+      "code_blocks_count": 0,
+      "uncapped_raw_geo": 47,
+      "gated_raw_geo": 25,
+      "pred_uncapped": 2,
+      "pred_gated": 1,
+      "actual_geo": 0,
+      "affected": true,
+      "classification": "A_correctly_suppressed",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-057",
+      "repository": "evanw/esbuild",
+      "primary_archetype": "devtool",
+      "readme_characteristics": [
+        "char_docs_heavy",
+        "char_architecture",
+        "char_feature_comparison",
+        "char_mixed"
+      ],
+      "split": "validation",
+      "run_example_status": "fail",
+      "code_blocks_count": 0,
+      "uncapped_raw_geo": 53,
+      "gated_raw_geo": 25,
+      "pred_uncapped": 3,
+      "pred_gated": 1,
+      "actual_geo": 1,
+      "affected": true,
+      "classification": "A_correctly_suppressed",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-058",
+      "repository": "rust-lang/rust-clippy",
+      "primary_archetype": "devtool",
+      "readme_characteristics": [
+        "char_tutorial",
+        "char_install_config"
+      ],
+      "split": "validation",
+      "run_example_status": "pass",
+      "code_blocks_count": 18,
+      "uncapped_raw_geo": 62,
+      "gated_raw_geo": 62,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-061",
+      "repository": "calcom/cal.com",
+      "primary_archetype": "webapp",
+      "readme_characteristics": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "split": "train",
+      "run_example_status": "warn",
+      "code_blocks_count": 49,
+      "uncapped_raw_geo": 62,
+      "gated_raw_geo": 62,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-062",
+      "repository": "plausible/analytics",
+      "primary_archetype": "webapp",
+      "readme_characteristics": [
+        "char_standard",
+        "char_feature_comparison"
+      ],
+      "split": "train",
+      "run_example_status": "fail",
+      "code_blocks_count": 0,
+      "uncapped_raw_geo": 67,
+      "gated_raw_geo": 25,
+      "pred_uncapped": 3,
+      "pred_gated": 1,
+      "actual_geo": 1,
+      "affected": true,
+      "classification": "A_correctly_suppressed",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-063",
+      "repository": "outline/outline",
+      "primary_archetype": "webapp",
+      "readme_characteristics": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 4,
+      "uncapped_raw_geo": 65,
+      "gated_raw_geo": 65,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-064",
+      "repository": "mattermost/mattermost",
+      "primary_archetype": "webapp",
+      "readme_characteristics": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "split": "train",
+      "run_example_status": "fail",
+      "code_blocks_count": 0,
+      "uncapped_raw_geo": 63,
+      "gated_raw_geo": 25,
+      "pred_uncapped": 3,
+      "pred_gated": 1,
+      "actual_geo": 1,
+      "affected": true,
+      "classification": "A_correctly_suppressed",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-065",
+      "repository": "documenso/documenso",
+      "primary_archetype": "webapp",
+      "readme_characteristics": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "split": "train",
+      "run_example_status": "warn",
+      "code_blocks_count": 4,
+      "uncapped_raw_geo": 62,
+      "gated_raw_geo": 62,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 2,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-066",
+      "repository": "grafana/grafana",
+      "primary_archetype": "webapp",
+      "readme_characteristics": [
+        "char_standard",
+        "char_architecture"
+      ],
+      "split": "train",
+      "run_example_status": "fail",
+      "code_blocks_count": 0,
+      "uncapped_raw_geo": 59,
+      "gated_raw_geo": 25,
+      "pred_uncapped": 3,
+      "pred_gated": 1,
+      "actual_geo": 1,
+      "affected": true,
+      "classification": "A_correctly_suppressed",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-067",
+      "repository": "nocodb/nocodb",
+      "primary_archetype": "webapp",
+      "readme_characteristics": [
+        "char_feature_comparison",
+        "char_install_config"
+      ],
+      "split": "validation",
+      "run_example_status": "pass",
+      "code_blocks_count": 3,
+      "uncapped_raw_geo": 66,
+      "gated_raw_geo": 66,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-068",
+      "repository": "twentyhq/twenty",
+      "primary_archetype": "webapp",
+      "readme_characteristics": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "split": "validation",
+      "run_example_status": "pass",
+      "code_blocks_count": 3,
+      "uncapped_raw_geo": 62,
+      "gated_raw_geo": 62,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 3,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-071",
+      "repository": "kamranahmedse/developer-roadmap",
+      "primary_archetype": "docs",
+      "readme_characteristics": [
+        "char_docs_heavy",
+        "char_architecture"
+      ],
+      "split": "train",
+      "run_example_status": "warn",
+      "code_blocks_count": 2,
+      "uncapped_raw_geo": 56,
+      "gated_raw_geo": 56,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 2,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-072",
+      "repository": "ryanmcdermott/clean-code-javascript",
+      "primary_archetype": "docs",
+      "readme_characteristics": [
+        "char_docs_heavy",
+        "char_example_heavy"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 92,
+      "uncapped_raw_geo": 57,
+      "gated_raw_geo": 57,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 3,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-073",
+      "repository": "donnemartin/system-design-primer",
+      "primary_archetype": "docs",
+      "readme_characteristics": [
+        "char_docs_heavy",
+        "char_architecture"
+      ],
+      "split": "train",
+      "run_example_status": "warn",
+      "code_blocks_count": 9,
+      "uncapped_raw_geo": 64,
+      "gated_raw_geo": 64,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 2,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-074",
+      "repository": "jwasham/coding-interview-university",
+      "primary_archetype": "docs",
+      "readme_characteristics": [
+        "char_docs_heavy",
+        "char_tutorial"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 2,
+      "uncapped_raw_geo": 70,
+      "gated_raw_geo": 70,
+      "pred_uncapped": 4,
+      "pred_gated": 4,
+      "actual_geo": 3,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-075",
+      "repository": "github/gitignore",
+      "primary_archetype": "docs",
+      "readme_characteristics": [
+        "char_minimal",
+        "char_standard"
+      ],
+      "split": "validation",
+      "run_example_status": "pass",
+      "code_blocks_count": 1,
+      "uncapped_raw_geo": 63,
+      "gated_raw_geo": 63,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 2,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-078",
+      "repository": "babel/babel",
+      "primary_archetype": "monorepo",
+      "readme_characteristics": [
+        "char_standard",
+        "char_architecture"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 2,
+      "uncapped_raw_geo": 62,
+      "gated_raw_geo": 62,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 3,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-079",
+      "repository": "pnpm/pnpm",
+      "primary_archetype": "monorepo",
+      "readme_characteristics": [
+        "char_feature_comparison",
+        "char_install_config"
+      ],
+      "split": "train",
+      "run_example_status": "fail",
+      "code_blocks_count": 0,
+      "uncapped_raw_geo": 50,
+      "gated_raw_geo": 25,
+      "pred_uncapped": 3,
+      "pred_gated": 1,
+      "actual_geo": 1,
+      "affected": true,
+      "classification": "A_correctly_suppressed",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-080",
+      "repository": "nrwl/nx",
+      "primary_archetype": "monorepo",
+      "readme_characteristics": [
+        "char_tutorial",
+        "char_architecture"
+      ],
+      "split": "train",
+      "run_example_status": "fail",
+      "code_blocks_count": 0,
+      "uncapped_raw_geo": 68,
+      "gated_raw_geo": 25,
+      "pred_uncapped": 3,
+      "pred_gated": 1,
+      "actual_geo": 1,
+      "affected": true,
+      "classification": "A_correctly_suppressed",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-081",
+      "repository": "vercel/turborepo",
+      "primary_archetype": "monorepo",
+      "readme_characteristics": [
+        "char_feature_comparison",
+        "char_tutorial"
+      ],
+      "split": "train",
+      "run_example_status": "fail",
+      "code_blocks_count": 0,
+      "uncapped_raw_geo": 59,
+      "gated_raw_geo": 25,
+      "pred_uncapped": 3,
+      "pred_gated": 1,
+      "actual_geo": 1,
+      "affected": true,
+      "classification": "A_correctly_suppressed",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-082",
+      "repository": "facebook/docusaurus",
+      "primary_archetype": "monorepo",
+      "readme_characteristics": [
+        "char_standard",
+        "char_tutorial"
+      ],
+      "split": "train",
+      "run_example_status": "warn",
+      "code_blocks_count": 1,
+      "uncapped_raw_geo": 56,
+      "gated_raw_geo": 56,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 2,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-083",
+      "repository": "shadcn-ui/ui",
+      "primary_archetype": "monorepo",
+      "readme_characteristics": [
+        "char_standard",
+        "char_example_heavy"
+      ],
+      "split": "validation",
+      "run_example_status": "fail",
+      "code_blocks_count": 0,
+      "uncapped_raw_geo": 50,
+      "gated_raw_geo": 25,
+      "pred_uncapped": 3,
+      "pred_gated": 1,
+      "actual_geo": 1,
+      "affected": true,
+      "classification": "A_correctly_suppressed",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-084",
+      "repository": "storybookjs/storybook",
+      "primary_archetype": "monorepo",
+      "readme_characteristics": [
+        "char_architecture",
+        "char_tutorial"
+      ],
+      "split": "validation",
+      "run_example_status": "warn",
+      "code_blocks_count": 1,
+      "uncapped_raw_geo": 62,
+      "gated_raw_geo": 62,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 2,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-086",
+      "repository": "ansible/ansible",
+      "primary_archetype": "devops",
+      "readme_characteristics": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "split": "train",
+      "run_example_status": "fail",
+      "code_blocks_count": 0,
+      "uncapped_raw_geo": 50,
+      "gated_raw_geo": 25,
+      "pred_uncapped": 3,
+      "pred_gated": 1,
+      "actual_geo": 1,
+      "affected": true,
+      "classification": "A_correctly_suppressed",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-087",
+      "repository": "helm/helm",
+      "primary_archetype": "devops",
+      "readme_characteristics": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "split": "train",
+      "run_example_status": "fail",
+      "code_blocks_count": 0,
+      "uncapped_raw_geo": 56,
+      "gated_raw_geo": 25,
+      "pred_uncapped": 3,
+      "pred_gated": 1,
+      "actual_geo": 1,
+      "affected": true,
+      "classification": "A_correctly_suppressed",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-088",
+      "repository": "prometheus/prometheus",
+      "primary_archetype": "devops",
+      "readme_characteristics": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 10,
+      "uncapped_raw_geo": 68,
+      "gated_raw_geo": 68,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-089",
+      "repository": "traefik/traefik",
+      "primary_archetype": "devops",
+      "readme_characteristics": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "split": "train",
+      "run_example_status": "warn",
+      "code_blocks_count": 3,
+      "uncapped_raw_geo": 65,
+      "gated_raw_geo": 65,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-090",
+      "repository": "hashicorp/vault",
+      "primary_archetype": "devops",
+      "readme_characteristics": [
+        "char_standard",
+        "char_architecture"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 12,
+      "uncapped_raw_geo": 65,
+      "gated_raw_geo": 65,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 3,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-091",
+      "repository": "localstack/localstack",
+      "primary_archetype": "devops",
+      "readme_characteristics": [
+        "char_feature_comparison",
+        "char_install_config",
+        "char_mixed"
+      ],
+      "split": "validation",
+      "run_example_status": "pass",
+      "code_blocks_count": 5,
+      "uncapped_raw_geo": 71,
+      "gated_raw_geo": 71,
+      "pred_uncapped": 4,
+      "pred_gated": 4,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-092",
+      "repository": "k3s-io/k3s",
+      "primary_archetype": "devops",
+      "readme_characteristics": [
+        "char_feature_comparison",
+        "char_install_config"
+      ],
+      "split": "validation",
+      "run_example_status": "pass",
+      "code_blocks_count": 4,
+      "uncapped_raw_geo": 62,
+      "gated_raw_geo": 62,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 3,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-093",
+      "repository": "containerd/containerd",
+      "primary_archetype": "devops",
+      "readme_characteristics": [
+        "char_architecture",
+        "char_standard"
+      ],
+      "split": "validation",
+      "run_example_status": "warn",
+      "code_blocks_count": 1,
+      "uncapped_raw_geo": 68,
+      "gated_raw_geo": 68,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 2,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-096",
+      "repository": "scikit-learn/scikit-learn",
+      "primary_archetype": "data_ml",
+      "readme_characteristics": [
+        "char_standard",
+        "char_example_heavy"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 5,
+      "uncapped_raw_geo": 62,
+      "gated_raw_geo": 62,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 5,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-097",
+      "repository": "numpy/numpy",
+      "primary_archetype": "data_ml",
+      "readme_characteristics": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "split": "train",
+      "run_example_status": "fail",
+      "code_blocks_count": 0,
+      "uncapped_raw_geo": 59,
+      "gated_raw_geo": 25,
+      "pred_uncapped": 3,
+      "pred_gated": 1,
+      "actual_geo": 1,
+      "affected": true,
+      "classification": "A_correctly_suppressed",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-098",
+      "repository": "pandas-dev/pandas",
+      "primary_archetype": "data_ml",
+      "readme_characteristics": [
+        "char_standard",
+        "char_example_heavy"
+      ],
+      "split": "train",
+      "run_example_status": "warn",
+      "code_blocks_count": 5,
+      "uncapped_raw_geo": 68,
+      "gated_raw_geo": 68,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 5,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-099",
+      "repository": "pytorch/pytorch",
+      "primary_archetype": "data_ml",
+      "readme_characteristics": [
+        "char_standard",
+        "char_architecture"
+      ],
+      "split": "train",
+      "run_example_status": "warn",
+      "code_blocks_count": 21,
+      "uncapped_raw_geo": 79,
+      "gated_raw_geo": 79,
+      "pred_uncapped": 4,
+      "pred_gated": 4,
+      "actual_geo": 5,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-100",
+      "repository": "vllm-project/vllm",
+      "primary_archetype": "data_ml",
+      "readme_characteristics": [
+        "char_feature_comparison",
+        "char_example_heavy"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 2,
+      "uncapped_raw_geo": 68,
+      "gated_raw_geo": 68,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-101",
+      "repository": "run-llama/llama_index",
+      "primary_archetype": "data_ml",
+      "readme_characteristics": [
+        "char_tutorial",
+        "char_example_heavy"
+      ],
+      "split": "train",
+      "run_example_status": "warn",
+      "code_blocks_count": 9,
+      "uncapped_raw_geo": 74,
+      "gated_raw_geo": 74,
+      "pred_uncapped": 4,
+      "pred_gated": 4,
+      "actual_geo": 5,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-102",
+      "repository": "milvus-io/milvus",
+      "primary_archetype": "data_ml",
+      "readme_characteristics": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "split": "validation",
+      "run_example_status": "warn",
+      "code_blocks_count": 12,
+      "uncapped_raw_geo": 59,
+      "gated_raw_geo": 59,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-103",
+      "repository": "chroma-core/chroma",
+      "primary_archetype": "data_ml",
+      "readme_characteristics": [
+        "char_example_heavy",
+        "char_tutorial"
+      ],
+      "split": "validation",
+      "run_example_status": "pass",
+      "code_blocks_count": 2,
+      "uncapped_raw_geo": 65,
+      "gated_raw_geo": 65,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-104",
+      "repository": "ray-project/ray",
+      "primary_archetype": "data_ml",
+      "readme_characteristics": [
+        "char_architecture",
+        "char_example_heavy"
+      ],
+      "split": "validation",
+      "run_example_status": "fail",
+      "code_blocks_count": 0,
+      "uncapped_raw_geo": 53,
+      "gated_raw_geo": 25,
+      "pred_uncapped": 3,
+      "pred_gated": 1,
+      "actual_geo": 1,
+      "affected": true,
+      "classification": "A_correctly_suppressed",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-107",
+      "repository": "microsoft/vscode-python",
+      "primary_archetype": "plugin",
+      "readme_characteristics": [
+        "char_standard",
+        "char_tutorial"
+      ],
+      "split": "train",
+      "run_example_status": "fail",
+      "code_blocks_count": 0,
+      "uncapped_raw_geo": 62,
+      "gated_raw_geo": 25,
+      "pred_uncapped": 3,
+      "pred_gated": 1,
+      "actual_geo": 1,
+      "affected": true,
+      "classification": "A_correctly_suppressed",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-108",
+      "repository": "actions/checkout",
+      "primary_archetype": "plugin",
+      "readme_characteristics": [
+        "char_example_heavy",
+        "char_api_reference"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 15,
+      "uncapped_raw_geo": 63,
+      "gated_raw_geo": 63,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 3,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-109",
+      "repository": "actions/setup-node",
+      "primary_archetype": "plugin",
+      "readme_characteristics": [
+        "char_example_heavy",
+        "char_api_reference"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 8,
+      "uncapped_raw_geo": 71,
+      "gated_raw_geo": 71,
+      "pred_uncapped": 4,
+      "pred_gated": 4,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-110",
+      "repository": "actions/setup-python",
+      "primary_archetype": "plugin",
+      "readme_characteristics": [
+        "char_example_heavy",
+        "char_api_reference"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 6,
+      "uncapped_raw_geo": 71,
+      "gated_raw_geo": 71,
+      "pred_uncapped": 4,
+      "pred_gated": 4,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-111",
+      "repository": "sindresorhus/refined-github",
+      "primary_archetype": "plugin",
+      "readme_characteristics": [
+        "char_feature_comparison",
+        "char_install_config"
+      ],
+      "split": "validation",
+      "run_example_status": "fail",
+      "code_blocks_count": 0,
+      "uncapped_raw_geo": 50,
+      "gated_raw_geo": 25,
+      "pred_uncapped": 3,
+      "pred_gated": 1,
+      "actual_geo": 1,
+      "affected": true,
+      "classification": "A_correctly_suppressed",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-114",
+      "repository": "sindresorhus/is-stream",
+      "primary_archetype": "small_project",
+      "readme_characteristics": [
+        "char_minimal",
+        "char_example_heavy"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 2,
+      "uncapped_raw_geo": 65,
+      "gated_raw_geo": 65,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 3,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-115",
+      "repository": "sindresorhus/is-plain-obj",
+      "primary_archetype": "small_project",
+      "readme_characteristics": [
+        "char_minimal",
+        "char_example_heavy"
+      ],
+      "split": "train",
+      "run_example_status": "warn",
+      "code_blocks_count": 2,
+      "uncapped_raw_geo": 62,
+      "gated_raw_geo": 62,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 2,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-116",
+      "repository": "jonschlinkert/is-odd",
+      "primary_archetype": "small_project",
+      "readme_characteristics": [
+        "char_minimal",
+        "char_standard"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 4,
+      "uncapped_raw_geo": 71,
+      "gated_raw_geo": 71,
+      "pred_uncapped": 4,
+      "pred_gated": 4,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-117",
+      "repository": "jonschlinkert/is-even",
+      "primary_archetype": "small_project",
+      "readme_characteristics": [
+        "char_minimal",
+        "char_standard"
+      ],
+      "split": "train",
+      "run_example_status": "pass",
+      "code_blocks_count": 4,
+      "uncapped_raw_geo": 68,
+      "gated_raw_geo": 68,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 4,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    },
+    {
+      "fixture_id": "real-118",
+      "repository": "chriso/validator.js",
+      "primary_archetype": "small_project",
+      "readme_characteristics": [
+        "char_api_reference",
+        "char_example_heavy"
+      ],
+      "split": "validation",
+      "run_example_status": "pass",
+      "code_blocks_count": 8,
+      "uncapped_raw_geo": 68,
+      "gated_raw_geo": 68,
+      "pred_uncapped": 3,
+      "pred_gated": 3,
+      "actual_geo": 3,
+      "affected": false,
+      "classification": "C_unchanged",
+      "is_potential_counterexample": false
+    }
+  ]
+}

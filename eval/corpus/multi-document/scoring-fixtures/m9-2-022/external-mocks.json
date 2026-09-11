@@ -1,0 +1,6 @@
+{
+  "https://docs.astral.sh/ruff": {
+    "http_status": 200,
+    "content": "# Ruff Documentation\n\n## Installation\n```bash\npip install ruff\n```\n\n## Usage\nRun `ruff check .` to lint.\n"
+  }
+}

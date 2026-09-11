@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "RepoRise Cryptographic Provenance Manifest",
+  "version": "1.0.0",
+  "generated_at": "2026-09-14T06:58:19.410Z",
+  "environment": {
+    "package_version": "0.1.0",
+    "node_version": "v25.2.1",
+    "platform": "win32",
+    "arch": "x64",
+    "git_commit": "e5ec1971c55cf41d89e528545ed84ec43bc2d983",
+    "git_commit_short": "e5ec197",
+    "git_tag": "v0.1.0"
+  },
+  "invariants": {
+    "m8_engine_commit": "v0.1.0",
+    "m9_engine_commit": "3743940",
+    "checks_mjs_sha256": "29faa5c9cabbbbc514d9a06c2af24f9a7bcd4f98c96cb4dc8e63825cfc23c61e"
+  },
+  "digests": {
+    "engine_components": {
+      "skills/visibility-audit/scripts/lib/checks.mjs": "29faa5c9cabbbbc514d9a06c2af24f9a7bcd4f98c96cb4dc8e63825cfc23c61e",
+      "skills/visibility-audit/scripts/lib/collect.mjs": "651d031237ea7cc2be891ed84320a9110b447ed460f5abab81309a5acec11b61",
+      "skills/visibility-audit/scripts/lib/resolver.mjs": "9550f8a1b1921facab940bd985ea5a9d4605dff4b840fff7a788b8729457966b",
+      "skills/visibility-audit/scripts/lib/evidence-graph.mjs": "6b9be852e8b7236da41da8b4764d516a38ca96db39072ae812feb91cb2c4e3e6",
+      "skills/visibility-audit/scripts/lib/evidence-semantics.mjs": "7858ab29ef5b92e5a12e11211a95d63b5c0cc39973e6711c5548be97541724d3",
+      "skills/visibility-audit/scripts/lib/multi-audit.mjs": "b5fbc563b8b72638be8acfd9f3e2ec03d64b207ca38037e66038528da0884f5f",
+      "skills/visibility-audit/scripts/lib/attribution.mjs": "c3ff1eda29b580f3c7f20b3d5db815d5f7f806604d6af575a67f371abbb4f48a",
+      "skills/visibility-audit/scripts/lib/adapters.mjs": "a14e2d01a86387ca918eb2d84fd9698b33a4d7246f9913e461a2fd114df587af"
+    },
+    "test_suites": {
+      "skills/visibility-audit/scripts/test.mjs": "bc93ad60d18b4aa4d0b1c36767be62e9f241045422ee1b5e6cf9d24ce9a8f550",
+      "skills/citation-probe/scripts/test-probe.mjs": "5858e88ece5455542adb84133d6429b02939695964363e08ef4c19c6649d386e",
+      "skills/visibility-audit/scripts/test-resolver.mjs": "49c12abc5a4c1041ca43ae25b270cf5a21adbda0937d77d0e96884758383e405",
+      "skills/visibility-audit/scripts/test-semantics.mjs": "00251bff84225dbc1798eb47f165d77501d9808a6f26e64a2fbe9924bc65155e",
+      "skills/visibility-audit/scripts/test-attribution.mjs": "742ea84e6d1b6765c5b756106dbaf6b5fc694ad49ad30a1f6f7339bc4699d29f"
+    },
+    "benchmark_manifests": {
+      "benchmarks/registry.json": "4c3ed8f293d61edc4b2430c96d4a39b2f4a5e06269ae571246aaf77412f8912f",
+      "benchmarks/single-document/metadata.json": "5a06fa67f047270aa351b2454792847f52e47fcb8b9eeb3605d3d254456cd36e",
+      "benchmarks/single-document/inventory.json": "16d3db81ad6548dfccb1b61016d79c79cd8399c67288f66c9ac763a8083d31a1",
+      "benchmarks/single-document/human-gold-manifest.json": "7b636b4ffec41d8ff85212b32204ea0f6006a724374bfee257e652e423749407",
+      "benchmarks/multi-document/metadata.json": "5c5ebb3110c4c79c676986779ff34b1e37cbfb2b27575eb3c31d0cfc382e244d",
+      "benchmarks/multi-document/resolution-v1.0.0.json": "388c1c4ae2a404ccbb70a0438ab3e874c2109fb4725bc2ba942188135cf5f146",
+      "benchmarks/multi-document/scoring-v1.0.0.json": "138f3b1f3763d7f07589c463fc76f487a7ba7c91b3dc196304932670a5136735",
+      "benchmarks/certification/certification-v1.0.0.json": "8fa1eb451867852d59e8a53ffb8ed254338e40fc5b33f6eec11905394187ad5e"
+    }
+  }
+}

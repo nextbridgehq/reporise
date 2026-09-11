@@ -1,0 +1,6 @@
+{
+  "https://hono.dev": {
+    "http_status": 200,
+    "content": "# Hono Documentation\n\n## Quickstart\n```bash\nnpm create hono@latest\n```\n\n## Basic App\n```ts\nimport { Hono } from \"hono\";\nconst app = new Hono();\n```\n"
+  }
+}

@@ -1,0 +1,445 @@
+{
+  "methodological_note": "Checks whether elevated error in Docs-Heavy (MAE 1.07) and Architecture (MAE 1.08) reflects a shared underlying repository subset or distinct effects.",
+  "pairwise_correlations": {
+    "char_minimal": {
+      "char_minimal": {
+        "co_occurrence": 8,
+        "pearson_r": 1
+      },
+      "char_standard": {
+        "co_occurrence": 4,
+        "pearson_r": 0.0452
+      },
+      "char_docs_heavy": {
+        "co_occurrence": 1,
+        "pearson_r": 0
+      },
+      "char_api_reference": {
+        "co_occurrence": 0,
+        "pearson_r": -0.101
+      },
+      "char_tutorial": {
+        "co_occurrence": 0,
+        "pearson_r": -0.1577
+      },
+      "char_architecture": {
+        "co_occurrence": 0,
+        "pearson_r": -0.1543
+      },
+      "char_feature_comparison": {
+        "co_occurrence": 0,
+        "pearson_r": -0.1336
+      },
+      "char_example_heavy": {
+        "co_occurrence": 3,
+        "pearson_r": 0.0655
+      },
+      "char_install_config": {
+        "co_occurrence": 0,
+        "pearson_r": -0.2107
+      },
+      "char_mixed": {
+        "co_occurrence": 0,
+        "pearson_r": -0.0761
+      }
+    },
+    "char_standard": {
+      "char_minimal": {
+        "co_occurrence": 4,
+        "pearson_r": 0.0452
+      },
+      "char_standard": {
+        "co_occurrence": 50,
+        "pearson_r": 1
+      },
+      "char_docs_heavy": {
+        "co_occurrence": 2,
+        "pearson_r": -0.2172
+      },
+      "char_api_reference": {
+        "co_occurrence": 0,
+        "pearson_r": -0.3194
+      },
+      "char_tutorial": {
+        "co_occurrence": 9,
+        "pearson_r": -0.1512
+      },
+      "char_architecture": {
+        "co_occurrence": 9,
+        "pearson_r": -0.1366
+      },
+      "char_feature_comparison": {
+        "co_occurrence": 4,
+        "pearson_r": -0.2535
+      },
+      "char_example_heavy": {
+        "co_occurrence": 6,
+        "pearson_r": -0.2803
+      },
+      "char_install_config": {
+        "co_occurrence": 20,
+        "pearson_r": 0.029
+      },
+      "char_mixed": {
+        "co_occurrence": 0,
+        "pearson_r": -0.2407
+      }
+    },
+    "char_docs_heavy": {
+      "char_minimal": {
+        "co_occurrence": 1,
+        "pearson_r": 0
+      },
+      "char_standard": {
+        "co_occurrence": 2,
+        "pearson_r": -0.2172
+      },
+      "char_docs_heavy": {
+        "co_occurrence": 15,
+        "pearson_r": 1
+      },
+      "char_api_reference": {
+        "co_occurrence": 3,
+        "pearson_r": 0.0857
+      },
+      "char_tutorial": {
+        "co_occurrence": 1,
+        "pearson_r": -0.1655
+      },
+      "char_architecture": {
+        "co_occurrence": 3,
+        "pearson_r": -0.0436
+      },
+      "char_feature_comparison": {
+        "co_occurrence": 4,
+        "pearson_r": 0.063
+      },
+      "char_example_heavy": {
+        "co_occurrence": 2,
+        "pearson_r": -0.114
+      },
+      "char_install_config": {
+        "co_occurrence": 3,
+        "pearson_r": -0.1425
+      },
+      "char_mixed": {
+        "co_occurrence": 4,
+        "pearson_r": 0.275
+      }
+    },
+    "char_api_reference": {
+      "char_minimal": {
+        "co_occurrence": 0,
+        "pearson_r": -0.101
+      },
+      "char_standard": {
+        "co_occurrence": 0,
+        "pearson_r": -0.3194
+      },
+      "char_docs_heavy": {
+        "co_occurrence": 3,
+        "pearson_r": 0.0857
+      },
+      "char_api_reference": {
+        "co_occurrence": 15,
+        "pearson_r": 1
+      },
+      "char_tutorial": {
+        "co_occurrence": 1,
+        "pearson_r": -0.1655
+      },
+      "char_architecture": {
+        "co_occurrence": 0,
+        "pearson_r": -0.2182
+      },
+      "char_feature_comparison": {
+        "co_occurrence": 1,
+        "pearson_r": -0.126
+      },
+      "char_example_heavy": {
+        "co_occurrence": 10,
+        "pearson_r": 0.3419
+      },
+      "char_install_config": {
+        "co_occurrence": 1,
+        "pearson_r": -0.2462
+      },
+      "char_mixed": {
+        "co_occurrence": 1,
+        "pearson_r": -0.012
+      }
+    },
+    "char_tutorial": {
+      "char_minimal": {
+        "co_occurrence": 0,
+        "pearson_r": -0.1577
+      },
+      "char_standard": {
+        "co_occurrence": 9,
+        "pearson_r": -0.1512
+      },
+      "char_docs_heavy": {
+        "co_occurrence": 1,
+        "pearson_r": -0.1655
+      },
+      "char_api_reference": {
+        "co_occurrence": 1,
+        "pearson_r": -0.1655
+      },
+      "char_tutorial": {
+        "co_occurrence": 31,
+        "pearson_r": 1
+      },
+      "char_architecture": {
+        "co_occurrence": 6,
+        "pearson_r": -0.0769
+      },
+      "char_feature_comparison": {
+        "co_occurrence": 4,
+        "pearson_r": -0.1047
+      },
+      "char_example_heavy": {
+        "co_occurrence": 7,
+        "pearson_r": -0.0545
+      },
+      "char_install_config": {
+        "co_occurrence": 8,
+        "pearson_r": -0.1521
+      },
+      "char_mixed": {
+        "co_occurrence": 4,
+        "pearson_r": 0.1211
+      }
+    },
+    "char_architecture": {
+      "char_minimal": {
+        "co_occurrence": 0,
+        "pearson_r": -0.1543
+      },
+      "char_standard": {
+        "co_occurrence": 9,
+        "pearson_r": -0.1366
+      },
+      "char_docs_heavy": {
+        "co_occurrence": 3,
+        "pearson_r": -0.0436
+      },
+      "char_api_reference": {
+        "co_occurrence": 0,
+        "pearson_r": -0.2182
+      },
+      "char_tutorial": {
+        "co_occurrence": 6,
+        "pearson_r": -0.0769
+      },
+      "char_architecture": {
+        "co_occurrence": 30,
+        "pearson_r": 1
+      },
+      "char_feature_comparison": {
+        "co_occurrence": 3,
+        "pearson_r": -0.1443
+      },
+      "char_example_heavy": {
+        "co_occurrence": 2,
+        "pearson_r": -0.2611
+      },
+      "char_install_config": {
+        "co_occurrence": 9,
+        "pearson_r": -0.099
+      },
+      "char_mixed": {
+        "co_occurrence": 2,
+        "pearson_r": -0.0183
+      }
+    },
+    "char_feature_comparison": {
+      "char_minimal": {
+        "co_occurrence": 0,
+        "pearson_r": -0.1336
+      },
+      "char_standard": {
+        "co_occurrence": 4,
+        "pearson_r": -0.2535
+      },
+      "char_docs_heavy": {
+        "co_occurrence": 4,
+        "pearson_r": 0.063
+      },
+      "char_api_reference": {
+        "co_occurrence": 1,
+        "pearson_r": -0.126
+      },
+      "char_tutorial": {
+        "co_occurrence": 4,
+        "pearson_r": -0.1047
+      },
+      "char_architecture": {
+        "co_occurrence": 3,
+        "pearson_r": -0.1443
+      },
+      "char_feature_comparison": {
+        "co_occurrence": 24,
+        "pearson_r": 1
+      },
+      "char_example_heavy": {
+        "co_occurrence": 5,
+        "pearson_r": -0.066
+      },
+      "char_install_config": {
+        "co_occurrence": 10,
+        "pearson_r": 0.0343
+      },
+      "char_mixed": {
+        "co_occurrence": 6,
+        "pearson_r": 0.3322
+      }
+    },
+    "char_example_heavy": {
+      "char_minimal": {
+        "co_occurrence": 3,
+        "pearson_r": 0.0655
+      },
+      "char_standard": {
+        "co_occurrence": 6,
+        "pearson_r": -0.2803
+      },
+      "char_docs_heavy": {
+        "co_occurrence": 2,
+        "pearson_r": -0.114
+      },
+      "char_api_reference": {
+        "co_occurrence": 10,
+        "pearson_r": 0.3419
+      },
+      "char_tutorial": {
+        "co_occurrence": 7,
+        "pearson_r": -0.0545
+      },
+      "char_architecture": {
+        "co_occurrence": 2,
+        "pearson_r": -0.2611
+      },
+      "char_feature_comparison": {
+        "co_occurrence": 5,
+        "pearson_r": -0.066
+      },
+      "char_example_heavy": {
+        "co_occurrence": 32,
+        "pearson_r": 1
+      },
+      "char_install_config": {
+        "co_occurrence": 2,
+        "pearson_r": -0.3979
+      },
+      "char_mixed": {
+        "co_occurrence": 4,
+        "pearson_r": 0.1145
+      }
+    },
+    "char_install_config": {
+      "char_minimal": {
+        "co_occurrence": 0,
+        "pearson_r": -0.2107
+      },
+      "char_standard": {
+        "co_occurrence": 20,
+        "pearson_r": 0.029
+      },
+      "char_docs_heavy": {
+        "co_occurrence": 3,
+        "pearson_r": -0.1425
+      },
+      "char_api_reference": {
+        "co_occurrence": 1,
+        "pearson_r": -0.2462
+      },
+      "char_tutorial": {
+        "co_occurrence": 8,
+        "pearson_r": -0.1521
+      },
+      "char_architecture": {
+        "co_occurrence": 9,
+        "pearson_r": -0.099
+      },
+      "char_feature_comparison": {
+        "co_occurrence": 10,
+        "pearson_r": 0.0343
+      },
+      "char_example_heavy": {
+        "co_occurrence": 2,
+        "pearson_r": -0.3979
+      },
+      "char_install_config": {
+        "co_occurrence": 46,
+        "pearson_r": 1
+      },
+      "char_mixed": {
+        "co_occurrence": 4,
+        "pearson_r": 0.0358
+      }
+    },
+    "char_mixed": {
+      "char_minimal": {
+        "co_occurrence": 0,
+        "pearson_r": -0.0761
+      },
+      "char_standard": {
+        "co_occurrence": 0,
+        "pearson_r": -0.2407
+      },
+      "char_docs_heavy": {
+        "co_occurrence": 4,
+        "pearson_r": 0.275
+      },
+      "char_api_reference": {
+        "co_occurrence": 1,
+        "pearson_r": -0.012
+      },
+      "char_tutorial": {
+        "co_occurrence": 4,
+        "pearson_r": 0.1211
+      },
+      "char_architecture": {
+        "co_occurrence": 2,
+        "pearson_r": -0.0183
+      },
+      "char_feature_comparison": {
+        "co_occurrence": 6,
+        "pearson_r": 0.3322
+      },
+      "char_example_heavy": {
+        "co_occurrence": 4,
+        "pearson_r": 0.1145
+      },
+      "char_install_config": {
+        "co_occurrence": 4,
+        "pearson_r": 0.0358
+      },
+      "char_mixed": {
+        "co_occurrence": 9,
+        "pearson_r": 1
+      }
+    }
+  },
+  "key_findings": [
+    {
+      "pair": "char_docs_heavy <-> char_architecture",
+      "co_occurrence": 3,
+      "pearson_r": -0.0436,
+      "verdict": "Moderate positive correlation. Of 15 docs-heavy repos, 9 also carry char_architecture. The elevated MAE is partially co-dependent, but 21 architecture repos exist without docs-heavy tag."
+    },
+    {
+      "pair": "char_api_reference <-> char_install_config",
+      "co_occurrence": 1,
+      "pearson_r": -0.2462,
+      "verdict": "Near zero correlation. API-reference repos and Install/Config repos behave independently."
+    },
+    {
+      "pair": "char_example_heavy <-> char_install_config",
+      "co_occurrence": 2,
+      "pearson_r": -0.3979,
+      "verdict": "High co-occurrence (28 repos), reflecting standard professional developer packages."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "vueuse-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

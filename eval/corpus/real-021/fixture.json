@@ -1,0 +1,35 @@
+{
+  "id": "real-021",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "junegunn/fzf",
+  "commit": "ad151d84154632a6abec67b40fe326c1ea2c9481",
+  "capturedAt": "2026-09-08T11:49:47.720Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "765e840f48570921a45ceae6d0f87f0ec8957f02396aae2018c989b3f4a3cf8f",
+      "sizeBytes": 147830
+    },
+    {
+      "path": "go.mod",
+      "sha256": "be2029a07d7ec7cbaaa55a17b170895ada356b2ecb968df4dd74e5a8c13ca68e",
+      "sizeBytes": 549
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "4b116b7fceb0c1fd0e633d7691251b286558e5c4c4ddb10f4dd5fc2677bf2dce",
+      "sizeBytes": 1106
+    },
+    {
+      "path": "README.md",
+      "sha256": "f52eef8229c2244ee12c378d5e61809662c9bce2227eb34a105b38d120566e24",
+      "sizeBytes": 42982
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "9fede468d5c8263483c0db10907b0fb7daca9cd8163db0ebeeebef734ac63a28",
+      "sizeBytes": 1307
+    }
+  ]
+}

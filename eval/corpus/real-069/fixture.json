@@ -1,0 +1,45 @@
+{
+  "id": "real-069",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "hoppscotch/hoppscotch",
+  "commit": "ac145e7f758151b41fd46d3e5f513886ce9068ba",
+  "capturedAt": "2026-09-08T12:04:54.822Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "4873cdbdb2d47d42fde031058142e8cd6e0d7663c7fae34b9dd5bdd750792a5a",
+      "sizeBytes": 101
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "4e5c6562f45c5ab8c623b6c0250dc413d7f1161737fb1077c74a06f0bb646836",
+      "sizeBytes": 5486
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "5bcc50abce8be1a699b8c41537d1119a6f8285eebc77d03a27204acd4d3e09a3",
+      "sizeBytes": 702
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "a5e6ddb3af783a02eacc848cbe309cc0940b4859ac653e9b1a2e21a4fea22552",
+      "sizeBytes": 1056
+    },
+    {
+      "path": "package.json",
+      "sha256": "10f18ff862da5ba11edebd69cf481be2b17854d7d876b63dd781a0c85862a08f",
+      "sizeBytes": 2457
+    },
+    {
+      "path": "README.md",
+      "sha256": "f943825e526b79841882127fbf6a3c043359efd1ca6f47794c851f827a6373b4",
+      "sizeBytes": 11653
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "f6e84c3fc8fe3fbd42c7e9f309277bda02196091c76f8dce9f9e5877386d5c61",
+      "sizeBytes": 19070
+    }
+  ]
+}

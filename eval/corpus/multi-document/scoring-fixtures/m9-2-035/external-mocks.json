@@ -1,0 +1,6 @@
+{
+  "https://nitro.unjs.io": {
+    "http_status": 200,
+    "content": "# Nitro Documentation\n\n## Getting Started\n```bash\nnpx giget@latest nitro-starter my-server\n```\n\n## Universal Deployment\nDeploy to cloudflare, node, vercel.\n"
+  }
+}

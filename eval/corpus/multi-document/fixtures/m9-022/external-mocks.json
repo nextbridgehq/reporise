@@ -1,0 +1,6 @@
+{
+  "https://tailwindcss.com/docs": {
+    "http_status": 200,
+    "content": "# Tailwind CSS Documentation\n\n## Installation\n```bash\nnpm install -D tailwindcss\nnpx tailwindcss init\n```\n\n## Configuration\nConfigure template paths.\n"
+  }
+}

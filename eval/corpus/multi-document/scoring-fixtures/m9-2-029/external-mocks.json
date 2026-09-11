@@ -1,0 +1,6 @@
+{
+  "https://scikit-learn.org/stable/": {
+    "http_status": 200,
+    "content": "# scikit-learn documentation\n\n## Installation\n```bash\npip install scikit-learn\n```\n\n## An example\nFit a classifier.\n"
+  }
+}

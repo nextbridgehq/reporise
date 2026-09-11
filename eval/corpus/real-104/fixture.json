@@ -1,0 +1,30 @@
+{
+  "id": "real-104",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "ray-project/ray",
+  "commit": "c3162dce8d064824293875c5d0bbfd76a54e04ce",
+  "capturedAt": "2026-09-08T12:20:36.075Z",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "0aa82e0e9d6bb3004913931d1abae0e244c20a5b8e0830048154763358039ac5",
+      "sizeBytes": 27764
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "287ae306869359e4a6eb2af5a2846f9dfe8cfdc8534d709776077fd15c68cda6",
+      "sizeBytes": 2521
+    },
+    {
+      "path": "README.rst",
+      "sha256": "59a70bcdd4e559334077e223047efc734070e68d71b688a7fa23ec7699417820",
+      "sizeBytes": 6646
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "54d31d0993c5091d3de62d98bfb071b7d233747a5fdae771317c4952d74beadf",
+      "sizeBytes": 192
+    }
+  ]
+}

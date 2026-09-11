@@ -1,0 +1,6 @@
+{
+  "https://oxc.rs/docs": {
+    "http_status": 200,
+    "content": "# Oxc Guide\n\n## Installation\n```bash\nnpm install -D oxlint\n```\n\n## Usage\nRun `npx oxlint`.\n"
+  }
+}

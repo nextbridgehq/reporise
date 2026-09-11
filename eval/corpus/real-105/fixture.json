@@ -1,0 +1,235 @@
+{
+  "id": "real-105",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "ggerganov/llama.cpp",
+  "commit": "ca86fb222e0080d4d102f4390d5c7279dffb3277",
+  "capturedAt": "2026-09-08T12:23:07.959Z",
+  "files": [
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "d11dfc4fa770102bc15d79d5607d804519d3005ce1206c4e1e9db83b032ac169",
+      "sizeBytes": 12971
+    },
+    {
+      "path": "docs/android/imported-into-android-studio.jpg",
+      "sha256": "3cc2c2bf6582bf748216ba5d19fc6ff355d054f8f9d3321212407ace06e4b8d9",
+      "sizeBytes": 490930
+    },
+    {
+      "path": "docs/android.md",
+      "sha256": "283b6602477f2a9f9eba620ecf63899fd3e25f23f0619a5508e302ad112da33a",
+      "sizeBytes": 6538
+    },
+    {
+      "path": "docs/autoparser.md",
+      "sha256": "628fa3092e309f598c2b84b3166227bafba8f9fbe48d0ce2ca5d5a175338b11d",
+      "sizeBytes": 32769
+    },
+    {
+      "path": "docs/backend/BLIS.md",
+      "sha256": "4ed187c2fac9782898b896c1e84c6c8004fe93934640f922dbd61ccfbdb98a5a",
+      "sizeBytes": 1717
+    },
+    {
+      "path": "docs/backend/CANN.md",
+      "sha256": "672571523b647380e418c15aeb52fc593baf2f16b8dcf19924cf1c4de29775e7",
+      "sizeBytes": 14371
+    },
+    {
+      "path": "docs/backend/CUDA-FEDORA.md",
+      "sha256": "6c4c07b305c1cadc421620a7bd6e748488a3aeea43ec88db2f39c5582cd0a7bd",
+      "sizeBytes": 10841
+    },
+    {
+      "path": "docs/backend/ET.md",
+      "sha256": "c1ceb09e989204e12d357a03fb69f01eae0d8cc2c888538d682bb1eeab045ee0",
+      "sizeBytes": 7285
+    },
+    {
+      "path": "docs/backend/OPENCL.md",
+      "sha256": "0e58dcf0240f4815886ab32fd69a6be6b6fde3e4fe657afe789522adada05bb7",
+      "sizeBytes": 12147
+    },
+    {
+      "path": "docs/backend/OPENVINO.md",
+      "sha256": "f6072ef10c7e6bc92bdbd6f207d53031f27fdd58d9d71247c71e83245449df7b",
+      "sizeBytes": 42978
+    },
+    {
+      "path": "docs/backend/snapdragon/CMakeUserPresets.json",
+      "sha256": "f68596c6fb5b61ff6edbab39caee9dd022662eb4bce34790e316979eaf203fa1",
+      "sizeBytes": 4537
+    },
+    {
+      "path": "docs/backend/snapdragon/developer.md",
+      "sha256": "89545b969b3ecf5d51fca4214d506d870017660e4f97512495ea9cd42ad07d69",
+      "sizeBytes": 6036
+    },
+    {
+      "path": "docs/backend/snapdragon/linux.md",
+      "sha256": "c1b6c0df87ec602dbe1c9ae9311f5d046cb0701169eb206d18272596fa5ab484",
+      "sizeBytes": 3904
+    },
+    {
+      "path": "docs/backend/snapdragon/README.md",
+      "sha256": "b59a6de1fd9d011dd49294cdfd7c988680229a4e2fbefcfcb33d62b89fd14824",
+      "sizeBytes": 13498
+    },
+    {
+      "path": "docs/backend/snapdragon/windows.md",
+      "sha256": "d2c883ebef30d5615f3425ad26535eb831d824e142e3848652da4a33f2df2a9b",
+      "sizeBytes": 7179
+    },
+    {
+      "path": "docs/backend/SYCL.md",
+      "sha256": "a6ccd2add18144938a4525cdff5d118efbaa619d7992e29f7acac4421e542722",
+      "sizeBytes": 45385
+    },
+    {
+      "path": "docs/backend/VirtGPU/configuration.md",
+      "sha256": "180729b223e2e8153a2eb1c217b6f90ff479eaa113b283f80123025f5036f6a4",
+      "sizeBytes": 6994
+    },
+    {
+      "path": "docs/backend/VirtGPU/development.md",
+      "sha256": "6d976d51b2386b558c562af5f00a67cd8267ee6dd5f34f426178e80c59a90345",
+      "sizeBytes": 6391
+    },
+    {
+      "path": "docs/backend/VirtGPU.md",
+      "sha256": "212808ead1abde64b1d5be08962673751bcadf502f4d3d8384fe714973d6f043",
+      "sizeBytes": 6409
+    },
+    {
+      "path": "docs/backend/zDNN.md",
+      "sha256": "8fcf15250e08902dff60f59cbd2ddceb0ac4ab2f5c65c60f78c3c9f911d867a3",
+      "sizeBytes": 2367
+    },
+    {
+      "path": "docs/backend/ZenDNN.md",
+      "sha256": "d5e3a568cc051c7282e9e97a9ab43f6cbb5757454a4cd6849a3cc7d8faf51bbe",
+      "sizeBytes": 10738
+    },
+    {
+      "path": "examples/batched/batched.cpp",
+      "sha256": "e3ba1a666edfd379bd3e807317bc1e851795178a9b7efa04dd700a273b9fc406",
+      "sizeBytes": 8393
+    },
+    {
+      "path": "examples/batched/CMakeLists.txt",
+      "sha256": "cf31fc3ffe9c8b1cfa9196e3cacb2339f3b9bd1897c1401ca5a10674ba5d1107",
+      "sizeBytes": 244
+    },
+    {
+      "path": "examples/batched/README.md",
+      "sha256": "b663711cf8dbf33266305a57f0dd2ecdd8c188b6d138ff37de901668a9c9bb80",
+      "sizeBytes": 1479
+    },
+    {
+      "path": "examples/batched.swift/.gitignore",
+      "sha256": "b541f4d28380b299568071e58e44f481fbd68f619c9f3b9d315c98632b4d1ca1",
+      "sizeBytes": 182
+    },
+    {
+      "path": "examples/batched.swift/Makefile",
+      "sha256": "facf0a23e136eeb6b4dbb26f2420328e9c8e31b2dce50b4a21e1e28229a4e44e",
+      "sizeBytes": 236
+    },
+    {
+      "path": "examples/batched.swift/Package.swift",
+      "sha256": "faea3a85b84a9bb830ffdd45bd10a5cb82f6f43c6eb50bf9f2b96e4fc755ff2b",
+      "sizeBytes": 788
+    },
+    {
+      "path": "examples/batched.swift/README.md",
+      "sha256": "0921e472de1f1de9da9b8ff4efbbb16bd3ead1bef9c7719ae2c7e8ceb018c091",
+      "sizeBytes": 118
+    },
+    {
+      "path": "examples/batched.swift/Sources/main.swift",
+      "sha256": "5708cfc9cf7f0774790fd628692ca14932b39e009f9a73c7e69368fb4a0580fe",
+      "sizeBytes": 7716
+    },
+    {
+      "path": "examples/CMakeLists.txt",
+      "sha256": "2419af7162bdf0de9da22ac363af212a349c24a1cf1e171afce1268a7e3a8731",
+      "sizeBytes": 1049
+    },
+    {
+      "path": "examples/convert-llama2c-to-ggml/CMakeLists.txt",
+      "sha256": "0a7e41b667be2846381cf169421d23cf1248d3d73b7d028f03c352ee06f92054",
+      "sizeBytes": 276
+    },
+    {
+      "path": "examples/convert-llama2c-to-ggml/convert-llama2c-to-ggml.cpp",
+      "sha256": "16c977954b60594c167eb8a981fc5c4b7baea7af59649ff0c24a6e53293c25ac",
+      "sizeBytes": 37201
+    },
+    {
+      "path": "examples/convert-llama2c-to-ggml/README.md",
+      "sha256": "25692e64bd1202616afc3802f5d2c8279a8ca4dc693b62ede5f65937d3ba5a08",
+      "sizeBytes": 1500
+    },
+    {
+      "path": "examples/convert_legacy_llama.py",
+      "sha256": "594b79e6f831a2ac794d74307376ffa21f15f887dda96a6864f8e5eaaef848f9",
+      "sizeBytes": 62504
+    },
+    {
+      "path": "examples/debug/CMakeLists.txt",
+      "sha256": "b40eac769ccfee60c1d828d65cd41bad18e29de26dbe2d73636a28bdb90e7359",
+      "sizeBytes": 240
+    },
+    {
+      "path": "examples/debug/debug.cpp",
+      "sha256": "d41d1ce2f536e9cc467bbe4a06318bf2b771cc7e6d185c2175a1f1e75629a341",
+      "sizeBytes": 8903
+    },
+    {
+      "path": "examples/debug/README.md",
+      "sha256": "f6ae928107cd96bb42fcf7236792482f0de9e9461d7495f5872a73ba934517be",
+      "sizeBytes": 2140
+    },
+    {
+      "path": "examples/deprecation-warning/deprecation-warning.cpp",
+      "sha256": "0ee5041813eb4c0a785e2c1bbaf12f95325346e5f0c5b5d4643195ab4a70abfc",
+      "sizeBytes": 1270
+    },
+    {
+      "path": "examples/deprecation-warning/README.md",
+      "sha256": "b205e8c258d9e6d8005e970c5febacbaef943a53cc12367d59567742537f8e1c",
+      "sizeBytes": 1730
+    },
+    {
+      "path": "examples/diffusion/CMakeLists.txt",
+      "sha256": "2d49a937cf89ba926f67c55e432ad9ddf158ce5a80490726e411c66c276fa8d3",
+      "sizeBytes": 500
+    },
+    {
+      "path": "examples/diffusion/diffusion-cli.cpp",
+      "sha256": "834a6fdd6b4c28b02cbfc1922d610e3e90d4171c893d2a231c85169e917a2302",
+      "sizeBytes": 10245
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "bcd8ec749126d45cb06737d0690295d73df4b6e7e194205bcf91190368f27285",
+      "sizeBytes": 1099
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "8d49024adec2c64bade8adc8dc8a84016029f5bae64258685fb24fdd161f81e1",
+      "sizeBytes": 1975
+    },
+    {
+      "path": "README.md",
+      "sha256": "4dd7a76402e8185b6d4ba0ef5072727a73ae67abd066e4737bd4d2bd1bcb8d63",
+      "sizeBytes": 7477
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "3d02a553605c04d3a922db4a5b1031138a1eea95a0c7ba477e5337e6273ebb9c",
+      "sizeBytes": 7611
+    }
+  ]
+}

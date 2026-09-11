@@ -1,0 +1,227 @@
+{
+  "campaign": "m8.6-larger-corpus-optimization",
+  "target": "P0_geo_evidence_quality",
+  "timestamp": "2026-09-09T06:15:40.816Z",
+  "iterations": 6,
+  "stats": {
+    "targets": {
+      "geo-evidence-gating": {
+        "proposed": 3,
+        "accepted": 1
+      },
+      "geo-citability-weight": {
+        "proposed": 3,
+        "accepted": 0
+      }
+    },
+    "accepted": 1,
+    "rejected": 5,
+    "mutation_invalid": 0,
+    "syntax_error": 0,
+    "test_failed": 0,
+    "llm_error": 0,
+    "proposal_invalid": 0,
+    "allocation_mismatch": 0,
+    "crashed": 0
+  },
+  "metrics": {
+    "baseline": {
+      "validation": {
+        "overall_mae": 0.7917,
+        "geo_mae": 0.9167
+      }
+    },
+    "final": {
+      "validation": {
+        "mae": 0.7917,
+        "overall": {
+          "n": 24,
+          "mae": 0.7917,
+          "me": 0.2917,
+          "exactPct": 37.5,
+          "withinOnePct": 83.3
+        },
+        "surfaces": {
+          "seo": {
+            "n": 24,
+            "mae": 0.875,
+            "me": 0.2083,
+            "exactPct": 37.5,
+            "withinOnePct": 79.2
+          },
+          "aeo": {
+            "n": 24,
+            "mae": 0.6667,
+            "me": 0.5833,
+            "exactPct": 54.2,
+            "withinOnePct": 79.2
+          },
+          "geo": {
+            "n": 24,
+            "mae": 0.4167,
+            "me": 0,
+            "exactPct": 58.3,
+            "withinOnePct": 100
+          }
+        },
+        "archetypes": {
+          "cli": {
+            "n": 2,
+            "mae": 0.5,
+            "me": -0.5
+          },
+          "library": {
+            "n": 3,
+            "mae": 1.3333,
+            "me": 0.6667
+          },
+          "framework": {
+            "n": 2,
+            "mae": 0.5,
+            "me": 0.5
+          },
+          "sdk": {
+            "n": 2,
+            "mae": 1,
+            "me": 1
+          },
+          "devtool": {
+            "n": 2,
+            "mae": 1.5,
+            "me": 0.5
+          },
+          "webapp": {
+            "n": 2,
+            "mae": 1,
+            "me": -1
+          },
+          "docs": {
+            "n": 1,
+            "mae": 0,
+            "me": 0
+          },
+          "monorepo": {
+            "n": 2,
+            "mae": 1.5,
+            "me": 0.5
+          },
+          "devops": {
+            "n": 3,
+            "mae": 0.3333,
+            "me": 0.3333
+          },
+          "data_ml": {
+            "n": 3,
+            "mae": 0.6667,
+            "me": 0.6667
+          },
+          "plugin": {
+            "n": 1,
+            "mae": 0,
+            "me": 0
+          },
+          "small_project": {
+            "n": 1,
+            "mae": 0,
+            "me": 0
+          }
+        }
+      },
+      "train": {
+        "mae": 0.7083,
+        "overall": {
+          "n": 72,
+          "mae": 0.7083,
+          "me": 0.2361,
+          "exactPct": 38.9,
+          "withinOnePct": 90.3
+        },
+        "surfaces": {
+          "seo": {
+            "n": 72,
+            "mae": 0.8472,
+            "me": 0.2639,
+            "exactPct": 34.7,
+            "withinOnePct": 83.3
+          },
+          "aeo": {
+            "n": 72,
+            "mae": 0.6389,
+            "me": 0.3333,
+            "exactPct": 45.8,
+            "withinOnePct": 90.3
+          },
+          "geo": {
+            "n": 72,
+            "mae": 0.5278,
+            "me": 0,
+            "exactPct": 51.4,
+            "withinOnePct": 95.8
+          }
+        },
+        "archetypes": {
+          "devtool": {
+            "n": 6,
+            "mae": 0.6667,
+            "me": 0.6667
+          },
+          "cli": {
+            "n": 6,
+            "mae": 0.3333,
+            "me": 0
+          },
+          "library": {
+            "n": 7,
+            "mae": 0.5714,
+            "me": 0.2857
+          },
+          "framework": {
+            "n": 6,
+            "mae": 0.5,
+            "me": 0.5
+          },
+          "data_ml": {
+            "n": 9,
+            "mae": 1,
+            "me": -0.3333
+          },
+          "devops": {
+            "n": 7,
+            "mae": 0.7143,
+            "me": 0.7143
+          },
+          "docs": {
+            "n": 5,
+            "mae": 0.6,
+            "me": 0.6
+          },
+          "sdk": {
+            "n": 7,
+            "mae": 0.8571,
+            "me": -0.5714
+          },
+          "webapp": {
+            "n": 6,
+            "mae": 1.1667,
+            "me": 0.5
+          },
+          "monorepo": {
+            "n": 5,
+            "mae": 0.8,
+            "me": 0.4
+          },
+          "plugin": {
+            "n": 4,
+            "mae": 0.25,
+            "me": -0.25
+          },
+          "small_project": {
+            "n": 4,
+            "mae": 0.75,
+            "me": 0.75
+          }
+        }
+      }
+    }
+  }
+}

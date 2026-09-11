@@ -1,0 +1,53 @@
+{
+  "release": "m8.7-evaluation-candidate",
+  "frozen_engine": {
+    "git_commit": "3e11b219c66e316bc79d75f4a8aa22c249a8fc3e",
+    "git_branch": "research/m8-corpus",
+    "version": "0.2.0-m8.6-frozen",
+    "tag": "m8.6-consolidated"
+  },
+  "status": "FROZEN_FOR_EVALUATION",
+  "evaluation_targets": {
+    "real_test": {
+      "count": 24,
+      "ids": [
+        "real-026",
+        "real-027",
+        "real-034",
+        "real-035",
+        "real-040",
+        "real-041",
+        "real-051",
+        "real-052",
+        "real-053",
+        "real-059",
+        "real-060",
+        "real-069",
+        "real-070",
+        "real-076",
+        "real-077",
+        "real-085",
+        "real-094",
+        "real-095",
+        "real-105",
+        "real-106",
+        "real-112",
+        "real-113",
+        "real-119",
+        "real-120"
+      ],
+      "description": "24-repository held-out test split, completely sealed throughout M8.6 optimization"
+    },
+    "human_gold_eval": {
+      "count": 15,
+      "description": "15-repository human gold evaluation split, calibrated and double-blind sealed in M8.2"
+    }
+  },
+  "evaluation_protocol": {
+    "zero_mutation": true,
+    "zero_allocation_feedback": true,
+    "single_pass_execution": true,
+    "comparison_baseline": "eval/baseline.json"
+  },
+  "timestamp": "2026-09-09T08:54:57.145Z"
+}

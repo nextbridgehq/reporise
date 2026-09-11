@@ -1,0 +1,25 @@
+{
+  "id": "real-068",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "twentyhq/twenty",
+  "commit": "4c33657820963eace06d74f4ab76d41484f8a057",
+  "capturedAt": "2026-09-08T12:04:54.791Z",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "e8c2240a022c9d44cad9e5113857fe1f6b0d3c997763e62e4cb743f3b2a2299d",
+      "sizeBytes": 39949
+    },
+    {
+      "path": "package.json",
+      "sha256": "49b2f1ee384c680c75cb1b2008ffe8adb17f0eacd8f4cb564fe6045bb8b21f4f",
+      "sizeBytes": 19922
+    },
+    {
+      "path": "README.md",
+      "sha256": "c071d6f378e7aad1508eb4c0b0cd1b54d37db9de1dbc3b870522ae7cf83ceb53",
+      "sizeBytes": 11414
+    }
+  ]
+}

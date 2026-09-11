@@ -1,0 +1,10 @@
+{
+  "fixture_id": "repo-014",
+  "split": "validation",
+  "scores": {
+    "overall": 2,
+    "geo": 1,
+    "aeo": 2,
+    "seo": 3
+  }
+}

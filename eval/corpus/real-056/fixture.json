@@ -1,0 +1,40 @@
+{
+  "id": "real-056",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "biomejs/biome",
+  "commit": "4969ee1d73b48615f46f024539cfdb847f07064d",
+  "capturedAt": "2026-09-08T11:58:26.060Z",
+  "files": [
+    {
+      "path": "Cargo.toml",
+      "sha256": "3e90c44768c9aa0196a46904c3b6efe05d285fc69e0a041e1c5d27013cb0de40",
+      "sizeBytes": 16709
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "23d8606d5860828efe1f429715a1a2a5b0a177e059800d59557e1baeb2e4f3b7",
+      "sizeBytes": 36
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "6e1236f3612c549e935187f738a0a527b9ff36c92fb2dec0aa19a17892e87992",
+      "sizeBytes": 5950
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "81d2a474fe6eed18d2809022d7f6fd23b63d289dc5b2aa80111b624c4568f97d",
+      "sizeBytes": 26680
+    },
+    {
+      "path": "package.json",
+      "sha256": "e86d42d206e8504958703c031de9ce62d87af4690ad43cb289c0c3cabc53d9fe",
+      "sizeBytes": 1005
+    },
+    {
+      "path": "README.md",
+      "sha256": "5649765a3dbf0143375e8355e56e7c97d2211c301287629e08789039650076df",
+      "sizeBytes": 35
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "https://blog.example.com/announcing-v2": {
+    "http_status": 200,
+    "content": "# Announcing v2.0\nToday we are excited to launch v2 of our toolkit with 10x performance.\n"
+  },
+  "https://docs.example.com/guide": {
+    "http_status": 200,
+    "content": "# User Documentation\n\n## Installation\n```bash\nnpm install blog-vs-docs\n```\n\n## Basic Pipeline\n```js\nconst pipeline = require(\"blog-vs-docs\");\npipeline.run();\n```\n"
+  }
+}

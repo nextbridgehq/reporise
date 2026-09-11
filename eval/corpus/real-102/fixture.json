@@ -1,0 +1,135 @@
+{
+  "id": "real-102",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "milvus-io/milvus",
+  "commit": "3431d027f64b7997ebcdca11af80928264c7717d",
+  "capturedAt": "2026-09-08T12:20:12.137Z",
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "3e93e3e84837e5f109d97b844a1569423adab969810996a5f08b5f36492a92bc",
+      "sizeBytes": 3737
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "97f0dadd275b887f8a93cf4e50539e765c697f9d10d97b729e23eb13f54bf427",
+      "sizeBytes": 15106
+    },
+    {
+      "path": "docs/agent_guides/observability/logging.md",
+      "sha256": "e1e70e70ecfb2e568d83ac9fc800560e49e9b7404bfdae7006327ee70abd8ee8",
+      "sizeBytes": 5610
+    },
+    {
+      "path": "docs/agent_guides/observability/README.md",
+      "sha256": "bfb7e090bfd43b531819972a189b808dfdb9700f5901c45af2a803c8e8f6906a",
+      "sizeBytes": 1235
+    },
+    {
+      "path": "docs/agent_guides/README.md",
+      "sha256": "6a4ebd34b9534e86df42238ffc8aa3f424334a0891cb8d7726ec2c2ae55f0d93",
+      "sizeBytes": 542
+    },
+    {
+      "path": "docs/agent_guides/streaming-system/streaming-system.md",
+      "sha256": "441c2812ce8e16d7ff72c92dd271c4de6a8e1bf4432029abdf93ba68260ab610",
+      "sizeBytes": 3473
+    },
+    {
+      "path": "docs/archive/milvus-2.0/README.md",
+      "sha256": "396ca1279ca5628d55e6df091801c4e704e8b18f439cf4562a93f64b8f65fa20",
+      "sizeBytes": 741
+    },
+    {
+      "path": "docs/archive/milvus-2.5-2.6/load-segment-pipeline.md",
+      "sha256": "37293e87921568db02cade6a1b0c045b71b743303861281de541f0be94c50104",
+      "sizeBytes": 86590
+    },
+    {
+      "path": "docs/archive/milvus-2.5-2.6/README.md",
+      "sha256": "932525372a7882d5f74d15334922482f0b3d7d2a79c88afc8f38605722d941b1",
+      "sizeBytes": 395
+    },
+    {
+      "path": "docs/archive/README.md",
+      "sha256": "18d1f87148330bdab8166367e2fbbd3553dc4228b9eeec478fd7569a04a1f239",
+      "sizeBytes": 526
+    },
+    {
+      "path": "docs/design-docs/design_docs/20210521-datanode_recovery_design.md",
+      "sha256": "d522d0df5208e631b7fa23c3c9239fbd43ae9bbfa43b26d7e3ad8159f4e3b34d",
+      "sizeBytes": 5591
+    },
+    {
+      "path": "docs/design-docs/design_docs/20210604-datanode_flowgraph_recovery_design.md",
+      "sha256": "467780ec8ea5b018a72d024f57e23e9e6b36429e2624f0a9eeedaadbe0f08d1a",
+      "sizeBytes": 2528
+    },
+    {
+      "path": "docs/design-docs/design_docs/20210731-index_design.md",
+      "sha256": "87b78dd917cbc3a2e164168ffcc2c62623de0f6fe01b85e26657fc682328884e",
+      "sizeBytes": 11996
+    },
+    {
+      "path": "docs/design-docs/design_docs/20211109-milvus_flush_collections.md",
+      "sha256": "19478af34536ec964beb12f99febec5841302779742e7268eaecc68c7b0da02c",
+      "sizeBytes": 5464
+    },
+    {
+      "path": "docs/design-docs/design_docs/20211115-milvus_drop_collection.md",
+      "sha256": "297504e133abc5391daf9d767adcdb8923cb36777eccb5fe49e19212d1c08c30",
+      "sizeBytes": 8044
+    },
+    {
+      "path": "docs/design-docs/design_docs/20211214-milvus_hybrid_ts.md",
+      "sha256": "671eedef0f5952d57091e7013ea82a37ad5d0b5368e12812722afb3c0e1b5ea1",
+      "sizeBytes": 2206
+    },
+    {
+      "path": "docs/design-docs/design_docs/20211215-milvus_timesync.md",
+      "sha256": "d201632b850276c95b6c90cc098ae54f66f01f586adc57a30659493b6bf97849",
+      "sizeBytes": 6483
+    },
+    {
+      "path": "docs/design-docs/design_docs/20211217-milvus_create_collection.md",
+      "sha256": "0d6b1fa7a2d3507237b7e36d4705e992291be75da812c68ed3090e51d8b6a9c2",
+      "sizeBytes": 5238
+    },
+    {
+      "path": "docs/design-docs/design_docs/20211221-retrieve_entity.md",
+      "sha256": "c20383ff7ec21ecf4689d8f784bdbe298e5e86ecf0f57fc82bb2f70a3c02478d",
+      "sizeBytes": 5470
+    },
+    {
+      "path": "docs/design-docs/design_docs/20211223-knowhere_design.md",
+      "sha256": "257f79b3e9e4a443ba3976c7d5268de8dc9eaeaf1534331650ae290c3a340e93",
+      "sizeBytes": 2839
+    },
+    {
+      "path": "docs/design-docs/design_docs/20211224-drop_collection_release_resources.md",
+      "sha256": "74ab4475984539fc92fb7b496dece7aa0755128b587d4ecc54a9397943c1f08b",
+      "sizeBytes": 2863
+    },
+    {
+      "path": "docs/design-docs/design_docs/20211227-milvus_create_index.md",
+      "sha256": "66e637070d0407dcfd130509613526418b0fb1d60647bfa901d9a98240b645e3",
+      "sizeBytes": 9497
+    },
+    {
+      "path": "go.mod",
+      "sha256": "d15dac293ccdfeae610cf417fc6167c9b19fcfd64e19d4c7258bad591a48c88b",
+      "sizeBytes": 16822
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "sizeBytes": 11558
+    },
+    {
+      "path": "README.md",
+      "sha256": "00bb8b0b480ad3e2f8d7c29c5505bfa6ac029440a4b3bca4cdbc06e270be8e94",
+      "sizeBytes": 71458
+    }
+  ]
+}

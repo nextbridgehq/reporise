@@ -1,0 +1,22 @@
+{
+  "track": "single_document",
+  "title": "RepoRise Single-Document Evidence Benchmark Suite",
+  "status": "FROZEN",
+  "freeze_commit": "v0.1.0",
+  "scoring_engine": "skills/visibility-audit/scripts/lib/checks.mjs",
+  "engine_sha256_at_freeze": "97e6be959f6be95574ca6079d201c1071239247c4e512ce2798e4f5ea78d8a7c",
+  "metrics": {
+    "validation_mae": 0.5,
+    "validation_bias": 0.0833,
+    "test_mae": 0.5,
+    "test_geo_mae": 0.375,
+    "test_aeo_mae": 0.625,
+    "test_seo_mae": 0.9583,
+    "total_archetypes_evaluated": 12,
+    "unit_tests_passing": 49
+  },
+  "datasets": {
+    "inventory": "benchmarks/single-document/inventory.json",
+    "human_gold": "benchmarks/single-document/human-gold-manifest.json"
+  }
+}

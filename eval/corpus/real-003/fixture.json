@@ -1,0 +1,30 @@
+{
+  "id": "real-003",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "BurntSushi/ripgrep",
+  "commit": "e0129bcce5b5b19ea5d31536b9e3a6ccff39ff2e",
+  "capturedAt": "2026-09-08T11:46:28.643Z",
+  "files": [
+    {
+      "path": "Cargo.toml",
+      "sha256": "3576b904496ade12d61827a4d6aa66da127f311991f48cf660c465f114223585",
+      "sizeBytes": 3670
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "9cecae586bf5f14b541351ddd60ab85260152c52dc5dc66e9742bdf1b1185e21",
+      "sizeBytes": 91904
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "7693a5533dc49ee3d2389b9f42eae1d04db2542878863ef95cbf658d96052b82",
+      "sizeBytes": 221
+    },
+    {
+      "path": "README.md",
+      "sha256": "f208dcfcc5c9db04c24a637559f27543063aec3e2ce04dd4a43bf957c664613b",
+      "sizeBytes": 22140
+    }
+  ]
+}

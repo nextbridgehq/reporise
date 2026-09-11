@@ -1,0 +1,40 @@
+{
+  "id": "real-061",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "calcom/cal.com",
+  "commit": "1251ba5be567d26a7f922452fe7797642376476e",
+  "capturedAt": "2026-09-08T11:59:38.202Z",
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "918d11abdff0caaf611abf8eb7ddc70007048e33b5693982749e590972e52766",
+      "sizeBytes": 5343
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "e51d93d28d8bd78218e23b6f0d035a313bece2a30d1b4ac667782d69a6d29347",
+      "sizeBytes": 9154
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "79129e9260f65a7b1ade5f855c5a07fd1e660c433f010f1c9cd62ee971663ad3",
+      "sizeBytes": 1099
+    },
+    {
+      "path": "package.json",
+      "sha256": "b0f880473f92d000e8b1e7cc1fcd65430f874149fda653374dc689e400370bf7",
+      "sizeBytes": 9803
+    },
+    {
+      "path": "README.md",
+      "sha256": "d4c3a1df88f3159ee08adb0433797a93d312cd6d3e9d2145c2c32f0866082b51",
+      "sizeBytes": 37661
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "e629eaec505e996dd46536b4d04b14f13d31db086da0faaa406956a0f91dbc7a",
+      "sizeBytes": 2868
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "radix-primitives",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

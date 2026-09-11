@@ -1,0 +1,7 @@
+{
+  "name": "sveltekit-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

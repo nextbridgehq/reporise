@@ -1,0 +1,40 @@
+{
+  "id": "real-065",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "documenso/documenso",
+  "commit": "6a8bb4be04b6f0417dbfd0a385d0099fab2686e2",
+  "capturedAt": "2026-09-08T12:04:23.672Z",
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "65563635ca9ed2fad8470b906d9c5c2cde7e1c0a5be6984fb3d64dd851f3a920",
+      "sizeBytes": 5318
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "dc43e21ff164c320650856f3c50901b82564d236c8245b8b98f20a957a23aec4",
+      "sizeBytes": 5995
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "6f1e622c82a380075843bb084a7ec3b1f1d12a4a02526d75e78b0924a860aa75",
+      "sizeBytes": 35184
+    },
+    {
+      "path": "package.json",
+      "sha256": "2f1053fb041891e51465ed652bb84055a75acedb414f95c9b3b7bc80a14e685e",
+      "sizeBytes": 6069
+    },
+    {
+      "path": "README.md",
+      "sha256": "33c6f4c55235df06d8e0ba05fd783b014d12573b8ae06144edaf9de92c0f54e5",
+      "sizeBytes": 12825
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "82d70eb4b29a4576c64d2a2dd92ec62354362018e604ef71094f2a07a62956d8",
+      "sizeBytes": 2440
+    }
+  ]
+}

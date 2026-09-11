@@ -1,0 +1,45 @@
+{
+  "id": "real-079",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "pnpm/pnpm",
+  "commit": "efc41ac88429febdaab572f4a2a986da4cbef2ac",
+  "capturedAt": "2026-09-08T12:13:32.496Z",
+  "files": [
+    {
+      "path": "Cargo.toml",
+      "sha256": "6618eec4808b2e6433b76652fe0fca2e4d8b607b00e11f1641e94374f3d3b289",
+      "sizeBytes": 20617
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "4a3a45579d0abb5b3ff0ba808000acc36569ea674c44412cfb23a0dd4dd4e672",
+      "sizeBytes": 3209
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "2948d972a5ffdf0a7feef7f7b599159670f2cf8f05664956df8763511d375270",
+      "sizeBytes": 17053
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "4b8e2a57502758b2d034ece9cabf19dd098c5609003ed8dbdafd085274f25bd9",
+      "sizeBytes": 1170
+    },
+    {
+      "path": "package.json",
+      "sha256": "a17619df9ccd2fcebe6d65f5038881034b9dddca0b3fce8f4edf2be37bbc97e1",
+      "sizeBytes": 4108
+    },
+    {
+      "path": "README.md",
+      "sha256": "cd398360e1f4b2122e6c0757d43c966f47e2879cf3c2f1bca182c43cb935023b",
+      "sizeBytes": 14243
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "159d6466071acd3a87209f9be013f54b37eba69ad446a064a84e82a4db8a8ea2",
+      "sizeBytes": 5704
+    }
+  ]
+}

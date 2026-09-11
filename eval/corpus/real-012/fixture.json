@@ -1,0 +1,245 @@
+{
+  "id": "real-012",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "huggingface/transformers",
+  "commit": "992a76f2b7fef1e505cc2b2ffc87340d8bf7b75b",
+  "capturedAt": "2026-09-08T11:50:11.910Z",
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "sha256": "5d57ef1e79bc545871d0e55b7b6c6b47ccf21cc05db3658c50df3bc9a17b647e",
+      "sizeBytes": 2324
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "f63effe63ab5994a4ed06367082abaeda8471faa9d5dc2bccf24d471936147fe",
+      "sizeBytes": 5489
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "e035f80977d9b20582f75c7d3770e6eeab16b45a25ae248476bf5b6d5ab5093a",
+      "sizeBytes": 14764
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "3dd13667d0ed8f0fc56d40c3b44f70682844d964d347dac69be6b15747b8a25f",
+      "sizeBytes": 8259
+    },
+    {
+      "path": "docs/source/ar/accelerate.md",
+      "sha256": "9176e501b70323f10ca819dbfaf659328ad617b849cc2d8fa81a4420c1a6b565",
+      "sizeBytes": 5197
+    },
+    {
+      "path": "docs/source/ar/attention.md",
+      "sha256": "83c34e0e59ec7a7e16961b47869331792a5420a35e1d7dc1eb172462bbc63059",
+      "sizeBytes": 4409
+    },
+    {
+      "path": "docs/source/ar/autoclass_tutorial.md",
+      "sha256": "e9545f9f22218a214f2ee1c60a10503c7dac4459edc535a9cbd129250147b202",
+      "sizeBytes": 9528
+    },
+    {
+      "path": "docs/source/ar/bertology.md",
+      "sha256": "c953d6e4ee66e5f327934253920f1aebf9d8da02acfa16192fdf59e2d3144a7b",
+      "sizeBytes": 2069
+    },
+    {
+      "path": "docs/source/ar/chat_templating.md",
+      "sha256": "6c675b3de30c2995b346eeb5426183685188b14f3afd5908b3f4a76e6f6262fe",
+      "sizeBytes": 64498
+    },
+    {
+      "path": "docs/source/ar/community.md",
+      "sha256": "5fd065b6dd35b2ee0d4a755357326f0c60f9c5ed5ec5653e4e5011de9acd8281",
+      "sizeBytes": 29019
+    },
+    {
+      "path": "docs/source/ar/conversations.md",
+      "sha256": "ada5be2219c9c50d6ce6c36a7067cb123fedfa0c66b3cacf7742410511c63b81",
+      "sizeBytes": 24150
+    },
+    {
+      "path": "docs/source/ar/create_a_model.md",
+      "sha256": "e1dc21e2aaa9d26d2b1bb3fa0b1cf0ee6910666bee1e27b10f3e6685a7215131",
+      "sizeBytes": 21261
+    },
+    {
+      "path": "docs/source/ar/custom_models.md",
+      "sha256": "ead92dda15cdd1d1930c915429c7eab82883e35030b7dbda62182944138162bb",
+      "sizeBytes": 19105
+    },
+    {
+      "path": "docs/source/ar/fast_tokenizers.md",
+      "sha256": "3724552bd1469e3f233cf1d84d1510e2d56af5180f8df3a57d91e3143ccff4d9",
+      "sizeBytes": 2818
+    },
+    {
+      "path": "docs/source/ar/gguf.md",
+      "sha256": "eccf1081ee6b9d58cb1b2333f56315abe10578aefa009f934f030c70c9855c6f",
+      "sizeBytes": 4145
+    },
+    {
+      "path": "docs/source/ar/glossary.md",
+      "sha256": "11231cac288c42525163516374c8281b65c2c1402f8f37e5e04ee8cc95824908",
+      "sizeBytes": 36785
+    },
+    {
+      "path": "docs/source/ar/how_to_hack_models.md",
+      "sha256": "e7c1018ddd86d3f4d0c7d41cbe51a55d2051c763ff2765b847e612feed9137d8",
+      "sizeBytes": 11345
+    },
+    {
+      "path": "docs/source/ar/index.md",
+      "sha256": "f1e5232ba9ca0eaf06d5206590fa643aae46fa185faf331e459ed08bd3624713",
+      "sizeBytes": 44700
+    },
+    {
+      "path": "docs/source/ar/installation.md",
+      "sha256": "c3a372c3291e4265e55c83fbc560303f7d91d58b5b1dceef39f34b66215adbd6",
+      "sizeBytes": 11274
+    },
+    {
+      "path": "docs/source/ar/llm_tutorial.md",
+      "sha256": "65802590035a4206b04a548326af67bf2e6a968f2619706851c509251e9eee0b",
+      "sizeBytes": 19552
+    },
+    {
+      "path": "docs/source/ar/llm_tutorial_optimization.md",
+      "sha256": "eb8185ec34c5064df1dca60a00ac171e5fb0cfc7ac3168513d9a78c7007a0663",
+      "sizeBytes": 64795
+    },
+    {
+      "path": "docs/source/ar/model_memory_anatomy.md",
+      "sha256": "2af7d4f5e90fce2b61890ec31eeebdeefeac55cd39e57492a9adf45ba210243d",
+      "sizeBytes": 14960
+    },
+    {
+      "path": "docs/source/ar/model_sharing.md",
+      "sha256": "01955ddc39b37b5534903bf99dcd0472a1db26a6dfb96088f8582ccca03f45ad",
+      "sizeBytes": 11142
+    },
+    {
+      "path": "examples/3D_parallel.py",
+      "sha256": "291c740b9e518c912445a988214ed13227e02e3f91e44f8915dfc1b0e4e75281",
+      "sizeBytes": 17897
+    },
+    {
+      "path": "examples/modular-transformers/configuration_dummy.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sizeBytes": 0
+    },
+    {
+      "path": "examples/modular-transformers/configuration_duplicated_method.py",
+      "sha256": "6f8ee43684293b2611576f2d14902bdd64b5be95b3d26d969d92b8e05c955552",
+      "sizeBytes": 4145
+    },
+    {
+      "path": "examples/modular-transformers/configuration_my_new_model.py",
+      "sha256": "6593bc15f14b299990def3c95b3b34c73aa646cfb9922830ab9b61d7313ff629",
+      "sizeBytes": 11508
+    },
+    {
+      "path": "examples/modular-transformers/configuration_my_new_model2.py",
+      "sha256": "acda3001dcb68bd322022652b525cd1f42689203bd7200244cdf1efe85eae633",
+      "sizeBytes": 4588
+    },
+    {
+      "path": "examples/modular-transformers/configuration_new_model.py",
+      "sha256": "cbfdde605b64d999a212afb1396a69c6ff3c170e7827e828bd55851eb613fb2a",
+      "sizeBytes": 3118
+    },
+    {
+      "path": "examples/modular-transformers/configuration_super.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sizeBytes": 0
+    },
+    {
+      "path": "examples/modular-transformers/convert_examples.sh",
+      "sha256": "9f64468cbb2a902b22ce9ebf904264fcfe72de6d609a83f22c949f7f1474bf5b",
+      "sizeBytes": 342
+    },
+    {
+      "path": "examples/modular-transformers/image_processing_new_imgproc_model.py",
+      "sha256": "6177fd31df587f325d50bcf14f2762eea6f9039083ee3f3c726dbc43bc282f2f",
+      "sizeBytes": 1481
+    },
+    {
+      "path": "examples/modular-transformers/modeling_add_function.py",
+      "sha256": "b3d7eaa8de09ed10c00743eb74fb312b657b1c92e98fa2384484da3111451fef",
+      "sizeBytes": 3713
+    },
+    {
+      "path": "examples/modular-transformers/modeling_dummy_bert.py",
+      "sha256": "c5c1459bc75bf0c4e71356856db4a16c5349d091c2ef4b66876816698d3cbbeb",
+      "sizeBytes": 27472
+    },
+    {
+      "path": "examples/modular-transformers/modeling_from_uppercase_model.py",
+      "sha256": "2cf6d7f7ef72218df443a52c1e9280146c2253a35431ee9142e9080ec54672b1",
+      "sizeBytes": 5906
+    },
+    {
+      "path": "examples/modular-transformers/modeling_global_indexing.py",
+      "sha256": "c42a58e23832e16359d70ee64d178d5c1f9685b76d9d540707017dbf4141d88b",
+      "sizeBytes": 7496
+    },
+    {
+      "path": "examples/modular-transformers/modeling_multimodal2.py",
+      "sha256": "4de963ee3dac7f24dbd122be74864852c3bd5f35ea56f1fa2f955bd1e6671a12",
+      "sizeBytes": 14298
+    },
+    {
+      "path": "examples/modular-transformers/modeling_my_new_model2.py",
+      "sha256": "42f14051da98795460697ff9fecf8869d59215e278003f8dabbe99424ca68434",
+      "sizeBytes": 12230
+    },
+    {
+      "path": "examples/modular-transformers/modeling_new_task_model.py",
+      "sha256": "a063f4c6ee3dd62d0b41cd6863ca35395b8946a73acb5c4e697cd3e90530f896",
+      "sizeBytes": 23236
+    },
+    {
+      "path": "examples/modular-transformers/modeling_roberta.py",
+      "sha256": "fcd8cd69d66f07bcc08ba10399e02efd0fa0bbac60e2d523aeaa6a543e11a1e0",
+      "sizeBytes": 27321
+    },
+    {
+      "path": "examples/modular-transformers/modeling_super.py",
+      "sha256": "196d388cea6f85dce9da157a5d024d4572ad6ef7c6554286fca0cccfdcf4534f",
+      "sizeBytes": 15981
+    },
+    {
+      "path": "examples/modular-transformers/modeling_switch_function.py",
+      "sha256": "495db9650e67cedcb1c15d7f3d5468e7031c76b105400f9ccf2bcb6eb086b110",
+      "sizeBytes": 7334
+    },
+    {
+      "path": "examples/modular-transformers/modeling_test_detr.py",
+      "sha256": "fca45c4837b8f5123746aefcaf949096776d4b937390eaec91d2b3872cfb4f4b",
+      "sizeBytes": 64301
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "10fe554b4ffd57008fd1b44474b005f2c35af7312608dbd95fecad82fe87ab42",
+      "sizeBytes": 11621
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "925cfa9c8f01de7988d31a99fb34b9410e215063e537fb169f0197c9d0c6025b",
+      "sizeBytes": 6362
+    },
+    {
+      "path": "README.md",
+      "sha256": "9f745fda7e49125b047e41f99ff1bf67b1c092c34c61bdfda1c3460feaa95382",
+      "sizeBytes": 17182
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "e774a4809fe39d34259a40f14eb4b8d2e8b01c3435b93f673e83661b3716bcca",
+      "sizeBytes": 2015
+    }
+  ]
+}

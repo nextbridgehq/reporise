@@ -1,0 +1,10 @@
+{
+  "fixture_id": "repo-008",
+  "split": "train",
+  "scores": {
+    "overall": 4,
+    "geo": 3,
+    "aeo": 4,
+    "seo": 5
+  }
+}

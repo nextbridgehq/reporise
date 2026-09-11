@@ -1,0 +1,140 @@
+{
+  "id": "real-043",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "stripe/stripe-node",
+  "commit": "b64815c32436fa24bba60c1ea898b30d57391504",
+  "capturedAt": "2026-09-08T11:56:57.547Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "f874059686f00ddc904e5139cea4f4b9611f33fecf2368d03167f666f0568cd8",
+      "sizeBytes": 518056
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "79321b6066656908c1fb6250dea69cc9a5d9a653bfdf260a556ff83d58b8dd00",
+      "sizeBytes": 3445
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "e3888e3ccb8c196e06087758170589ae99fcbdf9bba4d3e18cd16062745ddf5b",
+      "sizeBytes": 2293
+    },
+    {
+      "path": "examples/snippets/event_notification_handler_endpoint.ts",
+      "sha256": "10fa85ff73ce9c1154a3df0561bc64d04bef89046eea1e04b9526d33a73f45f5",
+      "sizeBytes": 3461
+    },
+    {
+      "path": "examples/snippets/event_notification_webhook_handler.ts",
+      "sha256": "464c0e7e5ded005f8ad2b5714ce6890d8341c6ff378079dc29c605551f5c0b62",
+      "sizeBytes": 4008
+    },
+    {
+      "path": "examples/snippets/example_template.ts",
+      "sha256": "0777405f77befe7cdd1ce1460ebf6ec1e10797b918e268269790f73e3365803e",
+      "sizeBytes": 535
+    },
+    {
+      "path": "examples/snippets/meter_event_stream.ts",
+      "sha256": "a5a0c3cea33db1142a559e116853a513a7d12277fec2c4075b93acd70a67f059",
+      "sizeBytes": 1651
+    },
+    {
+      "path": "examples/snippets/package-lock.json",
+      "sha256": "55c6cc0c76e2ee924abfa07bb2286a8ccd03b723b743296b7b69790c8fb5c7ea",
+      "sizeBytes": 167557
+    },
+    {
+      "path": "examples/snippets/package.json",
+      "sha256": "c85645c67ebfab04d378163e1b39350d047b5fa81d8c1ba37a89af63424cee37",
+      "sizeBytes": 344
+    },
+    {
+      "path": "examples/snippets/README.md",
+      "sha256": "7222bb9c2115907b19daba0185ef754683d9bd2e596ac8da39bf4aff65ed7623",
+      "sizeBytes": 1225
+    },
+    {
+      "path": "examples/webhook-signing/.env.example",
+      "sha256": "36c5586198a133052a29e8e2de5c96d957375b8c8d01135de6e17a2f8c547751",
+      "sizeBytes": 129
+    },
+    {
+      "path": "examples/webhook-signing/.eslintrc.js",
+      "sha256": "426f8c929e3753c0e80aea3e5dab8e3040083b855b6f33b9a85c5ee2c782ef86",
+      "sizeBytes": 676
+    },
+    {
+      "path": "examples/webhook-signing/.gitignore",
+      "sha256": "723389610fc80021f325d552174e1fee2bcf68d2be84c48b0a00670bad222311",
+      "sizeBytes": 88
+    },
+    {
+      "path": "examples/webhook-signing/deno/main.ts",
+      "sha256": "a42c1cec7b0d4638e45535af1681d514749f835a67a0aee12b97ce67fc18c355",
+      "sizeBytes": 1828
+    },
+    {
+      "path": "examples/webhook-signing/deno/package.json",
+      "sha256": "6a956797e443f91d23a36eba253421c332c2ef062722eedda6d763e3afbf9bd6",
+      "sizeBytes": 278
+    },
+    {
+      "path": "examples/webhook-signing/express/main.ts",
+      "sha256": "339ffa24a3d139883ca4e03f150630d1e3faad355244b0ebdfd98a1604e0b3cb",
+      "sizeBytes": 2088
+    },
+    {
+      "path": "examples/webhook-signing/express/package.json",
+      "sha256": "4d4b018ad4aeb19c611ef329d2fac1da9db451d763b557fdbd9672ed437e3276",
+      "sizeBytes": 651
+    },
+    {
+      "path": "examples/webhook-signing/koa/main.ts",
+      "sha256": "dc2375e8977c49512406c2d39f5bd706cd1a35046ad013e54962947529f50c7b",
+      "sizeBytes": 2046
+    },
+    {
+      "path": "examples/webhook-signing/koa/package.json",
+      "sha256": "e9fcf18c65e6c91a82a2ee8170a9c36fbc8824b54fb94a20f4c5dc58256b14f6",
+      "sizeBytes": 602
+    },
+    {
+      "path": "examples/webhook-signing/nestjs/app.controller.ts",
+      "sha256": "297eab0b582ef85b8b30d1a6e790241ab7ad3d8334fbcc5dd86bf5856de2bbac",
+      "sizeBytes": 1944
+    },
+    {
+      "path": "examples/webhook-signing/nestjs/app.module.ts",
+      "sha256": "48ea71cf06a1ebde7422c17dc8a9e1c9ff6754299300ff71741e3b6b30dc6054",
+      "sizeBytes": 377
+    },
+    {
+      "path": "examples/webhook-signing/nestjs/config.ts",
+      "sha256": "9daee91c7aca7447c79ca83ac17c8957ccc403ed76efb9d40e42a8fa57d616c2",
+      "sizeBytes": 276
+    },
+    {
+      "path": "examples/webhook-signing/nestjs/main.ts",
+      "sha256": "1dd87da6d8de06e40b3a38f502a3b080be42e8967ac423456ffd9e548c9a7a0b",
+      "sizeBytes": 472
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "1685e626c08bfbe96cee0436851b359e6f19287d1924887ae521bacac651237f",
+      "sizeBytes": 1132
+    },
+    {
+      "path": "package.json",
+      "sha256": "7f96bf3791bf2e5afdbf13e5ce639cd490bdf46f89e1c5a248fdfa4267639199",
+      "sizeBytes": 2918
+    },
+    {
+      "path": "README.md",
+      "sha256": "56a510be2fc361ab07c0f8d2651b13cb7101a6bbf06775555ca2db2b52229000",
+      "sizeBytes": 27356
+    }
+  ]
+}

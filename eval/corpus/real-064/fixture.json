@@ -1,0 +1,135 @@
+{
+  "id": "real-064",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "mattermost/mattermost",
+  "commit": "9c8d4164abd4e3dd585b97ab2f7efcf11b2fc141",
+  "capturedAt": "2026-09-08T12:04:32.617Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "b10846563666a68183bc37eebb28abfac60df7f00601be5546efc2b98ee1e6f9",
+      "sizeBytes": 145
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "7176362732deaf3d6704111804fd2567d64777a5209d5a8a94967d6f15347efd",
+      "sizeBytes": 883
+    },
+    {
+      "path": "docs/.vale.ini",
+      "sha256": "5a2b8d841ce0ed8d57dce5b39a45bdd971ff7e10c48398102bab92cc341b7ece",
+      "sizeBytes": 670
+    },
+    {
+      "path": "docs/api/examples.mdx",
+      "sha256": "c88e3e68e6caa1aa7a87ebae2dae67c2b1172ff182208e0e078f7f6300959761",
+      "sizeBytes": 2316
+    },
+    {
+      "path": "docs/api/index.mdx",
+      "sha256": "088cbbed7c0d78d6b6bb8c5f0113977622f3ebde1f24180a9e7f5da16aee3a66",
+      "sizeBytes": 3503
+    },
+    {
+      "path": "docs/develop/contribute/index.md",
+      "sha256": "56f9e689f27be3ed867362039d29cf729724036858cf8f11a8e984c465fd6143",
+      "sizeBytes": 929
+    },
+    {
+      "path": "docs/develop/contribute/monorepo-migration-notes.md",
+      "sha256": "02f6c9848b399598ab3eed63564da08e6c3d35a22a9f08e0f16f56c32253a75b",
+      "sizeBytes": 736
+    },
+    {
+      "path": "docs/develop/index.mdx",
+      "sha256": "9d1dd41667e79ee987ccdf6c739f49884960b00ab2e9e42be299c52ed86865d5",
+      "sizeBytes": 2345
+    },
+    {
+      "path": "docs/main/administration-guide/administration-guide-index.mdx",
+      "sha256": "1e568c10935a7063a2914d9e935aca6e196ef0c8ec0467b20b59ea703d62347d",
+      "sizeBytes": 1493
+    },
+    {
+      "path": "docs/main/deployment-guide/application-architecture.mdx",
+      "sha256": "a48584002dc58048fbc5f6dd9cdc424992a3ab34b6253db2eeecaa7d86a60a38",
+      "sizeBytes": 16606
+    },
+    {
+      "path": "docs/main/deployment-guide/backup-disaster-recovery.mdx",
+      "sha256": "1a5fe8da15346a77f4d3ddfa09cacd562a1e22ed428eef23b712d95a6e7fc478",
+      "sizeBytes": 6581
+    },
+    {
+      "path": "docs/main/deployment-guide/deployment-architecture.mdx",
+      "sha256": "499e94d77009a1563dae2054bd5c376cdaa8f1f5f4bfbfb8ae9add37441b97a2",
+      "sizeBytes": 3039
+    },
+    {
+      "path": "docs/main/deployment-guide/deployment-guide-index.mdx",
+      "sha256": "26ac0eafef883587f930ac753f168591feef639df171939f257237e106ccf47f",
+      "sizeBytes": 4736
+    },
+    {
+      "path": "docs/main/deployment-guide/disaster-recovery-aws.mdx",
+      "sha256": "da19cfcec830208d0a576d6dfd1232f4df66efe65e934ba72419837751410f39",
+      "sizeBytes": 18747
+    },
+    {
+      "path": "docs/main/deployment-guide/encryption-options.mdx",
+      "sha256": "1b868aa559d390f4b2857a31b9f71d2528ed9ecac0d28e36d04a7de574a6a4b4",
+      "sizeBytes": 4846
+    },
+    {
+      "path": "docs/main/deployment-guide/quick-start-evaluation.mdx",
+      "sha256": "f4152d269575f7c6bb86d83b34004f30021ea1f9c0b1a531f195246f9b3b6a91",
+      "sizeBytes": 7678
+    },
+    {
+      "path": "docs/main/deployment-guide/software-hardware-requirements.mdx",
+      "sha256": "0cbf0bce94ade04d793bed69e429b76caafe2c81a6c85b9aec987f2b9fd52f68",
+      "sizeBytes": 16821
+    },
+    {
+      "path": "docs/main/deployment-guide/transport-encryption.mdx",
+      "sha256": "b805f5b0969032f32358c15e9b359da3ec980912f84152960a79857fb4c71f4e",
+      "sizeBytes": 18681
+    },
+    {
+      "path": "docs/main/end-user-guide/agents.mdx",
+      "sha256": "ea383b94bccd5f1410f2b2236646852b1b949cb3cc977ce8a772d9422ff0e4f9",
+      "sizeBytes": 576
+    },
+    {
+      "path": "docs/main/end-user-guide/end-user-guide-index.mdx",
+      "sha256": "630b406e596363a29497eb8c681ca44237877e9ac315fe7f3c4be97faf124eec",
+      "sizeBytes": 2310
+    },
+    {
+      "path": "docs/main/end-user-guide/view-system-information.mdx",
+      "sha256": "2553f038ddd7bdb3f347d699e0211fd62a26f4f12624e2f7c9d8e8d8ce18061c",
+      "sizeBytes": 1447
+    },
+    {
+      "path": "docs/main/for/administrator.mdx",
+      "sha256": "80ee3ba6a3c99be0c2111d50af8f5f9c5205a14012a628371d8a090355f3ce78",
+      "sizeBytes": 2361
+    },
+    {
+      "path": "LICENSE.txt",
+      "sha256": "1cff8ad90c3b06484bd47b7cbfd7a4d83c4c7194e376ed2efff12a09dbc13702",
+      "sizeBytes": 48660
+    },
+    {
+      "path": "README.md",
+      "sha256": "529fcba7d9c4eac715bf11600ac00d96341f04e1f2a6c70821fe472bc4be121c",
+      "sizeBytes": 7518
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "f7df49d24a42d6edca91badf87928bb8dfa2cacdcd2c7484005f142f141f4323",
+      "sizeBytes": 2042
+    }
+  ]
+}

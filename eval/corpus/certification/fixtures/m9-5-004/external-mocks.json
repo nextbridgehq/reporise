@@ -1,0 +1,6 @@
+{
+  "https://squidfunk.github.io/mkdocs-material/getting-started/": {
+    "http_status": 200,
+    "content": "# Getting Started\n\n## Installation\n```bash\npip install mkdocs-material\n```\n\n## Quick Configuration\nAdd `theme: name: material` to your `mkdocs.yml`.\n```yaml\nsite_name: My Docs\ntheme:\n  name: material\n```\n"
+  }
+}

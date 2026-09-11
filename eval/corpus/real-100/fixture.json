@@ -1,0 +1,240 @@
+{
+  "id": "real-100",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "vllm-project/vllm",
+  "commit": "13cf9e05c1eda0bfe5cbfb9344343ca2737d0723",
+  "capturedAt": "2026-09-08T12:21:27.598Z",
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "b3ff0424e73bec9d6de7ebe064f79777a8a18d83df2db78f3c8d2406ae31aecb",
+      "sizeBytes": 5445
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "6c21d54842252960592f3bbb01357d8ad57cbddb0e605d9766855bdce05acf8f",
+      "sizeBytes": 143
+    },
+    {
+      "path": "docs/.nav.yml",
+      "sha256": "f4c1dc29d3a97b096004967719cd435e574ff6f7b4d3af956a5175f85e9e0735",
+      "sizeBytes": 1985
+    },
+    {
+      "path": "docs/api/README.md",
+      "sha256": "048279e2cd23c553b914a86b6764c4081dbc3073c5522f711fc5bfc7a03c718c",
+      "sizeBytes": 2163
+    },
+    {
+      "path": "docs/api/vllm/.meta.yml",
+      "sha256": "1a414f63f7ba77bc5b0808414a94d970bcc4b51e8b097a9be62b327253fac36f",
+      "sizeBytes": 26
+    },
+    {
+      "path": "docs/assets/benchmarking/latency-metrics-speculative-decoding-dark.svg",
+      "sha256": "43fea06a9a0a6268822dab37e75afb6149c4ee57b912ec340bf3c872e310e3de",
+      "sizeBytes": 6998
+    },
+    {
+      "path": "docs/assets/benchmarking/latency-metrics-speculative-decoding-light.svg",
+      "sha256": "0da3daa51b30fb17aacf88fd7ebd78eeb8283f970219afe57f5995b21eab9228",
+      "sizeBytes": 6998
+    },
+    {
+      "path": "docs/assets/contributing/dockerfile-stages-dependency.png",
+      "sha256": "bcc0cbdfe70f53f6c7e7db84deeb74925b602dd0bc0ac221601e09f52f82e253",
+      "sizeBytes": 455295
+    },
+    {
+      "path": "docs/assets/contributing/vllm_bench_serve_dataset_stats.png",
+      "sha256": "caab8c9f147345783be981c48572297cdb0a7b4dd746d8dfea9f28bfc7e37dd4",
+      "sizeBytes": 110228
+    },
+    {
+      "path": "docs/assets/deployment/anything-llm-chat-with-doc.png",
+      "sha256": "748c807e15f49b720cc0530f6c4052ed16f0de11b18d58645a2481b053363757",
+      "sizeBytes": 120834
+    },
+    {
+      "path": "docs/assets/deployment/anything-llm-chat-without-doc.png",
+      "sha256": "d6bdd28b43575afca18e4e1d160a875d9a59c63cade9c550759eba035da4c959",
+      "sizeBytes": 138979
+    },
+    {
+      "path": "docs/assets/deployment/anything-llm-provider.png",
+      "sha256": "f8cb31dafd22d11e1ec1722a4fa76bbe34033dd3647e8ae7cc071cfaee17e531",
+      "sizeBytes": 112470
+    },
+    {
+      "path": "docs/assets/deployment/anything-llm-upload-doc.png",
+      "sha256": "62de7089f5ae4ddd43a7eddcf096bef2fec4bcdc25dd80d4e6513a1c8bd721ee",
+      "sizeBytes": 114117
+    },
+    {
+      "path": "docs/assets/deployment/chatbox-chat.png",
+      "sha256": "0d50c62a63513bf45d207a1186c72bda7597a186d9e65b5ed2f128fc30a716e4",
+      "sizeBytes": 109988
+    },
+    {
+      "path": "docs/assets/deployment/chatbox-settings.png",
+      "sha256": "5b1be9937d9487a3a06794f6868ecccd7e99704372db785cc4ad47b067a62da0",
+      "sizeBytes": 97161
+    },
+    {
+      "path": "docs/assets/deployment/dify-chat.png",
+      "sha256": "c8ed9127191d214787b2ebf5be2350e151573dcdb17e7099e49cca78f3f063ca",
+      "sizeBytes": 146105
+    },
+    {
+      "path": "docs/assets/deployment/dify-create-chatbot.png",
+      "sha256": "b57a31b7371efa19941b5657ad018149c2a5ca0363e910fdc28f1d9ee78985c2",
+      "sizeBytes": 271534
+    },
+    {
+      "path": "docs/assets/deployment/dify-settings.png",
+      "sha256": "e4ad7f31e7dd06bed65a05ee2b02d4802b6a772a58c2d65b44f821dd7a823fef",
+      "sizeBytes": 53072
+    },
+    {
+      "path": "docs/assets/deployment/dp_external_lb.png",
+      "sha256": "63cadcc22b4b3398598ad13ba586d3ecb92a06907807ff9b42fbc10c62bb5d34",
+      "sizeBytes": 86128
+    },
+    {
+      "path": "docs/assets/deployment/dp_internal_lb.png",
+      "sha256": "6eeefc46039fb9b3e0eaeba3298e9ba0bf57c89fc439207f2608c6f3b6a6d93b",
+      "sizeBytes": 69309
+    },
+    {
+      "path": "docs/assets/deployment/hf-inference-endpoints-choose-infra.png",
+      "sha256": "91e630d2cab22a4c3639a883cb48de428481a5ee58b32248e3f7cf65477f82e2",
+      "sizeBytes": 358264
+    },
+    {
+      "path": "docs/assets/deployment/hf-inference-endpoints-configure-container.png",
+      "sha256": "8c6da993ac3ca4f9dd038bab6e738a68b75a3237da7e46af8f54223ef311e7d9",
+      "sizeBytes": 273739
+    },
+    {
+      "path": "examples/applications/api_server/client.py",
+      "sha256": "285aeb13387f281b830eb984d7aa48ed7f6e6ccdfbb65b71c08a7720608adc0f",
+      "sizeBytes": 2921
+    },
+    {
+      "path": "examples/applications/api_server/server.py",
+      "sha256": "0695153f48e53ff91f5c27f4a171c0c98b6d1a7c1169d21af170caf3a599dc33",
+      "sizeBytes": 6033
+    },
+    {
+      "path": "examples/applications/chatbot/gradio_openai_chatbot_webserver.py",
+      "sha256": "3e09bf1699a5f3844c6009a7e7b03acdc4f60cd6e25356d29dfe4b96f479b1dc",
+      "sizeBytes": 3660
+    },
+    {
+      "path": "examples/applications/chatbot/gradio_webserver.py",
+      "sha256": "1fec4203152cb7775a6efd4965323d3f5707d9c429c6b3f1f83849555b1e7233",
+      "sizeBytes": 2346
+    },
+    {
+      "path": "examples/applications/chatbot/streamlit_openai_chatbot_webserver.py",
+      "sha256": "4b04309ec2508b297eb5b83845f78552435ae5f79b43172ffc41785ff192b2c4",
+      "sizeBytes": 10870
+    },
+    {
+      "path": "examples/applications/rag/retrieval_augmented_generation_with_langchain.py",
+      "sha256": "76d1f3c7fbbdd34900bcce9941aaa5caaa54ee68152f3b036c40bd326b752590",
+      "sizeBytes": 7708
+    },
+    {
+      "path": "examples/applications/rag/retrieval_augmented_generation_with_llamaindex.py",
+      "sha256": "c2fbc709f2042465f9de16bc5e343797a486cf1008f1fb995cd02d59ded79798",
+      "sizeBytes": 7090
+    },
+    {
+      "path": "examples/basic/offline_inference/basic.py",
+      "sha256": "6e3fe97f95829dc20658eef70cc0e1c01cc59660c1750218e8df631167b48e33",
+      "sizeBytes": 1059
+    },
+    {
+      "path": "examples/basic/offline_inference/chat.py",
+      "sha256": "cf41f374d6802c9f7e0515702b7c437cdea6e7185b103613550245da7fed4a63",
+      "sizeBytes": 3498
+    },
+    {
+      "path": "examples/basic/offline_inference/classify.py",
+      "sha256": "395955458c1678d7f1843e1c14cfbdbc50d46871be1267dfd17bcb2d70716f87",
+      "sizeBytes": 1509
+    },
+    {
+      "path": "examples/basic/offline_inference/embed.py",
+      "sha256": "e0ba3c7b2abb100695fd1851bd5695c013a9570da117c6e62d71e1ebbe6e4629",
+      "sizeBytes": 1390
+    },
+    {
+      "path": "examples/basic/offline_inference/generate.py",
+      "sha256": "3d96d525859767cd7c73044f2a857ae016c5eefb565264cdfc05c5e622bb8007",
+      "sizeBytes": 2163
+    },
+    {
+      "path": "examples/basic/offline_inference/README.md",
+      "sha256": "d3e56cd4909b932b9b2ebd0d0166fdd2b7d65018c485f00ed7da76d50983d2fa",
+      "sizeBytes": 2846
+    },
+    {
+      "path": "examples/basic/offline_inference/score.py",
+      "sha256": "d4e4df933a54c0a3af1e8bcbdd94431747b26e7823c509cab800ce547b334c9a",
+      "sizeBytes": 1332
+    },
+    {
+      "path": "examples/basic/online_serving/openai_chat_completion_client.py",
+      "sha256": "51a6bac74094745e75ee5eeccd7e11905d6e7436536839ef54deb31b8f571b0b",
+      "sizeBytes": 1771
+    },
+    {
+      "path": "examples/basic/online_serving/openai_completion_client.py",
+      "sha256": "946c997f706059856d43fd90531fc99d08ffb9c5b882f82b7907b97b8dd6777c",
+      "sizeBytes": 1283
+    },
+    {
+      "path": "examples/deployment/async_llm_streaming.py",
+      "sha256": "36d3af8e0e3d17638247eb8e9c09910cd6c212bd2549c2a6391f6a10fb615a61",
+      "sizeBytes": 3739
+    },
+    {
+      "path": "examples/deployment/chart-helm/.helmignore",
+      "sha256": "aba86781a8cf15b49501f13c17ca8bbabe9145a69817ab94fe32cf60805456f2",
+      "sizeBytes": 68
+    },
+    {
+      "path": "examples/deployment/chart-helm/Chart.yaml",
+      "sha256": "e9db8e804e1b60e17ecf1c044dcee647880a56afedb81e573a3de3ed7146ad8e",
+      "sizeBytes": 848
+    },
+    {
+      "path": "examples/deployment/chart-helm/ct.yaml",
+      "sha256": "9501c291578e987b4e8d1ab49c347423a67e7d0bff6d2c9b442251a443fe3fe1",
+      "sizeBytes": 52
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "sizeBytes": 11558
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "627a54eeeb96d71854f2c61f2adb62f3bb3d2b45049196217f510e35586e6e82",
+      "sizeBytes": 5583
+    },
+    {
+      "path": "README.md",
+      "sha256": "806dbbf6aef48e60bc3dfa44e9e8a15e9dcb9cd44db2cdc77c8283169b696142",
+      "sizeBytes": 5818
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "fcff5165be891ca7ba732d6afadaf1e2e18e6f71377392471642adaa1dea0b03",
+      "sizeBytes": 4505
+    }
+  ]
+}

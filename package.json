@@ -1,0 +1,71 @@
+{
+  "name": "reporise",
+  "version": "0.1.0",
+  "description": "Audit and improve how a repository is found by search engines (SEO), lifted into direct answers (AEO), and cited by generative engines (GEO).",
+  "type": "module",
+  "license": "MIT",
+  "author": "Nextbridge <info@nextbridge.com> (https://nextbridge.com)",
+  "main": "./skills/visibility-audit/scripts/audit.mjs",
+  "exports": {
+    ".": "./skills/visibility-audit/scripts/audit.mjs",
+    "./audit": "./skills/visibility-audit/scripts/audit.mjs",
+    "./probe": "./skills/citation-probe/scripts/probe.mjs",
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "reporise": "skills/visibility-audit/scripts/audit.mjs",
+    "reporise-probe": "skills/citation-probe/scripts/probe.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "skills",
+    "schemas",
+    "docs/*.md",
+    "examples",
+    ".claude-plugin",
+    "gemini-extension.json",
+    "GEMINI.md",
+    "AGENTS.md",
+    "README.md",
+    "CHANGELOG.md",
+    "llms.txt",
+    "CITATION.cff",
+    "LICENSE",
+    "SECURITY.md",
+    "CONTRIBUTING.md"
+  ],
+  "scripts": {
+    "audit": "node skills/visibility-audit/scripts/audit.mjs",
+    "probe": "node skills/citation-probe/scripts/probe.mjs",
+    "test": "node skills/visibility-audit/scripts/test.mjs && node skills/citation-probe/scripts/test-probe.mjs && node skills/visibility-audit/scripts/test-resolver.mjs && node skills/visibility-audit/scripts/test-semantics.mjs && node skills/visibility-audit/scripts/test-attribution.mjs",
+    "freeze": "node eval/freeze.mjs",
+    "eval": "node eval/score.mjs",
+    "eval:report": "node eval/report.mjs",
+    "benchmark:certify": "node eval/certify.mjs",
+    "research": "node eval/research/cli.mjs",
+    "research:smoke": "node eval/research/cli.mjs --provider llm"
+  },
+  "keywords": [
+    "seo",
+    "geo",
+    "aeo",
+    "generative-engine-optimization",
+    "answer-engine-optimization",
+    "repository-visibility",
+    "readme-audit",
+    "discoverability",
+    "claude-code-plugin",
+    "agent-skills"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nextbridgehq/reporise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nextbridgehq/reporise/issues"
+  },
+  "homepage": "https://github.com/nextbridgehq/reporise#readme",
+  "dependencies": {}
+}

@@ -1,0 +1,35 @@
+{
+  "id": "real-017",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "twbs/bootstrap",
+  "commit": "5f4e64f2604ed8be4cc891b0fc29fa3a91217e6e",
+  "capturedAt": "2026-09-08T11:49:25.224Z",
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "7f8898c56326c3475b64b6b4c41fd9b2c36b86e258a6e498b3842edc50e5a1da",
+      "sizeBytes": 5487
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "bc0cd18d94c028f1c0b62ec9fdaddcb9921c1e07c29cf52dc7df8cca9daf2488",
+      "sizeBytes": 1093
+    },
+    {
+      "path": "package.json",
+      "sha256": "bd51174e9ac3f4ad5de324368170a1c1b0d1cb85c265c0c200ea50c5f2a24051",
+      "sizeBytes": 10585
+    },
+    {
+      "path": "README.md",
+      "sha256": "84082a379145e7ee3acfdc2e120479ce4aad1020472f1af8ad742344627c7cd1",
+      "sizeBytes": 13660
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "7c67daa00602e230a1378e313f3ade915c358d71737e8e6c33852663da0eb8ed",
+      "sizeBytes": 730
+    }
+  ]
+}

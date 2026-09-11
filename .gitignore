@@ -1,0 +1,17 @@
+node_modules/
+.reporise/
+.reporise-tmp/
+*.zip
+dist/
+.DS_Store
+.repocode/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Research Proposals & Experiment Artifacts
+eval/research/proposals/*
+!eval/research/proposals/.gitkeep
+eval/research/.experiments.jsonl

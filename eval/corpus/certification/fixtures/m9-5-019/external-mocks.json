@@ -1,0 +1,6 @@
+{
+  "https://tasklib.readthedocs.io/en/latest/": {
+    "http_status": 200,
+    "content": "# TaskLib Guide\n\n## Installation\n```bash\npip install tasklib\n```\n\n## Usage\n```python\nfrom tasklib import Scheduler\ns = Scheduler()\n```\n"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "fixture_id": "real-074",
+  "repository": "jwasham/coding-interview-university",
+  "rubric_version": "m8-label-rubric-v1.0.0",
+  "evaluator_id": "reporise_deterministic_v0.2.0",
+  "label_source": "deterministic_audit",
+  "human_verified": false,
+  "gold_role": "none",
+  "scores": {
+    "overall": 4,
+    "seo": 4,
+    "aeo": 4,
+    "geo": 4
+  },
+  "raw_scores": {
+    "overall": 70,
+    "seo": 71,
+    "aeo": 71,
+    "geo": 70
+  },
+  "rationale": {
+    "overall": "Deterministic audit overall score 70% mapped to bucket 4. Top fixes: Install/setup section present; The opening sentence is definitional, not promotional.",
+    "seo": "Deterministic audit SEO surface score 71% mapped to bucket 4.",
+    "aeo": "Deterministic audit AEO surface score 71% mapped to bucket 4.",
+    "geo": "Deterministic audit GEO surface score 70% mapped to bucket 4."
+  },
+  "top_fixes": [
+    {
+      "id": "install-section",
+      "title": "Install/setup section present",
+      "status": "fail",
+      "priority": 80
+    },
+    {
+      "id": "definitional-opening",
+      "title": "The opening sentence is definitional, not promotional",
+      "status": "warn",
+      "priority": 50
+    },
+    {
+      "id": "docs-surface",
+      "title": "Documentation beyond the README",
+      "status": "warn",
+      "priority": 50
+    },
+    {
+      "id": "examples-surface",
+      "title": "Examples directory",
+      "status": "warn",
+      "priority": 50
+    },
+    {
+      "id": "changelog",
+      "title": "CHANGELOG present",
+      "status": "warn",
+      "priority": 40
+    },
+    {
+      "id": "faq-section",
+      "title": "FAQ or troubleshooting section",
+      "status": "warn",
+      "priority": 40
+    },
+    {
+      "id": "requirements-section",
+      "title": "Requirements or compatibility stated",
+      "status": "warn",
+      "priority": 40
+    },
+    {
+      "id": "citation-metadata",
+      "title": "Machine-readable attribution (CITATION.cff or llms.txt)",
+      "status": "warn",
+      "priority": 25
+    },
+    {
+      "id": "version-stamped-facts",
+      "title": "Claims are version-stamped",
+      "status": "warn",
+      "priority": 25
+    },
+    {
+      "id": "when-to-use",
+      "title": "Explicit scope: when to use, when not to",
+      "status": "warn",
+      "priority": 25
+    },
+    {
+      "id": "no-broken-links",
+      "title": "No broken relative links in README",
+      "status": "fail",
+      "priority": 20
+    },
+    {
+      "id": "readme-length",
+      "title": "README length is in a workable band",
+      "status": "warn",
+      "priority": 20
+    }
+  ],
+  "reviewed_at": "2026-09-08T12:31:13.052Z"
+}

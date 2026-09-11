@@ -1,0 +1,6 @@
+{
+  "https://docusaurus.io/docs": {
+    "http_status": 200,
+    "content": "# Docusaurus Docs\n\n## Getting Started\n```bash\nnpx create-docusaurus@latest my-website classic\ncd my-website\nnpm start\n```\n\n## Fast Track\nDocusaurus builds static content into a fast single-page app.\n"
+  }
+}

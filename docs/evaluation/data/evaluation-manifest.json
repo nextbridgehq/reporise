@@ -1,0 +1,100 @@
+{
+  "campaign_id": "m8.6-larger-corpus-optimization",
+  "title": "RepoRise M8.6 Larger-Corpus Optimization Campaign Manifest",
+  "status": "initialized",
+  "created_at": "2026-09-09T09:47:00.000Z",
+  "baseline_commit": "db31dda",
+  "analysis_commit": "c0aa55b",
+  "corpus_version": "corpus-m8-v1.0.0",
+  "target_file": "skills/visibility-audit/scripts/lib/checks.mjs",
+  "companion_target_file": "skills/citation-probe/scripts/lib/checks.mjs",
+  "budget_allocation": {
+    "P0_geo_evidence_quality": {
+      "priority": "P0",
+      "budget_fraction": 0.35,
+      "percentage": "35%",
+      "failure_mode": "GEO Citability Evidence Over-Credit (F04)",
+      "candidate_modality": "WEIGHTING, CONDITIONAL & STRUCTURAL",
+      "competing_hypotheses": [
+        "Hypothesis A (Weighting): Adjust code-block and table surface contribution directly in surface calculation",
+        "Hypothesis B (Conditional Gating): Require citation/architecture evidence before GEO buckets 4 and 5 become reachable",
+        "Hypothesis C (Contextual Gating): Make code/table evidence conditional on presence of valid technical pitch and clear scope definition",
+        "Hypothesis D (Evidence-Quality Tiers): Introduce separate evidence-quality tiers distinguishing basic syntax examples from formal machine citability assets"
+      ]
+    },
+    "P0_docs_monorepo_architecture": {
+      "priority": "P0",
+      "budget_fraction": 0.30,
+      "percentage": "30%",
+      "failure_mode": "Docs-Heavy & Deep Architecture Section Misalignment (F08/F03)",
+      "candidate_modality": "STRUCTURAL"
+    },
+    "P1_aeo_narrative_phrasing": {
+      "priority": "P1",
+      "budget_fraction": 0.20,
+      "percentage": "20%",
+      "failure_mode": "AEO Conversational & Narrative Prose Disconnect (F01)",
+      "candidate_modality": "LEXICAL & COMPOSITIONAL"
+    },
+    "P1_comparative_synthesis": {
+      "priority": "P1",
+      "budget_fraction": 0.10,
+      "percentage": "10%",
+      "failure_mode": "Comparative Section Synthesis (F09)",
+      "candidate_modality": "LEXICAL & STRUCTURAL"
+    },
+    "P2_boundary_jitter": {
+      "priority": "P2",
+      "budget_fraction": 0.05,
+      "percentage": "5%",
+      "failure_mode": "Boundary Threshold Jitter / Granularity Mismatch (F05)",
+      "candidate_modality": "WEIGHTING"
+    },
+    "total_budget": 1.00
+  },
+  "isolation_invariants": {
+    "real_test": {
+      "n": 24,
+      "status": "strictly_held_out",
+      "rule": "Real Test repositories are 100% held-out. Inaccessible to candidate generators, proposals, allocators, and evaluation loops during campaign optimization. Evaluated only upon final post-campaign verification."
+    },
+    "human_gold_evaluation": {
+      "n": 15,
+      "status": "strictly_held_out",
+      "rule": "Human Gold Evaluation set is strictly isolated as an untouched post-campaign evaluation instrument."
+    },
+    "accessible_splits": [
+      "real_train (n=72)",
+      "real_validation (n=24)",
+      "synthetic_train",
+      "synthetic_validation"
+    ]
+  },
+  "regression_protection_gates": {
+    "real_validation_overall_tolerance": 0.02,
+    "surface_regression_tolerance": 0.05,
+    "archetype_regression_tolerance": 0.15,
+    "unit_test_requirement": "All 49 unit tests must pass",
+    "syntax_check_requirement": "Strict zero AST syntax errors"
+  },
+  "baseline_metrics": {
+    "train_n72": {
+      "overall_mae": 0.7083,
+      "seo_mae": 0.8472,
+      "aeo_mae": 0.6389,
+      "geo_mae": 0.9722
+    },
+    "validation_n24": {
+      "overall_mae": 0.7917,
+      "seo_mae": 0.8750,
+      "aeo_mae": 0.6667,
+      "geo_mae": 0.9167
+    },
+    "global_baseline_n120": {
+      "overall_mae": 0.6833,
+      "exact_pct": 42.5,
+      "within_one_pct": 89.2,
+      "overall_mean_bias": 0.2500
+    }
+  }
+}

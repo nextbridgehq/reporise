@@ -1,0 +1,100 @@
+{
+  "id": "real-091",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "localstack/localstack",
+  "commit": "8b9a79f05846835cf4dff63ab7eefdde9df83783",
+  "capturedAt": "2026-09-08T12:16:09.944Z",
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "e1689f42d881e391c64f0ac54ac75fa5388ac36a273c69b219272ea145a44667",
+      "sizeBytes": 5351
+    },
+    {
+      "path": "docs/CONTRIBUTING.md",
+      "sha256": "080c56bda5d56e89628fb2f4ff1f0d1917fb4a3b909e34214794fcef4671bda6",
+      "sizeBytes": 2233
+    },
+    {
+      "path": "docs/development-environment-setup/README.md",
+      "sha256": "f7a4c89bc3b7962e78496f3e362456e33e1e6e033e58cafd8fba096adda3f27b",
+      "sizeBytes": 6048
+    },
+    {
+      "path": "docs/end_user_license_agreement/README.md",
+      "sha256": "71543c2cee97b8e6fe7669afefcca759a29a4e1042c756fc7014d947cedee478",
+      "sizeBytes": 7276
+    },
+    {
+      "path": "docs/localstack-concepts/asf-code-generation.png",
+      "sha256": "3bc8ad3ce6f898f5f331641b10c7af50e2d789b5300887b8142d5f5388e2878a",
+      "sizeBytes": 325785
+    },
+    {
+      "path": "docs/localstack-concepts/gateway-overview.png",
+      "sha256": "78f88805c19ab8ba1d1dbbb7adf56712c43da13b2ea3b40cd80000c777ebbdf2",
+      "sizeBytes": 88077
+    },
+    {
+      "path": "docs/localstack-concepts/localstack-handler-chain.png",
+      "sha256": "bd4d12a0a2af204d8e38a137690882f22ed82333131d2f9dca90110954fa082b",
+      "sizeBytes": 266044
+    },
+    {
+      "path": "docs/localstack-concepts/README.md",
+      "sha256": "20f4417a5ca6aafd71cc7ca6f3d6f127eaad677c1568f93199538362f847b1ad",
+      "sizeBytes": 18887
+    },
+    {
+      "path": "docs/localstack-concepts/service-implementation.png",
+      "sha256": "67bb3006c2e316a15b148b9760ed6e3e6d88c15502821ea9602d21be673e0fbe",
+      "sizeBytes": 260436
+    },
+    {
+      "path": "docs/testing/integration-tests/README.md",
+      "sha256": "83a273e128738ddb7659c336be93238558868d3b7cbbf6d5d52f3a7acff94a3f",
+      "sizeBytes": 9035
+    },
+    {
+      "path": "docs/testing/multi-account-region-testing/README.md",
+      "sha256": "73d7883bc50970ed53d858ce69ec661c32d7f2a2bdef8703bcb713a7502a2e57",
+      "sizeBytes": 3479
+    },
+    {
+      "path": "docs/testing/parity-testing/README.md",
+      "sha256": "a6c3605afea130dff796a43297ba2d48e673fce6d88b58fc507749f662567843",
+      "sizeBytes": 14487
+    },
+    {
+      "path": "docs/testing/README.md",
+      "sha256": "36fb409b6238b279e7fd61fdb43fc08db81cd69b262795825f637de2072655fd",
+      "sizeBytes": 14181
+    },
+    {
+      "path": "docs/testing/terraform-tests/README.md",
+      "sha256": "fef650a38f32741eb61f112727d8906844b11d9e0831fa57a42f0d7e7c91fbbe",
+      "sizeBytes": 506
+    },
+    {
+      "path": "docs/testing/test-types/README.md",
+      "sha256": "3242f315160ca7a459ccb914a8716a7b7b571c76f64b91e3879ea073659a55ad",
+      "sizeBytes": 4906
+    },
+    {
+      "path": "LICENSE.txt",
+      "sha256": "6d9d39c02a2d6cbd15164610ac3fdab3e2701a6b4427668ba1700d512f36cbb0",
+      "sizeBytes": 620
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "53056fb27a0c148a8cb7e1e8a1229760092aad0807f2adaae6fccb171e9a5dbe",
+      "sizeBytes": 11499
+    },
+    {
+      "path": "README.md",
+      "sha256": "b0e3aaa4636a0382605f9d18e895c374cd8799cca59431ae91d24e3c74dd52b9",
+      "sizeBytes": 13967
+    }
+  ]
+}

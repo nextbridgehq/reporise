@@ -1,0 +1,15 @@
+{
+  "id": "real-106",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "deepseek-ai/DeepSeek-V3",
+  "commit": "9b4e9788e4a3a731f7567338ed15d3ec549ce03b",
+  "capturedAt": "2026-09-08T12:20:50.219Z",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "8edf50fdd5b5d8362784bec6b7b55f46ce0af830a5250493d3c5d76e211448d5",
+      "sizeBytes": 21212
+    }
+  ]
+}

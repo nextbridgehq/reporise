@@ -1,0 +1,6 @@
+{
+  "https://redux-toolkit.js.org/introduction/getting-started": {
+    "http_status": 200,
+    "content": "# Getting Started with Redux Toolkit\n\n## Installation\n```bash\nnpm install @reduxjs/toolkit react-redux\n```\n\n## Basic Setup\n```ts\nimport { configureStore } from '@reduxjs/toolkit';\nexport const store = configureStore({ reducer: {} });\n```\n"
+  }
+}

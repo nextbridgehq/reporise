@@ -1,0 +1,35 @@
+{
+  "id": "real-058",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "rust-lang/rust-clippy",
+  "commit": "e6cf222ff9497ce5a8783a0184eb9502df680602",
+  "capturedAt": "2026-09-08T11:58:45.021Z",
+  "files": [
+    {
+      "path": "Cargo.toml",
+      "sha256": "86e7a3c2597a7291bd2d560818f24b5ff1051a9672db7a2b882a133d3aa97c2a",
+      "sizeBytes": 1915
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "2e60ef91b216f045a1d846c76d97d0a3a07ef690641c03a2cf6eb3d1c37873e2",
+      "sizeBytes": 448895
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "d27a201e2289ee151f6a9aae78ad417c28a9f2790b3631789aa0747425f3e85c",
+      "sizeBytes": 140
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "5a4f0101e332fdd236a88ba7b26f743b0c77cb4e53696161781d24d77491ff5b",
+      "sizeBytes": 12817
+    },
+    {
+      "path": "README.md",
+      "sha256": "42098ac0c944a6f0bc9557a4332af7b340de1a5be5a22b7126ea7553f83dcfc0",
+      "sizeBytes": 11191
+    }
+  ]
+}

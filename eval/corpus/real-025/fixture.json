@@ -1,0 +1,125 @@
+{
+  "id": "real-025",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "denisidoro/navi",
+  "commit": "f7330b9ad5bd95b7d1a3c96d00e0a77deb589147",
+  "capturedAt": "2026-09-08T11:51:12.729Z",
+  "files": [
+    {
+      "path": "Cargo.toml",
+      "sha256": "5a6a7a2bc57a62f1502c5b1a3f08793a5c7feb7279b09c8dc89696b4dfdee4cb",
+      "sizeBytes": 1443
+    },
+    {
+      "path": "docs/cheatsheet/getting-started/README.md",
+      "sha256": "34b6f4afe1e30981f792be8107ad7443c5bc2ce9a62a1d02a986f582fdfc8103",
+      "sizeBytes": 33
+    },
+    {
+      "path": "docs/cheatsheet/README.md",
+      "sha256": "f446ea1f544092b1ab96764e64a89982182b6b0d6270619c1a7e7c97db34296c",
+      "sizeBytes": 2135
+    },
+    {
+      "path": "docs/cheatsheet/repositories/README.md",
+      "sha256": "5aa9f02d62853a88ba33ccea2e6a1a57c9226bda8bf7ceee97ce5279dbf92405",
+      "sizeBytes": 2312
+    },
+    {
+      "path": "docs/cheatsheet/syntax/README.md",
+      "sha256": "544508698d41786136fbf5b327145544d00d0f81a09637794ee3225afff4b887",
+      "sizeBytes": 9018
+    },
+    {
+      "path": "docs/configuration/README.md",
+      "sha256": "a0c242853fbd5fb9aa271d3494ff752948fa443d8aaedbe4d2e12a4e2fa1b2cc",
+      "sizeBytes": 8874
+    },
+    {
+      "path": "docs/contributions/bugs/README.md",
+      "sha256": "d336b734fa3270914aa246a359de947018d55d2e42b5ef0b8ece8966994b7ce1",
+      "sizeBytes": 332
+    },
+    {
+      "path": "docs/contributions/code/README.md",
+      "sha256": "62a099c5d9c95af0a4e0a7be1b0e76def0efbaa26e613cb583251bd6f324034d",
+      "sizeBytes": 2372
+    },
+    {
+      "path": "docs/contributions/documentation/README.md",
+      "sha256": "2415e5e5f61edb618cafe4b531c4ce6e5e4362d3bad21b49466a5e80beff47fd",
+      "sizeBytes": 971
+    },
+    {
+      "path": "docs/contributions/README.md",
+      "sha256": "9d1dbe811ef8f837222ab3992024624e1987f375fd62cf0f76ed492bd06bba21",
+      "sizeBytes": 1810
+    },
+    {
+      "path": "docs/deprecated/Alfred/README.md",
+      "sha256": "e11c88cc39b4c237f05500f3ab11b3aa063cf5528221e3d6171d3fa5e85fc0eb",
+      "sizeBytes": 857
+    },
+    {
+      "path": "docs/examples/cheatsheet/example.cheat",
+      "sha256": "18ad2e05179120c6d0a6f8f9da8eff5edd51e2a0854f58da9594c2497e09f29e",
+      "sizeBytes": 81
+    },
+    {
+      "path": "docs/examples/cheatsheet/navi.cheat",
+      "sha256": "f3e0451203dcf94755db165b3951e67486b4b300e2abeb812c799871cf57d3f5",
+      "sizeBytes": 767
+    },
+    {
+      "path": "docs/examples/configuration/config-example.yaml",
+      "sha256": "8de8b7c28a11f57c0ac420d913a5265f7592ad4187dd6a9373cff93b1191da98",
+      "sizeBytes": 1234
+    },
+    {
+      "path": "docs/installation/README.md",
+      "sha256": "ff381c27be20cd923cd5c28ab893c826f3cd042b5b52a14afa00ee73ed4a8925",
+      "sizeBytes": 3910
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "8e5305a3114bba3390720e28279085d0551909a04cac5fe3739e1bf656706ecc",
+      "sizeBytes": 2714
+    },
+    {
+      "path": "docs/usage/fzf-overrides/README.md",
+      "sha256": "ca0abd9c67fe3f9fdf767da8c813ebdf6c88884dc0c34ab8393c2fc63f566322",
+      "sizeBytes": 818
+    },
+    {
+      "path": "docs/usage/README.md",
+      "sha256": "7af910734ef1a671374ac155e1e5d473064746ba8aa50403cfb36b6f5a062651",
+      "sizeBytes": 773
+    },
+    {
+      "path": "docs/usage/shell-scripting/README.md",
+      "sha256": "b3c1625bd6769e84ba4ae0fcf02db92d3096ab7ca50829eadf3f9d0420c34ca5",
+      "sizeBytes": 1865
+    },
+    {
+      "path": "docs/widgets/howto/TMUX.md",
+      "sha256": "c605928127087389fc26da1af66847a28dd345dcbf9e18bc935df04e45fa401e",
+      "sizeBytes": 1116
+    },
+    {
+      "path": "docs/widgets/howto/VIM.md",
+      "sha256": "358943c25e2b07ecd57fc89cdf3ab96a60542a7a31ddf35c43723255ba26a346",
+      "sizeBytes": 606
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "49bbe9114e49214df2ccc324cb3ac8d1d1aa1c3a0947f94c286765e86647b32e",
+      "sizeBytes": 11558
+    },
+    {
+      "path": "README.md",
+      "sha256": "87aab019d5de46cfb1dbb5fecdaf8ed8b34ce9a9a160b204b1ef622ebc21e6ff",
+      "sizeBytes": 4502
+    }
+  ]
+}

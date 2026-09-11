@@ -1,0 +1,91 @@
+{
+  "campaign": "m7-004",
+  "iterations": 19,
+  "targets": {
+    "definitional-pattern": {
+      "attempts": 19,
+      "accepted": 0,
+      "rejected": 1,
+      "duplicates": 18,
+      "rationales": [],
+      "mutations": [
+        {
+          "pattern": "[a-zA-Z0-9_-]+",
+          "flags": ""
+        },
+        {
+          "pattern": "[a-zA-Z_][a-zA-Z0-9_-]*",
+          "flags": ""
+        },
+        {
+          "pattern": "^[a-zA-Z_][a-zA-Z0-9_-]*$",
+          "flags": ""
+        },
+        {
+          "pattern": "^[a-zA-Z_][a-zA-Z0-9_-]*$",
+          "flags": ""
+        },
+        {
+          "pattern": "^[a-zA-Z_][a-zA-Z0-9_-]*$",
+          "flags": ""
+        },
+        {
+          "pattern": "^[a-zA-Z_][a-zA-Z0-9_-]*$",
+          "flags": ""
+        },
+        {
+          "pattern": "^[a-zA-Z_][a-zA-Z0-9_\\-]*$",
+          "flags": ""
+        },
+        {
+          "pattern": "^[a-zA-Z_][-a-zA-Z0-9_]*$",
+          "flags": ""
+        },
+        {
+          "pattern": "^[a-zA-Z_]([a-zA-Z0-9_]|[-])*$",
+          "flags": ""
+        },
+        {
+          "pattern": "^[a-zA-Z_](?:[a-zA-Z0-9_]|-)*$",
+          "flags": ""
+        },
+        {
+          "pattern": "is|are",
+          "flags": "i"
+        },
+        {
+          "pattern": "hidden|aria-hidden|sr-only|visually-hidden|display:\\s*none",
+          "flags": "i"
+        },
+        {
+          "pattern": "hidden|aria-hidden|sr-only|visually-hidden|display:\\s*none|visibility:\\s*hidden",
+          "flags": "i"
+        },
+        {
+          "pattern": "hidden|aria-hidden|sr-only|visually-hidden|display:\\s*none|visibility:\\s*hidden|opacity:\\s*0",
+          "flags": "i"
+        },
+        {
+          "pattern": "hidden|aria-hidden|sr-only|visually-hidden|display:\\s*none|visibility:\\s*hidden|opacity:\\s*0|width:\\s*0|height:\\s*0",
+          "flags": "i"
+        },
+        {
+          "pattern": "hidden|aria-hidden|sr-only|visually-hidden|display:\\s*none|visibility:\\s*hidden|opacity:\\s*0|width:\\s*0|height:\\s*0|clip:\\s*rect\\s*\\(0(\\s*px)?(\\s*0(\\s*px)?){3}\\)",
+          "flags": "i"
+        },
+        {
+          "pattern": "hidden|aria-hidden|sr-only|visually-hidden|display:\\s*none|visibility:\\s*hidden|opacity:\\s*0|width:\\s*0|height:\\s*0|font-size:\\s*0|line-height:\\s*0|clip:\\s*rect\\s*\\(0(\\s*px)?(\\s*0(\\s*px)?){3}\\)",
+          "flags": "i"
+        },
+        {
+          "pattern": "hidden|aria-hidden|sr-only|visually-hidden|display:\\s*none|visibility:\\s*hidden|text-indent:\\s*-[0-9]{3,}(?:px|em|rem)?",
+          "flags": "i"
+        },
+        {
+          "pattern": "hidden|aria-hidden(?:=\"true\")?|sr-only|visually-hidden|display:\\s*none|visibility:\\s*hidden",
+          "flags": "i"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "real-077",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "ripienaar/free-for-dev",
+  "commit": "e494a592e939de90e472cc6e19483c4df39974d1",
+  "capturedAt": "2026-09-08T12:07:54.954Z",
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "2a055776b98ffcb40cf22193d0bcb02812255604a93a445d0316c4065a9b0465",
+      "sizeBytes": 297
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "03b793f30838a68457bc2cdcd1c45ab556547964cf47f648a4e0de5333fe2def",
+      "sizeBytes": 1970
+    },
+    {
+      "path": "README.md",
+      "sha256": "1377dd29b64ff858e2a70f634400544b4b102a3f560084c6e797fda988559a8e",
+      "sizeBytes": 259156
+    }
+  ]
+}

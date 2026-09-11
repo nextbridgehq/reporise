@@ -1,0 +1,170 @@
+{
+  "id": "real-032",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "tokio-rs/tokio",
+  "commit": "6bea73e4c1ffd1acbd3065cd6a6421585004042e",
+  "capturedAt": "2026-09-08T11:52:37.335Z",
+  "files": [
+    {
+      "path": "Cargo.toml",
+      "sha256": "5eeb2d6666db8051d0cd2294be2d849e0c1920007e026c0d852f1f0f7fa85886",
+      "sizeBytes": 874
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "acd4e536bf870a4f1155f72fdbf48635aa90e52ffcf8cfa2dd8d1228ed570359",
+      "sizeBytes": 368
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "f9c798f5fabc685e28109a9c2eb5bca18abe478fb8f7782841701ef2a76b7db4",
+      "sizeBytes": 1849
+    },
+    {
+      "path": "docs/contributing/contributing-in-issues.md",
+      "sha256": "6ddeafaff7183fbb3c786868cd058edf6b8b3cffbedf21d9d1dba80f8be48a26",
+      "sizeBytes": 3807
+    },
+    {
+      "path": "docs/contributing/how-to-specify-crates-dependencies-versions.md",
+      "sha256": "de50615a7695f331d5e79e0084816e51e02fc59401e513b0e04592bbe62bac41",
+      "sizeBytes": 1555
+    },
+    {
+      "path": "docs/contributing/keeping-track-of-issues-and-prs.md",
+      "sha256": "a219188817c22259cdcbe6b0f0625316f8f885c7629b5f0aa9b3780aa6f18e94",
+      "sizeBytes": 3985
+    },
+    {
+      "path": "docs/contributing/pull-requests.md",
+      "sha256": "7df895d61466d42e6616003dc06520ef4e4b5ee81601f34c37a5f14c28126dd4",
+      "sizeBytes": 14536
+    },
+    {
+      "path": "docs/contributing/README.md",
+      "sha256": "06041ab924212fc3ea849842d88d1a8a17abaf133689861e644b31cb7c82acb4",
+      "sizeBytes": 3056
+    },
+    {
+      "path": "docs/contributing/reviewing-pull-requests.md",
+      "sha256": "bcebdc965142656f9281afabb649341ec1eca0d0b18f687705bb1bef474b10ba",
+      "sizeBytes": 4134
+    },
+    {
+      "path": "examples/Cargo.toml",
+      "sha256": "a33868a435d3b2567374662de263ad0bb1adb3f54caa39c65bc0bb6ac5174b33",
+      "sizeBytes": 2444
+    },
+    {
+      "path": "examples/chat.rs",
+      "sha256": "b9150e081ec471ae8a8718d7f1b791eff9215e8de3c65b9eac4f19d630c034c5",
+      "sizeBytes": 9106
+    },
+    {
+      "path": "examples/connect-tcp.rs",
+      "sha256": "7700ad1e09b38c40ec120649b13e4147d66229a43310bad3118e3b5a2cab07d1",
+      "sizeBytes": 2689
+    },
+    {
+      "path": "examples/connect-udp.rs",
+      "sha256": "b80bcb33397201797c2defdbcee1ec8ef4e100f4b58d877ac7c3b6e2c6dbaf9b",
+      "sizeBytes": 2950
+    },
+    {
+      "path": "examples/custom-executor-tokio-context.rs",
+      "sha256": "94a1f16668de7a5a967647671b5c7283b7fc23ec3da9db988b19fa84420c76cd",
+      "sizeBytes": 1029
+    },
+    {
+      "path": "examples/custom-executor.rs",
+      "sha256": "0fd14ab37b88b856d767a5c1c8299f4395bdeb5ffdd5e29c6fbe6ebab80903ea",
+      "sizeBytes": 1698
+    },
+    {
+      "path": "examples/dump.rs",
+      "sha256": "654ba85dec465e796e499558b883866435597866ad8dc685d08a79a05a2079d9",
+      "sizeBytes": 3086
+    },
+    {
+      "path": "examples/echo-tcp.rs",
+      "sha256": "170dc41bf00260317e3eaaed2bc540a2d9a03a6b4122dd3738a80b30e72075ea",
+      "sizeBytes": 3297
+    },
+    {
+      "path": "examples/echo-udp.rs",
+      "sha256": "309e2011fbbba474303e64f939424ba9b8b6bfb3b6e55d065e07b244170138cf",
+      "sizeBytes": 2817
+    },
+    {
+      "path": "examples/graceful-shutdown.rs",
+      "sha256": "e0e06ea503c24a3623b141c71d8ea5eacc5e5b47129ad00e016133b78d488f08",
+      "sizeBytes": 3843
+    },
+    {
+      "path": "examples/hello_world.rs",
+      "sha256": "2a14245ee4d6371a88c1154b6a2b6a302c30a3db9b2777e7a2d3490af1ae1422",
+      "sizeBytes": 873
+    },
+    {
+      "path": "examples/named-pipe-multi-client.rs",
+      "sha256": "6dc59d50a5dd0832ce5ea5dc9a0146bd49bdd1c3bce1c326d072f88e94fdade4",
+      "sizeBytes": 3144
+    },
+    {
+      "path": "examples/named-pipe-ready.rs",
+      "sha256": "265ff61eac2d66591542a9705b92d595ccbaa95ee5081e8dd06d91646498f85b",
+      "sizeBytes": 4488
+    },
+    {
+      "path": "examples/named-pipe.rs",
+      "sha256": "23c5c78f2c8b771bafbd86e49bacd8c7e262b3191048c052234f15700abac94e",
+      "sizeBytes": 1631
+    },
+    {
+      "path": "examples/prewarm-fd-table.rs",
+      "sha256": "4ed1123310ef8c2e1aa439d20ddb56b43c679909b7344f2edc0c9bebbf2bb106",
+      "sizeBytes": 3080
+    },
+    {
+      "path": "examples/print_each_packet.rs",
+      "sha256": "bca7b0dcc2dc3db2b4e0c02110a88a8117687d55b62c7210fc27b124dd15f854",
+      "sizeBytes": 3923
+    },
+    {
+      "path": "examples/proxy.rs",
+      "sha256": "9d42b5e7588a87f2ec30db9739c678aa20d83e3a27b488168d38bec13f08735a",
+      "sizeBytes": 1952
+    },
+    {
+      "path": "examples/README.md",
+      "sha256": "980db937f4d3833384e2fef6ca6fc125d4b4b00d35d84bbbcfd79d9cb47cad8e",
+      "sizeBytes": 775
+    },
+    {
+      "path": "examples/tinydb.rs",
+      "sha256": "b57afe25bd6b399875a45d669aa9f156606580ec5229bbce1fa26a7afeea2c58",
+      "sizeBytes": 8047
+    },
+    {
+      "path": "examples/tinyhttp.rs",
+      "sha256": "588950732aef9ffba57786408cfed501b01bdda01da14d975bd901ac520abb91",
+      "sizeBytes": 10522
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "794038fa5d69932673a14840d0ea11f754becd0ad659ea38aad94f58d0ed2f4f",
+      "sizeBytes": 1091
+    },
+    {
+      "path": "README.md",
+      "sha256": "3260391ace2d52434e58cb6000c5ea6db90fe1c7144189fc2c3de65a4769c699",
+      "sizeBytes": 9560
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "de5a44ece58653204a209bfc3e471036421bd7330f40eb602428e41f2ffd8d7c",
+      "sizeBytes": 1504
+    }
+  ]
+}

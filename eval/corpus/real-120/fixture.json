@@ -1,0 +1,20 @@
+{
+  "id": "real-120",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "segmentio/is-url",
+  "commit": "21689377c8425b144bfe08490c898dc8de07d809",
+  "capturedAt": "2026-09-08T12:23:07.986Z",
+  "files": [
+    {
+      "path": "package.json",
+      "sha256": "d7b44f584bdff106d2d41d8f8b6de59ef0a79f1723b9cf38a176d9983020808c",
+      "sizeBytes": 287
+    },
+    {
+      "path": "Readme.md",
+      "sha256": "559f8f9a2f5121381376d2ded5c915339f51a4d4b1632c8935a8f5afe299a7fe",
+      "sizeBytes": 551
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "fixture_id": "real-037",
+  "repository": "pallets/flask",
+  "rubric_version": "m8-label-rubric-v1.0.0",
+  "evaluator_id": "reporise_deterministic_v0.2.0",
+  "label_source": "deterministic_audit",
+  "human_verified": false,
+  "gold_role": "none",
+  "scores": {
+    "overall": 3,
+    "seo": 3,
+    "aeo": 4,
+    "geo": 3
+  },
+  "raw_scores": {
+    "overall": 66,
+    "seo": 64,
+    "aeo": 71,
+    "geo": 68
+  },
+  "rationale": {
+    "overall": "Deterministic audit overall score 66% mapped to bucket 3. Top fixes: Comparison / alternatives section; Install/setup section present.",
+    "seo": "Deterministic audit SEO surface score 64% mapped to bucket 3.",
+    "aeo": "Deterministic audit AEO surface score 71% mapped to bucket 4.",
+    "geo": "Deterministic audit GEO surface score 68% mapped to bucket 3."
+  },
+  "top_fixes": [
+    {
+      "id": "comparison-section",
+      "title": "Comparison / alternatives section",
+      "status": "fail",
+      "priority": 100
+    },
+    {
+      "id": "install-section",
+      "title": "Install/setup section present",
+      "status": "fail",
+      "priority": 80
+    },
+    {
+      "id": "manifest-links",
+      "title": "Manifest links back to repository and homepage",
+      "status": "fail",
+      "priority": 80
+    },
+    {
+      "id": "changelog",
+      "title": "CHANGELOG present",
+      "status": "warn",
+      "priority": 40
+    },
+    {
+      "id": "faq-section",
+      "title": "FAQ or troubleshooting section",
+      "status": "warn",
+      "priority": 40
+    },
+    {
+      "id": "manifest-keywords",
+      "title": "Package manifest declares keywords",
+      "status": "fail",
+      "priority": 40
+    },
+    {
+      "id": "requirements-section",
+      "title": "Requirements or compatibility stated",
+      "status": "warn",
+      "priority": 40
+    },
+    {
+      "id": "runnable-example",
+      "title": "A runnable usage example with a language-tagged code block",
+      "status": "warn",
+      "priority": 40
+    },
+    {
+      "id": "citation-metadata",
+      "title": "Machine-readable attribution (CITATION.cff or llms.txt)",
+      "status": "warn",
+      "priority": 25
+    },
+    {
+      "id": "version-stamped-facts",
+      "title": "Claims are version-stamped",
+      "status": "warn",
+      "priority": 25
+    },
+    {
+      "id": "when-to-use",
+      "title": "Explicit scope: when to use, when not to",
+      "status": "warn",
+      "priority": 25
+    },
+    {
+      "id": "question-headings",
+      "title": "Headings phrased the way users ask",
+      "status": "warn",
+      "priority": 20
+    },
+    {
+      "id": "readme-length",
+      "title": "README length is in a workable band",
+      "status": "warn",
+      "priority": 20
+    }
+  ],
+  "reviewed_at": "2026-09-08T12:31:13.052Z"
+}

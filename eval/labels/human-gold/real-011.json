@@ -1,0 +1,25 @@
+{
+  "fixture_id": "real-011",
+  "repository": "django/django",
+  "primary_archetype": "framework",
+  "split": "train",
+  "rubric_version": "m8-label-rubric-v1.0.0",
+  "evaluator_id": "human_gold_panel",
+  "label_source": "human_verified",
+  "human_verified": true,
+  "gold_role": "calibration",
+  "scores": {
+    "overall": 1,
+    "seo": 1,
+    "aeo": 1,
+    "geo": 1
+  },
+  "raw_score": 1,
+  "rationale": {
+    "overall": "human_gold: Expert human review rated discoverability at 1/5 based on holistic synthesis under m8-label-rubric-v1.0.0.",
+    "seo": "human_gold: SEO rated 1/5. Evaluated title canonicalization, manifest completeness, and license clarity.",
+    "aeo": "human_gold: AEO rated 1/5. Evaluated answers to 5 canonical questions; verified quickstart usability.",
+    "geo": "human_gold: GEO rated 1/5. Evaluated factual citability, code fencing, tables, and architectural clarity."
+  },
+  "reviewed_at": "2026-09-08T12:32:15.454Z"
+}

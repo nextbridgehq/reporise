@@ -1,0 +1,25 @@
+{
+  "id": "real-116",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "jonschlinkert/is-odd",
+  "commit": "a80ee0d831a8ee69f1fad5b4673491847975eb26",
+  "capturedAt": "2026-09-08T12:22:31.387Z",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "e7d1fee7347ffddccc5fd03327ffdb50f8c112be0d5016d62388a92c4ae6e7a9",
+      "sizeBytes": 1091
+    },
+    {
+      "path": "package.json",
+      "sha256": "5ecb92855f47dd9e225d37437e50f76c9fd41eda3d978d1d416066eadf1dc75c",
+      "sizeBytes": 1381
+    },
+    {
+      "path": "README.md",
+      "sha256": "4149335b72600d6a976f1109f287116bc9d1525bc712adbdd48df2dd432b68a7",
+      "sizeBytes": 3495
+    }
+  ]
+}

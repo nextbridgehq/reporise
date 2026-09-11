@@ -1,0 +1,40 @@
+{
+  "id": "real-033",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "colinhacks/zod",
+  "commit": "804e0f522747345d6b37581888899be420baa3e9",
+  "capturedAt": "2026-09-08T11:52:02.616Z",
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "514caf1da579113afc544a73e4c7838d0a17ae40e7f7832fdb16fb858ca11d44",
+      "sizeBytes": 5641
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "ada12b0b4623be31ac37d92936d4b7e717415d2ec28637c285f5f3d75a5dcde6",
+      "sizeBytes": 4871
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "b2c8ff4b6e2a56f47ce70f2648cb2fd45378b63a1bbc12a715a37f8d138cfa51",
+      "sizeBytes": 1093
+    },
+    {
+      "path": "package.json",
+      "sha256": "e3457c8278d97c9dac366a0275c4b4d7d9416b28ba3897f77f4adb3827858917",
+      "sizeBytes": 3291
+    },
+    {
+      "path": "README.md",
+      "sha256": "439c0c93c68f5dffea46de6df34f3b545d001d19570b5ee4975755d40bcf2c78",
+      "sizeBytes": 22
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "adfb29c672c7796976d376f24c913294c648df6edd3b785a9a49b643c503e012",
+      "sizeBytes": 501
+    }
+  ]
+}

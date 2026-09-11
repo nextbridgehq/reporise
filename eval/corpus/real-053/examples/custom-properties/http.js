@@ -1,0 +1,54 @@
+const { App, HTTPReceiver } = require('@slack/bolt');
+
+const app = new App({
+  token: process.env.SLACK_BOT_TOKEN,
+  receiver: new HTTPReceiver({
+    signingSecret: process.env.SLACK_SIGNING_SECRET,
+    customPropertiesExtractor: (req) => {
+      return {
+        headers: req.headers,
+        foo: 'bar',
+      };
+    },
+    // other custom handlers
+    dispatchErrorHandler: ({ error, logger, response }) => {
+      logger.error(`dispatch error: ${error}`);
+      response.writeHead(404);
+      response.write('Something is wrong!');
+      response.end();
+    },
+    processEventErrorHandler: ({ error, logger, response }) => {
+      logger.error(`processEvent error: ${error}`);
+      // acknowledge it anyway!
+      response.writeHead(200);
+      response.end();
+      return true;
+    },
+    unhandledRequestHandler: async ({ logger, response }) => {
+      // acknowledge it anyway!
+      logger.info('Acknowledging this incoming request because 2 seconds already passed...');
+      response.writeHead(200);
+      response.end();
+    },
+    unhandledRequestTimeoutMillis: 2000, // the default is 3001
+  }),
+  // This option enables developer to call #init() in async/await style
+  deferInitialization: true,
+});
+
+app.use(async ({ logger, context, next }) => {
+  logger.info(context);
+  await next();
+});
+
+(async () => {
+  // Start your app
+  try {
+    await app.init();
+    await app.start(process.env.PORT || 3000);
+  } catch (e) {
+    app.logger.error(e);
+    process.exit(255);
+  }
+  app.logger.info('⚡️ Bolt app is running!');
+})();

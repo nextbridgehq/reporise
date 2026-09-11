@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "RepoRise Benchmark Registry",
+  "version": "1.0.0",
+  "description": "Canonical registry of frozen benchmark corpora and evaluation tracks for RepoRise.",
+  "tracks": {
+    "single_document": {
+      "title": "Single-Document Baseline & Gating Track",
+      "status": "FROZEN",
+      "freeze_commit": "v0.1.0",
+      "engine_file": "skills/visibility-audit/scripts/lib/checks.mjs",
+      "metadata": "benchmarks/single-document/metadata.json",
+      "datasets": {
+        "inventory": {
+          "name": "Single-Document Baseline Corpus",
+          "sample_size": 120,
+          "file": "benchmarks/single-document/inventory.json",
+          "description": "Comprehensive 120-repository multi-archetype corpus for baseline gating and heuristics verification."
+        },
+        "human_gold": {
+          "name": "Human Gold Split",
+          "sample_size": 15,
+          "file": "benchmarks/single-document/human-gold-manifest.json",
+          "sealed": true,
+          "description": "Double-blind adjudicated human expert evaluation gold standard."
+        }
+      }
+    },
+    "multi_document": {
+      "title": "Provenance-Aware Multi-Document Evidence Track",
+      "status": "FROZEN",
+      "freeze_commit": "3743940",
+      "engine_components": [
+        "skills/visibility-audit/scripts/lib/resolver.mjs",
+        "skills/visibility-audit/scripts/lib/evidence-graph.mjs",
+        "skills/visibility-audit/scripts/lib/evidence-semantics.mjs",
+        "skills/visibility-audit/scripts/lib/multi-audit.mjs",
+        "skills/visibility-audit/scripts/lib/attribution.mjs"
+      ],
+      "metadata": "benchmarks/multi-document/metadata.json",
+      "datasets": {
+        "resolution": {
+          "name": "Resolution Feasibility Corpus",
+          "version": "v1.0.0",
+          "sample_size": 30,
+          "file": "benchmarks/multi-document/resolution-v1.0.0.json",
+          "description": "Empirical feasibility benchmark testing target acquisition, domain boundary filtering, and depth limits."
+        },
+        "scoring": {
+          "name": "Scoring Integration & Attribution Corpus",
+          "version": "v1.0.0",
+          "sample_size": 40,
+          "file": "benchmarks/multi-document/scoring-v1.0.0.json",
+          "split_counts": {
+            "dev": 24,
+            "sealed_evaluation": 16
+          },
+          "description": "40-repository scoring integration corpus establishing provenance-aware scoring and diagnostic error attribution."
+        },
+        "certification": {
+          "name": "Generalization & Certification Corpus",
+          "version": "v1.0.0",
+          "sample_size": 32,
+          "file": "benchmarks/certification/certification-v1.0.0.json",
+          "cohorts": {
+            "external_frameworks": 7,
+            "workspace_topologies": 7,
+            "evidence_ambiguity": 6,
+            "edge_failure": 6,
+            "adversarial_stress": 6
+          },
+          "description": "Independent 32-repository certification challenge corpus verifying zero-shot transfer, regression defense, and 5-guardrail safety."
+        }
+      }
+    }
+  }
+}

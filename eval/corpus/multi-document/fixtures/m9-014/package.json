@@ -1,0 +1,7 @@
+{
+  "name": "trpc-root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

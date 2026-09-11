@@ -1,0 +1,75 @@
+{
+  "id": "real-070",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "affinepro/affine",
+  "commit": "143a55a6e894f205f50380cf500b0d63be0cd65f",
+  "capturedAt": "2026-09-08T12:05:39.277Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "de73f2a8952e35e7ba61a32d7fb4e1635e4e94d8abde963173d8c9b5d5edfb1e",
+      "sizeBytes": 89
+    },
+    {
+      "path": "docs/building-desktop-client-app.md",
+      "sha256": "2309df630a7736c90996830efea1029e328a3086cb9e64542ff293a547fb6488",
+      "sizeBytes": 1358
+    },
+    {
+      "path": "docs/BUILDING.md",
+      "sha256": "e04f49769abd1b1522eeac52d05355325bb8d32c159b3438ec598f09fb2ec2aa",
+      "sizeBytes": 2126
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT.md",
+      "sha256": "69cf321757a48d104edd98f30c0db68798e46634e53031e91aa8dcd894ab516f",
+      "sizeBytes": 3327
+    },
+    {
+      "path": "docs/contributing/behind-the-code.md",
+      "sha256": "9d53b28e753ff2a8845980673b29ae689ae7140c054edf774e07059c1c225652",
+      "sizeBytes": 10744
+    },
+    {
+      "path": "docs/contributing/tutorial.md",
+      "sha256": "4df5a614efa1ed919e459e17d28371f66a066463a5b396393be70722ee0d6d15",
+      "sizeBytes": 2669
+    },
+    {
+      "path": "docs/CONTRIBUTING.md",
+      "sha256": "b3cfc34eda56273fe23ba9545bb900f0e1780d861b60d0e9eca148a3ea2a420b",
+      "sizeBytes": 6235
+    },
+    {
+      "path": "docs/contributor-add.md",
+      "sha256": "412e886b2b8c76d43f485d6b9876f5edaeeadbfc01c15f89eca978d74cb83777",
+      "sizeBytes": 218
+    },
+    {
+      "path": "docs/jobs.md",
+      "sha256": "aaf05e5dbf085692219b4b5d895bfddd5563aad9d3414ede151c687872469379",
+      "sizeBytes": 12998
+    },
+    {
+      "path": "docs/types-of-contributions.md",
+      "sha256": "0d8954c116a6f8548edc470a6e1d29aa071654e3a24aa97a6827d71ef73a86e4",
+      "sizeBytes": 2208
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "81b2d1b5306fb6a9a9624cf94d455af1717272f564cbc91000f0a4783144c5f6",
+      "sizeBytes": 15659
+    },
+    {
+      "path": "package.json",
+      "sha256": "8e34eca3bc8abc71d9a6155b59ffd581637dff91b5ea5fb31cb5c6d97e642934",
+      "sizeBytes": 3019
+    },
+    {
+      "path": "README.md",
+      "sha256": "389ed0fa30bf3ae4085753bdd1db53769dc62aa3d1b88f08ce2a42b036b007f1",
+      "sizeBytes": 39150
+    }
+  ]
+}

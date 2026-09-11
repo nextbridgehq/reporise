@@ -1,0 +1,55 @@
+{
+  "id": "real-026",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "eza-community/eza",
+  "commit": "471bfbc7b03cbac8c738e8d9050edb06ee79132a",
+  "capturedAt": "2026-09-08T11:50:56.886Z",
+  "files": [
+    {
+      "path": "Cargo.toml",
+      "sha256": "6b4936a1f23c7fd4537c3f2046c18f200a5ce4282feea0aecc330af86875f010",
+      "sizeBytes": 3900
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "15208d9f16448dad146d78cf758597368bd7f39be3d436cc5f6660a01bec4d7d",
+      "sizeBytes": 60947
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "7e9b526c6efb210cea1e2f5df68177db8a729fa0c1fd62df85a70d4d45c8f8b8",
+      "sizeBytes": 5727
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "1a10bc614251c28df919358f4cbdc3db184e7db360c160c92a71d8d0033287a5",
+      "sizeBytes": 8857
+    },
+    {
+      "path": "docs/tapes/demo.tape",
+      "sha256": "a6ed044071d2cb610e4223cfd237dcf3b9919e7781db39c8a68cb877fa50aacc",
+      "sizeBytes": 2226
+    },
+    {
+      "path": "docs/theme.yml",
+      "sha256": "0434120539f7fd5070d3ee417810b7db0ecfa5f136669129031ab0b656a285f1",
+      "sizeBytes": 1015
+    },
+    {
+      "path": "LICENSE.txt",
+      "sha256": "d8fa1a2de43b9129ff90f95b444627b4be7ec829a812073c6be2dca81b26aef9",
+      "sizeBytes": 13982
+    },
+    {
+      "path": "README.md",
+      "sha256": "eb62c308044b0439d935571f1b345aeca307ab0d21972438107a475df95db55b",
+      "sizeBytes": 10681
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "a9f2dbb303485c3fffcab4c1e474b791780686a6abb52eca7b9cb2f3e71cc6bf",
+      "sizeBytes": 666
+    }
+  ]
+}

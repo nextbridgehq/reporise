@@ -1,0 +1,230 @@
+{
+  "id": "real-103",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "chroma-core/chroma",
+  "commit": "34f8e76bae6195b91160e78b2e47a397055aa3ab",
+  "capturedAt": "2026-09-08T12:20:12.407Z",
+  "files": [
+    {
+      "path": "Cargo.toml",
+      "sha256": "4982b6cc4198d7e1f1937cfce4a18ac1f83c9e5cb005c27d0a5dc6584ea3e235",
+      "sizeBytes": 6680
+    },
+    {
+      "path": "docs/assets/chroma-wordmark-color.png",
+      "sha256": "61a5e5ac6f98cc3a6e7037f91e61fe98c5bf88ce75e6e39cb31499cb9174dd2d",
+      "sizeBytes": 5796
+    },
+    {
+      "path": "docs/assets/chroma-wordmark-white.png",
+      "sha256": "e514c4cc9a7bd7851001f074bfd876b7420a551d65d6c6147b339a90f25daa0d",
+      "sizeBytes": 5971
+    },
+    {
+      "path": "docs/mintlify/.claude/settings.json",
+      "sha256": "410cd718bb28d21f5e74d35620699187b76becbe8b7219c89ade5454537b0a01",
+      "sizeBytes": 85
+    },
+    {
+      "path": "docs/mintlify/AGENTS.md",
+      "sha256": "365238cb09108d641768888dca0a1c9e1cf065a9b3f17ae5b010320a73d0548b",
+      "sizeBytes": 759
+    },
+    {
+      "path": "docs/mintlify/CLAUDE.md",
+      "sha256": "a54ff182c7e8acf56acfd6e4b9c3ff41e2c41a31c9b211b2deb9df75d9a478f9",
+      "sizeBytes": 9
+    },
+    {
+      "path": "docs/mintlify/cloud/getting-started.mdx",
+      "sha256": "90108f8f920defbf504145b876b0529f5310a078d0a11efea3bc732baa1dcefc",
+      "sizeBytes": 4263
+    },
+    {
+      "path": "docs/mintlify/cloud/pricing.mdx",
+      "sha256": "1a2fc5b1077e6cf0f7cce1ec6c3d1c15c2d448826f9c3afdc45f70d6cc30a8a4",
+      "sizeBytes": 4166
+    },
+    {
+      "path": "docs/mintlify/cloud/quotas-limits.mdx",
+      "sha256": "bbd236a242445b1197a5a7639b17deb36e2d95717297cd1017879a3d0b4ab14c",
+      "sizeBytes": 2625
+    },
+    {
+      "path": "docs/mintlify/docs.json",
+      "sha256": "4abdab76243a165a2f134aa4165538437cf85094d2c7f852e558cf343cb2f9fc",
+      "sizeBytes": 18856
+    },
+    {
+      "path": "docs/mintlify/images/concurrent_inserts_1_0_10-dark.png",
+      "sha256": "e6c96ee1b3a73a29f2793dd2b9c2b10335220220a52e41075a02841d117b6869",
+      "sizeBytes": 57347
+    },
+    {
+      "path": "docs/mintlify/images/concurrent_inserts_1_0_10-light.png",
+      "sha256": "cc8fec110a5a5434c3262c514120c2d82c2a2ebce1eff960879cfc9505d29516",
+      "sizeBytes": 55928
+    },
+    {
+      "path": "docs/mintlify/images/concurrent_queries_1_0_10-dark.png",
+      "sha256": "37297f04ac2667ef2f0da4d314e82186a66b64f0606893df60088d5f09db54d0",
+      "sizeBytes": 142284
+    },
+    {
+      "path": "docs/mintlify/images/concurrent_queries_1_0_10-light.png",
+      "sha256": "0a46af8ece7ab6e84e7561ec255e05884e1812cfdd35ba51ad5bbc51880240d1",
+      "sizeBytes": 134049
+    },
+    {
+      "path": "docs/mintlify/images/concurrent_writes_1_0_10-dark.png",
+      "sha256": "707c46f38b536f2ccc02902c13bc0938392acae83205d305e128c690380f68a2",
+      "sizeBytes": 36913
+    },
+    {
+      "path": "docs/mintlify/images/concurrent_writes_1_0_10-light.png",
+      "sha256": "66fa339f1b586f5413abb4bc9d8e6c12ab38e5ed4c79cbc5acd3e65ccbbe5021",
+      "sizeBytes": 35827
+    },
+    {
+      "path": "docs/mintlify/images/cpu_mean_query_latency_1_0_10-dark.png",
+      "sha256": "6e863661df7b65c84a1c3c3df1eb48fcbff3bf47167b322bc2a79d7269254741",
+      "sizeBytes": 32007
+    },
+    {
+      "path": "docs/mintlify/images/cpu_mean_query_latency_1_0_10-light.png",
+      "sha256": "870119360d7e5e737775dd8177689773396ed84dfd9290aabe4bbe230c35281c",
+      "sizeBytes": 33330
+    },
+    {
+      "path": "docs/mintlify/images/dark-logo.svg",
+      "sha256": "cd9d3dbf2ad35f6c1d3b3aa9164b0d59eb9509a922c7772495049c85103a6ef4",
+      "sizeBytes": 4352
+    },
+    {
+      "path": "docs/mintlify/images/favicon.svg",
+      "sha256": "58c801aec57634e63e3af0a3522ca3ac7d1e6b566e93128e9789aa93495550d1",
+      "sizeBytes": 952
+    },
+    {
+      "path": "docs/mintlify/images/fork-edges-dark.png",
+      "sha256": "29b215a38e1defa7bafd3b9ef18261054d4c55f5aecd6819773af24dd5afc413",
+      "sizeBytes": 32631
+    },
+    {
+      "path": "examples/advanced/forking.ipynb",
+      "sha256": "27e0da97c8dcde19115ae2da7973f4b6368db9fd2fc007a3ba1358ef1a83e339",
+      "sizeBytes": 45355
+    },
+    {
+      "path": "examples/advanced/hadrware-optimized-image.md",
+      "sha256": "7c763820765aaba52d768933ee5b62c099a279f77659000a960c3c87b1ce1683",
+      "sizeBytes": 405
+    },
+    {
+      "path": "examples/basic_functionality/alternative_embeddings.ipynb",
+      "sha256": "09da9aaaef4c8db163bad32911f91d9ae2c994c0300ea104a47fa7c249f2ecaf",
+      "sizeBytes": 10490
+    },
+    {
+      "path": "examples/basic_functionality/assets/auh-sequence.png",
+      "sha256": "05638efb8c559d19ac7908aa1880e2b930b6f8d56631403f486c3fcb29467e55",
+      "sizeBytes": 139351
+    },
+    {
+      "path": "examples/basic_functionality/assets/auth-architecture.png",
+      "sha256": "1cc130383c9f118548f0cf6c031c69c91fb929d3295343a2de77e5b1ac71f81b",
+      "sizeBytes": 32974
+    },
+    {
+      "path": "examples/basic_functionality/auth.ipynb",
+      "sha256": "b7f4940843972eded9b3966513108c32dcb353a7ac53722944e25287fe4a4584",
+      "sizeBytes": 40612
+    },
+    {
+      "path": "examples/basic_functionality/authz/authz.yaml",
+      "sha256": "2ab2197ce7bcad1949b0f0272693df0aa268e015796027ea1fd943225dc2c128",
+      "sizeBytes": 3037
+    },
+    {
+      "path": "examples/basic_functionality/authz/README.md",
+      "sha256": "071fb86a4d08b5ea29a1b0c694f06f4447cc7d7af5c7d75866e9cdc1e2817f28",
+      "sizeBytes": 4232
+    },
+    {
+      "path": "examples/basic_functionality/in_not_in_filtering.ipynb",
+      "sha256": "879b063fe7ffaa0bcd87bbda65edb3043e4134f06432f95be68c73db41246998",
+      "sizeBytes": 4854
+    },
+    {
+      "path": "examples/basic_functionality/local_persistence.ipynb",
+      "sha256": "b8f6c033b0ca1bbcac99c729ae176cc683d40a05623f35ed6a2220aef8241780",
+      "sizeBytes": 5541
+    },
+    {
+      "path": "examples/basic_functionality/start_here.ipynb",
+      "sha256": "e7555406fbc55c1c81edde81f54478ffae4774f4b6a969c26f98bbf7bff357d8",
+      "sizeBytes": 12396
+    },
+    {
+      "path": "examples/basic_functionality/test_get_collection_by_id.ipynb",
+      "sha256": "4647da62b9e2eab7b45b9c3ead97e6ccfab30e3b1c27735b80c55b4f2d472c4e",
+      "sizeBytes": 1613
+    },
+    {
+      "path": "examples/basic_functionality/where_filtering.ipynb",
+      "sha256": "122777999614b465ff79328ede64c11741259ab685e2f95eebe46e03cb82b376",
+      "sizeBytes": 12305
+    },
+    {
+      "path": "examples/chat_with_your_documents/documents/state_of_the_union_2022.txt",
+      "sha256": "fff75dc11fd9836f50d73834dae5562254232dda670b618031dfbc0bd22eebf4",
+      "sizeBytes": 39291
+    },
+    {
+      "path": "examples/chat_with_your_documents/documents/state_of_the_union_2023.txt",
+      "sha256": "af0e7e6f8e89f9b200441667b147bdc161ef8192058172fe3dfa9cdc9ba61899",
+      "sizeBytes": 55817
+    },
+    {
+      "path": "examples/chat_with_your_documents/load_data.py",
+      "sha256": "2633df6a105b5a3ee92cc27ad10f8d2557fa01da0b4c262db9e9c7c3f1fa4a49",
+      "sizeBytes": 2965
+    },
+    {
+      "path": "examples/chat_with_your_documents/main.py",
+      "sha256": "bbeeca424954195ae5b9d9fd66ad3863a2abe47b3a230c46ad7bf278b77f7370",
+      "sizeBytes": 4799
+    },
+    {
+      "path": "examples/chat_with_your_documents/README.md",
+      "sha256": "8a2f35eb293aae6f64da95f7c257ed5e64dd98edbbacfa75d1879944f477d989",
+      "sizeBytes": 3305
+    },
+    {
+      "path": "examples/chat_with_your_documents/requirements.txt",
+      "sha256": "cbba70d556c45816482297b11ed55cd50fca6e20787cdef555bf2e0c034e2a6d",
+      "sizeBytes": 32
+    },
+    {
+      "path": "examples/conditional_transactions.py",
+      "sha256": "4210b9838430bef720ec5270ddd5443e48ba6e37a39b66183d8fe0cd82880b18",
+      "sizeBytes": 2833
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "sizeBytes": 11558
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "6ef6efacc55063ad9706f75ea1bdb5f28a4f836487ddc647c7fc83b17ae122bd",
+      "sizeBytes": 2483
+    },
+    {
+      "path": "README.md",
+      "sha256": "8b4745fb182f836419f88b1eeeac87b0081eda8ecc576137445e40adc02742d5",
+      "sizeBytes": 3351
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "turborepo",
+  "description": "High-performance build system for JS and TS",
+  "workspaces": [
+    "packages/*"
+  ]
+}

@@ -1,0 +1,2194 @@
+[
+  {
+    "candidate_id": "cand-000",
+    "repository": "expressjs/express",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-001",
+    "repository": "BurntSushi/ripgrep",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_standard",
+      "char_feature_comparison",
+      "char_install_config"
+    ],
+    "language": "rust",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-002",
+    "repository": "sharkdp/bat",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_standard",
+      "char_example_heavy",
+      "char_install_config"
+    ],
+    "language": "rust",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-003",
+    "repository": "junegunn/fzf",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_standard",
+      "char_tutorial",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-004",
+    "repository": "cli/cli",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-005",
+    "repository": "charmbracelet/bubbletea",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_example_heavy"
+    ],
+    "language": "go",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-006",
+    "repository": "starship/starship",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_install_config",
+      "char_standard"
+    ],
+    "language": "rust",
+    "license": "ISC",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-007",
+    "repository": "denisidoro/navi",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_install_config",
+      "char_mixed"
+    ],
+    "language": "rust",
+    "license": "Apache-2.0",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-008",
+    "repository": "eza-community/eza",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_install_config"
+    ],
+    "language": "rust",
+    "license": "EUPL-1.2",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-009",
+    "repository": "astral-sh/uv",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_docs_heavy",
+      "char_install_config",
+      "char_mixed"
+    ],
+    "language": "rust",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-010",
+    "repository": "zellij-org/zellij",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_install_config"
+    ],
+    "language": "rust",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-011",
+    "repository": "jesseduffield/lazygit",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_standard",
+      "char_tutorial",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-012",
+    "repository": "stedolan/jq",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_standard",
+      "char_tutorial"
+    ],
+    "language": "c",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-013",
+    "repository": "sharkdp/fd",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_standard",
+      "char_feature_comparison",
+      "char_install_config"
+    ],
+    "language": "rust",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-014",
+    "repository": "cheat/cheat",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-015",
+    "repository": "tldr-pages/tldr",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_standard"
+    ],
+    "language": "markdown",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-016",
+    "repository": "lodash/lodash",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-017",
+    "repository": "requests/requests",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_standard",
+      "char_tutorial"
+    ],
+    "language": "python",
+    "license": "Apache-2.0",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-018",
+    "repository": "moment/moment",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-019",
+    "repository": "pydantic/pydantic",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_feature_comparison"
+    ],
+    "language": "python",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-020",
+    "repository": "chalk/chalk",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_api_reference"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-021",
+    "repository": "axios/axios",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_api_reference",
+      "char_example_heavy"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-022",
+    "repository": "serde-rs/serde",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_standard",
+      "char_example_heavy"
+    ],
+    "language": "rust",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-023",
+    "repository": "tokio-rs/tokio",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_architecture"
+    ],
+    "language": "rust",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-024",
+    "repository": "colinhacks/zod",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_docs_heavy",
+      "char_api_reference",
+      "char_example_heavy",
+      "char_mixed"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-025",
+    "repository": "sindresorhus/ky",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_api_reference"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-026",
+    "repository": "sqlalchemy/sqlalchemy",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_standard",
+      "char_docs_heavy"
+    ],
+    "language": "python",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-027",
+    "repository": "clap-rs/clap",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_tutorial"
+    ],
+    "language": "rust",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-028",
+    "repository": "urllib3/urllib3",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_standard",
+      "char_example_heavy"
+    ],
+    "language": "python",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-029",
+    "repository": "dateutil/dateutil",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "python",
+    "license": "Apache-2.0",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-030",
+    "repository": "facebook/zstd",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_architecture"
+    ],
+    "language": "c",
+    "license": "BSD-3-Clause",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-031",
+    "repository": "facebook/react",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_standard",
+      "char_tutorial"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-032",
+    "repository": "vuejs/core",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_standard",
+      "char_architecture"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-033",
+    "repository": "django/django",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_standard",
+      "char_docs_heavy"
+    ],
+    "language": "python",
+    "license": "BSD-3-Clause",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-034",
+    "repository": "tiangolo/fastapi",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_tutorial",
+      "char_feature_comparison",
+      "char_mixed"
+    ],
+    "language": "python",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-035",
+    "repository": "pallets/flask",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_standard",
+      "char_example_heavy"
+    ],
+    "language": "python",
+    "license": "BSD-3-Clause",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-036",
+    "repository": "sveltejs/svelte",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_standard",
+      "char_tutorial"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-037",
+    "repository": "angular/angular",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_standard",
+      "char_architecture"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-038",
+    "repository": "nestjs/nest",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_tutorial"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-039",
+    "repository": "gin-gonic/gin",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_example_heavy"
+    ],
+    "language": "go",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-040",
+    "repository": "spring-projects/spring-boot",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "java",
+    "license": "Apache-2.0",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-041",
+    "repository": "actix/actix-web",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_standard"
+    ],
+    "language": "rust",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-042",
+    "repository": "rails/rails",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "ruby",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-043",
+    "repository": "octokit/octokit.js",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_api_reference",
+      "char_tutorial"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-044",
+    "repository": "stripe/stripe-node",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_api_reference",
+      "char_install_config"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-045",
+    "repository": "stripe/stripe-python",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_api_reference",
+      "char_example_heavy"
+    ],
+    "language": "python",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-046",
+    "repository": "aws/aws-sdk-js-v3",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_install_config"
+    ],
+    "language": "typescript",
+    "license": "Apache-2.0",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-047",
+    "repository": "googleapis/google-api-python-client",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_install_config"
+    ],
+    "language": "python",
+    "license": "Apache-2.0",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-048",
+    "repository": "openai/openai-python",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_api_reference"
+    ],
+    "language": "python",
+    "license": "Apache-2.0",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-049",
+    "repository": "openai/openai-node",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_api_reference"
+    ],
+    "language": "typescript",
+    "license": "Apache-2.0",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-050",
+    "repository": "resend/resend-node",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_standard"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-051",
+    "repository": "postmanlabs/postman-collection",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_api_reference",
+      "char_docs_heavy"
+    ],
+    "language": "javascript",
+    "license": "Apache-2.0",
+    "stars_tier": "niche_10_1k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-052",
+    "repository": "sendgrid/sendgrid-python",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_install_config"
+    ],
+    "language": "python",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-053",
+    "repository": "twilio/twilio-python",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_install_config"
+    ],
+    "language": "python",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-054",
+    "repository": "slackapi/bolt-js",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_example_heavy"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-055",
+    "repository": "supabase/supabase-js",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_api_reference"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-056",
+    "repository": "airtable/airtable.js",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_api_reference",
+      "char_install_config"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-057",
+    "repository": "algolia/algoliasearch-client-javascript",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_install_config",
+      "char_standard"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "niche_10_1k",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-058",
+    "repository": "eslint/eslint",
+    "primary_archetype": "devtool",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-059",
+    "repository": "prettier/prettier",
+    "primary_archetype": "devtool",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-060",
+    "repository": "microsoft/TypeScript",
+    "primary_archetype": "devtool",
+    "readme_characteristics": [
+      "char_standard",
+      "char_architecture"
+    ],
+    "language": "typescript",
+    "license": "Apache-2.0",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-061",
+    "repository": "vitejs/vite",
+    "primary_archetype": "devtool",
+    "readme_characteristics": [
+      "char_standard",
+      "char_tutorial"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-062",
+    "repository": "swc-project/swc",
+    "primary_archetype": "devtool",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_architecture"
+    ],
+    "language": "rust",
+    "license": "Apache-2.0",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-063",
+    "repository": "biomejs/biome",
+    "primary_archetype": "devtool",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_tutorial"
+    ],
+    "language": "rust",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-064",
+    "repository": "evanw/esbuild",
+    "primary_archetype": "devtool",
+    "readme_characteristics": [
+      "char_docs_heavy",
+      "char_architecture",
+      "char_feature_comparison",
+      "char_mixed"
+    ],
+    "language": "go",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-065",
+    "repository": "rust-lang/rust-clippy",
+    "primary_archetype": "devtool",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_install_config"
+    ],
+    "language": "rust",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-066",
+    "repository": "vitest-dev/vitest",
+    "primary_archetype": "devtool",
+    "readme_characteristics": [
+      "char_standard",
+      "char_feature_comparison"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-067",
+    "repository": "astral-sh/ruff",
+    "primary_archetype": "devtool",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_docs_heavy",
+      "char_install_config",
+      "char_mixed"
+    ],
+    "language": "rust",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-068",
+    "repository": "webpack/webpack",
+    "primary_archetype": "devtool",
+    "readme_characteristics": [
+      "char_standard",
+      "char_architecture"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-069",
+    "repository": "calcom/cal.com",
+    "primary_archetype": "webapp",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_install_config"
+    ],
+    "language": "typescript",
+    "license": "AGPL-3.0",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-070",
+    "repository": "plausible/analytics",
+    "primary_archetype": "webapp",
+    "readme_characteristics": [
+      "char_standard",
+      "char_feature_comparison"
+    ],
+    "language": "elixir",
+    "license": "AGPL-3.0",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-071",
+    "repository": "outline/outline",
+    "primary_archetype": "webapp",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "typescript",
+    "license": "BSL-1.1",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-072",
+    "repository": "mattermost/mattermost",
+    "primary_archetype": "webapp",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "AGPL-3.0",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-073",
+    "repository": "documenso/documenso",
+    "primary_archetype": "webapp",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "typescript",
+    "license": "AGPL-3.0",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-074",
+    "repository": "grafana/grafana",
+    "primary_archetype": "webapp",
+    "readme_characteristics": [
+      "char_standard",
+      "char_architecture"
+    ],
+    "language": "typescript",
+    "license": "AGPL-3.0",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-075",
+    "repository": "nocodb/nocodb",
+    "primary_archetype": "webapp",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_install_config"
+    ],
+    "language": "typescript",
+    "license": "AGPL-3.0",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-076",
+    "repository": "twentyhq/twenty",
+    "primary_archetype": "webapp",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "typescript",
+    "license": "AGPL-3.0",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-077",
+    "repository": "hoppscotch/hoppscotch",
+    "primary_archetype": "webapp",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_standard"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-078",
+    "repository": "affinepro/affine",
+    "primary_archetype": "webapp",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_install_config"
+    ],
+    "language": "typescript",
+    "license": "MPL-2.0",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-079",
+    "repository": "metabase/metabase",
+    "primary_archetype": "webapp",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "clojure",
+    "license": "AGPL-3.0",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-080",
+    "repository": "sindresorhus/awesome",
+    "primary_archetype": "docs",
+    "readme_characteristics": [
+      "char_docs_heavy",
+      "char_minimal"
+    ],
+    "language": "markdown",
+    "license": "CC0-1.0",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-081",
+    "repository": "kamranahmedse/developer-roadmap",
+    "primary_archetype": "docs",
+    "readme_characteristics": [
+      "char_docs_heavy",
+      "char_architecture"
+    ],
+    "language": "typescript",
+    "license": "CC-BY-NC-SA-4.0",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-082",
+    "repository": "ryanmcdermott/clean-code-javascript",
+    "primary_archetype": "docs",
+    "readme_characteristics": [
+      "char_docs_heavy",
+      "char_example_heavy"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-083",
+    "repository": "donnemartin/system-design-primer",
+    "primary_archetype": "docs",
+    "readme_characteristics": [
+      "char_docs_heavy",
+      "char_architecture"
+    ],
+    "language": "python",
+    "license": "CC-BY-SA-4.0",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-084",
+    "repository": "jwasham/coding-interview-university",
+    "primary_archetype": "docs",
+    "readme_characteristics": [
+      "char_docs_heavy",
+      "char_tutorial"
+    ],
+    "language": "markdown",
+    "license": "CC-BY-SA-4.0",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-085",
+    "repository": "github/gitignore",
+    "primary_archetype": "docs",
+    "readme_characteristics": [
+      "char_minimal",
+      "char_standard"
+    ],
+    "language": "shell",
+    "license": "CC0-1.0",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-086",
+    "repository": "public-apis/public-apis",
+    "primary_archetype": "docs",
+    "readme_characteristics": [
+      "char_docs_heavy",
+      "char_api_reference"
+    ],
+    "language": "python",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-087",
+    "repository": "ripienaar/free-for-dev",
+    "primary_archetype": "docs",
+    "readme_characteristics": [
+      "char_docs_heavy"
+    ],
+    "language": "html",
+    "license": "CC-BY-SA-4.0",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-088",
+    "repository": "goldbergyoni/nodebestpractices",
+    "primary_archetype": "docs",
+    "readme_characteristics": [
+      "char_docs_heavy",
+      "char_architecture",
+      "char_example_heavy"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-089",
+    "repository": "babel/babel",
+    "primary_archetype": "monorepo",
+    "readme_characteristics": [
+      "char_standard",
+      "char_architecture"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-090",
+    "repository": "pnpm/pnpm",
+    "primary_archetype": "monorepo",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_install_config"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-091",
+    "repository": "nrwl/nx",
+    "primary_archetype": "monorepo",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_architecture"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-092",
+    "repository": "vercel/turborepo",
+    "primary_archetype": "monorepo",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_tutorial"
+    ],
+    "language": "rust",
+    "license": "MPL-2.0",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-093",
+    "repository": "facebook/docusaurus",
+    "primary_archetype": "monorepo",
+    "readme_characteristics": [
+      "char_standard",
+      "char_tutorial"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-094",
+    "repository": "shadcn-ui/ui",
+    "primary_archetype": "monorepo",
+    "readme_characteristics": [
+      "char_standard",
+      "char_example_heavy"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-095",
+    "repository": "storybookjs/storybook",
+    "primary_archetype": "monorepo",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_tutorial"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-096",
+    "repository": "backstage/backstage",
+    "primary_archetype": "monorepo",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_install_config"
+    ],
+    "language": "typescript",
+    "license": "Apache-2.0",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-097",
+    "repository": "lerna/lerna",
+    "primary_archetype": "monorepo",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-098",
+    "repository": "docker/compose",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "Apache-2.0",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-099",
+    "repository": "hashicorp/terraform",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_standard",
+      "char_architecture"
+    ],
+    "language": "go",
+    "license": "MPL-2.0",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-100",
+    "repository": "ansible/ansible",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "python",
+    "license": "GPL-3.0",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-101",
+    "repository": "helm/helm",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "Apache-2.0",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-102",
+    "repository": "prometheus/prometheus",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "Apache-2.0",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-103",
+    "repository": "traefik/traefik",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-104",
+    "repository": "hashicorp/vault",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_standard",
+      "char_architecture"
+    ],
+    "language": "go",
+    "license": "MPL-2.0",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-105",
+    "repository": "localstack/localstack",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_install_config",
+      "char_mixed"
+    ],
+    "language": "python",
+    "license": "Apache-2.0",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-106",
+    "repository": "k3s-io/k3s",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "Apache-2.0",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-107",
+    "repository": "containerd/containerd",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_standard"
+    ],
+    "language": "go",
+    "license": "Apache-2.0",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-108",
+    "repository": "fluxcd/flux2",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_architecture"
+    ],
+    "language": "go",
+    "license": "Apache-2.0",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-109",
+    "repository": "open-telemetry/opentelemetry-collector",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "Apache-2.0",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-110",
+    "repository": "argoproj/argo-cd",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_tutorial"
+    ],
+    "language": "go",
+    "license": "Apache-2.0",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-111",
+    "repository": "huggingface/transformers",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_example_heavy",
+      "char_feature_comparison",
+      "char_mixed"
+    ],
+    "language": "python",
+    "license": "Apache-2.0",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-112",
+    "repository": "langchain-ai/langchain",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_tutorial",
+      "char_example_heavy",
+      "char_mixed"
+    ],
+    "language": "python",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-113",
+    "repository": "ollama/ollama",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-114",
+    "repository": "scikit-learn/scikit-learn",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_standard",
+      "char_example_heavy"
+    ],
+    "language": "python",
+    "license": "BSD-3-Clause",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-115",
+    "repository": "numpy/numpy",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "python",
+    "license": "BSD-3-Clause",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-116",
+    "repository": "pandas-dev/pandas",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_standard",
+      "char_example_heavy"
+    ],
+    "language": "python",
+    "license": "BSD-3-Clause",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-117",
+    "repository": "pytorch/pytorch",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_standard",
+      "char_architecture"
+    ],
+    "language": "python",
+    "license": "BSD-3-Clause",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-118",
+    "repository": "vllm-project/vllm",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_example_heavy"
+    ],
+    "language": "python",
+    "license": "Apache-2.0",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-119",
+    "repository": "run-llama/llama_index",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_example_heavy"
+    ],
+    "language": "python",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-120",
+    "repository": "milvus-io/milvus",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "Apache-2.0",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-121",
+    "repository": "chroma-core/chroma",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_tutorial"
+    ],
+    "language": "python",
+    "license": "Apache-2.0",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-122",
+    "repository": "ray-project/ray",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_example_heavy"
+    ],
+    "language": "python",
+    "license": "Apache-2.0",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-123",
+    "repository": "ggerganov/llama.cpp",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_docs_heavy",
+      "char_install_config"
+    ],
+    "language": "c++",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-124",
+    "repository": "deepseek-ai/DeepSeek-V3",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_architecture"
+    ],
+    "language": "python",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-125",
+    "repository": "microsoft/vscode-python",
+    "primary_archetype": "plugin",
+    "readme_characteristics": [
+      "char_standard",
+      "char_tutorial"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-126",
+    "repository": "actions/checkout",
+    "primary_archetype": "plugin",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_api_reference"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-127",
+    "repository": "actions/setup-node",
+    "primary_archetype": "plugin",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_api_reference"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-128",
+    "repository": "actions/setup-python",
+    "primary_archetype": "plugin",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_api_reference"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-129",
+    "repository": "sindresorhus/refined-github",
+    "primary_archetype": "plugin",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_install_config"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-130",
+    "repository": "nvim-treesitter/nvim-treesitter",
+    "primary_archetype": "plugin",
+    "readme_characteristics": [
+      "char_install_config",
+      "char_tutorial"
+    ],
+    "language": "lua",
+    "license": "Apache-2.0",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-131",
+    "repository": "tpope/vim-fugitive",
+    "primary_archetype": "plugin",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "vim",
+    "license": "Vim",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-132",
+    "repository": "tailwindlabs/tailwindcss-intellisense",
+    "primary_archetype": "plugin",
+    "readme_characteristics": [
+      "char_standard",
+      "char_tutorial"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-133",
+    "repository": "sindresorhus/is-stream",
+    "primary_archetype": "small_project",
+    "readme_characteristics": [
+      "char_minimal",
+      "char_example_heavy"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "niche_10_1k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-134",
+    "repository": "sindresorhus/is-plain-obj",
+    "primary_archetype": "small_project",
+    "readme_characteristics": [
+      "char_minimal",
+      "char_example_heavy"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "niche_10_1k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-135",
+    "repository": "jonschlinkert/is-odd",
+    "primary_archetype": "small_project",
+    "readme_characteristics": [
+      "char_minimal",
+      "char_standard"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "niche_10_1k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-136",
+    "repository": "jonschlinkert/is-even",
+    "primary_archetype": "small_project",
+    "readme_characteristics": [
+      "char_minimal",
+      "char_standard"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "niche_10_1k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-137",
+    "repository": "chriso/validator.js",
+    "primary_archetype": "small_project",
+    "readme_characteristics": [
+      "char_api_reference",
+      "char_example_heavy"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-138",
+    "repository": "component/emitter",
+    "primary_archetype": "small_project",
+    "readme_characteristics": [
+      "char_minimal",
+      "char_example_heavy"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-139",
+    "repository": "segmentio/is-url",
+    "primary_archetype": "small_project",
+    "readme_characteristics": [
+      "char_minimal",
+      "char_standard"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "niche_10_1k",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-140",
+    "repository": "epoberezkin/fast-deep-equal",
+    "primary_archetype": "small_project",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_example_heavy"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-141",
+    "repository": "dalance/procs",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_standard",
+      "char_feature_comparison",
+      "char_install_config"
+    ],
+    "language": "rust",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-142",
+    "repository": "bootandy/dust",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "rust",
+    "license": "Apache-2.0",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-143",
+    "repository": "psf/black",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "python",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-144",
+    "repository": "google/guava",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_standard",
+      "char_docs_heavy"
+    ],
+    "language": "java",
+    "license": "Apache-2.0",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-145",
+    "repository": "boto/boto3",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_standard",
+      "char_tutorial"
+    ],
+    "language": "python",
+    "license": "Apache-2.0",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-146",
+    "repository": "solidjs/solid",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_tutorial"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-147",
+    "repository": "quarkusio/quarkus",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_tutorial"
+    ],
+    "language": "java",
+    "license": "Apache-2.0",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-148",
+    "repository": "microsoft/azure-sdk-for-js",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_install_config"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-149",
+    "repository": "segmentio/analytics-node",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_api_reference",
+      "char_example_heavy"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "niche_10_1k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-150",
+    "repository": "facebook/jest",
+    "primary_archetype": "devtool",
+    "readme_characteristics": [
+      "char_standard",
+      "char_tutorial"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-151",
+    "repository": "pylint-dev/pylint",
+    "primary_archetype": "devtool",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "python",
+    "license": "GPL-2.0",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "test"
+  },
+  {
+    "candidate_id": "cand-152",
+    "repository": "discourse/discourse",
+    "primary_archetype": "webapp",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "ruby",
+    "license": "GPL-2.0",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-153",
+    "repository": "getsentry/sentry",
+    "primary_archetype": "webapp",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_install_config"
+    ],
+    "language": "python",
+    "license": "BSL-1.1",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-154",
+    "repository": "enaqx/awesome-react",
+    "primary_archetype": "docs",
+    "readme_characteristics": [
+      "char_docs_heavy"
+    ],
+    "language": "markdown",
+    "license": "CC0-1.0",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-155",
+    "repository": "vinta/awesome-python",
+    "primary_archetype": "docs",
+    "readme_characteristics": [
+      "char_docs_heavy"
+    ],
+    "language": "python",
+    "license": "CC0-1.0",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-156",
+    "repository": "gatsbyjs/gatsby",
+    "primary_archetype": "monorepo",
+    "readme_characteristics": [
+      "char_standard",
+      "char_tutorial"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-157",
+    "repository": "elastic/kibana",
+    "primary_archetype": "monorepo",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_install_config"
+    ],
+    "language": "typescript",
+    "license": "ELv2",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-158",
+    "repository": "hashicorp/consul",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_standard",
+      "char_architecture"
+    ],
+    "language": "go",
+    "license": "BSL-1.1",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-159",
+    "repository": "cilium/cilium",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "Apache-2.0",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-160",
+    "repository": "apache/spark",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_standard",
+      "char_docs_heavy"
+    ],
+    "language": "scala",
+    "license": "Apache-2.0",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-161",
+    "repository": "tiangolo/sqlmodel",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_example_heavy"
+    ],
+    "language": "python",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-162",
+    "repository": "prettier/prettier-vscode",
+    "primary_archetype": "plugin",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-163",
+    "repository": "dense-analysis/ale",
+    "primary_archetype": "plugin",
+    "readme_characteristics": [
+      "char_docs_heavy",
+      "char_install_config"
+    ],
+    "language": "vim",
+    "license": "Vim",
+    "stars_tier": "major_10k_50k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-164",
+    "repository": "ljharb/has-symbols",
+    "primary_archetype": "small_project",
+    "readme_characteristics": [
+      "char_minimal",
+      "char_example_heavy"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "niche_10_1k",
+    "proposed_split": "train"
+  },
+  {
+    "candidate_id": "cand-165",
+    "repository": "isaacs/inherits",
+    "primary_archetype": "small_project",
+    "readme_characteristics": [
+      "char_minimal",
+      "char_standard"
+    ],
+    "language": "javascript",
+    "license": "ISC",
+    "stars_tier": "niche_10_1k",
+    "proposed_split": "validation"
+  },
+  {
+    "candidate_id": "cand-017",
+    "repository": "twbs/bootstrap",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "proposed_split": "train"
+  }
+]

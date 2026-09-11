@@ -1,0 +1,40 @@
+{
+  "certification_timestamp": "2026-09-14T07:12:29.599Z",
+  "commit": "ea9e78953dedfda62682274eb3364c18857cc547",
+  "commit_short": "ea9e789",
+  "tag": "v0.1.0",
+  "phases": {
+    "phase1_provenance": {
+      "status": "PASS",
+      "total_verified": 21
+    },
+    "phase2_unit_tests": {
+      "status": "PASS",
+      "total_passed": 64,
+      "total_failed": 0
+    },
+    "phase3_single_doc_invariants": {
+      "status": "PASS",
+      "pinned_commit": "v0.1.0"
+    },
+    "phase4_multi_doc_generalization": {
+      "status": "PASS",
+      "fixtures_evaluated": 32,
+      "overall_mae": 0.6875,
+      "aeo_mae": 0.0938,
+      "geo_mae": 0.2813,
+      "seo_mae": 0.0313,
+      "within_one_pct": 100
+    },
+    "phase5_guardrails": {
+      "status": "PASS",
+      "guard_a": "VERIFIED",
+      "guard_b": "VERIFIED",
+      "guard_c_violations": 0,
+      "guard_d": "VERIFIED",
+      "guard_e": "VERIFIED"
+    }
+  },
+  "duration_seconds": 38.18,
+  "status": "CERTIFIED_PASS"
+}

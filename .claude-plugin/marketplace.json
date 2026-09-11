@@ -1,0 +1,16 @@
+{
+  "description": "Claude Code plugins from the Nextbridge developer ecosystem.",
+  "name": "nextbridge",
+  "owner": { "name": "Nextbridge", "url": "https://github.com/nextbridgehq" },
+  "plugins": [
+    {
+      "author": { "name": "Nextbridge", "url": "https://github.com/nextbridgehq" },
+      "description": "Audit how findable and citable a repository is across search, answer, and generative engines — then measure whether the engines actually cite it. Runs offline, needs no API keys.",
+      "homepage": "https://github.com/nextbridgehq/reporise#readme",
+      "license": "MIT",
+      "name": "reporise",
+      "repository": "https://github.com/nextbridgehq/reporise",
+      "source": { "repo": "nextbridgehq/reporise", "source": "github" }
+    }
+  ]
+}

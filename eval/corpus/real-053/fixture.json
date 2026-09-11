@@ -1,0 +1,235 @@
+{
+  "id": "real-053",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "slackapi/bolt-js",
+  "commit": "7c37556c913313d623e3beb7608b9254d96ddc47",
+  "capturedAt": "2026-09-08T12:05:31.447Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "8969cb8f16841566fca33b0fa3659604e374f6c60515aeaa4f18dffef241ba00",
+      "sizeBytes": 5342
+    },
+    {
+      "path": "docs/english/concepts/acknowledge.md",
+      "sha256": "a758652a9825940b4f32e2bc9865263c944116cfa8f7cea86ecc1aaef8d5e214",
+      "sizeBytes": 1431
+    },
+    {
+      "path": "docs/english/concepts/actions.md",
+      "sha256": "1ed35fc55dfa5bc782ce29c8a0e6ed81cc62203d9f3eccb97fe2e235ac05d476",
+      "sizeBytes": 3444
+    },
+    {
+      "path": "docs/english/concepts/adding-agent-features.md",
+      "sha256": "ec5e4625cacb14bc0e49ed55a65fb26a4f612f9ac483c3f3fd1b0173268206b4",
+      "sizeBytes": 20798
+    },
+    {
+      "path": "docs/english/concepts/authenticating-oauth.md",
+      "sha256": "55bacdb66241f20d21f76cbd46d5a2ed443047b7f4fc359474a511ecbe9ac011",
+      "sizeBytes": 25645
+    },
+    {
+      "path": "docs/english/concepts/authorization.md",
+      "sha256": "44d030516855caf9dca48bf2c8a9a9896f3d75cf3354a8a1858a693133f2b353",
+      "sizeBytes": 2877
+    },
+    {
+      "path": "docs/english/concepts/commands.md",
+      "sha256": "2886ce55d35db9c4b30164e424a6673ae271421f7c4c7d6ea1679824154e766e",
+      "sizeBytes": 1135
+    },
+    {
+      "path": "docs/english/concepts/context.md",
+      "sha256": "55bcb4541546d5bc407ced84c48eef3784ab249af13456655d6ae1fd53008660",
+      "sizeBytes": 1913
+    },
+    {
+      "path": "docs/english/concepts/creating-modals.md",
+      "sha256": "f4a622efeee9f2e30a95c93f6846866b2e63b1d51e8afc65af4b46385547bf38",
+      "sizeBytes": 2217
+    },
+    {
+      "path": "docs/english/concepts/custom-routes.md",
+      "sha256": "0c6419ef64a237f6dd8c35899b6d8474fc90525cb505a0f3a82c524f36785154",
+      "sizeBytes": 2970
+    },
+    {
+      "path": "docs/english/concepts/custom-steps-dynamic-options.md",
+      "sha256": "8234c9107d8f234282961193d9275da7ca75057c8d8dc50e4e1a937750d36daf",
+      "sizeBytes": 13551
+    },
+    {
+      "path": "docs/english/concepts/custom-steps.md",
+      "sha256": "645bc0cd91eb7492cff39837d92b7b6505e0379233765166f67aac51ff082173",
+      "sizeBytes": 6262
+    },
+    {
+      "path": "docs/english/concepts/deferring-initialization.md",
+      "sha256": "ab2abea06dfd0ede78d01cfec101aa17c5b592aba7b2c6e8c755ddb7c2cbc7a8",
+      "sizeBytes": 888
+    },
+    {
+      "path": "docs/english/concepts/error-handling.md",
+      "sha256": "53055f764a593b38a3aa73cda371dd72adccbbeded478fc9ab82b4a99c6fe0c9",
+      "sizeBytes": 3895
+    },
+    {
+      "path": "docs/english/concepts/event-listening.md",
+      "sha256": "9a7470dc949c97f0b374fa2b10a18b2b9afd0fa9e810a8729ade9da3355c83a4",
+      "sizeBytes": 1236
+    },
+    {
+      "path": "docs/english/concepts/global-middleware.md",
+      "sha256": "54495543a7f19406ecaaf335c11b752195bf6634a2b093da1682f07709d1806b",
+      "sizeBytes": 2361
+    },
+    {
+      "path": "docs/english/concepts/listener-middleware.md",
+      "sha256": "f2e5b9ced5f4921fb88ef776aa9888da03ad0c60e0fdb945b38843da78809f31",
+      "sizeBytes": 1553
+    },
+    {
+      "path": "docs/english/concepts/logging.md",
+      "sha256": "3ecb260194b420921b66cddad680120ad6c167d5f42eed3a59bb2c65d57e8d03",
+      "sizeBytes": 2968
+    },
+    {
+      "path": "docs/english/concepts/message-listening.md",
+      "sha256": "a8a6be96bc7ead683482c143b5a5170d5975821dc3dcc6a09991a4cacbef87e5",
+      "sizeBytes": 2105
+    },
+    {
+      "path": "docs/english/concepts/message-sending.md",
+      "sha256": "9ce2c14b86d699813d4bb18256fa59d96d3a74e55dd68736bc6a7e69344be9fe",
+      "sizeBytes": 4861
+    },
+    {
+      "path": "docs/english/concepts/publishing-views.md",
+      "sha256": "9fe31efc8bfbc7d85743c2762fd625082ff1bb2123049a6d60af3a95d4287df2",
+      "sizeBytes": 1613
+    },
+    {
+      "path": "examples/custom-properties/.gitignore",
+      "sha256": "9bcf88aa593d97e3e7f8e6b3698c46040ad039986c92be232cd4b29d84c3768d",
+      "sizeBytes": 32
+    },
+    {
+      "path": "examples/custom-properties/express.js",
+      "sha256": "4977daa9244a19d6e090e132a8af119ab717d24f7f8c056b386d0cd0b3822860",
+      "sizeBytes": 594
+    },
+    {
+      "path": "examples/custom-properties/http.js",
+      "sha256": "bf3b56e6edea996b51e2916408f29ab93e9edfcd6c163a9b711904c351be412d",
+      "sizeBytes": 1600
+    },
+    {
+      "path": "examples/custom-properties/LICENSE",
+      "sha256": "cce3c5436465d9ef4295306cba45bed624fcbed7bf26aecacd92df7417e46044",
+      "sizeBytes": 1099
+    },
+    {
+      "path": "examples/custom-properties/link.sh",
+      "sha256": "52c0f2533e958190420fd0a3e2e716f3639b438acdf15888df1243a121b29461",
+      "sizeBytes": 186
+    },
+    {
+      "path": "examples/custom-properties/package.json",
+      "sha256": "bea9a78804e0d2a910f59a4282a3e7b3b7753a94f2c397c73e012a0b187733a3",
+      "sizeBytes": 395
+    },
+    {
+      "path": "examples/custom-properties/socket-mode.js",
+      "sha256": "012032992531c29c5b941519f0dd5bdf7786a37a4ea4ee656686df2fce79ec25",
+      "sizeBytes": 623
+    },
+    {
+      "path": "examples/custom-receiver/.gitignore",
+      "sha256": "c27130a421503c1da63e0e72fb3f09685ba8cb678652f15d8817e5d924d93b0e",
+      "sizeBytes": 28
+    },
+    {
+      "path": "examples/custom-receiver/link.sh",
+      "sha256": "904332c0d8aec5a479b1991d0b132ecec330615c6cb592be9820df2e8eacab66",
+      "sizeBytes": 188
+    },
+    {
+      "path": "examples/custom-receiver/package-lock.json",
+      "sha256": "99fbb75535173033a5534e458efdd3150c8bd93acdf3bbaf3f7a956ebbdb8d04",
+      "sizeBytes": 103321
+    },
+    {
+      "path": "examples/custom-receiver/package.json",
+      "sha256": "d23b498d365c618e6aa18cb7e1de85725136a0e8530b1ec9aad8c08294deae79",
+      "sizeBytes": 723
+    },
+    {
+      "path": "examples/custom-receiver/README.md",
+      "sha256": "0d33d7ed899a7aecddfd631f12a97279d0dd60ba654cb1495d5079ea178377d5",
+      "sizeBytes": 1783
+    },
+    {
+      "path": "examples/custom-receiver/src/fastify-main.ts",
+      "sha256": "b0f8d338344f82d0258164db6b6d87a894f2a1efebae5c12c35b88a3d6322fb0",
+      "sizeBytes": 1463
+    },
+    {
+      "path": "examples/custom-receiver/src/FastifyReceiver.ts",
+      "sha256": "fb3905ecd792058af7255eef180e31244540a1cfaf0b5ff8ddfc0783d3be6efb",
+      "sizeBytes": 11819
+    },
+    {
+      "path": "examples/custom-receiver/src/koa-main.ts",
+      "sha256": "945bb69b4cc1ed292c4eb508dd7517dad5905ab513f62c1cd69c469fa0780dae",
+      "sizeBytes": 1489
+    },
+    {
+      "path": "examples/custom-receiver/src/KoaReceiver.ts",
+      "sha256": "543a80f7fa9ef60d582aae945035a4e5b112ce557ad67830232bf8c5669456f6",
+      "sizeBytes": 11176
+    },
+    {
+      "path": "examples/custom-receiver/tsconfig.json",
+      "sha256": "bc5fc0c2da87e22d6b4990b057cecda500cd04f3d7ac97734f4017c71c187e89",
+      "sizeBytes": 305
+    },
+    {
+      "path": "examples/deploy-aws-lambda/.gitignore",
+      "sha256": "1920ff06c0d66259ed144eab83c506cb4708dca147808024ed90665431221ef7",
+      "sizeBytes": 100
+    },
+    {
+      "path": "examples/deploy-aws-lambda/app.js",
+      "sha256": "1be82f30fba9f6798042b57b580ac5a0a933173c457e334ee075c577060236be",
+      "sizeBytes": 2104
+    },
+    {
+      "path": "examples/deploy-aws-lambda/LICENSE",
+      "sha256": "f8ba52a14718d4797b2bed62ebc0b5306d3222b44a3536092fdee47ad55bd5a1",
+      "sizeBytes": 1101
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "3b42a7b6681493bf94ecefb408427410efa02feaa329c11dd764da085d6c467b",
+      "sizeBytes": 1154
+    },
+    {
+      "path": "package.json",
+      "sha256": "77288888272ec3626596d52e30d73c92ae2a400f00029e07907cb277739a94a5",
+      "sizeBytes": 2569
+    },
+    {
+      "path": "README.md",
+      "sha256": "2393d9f312aa7f2d281db60c249b8999af54430bdaee7f4796f7c027aedf54d9",
+      "sizeBytes": 9376
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "ea510a91f27c2ddfb7f876d12565b096fb63541c887ad1bb38eb1edbecd1b9b7",
+      "sizeBytes": 3463
+    }
+  ]
+}

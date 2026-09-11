@@ -1,0 +1,40 @@
+{
+  "id": "real-018",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "microsoft/TypeScript",
+  "commit": "c4e33552086a978f830c7b74bd4f3050117070ef",
+  "capturedAt": "2026-09-08T11:49:25.225Z",
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "e3f13b47f43c2a39172f596d1a1fd95cdd5ebe66318753b9bfd71af6c2c1c78e",
+      "sizeBytes": 333
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "db9ed2365735941b1d9e64c199617f0a0a364d6a3c12d2edd798a5827e59066c",
+      "sizeBytes": 8334
+    },
+    {
+      "path": "LICENSE.txt",
+      "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47",
+      "sizeBytes": 9197
+    },
+    {
+      "path": "package.json",
+      "sha256": "f2901f896a6fa3aff21c2b103a3037ac4dcef92c6be2be3bce8ed4132f52c53c",
+      "sizeBytes": 1838
+    },
+    {
+      "path": "README.md",
+      "sha256": "b43867a1a978a0a3d881b91e50e9807f1f56e3f1dd54d65cad43f471c84e0036",
+      "sizeBytes": 2741
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "cec829e06ab53bb27e96fa6dcd8daa2b6cc4a6cc08b00ff5965fac1cbb54f7f1",
+      "sizeBytes": 2577
+    }
+  ]
+}

@@ -1,0 +1,5137 @@
+{
+  "definitions": {
+    "F01": {
+      "code": "F01",
+      "name": "Missing semantic signal",
+      "category": "LEXICAL",
+      "description": "Documentation communicates concept with non-standard terminology missed by regex patterns"
+    },
+    "F02": {
+      "code": "F02",
+      "name": "False-positive semantic signal",
+      "category": "LEXICAL",
+      "description": "Superficial keyword match triggered without conveying substantive technical content"
+    },
+    "F03": {
+      "code": "F03",
+      "name": "Structural mismatch",
+      "category": "STRUCTURAL",
+      "description": "Section content positioned under unconventional heading level, badge container, or tab interface"
+    },
+    "F04": {
+      "code": "F04",
+      "name": "Evidence-quality mismatch",
+      "category": "WEIGHTING",
+      "description": "Basic evidence (e.g. 2 code snippets) awarded high surface score where rater required formal diagrams/citations"
+    },
+    "F05": {
+      "code": "F05",
+      "name": "Granularity mismatch",
+      "category": "WEIGHTING",
+      "description": "Score bucketing threshold too coarse or sensitive near bucket boundary (e.g. 69 vs 70)"
+    },
+    "F06": {
+      "code": "F06",
+      "name": "Context/window limitation",
+      "category": "CONDITIONAL",
+      "description": "Signal presence valid only when combined with prerequisite domain context (e.g. SDK auth vs Webapp login)"
+    },
+    "F07": {
+      "code": "F07",
+      "name": "Cross-section reasoning failure",
+      "category": "COMPOSITIONAL",
+      "description": "Information split across separate sections (e.g. pitch in intro, prerequisite in install) requiring synthesis"
+    },
+    "F08": {
+      "code": "F08",
+      "name": "Documentation-architecture failure",
+      "category": "STRUCTURAL",
+      "description": "Crucial discoverability assets housed in external /docs/ or monorepo subpackages rather than root README"
+    },
+    "F09": {
+      "code": "F09",
+      "name": "Comparative/evaluative failure",
+      "category": "COMPOSITIONAL",
+      "description": "Subtle differentiator vs competitor present in prose but missed by strict \"vs\" or table heuristics"
+    },
+    "F10": {
+      "code": "F10",
+      "name": "Unknown / unclassified",
+      "category": "MISSING-CAPABILITY",
+      "description": "Residual variance not captured by existing heuristic structural abstractions"
+    }
+  },
+  "total_residual_instances": 294,
+  "failure_code_distribution": {
+    "F01": 14,
+    "F02": 15,
+    "F03": 62,
+    "F04": 94,
+    "F05": 63,
+    "F06": 0,
+    "F07": 1,
+    "F08": 20,
+    "F09": 7,
+    "F10": 18
+  },
+  "candidate_modality_distribution": {
+    "LEXICAL": 29,
+    "STRUCTURAL": 82,
+    "WEIGHTING": 157,
+    "CONDITIONAL": 0,
+    "COMPOSITIONAL": 8,
+    "MISSING-CAPABILITY": 18
+  },
+  "classified_errors": [
+    {
+      "fixture_id": "real-001",
+      "repository": "eslint/eslint",
+      "archetype": "devtool",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 5,
+      "actual": 4,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-002",
+      "repository": "prettier/prettier",
+      "archetype": "devtool",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-003",
+      "repository": "BurntSushi/ripgrep",
+      "archetype": "cli",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_feature_comparison",
+        "char_install_config"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-003",
+      "repository": "BurntSushi/ripgrep",
+      "archetype": "cli",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_feature_comparison",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-003",
+      "repository": "BurntSushi/ripgrep",
+      "archetype": "cli",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_feature_comparison",
+        "char_install_config"
+      ],
+      "surface": "aeo",
+      "pred": 3,
+      "actual": 5,
+      "diff": -2,
+      "failure_code": "F01",
+      "modality": "LEXICAL",
+      "failure_name": "Missing semantic signal"
+    },
+    {
+      "fixture_id": "real-003",
+      "repository": "BurntSushi/ripgrep",
+      "archetype": "cli",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_feature_comparison",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-004",
+      "repository": "sharkdp/bat",
+      "archetype": "cli",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_example_heavy",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 5,
+      "diff": -2,
+      "failure_code": "F10",
+      "modality": "MISSING-CAPABILITY",
+      "failure_name": "Unknown / unclassified"
+    },
+    {
+      "fixture_id": "real-005",
+      "repository": "lodash/lodash",
+      "archetype": "library",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-005",
+      "repository": "lodash/lodash",
+      "archetype": "library",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-007",
+      "repository": "requests/requests",
+      "archetype": "library",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_tutorial"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-008",
+      "repository": "moment/moment",
+      "archetype": "library",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-008",
+      "repository": "moment/moment",
+      "archetype": "library",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-008",
+      "repository": "moment/moment",
+      "archetype": "library",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-008",
+      "repository": "moment/moment",
+      "archetype": "library",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-009",
+      "repository": "facebook/react",
+      "archetype": "framework",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_tutorial"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-010",
+      "repository": "vuejs/core",
+      "archetype": "framework",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_architecture"
+      ],
+      "surface": "aeo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F01",
+      "modality": "LEXICAL",
+      "failure_name": "Missing semantic signal"
+    },
+    {
+      "fixture_id": "real-010",
+      "repository": "vuejs/core",
+      "archetype": "framework",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_architecture"
+      ],
+      "surface": "geo",
+      "pred": 2,
+      "actual": 1,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-011",
+      "repository": "django/django",
+      "archetype": "framework",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_docs_heavy"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F02",
+      "modality": "LEXICAL",
+      "failure_name": "False-positive semantic signal"
+    },
+    {
+      "fixture_id": "real-011",
+      "repository": "django/django",
+      "archetype": "framework",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_docs_heavy"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F02",
+      "modality": "LEXICAL",
+      "failure_name": "False-positive semantic signal"
+    },
+    {
+      "fixture_id": "real-011",
+      "repository": "django/django",
+      "archetype": "framework",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_docs_heavy"
+      ],
+      "surface": "aeo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F02",
+      "modality": "LEXICAL",
+      "failure_name": "False-positive semantic signal"
+    },
+    {
+      "fixture_id": "real-011",
+      "repository": "django/django",
+      "archetype": "framework",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_docs_heavy"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-012",
+      "repository": "huggingface/transformers",
+      "archetype": "data_ml",
+      "split": "train",
+      "readme_tags": [
+        "char_tutorial",
+        "char_example_heavy",
+        "char_feature_comparison",
+        "char_mixed"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 5,
+      "diff": -2,
+      "failure_code": "F09",
+      "modality": "COMPOSITIONAL",
+      "failure_name": "Comparative/evaluative failure"
+    },
+    {
+      "fixture_id": "real-012",
+      "repository": "huggingface/transformers",
+      "archetype": "data_ml",
+      "split": "train",
+      "readme_tags": [
+        "char_tutorial",
+        "char_example_heavy",
+        "char_feature_comparison",
+        "char_mixed"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-012",
+      "repository": "huggingface/transformers",
+      "archetype": "data_ml",
+      "split": "train",
+      "readme_tags": [
+        "char_tutorial",
+        "char_example_heavy",
+        "char_feature_comparison",
+        "char_mixed"
+      ],
+      "surface": "geo",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-013",
+      "repository": "langchain-ai/langchain",
+      "archetype": "data_ml",
+      "split": "train",
+      "readme_tags": [
+        "char_architecture",
+        "char_tutorial",
+        "char_example_heavy",
+        "char_mixed"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-013",
+      "repository": "langchain-ai/langchain",
+      "archetype": "data_ml",
+      "split": "train",
+      "readme_tags": [
+        "char_architecture",
+        "char_tutorial",
+        "char_example_heavy",
+        "char_mixed"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-013",
+      "repository": "langchain-ai/langchain",
+      "archetype": "data_ml",
+      "split": "train",
+      "readme_tags": [
+        "char_architecture",
+        "char_tutorial",
+        "char_example_heavy",
+        "char_mixed"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 2,
+      "diff": 2,
+      "failure_code": "F07",
+      "modality": "COMPOSITIONAL",
+      "failure_name": "Cross-section reasoning failure"
+    },
+    {
+      "fixture_id": "real-013",
+      "repository": "langchain-ai/langchain",
+      "archetype": "data_ml",
+      "split": "train",
+      "readme_tags": [
+        "char_architecture",
+        "char_tutorial",
+        "char_example_heavy",
+        "char_mixed"
+      ],
+      "surface": "geo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-014",
+      "repository": "ollama/ollama",
+      "archetype": "data_ml",
+      "split": "train",
+      "readme_tags": [
+        "char_tutorial",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-015",
+      "repository": "docker/compose",
+      "archetype": "devops",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-015",
+      "repository": "docker/compose",
+      "archetype": "devops",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-015",
+      "repository": "docker/compose",
+      "archetype": "devops",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 2,
+      "diff": 2,
+      "failure_code": "F10",
+      "modality": "MISSING-CAPABILITY",
+      "failure_name": "Unknown / unclassified"
+    },
+    {
+      "fixture_id": "real-015",
+      "repository": "docker/compose",
+      "archetype": "devops",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-016",
+      "repository": "hashicorp/terraform",
+      "archetype": "devops",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_architecture"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-016",
+      "repository": "hashicorp/terraform",
+      "archetype": "devops",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_architecture"
+      ],
+      "surface": "aeo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F10",
+      "modality": "MISSING-CAPABILITY",
+      "failure_name": "Unknown / unclassified"
+    },
+    {
+      "fixture_id": "real-016",
+      "repository": "hashicorp/terraform",
+      "archetype": "devops",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_architecture"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-017",
+      "repository": "twbs/bootstrap",
+      "archetype": "library",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-017",
+      "repository": "twbs/bootstrap",
+      "archetype": "library",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-018",
+      "repository": "microsoft/TypeScript",
+      "archetype": "devtool",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_architecture"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-019",
+      "repository": "sindresorhus/awesome",
+      "archetype": "docs",
+      "split": "train",
+      "readme_tags": [
+        "char_docs_heavy",
+        "char_minimal"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F08",
+      "modality": "STRUCTURAL",
+      "failure_name": "Documentation-architecture failure"
+    },
+    {
+      "fixture_id": "real-019",
+      "repository": "sindresorhus/awesome",
+      "archetype": "docs",
+      "split": "train",
+      "readme_tags": [
+        "char_docs_heavy",
+        "char_minimal"
+      ],
+      "surface": "aeo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F08",
+      "modality": "STRUCTURAL",
+      "failure_name": "Documentation-architecture failure"
+    },
+    {
+      "fixture_id": "real-019",
+      "repository": "sindresorhus/awesome",
+      "archetype": "docs",
+      "split": "train",
+      "readme_tags": [
+        "char_docs_heavy",
+        "char_minimal"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-020",
+      "repository": "jesseduffield/lazygit",
+      "archetype": "cli",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_tutorial",
+        "char_install_config"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-020",
+      "repository": "jesseduffield/lazygit",
+      "archetype": "cli",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_tutorial",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-020",
+      "repository": "jesseduffield/lazygit",
+      "archetype": "cli",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_tutorial",
+        "char_install_config"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-020",
+      "repository": "jesseduffield/lazygit",
+      "archetype": "cli",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_tutorial",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-021",
+      "repository": "junegunn/fzf",
+      "archetype": "cli",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_tutorial",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-022",
+      "repository": "cli/cli",
+      "archetype": "cli",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-022",
+      "repository": "cli/cli",
+      "archetype": "cli",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-023",
+      "repository": "charmbracelet/bubbletea",
+      "archetype": "cli",
+      "split": "train",
+      "readme_tags": [
+        "char_tutorial",
+        "char_example_heavy"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-023",
+      "repository": "charmbracelet/bubbletea",
+      "archetype": "cli",
+      "split": "train",
+      "readme_tags": [
+        "char_tutorial",
+        "char_example_heavy"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-024",
+      "repository": "starship/starship",
+      "archetype": "cli",
+      "split": "validation",
+      "readme_tags": [
+        "char_install_config",
+        "char_standard"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-024",
+      "repository": "starship/starship",
+      "archetype": "cli",
+      "split": "validation",
+      "readme_tags": [
+        "char_install_config",
+        "char_standard"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-025",
+      "repository": "denisidoro/navi",
+      "archetype": "cli",
+      "split": "validation",
+      "readme_tags": [
+        "char_tutorial",
+        "char_install_config",
+        "char_mixed"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-026",
+      "repository": "eza-community/eza",
+      "archetype": "cli",
+      "split": "test",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-026",
+      "repository": "eza-community/eza",
+      "archetype": "cli",
+      "split": "test",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_install_config"
+      ],
+      "surface": "aeo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F01",
+      "modality": "LEXICAL",
+      "failure_name": "Missing semantic signal"
+    },
+    {
+      "fixture_id": "real-026",
+      "repository": "eza-community/eza",
+      "archetype": "cli",
+      "split": "test",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-027",
+      "repository": "astral-sh/uv",
+      "archetype": "cli",
+      "split": "test",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_docs_heavy",
+        "char_install_config",
+        "char_mixed"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-027",
+      "repository": "astral-sh/uv",
+      "archetype": "cli",
+      "split": "test",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_docs_heavy",
+        "char_install_config",
+        "char_mixed"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 5,
+      "diff": -2,
+      "failure_code": "F09",
+      "modality": "COMPOSITIONAL",
+      "failure_name": "Comparative/evaluative failure"
+    },
+    {
+      "fixture_id": "real-027",
+      "repository": "astral-sh/uv",
+      "archetype": "cli",
+      "split": "test",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_docs_heavy",
+        "char_install_config",
+        "char_mixed"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-028",
+      "repository": "pydantic/pydantic",
+      "archetype": "library",
+      "split": "train",
+      "readme_tags": [
+        "char_example_heavy",
+        "char_feature_comparison"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-028",
+      "repository": "pydantic/pydantic",
+      "archetype": "library",
+      "split": "train",
+      "readme_tags": [
+        "char_example_heavy",
+        "char_feature_comparison"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-028",
+      "repository": "pydantic/pydantic",
+      "archetype": "library",
+      "split": "train",
+      "readme_tags": [
+        "char_example_heavy",
+        "char_feature_comparison"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-028",
+      "repository": "pydantic/pydantic",
+      "archetype": "library",
+      "split": "train",
+      "readme_tags": [
+        "char_example_heavy",
+        "char_feature_comparison"
+      ],
+      "surface": "geo",
+      "pred": 4,
+      "actual": 2,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-030",
+      "repository": "axios/axios",
+      "archetype": "library",
+      "split": "train",
+      "readme_tags": [
+        "char_api_reference",
+        "char_example_heavy"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-030",
+      "repository": "axios/axios",
+      "archetype": "library",
+      "split": "train",
+      "readme_tags": [
+        "char_api_reference",
+        "char_example_heavy"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-030",
+      "repository": "axios/axios",
+      "archetype": "library",
+      "split": "train",
+      "readme_tags": [
+        "char_api_reference",
+        "char_example_heavy"
+      ],
+      "surface": "aeo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F01",
+      "modality": "LEXICAL",
+      "failure_name": "Missing semantic signal"
+    },
+    {
+      "fixture_id": "real-031",
+      "repository": "serde-rs/serde",
+      "archetype": "library",
+      "split": "validation",
+      "readme_tags": [
+        "char_standard",
+        "char_example_heavy"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-031",
+      "repository": "serde-rs/serde",
+      "archetype": "library",
+      "split": "validation",
+      "readme_tags": [
+        "char_standard",
+        "char_example_heavy"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-031",
+      "repository": "serde-rs/serde",
+      "archetype": "library",
+      "split": "validation",
+      "readme_tags": [
+        "char_standard",
+        "char_example_heavy"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 2,
+      "diff": 2,
+      "failure_code": "F10",
+      "modality": "MISSING-CAPABILITY",
+      "failure_name": "Unknown / unclassified"
+    },
+    {
+      "fixture_id": "real-032",
+      "repository": "tokio-rs/tokio",
+      "archetype": "library",
+      "split": "validation",
+      "readme_tags": [
+        "char_tutorial",
+        "char_architecture"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-032",
+      "repository": "tokio-rs/tokio",
+      "archetype": "library",
+      "split": "validation",
+      "readme_tags": [
+        "char_tutorial",
+        "char_architecture"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-032",
+      "repository": "tokio-rs/tokio",
+      "archetype": "library",
+      "split": "validation",
+      "readme_tags": [
+        "char_tutorial",
+        "char_architecture"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-033",
+      "repository": "colinhacks/zod",
+      "archetype": "library",
+      "split": "validation",
+      "readme_tags": [
+        "char_docs_heavy",
+        "char_api_reference",
+        "char_example_heavy",
+        "char_mixed"
+      ],
+      "surface": "overall",
+      "pred": 2,
+      "actual": 0,
+      "diff": 2,
+      "failure_code": "F02",
+      "modality": "LEXICAL",
+      "failure_name": "False-positive semantic signal"
+    },
+    {
+      "fixture_id": "real-033",
+      "repository": "colinhacks/zod",
+      "archetype": "library",
+      "split": "validation",
+      "readme_tags": [
+        "char_docs_heavy",
+        "char_api_reference",
+        "char_example_heavy",
+        "char_mixed"
+      ],
+      "surface": "seo",
+      "pred": 2,
+      "actual": 0,
+      "diff": 2,
+      "failure_code": "F02",
+      "modality": "LEXICAL",
+      "failure_name": "False-positive semantic signal"
+    },
+    {
+      "fixture_id": "real-033",
+      "repository": "colinhacks/zod",
+      "archetype": "library",
+      "split": "validation",
+      "readme_tags": [
+        "char_docs_heavy",
+        "char_api_reference",
+        "char_example_heavy",
+        "char_mixed"
+      ],
+      "surface": "aeo",
+      "pred": 2,
+      "actual": 0,
+      "diff": 2,
+      "failure_code": "F02",
+      "modality": "LEXICAL",
+      "failure_name": "False-positive semantic signal"
+    },
+    {
+      "fixture_id": "real-033",
+      "repository": "colinhacks/zod",
+      "archetype": "library",
+      "split": "validation",
+      "readme_tags": [
+        "char_docs_heavy",
+        "char_api_reference",
+        "char_example_heavy",
+        "char_mixed"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 0,
+      "diff": 3,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-034",
+      "repository": "sindresorhus/ky",
+      "archetype": "library",
+      "split": "test",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_api_reference"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-034",
+      "repository": "sindresorhus/ky",
+      "archetype": "library",
+      "split": "test",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_api_reference"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F01",
+      "modality": "LEXICAL",
+      "failure_name": "Missing semantic signal"
+    },
+    {
+      "fixture_id": "real-035",
+      "repository": "sqlalchemy/sqlalchemy",
+      "archetype": "library",
+      "split": "test",
+      "readme_tags": [
+        "char_standard",
+        "char_docs_heavy"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F02",
+      "modality": "LEXICAL",
+      "failure_name": "False-positive semantic signal"
+    },
+    {
+      "fixture_id": "real-035",
+      "repository": "sqlalchemy/sqlalchemy",
+      "archetype": "library",
+      "split": "test",
+      "readme_tags": [
+        "char_standard",
+        "char_docs_heavy"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 1,
+      "diff": 3,
+      "failure_code": "F02",
+      "modality": "LEXICAL",
+      "failure_name": "False-positive semantic signal"
+    },
+    {
+      "fixture_id": "real-035",
+      "repository": "sqlalchemy/sqlalchemy",
+      "archetype": "library",
+      "split": "test",
+      "readme_tags": [
+        "char_standard",
+        "char_docs_heavy"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 2,
+      "diff": 2,
+      "failure_code": "F02",
+      "modality": "LEXICAL",
+      "failure_name": "False-positive semantic signal"
+    },
+    {
+      "fixture_id": "real-035",
+      "repository": "sqlalchemy/sqlalchemy",
+      "archetype": "library",
+      "split": "test",
+      "readme_tags": [
+        "char_standard",
+        "char_docs_heavy"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-036",
+      "repository": "tiangolo/fastapi",
+      "archetype": "framework",
+      "split": "train",
+      "readme_tags": [
+        "char_example_heavy",
+        "char_tutorial",
+        "char_feature_comparison",
+        "char_mixed"
+      ],
+      "surface": "geo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-037",
+      "repository": "pallets/flask",
+      "archetype": "framework",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_example_heavy"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-037",
+      "repository": "pallets/flask",
+      "archetype": "framework",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_example_heavy"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-037",
+      "repository": "pallets/flask",
+      "archetype": "framework",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_example_heavy"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-037",
+      "repository": "pallets/flask",
+      "archetype": "framework",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_example_heavy"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-038",
+      "repository": "sveltejs/svelte",
+      "archetype": "framework",
+      "split": "validation",
+      "readme_tags": [
+        "char_standard",
+        "char_tutorial"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-038",
+      "repository": "sveltejs/svelte",
+      "archetype": "framework",
+      "split": "validation",
+      "readme_tags": [
+        "char_standard",
+        "char_tutorial"
+      ],
+      "surface": "seo",
+      "pred": 2,
+      "actual": 3,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-038",
+      "repository": "sveltejs/svelte",
+      "archetype": "framework",
+      "split": "validation",
+      "readme_tags": [
+        "char_standard",
+        "char_tutorial"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-039",
+      "repository": "angular/angular",
+      "archetype": "framework",
+      "split": "validation",
+      "readme_tags": [
+        "char_standard",
+        "char_architecture"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-040",
+      "repository": "nestjs/nest",
+      "archetype": "framework",
+      "split": "test",
+      "readme_tags": [
+        "char_architecture",
+        "char_tutorial"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-040",
+      "repository": "nestjs/nest",
+      "archetype": "framework",
+      "split": "test",
+      "readme_tags": [
+        "char_architecture",
+        "char_tutorial"
+      ],
+      "surface": "aeo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F01",
+      "modality": "LEXICAL",
+      "failure_name": "Missing semantic signal"
+    },
+    {
+      "fixture_id": "real-040",
+      "repository": "nestjs/nest",
+      "archetype": "framework",
+      "split": "test",
+      "readme_tags": [
+        "char_architecture",
+        "char_tutorial"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-041",
+      "repository": "gin-gonic/gin",
+      "archetype": "framework",
+      "split": "test",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_example_heavy"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-042",
+      "repository": "octokit/octokit.js",
+      "archetype": "sdk",
+      "split": "train",
+      "readme_tags": [
+        "char_api_reference",
+        "char_tutorial"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-042",
+      "repository": "octokit/octokit.js",
+      "archetype": "sdk",
+      "split": "train",
+      "readme_tags": [
+        "char_api_reference",
+        "char_tutorial"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-042",
+      "repository": "octokit/octokit.js",
+      "archetype": "sdk",
+      "split": "train",
+      "readme_tags": [
+        "char_api_reference",
+        "char_tutorial"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-043",
+      "repository": "stripe/stripe-node",
+      "archetype": "sdk",
+      "split": "train",
+      "readme_tags": [
+        "char_api_reference",
+        "char_install_config"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-043",
+      "repository": "stripe/stripe-node",
+      "archetype": "sdk",
+      "split": "train",
+      "readme_tags": [
+        "char_api_reference",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-044",
+      "repository": "stripe/stripe-python",
+      "archetype": "sdk",
+      "split": "train",
+      "readme_tags": [
+        "char_api_reference",
+        "char_example_heavy"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-044",
+      "repository": "stripe/stripe-python",
+      "archetype": "sdk",
+      "split": "train",
+      "readme_tags": [
+        "char_api_reference",
+        "char_example_heavy"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-045",
+      "repository": "aws/aws-sdk-js-v3",
+      "archetype": "sdk",
+      "split": "train",
+      "readme_tags": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-045",
+      "repository": "aws/aws-sdk-js-v3",
+      "archetype": "sdk",
+      "split": "train",
+      "readme_tags": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-046",
+      "repository": "googleapis/google-api-python-client",
+      "archetype": "sdk",
+      "split": "train",
+      "readme_tags": [
+        "char_tutorial",
+        "char_install_config"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-046",
+      "repository": "googleapis/google-api-python-client",
+      "archetype": "sdk",
+      "split": "train",
+      "readme_tags": [
+        "char_tutorial",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 5,
+      "actual": 3,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-046",
+      "repository": "googleapis/google-api-python-client",
+      "archetype": "sdk",
+      "split": "train",
+      "readme_tags": [
+        "char_tutorial",
+        "char_install_config"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-047",
+      "repository": "openai/openai-python",
+      "archetype": "sdk",
+      "split": "train",
+      "readme_tags": [
+        "char_example_heavy",
+        "char_api_reference"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-047",
+      "repository": "openai/openai-python",
+      "archetype": "sdk",
+      "split": "train",
+      "readme_tags": [
+        "char_example_heavy",
+        "char_api_reference"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 5,
+      "diff": -2,
+      "failure_code": "F10",
+      "modality": "MISSING-CAPABILITY",
+      "failure_name": "Unknown / unclassified"
+    },
+    {
+      "fixture_id": "real-047",
+      "repository": "openai/openai-python",
+      "archetype": "sdk",
+      "split": "train",
+      "readme_tags": [
+        "char_example_heavy",
+        "char_api_reference"
+      ],
+      "surface": "aeo",
+      "pred": 5,
+      "actual": 4,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-047",
+      "repository": "openai/openai-python",
+      "archetype": "sdk",
+      "split": "train",
+      "readme_tags": [
+        "char_example_heavy",
+        "char_api_reference"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-048",
+      "repository": "openai/openai-node",
+      "archetype": "sdk",
+      "split": "train",
+      "readme_tags": [
+        "char_example_heavy",
+        "char_api_reference"
+      ],
+      "surface": "aeo",
+      "pred": 5,
+      "actual": 4,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-049",
+      "repository": "resend/resend-node",
+      "archetype": "sdk",
+      "split": "validation",
+      "readme_tags": [
+        "char_tutorial",
+        "char_standard"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-049",
+      "repository": "resend/resend-node",
+      "archetype": "sdk",
+      "split": "validation",
+      "readme_tags": [
+        "char_tutorial",
+        "char_standard"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-049",
+      "repository": "resend/resend-node",
+      "archetype": "sdk",
+      "split": "validation",
+      "readme_tags": [
+        "char_tutorial",
+        "char_standard"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-050",
+      "repository": "postmanlabs/postman-collection",
+      "archetype": "sdk",
+      "split": "validation",
+      "readme_tags": [
+        "char_api_reference",
+        "char_docs_heavy"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F02",
+      "modality": "LEXICAL",
+      "failure_name": "False-positive semantic signal"
+    },
+    {
+      "fixture_id": "real-050",
+      "repository": "postmanlabs/postman-collection",
+      "archetype": "sdk",
+      "split": "validation",
+      "readme_tags": [
+        "char_api_reference",
+        "char_docs_heavy"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F02",
+      "modality": "LEXICAL",
+      "failure_name": "False-positive semantic signal"
+    },
+    {
+      "fixture_id": "real-050",
+      "repository": "postmanlabs/postman-collection",
+      "archetype": "sdk",
+      "split": "validation",
+      "readme_tags": [
+        "char_api_reference",
+        "char_docs_heavy"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F02",
+      "modality": "LEXICAL",
+      "failure_name": "False-positive semantic signal"
+    },
+    {
+      "fixture_id": "real-051",
+      "repository": "sendgrid/sendgrid-python",
+      "archetype": "sdk",
+      "split": "test",
+      "readme_tags": [
+        "char_example_heavy",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-051",
+      "repository": "sendgrid/sendgrid-python",
+      "archetype": "sdk",
+      "split": "test",
+      "readme_tags": [
+        "char_example_heavy",
+        "char_install_config"
+      ],
+      "surface": "aeo",
+      "pred": 5,
+      "actual": 4,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-052",
+      "repository": "twilio/twilio-python",
+      "archetype": "sdk",
+      "split": "test",
+      "readme_tags": [
+        "char_tutorial",
+        "char_install_config"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-052",
+      "repository": "twilio/twilio-python",
+      "archetype": "sdk",
+      "split": "test",
+      "readme_tags": [
+        "char_tutorial",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-052",
+      "repository": "twilio/twilio-python",
+      "archetype": "sdk",
+      "split": "test",
+      "readme_tags": [
+        "char_tutorial",
+        "char_install_config"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-052",
+      "repository": "twilio/twilio-python",
+      "archetype": "sdk",
+      "split": "test",
+      "readme_tags": [
+        "char_tutorial",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-054",
+      "repository": "vitejs/vite",
+      "archetype": "devtool",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_tutorial"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-054",
+      "repository": "vitejs/vite",
+      "archetype": "devtool",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_tutorial"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-055",
+      "repository": "swc-project/swc",
+      "archetype": "devtool",
+      "split": "train",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_architecture"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-055",
+      "repository": "swc-project/swc",
+      "archetype": "devtool",
+      "split": "train",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_architecture"
+      ],
+      "surface": "aeo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-055",
+      "repository": "swc-project/swc",
+      "archetype": "devtool",
+      "split": "train",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_architecture"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-056",
+      "repository": "biomejs/biome",
+      "archetype": "devtool",
+      "split": "train",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_tutorial"
+      ],
+      "surface": "overall",
+      "pred": 2,
+      "actual": 0,
+      "diff": 2,
+      "failure_code": "F09",
+      "modality": "COMPOSITIONAL",
+      "failure_name": "Comparative/evaluative failure"
+    },
+    {
+      "fixture_id": "real-056",
+      "repository": "biomejs/biome",
+      "archetype": "devtool",
+      "split": "train",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_tutorial"
+      ],
+      "surface": "seo",
+      "pred": 2,
+      "actual": 0,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-056",
+      "repository": "biomejs/biome",
+      "archetype": "devtool",
+      "split": "train",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_tutorial"
+      ],
+      "surface": "aeo",
+      "pred": 2,
+      "actual": 0,
+      "diff": 2,
+      "failure_code": "F09",
+      "modality": "COMPOSITIONAL",
+      "failure_name": "Comparative/evaluative failure"
+    },
+    {
+      "fixture_id": "real-056",
+      "repository": "biomejs/biome",
+      "archetype": "devtool",
+      "split": "train",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_tutorial"
+      ],
+      "surface": "geo",
+      "pred": 2,
+      "actual": 0,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-057",
+      "repository": "evanw/esbuild",
+      "archetype": "devtool",
+      "split": "validation",
+      "readme_tags": [
+        "char_docs_heavy",
+        "char_architecture",
+        "char_feature_comparison",
+        "char_mixed"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F02",
+      "modality": "LEXICAL",
+      "failure_name": "False-positive semantic signal"
+    },
+    {
+      "fixture_id": "real-057",
+      "repository": "evanw/esbuild",
+      "archetype": "devtool",
+      "split": "validation",
+      "readme_tags": [
+        "char_docs_heavy",
+        "char_architecture",
+        "char_feature_comparison",
+        "char_mixed"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F02",
+      "modality": "LEXICAL",
+      "failure_name": "False-positive semantic signal"
+    },
+    {
+      "fixture_id": "real-057",
+      "repository": "evanw/esbuild",
+      "archetype": "devtool",
+      "split": "validation",
+      "readme_tags": [
+        "char_docs_heavy",
+        "char_architecture",
+        "char_feature_comparison",
+        "char_mixed"
+      ],
+      "surface": "aeo",
+      "pred": 2,
+      "actual": 1,
+      "diff": 1,
+      "failure_code": "F02",
+      "modality": "LEXICAL",
+      "failure_name": "False-positive semantic signal"
+    },
+    {
+      "fixture_id": "real-057",
+      "repository": "evanw/esbuild",
+      "archetype": "devtool",
+      "split": "validation",
+      "readme_tags": [
+        "char_docs_heavy",
+        "char_architecture",
+        "char_feature_comparison",
+        "char_mixed"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-058",
+      "repository": "rust-lang/rust-clippy",
+      "archetype": "devtool",
+      "split": "validation",
+      "readme_tags": [
+        "char_tutorial",
+        "char_install_config"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-058",
+      "repository": "rust-lang/rust-clippy",
+      "archetype": "devtool",
+      "split": "validation",
+      "readme_tags": [
+        "char_tutorial",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-058",
+      "repository": "rust-lang/rust-clippy",
+      "archetype": "devtool",
+      "split": "validation",
+      "readme_tags": [
+        "char_tutorial",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-059",
+      "repository": "vitest-dev/vitest",
+      "archetype": "devtool",
+      "split": "test",
+      "readme_tags": [
+        "char_standard",
+        "char_feature_comparison"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-059",
+      "repository": "vitest-dev/vitest",
+      "archetype": "devtool",
+      "split": "test",
+      "readme_tags": [
+        "char_standard",
+        "char_feature_comparison"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-060",
+      "repository": "astral-sh/ruff",
+      "archetype": "devtool",
+      "split": "test",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_docs_heavy",
+        "char_install_config",
+        "char_mixed"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-060",
+      "repository": "astral-sh/ruff",
+      "archetype": "devtool",
+      "split": "test",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_docs_heavy",
+        "char_install_config",
+        "char_mixed"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-061",
+      "repository": "calcom/cal.com",
+      "archetype": "webapp",
+      "split": "train",
+      "readme_tags": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-061",
+      "repository": "calcom/cal.com",
+      "archetype": "webapp",
+      "split": "train",
+      "readme_tags": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-061",
+      "repository": "calcom/cal.com",
+      "archetype": "webapp",
+      "split": "train",
+      "readme_tags": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-062",
+      "repository": "plausible/analytics",
+      "archetype": "webapp",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_feature_comparison"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 2,
+      "diff": 2,
+      "failure_code": "F09",
+      "modality": "COMPOSITIONAL",
+      "failure_name": "Comparative/evaluative failure"
+    },
+    {
+      "fixture_id": "real-062",
+      "repository": "plausible/analytics",
+      "archetype": "webapp",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_feature_comparison"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-062",
+      "repository": "plausible/analytics",
+      "archetype": "webapp",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_feature_comparison"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-062",
+      "repository": "plausible/analytics",
+      "archetype": "webapp",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_feature_comparison"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-063",
+      "repository": "outline/outline",
+      "archetype": "webapp",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-063",
+      "repository": "outline/outline",
+      "archetype": "webapp",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-064",
+      "repository": "mattermost/mattermost",
+      "archetype": "webapp",
+      "split": "train",
+      "readme_tags": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 2,
+      "diff": 2,
+      "failure_code": "F10",
+      "modality": "MISSING-CAPABILITY",
+      "failure_name": "Unknown / unclassified"
+    },
+    {
+      "fixture_id": "real-064",
+      "repository": "mattermost/mattermost",
+      "archetype": "webapp",
+      "split": "train",
+      "readme_tags": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 5,
+      "actual": 2,
+      "diff": 3,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-064",
+      "repository": "mattermost/mattermost",
+      "archetype": "webapp",
+      "split": "train",
+      "readme_tags": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-065",
+      "repository": "documenso/documenso",
+      "archetype": "webapp",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-065",
+      "repository": "documenso/documenso",
+      "archetype": "webapp",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-066",
+      "repository": "grafana/grafana",
+      "archetype": "webapp",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_architecture"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-066",
+      "repository": "grafana/grafana",
+      "archetype": "webapp",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_architecture"
+      ],
+      "surface": "aeo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-066",
+      "repository": "grafana/grafana",
+      "archetype": "webapp",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_architecture"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-067",
+      "repository": "nocodb/nocodb",
+      "archetype": "webapp",
+      "split": "validation",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_install_config"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-067",
+      "repository": "nocodb/nocodb",
+      "archetype": "webapp",
+      "split": "validation",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-068",
+      "repository": "twentyhq/twenty",
+      "archetype": "webapp",
+      "split": "validation",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-069",
+      "repository": "hoppscotch/hoppscotch",
+      "archetype": "webapp",
+      "split": "test",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_standard"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 5,
+      "diff": -2,
+      "failure_code": "F09",
+      "modality": "COMPOSITIONAL",
+      "failure_name": "Comparative/evaluative failure"
+    },
+    {
+      "fixture_id": "real-069",
+      "repository": "hoppscotch/hoppscotch",
+      "archetype": "webapp",
+      "split": "test",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_standard"
+      ],
+      "surface": "aeo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F01",
+      "modality": "LEXICAL",
+      "failure_name": "Missing semantic signal"
+    },
+    {
+      "fixture_id": "real-069",
+      "repository": "hoppscotch/hoppscotch",
+      "archetype": "webapp",
+      "split": "test",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_standard"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-070",
+      "repository": "affinepro/affine",
+      "archetype": "webapp",
+      "split": "test",
+      "readme_tags": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-070",
+      "repository": "affinepro/affine",
+      "archetype": "webapp",
+      "split": "test",
+      "readme_tags": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "surface": "aeo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F01",
+      "modality": "LEXICAL",
+      "failure_name": "Missing semantic signal"
+    },
+    {
+      "fixture_id": "real-070",
+      "repository": "affinepro/affine",
+      "archetype": "webapp",
+      "split": "test",
+      "readme_tags": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-071",
+      "repository": "kamranahmedse/developer-roadmap",
+      "archetype": "docs",
+      "split": "train",
+      "readme_tags": [
+        "char_docs_heavy",
+        "char_architecture"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F08",
+      "modality": "STRUCTURAL",
+      "failure_name": "Documentation-architecture failure"
+    },
+    {
+      "fixture_id": "real-071",
+      "repository": "kamranahmedse/developer-roadmap",
+      "archetype": "docs",
+      "split": "train",
+      "readme_tags": [
+        "char_docs_heavy",
+        "char_architecture"
+      ],
+      "surface": "aeo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F08",
+      "modality": "STRUCTURAL",
+      "failure_name": "Documentation-architecture failure"
+    },
+    {
+      "fixture_id": "real-071",
+      "repository": "kamranahmedse/developer-roadmap",
+      "archetype": "docs",
+      "split": "train",
+      "readme_tags": [
+        "char_docs_heavy",
+        "char_architecture"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-073",
+      "repository": "donnemartin/system-design-primer",
+      "archetype": "docs",
+      "split": "train",
+      "readme_tags": [
+        "char_docs_heavy",
+        "char_architecture"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F08",
+      "modality": "STRUCTURAL",
+      "failure_name": "Documentation-architecture failure"
+    },
+    {
+      "fixture_id": "real-073",
+      "repository": "donnemartin/system-design-primer",
+      "archetype": "docs",
+      "split": "train",
+      "readme_tags": [
+        "char_docs_heavy",
+        "char_architecture"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F08",
+      "modality": "STRUCTURAL",
+      "failure_name": "Documentation-architecture failure"
+    },
+    {
+      "fixture_id": "real-073",
+      "repository": "donnemartin/system-design-primer",
+      "archetype": "docs",
+      "split": "train",
+      "readme_tags": [
+        "char_docs_heavy",
+        "char_architecture"
+      ],
+      "surface": "aeo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F08",
+      "modality": "STRUCTURAL",
+      "failure_name": "Documentation-architecture failure"
+    },
+    {
+      "fixture_id": "real-073",
+      "repository": "donnemartin/system-design-primer",
+      "archetype": "docs",
+      "split": "train",
+      "readme_tags": [
+        "char_docs_heavy",
+        "char_architecture"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-074",
+      "repository": "jwasham/coding-interview-university",
+      "archetype": "docs",
+      "split": "train",
+      "readme_tags": [
+        "char_docs_heavy",
+        "char_tutorial"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F08",
+      "modality": "STRUCTURAL",
+      "failure_name": "Documentation-architecture failure"
+    },
+    {
+      "fixture_id": "real-074",
+      "repository": "jwasham/coding-interview-university",
+      "archetype": "docs",
+      "split": "train",
+      "readme_tags": [
+        "char_docs_heavy",
+        "char_tutorial"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 1,
+      "diff": 3,
+      "failure_code": "F08",
+      "modality": "STRUCTURAL",
+      "failure_name": "Documentation-architecture failure"
+    },
+    {
+      "fixture_id": "real-074",
+      "repository": "jwasham/coding-interview-university",
+      "archetype": "docs",
+      "split": "train",
+      "readme_tags": [
+        "char_docs_heavy",
+        "char_tutorial"
+      ],
+      "surface": "geo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-075",
+      "repository": "github/gitignore",
+      "archetype": "docs",
+      "split": "validation",
+      "readme_tags": [
+        "char_minimal",
+        "char_standard"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-076",
+      "repository": "public-apis/public-apis",
+      "archetype": "docs",
+      "split": "test",
+      "readme_tags": [
+        "char_docs_heavy",
+        "char_api_reference"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F08",
+      "modality": "STRUCTURAL",
+      "failure_name": "Documentation-architecture failure"
+    },
+    {
+      "fixture_id": "real-076",
+      "repository": "public-apis/public-apis",
+      "archetype": "docs",
+      "split": "test",
+      "readme_tags": [
+        "char_docs_heavy",
+        "char_api_reference"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-077",
+      "repository": "ripienaar/free-for-dev",
+      "archetype": "docs",
+      "split": "test",
+      "readme_tags": [
+        "char_docs_heavy"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F08",
+      "modality": "STRUCTURAL",
+      "failure_name": "Documentation-architecture failure"
+    },
+    {
+      "fixture_id": "real-077",
+      "repository": "ripienaar/free-for-dev",
+      "archetype": "docs",
+      "split": "test",
+      "readme_tags": [
+        "char_docs_heavy"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F08",
+      "modality": "STRUCTURAL",
+      "failure_name": "Documentation-architecture failure"
+    },
+    {
+      "fixture_id": "real-077",
+      "repository": "ripienaar/free-for-dev",
+      "archetype": "docs",
+      "split": "test",
+      "readme_tags": [
+        "char_docs_heavy"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-078",
+      "repository": "babel/babel",
+      "archetype": "monorepo",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_architecture"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F08",
+      "modality": "STRUCTURAL",
+      "failure_name": "Documentation-architecture failure"
+    },
+    {
+      "fixture_id": "real-078",
+      "repository": "babel/babel",
+      "archetype": "monorepo",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_architecture"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F08",
+      "modality": "STRUCTURAL",
+      "failure_name": "Documentation-architecture failure"
+    },
+    {
+      "fixture_id": "real-079",
+      "repository": "pnpm/pnpm",
+      "archetype": "monorepo",
+      "split": "train",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F08",
+      "modality": "STRUCTURAL",
+      "failure_name": "Documentation-architecture failure"
+    },
+    {
+      "fixture_id": "real-079",
+      "repository": "pnpm/pnpm",
+      "archetype": "monorepo",
+      "split": "train",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_install_config"
+      ],
+      "surface": "aeo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F08",
+      "modality": "STRUCTURAL",
+      "failure_name": "Documentation-architecture failure"
+    },
+    {
+      "fixture_id": "real-079",
+      "repository": "pnpm/pnpm",
+      "archetype": "monorepo",
+      "split": "train",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-080",
+      "repository": "nrwl/nx",
+      "archetype": "monorepo",
+      "split": "train",
+      "readme_tags": [
+        "char_tutorial",
+        "char_architecture"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 2,
+      "diff": 2,
+      "failure_code": "F10",
+      "modality": "MISSING-CAPABILITY",
+      "failure_name": "Unknown / unclassified"
+    },
+    {
+      "fixture_id": "real-080",
+      "repository": "nrwl/nx",
+      "archetype": "monorepo",
+      "split": "train",
+      "readme_tags": [
+        "char_tutorial",
+        "char_architecture"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-080",
+      "repository": "nrwl/nx",
+      "archetype": "monorepo",
+      "split": "train",
+      "readme_tags": [
+        "char_tutorial",
+        "char_architecture"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-080",
+      "repository": "nrwl/nx",
+      "archetype": "monorepo",
+      "split": "train",
+      "readme_tags": [
+        "char_tutorial",
+        "char_architecture"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-081",
+      "repository": "vercel/turborepo",
+      "archetype": "monorepo",
+      "split": "train",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_tutorial"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-081",
+      "repository": "vercel/turborepo",
+      "archetype": "monorepo",
+      "split": "train",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_tutorial"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-081",
+      "repository": "vercel/turborepo",
+      "archetype": "monorepo",
+      "split": "train",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_tutorial"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-081",
+      "repository": "vercel/turborepo",
+      "archetype": "monorepo",
+      "split": "train",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_tutorial"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-082",
+      "repository": "facebook/docusaurus",
+      "archetype": "monorepo",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_tutorial"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F08",
+      "modality": "STRUCTURAL",
+      "failure_name": "Documentation-architecture failure"
+    },
+    {
+      "fixture_id": "real-082",
+      "repository": "facebook/docusaurus",
+      "archetype": "monorepo",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_tutorial"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-083",
+      "repository": "shadcn-ui/ui",
+      "archetype": "monorepo",
+      "split": "validation",
+      "readme_tags": [
+        "char_standard",
+        "char_example_heavy"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F10",
+      "modality": "MISSING-CAPABILITY",
+      "failure_name": "Unknown / unclassified"
+    },
+    {
+      "fixture_id": "real-083",
+      "repository": "shadcn-ui/ui",
+      "archetype": "monorepo",
+      "split": "validation",
+      "readme_tags": [
+        "char_standard",
+        "char_example_heavy"
+      ],
+      "surface": "aeo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F10",
+      "modality": "MISSING-CAPABILITY",
+      "failure_name": "Unknown / unclassified"
+    },
+    {
+      "fixture_id": "real-083",
+      "repository": "shadcn-ui/ui",
+      "archetype": "monorepo",
+      "split": "validation",
+      "readme_tags": [
+        "char_standard",
+        "char_example_heavy"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-084",
+      "repository": "storybookjs/storybook",
+      "archetype": "monorepo",
+      "split": "validation",
+      "readme_tags": [
+        "char_architecture",
+        "char_tutorial"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F08",
+      "modality": "STRUCTURAL",
+      "failure_name": "Documentation-architecture failure"
+    },
+    {
+      "fixture_id": "real-084",
+      "repository": "storybookjs/storybook",
+      "archetype": "monorepo",
+      "split": "validation",
+      "readme_tags": [
+        "char_architecture",
+        "char_tutorial"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 5,
+      "diff": -2,
+      "failure_code": "F08",
+      "modality": "STRUCTURAL",
+      "failure_name": "Documentation-architecture failure"
+    },
+    {
+      "fixture_id": "real-084",
+      "repository": "storybookjs/storybook",
+      "archetype": "monorepo",
+      "split": "validation",
+      "readme_tags": [
+        "char_architecture",
+        "char_tutorial"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-085",
+      "repository": "backstage/backstage",
+      "archetype": "monorepo",
+      "split": "test",
+      "readme_tags": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F08",
+      "modality": "STRUCTURAL",
+      "failure_name": "Documentation-architecture failure"
+    },
+    {
+      "fixture_id": "real-085",
+      "repository": "backstage/backstage",
+      "archetype": "monorepo",
+      "split": "test",
+      "readme_tags": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-085",
+      "repository": "backstage/backstage",
+      "archetype": "monorepo",
+      "split": "test",
+      "readme_tags": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-086",
+      "repository": "ansible/ansible",
+      "archetype": "devops",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-086",
+      "repository": "ansible/ansible",
+      "archetype": "devops",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-086",
+      "repository": "ansible/ansible",
+      "archetype": "devops",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "aeo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F01",
+      "modality": "LEXICAL",
+      "failure_name": "Missing semantic signal"
+    },
+    {
+      "fixture_id": "real-086",
+      "repository": "ansible/ansible",
+      "archetype": "devops",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-087",
+      "repository": "helm/helm",
+      "archetype": "devops",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-087",
+      "repository": "helm/helm",
+      "archetype": "devops",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 2,
+      "diff": 2,
+      "failure_code": "F10",
+      "modality": "MISSING-CAPABILITY",
+      "failure_name": "Unknown / unclassified"
+    },
+    {
+      "fixture_id": "real-087",
+      "repository": "helm/helm",
+      "archetype": "devops",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-088",
+      "repository": "prometheus/prometheus",
+      "archetype": "devops",
+      "split": "train",
+      "readme_tags": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-088",
+      "repository": "prometheus/prometheus",
+      "archetype": "devops",
+      "split": "train",
+      "readme_tags": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-088",
+      "repository": "prometheus/prometheus",
+      "archetype": "devops",
+      "split": "train",
+      "readme_tags": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-089",
+      "repository": "traefik/traefik",
+      "archetype": "devops",
+      "split": "train",
+      "readme_tags": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-089",
+      "repository": "traefik/traefik",
+      "archetype": "devops",
+      "split": "train",
+      "readme_tags": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-089",
+      "repository": "traefik/traefik",
+      "archetype": "devops",
+      "split": "train",
+      "readme_tags": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-090",
+      "repository": "hashicorp/vault",
+      "archetype": "devops",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_architecture"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-090",
+      "repository": "hashicorp/vault",
+      "archetype": "devops",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_architecture"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-090",
+      "repository": "hashicorp/vault",
+      "archetype": "devops",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_architecture"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-091",
+      "repository": "localstack/localstack",
+      "archetype": "devops",
+      "split": "validation",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_install_config",
+        "char_mixed"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F01",
+      "modality": "LEXICAL",
+      "failure_name": "Missing semantic signal"
+    },
+    {
+      "fixture_id": "real-092",
+      "repository": "k3s-io/k3s",
+      "archetype": "devops",
+      "split": "validation",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_install_config"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-092",
+      "repository": "k3s-io/k3s",
+      "archetype": "devops",
+      "split": "validation",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 1,
+      "diff": 3,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-092",
+      "repository": "k3s-io/k3s",
+      "archetype": "devops",
+      "split": "validation",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_install_config"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 2,
+      "diff": 2,
+      "failure_code": "F09",
+      "modality": "COMPOSITIONAL",
+      "failure_name": "Comparative/evaluative failure"
+    },
+    {
+      "fixture_id": "real-093",
+      "repository": "containerd/containerd",
+      "archetype": "devops",
+      "split": "validation",
+      "readme_tags": [
+        "char_architecture",
+        "char_standard"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-094",
+      "repository": "fluxcd/flux2",
+      "archetype": "devops",
+      "split": "test",
+      "readme_tags": [
+        "char_tutorial",
+        "char_architecture"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-094",
+      "repository": "fluxcd/flux2",
+      "archetype": "devops",
+      "split": "test",
+      "readme_tags": [
+        "char_tutorial",
+        "char_architecture"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-094",
+      "repository": "fluxcd/flux2",
+      "archetype": "devops",
+      "split": "test",
+      "readme_tags": [
+        "char_tutorial",
+        "char_architecture"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-094",
+      "repository": "fluxcd/flux2",
+      "archetype": "devops",
+      "split": "test",
+      "readme_tags": [
+        "char_tutorial",
+        "char_architecture"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-095",
+      "repository": "open-telemetry/opentelemetry-collector",
+      "archetype": "devops",
+      "split": "test",
+      "readme_tags": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-096",
+      "repository": "scikit-learn/scikit-learn",
+      "archetype": "data_ml",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_example_heavy"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-096",
+      "repository": "scikit-learn/scikit-learn",
+      "archetype": "data_ml",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_example_heavy"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-096",
+      "repository": "scikit-learn/scikit-learn",
+      "archetype": "data_ml",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_example_heavy"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 5,
+      "diff": -2,
+      "failure_code": "F10",
+      "modality": "MISSING-CAPABILITY",
+      "failure_name": "Unknown / unclassified"
+    },
+    {
+      "fixture_id": "real-097",
+      "repository": "numpy/numpy",
+      "archetype": "data_ml",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F10",
+      "modality": "MISSING-CAPABILITY",
+      "failure_name": "Unknown / unclassified"
+    },
+    {
+      "fixture_id": "real-097",
+      "repository": "numpy/numpy",
+      "archetype": "data_ml",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-097",
+      "repository": "numpy/numpy",
+      "archetype": "data_ml",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "aeo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F10",
+      "modality": "MISSING-CAPABILITY",
+      "failure_name": "Unknown / unclassified"
+    },
+    {
+      "fixture_id": "real-097",
+      "repository": "numpy/numpy",
+      "archetype": "data_ml",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-098",
+      "repository": "pandas-dev/pandas",
+      "archetype": "data_ml",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_example_heavy"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-098",
+      "repository": "pandas-dev/pandas",
+      "archetype": "data_ml",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_example_heavy"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 5,
+      "diff": -2,
+      "failure_code": "F10",
+      "modality": "MISSING-CAPABILITY",
+      "failure_name": "Unknown / unclassified"
+    },
+    {
+      "fixture_id": "real-099",
+      "repository": "pytorch/pytorch",
+      "archetype": "data_ml",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_architecture"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-099",
+      "repository": "pytorch/pytorch",
+      "archetype": "data_ml",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_architecture"
+      ],
+      "surface": "geo",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-100",
+      "repository": "vllm-project/vllm",
+      "archetype": "data_ml",
+      "split": "train",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_example_heavy"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-100",
+      "repository": "vllm-project/vllm",
+      "archetype": "data_ml",
+      "split": "train",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_example_heavy"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-101",
+      "repository": "run-llama/llama_index",
+      "archetype": "data_ml",
+      "split": "train",
+      "readme_tags": [
+        "char_tutorial",
+        "char_example_heavy"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-101",
+      "repository": "run-llama/llama_index",
+      "archetype": "data_ml",
+      "split": "train",
+      "readme_tags": [
+        "char_tutorial",
+        "char_example_heavy"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-101",
+      "repository": "run-llama/llama_index",
+      "archetype": "data_ml",
+      "split": "train",
+      "readme_tags": [
+        "char_tutorial",
+        "char_example_heavy"
+      ],
+      "surface": "aeo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F01",
+      "modality": "LEXICAL",
+      "failure_name": "Missing semantic signal"
+    },
+    {
+      "fixture_id": "real-101",
+      "repository": "run-llama/llama_index",
+      "archetype": "data_ml",
+      "split": "train",
+      "readme_tags": [
+        "char_tutorial",
+        "char_example_heavy"
+      ],
+      "surface": "geo",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-102",
+      "repository": "milvus-io/milvus",
+      "archetype": "data_ml",
+      "split": "validation",
+      "readme_tags": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-102",
+      "repository": "milvus-io/milvus",
+      "archetype": "data_ml",
+      "split": "validation",
+      "readme_tags": [
+        "char_architecture",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-103",
+      "repository": "chroma-core/chroma",
+      "archetype": "data_ml",
+      "split": "validation",
+      "readme_tags": [
+        "char_example_heavy",
+        "char_tutorial"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 2,
+      "diff": 2,
+      "failure_code": "F10",
+      "modality": "MISSING-CAPABILITY",
+      "failure_name": "Unknown / unclassified"
+    },
+    {
+      "fixture_id": "real-103",
+      "repository": "chroma-core/chroma",
+      "archetype": "data_ml",
+      "split": "validation",
+      "readme_tags": [
+        "char_example_heavy",
+        "char_tutorial"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-104",
+      "repository": "ray-project/ray",
+      "archetype": "data_ml",
+      "split": "validation",
+      "readme_tags": [
+        "char_architecture",
+        "char_example_heavy"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F10",
+      "modality": "MISSING-CAPABILITY",
+      "failure_name": "Unknown / unclassified"
+    },
+    {
+      "fixture_id": "real-104",
+      "repository": "ray-project/ray",
+      "archetype": "data_ml",
+      "split": "validation",
+      "readme_tags": [
+        "char_architecture",
+        "char_example_heavy"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-104",
+      "repository": "ray-project/ray",
+      "archetype": "data_ml",
+      "split": "validation",
+      "readme_tags": [
+        "char_architecture",
+        "char_example_heavy"
+      ],
+      "surface": "aeo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-104",
+      "repository": "ray-project/ray",
+      "archetype": "data_ml",
+      "split": "validation",
+      "readme_tags": [
+        "char_architecture",
+        "char_example_heavy"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-105",
+      "repository": "ggerganov/llama.cpp",
+      "archetype": "data_ml",
+      "split": "test",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_docs_heavy",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-106",
+      "repository": "deepseek-ai/DeepSeek-V3",
+      "archetype": "data_ml",
+      "split": "test",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_architecture"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-106",
+      "repository": "deepseek-ai/DeepSeek-V3",
+      "archetype": "data_ml",
+      "split": "test",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_architecture"
+      ],
+      "surface": "aeo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F01",
+      "modality": "LEXICAL",
+      "failure_name": "Missing semantic signal"
+    },
+    {
+      "fixture_id": "real-106",
+      "repository": "deepseek-ai/DeepSeek-V3",
+      "archetype": "data_ml",
+      "split": "test",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_architecture"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-107",
+      "repository": "microsoft/vscode-python",
+      "archetype": "plugin",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_tutorial"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-107",
+      "repository": "microsoft/vscode-python",
+      "archetype": "plugin",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_tutorial"
+      ],
+      "surface": "aeo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F01",
+      "modality": "LEXICAL",
+      "failure_name": "Missing semantic signal"
+    },
+    {
+      "fixture_id": "real-107",
+      "repository": "microsoft/vscode-python",
+      "archetype": "plugin",
+      "split": "train",
+      "readme_tags": [
+        "char_standard",
+        "char_tutorial"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-108",
+      "repository": "actions/checkout",
+      "archetype": "plugin",
+      "split": "train",
+      "readme_tags": [
+        "char_example_heavy",
+        "char_api_reference"
+      ],
+      "surface": "overall",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-108",
+      "repository": "actions/checkout",
+      "archetype": "plugin",
+      "split": "train",
+      "readme_tags": [
+        "char_example_heavy",
+        "char_api_reference"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 5,
+      "diff": -2,
+      "failure_code": "F10",
+      "modality": "MISSING-CAPABILITY",
+      "failure_name": "Unknown / unclassified"
+    },
+    {
+      "fixture_id": "real-108",
+      "repository": "actions/checkout",
+      "archetype": "plugin",
+      "split": "train",
+      "readme_tags": [
+        "char_example_heavy",
+        "char_api_reference"
+      ],
+      "surface": "aeo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F01",
+      "modality": "LEXICAL",
+      "failure_name": "Missing semantic signal"
+    },
+    {
+      "fixture_id": "real-111",
+      "repository": "sindresorhus/refined-github",
+      "archetype": "plugin",
+      "split": "validation",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-111",
+      "repository": "sindresorhus/refined-github",
+      "archetype": "plugin",
+      "split": "validation",
+      "readme_tags": [
+        "char_feature_comparison",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 1,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-113",
+      "repository": "tpope/vim-fugitive",
+      "archetype": "plugin",
+      "split": "test",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "overall",
+      "pred": 2,
+      "actual": 0,
+      "diff": 2,
+      "failure_code": "F10",
+      "modality": "MISSING-CAPABILITY",
+      "failure_name": "Unknown / unclassified"
+    },
+    {
+      "fixture_id": "real-113",
+      "repository": "tpope/vim-fugitive",
+      "archetype": "plugin",
+      "split": "test",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "seo",
+      "pred": 2,
+      "actual": 0,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-113",
+      "repository": "tpope/vim-fugitive",
+      "archetype": "plugin",
+      "split": "test",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "aeo",
+      "pred": 1,
+      "actual": 0,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-113",
+      "repository": "tpope/vim-fugitive",
+      "archetype": "plugin",
+      "split": "test",
+      "readme_tags": [
+        "char_standard",
+        "char_install_config"
+      ],
+      "surface": "geo",
+      "pred": 2,
+      "actual": 0,
+      "diff": 2,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-114",
+      "repository": "sindresorhus/is-stream",
+      "archetype": "small_project",
+      "split": "train",
+      "readme_tags": [
+        "char_minimal",
+        "char_example_heavy"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-114",
+      "repository": "sindresorhus/is-stream",
+      "archetype": "small_project",
+      "split": "train",
+      "readme_tags": [
+        "char_minimal",
+        "char_example_heavy"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-115",
+      "repository": "sindresorhus/is-plain-obj",
+      "archetype": "small_project",
+      "split": "train",
+      "readme_tags": [
+        "char_minimal",
+        "char_example_heavy"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-115",
+      "repository": "sindresorhus/is-plain-obj",
+      "archetype": "small_project",
+      "split": "train",
+      "readme_tags": [
+        "char_minimal",
+        "char_example_heavy"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-115",
+      "repository": "sindresorhus/is-plain-obj",
+      "archetype": "small_project",
+      "split": "train",
+      "readme_tags": [
+        "char_minimal",
+        "char_example_heavy"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-115",
+      "repository": "sindresorhus/is-plain-obj",
+      "archetype": "small_project",
+      "split": "train",
+      "readme_tags": [
+        "char_minimal",
+        "char_example_heavy"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-116",
+      "repository": "jonschlinkert/is-odd",
+      "archetype": "small_project",
+      "split": "train",
+      "readme_tags": [
+        "char_minimal",
+        "char_standard"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-117",
+      "repository": "jonschlinkert/is-even",
+      "archetype": "small_project",
+      "split": "train",
+      "readme_tags": [
+        "char_minimal",
+        "char_standard"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-117",
+      "repository": "jonschlinkert/is-even",
+      "archetype": "small_project",
+      "split": "train",
+      "readme_tags": [
+        "char_minimal",
+        "char_standard"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-117",
+      "repository": "jonschlinkert/is-even",
+      "archetype": "small_project",
+      "split": "train",
+      "readme_tags": [
+        "char_minimal",
+        "char_standard"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-117",
+      "repository": "jonschlinkert/is-even",
+      "archetype": "small_project",
+      "split": "train",
+      "readme_tags": [
+        "char_minimal",
+        "char_standard"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 4,
+      "diff": -1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-118",
+      "repository": "chriso/validator.js",
+      "archetype": "small_project",
+      "split": "validation",
+      "readme_tags": [
+        "char_api_reference",
+        "char_example_heavy"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 5,
+      "diff": -1,
+      "failure_code": "F05",
+      "modality": "WEIGHTING",
+      "failure_name": "Granularity mismatch"
+    },
+    {
+      "fixture_id": "real-119",
+      "repository": "component/emitter",
+      "archetype": "small_project",
+      "split": "test",
+      "readme_tags": [
+        "char_minimal",
+        "char_example_heavy"
+      ],
+      "surface": "overall",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-119",
+      "repository": "component/emitter",
+      "archetype": "small_project",
+      "split": "test",
+      "readme_tags": [
+        "char_minimal",
+        "char_example_heavy"
+      ],
+      "surface": "seo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    },
+    {
+      "fixture_id": "real-119",
+      "repository": "component/emitter",
+      "archetype": "small_project",
+      "split": "test",
+      "readme_tags": [
+        "char_minimal",
+        "char_example_heavy"
+      ],
+      "surface": "aeo",
+      "pred": 4,
+      "actual": 3,
+      "diff": 1,
+      "failure_code": "F03",
+      "modality": "STRUCTURAL",
+      "failure_name": "Structural mismatch"
+    },
+    {
+      "fixture_id": "real-120",
+      "repository": "segmentio/is-url",
+      "archetype": "small_project",
+      "split": "test",
+      "readme_tags": [
+        "char_minimal",
+        "char_standard"
+      ],
+      "surface": "geo",
+      "pred": 3,
+      "actual": 2,
+      "diff": 1,
+      "failure_code": "F04",
+      "modality": "WEIGHTING",
+      "failure_name": "Evidence-quality mismatch"
+    }
+  ]
+}

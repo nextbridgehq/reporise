@@ -1,0 +1,125 @@
+{
+  "id": "real-035",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "sqlalchemy/sqlalchemy",
+  "commit": "fb3b47d9eb54ae99721ededf115342177fa5aefd",
+  "capturedAt": "2026-09-08T11:52:48.371Z",
+  "files": [
+    {
+      "path": "examples/adjacency_list/adjacency_list.py",
+      "sha256": "355c880e1e3297ab05db5753490a84f51f5e5251a25ec35491c1ae174b1a6c9a",
+      "sizeBytes": 3455
+    },
+    {
+      "path": "examples/adjacency_list/__init__.py",
+      "sha256": "8d70580e8186c073ca274205f28ba4b4792d9ac2ee1d1874daaec40a117f0ba6",
+      "sizeBytes": 289
+    },
+    {
+      "path": "examples/association/basic_association.py",
+      "sha256": "8c29a4ca5c134769069c71e0939782ce2e7eb72783c2a335254b76f6519fd1a7",
+      "sizeBytes": 3841
+    },
+    {
+      "path": "examples/association/dict_of_sets_with_default.py",
+      "sha256": "14047caf4be85bb72aa69c261e81eac450f2da3421bbc60d358dd9246edf54c0",
+      "sizeBytes": 3254
+    },
+    {
+      "path": "examples/association/proxied_association.py",
+      "sha256": "da9d21fe5bda4ce94a3d7a03b0084a30c6cbd07c335f62c84e98fb8a4ad23f5c",
+      "sizeBytes": 3991
+    },
+    {
+      "path": "examples/association/__init__.py",
+      "sha256": "62b16df380d7e9bc6d534a900a5ac3dee8e78c3ce71acedfea6b077a2b769189",
+      "sizeBytes": 224
+    },
+    {
+      "path": "examples/asyncio/async_orm.py",
+      "sha256": "6b624bc8259efaec0eed8986876329f11e8dee76f19ed2aa494f0383532e6ed0",
+      "sizeBytes": 3216
+    },
+    {
+      "path": "examples/asyncio/async_orm_writeonly.py",
+      "sha256": "c5c509c9cac86c2266d0abbd92ec4e7d998f308d49e671b035883bb460846088",
+      "sizeBytes": 3012
+    },
+    {
+      "path": "examples/asyncio/basic.py",
+      "sha256": "9c23cd1561d0d12e4ff491ef5619bb06cceba4a5e96e333ac9e76dac8da9cae5",
+      "sizeBytes": 2274
+    },
+    {
+      "path": "examples/asyncio/gather_orm_statements.py",
+      "sha256": "57a566c66dd2c00fb7dd8fbada9aea5e9c87cd53717899cea36638fc11d06773",
+      "sizeBytes": 3490
+    },
+    {
+      "path": "examples/asyncio/greenlet_orm.py",
+      "sha256": "a24d82f44ec207252ecb65c5732e3ef3d69dbfc819db3ddcb04e6ace6ffae336",
+      "sizeBytes": 2514
+    },
+    {
+      "path": "examples/asyncio/__init__.py",
+      "sha256": "a423178dc9f1718f4504847a2c0fdf5286885b0a24971643e26f9a0d28824136",
+      "sizeBytes": 96
+    },
+    {
+      "path": "examples/custom_attributes/active_column_defaults.py",
+      "sha256": "1fae3a2a6d81c11a3dc3a76ee85cf8ba5a176b20d44bcb40bffddf404d9453e8",
+      "sizeBytes": 4046
+    },
+    {
+      "path": "examples/custom_attributes/custom_management.py",
+      "sha256": "ef44620c3bab0124453d479529251b7790bdd50bd88d4363a76df3d98284f5cd",
+      "sizeBytes": 3443
+    },
+    {
+      "path": "examples/custom_attributes/listen_for_events.py",
+      "sha256": "cbaf4699de86ed4196e86077f7279ccb23e0b42e3e32cc70569f562a1acdcc29",
+      "sizeBytes": 2162
+    },
+    {
+      "path": "examples/custom_attributes/__init__.py",
+      "sha256": "c09e945b0826b9240a2810dfd0622daad5c724e25a006ccc662f51d124bb6667",
+      "sizeBytes": 114
+    },
+    {
+      "path": "examples/dogpile_caching/advanced.py",
+      "sha256": "d32c7bce309153876119ccc9b01889924f6b86bd536680e8911cf1412332548c",
+      "sizeBytes": 3310
+    },
+    {
+      "path": "examples/dogpile_caching/caching_query.py",
+      "sha256": "2c6800bd12c36e32a2bc3df73aa4285a46ece0f82b932bbcdc13ed4f3be7187c",
+      "sizeBytes": 7080
+    },
+    {
+      "path": "examples/dogpile_caching/environment.py",
+      "sha256": "94b1b24a163ac5331d067d2e5467129d65b7df72f42cfc94dd773176390c7888",
+      "sizeBytes": 2141
+    },
+    {
+      "path": "examples/dogpile_caching/fixture_data.py",
+      "sha256": "7cdbda81de6a13327f55ce9bf16f7ca409043f3d64480d399f5b6cd9955e34c5",
+      "sizeBytes": 1830
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "9bb754071e711cf75728b9051b170bfb8f9e3b879c08386c96a36989c42cd5f1",
+      "sizeBytes": 1119
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "16c2331e0b63793319a11995c6f6918bc1b4129cacdc745f7ca41271e8310699",
+      "sizeBytes": 11379
+    },
+    {
+      "path": "README.rst",
+      "sha256": "74f9fd8c73f73de0ec9c5206ab11d0b7ad6bef5657b0bddc73568850a9c6fed3",
+      "sizeBytes": 5877
+    }
+  ]
+}

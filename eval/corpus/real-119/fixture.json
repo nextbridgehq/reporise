@@ -1,0 +1,25 @@
+{
+  "id": "real-119",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "component/emitter",
+  "commit": "52dc74531e6a5de7f680f150167f2e7eacd4f05b",
+  "capturedAt": "2026-09-08T12:22:58.754Z",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "68e112c272f0a1988f4014518abaaacdcfa9ced6830d734acfb6a28ff9172e3e",
+      "sizeBytes": 1169
+    },
+    {
+      "path": "package.json",
+      "sha256": "2e403beb170ffc695dfa1a56f7ae662ce226311ae6975efa333a814fcdce8e79",
+      "sizeBytes": 711
+    },
+    {
+      "path": "readme.md",
+      "sha256": "492eefd2cf81740186a0c39c7f9b1fe560f8fcc2be593876c81641f62cef175e",
+      "sizeBytes": 1878
+    }
+  ]
+}

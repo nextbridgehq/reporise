@@ -1,0 +1,7 @@
+{
+  "name": "antd-root",
+  "private": true,
+  "workspaces": [
+    "components/*"
+  ]
+}

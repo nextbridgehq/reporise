@@ -1,0 +1,42 @@
+{
+  "fixture_id": "real-062",
+  "repository": "plausible/analytics",
+  "primary_archetype": "webapp",
+  "split": "train",
+  "rubric_version": "m8-label-rubric-v1.0.0",
+  "label_source": "ai_review",
+  "human_verified": false,
+  "scores": {
+    "overall": 2,
+    "seo": 3,
+    "aeo": 3,
+    "geo": 1
+  },
+  "raw_score": 2,
+  "rationale": {
+    "overall": "reviewer_a: Holistic discoverability assessed at 2/5. Meets below-average threshold based on evidence synthesis across surfaces.",
+    "seo": "reviewer_a: SEO rated 3/5. Findings: H1 matches repository/package identity, valid root license file.",
+    "aeo": "reviewer_a: AEO rated 3/5. Direct answers verified for 3/5 canonical questions: Q2 (Who is it for?) target audience identified, Q3 (What does it do?) clear capabilities, Q4 (How is it used?) install & quickstart provided.",
+    "geo": "reviewer_a: GEO rated 1/5. Machine citability supported by: structured comparison or API tables."
+  },
+  "reviewer_a": {
+    "scores": {
+      "overall": 2,
+      "seo": 3,
+      "aeo": 3,
+      "geo": 1
+    },
+    "rationale": {
+      "overall": "reviewer_a: Holistic discoverability assessed at 2/5. Meets below-average threshold based on evidence synthesis across surfaces.",
+      "seo": "reviewer_a: SEO rated 3/5. Findings: H1 matches repository/package identity, valid root license file.",
+      "aeo": "reviewer_a: AEO rated 3/5. Direct answers verified for 3/5 canonical questions: Q2 (Who is it for?) target audience identified, Q3 (What does it do?) clear capabilities, Q4 (How is it used?) install & quickstart provided.",
+      "geo": "reviewer_a: GEO rated 1/5. Machine citability supported by: structured comparison or API tables."
+    }
+  },
+  "reviewer_b": null,
+  "adjudicated_at": "2026-09-08T12:31:58.324Z",
+  "calibrated_score": 2,
+  "calibration_version": "m8-cal-v1.0.0",
+  "calibration_offset": 0,
+  "gold_role": "none"
+}

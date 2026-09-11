@@ -1,0 +1,80 @@
+{
+  "id": "real-055",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "swc-project/swc",
+  "commit": "4b4c135ef479287bfc2c489e0214d04a1f4bfedb",
+  "capturedAt": "2026-09-08T11:58:14.066Z",
+  "files": [
+    {
+      "path": "Cargo.toml",
+      "sha256": "8b57e352d895521eb69cfe250da4ad20d5f3401f5133a0267d84cec49fb96a5a",
+      "sizeBytes": 9184
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "7bf0df50c2fe4e646e3a6661c2f57b5bfbac24497f1a208acd781494ccb26808",
+      "sizeBytes": 117407
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "cd4d6202727d88f62909ad101a183e5b9fa62f0ad91d8121bba4617dfe266d73",
+      "sizeBytes": 10547
+    },
+    {
+      "path": "docs/adr/00000-whats-the-big-idea.md",
+      "sha256": "994b2a18c210715e5f74648b41c3ecde8b22e6bc4da3f0216298ddd84295211e",
+      "sizeBytes": 101
+    },
+    {
+      "path": "docs/adr/00001-support-transformation-plugin-native.md",
+      "sha256": "0ccd4be4ceea655d9f3cf4151fb7c42d33237b1e66d2cc5de47eae38098ad2ed",
+      "sizeBytes": 5199
+    },
+    {
+      "path": "docs/adr/00002-support-event-trace-profiling.md",
+      "sha256": "6f2801e27fb583181a1d5b0e475099063e6609d4e1d3b55e115e5106f5b7c1fa",
+      "sizeBytes": 5502
+    },
+    {
+      "path": "docs/adr/00003-reserve-bytepos-0-for-dummy-span.md",
+      "sha256": "53ab0c823582cbd38af5578385b02d225a29b4c814787ff26f3f23e3c58ae419",
+      "sizeBytes": 1103
+    },
+    {
+      "path": "docs/adr/00004-add-ast-path-info-to-visitor.md",
+      "sha256": "fdd7788c78b34e428555c68b376fbebb520e7c7acf6c4e725608ae2e62e86bd0",
+      "sizeBytes": 2167
+    },
+    {
+      "path": "docs/adr/README.md",
+      "sha256": "a42164ef6fb3bf873666abc2858b59e94f392599aa2f117c0f892a655f70d1cf",
+      "sizeBytes": 745
+    },
+    {
+      "path": "docs/adr/template.md",
+      "sha256": "dc8c3aa969c501003acf81258263179c6ed3a13c34def0eac480e6052911e4a4",
+      "sizeBytes": 2366
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "6723875083dcab8c3253b489d075bb8e225a21bdd7ec22bed65a6f2c9f8cbc87",
+      "sizeBytes": 11036
+    },
+    {
+      "path": "package.json",
+      "sha256": "30efb4bc6a4852580d87c2d6248b013f914f4d91561805aa154abb0c5d6100e7",
+      "sizeBytes": 3784
+    },
+    {
+      "path": "README.md",
+      "sha256": "894cdb01c349f729778c3afa9e7868fbe081bde9eb646560ad8e3ca63202420b",
+      "sizeBytes": 4213
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "402784ddf06a6e32a0755a65795f91b7f19a65a84350fdf234f85a632343f7d5",
+      "sizeBytes": 2438
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "https://socialdocs.readthedocs.io/en/latest/": {
+    "http_status": 200,
+    "content": "# Technical Manual\n\n## Installation\n```bash\npip install social-and-docs\n```\n\n## Example\n```python\nimport socialdocs\nsocialdocs.connect()\n```\n"
+  }
+}

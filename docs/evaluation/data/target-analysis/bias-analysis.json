@@ -1,0 +1,55 @@
+{
+  "overall_mean_bias": 0.25,
+  "surface_biases": {
+    "overall": 0.25,
+    "seo": 0.2417,
+    "aeo": 0.3417,
+    "geo": 0.5083
+  },
+  "directional_distribution": {
+    "overall": {
+      "over_predicted": 44,
+      "exact_match": 51,
+      "under_predicted": 25
+    },
+    "geo": {
+      "over_predicted": 56,
+      "exact_match": 37,
+      "under_predicted": 27
+    }
+  },
+  "geo_hypothesis_evaluation": {
+    "hypothesis": "RepoRise systematically over-credits code blocks and tables for GEO citability, whereas human raters require formal architecture diagrams, citation metadata, and reproducible benchmarks.",
+    "empirical_evidence": [
+      "In RepoRise, code-blocks and examples-surface have high pass rates (>80%) which lift GEO raw score above 70% (bucket 4).",
+      "In the human rubric m8-label-rubric-v1.0.0, bucket 4 requires explicit comparison sections ('Why X vs Y') and markdown tables; bucket 5 requires architecture flow diagrams or CITATION.cff.",
+      "Over 60% of repositories lack CITATION.cff and architectural flow diagrams, causing raters to award bucket 2 or 3, while RepoRise awards bucket 3 or 4 based on standard syntax-highlighted code fences."
+    ],
+    "supporting_fixtures": [
+      {
+        "fixture_id": "real-033",
+        "repo": "colinhacks/zod",
+        "pred_geo": 3,
+        "actual_geo": 0,
+        "diff": 3,
+        "reason": "Rich code snippets triggered GEO credit, but rater penalized non-canonical structure"
+      },
+      {
+        "fixture_id": "real-035",
+        "repo": "sqlalchemy/sqlalchemy",
+        "pred_geo": 3,
+        "actual_geo": 1,
+        "diff": 2,
+        "reason": "Basic code fence presence rewarded; rater noted missing comparative architecture"
+      },
+      {
+        "fixture_id": "real-056",
+        "repo": "biomejs/biome",
+        "pred_geo": 4,
+        "actual_geo": 2,
+        "diff": 2,
+        "reason": "Tables present but rater required explicit benchmark attribution"
+      }
+    ]
+  }
+}

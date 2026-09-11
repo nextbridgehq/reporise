@@ -1,0 +1,25 @@
+{
+  "id": "real-073",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "donnemartin/system-design-primer",
+  "commit": "ae9bbd7b02d90b9866215de185217d33f39ab733",
+  "capturedAt": "2026-09-08T12:06:27.718Z",
+  "files": [
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "59ea53a5caab22a2a3c1288f6340baee226d6aea770279e1f83fdde53a1d39c4",
+      "sizeBytes": 5455
+    },
+    {
+      "path": "LICENSE.txt",
+      "sha256": "c04ebbe5551a2bf9621e4614bc7c6dadbcd063666184e43c730ff88b4d3252d7",
+      "sizeBytes": 374
+    },
+    {
+      "path": "README.md",
+      "sha256": "a0666b423e58596712f99cf3d992da993b1eade1effb7c7bd7b22212032c4e10",
+      "sizeBytes": 111669
+    }
+  ]
+}

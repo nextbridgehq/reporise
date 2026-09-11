@@ -1,0 +1,40 @@
+{
+  "id": "real-045",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "aws/aws-sdk-js-v3",
+  "commit": "e3cea9891f9dfec981a99982aae519ddabf469e0",
+  "capturedAt": "2026-09-08T11:56:04.213Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "cf005e34b499201bf2e4820aa2365f90bf11fdb19545c5302bbd3b1419d47b6b",
+      "sizeBytes": 409600
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "235806a5fa329832627e38e72629f69a22c1619784155c23c310c7dfb5b1bd96",
+      "sizeBytes": 316
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "6a08b1884448b8cdd34778f3e2dea6559080ad39661459417de0e394c3e002bc",
+      "sizeBytes": 11632
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "3f6fc05e143f5bc83f19d595361a888925c043d3cce7c04328ae45cee814bed6",
+      "sizeBytes": 11552
+    },
+    {
+      "path": "package.json",
+      "sha256": "7059ddd659d32302f159f5e4fb40e5d59f5d48a883530d3760cc0eda45f9ece8",
+      "sizeBytes": 6836
+    },
+    {
+      "path": "README.md",
+      "sha256": "7f481e945c974ba69e0252bf5841e213c42e6e8f4a373f2b68590fed716ea9e3",
+      "sizeBytes": 40475
+    }
+  ]
+}

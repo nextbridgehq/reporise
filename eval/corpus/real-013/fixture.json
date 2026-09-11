@@ -1,0 +1,25 @@
+{
+  "id": "real-013",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "langchain-ai/langchain",
+  "commit": "369e59ed6e5117ee2cc55ad9c54e7d446b5a03cb",
+  "capturedAt": "2026-09-08T11:47:56.800Z",
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "sha256": "75ac89d8930cc58a1d0ce325b8bf020a811945956e883c2074815a05fe2a3a5f",
+      "sizeBytes": 234
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "4ec67e4ca6e6721dba849b2ca82261597c86a61ee214bbf21416006b7b2d0478",
+      "sizeBytes": 1067
+    },
+    {
+      "path": "README.md",
+      "sha256": "7e8f7983153194ce3e1d277e03c14623a2f7e3c6238ef71f066403a9f3398ad3",
+      "sizeBytes": 5933
+    }
+  ]
+}

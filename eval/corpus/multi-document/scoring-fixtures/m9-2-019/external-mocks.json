@@ -1,0 +1,6 @@
+{
+  "https://biomejs.dev": {
+    "http_status": 200,
+    "content": "# Biome Documentation\n\n## Getting Started\n```bash\nnpm install --save-dev --save-exact @biomejs/biome\nnpx @biomejs/biome init\n```\n\n## Formatter & Linter\nFormat code quickly.\n"
+  }
+}

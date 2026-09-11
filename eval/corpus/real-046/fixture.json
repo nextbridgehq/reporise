@@ -1,0 +1,135 @@
+{
+  "id": "real-046",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "googleapis/google-api-python-client",
+  "commit": "ea0c8c9548b340ca50d6967ccd714d64bdf97ce8",
+  "capturedAt": "2026-09-08T11:56:27.067Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "cbcbc0af50c0e23d7af8b89720d139a6b9e98d34f3a2e5ade5fc52386426fa12",
+      "sizeBytes": 409600
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "1a09b21fff8b4b821d683813b352ce3e999693ba4f7ef645cf34e9b3d98e4a4e",
+      "sizeBytes": 2024
+    },
+    {
+      "path": "docs/api-keys.md",
+      "sha256": "f885d7bac7bcbff282b342629ddc76d369a2a4839b8519400d6fe11416187e97",
+      "sizeBytes": 931
+    },
+    {
+      "path": "docs/auth.md",
+      "sha256": "375c5a151d4c51c4a1d433334477022fcb7947dc2a81795f5a2e30b177e0149a",
+      "sizeBytes": 4035
+    },
+    {
+      "path": "docs/batch.md",
+      "sha256": "861420a40d5dbb7b1c3ae44925aaff005851f1085e90b5578b0e702ef82773b6",
+      "sizeBytes": 3424
+    },
+    {
+      "path": "docs/client-secrets.md",
+      "sha256": "939246b1a33a4d0522e6dbb3488ff8d090921be5cf542b5d28e61bf4b95532f5",
+      "sizeBytes": 3812
+    },
+    {
+      "path": "docs/dyn/abusiveexperiencereport_v1.html",
+      "sha256": "9658f1ccc5a68c89996bea875a244c3e0cba597d943581375fc84aba644a68df",
+      "sizeBytes": 2656
+    },
+    {
+      "path": "docs/dyn/abusiveexperiencereport_v1.sites.html",
+      "sha256": "1a963672fde66f20a54142753959b349db8aa89af6104c2891894f8cb65f46a8",
+      "sizeBytes": 3255
+    },
+    {
+      "path": "docs/dyn/abusiveexperiencereport_v1.violatingSites.html",
+      "sha256": "756cdc5de5d1ec81597262b095a04fcc7cdc9e8e226b3fbad3178fc604a41ffe",
+      "sizeBytes": 3295
+    },
+    {
+      "path": "docs/dyn/acceleratedmobilepageurl_v1.ampUrls.html",
+      "sha256": "d1352d82f2968ae07edb9999e87648abe4ca029760e439dd7f480574bb376558",
+      "sizeBytes": 3664
+    },
+    {
+      "path": "docs/dyn/acceleratedmobilepageurl_v1.html",
+      "sha256": "fe12211748ac99f84dba98185cb05a591dd06a7f43ba21856f87e6bbf773570f",
+      "sizeBytes": 2483
+    },
+    {
+      "path": "docs/dyn/accessapproval_v1.folders.approvalRequests.html",
+      "sha256": "702a35e5cd219a9ffe5457305eacdc38a65186e3bf54a064a096f3dd5275edb4",
+      "sizeBytes": 36534
+    },
+    {
+      "path": "docs/dyn/accessapproval_v1.folders.html",
+      "sha256": "e788269b04086763c0568a51eb0ad78201ce915300a3d142c9da67e6b7c29ff7",
+      "sizeBytes": 44342
+    },
+    {
+      "path": "docs/dyn/accessapproval_v1.html",
+      "sha256": "f58459a1fc1ff5033ccbc7eae0da7542b07afccabf5d9aec183ef71941768b16",
+      "sizeBytes": 2785
+    },
+    {
+      "path": "docs/dyn/accessapproval_v1.organizations.approvalRequests.html",
+      "sha256": "f49075c013c8ea34b0a6d61c924b466cedf7f168323584c0885c43504c206145",
+      "sizeBytes": 36552
+    },
+    {
+      "path": "docs/dyn/accessapproval_v1.organizations.html",
+      "sha256": "f359712adcb1d349b1efafcad2198d799710af98aa238fec5d1296db8f2b0f1d",
+      "sizeBytes": 44360
+    },
+    {
+      "path": "docs/dyn/accessapproval_v1.projects.approvalRequests.html",
+      "sha256": "64d2ae238c5df303b1e9ca2a91623f6199176e86e11c6017f27727001351582a",
+      "sizeBytes": 36537
+    },
+    {
+      "path": "docs/dyn/accessapproval_v1.projects.html",
+      "sha256": "098f2c0f480beb083488a27510c6fc2cdd36253d558a515f53e66d12f7820124",
+      "sizeBytes": 44345
+    },
+    {
+      "path": "docs/dyn/accesscontextmanager_v1.accessPolicies.accessLevels.html",
+      "sha256": "a82a7cc19289222631f961bc619141d46ea85a04b603afd39b533dfeaa1c2e01",
+      "sizeBytes": 73315
+    },
+    {
+      "path": "docs/dyn/accesscontextmanager_v1.accessPolicies.authorizedOrgsDescs.html",
+      "sha256": "44e50ab67c3de04f27c4921b0983a264dc6764cc662905bf082038d65b184728",
+      "sizeBytes": 24081
+    },
+    {
+      "path": "docs/dyn/accesscontextmanager_v1.accessPolicies.html",
+      "sha256": "d9a85017f95bb1524409cfa1f4fb608f26e9fdb06bc95211c2c94178a99a8851",
+      "sizeBytes": 72737
+    },
+    {
+      "path": "docs/dyn/accesscontextmanager_v1.accessPolicies.servicePerimeters.html",
+      "sha256": "b18c088b300534c87c8c81f5e91c4e7eaafa5da1799df5dfe1f96526c783c7a6",
+      "sizeBytes": 228728
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "sizeBytes": 11558
+    },
+    {
+      "path": "README.md",
+      "sha256": "f3cf323b540a9e3a1141e9af4ac47d2d4e33ea1ed2f8f05f3eb49c5d51b70fe5",
+      "sizeBytes": 5513
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "8e9fdb5101718bf15cfead9048379bb961ab2333b67a00224b7f4c052fb209f4",
+      "sizeBytes": 336
+    }
+  ]
+}

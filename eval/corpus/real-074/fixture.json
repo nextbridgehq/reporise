@@ -1,0 +1,20 @@
+{
+  "id": "real-074",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "jwasham/coding-interview-university",
+  "commit": "717298bf219a30d7fb0671285c5f057b1bb74b27",
+  "capturedAt": "2026-09-08T12:06:27.715Z",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "670e1c60f680d6bdbf512e35ae3034650328102eb37f67c666f86206ab93b0e8",
+      "sizeBytes": 20556
+    },
+    {
+      "path": "README.md",
+      "sha256": "6b7c37cf41ca2201feda2c0d71a7cd58599e490258534624c8d9cacc72009571",
+      "sizeBytes": 138676
+    }
+  ]
+}

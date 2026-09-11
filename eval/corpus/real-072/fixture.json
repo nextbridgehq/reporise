@@ -1,0 +1,20 @@
+{
+  "id": "real-072",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "ryanmcdermott/clean-code-javascript",
+  "commit": "5311f64b03fc0c2450ab17a45ee9818669c8b9b5",
+  "capturedAt": "2026-09-08T12:05:39.269Z",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "90283187427f4d88d4b881fce9ee63c5b9127656ad60a1992cf43ea49bb77b65",
+      "sizeBytes": 1101
+    },
+    {
+      "path": "README.md",
+      "sha256": "76f5598197bc90ff671a8ba52438301b660addc7be7f933dd59b22e91d6fac4a",
+      "sizeBytes": 60931
+    }
+  ]
+}

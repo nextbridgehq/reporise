@@ -1,0 +1,6 @@
+{
+  "https://docs.solidjs.com": {
+    "http_status": 200,
+    "content": "# SolidJS Documentation\n\n## Quick Start\n```bash\nnpx degit solidjs/templates/js my-app\n```\n\n## Primitives\nCreate signals and effects.\n"
+  }
+}

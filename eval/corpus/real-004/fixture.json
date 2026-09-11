@@ -1,0 +1,70 @@
+{
+  "id": "real-004",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "sharkdp/bat",
+  "commit": "6b0d952a23395d985a9df61a5b46e382ce6a8779",
+  "capturedAt": "2026-09-08T11:46:46.234Z",
+  "files": [
+    {
+      "path": "Cargo.toml",
+      "sha256": "f0a4597506c185fbc14c003f4f92cb1fa477e8bd45f5da9420e582941ae58d27",
+      "sizeBytes": 3906
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "29ca340ad9c17d3c72593e87424483a5e6d14eeb272e2eafd75899b2f2037ead",
+      "sizeBytes": 66580
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "bde73fef5e73147dac97fdfd1346360ff2265e15b2af17ec34a944da8f986fd0",
+      "sizeBytes": 4358
+    },
+    {
+      "path": "examples/advanced.rs",
+      "sha256": "87d3931fc0916fa5c924cd00ef392904d89e8b40464695eff104e86ebe80007f",
+      "sizeBytes": 563
+    },
+    {
+      "path": "examples/buffer.rs",
+      "sha256": "665c81935ac7c801a973627bd4a3bfe6a5045f7cadf50c192148c1236ec74d6c",
+      "sizeBytes": 608
+    },
+    {
+      "path": "examples/cat.rs",
+      "sha256": "ac91c732ba844a623772560e2e7c0e1912530d2f7b76677a2843ec00f9d7293d",
+      "sizeBytes": 354
+    },
+    {
+      "path": "examples/inputs.rs",
+      "sha256": "c3b997a20317204de5dfbd1d64c40231232079baee27aa1fde3946768243854b",
+      "sizeBytes": 645
+    },
+    {
+      "path": "examples/list_syntaxes_and_themes.rs",
+      "sha256": "301040f79f2a0fac13b574b3e9c01aac64aaf89b6fe649c15508dcc64d5a5877",
+      "sizeBytes": 432
+    },
+    {
+      "path": "examples/simple.rs",
+      "sha256": "f407fbc9086999e8c61256bfeede498c58823b4a3aaf219294ce5853c7210ae5",
+      "sizeBytes": 183
+    },
+    {
+      "path": "examples/yaml.rs",
+      "sha256": "c3c888d62396852ec6ac23c7dd2cf9bd69b5c87b79626f1a881215db179124bf",
+      "sizeBytes": 949
+    },
+    {
+      "path": "README.md",
+      "sha256": "abe4cf696f2c60b2406354f8863cbdf58d84272804b5c83dba5efe626e719e5a",
+      "sizeBytes": 34888
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "ffe168507e02d76d57c1cd7f18ce2ca5a7ec3b6da81a4104e3d29f0a519b7f25",
+      "sizeBytes": 132
+    }
+  ]
+}

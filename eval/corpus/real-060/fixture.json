@@ -1,0 +1,140 @@
+{
+  "id": "real-060",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "astral-sh/ruff",
+  "commit": "321eebc2d6574fb868e46312e8ff4ce8e401e8b5",
+  "capturedAt": "2026-09-08T11:59:45.932Z",
+  "files": [
+    {
+      "path": "Cargo.toml",
+      "sha256": "a60860fac8ad3ad22c10dac39d8b3d90dbef2b5697890ac0061517108bc05ec2",
+      "sizeBytes": 13830
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "1939ae33122f2ce0a5b667b46b4542704a3dab71e8a80e0a06dda4459b47c9ba",
+      "sizeBytes": 21038
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "908dab129bf8ae074ad7177b1dd6e45178c2142366c9463cd09420d7e579f468",
+      "sizeBytes": 50152
+    },
+    {
+      "path": "docs/.gitignore",
+      "sha256": "5aba9f11e731b027fb6bab3779389134171429238a554d117e8bb269faaf8639",
+      "sizeBytes": 76
+    },
+    {
+      "path": "docs/.overrides/main.html",
+      "sha256": "d09d3ca0c98c2a2d657bc3daabd4bb188802bd004e3a7669fd7d205d8d11bd86",
+      "sizeBytes": 1217
+    },
+    {
+      "path": "docs/assets/bolt.svg",
+      "sha256": "16198727691c2f4f90c81dab0cf6d4e84924ffeec7a0642e7abcd7f8a595cf38",
+      "sizeBytes": 3746
+    },
+    {
+      "path": "docs/assets/favicon.ico",
+      "sha256": "5803113a3690424c38c1f67022f0eb6d4d97db10bf4fd7c7cd09b8a83d21a81b",
+      "sizeBytes": 7406
+    },
+    {
+      "path": "docs/assets/ruff-favicon.png",
+      "sha256": "01659744947aed48a701bdac8a8230a3594710b5133190ee89a62da62f7b5e82",
+      "sizeBytes": 751
+    },
+    {
+      "path": "docs/configuration.md",
+      "sha256": "93241ee2e33ea22c47ab73095525a01a30dbdcc1f9a8ca8d3a579fe57b237823",
+      "sizeBytes": 31255
+    },
+    {
+      "path": "docs/editors/features.md",
+      "sha256": "1e09cc72cf0c2423686d5ec945ae17c9673541ee37afda6aaa83075d5df66737",
+      "sizeBytes": 5015
+    },
+    {
+      "path": "docs/editors/index.md",
+      "sha256": "851dc9b8d5c618b51e19e0f98aa9d24c15178d8bec72089d73bdf07328164a43",
+      "sizeBytes": 1607
+    },
+    {
+      "path": "docs/editors/migration.md",
+      "sha256": "10c13bc2ee0f6f6117c6deb40c292834d378a50c826e203f7b3dab212f019f9c",
+      "sizeBytes": 5469
+    },
+    {
+      "path": "docs/editors/settings.md",
+      "sha256": "08ba2d69744d6827e1dc6bb7e245d19688f58d4b8ada12b06258307853c6b4c1",
+      "sizeBytes": 23528
+    },
+    {
+      "path": "docs/editors/setup.md",
+      "sha256": "9f5a05a2b5942facf31d69e364e21f0057c749020587cf1d44a6b4f90cbed0dc",
+      "sizeBytes": 16741
+    },
+    {
+      "path": "docs/faq.md",
+      "sha256": "20647f261ae9390f639b870867646665efd708a03e9295631e28b972359f16e7",
+      "sizeBytes": 28392
+    },
+    {
+      "path": "docs/formatter/black.md",
+      "sha256": "9cc78eaac0e19ed8efd258864dd7e06bcba686e9e4bf9e6549ed261fc7a39752",
+      "sizeBytes": 21119
+    },
+    {
+      "path": "docs/formatter.md",
+      "sha256": "61a167a23cc3c95fdacba464fe7fd1dbc3aae2e8462ff5f87878fe498d488dc9",
+      "sizeBytes": 23183
+    },
+    {
+      "path": "docs/installation.md",
+      "sha256": "cc46dce40d4a90f9fc486f6c002707f6b6af68edafcf36e706fbc3f9b83cce4d",
+      "sizeBytes": 2705
+    },
+    {
+      "path": "docs/integrations.md",
+      "sha256": "b5ed1c96d4188d9987805621d575cdaa581547a9d419b6b3dd17144d8ab99f3d",
+      "sizeBytes": 5361
+    },
+    {
+      "path": "docs/js/extra.js",
+      "sha256": "50b6b5629d0619a3248daa49e0114cb2322a6f5e9f87b6d26e1716efee8b8348",
+      "sizeBytes": 1877
+    },
+    {
+      "path": "docs/linter.md",
+      "sha256": "c14ba0343cc5adb8650c327affe043d3eaca2ed1ed6048452fc33403d103f227",
+      "sizeBytes": 25018
+    },
+    {
+      "path": "docs/preview.md",
+      "sha256": "87bfbf8fa2b9d80537139ceb9f0ee1411d84e7c2c36434d32adae922541d6c2c",
+      "sizeBytes": 3951
+    },
+    {
+      "path": "docs/rule-proposals.md",
+      "sha256": "6584a006c390f3f0774859edbfd28cfe570258ca414e139bcb7be80301965c15",
+      "sizeBytes": 10203
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "2597d854122b77ddc71971564ca2350a37608575ce324adc5650a2b2051c8f18",
+      "sizeBytes": 20731
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "80e37cbe3658aac288bc3f96b859368ab942571e3982ecad47396704fae4d934",
+      "sizeBytes": 9592
+    },
+    {
+      "path": "README.md",
+      "sha256": "97d6051f421d49ef43b6e13da6794f562f448615e1487cf38085ed44d003cf14",
+      "sizeBytes": 25233
+    }
+  ]
+}

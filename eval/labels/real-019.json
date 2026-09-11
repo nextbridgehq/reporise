@@ -1,0 +1,12 @@
+{
+  "fixture_id": "real-019",
+  "split": "real",
+  "scores": {
+    "overall": 0,
+    "geo": 0,
+    "aeo": 0,
+    "seo": 0
+  },
+  "_human_verified": true,
+  "_note": "Initial programmatic scores, used for baseline testing as a proxy for human ground truth."
+}

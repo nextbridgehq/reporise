@@ -1,0 +1,6 @@
+{
+  "https://python.langchain.com/docs/": {
+    "http_status": 200,
+    "content": "# LangChain Documentation\n\n## Installation\n```bash\npip install langchain\n```\n\n## Quickstart\n```python\nfrom langchain_openai import ChatOpenAI\n```\n"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "https://fastapi.tiangolo.com/tutorial/": {
+    "http_status": 200,
+    "content": "# FastAPI Tutorial - User Guide\n\n## Installation\n```bash\npip install \"fastapi[standard]\"\n```\n\n## First Steps\n```python\nfrom fastapi import FastAPI\napp = FastAPI()\n```\n"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "real-050",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "postmanlabs/postman-collection",
+  "commit": "8801e7f4989e90128cd235ea37e238663a479804",
+  "capturedAt": "2026-09-08T11:57:29.416Z",
+  "files": [
+    {
+      "path": "docs/concepts.md",
+      "sha256": "2e2d1e68243a547d8c02996dca8911f8f878e145198c4c70fbe7bb1a8cf925eb",
+      "sizeBytes": 5560
+    },
+    {
+      "path": "docs/mutation-tracking.md",
+      "sha256": "ebca69e1bef8da6bdd1af33a8c6fffd0b290203d56aa48b6fb7ddfaee77379f9",
+      "sizeBytes": 4760
+    },
+    {
+      "path": "docs/tutorial-jsdoc-config.json",
+      "sha256": "5da0d59639d998f5f0ea3df38cd3deefe1f371006d35b87a1de85f8c6fe6d51d",
+      "sizeBytes": 149
+    },
+    {
+      "path": "examples/collection-v2.json",
+      "sha256": "f3ded8ffe7748b7b25340a42a0aa5920c61775026c1fd68a594b865f6171766c",
+      "sizeBytes": 15823
+    },
+    {
+      "path": "examples/console-readout.js",
+      "sha256": "9c5329cab116f68118b899573a237adc89198d2d4dbb9ce6ee37aa77c583c38b",
+      "sizeBytes": 430
+    },
+    {
+      "path": "examples/digest.json",
+      "sha256": "63a7897d79ce64e6ecbbe46f0e9e8ce9efb2ef39c2aa4f046724e4c2f3d91421",
+      "sizeBytes": 7658
+    },
+    {
+      "path": "examples/hawk.json",
+      "sha256": "2d179b9c9e7c892b5ba9403fb3d85546e3cafb4f2c9d740f369091286ff76e7c",
+      "sizeBytes": 1692
+    },
+    {
+      "path": "examples/nested-v2-collection-without-name.json",
+      "sha256": "b0c497dbc16b5c530ea3595376f8e893c7aab5e3caf543cf7788aa56019e7faf",
+      "sizeBytes": 5501
+    },
+    {
+      "path": "examples/nested-v2-collection.json",
+      "sha256": "a67c8210eaaf8bdc5cd337eca0846cb54802adee82dc34b269d86619161c5b95",
+      "sizeBytes": 5765
+    },
+    {
+      "path": "examples/oauth1.json",
+      "sha256": "32634e2ceb66a9efa7714d9095604262073bf3a6be42d138bfb7a9a8f03b7e4a",
+      "sizeBytes": 3369
+    },
+    {
+      "path": "LICENSE.md",
+      "sha256": "6d1d968fb225eca367cb7f0b8831ab012a35d92b547e945e17ef8e7b05c3e5cc",
+      "sizeBytes": 10349
+    },
+    {
+      "path": "package.json",
+      "sha256": "6aaaf165def1917ebc93fd308c3254437ca69673f9e739b94047f441f371ff6d",
+      "sizeBytes": 2548
+    },
+    {
+      "path": "README.md",
+      "sha256": "eac9a78095a493b2221a45d4ab6861bbdc69bd3482cc7feec3827cd7eddb71fd",
+      "sizeBytes": 3325
+    }
+  ]
+}

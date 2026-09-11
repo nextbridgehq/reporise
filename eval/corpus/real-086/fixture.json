@@ -1,0 +1,20 @@
+{
+  "id": "real-086",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "ansible/ansible",
+  "commit": "3827d66bfbdc568f58cce57b113131598c46cd5a",
+  "capturedAt": "2026-09-08T12:13:40.033Z",
+  "files": [
+    {
+      "path": "pyproject.toml",
+      "sha256": "17c1cef5b27fb52509a229a266fa46fe9ccfe3060124635b1d959f619643c664",
+      "sizeBytes": 3614
+    },
+    {
+      "path": "README.md",
+      "sha256": "8f512e90be5ff7f31a63d87674997ed9489826d76a91a1ff7772ff9b53ab3399",
+      "sizeBytes": 6261
+    }
+  ]
+}

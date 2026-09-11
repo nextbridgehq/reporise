@@ -1,0 +1,43 @@
+{
+  "fixture_id": "real-060",
+  "repository": "astral-sh/ruff",
+  "primary_archetype": "devtool",
+  "split": "test",
+  "rubric_version": "m8-label-rubric-v1.0.0",
+  "label_source": "ai_review",
+  "human_verified": true,
+  "scores": {
+    "overall": 5,
+    "seo": 5,
+    "aeo": 4,
+    "geo": 4
+  },
+  "raw_score": 5,
+  "rationale": {
+    "overall": "reviewer_a: Holistic discoverability assessed at 5/5. Meets high-quality professional threshold based on evidence synthesis across surfaces.",
+    "seo": "reviewer_a: SEO rated 5/5. Findings: H1 matches repository/package identity, valid root license file, manifest metadata linked back to source, rich heading hierarchy, substantial content length, and complete metadata, exemplary discoverability surface with changelog, contributing, and comprehensive metadata.",
+    "aeo": "reviewer_a: AEO rated 4/5. Direct answers verified for 4/5 canonical questions: Q2 (Who is it for?) target audience identified, Q3 (What does it do?) clear capabilities, Q4 (How is it used?) install & quickstart provided, Q5 (Prerequisites) runtime/ecosystem facts explicit.",
+    "geo": "reviewer_a: GEO rated 4/5. Machine citability supported by: 13 code block(s) present, syntax-highlighted code fences, extended docs or runnable examples."
+  },
+  "reviewer_a": {
+    "scores": {
+      "overall": 5,
+      "seo": 5,
+      "aeo": 4,
+      "geo": 4
+    },
+    "rationale": {
+      "overall": "reviewer_a: Holistic discoverability assessed at 5/5. Meets high-quality professional threshold based on evidence synthesis across surfaces.",
+      "seo": "reviewer_a: SEO rated 5/5. Findings: H1 matches repository/package identity, valid root license file, manifest metadata linked back to source, rich heading hierarchy, substantial content length, and complete metadata, exemplary discoverability surface with changelog, contributing, and comprehensive metadata.",
+      "aeo": "reviewer_a: AEO rated 4/5. Direct answers verified for 4/5 canonical questions: Q2 (Who is it for?) target audience identified, Q3 (What does it do?) clear capabilities, Q4 (How is it used?) install & quickstart provided, Q5 (Prerequisites) runtime/ecosystem facts explicit.",
+      "geo": "reviewer_a: GEO rated 4/5. Machine citability supported by: 13 code block(s) present, syntax-highlighted code fences, extended docs or runnable examples."
+    }
+  },
+  "reviewer_b": null,
+  "adjudicated_at": "2026-09-08T12:31:58.310Z",
+  "calibrated_score": 5,
+  "calibration_version": "m8-cal-v1.0.0",
+  "calibration_offset": 0,
+  "gold_role": "untouched_evaluation",
+  "evaluation_access": "frozen_benchmark"
+}

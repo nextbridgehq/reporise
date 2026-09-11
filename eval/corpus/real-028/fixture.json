@@ -1,0 +1,135 @@
+{
+  "id": "real-028",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "pydantic/pydantic",
+  "commit": "2261ae19e2e09f792f06613360c83fc829238111",
+  "capturedAt": "2026-09-08T11:51:20.779Z",
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "sha256": "f34f533fcdfc0fe84e17ccaed4399fe45047bc090d3180d7ac38e5b357332d98",
+      "sizeBytes": 1333
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "419d79ae7d440d49b3fa5fa7739f5f3a359e3ca42c3fa942e5604ae3474eb35b",
+      "sizeBytes": 20
+    },
+    {
+      "path": "docs/api/aliases.md",
+      "sha256": "c31c79b329ead14421c061a2f5f3ea88b84681ee41187a3fe9effecc3399cca9",
+      "sizeBytes": 22
+    },
+    {
+      "path": "docs/api/annotated_handlers.md",
+      "sha256": "1d74eac302b742691babe745049ebae94715b902ae34cea5eaf99fa960448876",
+      "sizeBytes": 33
+    },
+    {
+      "path": "docs/api/base_model.md",
+      "sha256": "c52f8dea9eb677b9a33d53079b7c6bbe13abfce247e6aec692c4ad84f499b5d1",
+      "sizeBytes": 961
+    },
+    {
+      "path": "docs/api/config.md",
+      "sha256": "93b2342909f47a714749168e2541beacb9767983f6f7e9c4ce0f5998870f6a58",
+      "sizeBytes": 251
+    },
+    {
+      "path": "docs/api/dataclasses.md",
+      "sha256": "269a6ef3ed1c282bb8c51f0e3a121af4d953c63e14e96dd303b69fb233c08fcd",
+      "sizeBytes": 26
+    },
+    {
+      "path": "docs/api/errors.md",
+      "sha256": "08b4aca287cdabb3a879b732fae69e7beda2218a7db0bd696366775ba733e0b1",
+      "sizeBytes": 21
+    },
+    {
+      "path": "docs/api/experimental.md",
+      "sha256": "b67d08dfe63f62e6b70385f5c29dc71c86022ce676048cbb6cc6405a2d1c34c1",
+      "sizeBytes": 280
+    },
+    {
+      "path": "docs/api/fields.md",
+      "sha256": "085d29326311456b45885d37b31ac0990c6bb4a956b123991080944195fb41e2",
+      "sizeBytes": 447
+    },
+    {
+      "path": "docs/api/functional_serializers.md",
+      "sha256": "ce388663ad8932beada284a0db66c971bd0fbed2eaf48e4b634bd65ad7527758",
+      "sizeBytes": 37
+    },
+    {
+      "path": "docs/api/functional_validators.md",
+      "sha256": "9e9609a672cf545c85dd49d22d42698015269aa432dcfe01cf8dde3ebc5eb1d9",
+      "sizeBytes": 36
+    },
+    {
+      "path": "docs/api/json_schema.md",
+      "sha256": "6aa607694efd3a30aa6ab59647ef9a30e51a037bde6e87639cf5298585cc7290",
+      "sizeBytes": 26
+    },
+    {
+      "path": "docs/api/networks.md",
+      "sha256": "98a97ddc2c3d425f4d6657689b16a141305be301c0f4c7372e684aff54f7d0a1",
+      "sizeBytes": 23
+    },
+    {
+      "path": "docs/api/pydantic_core.md",
+      "sha256": "d6d829fde7abc096a9b7deee9844b1454b7c35110ce5c08fe887bff38ef1c7f8",
+      "sizeBytes": 735
+    },
+    {
+      "path": "docs/api/pydantic_core_schema.md",
+      "sha256": "7b33ea5eeac02ff45f7db0fc3eb9b024ddc49bb95b70126136901a311c2cacaa",
+      "sizeBytes": 31
+    },
+    {
+      "path": "docs/api/pydantic_extra_types_color.md",
+      "sha256": "e61a7aa6132b2e75f60ef2e9537739c13f41df1b3bfbb5a9db91f8ba4e5796d5",
+      "sizeBytes": 32
+    },
+    {
+      "path": "docs/api/pydantic_extra_types_coordinate.md",
+      "sha256": "49482a9805b45fb7dfe854bc3030f74f62b44a9db9a58e214266a72a5661789d",
+      "sizeBytes": 37
+    },
+    {
+      "path": "docs/api/pydantic_extra_types_country.md",
+      "sha256": "0c6b8dc8a077944f7b9053698c139f02e2e6e3ab7842131dbd5d716da007fb09",
+      "sizeBytes": 34
+    },
+    {
+      "path": "docs/api/pydantic_extra_types_currency_code.md",
+      "sha256": "646982284d775650beaa6e6d91e341faf039f3d51e958140f45e4fd4dc88441d",
+      "sizeBytes": 40
+    },
+    {
+      "path": "docs/api/pydantic_extra_types_isbn.md",
+      "sha256": "ebad266814511a4a4fa7f4807ac8dae3f33429e83027b6739c1f589588364601",
+      "sizeBytes": 31
+    },
+    {
+      "path": "docs/api/pydantic_extra_types_language_code.md",
+      "sha256": "c9deb995fbb88afa283ff6d02224724f8ba78540bee2d7632f6abd1208d0677b",
+      "sizeBytes": 40
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "fc67bae6467548be3bf034f79012cb3cdb2cc548c18969e305717cf8074bf8e7",
+      "sizeBytes": 1150
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "ba4e022429e91fc5f37298cf59f58ec34bd174bcecd55c54e1060c4c0ae948bb",
+      "sizeBytes": 9656
+    },
+    {
+      "path": "README.md",
+      "sha256": "7b3a3f2e6f8f72920149e37db5e1990a1edb3ef68dc41aa2d2e9f7b2f5bedadc",
+      "sizeBytes": 3516
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "real-029",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "chalk/chalk",
+  "commit": "661317e6f91fe7c90306c2c48ea9354562ee9146",
+  "capturedAt": "2026-09-08T11:51:46.742Z",
+  "files": [
+    {
+      "path": "contributing.md",
+      "sha256": "4620cfabc8f5ef9aa783087d5210fa6d73a94d392fc0599f77e4ef3ae42a542d",
+      "sizeBytes": 191
+    },
+    {
+      "path": "examples/rainbow.js",
+      "sha256": "36c4c3ed4e26f0c0c2b399f97a85ba854ab681d3c70708e3cab8baacfd56597a",
+      "sizeBytes": 985
+    },
+    {
+      "path": "examples/screenshot.js",
+      "sha256": "f0f453e855ad3858e1dd58f067998f2ab3fe27ca5d8d9e939b146de3a0d7696b",
+      "sizeBytes": 598
+    },
+    {
+      "path": "license",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "sizeBytes": 1117
+    },
+    {
+      "path": "package.json",
+      "sha256": "5a853fc6dc0c529bc126f97645989e9d60d06a2e9b20f66a6b48b0e8ef9da3ef",
+      "sizeBytes": 1743
+    },
+    {
+      "path": "readme.md",
+      "sha256": "83afc9420595c1f7bb4ad5e13c2d77614676983f3df1e58acbb6985ed6a2ad7b",
+      "sizeBytes": 13891
+    }
+  ]
+}

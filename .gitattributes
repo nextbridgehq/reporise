@@ -1,0 +1,5 @@
+# Keep LF in the repo and in checkouts. The CLI entrypoints carry a
+# `#!/usr/bin/env node` shebang, which CRLF breaks on Linux and macOS.
+* text=auto eol=lf
+*.png binary
+*.zip binary

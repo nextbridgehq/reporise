@@ -1,0 +1,26 @@
+{
+  "name": "roadmap.sh",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Roadmap content for roadmap.sh",
+  "scripts": {
+    "format": "prettier --write .",
+    "sync:content-to-repo": "tsx ./scripts/sync-content-to-repo.ts",
+    "sync:repo-to-database": "tsx ./scripts/sync-repo-to-database.ts",
+    "cleanup:orphaned-content": "tsx ./scripts/cleanup-orphaned-content.ts"
+  },
+  "dependencies": {
+    "markdown-it": "^14.1.0",
+    "node-html-parser": "^7.0.1",
+    "turndown": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^14.1.2",
+    "@types/node": "^26.1.1",
+    "@types/turndown": "^5.0.5",
+    "prettier": "^3.5.3",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}

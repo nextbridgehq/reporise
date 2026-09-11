@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "M8LabelSchema",
+  "type": "object",
+  "required": [
+    "fixture_id",
+    "repository",
+    "rubric_version",
+    "evaluator_id",
+    "label_source",
+    "human_verified",
+    "scores",
+    "rationale",
+    "reviewed_at"
+  ],
+  "properties": {
+    "fixture_id": {
+      "type": "string",
+      "pattern": "^real-[0-9]{3}$"
+    },
+    "repository": {
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9_.-]+/[a-zA-Z0-9_.-]+$"
+    },
+    "rubric_version": {
+      "type": "string",
+      "const": "m8-label-rubric-v1.0.0"
+    },
+    "evaluator_id": {
+      "type": "string",
+      "description": "Identifier of the evaluator (e.g. reviewer_a, reviewer_b, human_rater_1)"
+    },
+    "label_source": {
+      "type": "string",
+      "enum": [
+        "deterministic_audit",
+        "ai_review",
+        "ai_consensus",
+        "human_verified",
+        "human_consensus"
+      ]
+    },
+    "human_verified": {
+      "type": "boolean"
+    },
+    "gold_role": {
+      "type": "string",
+      "enum": ["none", "calibration", "untouched_evaluation"]
+    },
+    "scores": {
+      "type": "object",
+      "required": ["overall", "seo", "aeo", "geo"],
+      "properties": {
+        "overall": { "type": "integer", "minimum": 0, "maximum": 5 },
+        "seo": { "type": "integer", "minimum": 0, "maximum": 5 },
+        "aeo": { "type": "integer", "minimum": 0, "maximum": 5 },
+        "geo": { "type": "integer", "minimum": 0, "maximum": 5 }
+      }
+    },
+    "rationale": {
+      "type": "object",
+      "required": ["overall", "seo", "aeo", "geo"],
+      "properties": {
+        "overall": { "type": "string", "minLength": 10 },
+        "seo": { "type": "string", "minLength": 10 },
+        "aeo": { "type": "string", "minLength": 10 },
+        "geo": { "type": "string", "minLength": 10 }
+      }
+    },
+    "reviewed_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

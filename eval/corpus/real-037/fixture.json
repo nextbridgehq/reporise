@@ -1,0 +1,225 @@
+{
+  "id": "real-037",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "pallets/flask",
+  "commit": "d318b683471101618febed18996405ad26462110",
+  "capturedAt": "2026-09-08T11:53:32.608Z",
+  "files": [
+    {
+      "path": "docs/api.rst",
+      "sha256": "a088553c3c6e4297eb009bf2926c79db121a6fb6257eaf298f45273fddb38e09",
+      "sizeBytes": 21920
+    },
+    {
+      "path": "docs/appcontext.rst",
+      "sha256": "d5fa893a829d04a6c8a0f51cf349f16c328dbb40e0c759a6d345392c214e7df5",
+      "sizeBytes": 7878
+    },
+    {
+      "path": "docs/async-await.rst",
+      "sha256": "3ef9936916742054be15436b22ab3532a8446329c3602c92211e12133e01a6c0",
+      "sizeBytes": 4828
+    },
+    {
+      "path": "docs/blueprints.rst",
+      "sha256": "64fb3380025b1e2c3ab8b11265cc8dcc5dccb903e8eba1fe3611a4057cd2a9da",
+      "sizeBytes": 12876
+    },
+    {
+      "path": "docs/changes.rst",
+      "sha256": "f851705c2aa592b375b4712ff5df78c8f25bfcc99d71a2e3bb41921a405fab5b",
+      "sizeBytes": 49
+    },
+    {
+      "path": "docs/cli.rst",
+      "sha256": "32ced5762b2aa634de7b00e4c9af918932befef83484a79f28d0d0c37a03f353",
+      "sizeBytes": 17257
+    },
+    {
+      "path": "docs/conf.py",
+      "sha256": "532e9e94ac685f8b8c847b8efcc1c637abc2f216e86297389508d4bf16e706fe",
+      "sizeBytes": 3487
+    },
+    {
+      "path": "docs/config.rst",
+      "sha256": "4eb9e07d6f00175411457e4ee3796d6fd8bd51159d2f12d138c3504b395a9a77",
+      "sizeBytes": 29845
+    },
+    {
+      "path": "docs/contributing.rst",
+      "sha256": "db64c4e928172be8a2575a097d92faa943fbbbaecc8fd2d8e81ee51808a81c2b",
+      "sizeBytes": 282
+    },
+    {
+      "path": "docs/debugging.rst",
+      "sha256": "155da3f5e5853c2811cdc7b8e39a26260be1483ca4d3b64bb255a1b525f63e7d",
+      "sizeBytes": 3561
+    },
+    {
+      "path": "docs/deploying/apache-httpd.rst",
+      "sha256": "281931755e816c29c76e334dbf1dcbada0065f9abf92ae26577b8235b4b36e7a",
+      "sizeBytes": 2430
+    },
+    {
+      "path": "docs/deploying/asgi.rst",
+      "sha256": "28e01e92a1b66e7ccaa0cb4b25413b53593e9811e30321d5dc53d918ea1dbd2b",
+      "sizeBytes": 700
+    },
+    {
+      "path": "docs/deploying/eventlet.rst",
+      "sha256": "0b1a012e58494d315eb84f6f190637861a42cb771905a902a3e1ab461a90dd67",
+      "sizeBytes": 149
+    },
+    {
+      "path": "docs/deploying/gevent.rst",
+      "sha256": "58f025529c305774d9d15bc7ca866f0a3fdfd9913f86046a3f81b38071f0d244",
+      "sizeBytes": 2324
+    },
+    {
+      "path": "docs/deploying/gunicorn.rst",
+      "sha256": "5b6c9a430063a636a68b758064ae5f73dafeb21b2ed2891c5bc0e2949dcf90b9",
+      "sizeBytes": 3761
+    },
+    {
+      "path": "docs/deploying/index.rst",
+      "sha256": "d940a34fe89ea58ec2e14c846bb2da6ff6d97d11aa9c1f5eab773f48061e74f0",
+      "sizeBytes": 3251
+    },
+    {
+      "path": "docs/deploying/mod_wsgi.rst",
+      "sha256": "766f0bbbf3a0a094609b12a03f301eb62cb6924839a718b6486e9a25d23bf36d",
+      "sizeBytes": 2907
+    },
+    {
+      "path": "docs/deploying/nginx.rst",
+      "sha256": "7e073ad15dff0cd1d49bf776899c981f2d8fd4aae5608ea69e9059dacc8f0563",
+      "sizeBytes": 2385
+    },
+    {
+      "path": "docs/deploying/proxy_fix.rst",
+      "sha256": "cbb9aac07333e54c427a9de1721a163191f189bfc7e1e45cd4d687e872379838",
+      "sizeBytes": 1398
+    },
+    {
+      "path": "docs/deploying/uwsgi.rst",
+      "sha256": "22c6d0ea3d4f4e8c7486aea2aeaf0d4d213c903ff3aa91e09e4c3aee76970e82",
+      "sizeBytes": 4877
+    },
+    {
+      "path": "examples/celery/make_celery.py",
+      "sha256": "23ae546f46ef43b70454029514d30217b65951e530ab20321039ddebcc9202d4",
+      "sizeBytes": 106
+    },
+    {
+      "path": "examples/celery/pyproject.toml",
+      "sha256": "9a763554247e3798ab22fb73787d3e8c0e929e800e56224b0c4a23920692a007",
+      "sizeBytes": 507
+    },
+    {
+      "path": "examples/celery/README.md",
+      "sha256": "7617a8458bbb990ff12bb6b735a8ec933f1ca9fe1865ee7c1b6046870bee988e",
+      "sizeBytes": 977
+    },
+    {
+      "path": "examples/celery/requirements.txt",
+      "sha256": "49f846455898fe9b403694859ffa97e0a22c9f5bafd837f799a106c7005f86b1",
+      "sizeBytes": 1131
+    },
+    {
+      "path": "examples/javascript/.gitignore",
+      "sha256": "be155a41891483377945f644cc63cb02fc8c14515807d4462b9d3cbde9e335a3",
+      "sizeBytes": 133
+    },
+    {
+      "path": "examples/javascript/js_example/views.py",
+      "sha256": "75ee220c559547e766ea2f1931ae4b3d0a35d8b99d35ca1b1cd473b3fb7bee59",
+      "sizeBytes": 447
+    },
+    {
+      "path": "examples/javascript/js_example/__init__.py",
+      "sha256": "e53ce8453a2512385088b66e4f38a37a8ffb7d47bfbc521414cf79b9945f6328",
+      "sizeBytes": 96
+    },
+    {
+      "path": "examples/javascript/LICENSE.txt",
+      "sha256": "4631ec0db5fd90a547e336817264c6798214338146f8ac94b4a57f96ee8c9ec4",
+      "sizeBytes": 1503
+    },
+    {
+      "path": "examples/javascript/pyproject.toml",
+      "sha256": "7f293c67b2e52383f14db199ba469f8e2d906b4ff722455d29ca20b665d36cd7",
+      "sizeBytes": 880
+    },
+    {
+      "path": "examples/javascript/README.rst",
+      "sha256": "733051a31d6d7eb41cc513f13dbcb33c36c4f6505966c04e0968de1ac07bfca3",
+      "sizeBytes": 1134
+    },
+    {
+      "path": "examples/javascript/tests/conftest.py",
+      "sha256": "c7335f658652c8fcd71735676d6ddfdfccf8fd4ff341f87ba17da0a3442982f1",
+      "sizeBytes": 231
+    },
+    {
+      "path": "examples/javascript/tests/test_js_example.py",
+      "sha256": "35fc4b3b5b22bf06b83af66adb182a018d000a604adcad89211312589605fc7b",
+      "sizeBytes": 754
+    },
+    {
+      "path": "examples/tutorial/.gitignore",
+      "sha256": "be155a41891483377945f644cc63cb02fc8c14515807d4462b9d3cbde9e335a3",
+      "sizeBytes": 133
+    },
+    {
+      "path": "examples/tutorial/flaskr/auth.py",
+      "sha256": "5c5a087f3d7db470f71f3135ed626b6cb97e7772647a00417447ccad5b9a0fb6",
+      "sizeBytes": 3412
+    },
+    {
+      "path": "examples/tutorial/flaskr/blog.py",
+      "sha256": "1fbc399c3035bf4497ecc2dcac4389c892f63eb263b4538349fb0a62a7540ea0",
+      "sizeBytes": 3430
+    },
+    {
+      "path": "examples/tutorial/flaskr/db.py",
+      "sha256": "a8054dcbd2b70738ec85fb76e9dfb0271b422d59529469d6e5595ae1208c4e71",
+      "sizeBytes": 1373
+    },
+    {
+      "path": "examples/tutorial/flaskr/schema.sql",
+      "sha256": "727ef22e86cfd942b03e7607be6b2440ec024aba63cdf2a89bc971a86b864132",
+      "sizeBytes": 518
+    },
+    {
+      "path": "examples/tutorial/flaskr/__init__.py",
+      "sha256": "9fd3e22cbe164ccc3443a338ca9d1443eff585cfb7ca2350f5c2326a14c976b2",
+      "sizeBytes": 1454
+    },
+    {
+      "path": "examples/tutorial/LICENSE.txt",
+      "sha256": "4631ec0db5fd90a547e336817264c6798214338146f8ac94b4a57f96ee8c9ec4",
+      "sizeBytes": 1503
+    },
+    {
+      "path": "examples/tutorial/pyproject.toml",
+      "sha256": "374471e96eb8ce381f8d5556ec5596241a42754a3ffa0a2a958b47de4129d1f6",
+      "sizeBytes": 918
+    },
+    {
+      "path": "LICENSE.txt",
+      "sha256": "4631ec0db5fd90a547e336817264c6798214338146f8ac94b4a57f96ee8c9ec4",
+      "sizeBytes": 1503
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "2c5ccce1c8b4e87495c61c6942baec0f7f5530e414530bd8e35b8be63aacf3a8",
+      "sizeBytes": 6833
+    },
+    {
+      "path": "README.md",
+      "sha256": "75fdeb6d2b353c8005e5f9ad18256713de3fdc11b836d03475a94dfe20b2975c",
+      "sizeBytes": 1692
+    }
+  ]
+}

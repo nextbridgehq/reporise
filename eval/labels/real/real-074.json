@@ -1,0 +1,42 @@
+{
+  "fixture_id": "real-074",
+  "repository": "jwasham/coding-interview-university",
+  "primary_archetype": "docs",
+  "split": "train",
+  "rubric_version": "m8-label-rubric-v1.0.0",
+  "label_source": "ai_review",
+  "human_verified": false,
+  "scores": {
+    "overall": 3,
+    "seo": 1,
+    "aeo": 4,
+    "geo": 3
+  },
+  "raw_score": 3,
+  "rationale": {
+    "overall": "reviewer_a: Holistic discoverability assessed at 3/5. Meets competent standard open-source threshold based on evidence synthesis across surfaces.",
+    "seo": "reviewer_a: SEO rated 1/5. Findings: basic discoverability signals.",
+    "aeo": "reviewer_a: AEO rated 4/5. Direct answers verified for 4/5 canonical questions: Q1 (What is it?) answered definitional pitch, Q2 (Who is it for?) target audience identified, Q3 (What does it do?) clear capabilities, Q4 (How is it used?) install & quickstart provided.",
+    "geo": "reviewer_a: GEO rated 3/5. Machine citability supported by: 2 code block(s) present, syntax-highlighted code fences."
+  },
+  "reviewer_a": {
+    "scores": {
+      "overall": 3,
+      "seo": 1,
+      "aeo": 4,
+      "geo": 3
+    },
+    "rationale": {
+      "overall": "reviewer_a: Holistic discoverability assessed at 3/5. Meets competent standard open-source threshold based on evidence synthesis across surfaces.",
+      "seo": "reviewer_a: SEO rated 1/5. Findings: basic discoverability signals.",
+      "aeo": "reviewer_a: AEO rated 4/5. Direct answers verified for 4/5 canonical questions: Q1 (What is it?) answered definitional pitch, Q2 (Who is it for?) target audience identified, Q3 (What does it do?) clear capabilities, Q4 (How is it used?) install & quickstart provided.",
+      "geo": "reviewer_a: GEO rated 3/5. Machine citability supported by: 2 code block(s) present, syntax-highlighted code fences."
+    }
+  },
+  "reviewer_b": null,
+  "adjudicated_at": "2026-09-08T12:31:58.517Z",
+  "calibrated_score": 3,
+  "calibration_version": "m8-cal-v1.0.0",
+  "calibration_offset": 0,
+  "gold_role": "none"
+}

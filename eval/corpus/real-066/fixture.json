@@ -1,0 +1,145 @@
+{
+  "id": "real-066",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "grafana/grafana",
+  "commit": "d6b5a146a363c87c45fc7e4d2ad64178e38aeabf",
+  "capturedAt": "2026-09-08T12:07:54.918Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "e2b217fa97cd1de0dfc240be3ffc6c9624b716ae63424365473e3d67d0a28a32",
+      "sizeBytes": 409600
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "64b150d00d274e856eb16af5f1ba84323c53dac66e626a651dce355fd9a00cd9",
+      "sizeBytes": 3253
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "37bbdfaad94a1fa0c0d0ad87278afad1b91e7007ef8197062a27f96e61dd5246",
+      "sizeBytes": 10147
+    },
+    {
+      "path": "docs/.gitignore",
+      "sha256": "92a383463e8619f00db8d33d3404f678e362c44cbf49948dd26be343ba7ba9b6",
+      "sizeBytes": 14
+    },
+    {
+      "path": "docs/AGENTS.md",
+      "sha256": "c0df6f83e9e8862a68ead1c072d7b2c2b9ce93901599806304d5d9a73928cba7",
+      "sizeBytes": 4406
+    },
+    {
+      "path": "docs/docs.mk",
+      "sha256": "a7969daedbe4464870b35aaaa85189546a4b2d6638daaa89998f55d60ed46292",
+      "sizeBytes": 4232
+    },
+    {
+      "path": "docs/logo-horizontal-dark.png",
+      "sha256": "0953028619c4b459010f1072b02fddea403b4bf9b28150f9141319037cab3a67",
+      "sizeBytes": 22740
+    },
+    {
+      "path": "docs/logo-horizontal.png",
+      "sha256": "d0eeec71f7924e48e8e9564c3d59692bd8345fa630b1d2c05c827ecac325a898",
+      "sizeBytes": 27304
+    },
+    {
+      "path": "docs/make-docs",
+      "sha256": "6c473bc2ae4ad7f15d9308e179f1958a1b3003d8a4ab01504455b0c1e2e8e32c",
+      "sizeBytes": 26713
+    },
+    {
+      "path": "docs/Makefile",
+      "sha256": "f204e89e2566ab9329830f339d103f3f7a25bcb4044805ec824f9757362acdeb",
+      "sizeBytes": 522
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "1c2e7ad42964f549388388aed18ab949d403f8db66c433083d4dd1ffcb9576cf",
+      "sizeBytes": 4279
+    },
+    {
+      "path": "docs/sources/administration/cli.md",
+      "sha256": "1c3cb79f9a485f3c760f3023db4da07911327969799b34e8de2b7a1dae37e97c",
+      "sizeBytes": 9028
+    },
+    {
+      "path": "docs/sources/administration/_index.md",
+      "sha256": "3bea0b222dc1e638838d157198caf2a7a299ba47a3cfef3adac6460ef20e384e",
+      "sizeBytes": 500
+    },
+    {
+      "path": "docs/sources/alerting/_index.md",
+      "sha256": "ef0d821f9dfe32acdabb4a24b2a5231deddc6fa20bedf8e1882231f7d19612e4",
+      "sizeBytes": 2933
+    },
+    {
+      "path": "docs/sources/as-code/_index.md",
+      "sha256": "20fb5fd56b56114e0018973b7d395795c4c212cd73c4395ea5ece61167a29125",
+      "sizeBytes": 2418
+    },
+    {
+      "path": "docs/sources/breaking-changes/breaking-changes-v10-0.md",
+      "sha256": "7182bdb5b678e1c91768a46bd37de4cdc244c5408956243298447536324002de",
+      "sizeBytes": 20240
+    },
+    {
+      "path": "docs/sources/breaking-changes/breaking-changes-v10-3.md",
+      "sha256": "2800280a6b34d5e4c0c9edfe36ba672b20fb4a08c0c0ef3a7aed7cc2998f1eba",
+      "sizeBytes": 3970
+    },
+    {
+      "path": "docs/sources/breaking-changes/breaking-changes-v11-0.md",
+      "sha256": "be805a73df9178f03227fa8d4cc7ef7fe36a689d21d16d5018ddbb637fc85dc0",
+      "sizeBytes": 14608
+    },
+    {
+      "path": "docs/sources/breaking-changes/_index.md",
+      "sha256": "96ebc7834c88ec36d255dfb12077a164bf0af295950e0055c633b26091965cd5",
+      "sizeBytes": 1399
+    },
+    {
+      "path": "docs/sources/datasources/concepts.md",
+      "sha256": "d641543685dae4f7e92592b9b66d5934f30c79fc8c9266c64f5acbb18e080828",
+      "sizeBytes": 14592
+    },
+    {
+      "path": "docs/sources/datasources/troubleshooting.md",
+      "sha256": "b99b5a6df50462ccb9c6a91363b75c5c8bd2b34b318f6fc422d17e451bfb2e33",
+      "sizeBytes": 8914
+    },
+    {
+      "path": "docs/sources/datasources/_index.md",
+      "sha256": "e6db8b44a0848d21ad947bbe40eebeaf57fceecfead61b9e5b2be561828ff7e8",
+      "sizeBytes": 14006
+    },
+    {
+      "path": "docs/sources/developer-resources/_index.md",
+      "sha256": "0eb44e52af1de5b89c0796f6fd42f996455d6d3a4158d0bdd9deed76f896bae7",
+      "sizeBytes": 1102
+    },
+    {
+      "path": "go.mod",
+      "sha256": "a60a6c6024f9637ee91d2bf61309f8bb0eda8c465557691b609802b0efa0bbee",
+      "sizeBytes": 46980
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "sizeBytes": 34523
+    },
+    {
+      "path": "package.json",
+      "sha256": "9c06f00242872844ddf90889c5722e59c87952fe93467c3a56d0d07b470dc0e8",
+      "sizeBytes": 22121
+    },
+    {
+      "path": "README.md",
+      "sha256": "fc8a867bf09f319b9288746ab0148faff2e92ed39cd702252ce59161e576c019",
+      "sizeBytes": 3114
+    }
+  ]
+}

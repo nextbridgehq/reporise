@@ -1,0 +1,6 @@
+{
+  "https://docs.cheatroot.org/full-guide": {
+    "http_status": 200,
+    "content": "# Complete Guide to CheatRoot\n\n## Installation\n```bash\nnpm install cheat-root\n```\n\n## Getting Started\n```javascript\nimport { cheat } from 'cheat-root';\ncheat();\n```\n\n## Feature Comparison\nCheatRoot provides unmatched capabilities compared to traditional libraries.\n"
+  }
+}

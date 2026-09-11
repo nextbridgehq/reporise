@@ -1,0 +1,6 @@
+{
+  "https://docs.k3s.io/": {
+    "http_status": 200,
+    "content": "# K3s Documentation\n\n## Quick Start\n```bash\ncurl -sfL https://get.k3s.io | sh -\n```\n\n## Architecture\nK3s packages Kubernetes into a single binary.\n"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "https://docs.brokenlink404.org/missing": {
+    "error": "HTTP 404 Not Found",
+    "http_status": 404
+  }
+}

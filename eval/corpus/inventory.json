@@ -1,0 +1,2062 @@
+[
+  {
+    "fixture_id": "real-001",
+    "repository": "eslint/eslint",
+    "primary_archetype": "devtool",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/eslint/eslint.git",
+    "commit": "6b6f70a1a0c7eb163013d3957bdcd653b6eb4c01",
+    "commit_source": "legacy_m7_pin",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-002",
+    "repository": "prettier/prettier",
+    "primary_archetype": "devtool",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/prettier/prettier.git",
+    "commit": "52829385b00c93a9712a4f40f0653df341a46979",
+    "commit_source": "legacy_m7_pin",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-003",
+    "repository": "BurntSushi/ripgrep",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_standard",
+      "char_feature_comparison",
+      "char_install_config"
+    ],
+    "language": "rust",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/BurntSushi/ripgrep.git",
+    "commit": "e0129bcce5b5b19ea5d31536b9e3a6ccff39ff2e",
+    "commit_source": "legacy_m7_pin",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-004",
+    "repository": "sharkdp/bat",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_standard",
+      "char_example_heavy",
+      "char_install_config"
+    ],
+    "language": "rust",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/sharkdp/bat.git",
+    "commit": "6b0d952a23395d985a9df61a5b46e382ce6a8779",
+    "commit_source": "legacy_m7_pin",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-005",
+    "repository": "lodash/lodash",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/lodash/lodash.git",
+    "commit": "c358aa0c310467b7e80f9bb49ecceef02b1f09d8",
+    "commit_source": "legacy_m7_pin",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-006",
+    "repository": "expressjs/express",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/expressjs/express.git",
+    "commit": "59a8c14838b0fb60b54fc17342880753f090ccff",
+    "commit_source": "legacy_m7_pin",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-007",
+    "repository": "requests/requests",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_standard",
+      "char_tutorial"
+    ],
+    "language": "python",
+    "license": "Apache-2.0",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/requests/requests.git",
+    "commit": "0a7fb0d97034c7a52efcde1bcdd275ff0d1a4da6",
+    "commit_source": "legacy_m7_pin",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-008",
+    "repository": "moment/moment",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/moment/moment.git",
+    "commit": "6338b36fa2d2a4192b152ce8aeebe84f7243c516",
+    "commit_source": "legacy_m7_pin",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-009",
+    "repository": "facebook/react",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_standard",
+      "char_tutorial"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/facebook/react.git",
+    "commit": "c0c6b16d1232840ad09efb46ba12f38d3f6696db",
+    "commit_source": "legacy_m7_pin",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-010",
+    "repository": "vuejs/core",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_standard",
+      "char_architecture"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/vuejs/core.git",
+    "commit": "7de31f1f9ecba2725e16543b35eb65ffb44fb7f8",
+    "commit_source": "legacy_m7_pin",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-011",
+    "repository": "django/django",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_standard",
+      "char_docs_heavy"
+    ],
+    "language": "python",
+    "license": "BSD-3-Clause",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/django/django.git",
+    "commit": "7be0e495fdbd260fde253a6e877401d4a0deed7a",
+    "commit_source": "legacy_m7_pin",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-012",
+    "repository": "huggingface/transformers",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_example_heavy",
+      "char_feature_comparison",
+      "char_mixed"
+    ],
+    "language": "python",
+    "license": "Apache-2.0",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/huggingface/transformers.git",
+    "commit": "992a76f2b7fef1e505cc2b2ffc87340d8bf7b75b",
+    "commit_source": "legacy_m7_pin",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-013",
+    "repository": "langchain-ai/langchain",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_tutorial",
+      "char_example_heavy",
+      "char_mixed"
+    ],
+    "language": "python",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/langchain-ai/langchain.git",
+    "commit": "369e59ed6e5117ee2cc55ad9c54e7d446b5a03cb",
+    "commit_source": "legacy_m7_pin",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-014",
+    "repository": "ollama/ollama",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/ollama/ollama.git",
+    "commit": "d7486eec0854d68e0dcf45f5df8dc0e6e7fb63a3",
+    "commit_source": "legacy_m7_pin",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-015",
+    "repository": "docker/compose",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "Apache-2.0",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/docker/compose.git",
+    "commit": "0c76ce8f041ffdf5c76db35fb4cde17fccf63f58",
+    "commit_source": "legacy_m7_pin",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-016",
+    "repository": "hashicorp/terraform",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_standard",
+      "char_architecture"
+    ],
+    "language": "go",
+    "license": "MPL-2.0",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/hashicorp/terraform.git",
+    "commit": "633854990d7bd1c62f03f7a659cced65f32997c6",
+    "commit_source": "legacy_m7_pin",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-017",
+    "repository": "twbs/bootstrap",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/twbs/bootstrap.git",
+    "commit": "5f4e64f2604ed8be4cc891b0fc29fa3a91217e6e",
+    "commit_source": "legacy_m7_pin",
+    "captured_at": "2026-09-08T11:12:21.428Z"
+  },
+  {
+    "fixture_id": "real-018",
+    "repository": "microsoft/TypeScript",
+    "primary_archetype": "devtool",
+    "readme_characteristics": [
+      "char_standard",
+      "char_architecture"
+    ],
+    "language": "typescript",
+    "license": "Apache-2.0",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/microsoft/TypeScript.git",
+    "commit": "c4e33552086a978f830c7b74bd4f3050117070ef",
+    "commit_source": "legacy_m7_pin",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-019",
+    "repository": "sindresorhus/awesome",
+    "primary_archetype": "docs",
+    "readme_characteristics": [
+      "char_docs_heavy",
+      "char_minimal"
+    ],
+    "language": "markdown",
+    "license": "CC0-1.0",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/sindresorhus/awesome.git",
+    "commit": "cf6697850ee85f1c4e7ab53bfcb057053e198083",
+    "commit_source": "legacy_m7_pin",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-020",
+    "repository": "jesseduffield/lazygit",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_standard",
+      "char_tutorial",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/jesseduffield/lazygit.git",
+    "commit": "a4fa8a75eefeb31bfbce6cce7545935cc597ffc3",
+    "commit_source": "legacy_m7_pin",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-021",
+    "repository": "junegunn/fzf",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_standard",
+      "char_tutorial",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/junegunn/fzf.git",
+    "commit": "ad151d84154632a6abec67b40fe326c1ea2c9481",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-022",
+    "repository": "cli/cli",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/cli/cli.git",
+    "commit": "0d121e8c31204cdbe02b4a4b1be5e88bdc3c4662",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-023",
+    "repository": "charmbracelet/bubbletea",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_example_heavy"
+    ],
+    "language": "go",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/charmbracelet/bubbletea.git",
+    "commit": "73b6d91ac1c3854dd4af046ab5f9e51d3b3b4290",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-024",
+    "repository": "starship/starship",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_install_config",
+      "char_standard"
+    ],
+    "language": "rust",
+    "license": "ISC",
+    "stars_tier": "major_10k_50k",
+    "split": "validation",
+    "repository_url": "https://github.com/starship/starship.git",
+    "commit": "864500b26904cd3cc01fc2a19d3ad068bd1517a2",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-025",
+    "repository": "denisidoro/navi",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_install_config",
+      "char_mixed"
+    ],
+    "language": "rust",
+    "license": "Apache-2.0",
+    "stars_tier": "major_10k_50k",
+    "split": "validation",
+    "repository_url": "https://github.com/denisidoro/navi.git",
+    "commit": "f7330b9ad5bd95b7d1a3c96d00e0a77deb589147",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-026",
+    "repository": "eza-community/eza",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_install_config"
+    ],
+    "language": "rust",
+    "license": "EUPL-1.2",
+    "stars_tier": "medium_1k_10k",
+    "split": "test",
+    "repository_url": "https://github.com/eza-community/eza.git",
+    "commit": "471bfbc7b03cbac8c738e8d9050edb06ee79132a",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-027",
+    "repository": "astral-sh/uv",
+    "primary_archetype": "cli",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_docs_heavy",
+      "char_install_config",
+      "char_mixed"
+    ],
+    "language": "rust",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "test",
+    "repository_url": "https://github.com/astral-sh/uv.git",
+    "commit": "5001296c095a4b3fa8a65527cd121dd3abad3a85",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-028",
+    "repository": "pydantic/pydantic",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_feature_comparison"
+    ],
+    "language": "python",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/pydantic/pydantic.git",
+    "commit": "2261ae19e2e09f792f06613360c83fc829238111",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-029",
+    "repository": "chalk/chalk",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_api_reference"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/chalk/chalk.git",
+    "commit": "661317e6f91fe7c90306c2c48ea9354562ee9146",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-030",
+    "repository": "axios/axios",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_api_reference",
+      "char_example_heavy"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/axios/axios.git",
+    "commit": "b8d67bbbd6b381e1f4b1887e32686fcc89c5b0a8",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-031",
+    "repository": "serde-rs/serde",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_standard",
+      "char_example_heavy"
+    ],
+    "language": "rust",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "split": "validation",
+    "repository_url": "https://github.com/serde-rs/serde.git",
+    "commit": "a874a1b1bb1cc16cf5ee3b1b7b527af5705742bb",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-032",
+    "repository": "tokio-rs/tokio",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_architecture"
+    ],
+    "language": "rust",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "validation",
+    "repository_url": "https://github.com/tokio-rs/tokio.git",
+    "commit": "6bea73e4c1ffd1acbd3065cd6a6421585004042e",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-033",
+    "repository": "colinhacks/zod",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_docs_heavy",
+      "char_api_reference",
+      "char_example_heavy",
+      "char_mixed"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "validation",
+    "repository_url": "https://github.com/colinhacks/zod.git",
+    "commit": "804e0f522747345d6b37581888899be420baa3e9",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-034",
+    "repository": "sindresorhus/ky",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_api_reference"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "split": "test",
+    "repository_url": "https://github.com/sindresorhus/ky.git",
+    "commit": "e68ea7ad3080fa25ce2eba6a367c00dfff74f0f3",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-035",
+    "repository": "sqlalchemy/sqlalchemy",
+    "primary_archetype": "library",
+    "readme_characteristics": [
+      "char_standard",
+      "char_docs_heavy"
+    ],
+    "language": "python",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "split": "test",
+    "repository_url": "https://github.com/sqlalchemy/sqlalchemy.git",
+    "commit": "fb3b47d9eb54ae99721ededf115342177fa5aefd",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-036",
+    "repository": "tiangolo/fastapi",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_tutorial",
+      "char_feature_comparison",
+      "char_mixed"
+    ],
+    "language": "python",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/tiangolo/fastapi.git",
+    "commit": "50113da16fec53b66b80d75e80a89296de4fa5a5",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-037",
+    "repository": "pallets/flask",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_standard",
+      "char_example_heavy"
+    ],
+    "language": "python",
+    "license": "BSD-3-Clause",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/pallets/flask.git",
+    "commit": "d318b683471101618febed18996405ad26462110",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-038",
+    "repository": "sveltejs/svelte",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_standard",
+      "char_tutorial"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "split": "validation",
+    "repository_url": "https://github.com/sveltejs/svelte.git",
+    "commit": "5895c637b04dc8667020c8d326807c3f3a984472",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-039",
+    "repository": "angular/angular",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_standard",
+      "char_architecture"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "split": "validation",
+    "repository_url": "https://github.com/angular/angular.git",
+    "commit": "9a58353b1b680f162a55969965ae6a90ae20316d",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-040",
+    "repository": "nestjs/nest",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_tutorial"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "split": "test",
+    "repository_url": "https://github.com/nestjs/nest.git",
+    "commit": "39fbddae51281ca56bf2fed9123d98e61509066c",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-041",
+    "repository": "gin-gonic/gin",
+    "primary_archetype": "framework",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_example_heavy"
+    ],
+    "language": "go",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "split": "test",
+    "repository_url": "https://github.com/gin-gonic/gin.git",
+    "commit": "dcaa4296d111981ffb31ac3eba90bb63e1eb5ab9",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-042",
+    "repository": "octokit/octokit.js",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_api_reference",
+      "char_tutorial"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "split": "train",
+    "repository_url": "https://github.com/octokit/octokit.js.git",
+    "commit": "bc34deaf357486594c41f167c05921d16e6aabe9",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-043",
+    "repository": "stripe/stripe-node",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_api_reference",
+      "char_install_config"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "split": "train",
+    "repository_url": "https://github.com/stripe/stripe-node.git",
+    "commit": "b64815c32436fa24bba60c1ea898b30d57391504",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-044",
+    "repository": "stripe/stripe-python",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_api_reference",
+      "char_example_heavy"
+    ],
+    "language": "python",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "split": "train",
+    "repository_url": "https://github.com/stripe/stripe-python.git",
+    "commit": "885cdaa8d8b335b0768d955b5ee69f951ebe00e3",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-045",
+    "repository": "aws/aws-sdk-js-v3",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_install_config"
+    ],
+    "language": "typescript",
+    "license": "Apache-2.0",
+    "stars_tier": "medium_1k_10k",
+    "split": "train",
+    "repository_url": "https://github.com/aws/aws-sdk-js-v3.git",
+    "commit": "e3cea9891f9dfec981a99982aae519ddabf469e0",
+    "commit_source": "deterministic_fallback",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-046",
+    "repository": "googleapis/google-api-python-client",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_install_config"
+    ],
+    "language": "python",
+    "license": "Apache-2.0",
+    "stars_tier": "medium_1k_10k",
+    "split": "train",
+    "repository_url": "https://github.com/googleapis/google-api-python-client.git",
+    "commit": "ea0c8c9548b340ca50d6967ccd714d64bdf97ce8",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-047",
+    "repository": "openai/openai-python",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_api_reference"
+    ],
+    "language": "python",
+    "license": "Apache-2.0",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/openai/openai-python.git",
+    "commit": "be928151372e4b62adb4a1571cda52ad759b38be",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-048",
+    "repository": "openai/openai-node",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_api_reference"
+    ],
+    "language": "typescript",
+    "license": "Apache-2.0",
+    "stars_tier": "medium_1k_10k",
+    "split": "train",
+    "repository_url": "https://github.com/openai/openai-node.git",
+    "commit": "a9a4440ba775491251daa4fa27b898e9ecbd3c5e",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-049",
+    "repository": "resend/resend-node",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_standard"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "split": "validation",
+    "repository_url": "https://github.com/resend/resend-node.git",
+    "commit": "c61cccae2999d50d2aca9ce5fd1064f3bb855219",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-050",
+    "repository": "postmanlabs/postman-collection",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_api_reference",
+      "char_docs_heavy"
+    ],
+    "language": "javascript",
+    "license": "Apache-2.0",
+    "stars_tier": "niche_10_1k",
+    "split": "validation",
+    "repository_url": "https://github.com/postmanlabs/postman-collection.git",
+    "commit": "8801e7f4989e90128cd235ea37e238663a479804",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-051",
+    "repository": "sendgrid/sendgrid-python",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_install_config"
+    ],
+    "language": "python",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "split": "test",
+    "repository_url": "https://github.com/sendgrid/sendgrid-python.git",
+    "commit": "76788e70a76b11ce2990821f190e52f887ab9ed6",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-052",
+    "repository": "twilio/twilio-python",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_install_config"
+    ],
+    "language": "python",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "split": "test",
+    "repository_url": "https://github.com/twilio/twilio-python.git",
+    "commit": "306691e793f417b6974640d1ef88785e9de03b2a",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-053",
+    "repository": "slackapi/bolt-js",
+    "primary_archetype": "sdk",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_example_heavy"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "split": "test",
+    "repository_url": "https://github.com/slackapi/bolt-js.git",
+    "commit": "7c37556c913313d623e3beb7608b9254d96ddc47",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-054",
+    "repository": "vitejs/vite",
+    "primary_archetype": "devtool",
+    "readme_characteristics": [
+      "char_standard",
+      "char_tutorial"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/vitejs/vite.git",
+    "commit": "e6f6b3e3119256daa837b2dc399058c8aa45b470",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-055",
+    "repository": "swc-project/swc",
+    "primary_archetype": "devtool",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_architecture"
+    ],
+    "language": "rust",
+    "license": "Apache-2.0",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/swc-project/swc.git",
+    "commit": "4b4c135ef479287bfc2c489e0214d04a1f4bfedb",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-056",
+    "repository": "biomejs/biome",
+    "primary_archetype": "devtool",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_tutorial"
+    ],
+    "language": "rust",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "split": "train",
+    "repository_url": "https://github.com/biomejs/biome.git",
+    "commit": "4969ee1d73b48615f46f024539cfdb847f07064d",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-057",
+    "repository": "evanw/esbuild",
+    "primary_archetype": "devtool",
+    "readme_characteristics": [
+      "char_docs_heavy",
+      "char_architecture",
+      "char_feature_comparison",
+      "char_mixed"
+    ],
+    "language": "go",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "validation",
+    "repository_url": "https://github.com/evanw/esbuild.git",
+    "commit": "f6058f8364fe7ab91ca57a83e02577ed74c9cae4",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-058",
+    "repository": "rust-lang/rust-clippy",
+    "primary_archetype": "devtool",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_install_config"
+    ],
+    "language": "rust",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "split": "validation",
+    "repository_url": "https://github.com/rust-lang/rust-clippy.git",
+    "commit": "e6cf222ff9497ce5a8783a0184eb9502df680602",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-059",
+    "repository": "vitest-dev/vitest",
+    "primary_archetype": "devtool",
+    "readme_characteristics": [
+      "char_standard",
+      "char_feature_comparison"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "split": "test",
+    "repository_url": "https://github.com/vitest-dev/vitest.git",
+    "commit": "09bc9ad6b3dfce1eb647d775376cdadd7c492694",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-060",
+    "repository": "astral-sh/ruff",
+    "primary_archetype": "devtool",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_docs_heavy",
+      "char_install_config",
+      "char_mixed"
+    ],
+    "language": "rust",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "test",
+    "repository_url": "https://github.com/astral-sh/ruff.git",
+    "commit": "321eebc2d6574fb868e46312e8ff4ce8e401e8b5",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-061",
+    "repository": "calcom/cal.com",
+    "primary_archetype": "webapp",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_install_config"
+    ],
+    "language": "typescript",
+    "license": "AGPL-3.0",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/calcom/cal.com.git",
+    "commit": "1251ba5be567d26a7f922452fe7797642376476e",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-062",
+    "repository": "plausible/analytics",
+    "primary_archetype": "webapp",
+    "readme_characteristics": [
+      "char_standard",
+      "char_feature_comparison"
+    ],
+    "language": "elixir",
+    "license": "AGPL-3.0",
+    "stars_tier": "medium_1k_10k",
+    "split": "train",
+    "repository_url": "https://github.com/plausible/analytics.git",
+    "commit": "9236f41a00bbba0fedb74188346115899d54becb",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-063",
+    "repository": "outline/outline",
+    "primary_archetype": "webapp",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "typescript",
+    "license": "BSL-1.1",
+    "stars_tier": "medium_1k_10k",
+    "split": "train",
+    "repository_url": "https://github.com/outline/outline.git",
+    "commit": "c1811ffa205748ee0e5350eaec9afaf8072f6817",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-064",
+    "repository": "mattermost/mattermost",
+    "primary_archetype": "webapp",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "AGPL-3.0",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/mattermost/mattermost.git",
+    "commit": "9c8d4164abd4e3dd585b97ab2f7efcf11b2fc141",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-065",
+    "repository": "documenso/documenso",
+    "primary_archetype": "webapp",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "typescript",
+    "license": "AGPL-3.0",
+    "stars_tier": "medium_1k_10k",
+    "split": "train",
+    "repository_url": "https://github.com/documenso/documenso.git",
+    "commit": "6a8bb4be04b6f0417dbfd0a385d0099fab2686e2",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-066",
+    "repository": "grafana/grafana",
+    "primary_archetype": "webapp",
+    "readme_characteristics": [
+      "char_standard",
+      "char_architecture"
+    ],
+    "language": "typescript",
+    "license": "AGPL-3.0",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/grafana/grafana.git",
+    "commit": "d6b5a146a363c87c45fc7e4d2ad64178e38aeabf",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-067",
+    "repository": "nocodb/nocodb",
+    "primary_archetype": "webapp",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_install_config"
+    ],
+    "language": "typescript",
+    "license": "AGPL-3.0",
+    "stars_tier": "major_10k_50k",
+    "split": "validation",
+    "repository_url": "https://github.com/nocodb/nocodb.git",
+    "commit": "5eed724de3c2e0a6c4bd94a5e331a40b24f8fb8c",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-068",
+    "repository": "twentyhq/twenty",
+    "primary_archetype": "webapp",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "typescript",
+    "license": "AGPL-3.0",
+    "stars_tier": "medium_1k_10k",
+    "split": "validation",
+    "repository_url": "https://github.com/twentyhq/twenty.git",
+    "commit": "4c33657820963eace06d74f4ab76d41484f8a057",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-069",
+    "repository": "hoppscotch/hoppscotch",
+    "primary_archetype": "webapp",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_standard"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "split": "test",
+    "repository_url": "https://github.com/hoppscotch/hoppscotch.git",
+    "commit": "ac145e7f758151b41fd46d3e5f513886ce9068ba",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-070",
+    "repository": "affinepro/affine",
+    "primary_archetype": "webapp",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_install_config"
+    ],
+    "language": "typescript",
+    "license": "MPL-2.0",
+    "stars_tier": "major_10k_50k",
+    "split": "test",
+    "repository_url": "https://github.com/affinepro/affine.git",
+    "commit": "143a55a6e894f205f50380cf500b0d63be0cd65f",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-071",
+    "repository": "kamranahmedse/developer-roadmap",
+    "primary_archetype": "docs",
+    "readme_characteristics": [
+      "char_docs_heavy",
+      "char_architecture"
+    ],
+    "language": "typescript",
+    "license": "CC-BY-NC-SA-4.0",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/kamranahmedse/developer-roadmap.git",
+    "commit": "77f17c777772b62feb7350ac63b4cd92646bb09f",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-072",
+    "repository": "ryanmcdermott/clean-code-javascript",
+    "primary_archetype": "docs",
+    "readme_characteristics": [
+      "char_docs_heavy",
+      "char_example_heavy"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/ryanmcdermott/clean-code-javascript.git",
+    "commit": "5311f64b03fc0c2450ab17a45ee9818669c8b9b5",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-073",
+    "repository": "donnemartin/system-design-primer",
+    "primary_archetype": "docs",
+    "readme_characteristics": [
+      "char_docs_heavy",
+      "char_architecture"
+    ],
+    "language": "python",
+    "license": "CC-BY-SA-4.0",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/donnemartin/system-design-primer.git",
+    "commit": "ae9bbd7b02d90b9866215de185217d33f39ab733",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-074",
+    "repository": "jwasham/coding-interview-university",
+    "primary_archetype": "docs",
+    "readme_characteristics": [
+      "char_docs_heavy",
+      "char_tutorial"
+    ],
+    "language": "markdown",
+    "license": "CC-BY-SA-4.0",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/jwasham/coding-interview-university.git",
+    "commit": "717298bf219a30d7fb0671285c5f057b1bb74b27",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-075",
+    "repository": "github/gitignore",
+    "primary_archetype": "docs",
+    "readme_characteristics": [
+      "char_minimal",
+      "char_standard"
+    ],
+    "language": "shell",
+    "license": "CC0-1.0",
+    "stars_tier": "flagship_50k_plus",
+    "split": "validation",
+    "repository_url": "https://github.com/github/gitignore.git",
+    "commit": "361f1e6afa729dc58ec33bf0849772a03ddf6822",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-076",
+    "repository": "public-apis/public-apis",
+    "primary_archetype": "docs",
+    "readme_characteristics": [
+      "char_docs_heavy",
+      "char_api_reference"
+    ],
+    "language": "python",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "split": "test",
+    "repository_url": "https://github.com/public-apis/public-apis.git",
+    "commit": "29b7c2bbe20e60f42ab3c3b62e0bc758db98ce0b",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-077",
+    "repository": "ripienaar/free-for-dev",
+    "primary_archetype": "docs",
+    "readme_characteristics": [
+      "char_docs_heavy"
+    ],
+    "language": "html",
+    "license": "CC-BY-SA-4.0",
+    "stars_tier": "flagship_50k_plus",
+    "split": "test",
+    "repository_url": "https://github.com/ripienaar/free-for-dev.git",
+    "commit": "e494a592e939de90e472cc6e19483c4df39974d1",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-078",
+    "repository": "babel/babel",
+    "primary_archetype": "monorepo",
+    "readme_characteristics": [
+      "char_standard",
+      "char_architecture"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/babel/babel.git",
+    "commit": "12996b06d03c76c6834883daf0f8435de5fdb904",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-079",
+    "repository": "pnpm/pnpm",
+    "primary_archetype": "monorepo",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_install_config"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/pnpm/pnpm.git",
+    "commit": "efc41ac88429febdaab572f4a2a986da4cbef2ac",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-080",
+    "repository": "nrwl/nx",
+    "primary_archetype": "monorepo",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_architecture"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "split": "train",
+    "repository_url": "https://github.com/nrwl/nx.git",
+    "commit": "fb5b86a8d933da5ae41649f2465fe12447dca0a1",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-081",
+    "repository": "vercel/turborepo",
+    "primary_archetype": "monorepo",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_tutorial"
+    ],
+    "language": "rust",
+    "license": "MPL-2.0",
+    "stars_tier": "medium_1k_10k",
+    "split": "train",
+    "repository_url": "https://github.com/vercel/turborepo.git",
+    "commit": "63797e490d44cd63e86b6dc1d7ac87c59b884c41",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-082",
+    "repository": "facebook/docusaurus",
+    "primary_archetype": "monorepo",
+    "readme_characteristics": [
+      "char_standard",
+      "char_tutorial"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/facebook/docusaurus.git",
+    "commit": "1434f56a07d83b6d52c6db2c7ef6403221747256",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-083",
+    "repository": "shadcn-ui/ui",
+    "primary_archetype": "monorepo",
+    "readme_characteristics": [
+      "char_standard",
+      "char_example_heavy"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "split": "validation",
+    "repository_url": "https://github.com/shadcn-ui/ui.git",
+    "commit": "3ba91b1cc83e1bbe4ab35a422ff2a694849c5048",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-084",
+    "repository": "storybookjs/storybook",
+    "primary_archetype": "monorepo",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_tutorial"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "split": "validation",
+    "repository_url": "https://github.com/storybookjs/storybook.git",
+    "commit": "1fd6cf45a5ef38bbdbaaae8f4bd26abf72f368d2",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-085",
+    "repository": "backstage/backstage",
+    "primary_archetype": "monorepo",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_install_config"
+    ],
+    "language": "typescript",
+    "license": "Apache-2.0",
+    "stars_tier": "medium_1k_10k",
+    "split": "test",
+    "repository_url": "https://github.com/backstage/backstage.git",
+    "commit": "38441ff55abef2b0e2932030f88a26ce35f3acf9",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-086",
+    "repository": "ansible/ansible",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "python",
+    "license": "GPL-3.0",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/ansible/ansible.git",
+    "commit": "3827d66bfbdc568f58cce57b113131598c46cd5a",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-087",
+    "repository": "helm/helm",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "Apache-2.0",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/helm/helm.git",
+    "commit": "fa11636b01686f16700718a03de9334bbd298500",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-088",
+    "repository": "prometheus/prometheus",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "Apache-2.0",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/prometheus/prometheus.git",
+    "commit": "4cf19c2c66b43db46512086f458c27569a1048a5",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-089",
+    "repository": "traefik/traefik",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/traefik/traefik.git",
+    "commit": "d48621ce0b6fd221b20bdb6c22e652e7498e5db6",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-090",
+    "repository": "hashicorp/vault",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_standard",
+      "char_architecture"
+    ],
+    "language": "go",
+    "license": "MPL-2.0",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/hashicorp/vault.git",
+    "commit": "41e571b6606e3691e0ce3f82ae23d6db0e445118",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-091",
+    "repository": "localstack/localstack",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_install_config",
+      "char_mixed"
+    ],
+    "language": "python",
+    "license": "Apache-2.0",
+    "stars_tier": "flagship_50k_plus",
+    "split": "validation",
+    "repository_url": "https://github.com/localstack/localstack.git",
+    "commit": "8b9a79f05846835cf4dff63ab7eefdde9df83783",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-092",
+    "repository": "k3s-io/k3s",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "Apache-2.0",
+    "stars_tier": "major_10k_50k",
+    "split": "validation",
+    "repository_url": "https://github.com/k3s-io/k3s.git",
+    "commit": "a305766d0b86afec304ebd94713223061a916b79",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-093",
+    "repository": "containerd/containerd",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_standard"
+    ],
+    "language": "go",
+    "license": "Apache-2.0",
+    "stars_tier": "medium_1k_10k",
+    "split": "validation",
+    "repository_url": "https://github.com/containerd/containerd.git",
+    "commit": "e5e07573b1a5e83c7d5de417f0d5801f0d7f38ff",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-094",
+    "repository": "fluxcd/flux2",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_architecture"
+    ],
+    "language": "go",
+    "license": "Apache-2.0",
+    "stars_tier": "medium_1k_10k",
+    "split": "test",
+    "repository_url": "https://github.com/fluxcd/flux2.git",
+    "commit": "dede56a8fdcd1e0edca28630a979a51415bb56f8",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-095",
+    "repository": "open-telemetry/opentelemetry-collector",
+    "primary_archetype": "devops",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "Apache-2.0",
+    "stars_tier": "medium_1k_10k",
+    "split": "test",
+    "repository_url": "https://github.com/open-telemetry/opentelemetry-collector.git",
+    "commit": "af735319546aa0b4b94e25609d9157fff6f93b6c",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-096",
+    "repository": "scikit-learn/scikit-learn",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_standard",
+      "char_example_heavy"
+    ],
+    "language": "python",
+    "license": "BSD-3-Clause",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/scikit-learn/scikit-learn.git",
+    "commit": "2cc7893a2097be891426ca6a4d9ea2e14cf82b9c",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-097",
+    "repository": "numpy/numpy",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "python",
+    "license": "BSD-3-Clause",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/numpy/numpy.git",
+    "commit": "b76063c87d57b6c33364fc349170852fe7b7a1a9",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-098",
+    "repository": "pandas-dev/pandas",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_standard",
+      "char_example_heavy"
+    ],
+    "language": "python",
+    "license": "BSD-3-Clause",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/pandas-dev/pandas.git",
+    "commit": "7ea7ede82c93d4bf4704e14f26a7cebfdbc178f8",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-099",
+    "repository": "pytorch/pytorch",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_standard",
+      "char_architecture"
+    ],
+    "language": "python",
+    "license": "BSD-3-Clause",
+    "stars_tier": "flagship_50k_plus",
+    "split": "train",
+    "repository_url": "https://github.com/pytorch/pytorch.git",
+    "commit": "60147cf18442b8858a728ab0d5f77235f24a3e69",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-100",
+    "repository": "vllm-project/vllm",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_example_heavy"
+    ],
+    "language": "python",
+    "license": "Apache-2.0",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/vllm-project/vllm.git",
+    "commit": "13cf9e05c1eda0bfe5cbfb9344343ca2737d0723",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-101",
+    "repository": "run-llama/llama_index",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_tutorial",
+      "char_example_heavy"
+    ],
+    "language": "python",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "train",
+    "repository_url": "https://github.com/run-llama/llama_index.git",
+    "commit": "d2ac544a27c73d2a68e9c57efec4b2ac0ef99892",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-102",
+    "repository": "milvus-io/milvus",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_install_config"
+    ],
+    "language": "go",
+    "license": "Apache-2.0",
+    "stars_tier": "major_10k_50k",
+    "split": "validation",
+    "repository_url": "https://github.com/milvus-io/milvus.git",
+    "commit": "3431d027f64b7997ebcdca11af80928264c7717d",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-103",
+    "repository": "chroma-core/chroma",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_tutorial"
+    ],
+    "language": "python",
+    "license": "Apache-2.0",
+    "stars_tier": "medium_1k_10k",
+    "split": "validation",
+    "repository_url": "https://github.com/chroma-core/chroma.git",
+    "commit": "34f8e76bae6195b91160e78b2e47a397055aa3ab",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-104",
+    "repository": "ray-project/ray",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_architecture",
+      "char_example_heavy"
+    ],
+    "language": "python",
+    "license": "Apache-2.0",
+    "stars_tier": "major_10k_50k",
+    "split": "validation",
+    "repository_url": "https://github.com/ray-project/ray.git",
+    "commit": "c3162dce8d064824293875c5d0bbfd76a54e04ce",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-105",
+    "repository": "ggerganov/llama.cpp",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_docs_heavy",
+      "char_install_config"
+    ],
+    "language": "c++",
+    "license": "MIT",
+    "stars_tier": "flagship_50k_plus",
+    "split": "test",
+    "repository_url": "https://github.com/ggerganov/llama.cpp.git",
+    "commit": "ca86fb222e0080d4d102f4390d5c7279dffb3277",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-106",
+    "repository": "deepseek-ai/DeepSeek-V3",
+    "primary_archetype": "data_ml",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_architecture"
+    ],
+    "language": "python",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "test",
+    "repository_url": "https://github.com/deepseek-ai/DeepSeek-V3.git",
+    "commit": "9b4e9788e4a3a731f7567338ed15d3ec549ce03b",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-107",
+    "repository": "microsoft/vscode-python",
+    "primary_archetype": "plugin",
+    "readme_characteristics": [
+      "char_standard",
+      "char_tutorial"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "split": "train",
+    "repository_url": "https://github.com/microsoft/vscode-python.git",
+    "commit": "0f3ddf5879162e8fc465eccd7292f7e9fa8dbdf8",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-108",
+    "repository": "actions/checkout",
+    "primary_archetype": "plugin",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_api_reference"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "split": "train",
+    "repository_url": "https://github.com/actions/checkout.git",
+    "commit": "f548e57e544e1ff5a4c46bf1e1b8685f8e4a348a",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-109",
+    "repository": "actions/setup-node",
+    "primary_archetype": "plugin",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_api_reference"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "split": "train",
+    "repository_url": "https://github.com/actions/setup-node.git",
+    "commit": "94196ee1d15439c1b6651cd87ef14e88ec435966",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-110",
+    "repository": "actions/setup-python",
+    "primary_archetype": "plugin",
+    "readme_characteristics": [
+      "char_example_heavy",
+      "char_api_reference"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "split": "train",
+    "repository_url": "https://github.com/actions/setup-python.git",
+    "commit": "751276eafca55f10f252026015f43c488f2322ba",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-111",
+    "repository": "sindresorhus/refined-github",
+    "primary_archetype": "plugin",
+    "readme_characteristics": [
+      "char_feature_comparison",
+      "char_install_config"
+    ],
+    "language": "typescript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "validation",
+    "repository_url": "https://github.com/sindresorhus/refined-github.git",
+    "commit": "9e86fd7f0bb36e2bb41170d7da332017f9b571dd",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-112",
+    "repository": "nvim-treesitter/nvim-treesitter",
+    "primary_archetype": "plugin",
+    "readme_characteristics": [
+      "char_install_config",
+      "char_tutorial"
+    ],
+    "language": "lua",
+    "license": "Apache-2.0",
+    "stars_tier": "medium_1k_10k",
+    "split": "test",
+    "repository_url": "https://github.com/nvim-treesitter/nvim-treesitter.git",
+    "commit": "5cb0114e6242625db56dd6440e945ed1ece10bc7",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-113",
+    "repository": "tpope/vim-fugitive",
+    "primary_archetype": "plugin",
+    "readme_characteristics": [
+      "char_standard",
+      "char_install_config"
+    ],
+    "language": "vim",
+    "license": "Vim",
+    "stars_tier": "major_10k_50k",
+    "split": "test",
+    "repository_url": "https://github.com/tpope/vim-fugitive.git",
+    "commit": "3b753cf8c6a4dcde6edee8827d464ba9b8c4a6f0",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-114",
+    "repository": "sindresorhus/is-stream",
+    "primary_archetype": "small_project",
+    "readme_characteristics": [
+      "char_minimal",
+      "char_example_heavy"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "niche_10_1k",
+    "split": "train",
+    "repository_url": "https://github.com/sindresorhus/is-stream.git",
+    "commit": "ab06c4acc9dce4dcadc9dfc6416e1be2c836862d",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-115",
+    "repository": "sindresorhus/is-plain-obj",
+    "primary_archetype": "small_project",
+    "readme_characteristics": [
+      "char_minimal",
+      "char_example_heavy"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "niche_10_1k",
+    "split": "train",
+    "repository_url": "https://github.com/sindresorhus/is-plain-obj.git",
+    "commit": "97f38e8836f86a642cce98fc6ab3058bc36df181",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-116",
+    "repository": "jonschlinkert/is-odd",
+    "primary_archetype": "small_project",
+    "readme_characteristics": [
+      "char_minimal",
+      "char_standard"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "niche_10_1k",
+    "split": "train",
+    "repository_url": "https://github.com/jonschlinkert/is-odd.git",
+    "commit": "a80ee0d831a8ee69f1fad5b4673491847975eb26",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-117",
+    "repository": "jonschlinkert/is-even",
+    "primary_archetype": "small_project",
+    "readme_characteristics": [
+      "char_minimal",
+      "char_standard"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "niche_10_1k",
+    "split": "train",
+    "repository_url": "https://github.com/jonschlinkert/is-even.git",
+    "commit": "585f8002bb16f7bec723a47349b67df451f1b25d",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-118",
+    "repository": "chriso/validator.js",
+    "primary_archetype": "small_project",
+    "readme_characteristics": [
+      "char_api_reference",
+      "char_example_heavy"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "major_10k_50k",
+    "split": "validation",
+    "repository_url": "https://github.com/chriso/validator.js.git",
+    "commit": "a79ff980ab14257e795332989e497bdff3218e87",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-119",
+    "repository": "component/emitter",
+    "primary_archetype": "small_project",
+    "readme_characteristics": [
+      "char_minimal",
+      "char_example_heavy"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "medium_1k_10k",
+    "split": "test",
+    "repository_url": "https://github.com/component/emitter.git",
+    "commit": "52dc74531e6a5de7f680f150167f2e7eacd4f05b",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  },
+  {
+    "fixture_id": "real-120",
+    "repository": "segmentio/is-url",
+    "primary_archetype": "small_project",
+    "readme_characteristics": [
+      "char_minimal",
+      "char_standard"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "stars_tier": "niche_10_1k",
+    "split": "test",
+    "repository_url": "https://github.com/segmentio/is-url.git",
+    "commit": "21689377c8425b144bfe08490c898dc8de07d809",
+    "commit_source": "git_ls_remote_head",
+    "captured_at": "2026-09-08T11:04:11.053Z"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "https://docs.aiohttp.org/en/stable/": {
+    "http_status": 200,
+    "content": "# aiohttp\n\n## Install\n```bash\npip install aiohttp\n```\n\n## Client example\n```python\nimport aiohttp\nasync with aiohttp.ClientSession() as session:\n    pass\n```\n"
+  }
+}

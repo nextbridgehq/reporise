@@ -1,0 +1,6 @@
+{
+  "https://tortoise.github.io": {
+    "http_status": 200,
+    "content": "# Tortoise ORM Documentation\n\n## Installation\n```bash\npip install tortoise-orm\n```\n\n## Getting Started\nInitialize models.\n"
+  }
+}

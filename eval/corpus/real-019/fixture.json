@@ -1,0 +1,25 @@
+{
+  "id": "real-019",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "sindresorhus/awesome",
+  "commit": "cf6697850ee85f1c4e7ab53bfcb057053e198083",
+  "capturedAt": "2026-09-08T11:49:47.700Z",
+  "files": [
+    {
+      "path": "contributing.md",
+      "sha256": "df178c682291fb23380e97b9c6c4e0b49fa449d86ed0e93db381acd7810cb0cc",
+      "sizeBytes": 2190
+    },
+    {
+      "path": "license",
+      "sha256": "d06492a8af3ebf435233748dbbc572abc189f2e9abcf0505a0e34a0212c728b3",
+      "sizeBytes": 6478
+    },
+    {
+      "path": "readme.md",
+      "sha256": "465cd781335e44587d238f666800104b63d4fc8ba2395d6422974dcba421c616",
+      "sizeBytes": 78330
+    }
+  ]
+}

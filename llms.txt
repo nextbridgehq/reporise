@@ -1,0 +1,25 @@
+# RepoRise
+> Zero-dependency repository visibility toolkit for SEO, AEO, and GEO.
+
+RepoRise audits open-source repositories to measure how findable, extractable, and citable they are across search engines (SEO), direct answer engines (AEO), and generative AI engines (GEO).
+
+## Core Capabilities
+- Visibility Audit: 22 offline heuristics checking identity, citability, discoverability, answerability, and hygiene.
+- Citation Probe: Empirical sampling of generative engines with 95% Wilson confidence intervals.
+- Zero dependencies: Runs entirely offline on Node >= 18 with no runtime dependencies, no API keys, and no telemetry.
+
+## Quick CLI Usage
+- Run offline audit: `npx reporise .`
+- Audit for CI quality gate: `npx reporise . --fail-under 80`
+- Probe status: `node skills/citation-probe/scripts/probe.mjs status .`
+
+## Key Files & Structure
+- `skills/visibility-audit/`: Self-contained offline audit skill and CLI runner.
+- `skills/citation-probe/`: Self-contained citation probe skill with Wilson score statistics.
+- `benchmarks/`: Benchmark registry and cryptographic provenance manifest.
+- `README.md`: Getting started, installation matrix, and full check definitions.
+
+## Repository & Links
+- Repository: https://github.com/nextbridgehq/reporise
+- Package: reporise
+- Documentation: https://github.com/nextbridgehq/reporise#readme

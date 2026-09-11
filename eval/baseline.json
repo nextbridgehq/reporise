@@ -1,0 +1,1413 @@
+{
+  "milestone": "M8.4",
+  "title": "RepoRise M8 Real-World Baseline & Diagnostics",
+  "engine_version": "0.2.0 (Untouched M7.8 Engine)",
+  "corpus_version": "corpus-m8-v1.0.0",
+  "recorded_at": "2026-09-08T14:09:15.911Z",
+  "summary": {
+    "total_repositories": 120,
+    "global_mae_overall": 0.6833,
+    "global_exact_overall": 42.5,
+    "global_within_one_overall": 89.2,
+    "global_mean_bias_overall": 0.25,
+    "splits": {
+      "train": {
+        "n": 72,
+        "mae": 0.7083,
+        "me": 0.2361,
+        "exactPct": 38.9,
+        "withinOnePct": 90.3
+      },
+      "validation": {
+        "n": 24,
+        "mae": 0.7917,
+        "me": 0.2917,
+        "exactPct": 37.5,
+        "withinOnePct": 83.3
+      },
+      "test": {
+        "n": 24,
+        "mae": 0.5,
+        "me": 0.25,
+        "exactPct": 58.3,
+        "withinOnePct": 91.7
+      }
+    },
+    "surface_mae": {
+      "overall": 0.6833,
+      "seo": 0.875,
+      "aeo": 0.6417,
+      "geo": 0.9917
+    },
+    "human_gold_held_out_mae": 0.8
+  },
+  "split_metrics": {
+    "train": {
+      "count": 72,
+      "against_calibrated": {
+        "overall": {
+          "n": 72,
+          "mae": 0.7083,
+          "me": 0.2361,
+          "exactPct": 38.9,
+          "withinOnePct": 90.3
+        },
+        "seo": {
+          "n": 72,
+          "mae": 0.8472,
+          "me": 0.2639,
+          "exactPct": 34.7,
+          "withinOnePct": 83.3
+        },
+        "aeo": {
+          "n": 72,
+          "mae": 0.6389,
+          "me": 0.3333,
+          "exactPct": 45.8,
+          "withinOnePct": 90.3
+        },
+        "geo": {
+          "n": 72,
+          "mae": 0.9722,
+          "me": 0.4444,
+          "exactPct": 29.2,
+          "withinOnePct": 73.6
+        }
+      },
+      "against_raw": {
+        "overall": {
+          "n": 72,
+          "mae": 0.7083,
+          "me": 0.2361,
+          "exactPct": 38.9,
+          "withinOnePct": 90.3
+        },
+        "seo": {
+          "n": 72,
+          "mae": 0.8472,
+          "me": 0.2639,
+          "exactPct": 34.7,
+          "withinOnePct": 83.3
+        },
+        "aeo": {
+          "n": 72,
+          "mae": 0.6389,
+          "me": 0.3333,
+          "exactPct": 45.8,
+          "withinOnePct": 90.3
+        },
+        "geo": {
+          "n": 72,
+          "mae": 0.9722,
+          "me": 0.4444,
+          "exactPct": 29.2,
+          "withinOnePct": 73.6
+        }
+      }
+    },
+    "validation": {
+      "count": 24,
+      "against_calibrated": {
+        "overall": {
+          "n": 24,
+          "mae": 0.7917,
+          "me": 0.2917,
+          "exactPct": 37.5,
+          "withinOnePct": 83.3
+        },
+        "seo": {
+          "n": 24,
+          "mae": 0.875,
+          "me": 0.2083,
+          "exactPct": 37.5,
+          "withinOnePct": 79.2
+        },
+        "aeo": {
+          "n": 24,
+          "mae": 0.6667,
+          "me": 0.5833,
+          "exactPct": 54.2,
+          "withinOnePct": 79.2
+        },
+        "geo": {
+          "n": 24,
+          "mae": 0.9167,
+          "me": 0.5,
+          "exactPct": 37.5,
+          "withinOnePct": 75
+        }
+      },
+      "against_raw": {
+        "overall": {
+          "n": 24,
+          "mae": 0.7917,
+          "me": 0.2917,
+          "exactPct": 37.5,
+          "withinOnePct": 83.3
+        },
+        "seo": {
+          "n": 24,
+          "mae": 0.875,
+          "me": 0.2083,
+          "exactPct": 37.5,
+          "withinOnePct": 79.2
+        },
+        "aeo": {
+          "n": 24,
+          "mae": 0.6667,
+          "me": 0.5833,
+          "exactPct": 54.2,
+          "withinOnePct": 79.2
+        },
+        "geo": {
+          "n": 24,
+          "mae": 0.9167,
+          "me": 0.5,
+          "exactPct": 37.5,
+          "withinOnePct": 75
+        }
+      }
+    },
+    "test": {
+      "count": 24,
+      "against_calibrated": {
+        "overall": {
+          "n": 24,
+          "mae": 0.5,
+          "me": 0.25,
+          "exactPct": 58.3,
+          "withinOnePct": 91.7
+        },
+        "seo": {
+          "n": 24,
+          "mae": 0.9583,
+          "me": 0.2083,
+          "exactPct": 33.3,
+          "withinOnePct": 75
+        },
+        "aeo": {
+          "n": 24,
+          "mae": 0.625,
+          "me": 0.125,
+          "exactPct": 41.7,
+          "withinOnePct": 95.8
+        },
+        "geo": {
+          "n": 24,
+          "mae": 1.125,
+          "me": 0.7083,
+          "exactPct": 29.2,
+          "withinOnePct": 58.3
+        }
+      },
+      "against_raw": {
+        "overall": {
+          "n": 24,
+          "mae": 0.5,
+          "me": 0.25,
+          "exactPct": 58.3,
+          "withinOnePct": 91.7
+        },
+        "seo": {
+          "n": 24,
+          "mae": 0.9583,
+          "me": 0.2083,
+          "exactPct": 33.3,
+          "withinOnePct": 75
+        },
+        "aeo": {
+          "n": 24,
+          "mae": 0.625,
+          "me": 0.125,
+          "exactPct": 41.7,
+          "withinOnePct": 95.8
+        },
+        "geo": {
+          "n": 24,
+          "mae": 1.125,
+          "me": 0.7083,
+          "exactPct": 29.2,
+          "withinOnePct": 58.3
+        }
+      }
+    },
+    "all": {
+      "count": 120,
+      "against_calibrated": {
+        "overall": {
+          "n": 120,
+          "mae": 0.6833,
+          "me": 0.25,
+          "exactPct": 42.5,
+          "withinOnePct": 89.2
+        },
+        "seo": {
+          "n": 120,
+          "mae": 0.875,
+          "me": 0.2417,
+          "exactPct": 35,
+          "withinOnePct": 80.8
+        },
+        "aeo": {
+          "n": 120,
+          "mae": 0.6417,
+          "me": 0.3417,
+          "exactPct": 46.7,
+          "withinOnePct": 89.2
+        },
+        "geo": {
+          "n": 120,
+          "mae": 0.9917,
+          "me": 0.5083,
+          "exactPct": 30.8,
+          "withinOnePct": 70.8
+        }
+      },
+      "against_raw": {
+        "overall": {
+          "n": 120,
+          "mae": 0.6833,
+          "me": 0.25,
+          "exactPct": 42.5,
+          "withinOnePct": 89.2
+        },
+        "seo": {
+          "n": 120,
+          "mae": 0.875,
+          "me": 0.2417,
+          "exactPct": 35,
+          "withinOnePct": 80.8
+        },
+        "aeo": {
+          "n": 120,
+          "mae": 0.6417,
+          "me": 0.3417,
+          "exactPct": 46.7,
+          "withinOnePct": 89.2
+        },
+        "geo": {
+          "n": 120,
+          "mae": 0.9917,
+          "me": 0.5083,
+          "exactPct": 30.8,
+          "withinOnePct": 70.8
+        }
+      }
+    }
+  },
+  "gold_metrics": {
+    "untouched_evaluation_n15": {
+      "overall": {
+        "n": 15,
+        "mae": 0.8,
+        "me": -0.1333,
+        "exactPct": 33.3,
+        "withinOnePct": 86.7
+      },
+      "seo": {
+        "n": 15,
+        "mae": 0.6667,
+        "me": -0.1333,
+        "exactPct": 40,
+        "withinOnePct": 93.3
+      },
+      "aeo": {
+        "n": 15,
+        "mae": 0.5333,
+        "me": 0.1333,
+        "exactPct": 53.3,
+        "withinOnePct": 93.3
+      },
+      "geo": {
+        "n": 15,
+        "mae": 0.5333,
+        "me": 0.1333,
+        "exactPct": 53.3,
+        "withinOnePct": 93.3
+      }
+    },
+    "calibration_n10": {
+      "overall": {
+        "n": 10,
+        "mae": 0.7,
+        "me": 0.3,
+        "exactPct": 50,
+        "withinOnePct": 80
+      },
+      "seo": {
+        "n": 10,
+        "mae": 0.9,
+        "me": 0.3,
+        "exactPct": 40,
+        "withinOnePct": 80
+      },
+      "aeo": {
+        "n": 10,
+        "mae": 0.5,
+        "me": 0.3,
+        "exactPct": 60,
+        "withinOnePct": 90
+      },
+      "geo": {
+        "n": 10,
+        "mae": 1.1,
+        "me": 0.7,
+        "exactPct": 20,
+        "withinOnePct": 70
+      }
+    },
+    "all_gold_n25": {
+      "overall": {
+        "n": 25,
+        "mae": 0.76,
+        "me": 0.04,
+        "exactPct": 40,
+        "withinOnePct": 84
+      },
+      "seo": {
+        "n": 25,
+        "mae": 0.76,
+        "me": 0.04,
+        "exactPct": 40,
+        "withinOnePct": 88
+      },
+      "aeo": {
+        "n": 25,
+        "mae": 0.52,
+        "me": 0.2,
+        "exactPct": 56,
+        "withinOnePct": 92
+      },
+      "geo": {
+        "n": 25,
+        "mae": 0.76,
+        "me": 0.36,
+        "exactPct": 40,
+        "withinOnePct": 84
+      }
+    }
+  },
+  "stratified_archetypes": {
+    "cli": {
+      "count": 10,
+      "surfaces": {
+        "overall": {
+          "n": 10,
+          "mae": 0.4,
+          "me": -0.2,
+          "exactPct": 60,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 10,
+          "mae": 0.9,
+          "me": -0.5,
+          "exactPct": 30,
+          "withinOnePct": 80
+        },
+        "aeo": {
+          "n": 10,
+          "mae": 0.6,
+          "me": 0,
+          "exactPct": 50,
+          "withinOnePct": 90
+        },
+        "geo": {
+          "n": 10,
+          "mae": 0.8,
+          "me": -0.2,
+          "exactPct": 30,
+          "withinOnePct": 90
+        }
+      }
+    },
+    "library": {
+      "count": 12,
+      "surfaces": {
+        "overall": {
+          "n": 12,
+          "mae": 0.9167,
+          "me": 0.4167,
+          "exactPct": 25,
+          "withinOnePct": 83.3
+        },
+        "seo": {
+          "n": 12,
+          "mae": 0.9167,
+          "me": 0.5833,
+          "exactPct": 33.3,
+          "withinOnePct": 83.3
+        },
+        "aeo": {
+          "n": 12,
+          "mae": 1,
+          "me": 0.6667,
+          "exactPct": 25,
+          "withinOnePct": 75
+        },
+        "geo": {
+          "n": 12,
+          "mae": 0.8333,
+          "me": 0.6667,
+          "exactPct": 50,
+          "withinOnePct": 75
+        }
+      }
+    },
+    "framework": {
+      "count": 10,
+      "surfaces": {
+        "overall": {
+          "n": 10,
+          "mae": 0.4,
+          "me": 0.4,
+          "exactPct": 70,
+          "withinOnePct": 90
+        },
+        "seo": {
+          "n": 10,
+          "mae": 0.5,
+          "me": 0.1,
+          "exactPct": 60,
+          "withinOnePct": 90
+        },
+        "aeo": {
+          "n": 10,
+          "mae": 0.4,
+          "me": 0,
+          "exactPct": 60,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 10,
+          "mae": 1.2,
+          "me": 1,
+          "exactPct": 10,
+          "withinOnePct": 70
+        }
+      }
+    },
+    "sdk": {
+      "count": 12,
+      "surfaces": {
+        "overall": {
+          "n": 12,
+          "mae": 0.75,
+          "me": -0.0833,
+          "exactPct": 25,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 12,
+          "mae": 1,
+          "me": 0,
+          "exactPct": 16.7,
+          "withinOnePct": 83.3
+        },
+        "aeo": {
+          "n": 12,
+          "mae": 0.5833,
+          "me": 0.5833,
+          "exactPct": 41.7,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 12,
+          "mae": 0.25,
+          "me": -0.25,
+          "exactPct": 75,
+          "withinOnePct": 100
+        }
+      }
+    },
+    "devtool": {
+      "count": 10,
+      "surfaces": {
+        "overall": {
+          "n": 10,
+          "mae": 0.8,
+          "me": 0.4,
+          "exactPct": 40,
+          "withinOnePct": 80
+        },
+        "seo": {
+          "n": 10,
+          "mae": 0.8,
+          "me": 0.4,
+          "exactPct": 40,
+          "withinOnePct": 80
+        },
+        "aeo": {
+          "n": 10,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 60,
+          "withinOnePct": 90
+        },
+        "geo": {
+          "n": 10,
+          "mae": 1.1,
+          "me": 0.7,
+          "exactPct": 30,
+          "withinOnePct": 60
+        }
+      }
+    },
+    "webapp": {
+      "count": 10,
+      "surfaces": {
+        "overall": {
+          "n": 10,
+          "mae": 0.9,
+          "me": 0.1,
+          "exactPct": 30,
+          "withinOnePct": 80
+        },
+        "seo": {
+          "n": 10,
+          "mae": 0.9,
+          "me": -0.1,
+          "exactPct": 40,
+          "withinOnePct": 80
+        },
+        "aeo": {
+          "n": 10,
+          "mae": 0.4,
+          "me": 0,
+          "exactPct": 60,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 10,
+          "mae": 1.4,
+          "me": 0.8,
+          "exactPct": 10,
+          "withinOnePct": 50
+        }
+      }
+    },
+    "docs": {
+      "count": 8,
+      "surfaces": {
+        "overall": {
+          "n": 8,
+          "mae": 0.625,
+          "me": 0.625,
+          "exactPct": 37.5,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 8,
+          "mae": 1,
+          "me": 0.75,
+          "exactPct": 50,
+          "withinOnePct": 62.5
+        },
+        "aeo": {
+          "n": 8,
+          "mae": 0.375,
+          "me": -0.125,
+          "exactPct": 62.5,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 8,
+          "mae": 1.25,
+          "me": 1.25,
+          "exactPct": 12.5,
+          "withinOnePct": 62.5
+        }
+      }
+    },
+    "monorepo": {
+      "count": 8,
+      "surfaces": {
+        "overall": {
+          "n": 8,
+          "mae": 0.875,
+          "me": 0.375,
+          "exactPct": 37.5,
+          "withinOnePct": 75
+        },
+        "seo": {
+          "n": 8,
+          "mae": 1.125,
+          "me": -0.375,
+          "exactPct": 12.5,
+          "withinOnePct": 75
+        },
+        "aeo": {
+          "n": 8,
+          "mae": 0.75,
+          "me": 0.5,
+          "exactPct": 37.5,
+          "withinOnePct": 87.5
+        },
+        "geo": {
+          "n": 8,
+          "mae": 1.5,
+          "me": 1.5,
+          "exactPct": 12.5,
+          "withinOnePct": 37.5
+        }
+      }
+    },
+    "devops": {
+      "count": 12,
+      "surfaces": {
+        "overall": {
+          "n": 12,
+          "mae": 0.5833,
+          "me": 0.5833,
+          "exactPct": 41.7,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 12,
+          "mae": 0.8333,
+          "me": 0.8333,
+          "exactPct": 33.3,
+          "withinOnePct": 91.7
+        },
+        "aeo": {
+          "n": 12,
+          "mae": 1.1667,
+          "me": 0.8333,
+          "exactPct": 16.7,
+          "withinOnePct": 66.7
+        },
+        "geo": {
+          "n": 12,
+          "mae": 1,
+          "me": 0.6667,
+          "exactPct": 33.3,
+          "withinOnePct": 66.7
+        }
+      }
+    },
+    "data_ml": {
+      "count": 14,
+      "surfaces": {
+        "overall": {
+          "n": 14,
+          "mae": 0.7857,
+          "me": -0.0714,
+          "exactPct": 42.9,
+          "withinOnePct": 78.6
+        },
+        "seo": {
+          "n": 14,
+          "mae": 0.8571,
+          "me": 0.5714,
+          "exactPct": 42.9,
+          "withinOnePct": 71.4
+        },
+        "aeo": {
+          "n": 14,
+          "mae": 0.7143,
+          "me": 0.4286,
+          "exactPct": 50,
+          "withinOnePct": 78.6
+        },
+        "geo": {
+          "n": 14,
+          "mae": 1.2857,
+          "me": -0.2857,
+          "exactPct": 0,
+          "withinOnePct": 71.4
+        }
+      }
+    },
+    "plugin": {
+      "count": 7,
+      "surfaces": {
+        "overall": {
+          "n": 7,
+          "mae": 0.4286,
+          "me": 0.1429,
+          "exactPct": 71.4,
+          "withinOnePct": 85.7
+        },
+        "seo": {
+          "n": 7,
+          "mae": 0.8571,
+          "me": -0.2857,
+          "exactPct": 42.9,
+          "withinOnePct": 71.4
+        },
+        "aeo": {
+          "n": 7,
+          "mae": 0.4286,
+          "me": -0.1429,
+          "exactPct": 57.1,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 7,
+          "mae": 0.8571,
+          "me": 0.8571,
+          "exactPct": 57.1,
+          "withinOnePct": 57.1
+        }
+      }
+    },
+    "small_project": {
+      "count": 7,
+      "surfaces": {
+        "overall": {
+          "n": 7,
+          "mae": 0.5714,
+          "me": 0.5714,
+          "exactPct": 42.9,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 7,
+          "mae": 0.8571,
+          "me": 0.5714,
+          "exactPct": 14.3,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 7,
+          "mae": 0.4286,
+          "me": 0.4286,
+          "exactPct": 57.1,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 7,
+          "mae": 0.4286,
+          "me": 0.1429,
+          "exactPct": 57.1,
+          "withinOnePct": 100
+        }
+      }
+    }
+  },
+  "stratified_readme_characteristics": {
+    "char_minimal": {
+      "count": 8,
+      "surfaces": {
+        "overall": {
+          "n": 8,
+          "mae": 0.625,
+          "me": 0.625,
+          "exactPct": 37.5,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 8,
+          "mae": 0.625,
+          "me": 0.625,
+          "exactPct": 37.5,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 8,
+          "mae": 0.5,
+          "me": 0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 8,
+          "mae": 0.75,
+          "me": 0.5,
+          "exactPct": 37.5,
+          "withinOnePct": 87.5
+        }
+      }
+    },
+    "char_standard": {
+      "count": 50,
+      "surfaces": {
+        "overall": {
+          "n": 50,
+          "mae": 0.68,
+          "me": 0.4,
+          "exactPct": 44,
+          "withinOnePct": 88
+        },
+        "seo": {
+          "n": 50,
+          "mae": 0.74,
+          "me": 0.3,
+          "exactPct": 42,
+          "withinOnePct": 86
+        },
+        "aeo": {
+          "n": 50,
+          "mae": 0.68,
+          "me": 0.44,
+          "exactPct": 48,
+          "withinOnePct": 84
+        },
+        "geo": {
+          "n": 50,
+          "mae": 1.06,
+          "me": 0.62,
+          "exactPct": 26,
+          "withinOnePct": 68
+        }
+      }
+    },
+    "char_docs_heavy": {
+      "count": 15,
+      "surfaces": {
+        "overall": {
+          "n": 15,
+          "mae": 1.0667,
+          "me": 0.8,
+          "exactPct": 20,
+          "withinOnePct": 73.3
+        },
+        "seo": {
+          "n": 15,
+          "mae": 1.4,
+          "me": 0.8667,
+          "exactPct": 26.7,
+          "withinOnePct": 46.7
+        },
+        "aeo": {
+          "n": 15,
+          "mae": 0.6667,
+          "me": 0.4,
+          "exactPct": 46.7,
+          "withinOnePct": 86.7
+        },
+        "geo": {
+          "n": 15,
+          "mae": 1.3333,
+          "me": 1.2,
+          "exactPct": 20,
+          "withinOnePct": 53.3
+        }
+      }
+    },
+    "char_api_reference": {
+      "count": 15,
+      "surfaces": {
+        "overall": {
+          "n": 15,
+          "mae": 0.7333,
+          "me": -0.2,
+          "exactPct": 33.3,
+          "withinOnePct": 93.3
+        },
+        "seo": {
+          "n": 15,
+          "mae": 0.8,
+          "me": -0.4,
+          "exactPct": 40,
+          "withinOnePct": 80
+        },
+        "aeo": {
+          "n": 15,
+          "mae": 0.5333,
+          "me": 0.1333,
+          "exactPct": 53.3,
+          "withinOnePct": 93.3
+        },
+        "geo": {
+          "n": 15,
+          "mae": 0.4667,
+          "me": 0.2,
+          "exactPct": 73.3,
+          "withinOnePct": 86.7
+        }
+      }
+    },
+    "char_tutorial": {
+      "count": 31,
+      "surfaces": {
+        "overall": {
+          "n": 31,
+          "mae": 0.6774,
+          "me": 0.2258,
+          "exactPct": 41.9,
+          "withinOnePct": 90.3
+        },
+        "seo": {
+          "n": 31,
+          "mae": 0.8387,
+          "me": 0.129,
+          "exactPct": 35.5,
+          "withinOnePct": 83.9
+        },
+        "aeo": {
+          "n": 31,
+          "mae": 0.6129,
+          "me": 0.4194,
+          "exactPct": 48.4,
+          "withinOnePct": 90.3
+        },
+        "geo": {
+          "n": 31,
+          "mae": 1.0645,
+          "me": 0.4194,
+          "exactPct": 19.4,
+          "withinOnePct": 74.2
+        }
+      }
+    },
+    "char_architecture": {
+      "count": 30,
+      "surfaces": {
+        "overall": {
+          "n": 30,
+          "mae": 0.7,
+          "me": 0.3,
+          "exactPct": 43.3,
+          "withinOnePct": 86.7
+        },
+        "seo": {
+          "n": 30,
+          "mae": 1,
+          "me": 0.3333,
+          "exactPct": 23.3,
+          "withinOnePct": 80
+        },
+        "aeo": {
+          "n": 30,
+          "mae": 0.6667,
+          "me": 0.2667,
+          "exactPct": 40,
+          "withinOnePct": 93.3
+        },
+        "geo": {
+          "n": 30,
+          "mae": 1.2,
+          "me": 0.7333,
+          "exactPct": 16.7,
+          "withinOnePct": 63.3
+        }
+      }
+    },
+    "char_feature_comparison": {
+      "count": 24,
+      "surfaces": {
+        "overall": {
+          "n": 24,
+          "mae": 0.75,
+          "me": 0.0833,
+          "exactPct": 41.7,
+          "withinOnePct": 83.3
+        },
+        "seo": {
+          "n": 24,
+          "mae": 0.9583,
+          "me": 0.125,
+          "exactPct": 37.5,
+          "withinOnePct": 70.8
+        },
+        "aeo": {
+          "n": 24,
+          "mae": 0.75,
+          "me": 0.0833,
+          "exactPct": 37.5,
+          "withinOnePct": 87.5
+        },
+        "geo": {
+          "n": 24,
+          "mae": 1.25,
+          "me": 0.6667,
+          "exactPct": 16.7,
+          "withinOnePct": 58.3
+        }
+      }
+    },
+    "char_example_heavy": {
+      "count": 32,
+      "surfaces": {
+        "overall": {
+          "n": 32,
+          "mae": 0.6875,
+          "me": 0.125,
+          "exactPct": 43.8,
+          "withinOnePct": 87.5
+        },
+        "seo": {
+          "n": 32,
+          "mae": 0.7813,
+          "me": 0.0938,
+          "exactPct": 40.6,
+          "withinOnePct": 81.3
+        },
+        "aeo": {
+          "n": 32,
+          "mae": 0.7188,
+          "me": 0.5313,
+          "exactPct": 43.8,
+          "withinOnePct": 84.4
+        },
+        "geo": {
+          "n": 32,
+          "mae": 0.75,
+          "me": 0.0625,
+          "exactPct": 46.9,
+          "withinOnePct": 81.3
+        }
+      }
+    },
+    "char_install_config": {
+      "count": 46,
+      "surfaces": {
+        "overall": {
+          "n": 46,
+          "mae": 0.5652,
+          "me": 0.087,
+          "exactPct": 50,
+          "withinOnePct": 93.5
+        },
+        "seo": {
+          "n": 46,
+          "mae": 0.913,
+          "me": 0.1739,
+          "exactPct": 28.3,
+          "withinOnePct": 84.8
+        },
+        "aeo": {
+          "n": 46,
+          "mae": 0.5652,
+          "me": 0.2609,
+          "exactPct": 54.3,
+          "withinOnePct": 89.1
+        },
+        "geo": {
+          "n": 46,
+          "mae": 0.8696,
+          "me": 0.3478,
+          "exactPct": 34.8,
+          "withinOnePct": 78.3
+        }
+      }
+    },
+    "char_mixed": {
+      "count": 9,
+      "surfaces": {
+        "overall": {
+          "n": 9,
+          "mae": 1,
+          "me": 0.1111,
+          "exactPct": 33.3,
+          "withinOnePct": 66.7
+        },
+        "seo": {
+          "n": 9,
+          "mae": 1,
+          "me": 0.1111,
+          "exactPct": 33.3,
+          "withinOnePct": 66.7
+        },
+        "aeo": {
+          "n": 9,
+          "mae": 0.7778,
+          "me": 0.5556,
+          "exactPct": 44.4,
+          "withinOnePct": 77.8
+        },
+        "geo": {
+          "n": 9,
+          "mae": 1,
+          "me": 0.5556,
+          "exactPct": 33.3,
+          "withinOnePct": 77.8
+        }
+      }
+    }
+  },
+  "top_discrepancies": {
+    "over_predictions": [
+      {
+        "fixture_id": "real-033",
+        "repository": "colinhacks/zod",
+        "archetype": "library",
+        "readme_tags": [
+          "char_docs_heavy",
+          "char_api_reference",
+          "char_example_heavy",
+          "char_mixed"
+        ],
+        "pred": {
+          "overall": 2,
+          "seo": 2,
+          "aeo": 2,
+          "geo": 3
+        },
+        "actual": {
+          "overall": 0,
+          "seo": 0,
+          "aeo": 0,
+          "geo": 0
+        },
+        "residuals": {
+          "overall": 2,
+          "seo": 2,
+          "aeo": 2,
+          "geo": 3
+        },
+        "absResidualSum": 9
+      },
+      {
+        "fixture_id": "real-035",
+        "repository": "sqlalchemy/sqlalchemy",
+        "archetype": "library",
+        "readme_tags": [
+          "char_standard",
+          "char_docs_heavy"
+        ],
+        "pred": {
+          "overall": 3,
+          "seo": 4,
+          "aeo": 4,
+          "geo": 3
+        },
+        "actual": {
+          "overall": 1,
+          "seo": 1,
+          "aeo": 2,
+          "geo": 1
+        },
+        "residuals": {
+          "overall": 2,
+          "seo": 3,
+          "aeo": 2,
+          "geo": 2
+        },
+        "absResidualSum": 9
+      },
+      {
+        "fixture_id": "real-056",
+        "repository": "biomejs/biome",
+        "archetype": "devtool",
+        "readme_tags": [
+          "char_feature_comparison",
+          "char_tutorial"
+        ],
+        "pred": {
+          "overall": 2,
+          "seo": 2,
+          "aeo": 2,
+          "geo": 2
+        },
+        "actual": {
+          "overall": 0,
+          "seo": 0,
+          "aeo": 0,
+          "geo": 0
+        },
+        "residuals": {
+          "overall": 2,
+          "seo": 2,
+          "aeo": 2,
+          "geo": 2
+        },
+        "absResidualSum": 8
+      },
+      {
+        "fixture_id": "real-097",
+        "repository": "numpy/numpy",
+        "archetype": "data_ml",
+        "readme_tags": [
+          "char_standard",
+          "char_install_config"
+        ],
+        "pred": {
+          "overall": 3,
+          "seo": 3,
+          "aeo": 3,
+          "geo": 3
+        },
+        "actual": {
+          "overall": 1,
+          "seo": 1,
+          "aeo": 1,
+          "geo": 1
+        },
+        "residuals": {
+          "overall": 2,
+          "seo": 2,
+          "aeo": 2,
+          "geo": 2
+        },
+        "absResidualSum": 8
+      },
+      {
+        "fixture_id": "real-011",
+        "repository": "django/django",
+        "archetype": "framework",
+        "readme_tags": [
+          "char_standard",
+          "char_docs_heavy"
+        ],
+        "pred": {
+          "overall": 3,
+          "seo": 3,
+          "aeo": 3,
+          "geo": 3
+        },
+        "actual": {
+          "overall": 1,
+          "seo": 1,
+          "aeo": 2,
+          "geo": 1
+        },
+        "residuals": {
+          "overall": 2,
+          "seo": 2,
+          "aeo": 1,
+          "geo": 2
+        },
+        "absResidualSum": 7
+      }
+    ],
+    "under_predictions": [
+      {
+        "fixture_id": "real-003",
+        "repository": "BurntSushi/ripgrep",
+        "archetype": "cli",
+        "readme_tags": [
+          "char_standard",
+          "char_feature_comparison",
+          "char_install_config"
+        ],
+        "pred": {
+          "overall": 3,
+          "seo": 4,
+          "aeo": 3,
+          "geo": 3
+        },
+        "actual": {
+          "overall": 4,
+          "seo": 5,
+          "aeo": 5,
+          "geo": 2
+        },
+        "residuals": {
+          "overall": -1,
+          "seo": -1,
+          "aeo": -2,
+          "geo": 1
+        },
+        "absResidualSum": 5
+      },
+      {
+        "fixture_id": "real-047",
+        "repository": "openai/openai-python",
+        "archetype": "sdk",
+        "readme_tags": [
+          "char_example_heavy",
+          "char_api_reference"
+        ],
+        "pred": {
+          "overall": 4,
+          "seo": 3,
+          "aeo": 5,
+          "geo": 3
+        },
+        "actual": {
+          "overall": 5,
+          "seo": 5,
+          "aeo": 4,
+          "geo": 4
+        },
+        "residuals": {
+          "overall": -1,
+          "seo": -2,
+          "aeo": 1,
+          "geo": -1
+        },
+        "absResidualSum": 5
+      },
+      {
+        "fixture_id": "real-012",
+        "repository": "huggingface/transformers",
+        "archetype": "data_ml",
+        "readme_tags": [
+          "char_tutorial",
+          "char_example_heavy",
+          "char_feature_comparison",
+          "char_mixed"
+        ],
+        "pred": {
+          "overall": 3,
+          "seo": 3,
+          "aeo": 4,
+          "geo": 4
+        },
+        "actual": {
+          "overall": 5,
+          "seo": 4,
+          "aeo": 4,
+          "geo": 5
+        },
+        "residuals": {
+          "overall": -2,
+          "seo": -1,
+          "aeo": 0,
+          "geo": -1
+        },
+        "absResidualSum": 4
+      },
+      {
+        "fixture_id": "real-027",
+        "repository": "astral-sh/uv",
+        "archetype": "cli",
+        "readme_tags": [
+          "char_feature_comparison",
+          "char_docs_heavy",
+          "char_install_config",
+          "char_mixed"
+        ],
+        "pred": {
+          "overall": 3,
+          "seo": 3,
+          "aeo": 4,
+          "geo": 3
+        },
+        "actual": {
+          "overall": 4,
+          "seo": 5,
+          "aeo": 4,
+          "geo": 4
+        },
+        "residuals": {
+          "overall": -1,
+          "seo": -2,
+          "aeo": 0,
+          "geo": -1
+        },
+        "absResidualSum": 4
+      },
+      {
+        "fixture_id": "real-084",
+        "repository": "storybookjs/storybook",
+        "archetype": "monorepo",
+        "readme_tags": [
+          "char_architecture",
+          "char_tutorial"
+        ],
+        "pred": {
+          "overall": 3,
+          "seo": 3,
+          "aeo": 4,
+          "geo": 3
+        },
+        "actual": {
+          "overall": 4,
+          "seo": 5,
+          "aeo": 4,
+          "geo": 2
+        },
+        "residuals": {
+          "overall": -1,
+          "seo": -2,
+          "aeo": 0,
+          "geo": 1
+        },
+        "absResidualSum": 4
+      }
+    ]
+  }
+}

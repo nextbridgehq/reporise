@@ -1,0 +1,7 @@
+{
+  "name": "vitest-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

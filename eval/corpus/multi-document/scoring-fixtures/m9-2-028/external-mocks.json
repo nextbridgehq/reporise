@@ -1,0 +1,6 @@
+{
+  "https://docs.pytest.org/en/stable/": {
+    "http_status": 200,
+    "content": "# pytest documentation\n\n## Install pytest\n```bash\npip install pytest\n```\n\n## Create your first test\n```python\ndef test_answer():\n    assert 1 == 1\n```\n"
+  }
+}

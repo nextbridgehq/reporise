@@ -1,0 +1,6 @@
+{
+  "https://www.python-httpx.org": {
+    "http_status": 200,
+    "content": "# HTTPX\n\n## Installation\n```bash\npip install httpx\n```\n\n## Quickstart\n```python\nimport httpx\nr = httpx.get('https://httpbin.org/get')\n```\n"
+  }
+}

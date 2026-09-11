@@ -1,0 +1,135 @@
+{
+  "id": "real-092",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "k3s-io/k3s",
+  "commit": "a305766d0b86afec304ebd94713223061a916b79",
+  "capturedAt": "2026-09-08T12:16:58.315Z",
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "4d387e2a26392d73c3d3982127d90e5c86e3f83a7d667fb4f65731678eb60b3d",
+      "sizeBytes": 146
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "78a97628a01a0693cb2cce7e36c965fa7499d46c19f96c2ec9733c38689e7f49",
+      "sizeBytes": 9219
+    },
+    {
+      "path": "docs/adrs/add-auto-import-containerd.md",
+      "sha256": "7bc11f453cf03581f740a7919ed34076d5de740d5e8107c453b065d713a58016",
+      "sizeBytes": 2623
+    },
+    {
+      "path": "docs/adrs/add-dual-stack-support-to-netpol-agent.md",
+      "sha256": "581ad0dfc04571580e33e296b40cd5367b093a730f6c7535ac6116334e8eed00",
+      "sizeBytes": 2120
+    },
+    {
+      "path": "docs/adrs/agent-join-token.md",
+      "sha256": "f531eed02f4fe85b3dcf4ae347527de7f47f137be3cf7a0ab96fc88df61f2274",
+      "sizeBytes": 3805
+    },
+    {
+      "path": "docs/adrs/ca-cert-rotation.md",
+      "sha256": "6820de430e689a8408ab09042048d92c3989029679c08c9f7ed0e9b490c82d38",
+      "sizeBytes": 5108
+    },
+    {
+      "path": "docs/adrs/cert-expiry-checks.md",
+      "sha256": "70e525793c4f67143fae1ca67f139cf4c3a5fde441917cb7754f848e8de21fcf",
+      "sizeBytes": 1782
+    },
+    {
+      "path": "docs/adrs/core-controller-user.md",
+      "sha256": "1d2b0acfb1d1963f2c4fc8ff7d8a3abc5b32188bfd26c40c5c9d5a0e56253dad",
+      "sizeBytes": 1362
+    },
+    {
+      "path": "docs/adrs/cri-dockerd.md",
+      "sha256": "0be70fb2ef251b1c517399a1bd885a52a27ac0662a1953a95c12f9982d9a1935",
+      "sizeBytes": 3461
+    },
+    {
+      "path": "docs/adrs/deprecating-and-removing-flags.md",
+      "sha256": "01fd574259760a0ee4406d4de0a1305215a4b591addcc1987649724636929664",
+      "sizeBytes": 2982
+    },
+    {
+      "path": "docs/adrs/embedded-registry.md",
+      "sha256": "d343de795fff1b441ffa5e964709947fbad8be6bbad2e87e9f2acf938dd710fd",
+      "sizeBytes": 2314
+    },
+    {
+      "path": "docs/adrs/etcd-s3-secret.md",
+      "sha256": "ae81de14b00f12e60413253dcd3c936c88946f1abd8321a141cf9d210ba947bc",
+      "sizeBytes": 4017
+    },
+    {
+      "path": "docs/adrs/etcd-snapshot-cr.md",
+      "sha256": "567011c29dbcf9f156b7dd7408f70073f055c8c74d3e72ca3c48fdc96c02b02a",
+      "sizeBytes": 3478
+    },
+    {
+      "path": "docs/adrs/flannel-options.md",
+      "sha256": "f910b1841c64ee70667c483cdc1292564aebfa2a989af6c4b34df74b608ca378",
+      "sizeBytes": 6974
+    },
+    {
+      "path": "docs/adrs/gh-branch-strategy.md",
+      "sha256": "3542f257c074f8a51b26ad24b105ad052a82f9b2356b9b88edff865b3d303e60",
+      "sizeBytes": 1622
+    },
+    {
+      "path": "docs/adrs/integrate-vpns.md",
+      "sha256": "2719b5c500622286e1ba887d368dd5626d5c08bc7d0d8f9522c26b2cdb232262",
+      "sizeBytes": 6606
+    },
+    {
+      "path": "docs/adrs/k3s-charts.md",
+      "sha256": "439a306c827a92d61274fafeb94a78063eb093239e55b7aabeba8755fda2c7bd",
+      "sizeBytes": 1136
+    },
+    {
+      "path": "docs/adrs/multus.md",
+      "sha256": "8abf252236e36a84cb83b0a1ef23fb17b9b1c26ff96a9b888b11d62df1e0ff6a",
+      "sizeBytes": 3393
+    },
+    {
+      "path": "docs/adrs/record-architecture-decisions.md",
+      "sha256": "64d7fd33564c4942d2e21f413a4665920c22276ed5131564bb8f349395e50125",
+      "sizeBytes": 497
+    },
+    {
+      "path": "docs/adrs/remove-svclb-daemonset.md",
+      "sha256": "8408cb1027516a846e0a683eec7a6a9be74a7e12bb38710a98413f14777d2cf3",
+      "sizeBytes": 8766
+    },
+    {
+      "path": "docs/adrs/secrets-encryption-v3.md",
+      "sha256": "e00df64c95358b87834c94ce35461a38218dfd0783472e3a69f0beac8129a04b",
+      "sizeBytes": 2881
+    },
+    {
+      "path": "docs/adrs/security-updates-automation.md",
+      "sha256": "e849cbd11cec5320ebc0010e16607b34252f6c64f1af8c9d3800cf01231a82dd",
+      "sizeBytes": 4942
+    },
+    {
+      "path": "go.mod",
+      "sha256": "142d94f98484eb89b515f46eeeb80fbe7c37cd61df428978b3ed1939b65b3d4a",
+      "sizeBytes": 30347
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "eb3d7b5485466acbd81f2b496f595ab637d2792e268206b27d99e793bdb67549",
+      "sizeBytes": 10351
+    },
+    {
+      "path": "README.md",
+      "sha256": "281e1c3492837a9d284ee40a2a7e8b4ca7fcf38b4484685fa1cf3c1a527795a0",
+      "sizeBytes": 10999
+    }
+  ]
+}

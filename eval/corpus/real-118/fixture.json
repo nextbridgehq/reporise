@@ -1,0 +1,40 @@
+{
+  "id": "real-118",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "chriso/validator.js",
+  "commit": "a79ff980ab14257e795332989e497bdff3218e87",
+  "capturedAt": "2026-09-08T12:22:58.846Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "16a1384ac2404b2682231ee83578f8e1bc2413716f7d6c8e37300ee2ac28d5f9",
+      "sizeBytes": 72105
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "819bd524c0b16486062940ff5a97d8a1088ba5a12ada568506a699a93d80aaf9",
+      "sizeBytes": 1987
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "dcdeaeb984d702fade57bb18d00afd20e1926972f7f3e0bc35a1e09420f13700",
+      "sizeBytes": 1097
+    },
+    {
+      "path": "package.json",
+      "sha256": "9b764550b15393d83bffe141cb7577f429076d499eb0a4e8cefbea864af61022",
+      "sizeBytes": 2224
+    },
+    {
+      "path": "README.md",
+      "sha256": "4bc85c1b8c473a365a52e8c79403ee48555c9fa32f93b23577a00b59f5693755",
+      "sizeBytes": 43342
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "aed6a84a205ad456984439b044393b6fc1526e719fc1cb52e83e400e2955d3b3",
+      "sizeBytes": 599
+    }
+  ]
+}

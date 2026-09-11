@@ -1,0 +1,7 @@
+{
+  "name": "nx-monorepo",
+  "description": "Smart build system and monorepo tooling",
+  "workspaces": [
+    "packages/*"
+  ]
+}

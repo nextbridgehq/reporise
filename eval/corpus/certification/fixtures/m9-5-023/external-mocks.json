@@ -1,0 +1,6 @@
+{
+  "https://docs.unreachable-network.org/guide": {
+    "http_status": 0,
+    "error": "ECONNREFUSED"
+  }
+}

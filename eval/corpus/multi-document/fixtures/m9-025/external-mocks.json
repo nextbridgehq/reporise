@@ -1,0 +1,6 @@
+{
+  "https://docs.astral.sh/uv/": {
+    "http_status": 200,
+    "content": "# uv Documentation\n\n## Installation\n```bash\ncurl -LsSf https://astral.sh/uv/install.sh | sh\n```\n\n## Quick Start\n```bash\nuv venv\nuv pip install ruff\n```\n"
+  }
+}

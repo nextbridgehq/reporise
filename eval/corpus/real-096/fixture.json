@@ -1,0 +1,140 @@
+{
+  "id": "real-096",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "scikit-learn/scikit-learn",
+  "commit": "2cc7893a2097be891426ca6a4d9ea2e14cf82b9c",
+  "capturedAt": "2026-09-08T12:15:53.943Z",
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "sha256": "3b5e3e26fd1a0032269984b1365033f01a7d3e58b8f10f7fa78551992d949bb5",
+      "sizeBytes": 1421
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "7285b00b2f5ee5ffe4a033b2ee164cb1aadef9f03ca66d82da81087e09faeb6d",
+      "sizeBytes": 1718
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "8865e74155b7731457193fc6d3100b975565a1d67de8a8f01f36e3581c402939",
+      "sizeBytes": 1879
+    },
+    {
+      "path": "examples/applications/plot_cyclical_feature_engineering.py",
+      "sha256": "677f3405ad3733c6b05b8a8b220a4e2b3b962779d119a3976df90fbcc30d186a",
+      "sizeBytes": 33363
+    },
+    {
+      "path": "examples/applications/plot_digits_denoising.py",
+      "sha256": "4c86f1b6c6319a8d343f9f0eb5be0c0a99e46d9643745ecda846ecce98aba137",
+      "sizeBytes": 5380
+    },
+    {
+      "path": "examples/applications/plot_face_recognition.py",
+      "sha256": "b560e2d022eff4801deb1381a0bbc4ee556c3d56c69e2a05f92ea7cf78a315ad",
+      "sizeBytes": 9858
+    },
+    {
+      "path": "examples/applications/plot_model_complexity_influence.py",
+      "sha256": "d064d041f8a12427833456053f67c6d914af553b5124e380c33828be8a61946a",
+      "sizeBytes": 10856
+    },
+    {
+      "path": "examples/applications/plot_outlier_detection_wine.py",
+      "sha256": "dd421d2b2b5ae2c6a8f20dca4ea104943359511b8329fece95393723b007e4ff",
+      "sizeBytes": 5034
+    },
+    {
+      "path": "examples/applications/plot_out_of_core_classification.py",
+      "sha256": "1403eb1d0c0ba1b931fd648b93fc765dbdc55e1a2da5924ed61454c1ea4bd5a6",
+      "sizeBytes": 13925
+    },
+    {
+      "path": "examples/applications/plot_prediction_latency.py",
+      "sha256": "2da0811503956b4fbab9d65c8c4468fedfd4a5cf1721bdcb839ed1d03c123ccf",
+      "sizeBytes": 11493
+    },
+    {
+      "path": "examples/applications/plot_species_distribution_modeling.py",
+      "sha256": "4b7d0e36894d0405cb6bad5edbf243aadb1ca47067c4734e0f1edab0950df93c",
+      "sizeBytes": 8016
+    },
+    {
+      "path": "examples/applications/plot_stock_market.py",
+      "sha256": "64491faa2542d9af0efa08070a4bb30cb9ebe3504705cf1cd4c78fe8f3301c16",
+      "sizeBytes": 8542
+    },
+    {
+      "path": "examples/applications/plot_time_series_lagged_features.py",
+      "sha256": "821e8cf2953cb65e46d55e69820e6e921c5c92f0d644f35284efc806a097c112",
+      "sizeBytes": 16762
+    },
+    {
+      "path": "examples/applications/plot_tomography_l1_reconstruction.py",
+      "sha256": "1cfd3f4675407f4317739d2d98fb1b384ad35755c18f612623890a21d6a267b9",
+      "sizeBytes": 5641
+    },
+    {
+      "path": "examples/applications/plot_topics_extraction_with_nmf_lda.py",
+      "sha256": "e396ae22191ea227ecc26ebed0a02be347e655f8fe1d1bd1407103377683705f",
+      "sizeBytes": 6911
+    },
+    {
+      "path": "examples/applications/plot_wikipedia_principal_eigenvector.py",
+      "sha256": "e319f44bcbf22ba7be032de985943ec992eb2ebf79fd81f0c0dd7a6ab4c136cf",
+      "sizeBytes": 8304
+    },
+    {
+      "path": "examples/applications/README.txt",
+      "sha256": "b642ae49de44c777b6231d7d6ea6da5a220c405b883ff4819900d2f609a5d377",
+      "sizeBytes": 208
+    },
+    {
+      "path": "examples/bicluster/plot_bicluster_newsgroups.py",
+      "sha256": "79fbe4e7b10383a9658fee5ef6485016c8459da425ecf74977c2ec1b5d6af6d0",
+      "sizeBytes": 5514
+    },
+    {
+      "path": "examples/bicluster/plot_spectral_biclustering.py",
+      "sha256": "de589c9bf4d98acb0eea122753e719f18b816385c95be03e85ee6d12cae46cfc",
+      "sizeBytes": 4799
+    },
+    {
+      "path": "examples/bicluster/plot_spectral_coclustering.py",
+      "sha256": "419b740574ae5dbfa2dbae1ce4749db87b807757df0aaf8a498922f08edf5b0c",
+      "sizeBytes": 1802
+    },
+    {
+      "path": "examples/bicluster/README.txt",
+      "sha256": "939c4f8424498db3a6af007d24306b13709d596f9c6de2ef90d07bfaec0b0f2c",
+      "sizeBytes": 103
+    },
+    {
+      "path": "examples/calibration/plot_calibration.py",
+      "sha256": "8151dc7e27f2f6c65d952416155c30ee3db4b1f8ac69fcc8ef004b47549f8e5b",
+      "sizeBytes": 4812
+    },
+    {
+      "path": "examples/calibration/plot_calibration_curve.py",
+      "sha256": "c28f1f55ec52610e77dfda06da5cf4beb4954f83ff2860b91540af63d2b30d2c",
+      "sizeBytes": 11855
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "426592ff3bfdeed51a924bfd8420d490f3091d21ca1b0879e9eb22895ba621ee",
+      "sizeBytes": 14287
+    },
+    {
+      "path": "README.rst",
+      "sha256": "20a67a5bc019c2d9e75c7212dc1b9b2c77a9d1d5ba736cfb0cffdce13e4b3678",
+      "sizeBytes": 7893
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "a1a399c7b79a9dca186f9fdc4834b2c3043295aa84e5635c7252f2ac7f5c91c2",
+      "sizeBytes": 850
+    }
+  ]
+}

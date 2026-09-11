@@ -1,0 +1,45 @@
+{
+  "id": "real-110",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "actions/setup-python",
+  "commit": "751276eafca55f10f252026015f43c488f2322ba",
+  "capturedAt": "2026-09-08T12:21:27.645Z",
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "06b34a616cc79dce894f965ffdaa37e54ecaf30b5d02508db5ae753675110d29",
+      "sizeBytes": 3391
+    },
+    {
+      "path": "docs/adrs/0000-caching-dependencies.md",
+      "sha256": "64172293f70caf32967e9c0e839fe3004e649360acd9d33a50b99f1ab2c557f3",
+      "sizeBytes": 4840
+    },
+    {
+      "path": "docs/advanced-usage.md",
+      "sha256": "8c06fc62d6f27a74a5d29c197fb41a30e78c9ad974a7d3e84280f36a148f34d1",
+      "sizeBytes": 31609
+    },
+    {
+      "path": "docs/contributors.md",
+      "sha256": "daffa10f4dbcae10fecb3b149718c193921aab28769b32044615a8fb82cf2c87",
+      "sizeBytes": 9076
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "7d070f6b64d9bcc530fe99cc21eaaa4b3c364e0b2d367d7735671fa202a03b32",
+      "sizeBytes": 1096
+    },
+    {
+      "path": "package.json",
+      "sha256": "c7fc455d68cb7f10dfd31ee2059ac9ebabed613e3d9613f0491595cb6dcf2315",
+      "sizeBytes": 1932
+    },
+    {
+      "path": "README.md",
+      "sha256": "d0a51dcaf89df5b8211d4bdbf74631c2cacf25879f95834c70bebef51e9ad1f9",
+      "sizeBytes": 7860
+    }
+  ]
+}

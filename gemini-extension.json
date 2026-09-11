@@ -1,0 +1,6 @@
+{
+  "name": "reporise",
+  "version": "0.1.0",
+  "description": "Audit and improve how a repository is found by search engines (SEO), lifted into direct answers (AEO), and cited by generative engines (GEO).",
+  "contextFileName": "GEMINI.md"
+}

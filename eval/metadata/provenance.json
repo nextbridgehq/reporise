@@ -1,0 +1,881 @@
+{
+  "release": "corpus-m8-v1.0.0",
+  "curation_policy": "Strictly deterministic pinned commit SHAs conforming to FIXTURE_CONTRACT.md",
+  "languages": {
+    "javascript": 20,
+    "rust": 13,
+    "python": 26,
+    "typescript": 34,
+    "go": 19,
+    "markdown": 2,
+    "elixir": 1,
+    "shell": 1,
+    "html": 1,
+    "c++": 1,
+    "lua": 1,
+    "vim": 1
+  },
+  "licenses": {
+    "MIT": 68,
+    "Apache-2.0": 24,
+    "BSD-3-Clause": 6,
+    "MPL-2.0": 4,
+    "CC0-1.0": 2,
+    "ISC": 1,
+    "EUPL-1.2": 1,
+    "AGPL-3.0": 7,
+    "BSL-1.1": 1,
+    "CC-BY-NC-SA-4.0": 1,
+    "CC-BY-SA-4.0": 3,
+    "GPL-3.0": 1,
+    "Vim": 1
+  },
+  "star_tiers": {
+    "major_10k_50k": 43,
+    "flagship_50k_plus": 37,
+    "medium_1k_10k": 34,
+    "niche_10_1k": 6
+  },
+  "repositories": [
+    {
+      "fixture_id": "real-001",
+      "repository": "eslint/eslint",
+      "commit": "6b6f70a1a0c7eb163013d3957bdcd653b6eb4c01",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-002",
+      "repository": "prettier/prettier",
+      "commit": "52829385b00c93a9712a4f40f0653df341a46979",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-003",
+      "repository": "BurntSushi/ripgrep",
+      "commit": "e0129bcce5b5b19ea5d31536b9e3a6ccff39ff2e",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-004",
+      "repository": "sharkdp/bat",
+      "commit": "6b0d952a23395d985a9df61a5b46e382ce6a8779",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-005",
+      "repository": "lodash/lodash",
+      "commit": "c358aa0c310467b7e80f9bb49ecceef02b1f09d8",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-006",
+      "repository": "expressjs/express",
+      "commit": "59a8c14838b0fb60b54fc17342880753f090ccff",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-007",
+      "repository": "requests/requests",
+      "commit": "0a7fb0d97034c7a52efcde1bcdd275ff0d1a4da6",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-008",
+      "repository": "moment/moment",
+      "commit": "6338b36fa2d2a4192b152ce8aeebe84f7243c516",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-009",
+      "repository": "facebook/react",
+      "commit": "c0c6b16d1232840ad09efb46ba12f38d3f6696db",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-010",
+      "repository": "vuejs/core",
+      "commit": "7de31f1f9ecba2725e16543b35eb65ffb44fb7f8",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-011",
+      "repository": "django/django",
+      "commit": "7be0e495fdbd260fde253a6e877401d4a0deed7a",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-012",
+      "repository": "huggingface/transformers",
+      "commit": "992a76f2b7fef1e505cc2b2ffc87340d8bf7b75b",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-013",
+      "repository": "langchain-ai/langchain",
+      "commit": "369e59ed6e5117ee2cc55ad9c54e7d446b5a03cb",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-014",
+      "repository": "ollama/ollama",
+      "commit": "d7486eec0854d68e0dcf45f5df8dc0e6e7fb63a3",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-015",
+      "repository": "docker/compose",
+      "commit": "0c76ce8f041ffdf5c76db35fb4cde17fccf63f58",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-016",
+      "repository": "hashicorp/terraform",
+      "commit": "633854990d7bd1c62f03f7a659cced65f32997c6",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-017",
+      "repository": "twbs/bootstrap",
+      "commit": "5f4e64f2604ed8be4cc891b0fc29fa3a91217e6e",
+      "captured_at": "2026-09-08T11:12:21.428Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-018",
+      "repository": "microsoft/TypeScript",
+      "commit": "c4e33552086a978f830c7b74bd4f3050117070ef",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-019",
+      "repository": "sindresorhus/awesome",
+      "commit": "cf6697850ee85f1c4e7ab53bfcb057053e198083",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-020",
+      "repository": "jesseduffield/lazygit",
+      "commit": "a4fa8a75eefeb31bfbce6cce7545935cc597ffc3",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-021",
+      "repository": "junegunn/fzf",
+      "commit": "ad151d84154632a6abec67b40fe326c1ea2c9481",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-022",
+      "repository": "cli/cli",
+      "commit": "0d121e8c31204cdbe02b4a4b1be5e88bdc3c4662",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-023",
+      "repository": "charmbracelet/bubbletea",
+      "commit": "73b6d91ac1c3854dd4af046ab5f9e51d3b3b4290",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-024",
+      "repository": "starship/starship",
+      "commit": "864500b26904cd3cc01fc2a19d3ad068bd1517a2",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "validation"
+    },
+    {
+      "fixture_id": "real-025",
+      "repository": "denisidoro/navi",
+      "commit": "f7330b9ad5bd95b7d1a3c96d00e0a77deb589147",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "validation"
+    },
+    {
+      "fixture_id": "real-026",
+      "repository": "eza-community/eza",
+      "commit": "471bfbc7b03cbac8c738e8d9050edb06ee79132a",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "test"
+    },
+    {
+      "fixture_id": "real-027",
+      "repository": "astral-sh/uv",
+      "commit": "5001296c095a4b3fa8a65527cd121dd3abad3a85",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "test"
+    },
+    {
+      "fixture_id": "real-028",
+      "repository": "pydantic/pydantic",
+      "commit": "2261ae19e2e09f792f06613360c83fc829238111",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-029",
+      "repository": "chalk/chalk",
+      "commit": "661317e6f91fe7c90306c2c48ea9354562ee9146",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-030",
+      "repository": "axios/axios",
+      "commit": "b8d67bbbd6b381e1f4b1887e32686fcc89c5b0a8",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-031",
+      "repository": "serde-rs/serde",
+      "commit": "a874a1b1bb1cc16cf5ee3b1b7b527af5705742bb",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "validation"
+    },
+    {
+      "fixture_id": "real-032",
+      "repository": "tokio-rs/tokio",
+      "commit": "6bea73e4c1ffd1acbd3065cd6a6421585004042e",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "validation"
+    },
+    {
+      "fixture_id": "real-033",
+      "repository": "colinhacks/zod",
+      "commit": "804e0f522747345d6b37581888899be420baa3e9",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "validation"
+    },
+    {
+      "fixture_id": "real-034",
+      "repository": "sindresorhus/ky",
+      "commit": "e68ea7ad3080fa25ce2eba6a367c00dfff74f0f3",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "test"
+    },
+    {
+      "fixture_id": "real-035",
+      "repository": "sqlalchemy/sqlalchemy",
+      "commit": "fb3b47d9eb54ae99721ededf115342177fa5aefd",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "test"
+    },
+    {
+      "fixture_id": "real-036",
+      "repository": "tiangolo/fastapi",
+      "commit": "50113da16fec53b66b80d75e80a89296de4fa5a5",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-037",
+      "repository": "pallets/flask",
+      "commit": "d318b683471101618febed18996405ad26462110",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-038",
+      "repository": "sveltejs/svelte",
+      "commit": "5895c637b04dc8667020c8d326807c3f3a984472",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "validation"
+    },
+    {
+      "fixture_id": "real-039",
+      "repository": "angular/angular",
+      "commit": "9a58353b1b680f162a55969965ae6a90ae20316d",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "validation"
+    },
+    {
+      "fixture_id": "real-040",
+      "repository": "nestjs/nest",
+      "commit": "39fbddae51281ca56bf2fed9123d98e61509066c",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "test"
+    },
+    {
+      "fixture_id": "real-041",
+      "repository": "gin-gonic/gin",
+      "commit": "dcaa4296d111981ffb31ac3eba90bb63e1eb5ab9",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "test"
+    },
+    {
+      "fixture_id": "real-042",
+      "repository": "octokit/octokit.js",
+      "commit": "bc34deaf357486594c41f167c05921d16e6aabe9",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-043",
+      "repository": "stripe/stripe-node",
+      "commit": "b64815c32436fa24bba60c1ea898b30d57391504",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-044",
+      "repository": "stripe/stripe-python",
+      "commit": "885cdaa8d8b335b0768d955b5ee69f951ebe00e3",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-045",
+      "repository": "aws/aws-sdk-js-v3",
+      "commit": "e3cea9891f9dfec981a99982aae519ddabf469e0",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-046",
+      "repository": "googleapis/google-api-python-client",
+      "commit": "ea0c8c9548b340ca50d6967ccd714d64bdf97ce8",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-047",
+      "repository": "openai/openai-python",
+      "commit": "be928151372e4b62adb4a1571cda52ad759b38be",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-048",
+      "repository": "openai/openai-node",
+      "commit": "a9a4440ba775491251daa4fa27b898e9ecbd3c5e",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-049",
+      "repository": "resend/resend-node",
+      "commit": "c61cccae2999d50d2aca9ce5fd1064f3bb855219",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "validation"
+    },
+    {
+      "fixture_id": "real-050",
+      "repository": "postmanlabs/postman-collection",
+      "commit": "8801e7f4989e90128cd235ea37e238663a479804",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "validation"
+    },
+    {
+      "fixture_id": "real-051",
+      "repository": "sendgrid/sendgrid-python",
+      "commit": "76788e70a76b11ce2990821f190e52f887ab9ed6",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "test"
+    },
+    {
+      "fixture_id": "real-052",
+      "repository": "twilio/twilio-python",
+      "commit": "306691e793f417b6974640d1ef88785e9de03b2a",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "test"
+    },
+    {
+      "fixture_id": "real-053",
+      "repository": "slackapi/bolt-js",
+      "commit": "7c37556c913313d623e3beb7608b9254d96ddc47",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "test"
+    },
+    {
+      "fixture_id": "real-054",
+      "repository": "vitejs/vite",
+      "commit": "e6f6b3e3119256daa837b2dc399058c8aa45b470",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-055",
+      "repository": "swc-project/swc",
+      "commit": "4b4c135ef479287bfc2c489e0214d04a1f4bfedb",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-056",
+      "repository": "biomejs/biome",
+      "commit": "4969ee1d73b48615f46f024539cfdb847f07064d",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-057",
+      "repository": "evanw/esbuild",
+      "commit": "f6058f8364fe7ab91ca57a83e02577ed74c9cae4",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "validation"
+    },
+    {
+      "fixture_id": "real-058",
+      "repository": "rust-lang/rust-clippy",
+      "commit": "e6cf222ff9497ce5a8783a0184eb9502df680602",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "validation"
+    },
+    {
+      "fixture_id": "real-059",
+      "repository": "vitest-dev/vitest",
+      "commit": "09bc9ad6b3dfce1eb647d775376cdadd7c492694",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "test"
+    },
+    {
+      "fixture_id": "real-060",
+      "repository": "astral-sh/ruff",
+      "commit": "321eebc2d6574fb868e46312e8ff4ce8e401e8b5",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "test"
+    },
+    {
+      "fixture_id": "real-061",
+      "repository": "calcom/cal.com",
+      "commit": "1251ba5be567d26a7f922452fe7797642376476e",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-062",
+      "repository": "plausible/analytics",
+      "commit": "9236f41a00bbba0fedb74188346115899d54becb",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-063",
+      "repository": "outline/outline",
+      "commit": "c1811ffa205748ee0e5350eaec9afaf8072f6817",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-064",
+      "repository": "mattermost/mattermost",
+      "commit": "9c8d4164abd4e3dd585b97ab2f7efcf11b2fc141",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-065",
+      "repository": "documenso/documenso",
+      "commit": "6a8bb4be04b6f0417dbfd0a385d0099fab2686e2",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-066",
+      "repository": "grafana/grafana",
+      "commit": "d6b5a146a363c87c45fc7e4d2ad64178e38aeabf",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-067",
+      "repository": "nocodb/nocodb",
+      "commit": "5eed724de3c2e0a6c4bd94a5e331a40b24f8fb8c",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "validation"
+    },
+    {
+      "fixture_id": "real-068",
+      "repository": "twentyhq/twenty",
+      "commit": "4c33657820963eace06d74f4ab76d41484f8a057",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "validation"
+    },
+    {
+      "fixture_id": "real-069",
+      "repository": "hoppscotch/hoppscotch",
+      "commit": "ac145e7f758151b41fd46d3e5f513886ce9068ba",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "test"
+    },
+    {
+      "fixture_id": "real-070",
+      "repository": "affinepro/affine",
+      "commit": "143a55a6e894f205f50380cf500b0d63be0cd65f",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "test"
+    },
+    {
+      "fixture_id": "real-071",
+      "repository": "kamranahmedse/developer-roadmap",
+      "commit": "77f17c777772b62feb7350ac63b4cd92646bb09f",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-072",
+      "repository": "ryanmcdermott/clean-code-javascript",
+      "commit": "5311f64b03fc0c2450ab17a45ee9818669c8b9b5",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-073",
+      "repository": "donnemartin/system-design-primer",
+      "commit": "ae9bbd7b02d90b9866215de185217d33f39ab733",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-074",
+      "repository": "jwasham/coding-interview-university",
+      "commit": "717298bf219a30d7fb0671285c5f057b1bb74b27",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-075",
+      "repository": "github/gitignore",
+      "commit": "361f1e6afa729dc58ec33bf0849772a03ddf6822",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "validation"
+    },
+    {
+      "fixture_id": "real-076",
+      "repository": "public-apis/public-apis",
+      "commit": "29b7c2bbe20e60f42ab3c3b62e0bc758db98ce0b",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "test"
+    },
+    {
+      "fixture_id": "real-077",
+      "repository": "ripienaar/free-for-dev",
+      "commit": "e494a592e939de90e472cc6e19483c4df39974d1",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "test"
+    },
+    {
+      "fixture_id": "real-078",
+      "repository": "babel/babel",
+      "commit": "12996b06d03c76c6834883daf0f8435de5fdb904",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-079",
+      "repository": "pnpm/pnpm",
+      "commit": "efc41ac88429febdaab572f4a2a986da4cbef2ac",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-080",
+      "repository": "nrwl/nx",
+      "commit": "fb5b86a8d933da5ae41649f2465fe12447dca0a1",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-081",
+      "repository": "vercel/turborepo",
+      "commit": "63797e490d44cd63e86b6dc1d7ac87c59b884c41",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-082",
+      "repository": "facebook/docusaurus",
+      "commit": "1434f56a07d83b6d52c6db2c7ef6403221747256",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-083",
+      "repository": "shadcn-ui/ui",
+      "commit": "3ba91b1cc83e1bbe4ab35a422ff2a694849c5048",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "validation"
+    },
+    {
+      "fixture_id": "real-084",
+      "repository": "storybookjs/storybook",
+      "commit": "1fd6cf45a5ef38bbdbaaae8f4bd26abf72f368d2",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "validation"
+    },
+    {
+      "fixture_id": "real-085",
+      "repository": "backstage/backstage",
+      "commit": "38441ff55abef2b0e2932030f88a26ce35f3acf9",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "test"
+    },
+    {
+      "fixture_id": "real-086",
+      "repository": "ansible/ansible",
+      "commit": "3827d66bfbdc568f58cce57b113131598c46cd5a",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-087",
+      "repository": "helm/helm",
+      "commit": "fa11636b01686f16700718a03de9334bbd298500",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-088",
+      "repository": "prometheus/prometheus",
+      "commit": "4cf19c2c66b43db46512086f458c27569a1048a5",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-089",
+      "repository": "traefik/traefik",
+      "commit": "d48621ce0b6fd221b20bdb6c22e652e7498e5db6",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-090",
+      "repository": "hashicorp/vault",
+      "commit": "41e571b6606e3691e0ce3f82ae23d6db0e445118",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-091",
+      "repository": "localstack/localstack",
+      "commit": "8b9a79f05846835cf4dff63ab7eefdde9df83783",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "validation"
+    },
+    {
+      "fixture_id": "real-092",
+      "repository": "k3s-io/k3s",
+      "commit": "a305766d0b86afec304ebd94713223061a916b79",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "validation"
+    },
+    {
+      "fixture_id": "real-093",
+      "repository": "containerd/containerd",
+      "commit": "e5e07573b1a5e83c7d5de417f0d5801f0d7f38ff",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "validation"
+    },
+    {
+      "fixture_id": "real-094",
+      "repository": "fluxcd/flux2",
+      "commit": "dede56a8fdcd1e0edca28630a979a51415bb56f8",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "test"
+    },
+    {
+      "fixture_id": "real-095",
+      "repository": "open-telemetry/opentelemetry-collector",
+      "commit": "af735319546aa0b4b94e25609d9157fff6f93b6c",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "test"
+    },
+    {
+      "fixture_id": "real-096",
+      "repository": "scikit-learn/scikit-learn",
+      "commit": "2cc7893a2097be891426ca6a4d9ea2e14cf82b9c",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-097",
+      "repository": "numpy/numpy",
+      "commit": "b76063c87d57b6c33364fc349170852fe7b7a1a9",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-098",
+      "repository": "pandas-dev/pandas",
+      "commit": "7ea7ede82c93d4bf4704e14f26a7cebfdbc178f8",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-099",
+      "repository": "pytorch/pytorch",
+      "commit": "60147cf18442b8858a728ab0d5f77235f24a3e69",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-100",
+      "repository": "vllm-project/vllm",
+      "commit": "13cf9e05c1eda0bfe5cbfb9344343ca2737d0723",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-101",
+      "repository": "run-llama/llama_index",
+      "commit": "d2ac544a27c73d2a68e9c57efec4b2ac0ef99892",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-102",
+      "repository": "milvus-io/milvus",
+      "commit": "3431d027f64b7997ebcdca11af80928264c7717d",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "validation"
+    },
+    {
+      "fixture_id": "real-103",
+      "repository": "chroma-core/chroma",
+      "commit": "34f8e76bae6195b91160e78b2e47a397055aa3ab",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "validation"
+    },
+    {
+      "fixture_id": "real-104",
+      "repository": "ray-project/ray",
+      "commit": "c3162dce8d064824293875c5d0bbfd76a54e04ce",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "validation"
+    },
+    {
+      "fixture_id": "real-105",
+      "repository": "ggerganov/llama.cpp",
+      "commit": "ca86fb222e0080d4d102f4390d5c7279dffb3277",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "test"
+    },
+    {
+      "fixture_id": "real-106",
+      "repository": "deepseek-ai/DeepSeek-V3",
+      "commit": "9b4e9788e4a3a731f7567338ed15d3ec549ce03b",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "test"
+    },
+    {
+      "fixture_id": "real-107",
+      "repository": "microsoft/vscode-python",
+      "commit": "0f3ddf5879162e8fc465eccd7292f7e9fa8dbdf8",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-108",
+      "repository": "actions/checkout",
+      "commit": "f548e57e544e1ff5a4c46bf1e1b8685f8e4a348a",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-109",
+      "repository": "actions/setup-node",
+      "commit": "94196ee1d15439c1b6651cd87ef14e88ec435966",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-110",
+      "repository": "actions/setup-python",
+      "commit": "751276eafca55f10f252026015f43c488f2322ba",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-111",
+      "repository": "sindresorhus/refined-github",
+      "commit": "9e86fd7f0bb36e2bb41170d7da332017f9b571dd",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "validation"
+    },
+    {
+      "fixture_id": "real-112",
+      "repository": "nvim-treesitter/nvim-treesitter",
+      "commit": "5cb0114e6242625db56dd6440e945ed1ece10bc7",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "test"
+    },
+    {
+      "fixture_id": "real-113",
+      "repository": "tpope/vim-fugitive",
+      "commit": "3b753cf8c6a4dcde6edee8827d464ba9b8c4a6f0",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "test"
+    },
+    {
+      "fixture_id": "real-114",
+      "repository": "sindresorhus/is-stream",
+      "commit": "ab06c4acc9dce4dcadc9dfc6416e1be2c836862d",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-115",
+      "repository": "sindresorhus/is-plain-obj",
+      "commit": "97f38e8836f86a642cce98fc6ab3058bc36df181",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-116",
+      "repository": "jonschlinkert/is-odd",
+      "commit": "a80ee0d831a8ee69f1fad5b4673491847975eb26",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-117",
+      "repository": "jonschlinkert/is-even",
+      "commit": "585f8002bb16f7bec723a47349b67df451f1b25d",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "train"
+    },
+    {
+      "fixture_id": "real-118",
+      "repository": "chriso/validator.js",
+      "commit": "a79ff980ab14257e795332989e497bdff3218e87",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "validation"
+    },
+    {
+      "fixture_id": "real-119",
+      "repository": "component/emitter",
+      "commit": "52dc74531e6a5de7f680f150167f2e7eacd4f05b",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "test"
+    },
+    {
+      "fixture_id": "real-120",
+      "repository": "segmentio/is-url",
+      "commit": "21689377c8425b144bfe08490c898dc8de07d809",
+      "captured_at": "2026-09-08T11:04:11.053Z",
+      "split": "test"
+    }
+  ]
+}

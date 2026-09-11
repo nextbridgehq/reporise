@@ -1,0 +1,30 @@
+{
+  "id": "real-098",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "pandas-dev/pandas",
+  "commit": "7ea7ede82c93d4bf4704e14f26a7cebfdbc178f8",
+  "capturedAt": "2026-09-08T12:16:10.020Z",
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "sha256": "e0163da16113610f9b7318ae01daeab08eb5385e257db1630bd613dff824c4f9",
+      "sizeBytes": 1593
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "7affba1768c64323b5454713b7efba544251e0b7d08948097ba187d54c17f1d0",
+      "sizeBytes": 1665
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "d9170853d129a7d44bd6a32890d230e89c5c5beb59bd580d73b5491e3db7cae5",
+      "sizeBytes": 23767
+    },
+    {
+      "path": "README.md",
+      "sha256": "92af01f0be2a5585efd0e594ccc7e22a343c88829499904525bed95fecf6e278",
+      "sizeBytes": 11536
+    }
+  ]
+}

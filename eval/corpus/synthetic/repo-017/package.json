@@ -1,0 +1,10 @@
+{
+  "name": "repo-017",
+  "version": "1.0.0",
+  "description": "A great package",
+  "keywords": [
+    "tool",
+    "cli",
+    "fast"
+  ]
+}

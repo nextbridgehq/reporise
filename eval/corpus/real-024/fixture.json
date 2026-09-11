@@ -1,0 +1,145 @@
+{
+  "id": "real-024",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "starship/starship",
+  "commit": "864500b26904cd3cc01fc2a19d3ad068bd1517a2",
+  "capturedAt": "2026-09-08T11:51:20.776Z",
+  "files": [
+    {
+      "path": "Cargo.toml",
+      "sha256": "7e1f6882dde337e33361b9bfcbb63f7171c2cf279c7048eec51528dde0003075",
+      "sizeBytes": 4279
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "a6b29739061b1466ffd9c5c7ef1a586bcc5d9bd5566ee878f9c911a6acd5eace",
+      "sizeBytes": 78939
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "bbd34af5a25f7227dee391ca38f98d59fe3079aa8752848278c19e78892b936e",
+      "sizeBytes": 5612
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "c7015054ea653d5b0f895be55593f89576ee1d461eb4a3a0f5395c9d7a2f3ff8",
+      "sizeBytes": 13527
+    },
+    {
+      "path": "docs/.vitepress/config.mts",
+      "sha256": "4aa0167a62be4b809b66c1ba411b28a552e7dc1bbce1657662ff993ad8fba4fd",
+      "sizeBytes": 17438
+    },
+    {
+      "path": "docs/.vitepress/theme/index.css",
+      "sha256": "cec6c3702c511efd3d0875f08c078679c3d6ecbdb1d698743fc244841ba33109",
+      "sizeBytes": 2549
+    },
+    {
+      "path": "docs/.vitepress/theme/index.js",
+      "sha256": "840f3b992e5a1179b1360e40ff5641ad9a0b1aef5d69f5567584784ddd7cd16d",
+      "sizeBytes": 100
+    },
+    {
+      "path": "docs/advanced-config/README.md",
+      "sha256": "d6411fdcdd3aeac40def1a26933912839af5950d8f70c42ae937f40f6e2f40e9",
+      "sizeBytes": 26977
+    },
+    {
+      "path": "docs/ar-SA/advanced-config/README.md",
+      "sha256": "fa963da89672b260a29be186fea37660a1472736656e74b7213fc08025198f2c",
+      "sizeBytes": 27977
+    },
+    {
+      "path": "docs/ar-SA/config/README.md",
+      "sha256": "6f0267a61dfbc3bfb729d45e9c02954ed4cc36614fc520e7cc0e88d2d7add26d",
+      "sizeBytes": 334426
+    },
+    {
+      "path": "docs/ar-SA/faq/README.md",
+      "sha256": "c2891b2655084299d2261652a66f0612a0480a3aab2a5f82fa236fc0b636af71",
+      "sizeBytes": 7850
+    },
+    {
+      "path": "docs/ar-SA/guide/README.md",
+      "sha256": "59e011c3601d555edbe03dc2e6e2a1a411e22411025ff58cf6459f397b82b42e",
+      "sizeBytes": 19211
+    },
+    {
+      "path": "docs/ar-SA/installing/README.md",
+      "sha256": "bd2407825b9324eaa3f99fbee1bcbf58119dadb845fa0cc4126493ea253f8f1f",
+      "sizeBytes": 2797
+    },
+    {
+      "path": "docs/ar-SA/migrating-to-0.45.0/README.md",
+      "sha256": "22c1aed002bb9364fd9a51d8bb8333cb5fd69eb3139359490869d9d11c2a2e9b",
+      "sizeBytes": 6863
+    },
+    {
+      "path": "docs/ar-SA/presets/bracketed-segments.md",
+      "sha256": "bfe72ba0924867e8de33aee196d0b8593a6856f482f485e2b0c92632134b67d6",
+      "sizeBytes": 549
+    },
+    {
+      "path": "docs/ar-SA/presets/catppuccin-powerline.md",
+      "sha256": "a49bc64ceae11bdafd1eb6607295a01dafadcaba898d8b922aa3cff417e61bab",
+      "sizeBytes": 956
+    },
+    {
+      "path": "docs/ar-SA/presets/gruvbox-rainbow.md",
+      "sha256": "8f80988ebc9a6f2fe726b5d8055b20806f41dd239ec295aac586cf5c5744f46e",
+      "sizeBytes": 644
+    },
+    {
+      "path": "docs/ar-SA/presets/jetpack.md",
+      "sha256": "2eac5a49d6c369da0b17a78f1f441090c9d3f0d4525462a2391e818f32cdbdc6",
+      "sizeBytes": 744
+    },
+    {
+      "path": "docs/ar-SA/presets/nerd-font.md",
+      "sha256": "3aba4cbde62858092e56106f215e8ac69d0984ac7ed1f9d2c1ea2cf138f0289c",
+      "sizeBytes": 624
+    },
+    {
+      "path": "docs/ar-SA/presets/no-empty-icons.md",
+      "sha256": "4d56c9b6bdbea0b63514a8d62a26d6547c495c0c3ae8a44975d2f24e0cb04f36",
+      "sizeBytes": 610
+    },
+    {
+      "path": "docs/ar-SA/presets/no-nerd-font.md",
+      "sha256": "570bfe63caec31bb5bc8b3f82eac99ba8aa05d9a954e8c0711fdd92158b0b19e",
+      "sizeBytes": 540
+    },
+    {
+      "path": "docs/ar-SA/presets/no-runtimes.md",
+      "sha256": "b5d9eedd6b5ff4e329ef85483d18c15d1df25f826f2233fa5140e3429df388e5",
+      "sizeBytes": 526
+    },
+    {
+      "path": "docs/ar-SA/presets/pastel-powerline.md",
+      "sha256": "26941afe66632c5d01388f93d750543a261bb17945701eecd6a758cfb1c59460",
+      "sizeBytes": 732
+    },
+    {
+      "path": "docs/ar-SA/presets/plain-text.md",
+      "sha256": "d7a609c46e47a7efb193e7c5a4358a65abff2e3b321b6c8700468fe9edf200d3",
+      "sizeBytes": 498
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "3391f46e92fe98865c27d8c9b82eb465c033366c246d6a8e7bf870139dcd46e1",
+      "sizeBytes": 773
+    },
+    {
+      "path": "README.md",
+      "sha256": "c5f1faf3a825ebbb05d78edb9971e90b16837b6c7602f0a8a276710f5fe49ae5",
+      "sizeBytes": 17127
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "22e03a21e4f2aeb03ea6ebccf6654eec4fe21f83aaf2d0d18aa6959963e2d733",
+      "sizeBytes": 1167
+    }
+  ]
+}

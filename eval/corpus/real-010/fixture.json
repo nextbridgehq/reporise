@@ -1,0 +1,35 @@
+{
+  "id": "real-010",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "vuejs/core",
+  "commit": "7de31f1f9ecba2725e16543b35eb65ffb44fb7f8",
+  "capturedAt": "2026-09-08T11:47:05.415Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "773805dff0e19c95a18645fcff2448fd6cdc080fa0ad33fe757d658fc83627f6",
+      "sizeBytes": 138471
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "377cb8daa5085429330e4a32a9a1860dcefb32c4eccdd033d7c8f0ce0754ce32",
+      "sizeBytes": 1133
+    },
+    {
+      "path": "package.json",
+      "sha256": "9e0fdad9046f8ed8d60cc47bf56681865c4f5d2cdc61e007992c955e72ad0368",
+      "sizeBytes": 5301
+    },
+    {
+      "path": "README.md",
+      "sha256": "b3c3626b88c4963ddc88ef39ec4ffb87fd6bf492c34ca2981c8ea7ca2f54f52e",
+      "sizeBytes": 2543
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "de839620caf6e4e95274634e4f6a30098e969e4776963a7bc0a575eb55c64817",
+      "sizeBytes": 1273
+    }
+  ]
+}

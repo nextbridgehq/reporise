@@ -1,0 +1,1415 @@
+{
+  "multi_label_warning": "README characteristics are multi-label. Rows overlap (260 tag instances across 120 repos) and do NOT form disjoint partitions.",
+  "characteristics": {
+    "char_minimal": {
+      "n": 8,
+      "surfaces": {
+        "overall": {
+          "mae": {
+            "estimate": 0.625,
+            "ci": [
+              0.25,
+              0.875
+            ],
+            "se": 0.1724
+          },
+          "exact_match_pct": {
+            "estimate": 37.5,
+            "ci": [
+              12.5,
+              75
+            ],
+            "se": 17.1562
+          },
+          "within_one_pct": {
+            "estimate": 100,
+            "ci": [
+              100,
+              100
+            ],
+            "se": 0
+          },
+          "bias_mean_error": {
+            "estimate": 0.625,
+            "ci": [
+              0.25,
+              0.875
+            ],
+            "se": 0.1701
+          }
+        },
+        "seo": {
+          "mae": {
+            "estimate": 0.625,
+            "ci": [
+              0.25,
+              0.875
+            ],
+            "se": 0.1723
+          },
+          "exact_match_pct": {
+            "estimate": 37.5,
+            "ci": [
+              12.5,
+              75
+            ],
+            "se": 17.1045
+          },
+          "within_one_pct": {
+            "estimate": 100,
+            "ci": [
+              100,
+              100
+            ],
+            "se": 0
+          },
+          "bias_mean_error": {
+            "estimate": 0.625,
+            "ci": [
+              0.25,
+              0.875
+            ],
+            "se": 0.1712
+          }
+        },
+        "aeo": {
+          "mae": {
+            "estimate": 0.5,
+            "ci": [
+              0.125,
+              0.875
+            ],
+            "se": 0.1762
+          },
+          "exact_match_pct": {
+            "estimate": 50,
+            "ci": [
+              12.5,
+              87.5
+            ],
+            "se": 17.6611
+          },
+          "within_one_pct": {
+            "estimate": 100,
+            "ci": [
+              100,
+              100
+            ],
+            "se": 0
+          },
+          "bias_mean_error": {
+            "estimate": 0.5,
+            "ci": [
+              0.125,
+              0.875
+            ],
+            "se": 0.1772
+          }
+        },
+        "geo": {
+          "mae": {
+            "estimate": 0.75,
+            "ci": [
+              0.375,
+              1.25
+            ],
+            "se": 0.2326
+          },
+          "exact_match_pct": {
+            "estimate": 37.5,
+            "ci": [
+              12.5,
+              75
+            ],
+            "se": 17.1154
+          },
+          "within_one_pct": {
+            "estimate": 87.5,
+            "ci": [
+              62.5,
+              100
+            ],
+            "se": 11.5302
+          },
+          "bias_mean_error": {
+            "estimate": 0.5,
+            "ci": [
+              -0.125,
+              1.125
+            ],
+            "se": 0.3066
+          }
+        }
+      }
+    },
+    "char_standard": {
+      "n": 50,
+      "surfaces": {
+        "overall": {
+          "mae": {
+            "estimate": 0.68,
+            "ci": [
+              0.5,
+              0.86
+            ],
+            "se": 0.0954
+          },
+          "exact_match_pct": {
+            "estimate": 44,
+            "ci": [
+              30,
+              58
+            ],
+            "se": 7.1118
+          },
+          "within_one_pct": {
+            "estimate": 88,
+            "ci": [
+              78,
+              96
+            ],
+            "se": 4.5584
+          },
+          "bias_mean_error": {
+            "estimate": 0.4,
+            "ci": [
+              0.16,
+              0.64
+            ],
+            "se": 0.1242
+          }
+        },
+        "seo": {
+          "mae": {
+            "estimate": 0.74,
+            "ci": [
+              0.54,
+              0.96
+            ],
+            "se": 0.1053
+          },
+          "exact_match_pct": {
+            "estimate": 42,
+            "ci": [
+              28,
+              56
+            ],
+            "se": 6.9699
+          },
+          "within_one_pct": {
+            "estimate": 86,
+            "ci": [
+              76,
+              94
+            ],
+            "se": 4.8589
+          },
+          "bias_mean_error": {
+            "estimate": 0.3,
+            "ci": [
+              0.02,
+              0.58
+            ],
+            "se": 0.143
+          }
+        },
+        "aeo": {
+          "mae": {
+            "estimate": 0.68,
+            "ci": [
+              0.48,
+              0.88
+            ],
+            "se": 0.1042
+          },
+          "exact_match_pct": {
+            "estimate": 48,
+            "ci": [
+              34,
+              62
+            ],
+            "se": 7.0138
+          },
+          "within_one_pct": {
+            "estimate": 84,
+            "ci": [
+              74,
+              94
+            ],
+            "se": 5.1901
+          },
+          "bias_mean_error": {
+            "estimate": 0.44,
+            "ci": [
+              0.2,
+              0.68
+            ],
+            "se": 0.1263
+          }
+        },
+        "geo": {
+          "mae": {
+            "estimate": 1.06,
+            "ci": [
+              0.84,
+              1.28
+            ],
+            "se": 0.1072
+          },
+          "exact_match_pct": {
+            "estimate": 26,
+            "ci": [
+              14,
+              38
+            ],
+            "se": 6.2188
+          },
+          "within_one_pct": {
+            "estimate": 68,
+            "ci": [
+              54,
+              80
+            ],
+            "se": 6.6467
+          },
+          "bias_mean_error": {
+            "estimate": 0.62,
+            "ci": [
+              0.3,
+              0.92
+            ],
+            "se": 0.1619
+          }
+        }
+      }
+    },
+    "char_docs_heavy": {
+      "n": 15,
+      "surfaces": {
+        "overall": {
+          "mae": {
+            "estimate": 1.0667,
+            "ci": [
+              0.7333,
+              1.4
+            ],
+            "se": 0.1776
+          },
+          "exact_match_pct": {
+            "estimate": 20,
+            "ci": [
+              0,
+              40
+            ],
+            "se": 10.3039
+          },
+          "within_one_pct": {
+            "estimate": 73.3333,
+            "ci": [
+              53.3333,
+              93.3333
+            ],
+            "se": 11.1943
+          },
+          "bias_mean_error": {
+            "estimate": 0.8,
+            "ci": [
+              0.2667,
+              1.2667
+            ],
+            "se": 0.2534
+          }
+        },
+        "seo": {
+          "mae": {
+            "estimate": 1.4,
+            "ci": [
+              0.8667,
+              1.9333
+            ],
+            "se": 0.2625
+          },
+          "exact_match_pct": {
+            "estimate": 26.6667,
+            "ci": [
+              6.6667,
+              46.6667
+            ],
+            "se": 11.3428
+          },
+          "within_one_pct": {
+            "estimate": 46.6667,
+            "ci": [
+              20,
+              73.3333
+            ],
+            "se": 12.8066
+          },
+          "bias_mean_error": {
+            "estimate": 0.8667,
+            "ci": [
+              0.1333,
+              1.6667
+            ],
+            "se": 0.3867
+          }
+        },
+        "aeo": {
+          "mae": {
+            "estimate": 0.6667,
+            "ci": [
+              0.3333,
+              1
+            ],
+            "se": 0.1811
+          },
+          "exact_match_pct": {
+            "estimate": 46.6667,
+            "ci": [
+              20,
+              73.3333
+            ],
+            "se": 12.9487
+          },
+          "within_one_pct": {
+            "estimate": 86.6667,
+            "ci": [
+              66.6667,
+              100
+            ],
+            "se": 8.6824
+          },
+          "bias_mean_error": {
+            "estimate": 0.4,
+            "ci": [
+              -0.0667,
+              0.8667
+            ],
+            "se": 0.2285
+          }
+        },
+        "geo": {
+          "mae": {
+            "estimate": 1.3333,
+            "ci": [
+              0.8667,
+              1.7333
+            ],
+            "se": 0.2229
+          },
+          "exact_match_pct": {
+            "estimate": 20,
+            "ci": [
+              0,
+              40
+            ],
+            "se": 10.3013
+          },
+          "within_one_pct": {
+            "estimate": 53.3333,
+            "ci": [
+              26.6667,
+              80
+            ],
+            "se": 12.919
+          },
+          "bias_mean_error": {
+            "estimate": 1.2,
+            "ci": [
+              0.6667,
+              1.7333
+            ],
+            "se": 0.2703
+          }
+        }
+      }
+    },
+    "char_api_reference": {
+      "n": 15,
+      "surfaces": {
+        "overall": {
+          "mae": {
+            "estimate": 0.7333,
+            "ci": [
+              0.4667,
+              1
+            ],
+            "se": 0.1465
+          },
+          "exact_match_pct": {
+            "estimate": 33.3333,
+            "ci": [
+              13.3333,
+              60
+            ],
+            "se": 12.2424
+          },
+          "within_one_pct": {
+            "estimate": 93.3333,
+            "ci": [
+              80,
+              100
+            ],
+            "se": 6.4138
+          },
+          "bias_mean_error": {
+            "estimate": -0.2,
+            "ci": [
+              -0.6,
+              0.2667
+            ],
+            "se": 0.235
+          }
+        },
+        "seo": {
+          "mae": {
+            "estimate": 0.8,
+            "ci": [
+              0.4667,
+              1.2
+            ],
+            "se": 0.1928
+          },
+          "exact_match_pct": {
+            "estimate": 40,
+            "ci": [
+              13.3333,
+              66.6667
+            ],
+            "se": 12.6944
+          },
+          "within_one_pct": {
+            "estimate": 80,
+            "ci": [
+              60,
+              100
+            ],
+            "se": 10.3851
+          },
+          "bias_mean_error": {
+            "estimate": -0.4,
+            "ci": [
+              -0.9333,
+              0.1333
+            ],
+            "se": 0.2663
+          }
+        },
+        "aeo": {
+          "mae": {
+            "estimate": 0.5333,
+            "ci": [
+              0.2667,
+              0.8667
+            ],
+            "se": 0.1612
+          },
+          "exact_match_pct": {
+            "estimate": 53.3333,
+            "ci": [
+              26.6667,
+              80
+            ],
+            "se": 12.9889
+          },
+          "within_one_pct": {
+            "estimate": 93.3333,
+            "ci": [
+              80,
+              100
+            ],
+            "se": 6.4374
+          },
+          "bias_mean_error": {
+            "estimate": 0.1333,
+            "ci": [
+              -0.2667,
+              0.5333
+            ],
+            "se": 0.2121
+          }
+        },
+        "geo": {
+          "mae": {
+            "estimate": 0.4667,
+            "ci": [
+              0.0667,
+              0.9333
+            ],
+            "se": 0.2267
+          },
+          "exact_match_pct": {
+            "estimate": 73.3333,
+            "ci": [
+              53.3333,
+              93.3333
+            ],
+            "se": 11.2572
+          },
+          "within_one_pct": {
+            "estimate": 86.6667,
+            "ci": [
+              66.6667,
+              100
+            ],
+            "se": 8.8115
+          },
+          "bias_mean_error": {
+            "estimate": 0.2,
+            "ci": [
+              -0.2,
+              0.7333
+            ],
+            "se": 0.2474
+          }
+        }
+      }
+    },
+    "char_tutorial": {
+      "n": 31,
+      "surfaces": {
+        "overall": {
+          "mae": {
+            "estimate": 0.6774,
+            "ci": [
+              0.4516,
+              0.9032
+            ],
+            "se": 0.1168
+          },
+          "exact_match_pct": {
+            "estimate": 41.9355,
+            "ci": [
+              25.8065,
+              61.2903
+            ],
+            "se": 8.9412
+          },
+          "within_one_pct": {
+            "estimate": 90.3226,
+            "ci": [
+              80.6452,
+              100
+            ],
+            "se": 5.3083
+          },
+          "bias_mean_error": {
+            "estimate": 0.2258,
+            "ci": [
+              -0.0968,
+              0.5484
+            ],
+            "se": 0.1642
+          }
+        },
+        "seo": {
+          "mae": {
+            "estimate": 0.8387,
+            "ci": [
+              0.5806,
+              1.0968
+            ],
+            "se": 0.1369
+          },
+          "exact_match_pct": {
+            "estimate": 35.4839,
+            "ci": [
+              19.3548,
+              51.6129
+            ],
+            "se": 8.575
+          },
+          "within_one_pct": {
+            "estimate": 83.871,
+            "ci": [
+              70.9677,
+              96.7742
+            ],
+            "se": 6.5949
+          },
+          "bias_mean_error": {
+            "estimate": 0.129,
+            "ci": [
+              -0.2581,
+              0.5484
+            ],
+            "se": 0.203
+          }
+        },
+        "aeo": {
+          "mae": {
+            "estimate": 0.6129,
+            "ci": [
+              0.3871,
+              0.8387
+            ],
+            "se": 0.1191
+          },
+          "exact_match_pct": {
+            "estimate": 48.3871,
+            "ci": [
+              32.2581,
+              64.5161
+            ],
+            "se": 8.8938
+          },
+          "within_one_pct": {
+            "estimate": 90.3226,
+            "ci": [
+              77.4194,
+              100
+            ],
+            "se": 5.2627
+          },
+          "bias_mean_error": {
+            "estimate": 0.4194,
+            "ci": [
+              0.129,
+              0.7097
+            ],
+            "se": 0.1446
+          }
+        },
+        "geo": {
+          "mae": {
+            "estimate": 1.0645,
+            "ci": [
+              0.8387,
+              1.2903
+            ],
+            "se": 0.1182
+          },
+          "exact_match_pct": {
+            "estimate": 19.3548,
+            "ci": [
+              6.4516,
+              35.4839
+            ],
+            "se": 7.1955
+          },
+          "within_one_pct": {
+            "estimate": 74.1935,
+            "ci": [
+              58.0645,
+              87.0968
+            ],
+            "se": 7.9305
+          },
+          "bias_mean_error": {
+            "estimate": 0.4194,
+            "ci": [
+              0,
+              0.8387
+            ],
+            "se": 0.2143
+          }
+        }
+      }
+    },
+    "char_architecture": {
+      "n": 30,
+      "surfaces": {
+        "overall": {
+          "mae": {
+            "estimate": 0.7,
+            "ci": [
+              0.4667,
+              0.9667
+            ],
+            "se": 0.1271
+          },
+          "exact_match_pct": {
+            "estimate": 43.3333,
+            "ci": [
+              26.6667,
+              60
+            ],
+            "se": 9.0367
+          },
+          "within_one_pct": {
+            "estimate": 86.6667,
+            "ci": [
+              73.3333,
+              96.6667
+            ],
+            "se": 6.2134
+          },
+          "bias_mean_error": {
+            "estimate": 0.3,
+            "ci": [
+              -0.0333,
+              0.6333
+            ],
+            "se": 0.1715
+          }
+        },
+        "seo": {
+          "mae": {
+            "estimate": 1,
+            "ci": [
+              0.7333,
+              1.2667
+            ],
+            "se": 0.1338
+          },
+          "exact_match_pct": {
+            "estimate": 23.3333,
+            "ci": [
+              10,
+              40
+            ],
+            "se": 7.7029
+          },
+          "within_one_pct": {
+            "estimate": 80,
+            "ci": [
+              66.6667,
+              93.3333
+            ],
+            "se": 7.2529
+          },
+          "bias_mean_error": {
+            "estimate": 0.3333,
+            "ci": [
+              -0.1,
+              0.7667
+            ],
+            "se": 0.2183
+          }
+        },
+        "aeo": {
+          "mae": {
+            "estimate": 0.6667,
+            "ci": [
+              0.4667,
+              0.8667
+            ],
+            "se": 0.1079
+          },
+          "exact_match_pct": {
+            "estimate": 40,
+            "ci": [
+              23.3333,
+              56.6667
+            ],
+            "se": 8.9422
+          },
+          "within_one_pct": {
+            "estimate": 93.3333,
+            "ci": [
+              83.3333,
+              100
+            ],
+            "se": 4.5715
+          },
+          "bias_mean_error": {
+            "estimate": 0.2667,
+            "ci": [
+              -0.0333,
+              0.5667
+            ],
+            "se": 0.1531
+          }
+        },
+        "geo": {
+          "mae": {
+            "estimate": 1.2,
+            "ci": [
+              0.9333,
+              1.4333
+            ],
+            "se": 0.1296
+          },
+          "exact_match_pct": {
+            "estimate": 16.6667,
+            "ci": [
+              3.3333,
+              30
+            ],
+            "se": 6.7957
+          },
+          "within_one_pct": {
+            "estimate": 63.3333,
+            "ci": [
+              46.6667,
+              80
+            ],
+            "se": 8.8849
+          },
+          "bias_mean_error": {
+            "estimate": 0.7333,
+            "ci": [
+              0.3,
+              1.1667
+            ],
+            "se": 0.2179
+          }
+        }
+      }
+    },
+    "char_feature_comparison": {
+      "n": 24,
+      "surfaces": {
+        "overall": {
+          "mae": {
+            "estimate": 0.75,
+            "ci": [
+              0.4583,
+              1.0417
+            ],
+            "se": 0.1471
+          },
+          "exact_match_pct": {
+            "estimate": 41.6667,
+            "ci": [
+              25,
+              62.5
+            ],
+            "se": 9.9044
+          },
+          "within_one_pct": {
+            "estimate": 83.3333,
+            "ci": [
+              66.6667,
+              95.8333
+            ],
+            "se": 7.5745
+          },
+          "bias_mean_error": {
+            "estimate": 0.0833,
+            "ci": [
+              -0.3333,
+              0.5
+            ],
+            "se": 0.2111
+          }
+        },
+        "seo": {
+          "mae": {
+            "estimate": 0.9583,
+            "ci": [
+              0.625,
+              1.3333
+            ],
+            "se": 0.1839
+          },
+          "exact_match_pct": {
+            "estimate": 37.5,
+            "ci": [
+              20.8333,
+              58.3333
+            ],
+            "se": 9.9397
+          },
+          "within_one_pct": {
+            "estimate": 70.8333,
+            "ci": [
+              50,
+              87.5
+            ],
+            "se": 9.3818
+          },
+          "bias_mean_error": {
+            "estimate": 0.125,
+            "ci": [
+              -0.375,
+              0.6667
+            ],
+            "se": 0.2665
+          }
+        },
+        "aeo": {
+          "mae": {
+            "estimate": 0.75,
+            "ci": [
+              0.5,
+              1
+            ],
+            "se": 0.1348
+          },
+          "exact_match_pct": {
+            "estimate": 37.5,
+            "ci": [
+              20.8333,
+              58.3333
+            ],
+            "se": 9.9298
+          },
+          "within_one_pct": {
+            "estimate": 87.5,
+            "ci": [
+              75,
+              100
+            ],
+            "se": 6.7204
+          },
+          "bias_mean_error": {
+            "estimate": 0.0833,
+            "ci": [
+              -0.2917,
+              0.5
+            ],
+            "se": 0.2047
+          }
+        },
+        "geo": {
+          "mae": {
+            "estimate": 1.25,
+            "ci": [
+              0.9583,
+              1.5417
+            ],
+            "se": 0.148
+          },
+          "exact_match_pct": {
+            "estimate": 16.6667,
+            "ci": [
+              4.1667,
+              33.3333
+            ],
+            "se": 7.5852
+          },
+          "within_one_pct": {
+            "estimate": 58.3333,
+            "ci": [
+              37.5,
+              79.1667
+            ],
+            "se": 10.0276
+          },
+          "bias_mean_error": {
+            "estimate": 0.6667,
+            "ci": [
+              0.1667,
+              1.1667
+            ],
+            "se": 0.2635
+          }
+        }
+      }
+    },
+    "char_example_heavy": {
+      "n": 32,
+      "surfaces": {
+        "overall": {
+          "mae": {
+            "estimate": 0.6875,
+            "ci": [
+              0.4688,
+              0.9375
+            ],
+            "se": 0.12
+          },
+          "exact_match_pct": {
+            "estimate": 43.75,
+            "ci": [
+              28.125,
+              62.5
+            ],
+            "se": 8.8657
+          },
+          "within_one_pct": {
+            "estimate": 87.5,
+            "ci": [
+              75,
+              96.875
+            ],
+            "se": 5.8333
+          },
+          "bias_mean_error": {
+            "estimate": 0.125,
+            "ci": [
+              -0.1875,
+              0.4688
+            ],
+            "se": 0.17
+          }
+        },
+        "seo": {
+          "mae": {
+            "estimate": 0.7813,
+            "ci": [
+              0.5313,
+              1.0625
+            ],
+            "se": 0.1309
+          },
+          "exact_match_pct": {
+            "estimate": 40.625,
+            "ci": [
+              25,
+              59.375
+            ],
+            "se": 8.6483
+          },
+          "within_one_pct": {
+            "estimate": 81.25,
+            "ci": [
+              65.625,
+              93.75
+            ],
+            "se": 6.8841
+          },
+          "bias_mean_error": {
+            "estimate": 0.0938,
+            "ci": [
+              -0.2813,
+              0.4688
+            ],
+            "se": 0.1922
+          }
+        },
+        "aeo": {
+          "mae": {
+            "estimate": 0.7188,
+            "ci": [
+              0.4688,
+              0.9688
+            ],
+            "se": 0.1283
+          },
+          "exact_match_pct": {
+            "estimate": 43.75,
+            "ci": [
+              25,
+              59.375
+            ],
+            "se": 8.761
+          },
+          "within_one_pct": {
+            "estimate": 84.375,
+            "ci": [
+              71.875,
+              96.875
+            ],
+            "se": 6.411
+          },
+          "bias_mean_error": {
+            "estimate": 0.5313,
+            "ci": [
+              0.2188,
+              0.8125
+            ],
+            "se": 0.1529
+          }
+        },
+        "geo": {
+          "mae": {
+            "estimate": 0.75,
+            "ci": [
+              0.4688,
+              1.0313
+            ],
+            "se": 0.1453
+          },
+          "exact_match_pct": {
+            "estimate": 46.875,
+            "ci": [
+              31.25,
+              65.625
+            ],
+            "se": 8.8481
+          },
+          "within_one_pct": {
+            "estimate": 81.25,
+            "ci": [
+              65.625,
+              93.75
+            ],
+            "se": 6.8789
+          },
+          "bias_mean_error": {
+            "estimate": 0.0625,
+            "ci": [
+              -0.3125,
+              0.4375
+            ],
+            "se": 0.194
+          }
+        }
+      }
+    },
+    "char_install_config": {
+      "n": 46,
+      "surfaces": {
+        "overall": {
+          "mae": {
+            "estimate": 0.5652,
+            "ci": [
+              0.3913,
+              0.7391
+            ],
+            "se": 0.0905
+          },
+          "exact_match_pct": {
+            "estimate": 50,
+            "ci": [
+              34.7826,
+              65.2174
+            ],
+            "se": 7.3891
+          },
+          "within_one_pct": {
+            "estimate": 93.4783,
+            "ci": [
+              84.7826,
+              100
+            ],
+            "se": 3.6101
+          },
+          "bias_mean_error": {
+            "estimate": 0.087,
+            "ci": [
+              -0.1522,
+              0.3261
+            ],
+            "se": 0.1204
+          }
+        },
+        "seo": {
+          "mae": {
+            "estimate": 0.913,
+            "ci": [
+              0.6957,
+              1.1304
+            ],
+            "se": 0.1092
+          },
+          "exact_match_pct": {
+            "estimate": 28.2609,
+            "ci": [
+              15.2174,
+              41.3043
+            ],
+            "se": 6.644
+          },
+          "within_one_pct": {
+            "estimate": 84.7826,
+            "ci": [
+              73.913,
+              93.4783
+            ],
+            "se": 5.3009
+          },
+          "bias_mean_error": {
+            "estimate": 0.1739,
+            "ci": [
+              -0.1522,
+              0.5217
+            ],
+            "se": 0.1713
+          }
+        },
+        "aeo": {
+          "mae": {
+            "estimate": 0.5652,
+            "ci": [
+              0.3696,
+              0.7609
+            ],
+            "se": 0.101
+          },
+          "exact_match_pct": {
+            "estimate": 54.3478,
+            "ci": [
+              41.3043,
+              67.3913
+            ],
+            "se": 7.2575
+          },
+          "within_one_pct": {
+            "estimate": 89.1304,
+            "ci": [
+              78.2609,
+              97.8261
+            ],
+            "se": 4.6279
+          },
+          "bias_mean_error": {
+            "estimate": 0.2609,
+            "ci": [
+              0.0217,
+              0.5
+            ],
+            "se": 0.1245
+          }
+        },
+        "geo": {
+          "mae": {
+            "estimate": 0.8696,
+            "ci": [
+              0.6522,
+              1.087
+            ],
+            "se": 0.1096
+          },
+          "exact_match_pct": {
+            "estimate": 34.7826,
+            "ci": [
+              21.7391,
+              47.8261
+            ],
+            "se": 6.9407
+          },
+          "within_one_pct": {
+            "estimate": 78.2609,
+            "ci": [
+              65.2174,
+              89.1304
+            ],
+            "se": 6.0798
+          },
+          "bias_mean_error": {
+            "estimate": 0.3478,
+            "ci": [
+              0.0435,
+              0.6739
+            ],
+            "se": 0.1595
+          }
+        }
+      }
+    },
+    "char_mixed": {
+      "n": 9,
+      "surfaces": {
+        "overall": {
+          "mae": {
+            "estimate": 1,
+            "ci": [
+              0.4444,
+              1.5556
+            ],
+            "se": 0.2724
+          },
+          "exact_match_pct": {
+            "estimate": 33.3333,
+            "ci": [
+              0,
+              66.6667
+            ],
+            "se": 15.7835
+          },
+          "within_one_pct": {
+            "estimate": 66.6667,
+            "ci": [
+              33.3333,
+              100
+            ],
+            "se": 15.5916
+          },
+          "bias_mean_error": {
+            "estimate": 0.1111,
+            "ci": [
+              -0.6667,
+              1
+            ],
+            "se": 0.4319
+          }
+        },
+        "seo": {
+          "mae": {
+            "estimate": 1,
+            "ci": [
+              0.4444,
+              1.5556
+            ],
+            "se": 0.2747
+          },
+          "exact_match_pct": {
+            "estimate": 33.3333,
+            "ci": [
+              11.1111,
+              66.6667
+            ],
+            "se": 15.9179
+          },
+          "within_one_pct": {
+            "estimate": 66.6667,
+            "ci": [
+              33.3333,
+              88.8889
+            ],
+            "se": 15.5527
+          },
+          "bias_mean_error": {
+            "estimate": 0.1111,
+            "ci": [
+              -0.6667,
+              1
+            ],
+            "se": 0.4312
+          }
+        },
+        "aeo": {
+          "mae": {
+            "estimate": 0.7778,
+            "ci": [
+              0.3333,
+              1.3333
+            ],
+            "se": 0.2615
+          },
+          "exact_match_pct": {
+            "estimate": 44.4444,
+            "ci": [
+              11.1111,
+              77.7778
+            ],
+            "se": 16.6121
+          },
+          "within_one_pct": {
+            "estimate": 77.7778,
+            "ci": [
+              44.4444,
+              100
+            ],
+            "se": 13.7952
+          },
+          "bias_mean_error": {
+            "estimate": 0.5556,
+            "ci": [
+              -0.1111,
+              1.2222
+            ],
+            "se": 0.3186
+          }
+        },
+        "geo": {
+          "mae": {
+            "estimate": 1,
+            "ci": [
+              0.4444,
+              1.6667
+            ],
+            "se": 0.3137
+          },
+          "exact_match_pct": {
+            "estimate": 33.3333,
+            "ci": [
+              0,
+              66.6667
+            ],
+            "se": 15.8421
+          },
+          "within_one_pct": {
+            "estimate": 77.7778,
+            "ci": [
+              44.4444,
+              100
+            ],
+            "se": 13.8168
+          },
+          "bias_mean_error": {
+            "estimate": 0.5556,
+            "ci": [
+              -0.2222,
+              1.4444
+            ],
+            "se": 0.4158
+          }
+        }
+      }
+    }
+  }
+}

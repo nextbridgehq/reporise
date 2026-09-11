@@ -1,0 +1,6 @@
+{
+  "https://huggingface.co/docs/transformers": {
+    "http_status": 200,
+    "content": "# Transformers Documentation\n\n## Quick tour\n```bash\npip install transformers datasets\n```\n\n## Pipeline usage\n```python\nfrom transformers import pipeline\nclassifier = pipeline('sentiment-analysis')\n```\n"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "https://esbuild.github.io": {
+    "http_status": 200,
+    "content": "# esbuild\n\n## Getting Started\n```bash\nnpm install --save-exact --save-dev esbuild\n```\n\n## Build script\n```js\nrequire('esbuild').buildSync({ entryPoints: ['app.jsx'], outdir: 'out' })\n```\n"
+  }
+}

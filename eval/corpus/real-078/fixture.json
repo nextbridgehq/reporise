@@ -1,0 +1,45 @@
+{
+  "id": "real-078",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "babel/babel",
+  "commit": "12996b06d03c76c6834883daf0f8435de5fdb904",
+  "capturedAt": "2026-09-08T12:08:20.649Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "74002fc5ece01c806a5f90498eb113a4d0c60015c46760d0a4ecaf35115b7ca9",
+      "sizeBytes": 108903
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "a4702fa7883cd13e53099ca9ff27bbed1068b536e0da97bb9aefe4cab604a808",
+      "sizeBytes": 3402
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "517a19b146c57949c17e89e41ca1c09b3d34b0fa3f0dcf95d956e76dbaa88ff3",
+      "sizeBytes": 19062
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+      "sizeBytes": 1106
+    },
+    {
+      "path": "package.json",
+      "sha256": "500d664aedd577bc09d24c938a56a07870a77bc6b5193774608dc565023794cf",
+      "sizeBytes": 5458
+    },
+    {
+      "path": "README.md",
+      "sha256": "4ee22098e27b178405da17472e880cb5fa2354c8a2c5e54da53c76d149dfcd62",
+      "sizeBytes": 7841
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "698c13ccb5fea9a1db2c4375674237285b6fcf013b1bad69b7954c600fd915f4",
+      "sizeBytes": 5691
+    }
+  ]
+}

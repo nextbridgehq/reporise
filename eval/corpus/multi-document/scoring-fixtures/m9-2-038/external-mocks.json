@@ -1,0 +1,6 @@
+{
+  "https://lucide.dev/guide": {
+    "http_status": 200,
+    "content": "# Lucide Guide\n\n## Installation\n```bash\nnpm install lucide-react\n```\n\n## Rendering icons\n```jsx\nimport { Camera } from 'lucide-react';\n```\n"
+  }
+}

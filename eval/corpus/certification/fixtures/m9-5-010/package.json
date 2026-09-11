@@ -1,0 +1,7 @@
+{
+  "name": "berry",
+  "description": "The modern package manager for JavaScript ecosystem",
+  "workspaces": [
+    "packages/yarnpkg-*"
+  ]
+}

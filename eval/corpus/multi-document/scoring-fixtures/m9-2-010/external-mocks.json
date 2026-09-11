@@ -1,0 +1,6 @@
+{
+  "https://zod.dev": {
+    "http_status": 200,
+    "content": "# Zod Documentation\n\n## Installation\n```bash\nnpm install zod\n```\n\n## Basic usage\n```ts\nimport { z } from \"zod\";\nconst mySchema = z.string();\n```\n"
+  }
+}

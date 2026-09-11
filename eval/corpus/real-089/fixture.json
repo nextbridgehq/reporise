@@ -1,0 +1,145 @@
+{
+  "id": "real-089",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "traefik/traefik",
+  "commit": "d48621ce0b6fd221b20bdb6c22e652e7498e5db6",
+  "capturedAt": "2026-09-08T12:15:05.979Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "e1430759a65d1c309b04631ca96601811033777418cd75e743ac21d9ef6ce13e",
+      "sizeBytes": 409600
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "d501bcd61cdd0c42decbc6014024375a52d8221a96d5e239d3d186862e3ce0a1",
+      "sizeBytes": 4132
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "f447f9e7362941fc1a25f18f263b92df35c9fc0816b775357e84cecab0862910",
+      "sizeBytes": 740
+    },
+    {
+      "path": "docs/.dockerignore",
+      "sha256": "b17996bfa299faae65a89c1e3dc4f67293c6f71e313f3b8dcdb39bb7a21c4717",
+      "sizeBytes": 7
+    },
+    {
+      "path": "docs/.markdownlint.json",
+      "sha256": "9f81f7e67b97cca9b33236d341bb13ea70a7de2955bcd3a9557a73e75682cd20",
+      "sizeBytes": 253
+    },
+    {
+      "path": "docs/check.Dockerfile",
+      "sha256": "e660d4a47623fc901db7789e3336e87a07e1722b9da59a731c478f65e9e64edd",
+      "sizeBytes": 1002
+    },
+    {
+      "path": "docs/content/contributing/advocating.md",
+      "sha256": "c9c24530a8f3eff51edf212466f1810c32301560b421306c592a8706ed403d00",
+      "sizeBytes": 2374
+    },
+    {
+      "path": "docs/content/contributing/building-testing.md",
+      "sha256": "fae1764ca08bbe3890533a929fc53d3e6a352e4049b68e97f8882f5ab7471725",
+      "sizeBytes": 3842
+    },
+    {
+      "path": "docs/content/contributing/data-collection.md",
+      "sha256": "4a021323ce02675cee6705e1ca9dd783dd94ded9b215beca8099b22072fe6b06",
+      "sizeBytes": 4726
+    },
+    {
+      "path": "docs/content/contributing/documentation.md",
+      "sha256": "cff3836d3909813bfaf71f7a429d2b0b74b0ce5e5f6bf5b055464cd15a881079",
+      "sizeBytes": 3461
+    },
+    {
+      "path": "docs/content/contributing/maintainers-guidelines.md",
+      "sha256": "138429482cb3f080821ce8627576c2909d15d390e1ae406dd6bcb37735aa1ca4",
+      "sizeBytes": 5974
+    },
+    {
+      "path": "docs/content/contributing/maintainers.md",
+      "sha256": "446e3682dfd576ab9caeceda59c8afe996e4469771d5b33210239872401aa579",
+      "sizeBytes": 2040
+    },
+    {
+      "path": "docs/content/contributing/security-decisions.md",
+      "sha256": "46179308a61a4a40fa129a75d2c0503e3efe653fa4088bc77ab9090f9dd728a7",
+      "sizeBytes": 23124
+    },
+    {
+      "path": "docs/content/contributing/submitting-issues.md",
+      "sha256": "5e5a3cc6553f889e27a704663a5a59077f62cb40312b4392c31e14952da6dec0",
+      "sizeBytes": 3376
+    },
+    {
+      "path": "docs/content/contributing/submitting-pull-requests.md",
+      "sha256": "dfbeb8e89bce7fe52613c7e186cbbbf7e3c6e16004c5200733c6a9f768fdf56e",
+      "sizeBytes": 13160
+    },
+    {
+      "path": "docs/content/contributing/submitting-security-issues.md",
+      "sha256": "1c3c94099131540651b3a8d3513a0e2c916e4822e21ee33fb62ea26e21a7856d",
+      "sizeBytes": 7841
+    },
+    {
+      "path": "docs/content/contributing/thank-you.md",
+      "sha256": "96031d2522a713cf8d08dc8004355e352dde27a7d0ffbfd35faf9aac6ddb3443",
+      "sizeBytes": 1672
+    },
+    {
+      "path": "docs/content/deprecation/features.md",
+      "sha256": "9f0e8b57869d276d211292127397ae00a7ae4598d0529b6ae2632be6d2fd5c8a",
+      "sizeBytes": 1907
+    },
+    {
+      "path": "docs/content/deprecation/releases.md",
+      "sha256": "1500ab231cebd0f2872c0cc9c10b42826ce7d73985b583109887814f5e050979",
+      "sizeBytes": 2524
+    },
+    {
+      "path": "docs/content/expose/overview.md",
+      "sha256": "b313f15133f5c609fa8d760a50a064d5fdaeffc35956aa3176ac6523d0883ea2",
+      "sizeBytes": 4116
+    },
+    {
+      "path": "docs/content/extend/extend-traefik.md",
+      "sha256": "b36072347d84913bf01bb42ab84b1fcf302662e550f6e2ea91ff6852fdf47eda",
+      "sizeBytes": 2844
+    },
+    {
+      "path": "docs/content/features/index.md",
+      "sha256": "9841130dbb014fc0100372e13440d3450425867f6cbef11fcdf5241604f82b7e",
+      "sizeBytes": 8587
+    },
+    {
+      "path": "docs/content/getting-started/configuration-overview.md",
+      "sha256": "bedb4f2f95771bb0d5ba12325864f81bb4d34efea65aeac322a26ea2d13c869d",
+      "sizeBytes": 4204
+    },
+    {
+      "path": "go.mod",
+      "sha256": "de799619a7a0c81947446122dea40799aae8dd9c760a8a01c1772b77be721186",
+      "sizeBytes": 22163
+    },
+    {
+      "path": "LICENSE.md",
+      "sha256": "3cb5bdf3208ee7fe799e4fd1c180f56c221eaabf35c1d459c1a1a9f84ab47a2d",
+      "sizeBytes": 1131
+    },
+    {
+      "path": "README.md",
+      "sha256": "e5a3057ffdb69b710c6ff1a9e1418438741e396a688d236cc4ae71a22c4e133c",
+      "sizeBytes": 8023
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "2fcb5a3eaae8f8c812acd1f75f0401b14bc720d9635ec08f033d805561095a16",
+      "sizeBytes": 810
+    }
+  ]
+}

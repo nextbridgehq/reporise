@@ -1,0 +1,6 @@
+{
+  "https://pandas.pydata.org/docs/": {
+    "http_status": 200,
+    "content": "# pandas Documentation\n\n## Getting Started\n```bash\npip install pandas\n```\n\n## Package overview\nData structures and algorithms.\n"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "https://docs.contradictory.org/manual": {
+    "http_status": 200,
+    "content": "# Contradictory Manual\n\n## Installation\n```bash\nnpm install contradictory-v1\n```\n\nAlternatively for modern runtimes:\n```bash\nnpm install contradictory-v2\n```\n\n## Usage\n```javascript\nconst stream = require('contradictory-v2');\nstream.pipe();\n```\n"
+  }
+}

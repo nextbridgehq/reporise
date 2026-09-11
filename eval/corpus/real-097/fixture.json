@@ -1,0 +1,25 @@
+{
+  "id": "real-097",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "numpy/numpy",
+  "commit": "b76063c87d57b6c33364fc349170852fe7b7a1a9",
+  "capturedAt": "2026-09-08T12:16:00.730Z",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "1be1df33863f97a7bc1c4d67980bd6c69c9a6fef0a5ee76e6ad6cb91e56e8491",
+      "sizeBytes": 1543
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "467344ed78ce4ce341271644f84d8014eedc1d1ef9287cf3bd590d25f985215a",
+      "sizeBytes": 11630
+    },
+    {
+      "path": "README.md",
+      "sha256": "b2aef38c7633af8cc43be494004da614e719cb20041beecaaa44566fe663a6ec",
+      "sizeBytes": 4411
+    }
+  ]
+}

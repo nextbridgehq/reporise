@@ -1,0 +1,6 @@
+{
+  "https://docs.ray.io/en/latest/": {
+    "http_status": 200,
+    "content": "# Welcome to Ray!\n\n## Installing Ray\n```bash\npip install -U \"ray[default]\"\n```\n\n## What is Ray?\nRay is a unified framework.\n"
+  }
+}

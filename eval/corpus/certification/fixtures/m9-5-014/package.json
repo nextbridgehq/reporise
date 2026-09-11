@@ -1,0 +1,7 @@
+{
+  "name": "fastify-deep",
+  "description": "Fastify ecosystem plugin monorepo",
+  "workspaces": [
+    "packages/plugins/*"
+  ]
+}

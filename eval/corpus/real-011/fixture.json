@@ -1,0 +1,130 @@
+{
+  "id": "real-011",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "django/django",
+  "commit": "7be0e495fdbd260fde253a6e877401d4a0deed7a",
+  "capturedAt": "2026-09-08T11:49:07.758Z",
+  "files": [
+    {
+      "path": "docs/conf.py",
+      "sha256": "8b305630f0b75c3fde599b984fabf840de1ce1261e303cb9924bc79f00e0e03a",
+      "sizeBytes": 15270
+    },
+    {
+      "path": "docs/contents.txt",
+      "sha256": "6bed851a54e6ed63ee3793d82abe84393946945911166ad0fde246f600376dd0",
+      "sizeBytes": 447
+    },
+    {
+      "path": "docs/faq/admin.txt",
+      "sha256": "df922d7c6d39823352bdf6f540f14e4c7df091b24a596826cde478bc77c1675f",
+      "sizeBytes": 6548
+    },
+    {
+      "path": "docs/faq/contributing.txt",
+      "sha256": "ac2922fcc1584dd3dcc2679fdbcb3513f591e12173560874046f65fa7ecdf0a5",
+      "sizeBytes": 5771
+    },
+    {
+      "path": "docs/faq/general.txt",
+      "sha256": "96b6a34f049a63f3f02659d1a22babf9dddea971d75fa9c098a95960b67c5863",
+      "sizeBytes": 10010
+    },
+    {
+      "path": "docs/faq/help.txt",
+      "sha256": "740c026b329a770a082d6fd03771f2334ca448d6ff401c6f466f24c3c1455c84",
+      "sizeBytes": 2904
+    },
+    {
+      "path": "docs/faq/index.txt",
+      "sha256": "3424ca896e6bdd67438b5c78918593d0a3693e8863440d13b27d729b9d71e716",
+      "sizeBytes": 172
+    },
+    {
+      "path": "docs/faq/install.txt",
+      "sha256": "5e6dce08eef0dcbcb9896c96f25141102a6bad7dfd5bc041aff93ddd6591f2aa",
+      "sizeBytes": 3944
+    },
+    {
+      "path": "docs/faq/models.txt",
+      "sha256": "4f83dafcba35407e592bd1b2d2428aa8114e333b79b764a52d9640fff0e4ebc7",
+      "sizeBytes": 3311
+    },
+    {
+      "path": "docs/faq/troubleshooting.txt",
+      "sha256": "a6ffcf28456cdee936cdc87f5b300937de938c776874a52ea4531cc07417bec5",
+      "sizeBytes": 2079
+    },
+    {
+      "path": "docs/faq/usage.txt",
+      "sha256": "a170d3f5f21936c84dd24e7a474eec0af899ca79d32832aa0c2da5206c42f54f",
+      "sizeBytes": 3043
+    },
+    {
+      "path": "docs/glossary.txt",
+      "sha256": "3ce8d383be8f7a585076896d8eae5b637fa80c746f213d96286c4f2c9e7d7b30",
+      "sizeBytes": 2407
+    },
+    {
+      "path": "docs/howto/auth-remote-user.txt",
+      "sha256": "1e513bede30105aa9db24a89fd9c4e4a29e075222f4b86eab3a92efd72fd5b8f",
+      "sizeBytes": 6719
+    },
+    {
+      "path": "docs/howto/csp.txt",
+      "sha256": "c18fe4ce6e98ba6e22ee7e1804a4e15dc551ca66eaf353d7984574ff2540984e",
+      "sizeBytes": 4075
+    },
+    {
+      "path": "docs/howto/csrf.txt",
+      "sha256": "cd41b4d7332ea1adf6e4ac51658ad1d009362781e18e2573d14ae2ec0ffbaa6a",
+      "sizeBytes": 12454
+    },
+    {
+      "path": "docs/howto/custom-file-storage.txt",
+      "sha256": "9275248d400cc35f041d5ad8677af5ca12c2c2269c61f765a1bc9569eff65975",
+      "sizeBytes": 5786
+    },
+    {
+      "path": "docs/howto/custom-lookups.txt",
+      "sha256": "20d056fd9fa550dd198998968a602a75110622845b7ea4ed5e8a2217568babaa",
+      "sizeBytes": 15012
+    },
+    {
+      "path": "docs/howto/custom-management-commands.txt",
+      "sha256": "a4dba7eb090a3a81c43f74b9230c3183ff1d75e5b230832de03218200e55c42c",
+      "sizeBytes": 15668
+    },
+    {
+      "path": "docs/howto/custom-model-fields.txt",
+      "sha256": "dc5d346367df290b1d343070470175b68b7a1c8398e45fece54ec4b2e19d22f5",
+      "sizeBytes": 33639
+    },
+    {
+      "path": "docs/howto/custom-shell.txt",
+      "sha256": "3443b1c3d970e87cdc100ebbb16625cef5a86b2584664f44d27ddb94f9b90d39",
+      "sizeBytes": 2859
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "7e493fa7ce2cfdb8dc8a97d5e912f81fc5e0ddc58c5a236e98de2ee55ca978a8",
+      "sizeBytes": 1579
+    },
+    {
+      "path": "package.json",
+      "sha256": "164682ec3e055a74649f5035dd067ee30fc6eab0732285386ad9c75665d62b9e",
+      "sizeBytes": 355
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "d8c0db3abf0d9e4f1e36686573144f1daff8534bda08d47675e9d5c578d2774a",
+      "sizeBytes": 2301
+    },
+    {
+      "path": "README.rst",
+      "sha256": "c1111899d0bb593d83344035668c177657b1f1365ba3bf8cab092f72646bc558",
+      "sizeBytes": 2233
+    }
+  ]
+}

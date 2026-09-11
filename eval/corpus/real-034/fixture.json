@@ -1,0 +1,25 @@
+{
+  "id": "real-034",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "sindresorhus/ky",
+  "commit": "e68ea7ad3080fa25ce2eba6a367c00dfff74f0f3",
+  "capturedAt": "2026-09-08T11:52:02.341Z",
+  "files": [
+    {
+      "path": "license",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "sizeBytes": 1117
+    },
+    {
+      "path": "package.json",
+      "sha256": "5e1e3cf4e045dc8680122d1cbcb9f11c3e520573d9b51428c57f366da746d422",
+      "sizeBytes": 2317
+    },
+    {
+      "path": "readme.md",
+      "sha256": "6d6d4ab5c94f9ba6624cbcb22900eb9e003e416e25e624b8928b7a1547d0e1f4",
+      "sizeBytes": 63898
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# pnpm
+Fast, disk space efficient package manager.

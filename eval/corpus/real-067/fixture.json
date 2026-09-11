@@ -1,0 +1,30 @@
+{
+  "id": "real-067",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "nocodb/nocodb",
+  "commit": "5eed724de3c2e0a6c4bd94a5e331a40b24f8fb8c",
+  "capturedAt": "2026-09-08T12:04:32.643Z",
+  "files": [
+    {
+      "path": "LICENSE.md",
+      "sha256": "4dc191cf39086a71c12004b7a6f1f3d2157d430b794790881735197fb7ae4e77",
+      "sizeBytes": 4235
+    },
+    {
+      "path": "package.json",
+      "sha256": "04c5109b49e0b3f6abef6f9eaec3ca5bc0580c17639038048f0cd60221ffe75c",
+      "sizeBytes": 4859
+    },
+    {
+      "path": "README.md",
+      "sha256": "f1e4c9fd486ca45e5c25e7e33a9447753a40cbbffd0d6e8839028109acb58859",
+      "sizeBytes": 11902
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "7d0d63a106db3230ec7468a72d06d21c942fd462fb787aa5dc376a991976a83b",
+      "sizeBytes": 308
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "id": "real-081",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "vercel/turborepo",
+  "commit": "63797e490d44cd63e86b6dc1d7ac87c59b884c41",
+  "capturedAt": "2026-09-08T12:24:39.742Z",
+  "files": [
+    {
+      "path": "Cargo.toml",
+      "sha256": "6f7231c6cb9492e4bc990f2b63813ae5e7737d8bf0cee949e61e4aad5ee59131",
+      "sizeBytes": 8281
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "64e8d2684a31c55c9f64c4a5a9d7f43e0d18824ce278046c7417a8401d904eae",
+      "sizeBytes": 3340
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "fde7927a2378d38c8c3a5ef13ee015fd753167e0344130d6aec9f2d4b05eba6a",
+      "sizeBytes": 16020
+    },
+    {
+      "path": "docs/link-checker/package.json",
+      "sha256": "1e7fab6f2bf028030b5c962ad42494c712cc4d1e0d11a7f39ed0c83a87d9ec1f",
+      "sizeBytes": 714
+    },
+    {
+      "path": "docs/link-checker/README.MD",
+      "sha256": "4b72d8f49446c33a00ed47651f0ff9148b21c28d81e74df25a35f8b7b1659838",
+      "sizeBytes": 332
+    },
+    {
+      "path": "docs/link-checker/src/markdown.ts",
+      "sha256": "34d347b6e4bb4c5ae29b83b4e315c04f91d3bbfda0e6a296ab04b9a9090bf0a0",
+      "sizeBytes": 8105
+    },
+    {
+      "path": "docs/link-checker/src/validate-docs-links.ts",
+      "sha256": "c0ffdedd0e4ed67f59ce5096bb732e4d292e8977a5e903537982d53515725a98",
+      "sizeBytes": 1649
+    },
+    {
+      "path": "docs/link-checker/tsconfig.json",
+      "sha256": "a4e8314e7839485e1afefca238bc98793bdecf1daf88a790bf206bd5487b332e",
+      "sizeBytes": 453
+    },
+    {
+      "path": "examples/basic/.gitignore",
+      "sha256": "ac5020c807d9c7434ada5ec909923b050594435f6e7850667c28782cb8727e84",
+      "sizeBytes": 437
+    },
+    {
+      "path": "examples/basic/.npmrc",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sizeBytes": 0
+    },
+    {
+      "path": "examples/basic/meta.json",
+      "sha256": "23595f5f4a74ee6d391e3aa852dede68f7f44be76b96078f77fa9293b306b00a",
+      "sizeBytes": 132
+    },
+    {
+      "path": "examples/basic/package.json",
+      "sha256": "cc32c30749175cf0d910532687e9230e5c5d23ba3066043c67321678a4c65009",
+      "sizeBytes": 454
+    },
+    {
+      "path": "examples/basic/pnpm-lock.yaml",
+      "sha256": "1ed83a9a43e958df1d7dc9a47d2cdd0e3185969d1f74a1da226073c41183c8b6",
+      "sizeBytes": 83573
+    },
+    {
+      "path": "examples/basic/pnpm-workspace.yaml",
+      "sha256": "5e5ddd04430189ef06cfb4f36d45f805c18c64da1aec437353cdad61a2f6fdee",
+      "sizeBytes": 43
+    },
+    {
+      "path": "examples/basic/README.md",
+      "sha256": "0864af5948b2b0f60926da41b6f559b377e02ca20bf18d1e75e469694c204a88",
+      "sizeBytes": 4701
+    },
+    {
+      "path": "examples/basic/turbo.json",
+      "sha256": "78e3ecf6add4e47801b713cfae287ba0c455593b9340d30205cbef41be0e93c6",
+      "sizeBytes": 452
+    },
+    {
+      "path": "examples/check-examples.ts",
+      "sha256": "ce8517c27aa4710a1f9720951ec0aab2b45344275e49377c76b8277d0b1c0139",
+      "sizeBytes": 15453
+    },
+    {
+      "path": "examples/design-system/.changeset/config.json",
+      "sha256": "88ccf55d7c18db43b94ff04bb5c879c2f247997b6c93f0020c4b580b4850606e",
+      "sizeBytes": 277
+    },
+    {
+      "path": "examples/design-system/.changeset/README.md",
+      "sha256": "c0ce3357f4ab5d90c4412a3dece4ae7f15145e5e13dee1e1fbc953855d41e4bf",
+      "sizeBytes": 518
+    },
+    {
+      "path": "examples/design-system/.gitignore",
+      "sha256": "0b6743b7e776b7c5c1f75df94634aaef6df00f091f03d1d7f2f26deafc8ca16f",
+      "sizeBytes": 131
+    },
+    {
+      "path": "examples/design-system/.npmrc",
+      "sha256": "740999a2652d52ab715795c667cad81d202ac640d16e1f7de6562cf67fdfd1d2",
+      "sizeBytes": 63
+    },
+    {
+      "path": "examples/design-system/meta.json",
+      "sha256": "a68da5bf8b30524ab1b38c4f08c44c6c2b771f3dd14ec46bf3a3383fb7a8aaea",
+      "sizeBytes": 245
+    },
+    {
+      "path": "examples/design-system/package.json",
+      "sha256": "c027b316f5015a5b48cf06d42715c1feb35cfaa8b6bb533daa1d9f0ee8935d62",
+      "sizeBytes": 638
+    },
+    {
+      "path": "examples/design-system/pnpm-lock.yaml",
+      "sha256": "a39cdf3f9449297c575c9ac0941ae59ab8e91213e72a984970ebb137275e65e8",
+      "sizeBytes": 357052
+    },
+    {
+      "path": "examples/design-system/pnpm-workspace.yaml",
+      "sha256": "5e5ddd04430189ef06cfb4f36d45f805c18c64da1aec437353cdad61a2f6fdee",
+      "sizeBytes": 43
+    },
+    {
+      "path": "examples/design-system/README.md",
+      "sha256": "52c2a4a69f60a9e09e862d5f55ca7142b123d70283c27138844adf729317afe9",
+      "sizeBytes": 8610
+    },
+    {
+      "path": "examples/design-system/turbo.json",
+      "sha256": "358204aa5c7e8db21a953d095908bd3b55f8e1d4d035d3e66456cdbe2d7e96c2",
+      "sizeBytes": 509
+    },
+    {
+      "path": "examples/install-all.ts",
+      "sha256": "cb194b39a18d99c0d80aebe9b4bb14cf40d3f3e5a16c11035655975adde458c5",
+      "sizeBytes": 1721
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "fd8086531aac92b04b93f1c5f04bf6cb24d0daf82be7b39d2c5ac19afcff09ac",
+      "sizeBytes": 1062
+    },
+    {
+      "path": "package.json",
+      "sha256": "93ab4de6384e20667a2a5c2b4cd9751fc71508f8b5295903090b0184c28b283a",
+      "sizeBytes": 1085
+    },
+    {
+      "path": "README.md",
+      "sha256": "55a9c49e23ed79194dd7d5ae20ac6c07d72daf9c1ffc6be54ca2ac4d6404ef49",
+      "sizeBytes": 2582
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "dce1ca553774242831dc15a4635299ca7a5671d6cdcd346d11b0239110a8d0d9",
+      "sizeBytes": 67
+    }
+  ]
+}

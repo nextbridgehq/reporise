@@ -1,0 +1,50 @@
+{
+  "id": "real-109",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "actions/setup-node",
+  "commit": "94196ee1d15439c1b6651cd87ef14e88ec435966",
+  "capturedAt": "2026-09-08T12:21:27.823Z",
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "98a4d23d7d3bfb6f6624548b69dfcafdad30e9501de610d6c3bb311f5e76a57a",
+      "sizeBytes": 3369
+    },
+    {
+      "path": "docs/adrs/0000-caching-dependencies.md",
+      "sha256": "25bbd647ea395ffe16b56849d6afe9dec569e6daf8172058ad136f722a6c5cdd",
+      "sizeBytes": 3130
+    },
+    {
+      "path": "docs/adrs/0001-support-caching-deps-for-monorepos.md",
+      "sha256": "fed1a5db4549d628f12d01d07845934491b7670e819a63b964b37a74e689b39e",
+      "sizeBytes": 2096
+    },
+    {
+      "path": "docs/advanced-usage.md",
+      "sha256": "a34ec59ee7807fa1daa9ff709de303587b1b03da0b6de8c45ec8c4139d741238",
+      "sizeBytes": 20405
+    },
+    {
+      "path": "docs/contributors.md",
+      "sha256": "d90f61614cd58b6e7e4b71f1877c0a030d9a53ce295ceb65e877f6420ebfe0ff",
+      "sizeBytes": 9272
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "7d070f6b64d9bcc530fe99cc21eaaa4b3c364e0b2d367d7735671fa202a03b32",
+      "sizeBytes": 1096
+    },
+    {
+      "path": "package.json",
+      "sha256": "8685efcd973cfe88c71b6bcf7293a81a11fdabe878d541822980ecab32284887",
+      "sizeBytes": 1939
+    },
+    {
+      "path": "README.md",
+      "sha256": "d8a3975d3194be46f878eb9e78bcfa6823b78cd076b0ebf98ea533f381718fc0",
+      "sizeBytes": 14971
+    }
+  ]
+}

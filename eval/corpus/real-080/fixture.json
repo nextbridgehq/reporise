@@ -1,0 +1,145 @@
+{
+  "id": "real-080",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "nrwl/nx",
+  "commit": "fb5b86a8d933da5ae41649f2465fe12447dca0a1",
+  "capturedAt": "2026-09-08T12:14:43.390Z",
+  "files": [
+    {
+      "path": "Cargo.toml",
+      "sha256": "49520f1687e4fd612cbf0e91ce731596411dd860bf0599c66bc753304541cb9b",
+      "sizeBytes": 328
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "ad045c6415aeaed37f030fcd29a447fd8a13e8932efe3d5f4224f9379ba2b726",
+      "sizeBytes": 1097
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "7987fccc7589f888ea8b2748682c1f76ab9260a5ffc8e6e60cd5f894eba52580",
+      "sizeBytes": 18794
+    },
+    {
+      "path": "examples/angular-rspack/appshell-css/nx.json",
+      "sha256": "6e0d8ba05b346c171a327a6eb2164cf9602d2d9665ded351b164b2f56fc4a95b",
+      "sizeBytes": 660
+    },
+    {
+      "path": "examples/angular-rspack/appshell-css/package.json",
+      "sha256": "195c639d10c16bc2f47610b8994799feef807a611b1cbaa9361b37a95bcef69f",
+      "sizeBytes": 876
+    },
+    {
+      "path": "examples/angular-rspack/appshell-css/pnpm-lock.yaml",
+      "sha256": "dfa7fa0b342f6f484c06e9729d196e0b768581f953799e3440419e7a1af26b05",
+      "sizeBytes": 17233
+    },
+    {
+      "path": "examples/angular-rspack/appshell-css/pnpm-workspace.yaml",
+      "sha256": "a2f209bb96ee90b1be7851980666fff3d6afed71daceef7e76ecdacbe470914f",
+      "sizeBytes": 248
+    },
+    {
+      "path": "examples/angular-rspack/appshell-css/rspack.config.js",
+      "sha256": "ce4cb2b428483a2ed388e78017370b97d1344932086f80296332c2aaa5213e67",
+      "sizeBytes": 655
+    },
+    {
+      "path": "examples/angular-rspack/appshell-css/tsconfig.app.json",
+      "sha256": "7a17b2e2097251c6017339def7006cff5af76c2b01888c6b42744bd0e5204603",
+      "sizeBytes": 679
+    },
+    {
+      "path": "examples/angular-rspack/appshell-css/tsconfig.base.json",
+      "sha256": "84a82a018714a6b20ea8dbdef7a3b380028005c26a853493757c616a75cf4cd4",
+      "sizeBytes": 448
+    },
+    {
+      "path": "examples/angular-rspack/appshell-css/tsconfig.editor.json",
+      "sha256": "04756a1e90114fcbfba752d75e0457053b41bcead42fa6eada7e983cba02cc15",
+      "sizeBytes": 441
+    },
+    {
+      "path": "examples/angular-rspack/appshell-css/tsconfig.json",
+      "sha256": "37c36fab1e6ed3a4a47d49e5f9fe670e99acba015406485ed3d112e0c8cc24b3",
+      "sizeBytes": 837
+    },
+    {
+      "path": "examples/angular-rspack/csr-css/nx.json",
+      "sha256": "6e0d8ba05b346c171a327a6eb2164cf9602d2d9665ded351b164b2f56fc4a95b",
+      "sizeBytes": 660
+    },
+    {
+      "path": "examples/angular-rspack/csr-css/package.json",
+      "sha256": "aa79e3ace8eeddeaa29992359efb4ff26b2ce401ea10cecbc72a2b367c7d6291",
+      "sizeBytes": 1064
+    },
+    {
+      "path": "examples/angular-rspack/csr-css/pnpm-lock.yaml",
+      "sha256": "531b1235cd9b6557838da83c88cbf71e4090578c2881fac82bb22e24235007e0",
+      "sizeBytes": 12338
+    },
+    {
+      "path": "examples/angular-rspack/csr-css/pnpm-workspace.yaml",
+      "sha256": "a2f209bb96ee90b1be7851980666fff3d6afed71daceef7e76ecdacbe470914f",
+      "sizeBytes": 248
+    },
+    {
+      "path": "examples/angular-rspack/csr-css/proxy.conf.json",
+      "sha256": "771cbac6cda7a3f8d0a8380b5f3a532de1751750e9a68fb99977907e636b8778",
+      "sizeBytes": 112
+    },
+    {
+      "path": "examples/angular-rspack/csr-css/rspack.config.js",
+      "sha256": "3d0e5c7f54afdff6db0961918cf4f6ceb235b2080a70c20854afcec04d4f5cf0",
+      "sizeBytes": 2656
+    },
+    {
+      "path": "examples/angular-rspack/csr-css/tsconfig.app.json",
+      "sha256": "87b3e253c83627753385bd6fda0d55cf65ffb633d053bf78a9f792b7f273d408",
+      "sizeBytes": 640
+    },
+    {
+      "path": "examples/angular-rspack/csr-css/tsconfig.base.json",
+      "sha256": "84a82a018714a6b20ea8dbdef7a3b380028005c26a853493757c616a75cf4cd4",
+      "sizeBytes": 448
+    },
+    {
+      "path": "examples/angular-rspack/csr-css/tsconfig.editor.json",
+      "sha256": "d95795366fc1134e7289d8b080780c3e4a03039fd93a39281822d77bfc6a419f",
+      "sizeBytes": 456
+    },
+    {
+      "path": "examples/angular-rspack/csr-css/tsconfig.json",
+      "sha256": "7560a90d4af06e999c3443b44e57270ed97c8cd4e54b386ccf5fb6b7e12cb089",
+      "sizeBytes": 869
+    },
+    {
+      "path": "examples/angular-rspack/csr-css-assets/nx.json",
+      "sha256": "6e0d8ba05b346c171a327a6eb2164cf9602d2d9665ded351b164b2f56fc4a95b",
+      "sizeBytes": 660
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "8730359d587dfa7cfe1684b91313af620d23fb5b513d86151556d55fbca4d312",
+      "sizeBytes": 1115
+    },
+    {
+      "path": "package.json",
+      "sha256": "2f272f679f8fe8dac499ccf0aca901b976ca2b9130e59b42dbb98fc7ddbeb7c2",
+      "sizeBytes": 13678
+    },
+    {
+      "path": "README.md",
+      "sha256": "844ead2aa2e7cc6c12d2dcc22507619e7955200d850816e3946c257f4ef2d034",
+      "sizeBytes": 10667
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "bb80a2e51339b7beaa9fe13a9b7a937203dc0661685e0b9400c18a9067d3f8c5",
+      "sizeBytes": 3519
+    }
+  ]
+}

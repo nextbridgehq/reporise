@@ -1,0 +1,7 @@
+{
+  "name": "docusaurus-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

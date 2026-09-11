@@ -1,0 +1,6 @@
+{
+  "https://vitepress.dev/guide/getting-started": {
+    "http_status": 200,
+    "content": "# Getting Started with VitePress\n\n## Installation\n```bash\nnpm add -D vitepress\nnpx vitepress init\n```\n\n## Running Docs\n```bash\nnpx vitepress dev docs\n```\n"
+  }
+}

@@ -1,0 +1,3111 @@
+{
+  "milestone": "M9.5",
+  "track": "Multi-Document Evidence Resolution",
+  "status": "COMPLETE",
+  "engine_invariant_commit": "v0.1.0",
+  "execution_timestamp": "2026-09-09T12:29:11.162Z",
+  "corpus": {
+    "version": "m9.5-certification-v1.0.0",
+    "total_fixtures": 32,
+    "cohorts": {
+      "external_frameworks": 7,
+      "workspace_topologies": 7,
+      "evidence_ambiguity": 6,
+      "edge_failure": 6,
+      "adversarial_stress": 6
+    }
+  },
+  "metrics_by_cohort": {
+    "external_frameworks": {
+      "count": 7,
+      "baseline": {
+        "overall": {
+          "n": 7,
+          "mae": 2,
+          "me": -2,
+          "exactPct": 0,
+          "withinOnePct": 0
+        },
+        "seo": {
+          "n": 7,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 7,
+          "mae": 1,
+          "me": -1,
+          "exactPct": 0,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 7,
+          "mae": 2,
+          "me": -2,
+          "exactPct": 0,
+          "withinOnePct": 0
+        }
+      },
+      "multi": {
+        "overall": {
+          "n": 7,
+          "mae": 1,
+          "me": -1,
+          "exactPct": 0,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 7,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 7,
+          "mae": 0.2857,
+          "me": -0.2857,
+          "exactPct": 71.4,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 7,
+          "mae": 0.7143,
+          "me": -0.7143,
+          "exactPct": 57.1,
+          "withinOnePct": 71.4
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": -1,
+          "pctMae": -50,
+          "deltaMe": 1
+        },
+        "seo": {
+          "deltaMae": 0,
+          "pctMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": -0.7143,
+          "pctMae": -71.43,
+          "deltaMe": 0.7143
+        },
+        "geo": {
+          "deltaMae": -1.2857,
+          "pctMae": -64.28,
+          "deltaMe": 1.2857
+        }
+      }
+    },
+    "workspace_topologies": {
+      "count": 7,
+      "baseline": {
+        "overall": {
+          "n": 7,
+          "mae": 2,
+          "me": -2,
+          "exactPct": 0,
+          "withinOnePct": 0
+        },
+        "seo": {
+          "n": 7,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 7,
+          "mae": 1,
+          "me": -1,
+          "exactPct": 0,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 7,
+          "mae": 2,
+          "me": -2,
+          "exactPct": 0,
+          "withinOnePct": 0
+        }
+      },
+      "multi": {
+        "overall": {
+          "n": 7,
+          "mae": 1,
+          "me": -1,
+          "exactPct": 0,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 7,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 7,
+          "mae": 0.1429,
+          "me": -0.1429,
+          "exactPct": 85.7,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 7,
+          "mae": 0.2857,
+          "me": -0.2857,
+          "exactPct": 85.7,
+          "withinOnePct": 85.7
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": -1,
+          "pctMae": -50,
+          "deltaMe": 1
+        },
+        "seo": {
+          "deltaMae": 0,
+          "pctMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": -0.8571,
+          "pctMae": -85.71,
+          "deltaMe": 0.8571
+        },
+        "geo": {
+          "deltaMae": -1.7143,
+          "pctMae": -85.72,
+          "deltaMe": 1.7143
+        }
+      }
+    },
+    "evidence_ambiguity": {
+      "count": 6,
+      "baseline": {
+        "overall": {
+          "n": 6,
+          "mae": 1.6667,
+          "me": -1.6667,
+          "exactPct": 16.7,
+          "withinOnePct": 16.7
+        },
+        "seo": {
+          "n": 6,
+          "mae": 0.1667,
+          "me": 0.1667,
+          "exactPct": 83.3,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 6,
+          "mae": 0.8333,
+          "me": -0.8333,
+          "exactPct": 16.7,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 6,
+          "mae": 1.8333,
+          "me": -1.8333,
+          "exactPct": 0,
+          "withinOnePct": 16.7
+        }
+      },
+      "multi": {
+        "overall": {
+          "n": 6,
+          "mae": 0.5,
+          "me": -0.5,
+          "exactPct": 50,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 6,
+          "mae": 0.1667,
+          "me": 0.1667,
+          "exactPct": 83.3,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 6,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 6,
+          "mae": 0.1667,
+          "me": -0.1667,
+          "exactPct": 83.3,
+          "withinOnePct": 100
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": -1.1667,
+          "pctMae": -70,
+          "deltaMe": 1.1667
+        },
+        "seo": {
+          "deltaMae": 0,
+          "pctMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": -0.8333,
+          "pctMae": -100,
+          "deltaMe": 0.8333
+        },
+        "geo": {
+          "deltaMae": -1.6666,
+          "pctMae": -90.91,
+          "deltaMe": 1.6666
+        }
+      }
+    },
+    "edge_failure": {
+      "count": 6,
+      "baseline": {
+        "overall": {
+          "n": 6,
+          "mae": 1,
+          "me": -1,
+          "exactPct": 0,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 6,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 6,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 6,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        }
+      },
+      "multi": {
+        "overall": {
+          "n": 6,
+          "mae": 0.1667,
+          "me": -0.1667,
+          "exactPct": 83.3,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 6,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 6,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 6,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": -0.8333,
+          "pctMae": -83.33,
+          "deltaMe": 0.8333
+        },
+        "seo": {
+          "deltaMae": 0,
+          "pctMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": 0,
+          "pctMae": 0,
+          "deltaMe": 0
+        },
+        "geo": {
+          "deltaMae": 0,
+          "pctMae": 0,
+          "deltaMe": 0
+        }
+      }
+    },
+    "adversarial_stress": {
+      "count": 6,
+      "baseline": {
+        "overall": {
+          "n": 6,
+          "mae": 1.5,
+          "me": -1.5,
+          "exactPct": 0,
+          "withinOnePct": 50
+        },
+        "seo": {
+          "n": 6,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 6,
+          "mae": 0.8333,
+          "me": -0.8333,
+          "exactPct": 16.7,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 6,
+          "mae": 1.5,
+          "me": -1.5,
+          "exactPct": 16.7,
+          "withinOnePct": 33.3
+        }
+      },
+      "multi": {
+        "overall": {
+          "n": 6,
+          "mae": 0.6667,
+          "me": -0.6667,
+          "exactPct": 33.3,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 6,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 6,
+          "mae": 0,
+          "me": 0,
+          "exactPct": 100,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 6,
+          "mae": 0.1667,
+          "me": 0.1667,
+          "exactPct": 83.3,
+          "withinOnePct": 100
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": -0.8333,
+          "pctMae": -55.55,
+          "deltaMe": 0.8333
+        },
+        "seo": {
+          "deltaMae": 0,
+          "pctMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": -0.8333,
+          "pctMae": -100,
+          "deltaMe": 0.8333
+        },
+        "geo": {
+          "deltaMae": -1.3333,
+          "pctMae": -88.89,
+          "deltaMe": 1.6667
+        }
+      }
+    },
+    "all": {
+      "count": 32,
+      "baseline": {
+        "overall": {
+          "n": 32,
+          "mae": 1.6563,
+          "me": -1.6563,
+          "exactPct": 3.1,
+          "withinOnePct": 31.3
+        },
+        "seo": {
+          "n": 32,
+          "mae": 0.0313,
+          "me": 0.0313,
+          "exactPct": 96.9,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 32,
+          "mae": 0.75,
+          "me": -0.75,
+          "exactPct": 25,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 32,
+          "mae": 1.5,
+          "me": -1.5,
+          "exactPct": 21.9,
+          "withinOnePct": 28.1
+        }
+      },
+      "multi": {
+        "overall": {
+          "n": 32,
+          "mae": 0.6875,
+          "me": -0.6875,
+          "exactPct": 31.3,
+          "withinOnePct": 100
+        },
+        "seo": {
+          "n": 32,
+          "mae": 0.0313,
+          "me": 0.0313,
+          "exactPct": 96.9,
+          "withinOnePct": 100
+        },
+        "aeo": {
+          "n": 32,
+          "mae": 0.0938,
+          "me": -0.0938,
+          "exactPct": 90.6,
+          "withinOnePct": 100
+        },
+        "geo": {
+          "n": 32,
+          "mae": 0.2813,
+          "me": -0.2188,
+          "exactPct": 81.3,
+          "withinOnePct": 90.6
+        }
+      },
+      "deltas": {
+        "overall": {
+          "deltaMae": -0.9688,
+          "pctMae": -58.49,
+          "deltaMe": 0.9688
+        },
+        "seo": {
+          "deltaMae": 0,
+          "pctMae": 0,
+          "deltaMe": 0
+        },
+        "aeo": {
+          "deltaMae": -0.6562,
+          "pctMae": -87.49,
+          "deltaMe": 0.6562
+        },
+        "geo": {
+          "deltaMae": -1.2187,
+          "pctMae": -81.25,
+          "deltaMe": 1.2812
+        }
+      }
+    }
+  },
+  "bootstrap_uncertainty": {
+    "overall": {
+      "observedDiff": -0.9688,
+      "ciLow": -1.0938,
+      "ciHigh": -0.8437,
+      "isSignificant": true
+    },
+    "seo": {
+      "observedDiff": 0,
+      "ciLow": 0,
+      "ciHigh": 0,
+      "isSignificant": false
+    },
+    "aeo": {
+      "observedDiff": -0.6562,
+      "ciLow": -0.8125,
+      "ciHigh": -0.5,
+      "isSignificant": true
+    },
+    "geo": {
+      "observedDiff": -1.2187,
+      "ciLow": -1.5313,
+      "ciHigh": -0.875,
+      "isSignificant": true
+    }
+  },
+  "guardrail_audit": {
+    "guardA_payloadCapsEnforced": 32,
+    "guardB_dedupEvents": 0,
+    "guardC_stubEvaluations": 20,
+    "guardC_stubViolations": 0,
+    "guardD_hopDepthEnforced": 32,
+    "guardE_failClosedEvents": 3,
+    "guardE_unhandledCrashes": 0
+  },
+  "records": [
+    {
+      "fixture_id": "m9-5-001",
+      "repository": "pallets/flask",
+      "cohort": "external_frameworks",
+      "doc_strategy": "external_readthedocs",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 45,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 55,
+        "geo": 55
+      },
+      "multi_overall": 45,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 0,
+          "p2_external_count": 1,
+          "p3_excluded_count": 1
+        },
+        "deduplication": {
+          "total_raw_headings": 4,
+          "total_deduped_headings": 4,
+          "total_raw_code_blocks": 2,
+          "total_deduped_code_blocks": 2,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": true,
+            "has_quickstart_guide": true,
+            "install_source_tier": "P2",
+            "total_effective_headings": 4,
+            "recovered_from_multidoc": true
+          },
+          "geo": {
+            "has_runnable_code": true,
+            "code_blocks_count": 2,
+            "root_code_count": 0,
+            "external_code_recovered": 2,
+            "is_citability_eligible": true,
+            "recovered_from_multidoc": true,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": true,
+            "has_nested_workspace_docs": false,
+            "substitution_guard_active": true,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 3,
+        "resolved_nodes": 2,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-002",
+      "repository": "facebook/docusaurus",
+      "cohort": "external_frameworks",
+      "doc_strategy": "external_docusaurus",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 45,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 35,
+        "geo": 25
+      },
+      "multi_overall": 33,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 0,
+          "p2_external_count": 1,
+          "p3_excluded_count": 1
+        },
+        "deduplication": {
+          "total_raw_headings": 4,
+          "total_deduped_headings": 4,
+          "total_raw_code_blocks": 1,
+          "total_deduped_code_blocks": 1,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": false,
+            "has_quickstart_guide": true,
+            "install_source_tier": null,
+            "total_effective_headings": 4,
+            "recovered_from_multidoc": false
+          },
+          "geo": {
+            "has_runnable_code": true,
+            "code_blocks_count": 1,
+            "root_code_count": 0,
+            "external_code_recovered": 1,
+            "is_citability_eligible": false,
+            "recovered_from_multidoc": true,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": true,
+            "has_nested_workspace_docs": false,
+            "substitution_guard_active": true,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 3,
+        "resolved_nodes": 2,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-003",
+      "repository": "vuejs/vitepress",
+      "cohort": "external_frameworks",
+      "doc_strategy": "external_vitepress",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 45,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 35,
+        "geo": 25
+      },
+      "multi_overall": 33,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 0,
+          "p2_external_count": 1,
+          "p3_excluded_count": 1
+        },
+        "deduplication": {
+          "total_raw_headings": 4,
+          "total_deduped_headings": 4,
+          "total_raw_code_blocks": 2,
+          "total_deduped_code_blocks": 2,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": false,
+            "has_quickstart_guide": true,
+            "install_source_tier": null,
+            "total_effective_headings": 4,
+            "recovered_from_multidoc": false
+          },
+          "geo": {
+            "has_runnable_code": true,
+            "code_blocks_count": 2,
+            "root_code_count": 0,
+            "external_code_recovered": 2,
+            "is_citability_eligible": false,
+            "recovered_from_multidoc": true,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": true,
+            "has_nested_workspace_docs": false,
+            "substitution_guard_active": true,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 3,
+        "resolved_nodes": 2,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-004",
+      "repository": "squidfunk/mkdocs-material",
+      "cohort": "external_frameworks",
+      "doc_strategy": "external_mkdocs",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 45,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 55,
+        "geo": 55
+      },
+      "multi_overall": 45,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 0,
+          "p2_external_count": 1,
+          "p3_excluded_count": 1
+        },
+        "deduplication": {
+          "total_raw_headings": 4,
+          "total_deduped_headings": 4,
+          "total_raw_code_blocks": 2,
+          "total_deduped_code_blocks": 2,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": true,
+            "has_quickstart_guide": true,
+            "install_source_tier": "P2",
+            "total_effective_headings": 4,
+            "recovered_from_multidoc": true
+          },
+          "geo": {
+            "has_runnable_code": true,
+            "code_blocks_count": 2,
+            "root_code_count": 0,
+            "external_code_recovered": 2,
+            "is_citability_eligible": true,
+            "recovered_from_multidoc": true,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": true,
+            "has_nested_workspace_docs": false,
+            "substitution_guard_active": true,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 3,
+        "resolved_nodes": 2,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-005",
+      "repository": "expressjs/express",
+      "cohort": "external_frameworks",
+      "doc_strategy": "external_github_pages",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 45,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 55,
+        "geo": 55
+      },
+      "multi_overall": 45,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 0,
+          "p2_external_count": 1,
+          "p3_excluded_count": 1
+        },
+        "deduplication": {
+          "total_raw_headings": 4,
+          "total_deduped_headings": 4,
+          "total_raw_code_blocks": 2,
+          "total_deduped_code_blocks": 2,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": true,
+            "has_quickstart_guide": false,
+            "install_source_tier": "P2",
+            "total_effective_headings": 4,
+            "recovered_from_multidoc": true
+          },
+          "geo": {
+            "has_runnable_code": true,
+            "code_blocks_count": 2,
+            "root_code_count": 0,
+            "external_code_recovered": 2,
+            "is_citability_eligible": true,
+            "recovered_from_multidoc": true,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": true,
+            "has_nested_workspace_docs": false,
+            "substitution_guard_active": true,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 3,
+        "resolved_nodes": 2,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-006",
+      "repository": "reduxjs/redux-toolkit",
+      "cohort": "external_frameworks",
+      "doc_strategy": "external_gitbook",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 45,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 55,
+        "geo": 55
+      },
+      "multi_overall": 45,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 0,
+          "p2_external_count": 1,
+          "p3_excluded_count": 1
+        },
+        "deduplication": {
+          "total_raw_headings": 4,
+          "total_deduped_headings": 4,
+          "total_raw_code_blocks": 2,
+          "total_deduped_code_blocks": 2,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": true,
+            "has_quickstart_guide": true,
+            "install_source_tier": "P2",
+            "total_effective_headings": 4,
+            "recovered_from_multidoc": true
+          },
+          "geo": {
+            "has_runnable_code": true,
+            "code_blocks_count": 2,
+            "root_code_count": 0,
+            "external_code_recovered": 2,
+            "is_citability_eligible": true,
+            "recovered_from_multidoc": true,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": true,
+            "has_nested_workspace_docs": false,
+            "substitution_guard_active": true,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 3,
+        "resolved_nodes": 2,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-007",
+      "repository": "sveltejs/kit",
+      "cohort": "external_frameworks",
+      "doc_strategy": "external_custom_domain",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 43,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 55,
+        "geo": 37
+      },
+      "multi_overall": 44,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 0,
+          "p2_external_count": 1,
+          "p3_excluded_count": 1
+        },
+        "deduplication": {
+          "total_raw_headings": 4,
+          "total_deduped_headings": 4,
+          "total_raw_code_blocks": 1,
+          "total_deduped_code_blocks": 1,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": true,
+            "has_quickstart_guide": true,
+            "install_source_tier": "P2",
+            "total_effective_headings": 4,
+            "recovered_from_multidoc": true
+          },
+          "geo": {
+            "has_runnable_code": true,
+            "code_blocks_count": 1,
+            "root_code_count": 0,
+            "external_code_recovered": 1,
+            "is_citability_eligible": true,
+            "recovered_from_multidoc": true,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": true,
+            "has_nested_workspace_docs": false,
+            "substitution_guard_active": true,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 3,
+        "resolved_nodes": 2,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-008",
+      "repository": "babel/babel",
+      "cohort": "workspace_topologies",
+      "doc_strategy": "nested_workspace",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 45,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 60,
+        "geo": 60
+      },
+      "multi_overall": 45,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 2,
+          "p2_external_count": 0,
+          "p3_excluded_count": 0
+        },
+        "deduplication": {
+          "total_raw_headings": 7,
+          "total_deduped_headings": 6,
+          "total_raw_code_blocks": 3,
+          "total_deduped_code_blocks": 3,
+          "duplicate_headings_dropped": 1,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": true,
+            "has_quickstart_guide": true,
+            "install_source_tier": "P1",
+            "total_effective_headings": 6,
+            "recovered_from_multidoc": true
+          },
+          "geo": {
+            "has_runnable_code": true,
+            "code_blocks_count": 3,
+            "root_code_count": 0,
+            "external_code_recovered": 3,
+            "is_citability_eligible": true,
+            "recovered_from_multidoc": true,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": false,
+            "has_nested_workspace_docs": true,
+            "substitution_guard_active": false,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 3,
+        "resolved_nodes": 3,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-009",
+      "repository": "pnpm/pnpm-workspace",
+      "cohort": "workspace_topologies",
+      "doc_strategy": "nested_workspace_pnpm",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 45,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 60,
+        "geo": 60
+      },
+      "multi_overall": 45,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 2,
+          "p2_external_count": 0,
+          "p3_excluded_count": 0
+        },
+        "deduplication": {
+          "total_raw_headings": 6,
+          "total_deduped_headings": 5,
+          "total_raw_code_blocks": 3,
+          "total_deduped_code_blocks": 3,
+          "duplicate_headings_dropped": 1,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": true,
+            "has_quickstart_guide": true,
+            "install_source_tier": "P1",
+            "total_effective_headings": 5,
+            "recovered_from_multidoc": true
+          },
+          "geo": {
+            "has_runnable_code": true,
+            "code_blocks_count": 3,
+            "root_code_count": 0,
+            "external_code_recovered": 3,
+            "is_citability_eligible": true,
+            "recovered_from_multidoc": true,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": false,
+            "has_nested_workspace_docs": true,
+            "substitution_guard_active": false,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 3,
+        "resolved_nodes": 3,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-010",
+      "repository": "yarnpkg/berry",
+      "cohort": "workspace_topologies",
+      "doc_strategy": "nested_workspace_yarn",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 45,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 60,
+        "geo": 55
+      },
+      "multi_overall": 45,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 1,
+          "p2_external_count": 0,
+          "p3_excluded_count": 0
+        },
+        "deduplication": {
+          "total_raw_headings": 4,
+          "total_deduped_headings": 4,
+          "total_raw_code_blocks": 2,
+          "total_deduped_code_blocks": 2,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": true,
+            "has_quickstart_guide": false,
+            "install_source_tier": "P1",
+            "total_effective_headings": 4,
+            "recovered_from_multidoc": true
+          },
+          "geo": {
+            "has_runnable_code": true,
+            "code_blocks_count": 2,
+            "root_code_count": 0,
+            "external_code_recovered": 2,
+            "is_citability_eligible": true,
+            "recovered_from_multidoc": true,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": false,
+            "has_nested_workspace_docs": true,
+            "substitution_guard_active": false,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 2,
+        "resolved_nodes": 2,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-011",
+      "repository": "nrwl/nx-monorepo",
+      "cohort": "workspace_topologies",
+      "doc_strategy": "nested_workspace_nx",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 45,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 60,
+        "geo": 55
+      },
+      "multi_overall": 45,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 1,
+          "p2_external_count": 0,
+          "p3_excluded_count": 0
+        },
+        "deduplication": {
+          "total_raw_headings": 4,
+          "total_deduped_headings": 4,
+          "total_raw_code_blocks": 2,
+          "total_deduped_code_blocks": 2,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": true,
+            "has_quickstart_guide": true,
+            "install_source_tier": "P1",
+            "total_effective_headings": 4,
+            "recovered_from_multidoc": true
+          },
+          "geo": {
+            "has_runnable_code": true,
+            "code_blocks_count": 2,
+            "root_code_count": 0,
+            "external_code_recovered": 2,
+            "is_citability_eligible": true,
+            "recovered_from_multidoc": true,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": false,
+            "has_nested_workspace_docs": true,
+            "substitution_guard_active": false,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 2,
+        "resolved_nodes": 2,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-012",
+      "repository": "vercel/turborepo",
+      "cohort": "workspace_topologies",
+      "doc_strategy": "nested_workspace_turbo",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 45,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 35,
+        "geo": 25
+      },
+      "multi_overall": 33,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 1,
+          "p2_external_count": 0,
+          "p3_excluded_count": 0
+        },
+        "deduplication": {
+          "total_raw_headings": 4,
+          "total_deduped_headings": 4,
+          "total_raw_code_blocks": 2,
+          "total_deduped_code_blocks": 2,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": false,
+            "has_quickstart_guide": false,
+            "install_source_tier": null,
+            "total_effective_headings": 4,
+            "recovered_from_multidoc": false
+          },
+          "geo": {
+            "has_runnable_code": true,
+            "code_blocks_count": 2,
+            "root_code_count": 0,
+            "external_code_recovered": 2,
+            "is_citability_eligible": false,
+            "recovered_from_multidoc": true,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": false,
+            "has_nested_workspace_docs": true,
+            "substitution_guard_active": false,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 2,
+        "resolved_nodes": 2,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-013",
+      "repository": "lerna/lerna-monorepo",
+      "cohort": "workspace_topologies",
+      "doc_strategy": "nested_workspace_lerna",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 45,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 60,
+        "geo": 55
+      },
+      "multi_overall": 45,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 1,
+          "p2_external_count": 0,
+          "p3_excluded_count": 0
+        },
+        "deduplication": {
+          "total_raw_headings": 4,
+          "total_deduped_headings": 4,
+          "total_raw_code_blocks": 2,
+          "total_deduped_code_blocks": 2,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": true,
+            "has_quickstart_guide": false,
+            "install_source_tier": "P1",
+            "total_effective_headings": 4,
+            "recovered_from_multidoc": true
+          },
+          "geo": {
+            "has_runnable_code": true,
+            "code_blocks_count": 2,
+            "root_code_count": 0,
+            "external_code_recovered": 2,
+            "is_citability_eligible": true,
+            "recovered_from_multidoc": true,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": false,
+            "has_nested_workspace_docs": true,
+            "substitution_guard_active": false,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 2,
+        "resolved_nodes": 2,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-014",
+      "repository": "fastify/fastify-deep-workspace",
+      "cohort": "workspace_topologies",
+      "doc_strategy": "nested_workspace_deep",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 45,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 60,
+        "geo": 55
+      },
+      "multi_overall": 45,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 1,
+          "p2_external_count": 0,
+          "p3_excluded_count": 0
+        },
+        "deduplication": {
+          "total_raw_headings": 4,
+          "total_deduped_headings": 4,
+          "total_raw_code_blocks": 2,
+          "total_deduped_code_blocks": 2,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": true,
+            "has_quickstart_guide": false,
+            "install_source_tier": "P1",
+            "total_effective_headings": 4,
+            "recovered_from_multidoc": true
+          },
+          "geo": {
+            "has_runnable_code": true,
+            "code_blocks_count": 2,
+            "root_code_count": 0,
+            "external_code_recovered": 2,
+            "is_citability_eligible": true,
+            "recovered_from_multidoc": true,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": false,
+            "has_nested_workspace_docs": true,
+            "substitution_guard_active": false,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 2,
+        "resolved_nodes": 2,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-015",
+      "repository": "example/blog-vs-docs",
+      "cohort": "evidence_ambiguity",
+      "doc_strategy": "ambiguous_targets",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 39,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "multi_surfaces": {
+        "seo": 44,
+        "aeo": 55,
+        "geo": 55
+      },
+      "multi_overall": 52,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 0,
+          "p2_external_count": 1,
+          "p3_excluded_count": 0
+        },
+        "deduplication": {
+          "total_raw_headings": 4,
+          "total_deduped_headings": 4,
+          "total_raw_code_blocks": 2,
+          "total_deduped_code_blocks": 2,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": true,
+            "has_quickstart_guide": false,
+            "install_source_tier": "P2",
+            "total_effective_headings": 4,
+            "recovered_from_multidoc": true
+          },
+          "geo": {
+            "has_runnable_code": true,
+            "code_blocks_count": 2,
+            "root_code_count": 0,
+            "external_code_recovered": 2,
+            "is_citability_eligible": true,
+            "recovered_from_multidoc": true,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": false,
+            "has_verified_external_docs_link": true,
+            "has_nested_workspace_docs": false,
+            "substitution_guard_active": false,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 2,
+        "resolved_nodes": 2,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-016",
+      "repository": "example/social-and-docs",
+      "cohort": "evidence_ambiguity",
+      "doc_strategy": "ambiguous_targets",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 43,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "multi_surfaces": {
+        "seo": 48,
+        "aeo": 55,
+        "geo": 55
+      },
+      "multi_overall": 53,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 0,
+          "p2_external_count": 1,
+          "p3_excluded_count": 0
+        },
+        "deduplication": {
+          "total_raw_headings": 4,
+          "total_deduped_headings": 4,
+          "total_raw_code_blocks": 2,
+          "total_deduped_code_blocks": 2,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": true,
+            "has_quickstart_guide": false,
+            "install_source_tier": "P2",
+            "total_effective_headings": 4,
+            "recovered_from_multidoc": true
+          },
+          "geo": {
+            "has_runnable_code": true,
+            "code_blocks_count": 2,
+            "root_code_count": 0,
+            "external_code_recovered": 2,
+            "is_citability_eligible": true,
+            "recovered_from_multidoc": true,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": false,
+            "has_verified_external_docs_link": true,
+            "has_nested_workspace_docs": false,
+            "substitution_guard_active": false,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 2,
+        "resolved_nodes": 2,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-017",
+      "repository": "example/duplicate-examples",
+      "cohort": "evidence_ambiguity",
+      "doc_strategy": "duplicate_evidence",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 3,
+        "geo": 2
+      },
+      "baseline_surfaces": {
+        "seo": 50,
+        "aeo": 67,
+        "geo": 47
+      },
+      "baseline_overall": 53,
+      "multi_buckets": {
+        "overall": 3,
+        "seo": 3,
+        "aeo": 3,
+        "geo": 2
+      },
+      "multi_surfaces": {
+        "seo": 55,
+        "aeo": 67,
+        "geo": 47
+      },
+      "multi_overall": 56,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 0,
+          "p2_external_count": 1,
+          "p3_excluded_count": 0
+        },
+        "deduplication": {
+          "total_raw_headings": 7,
+          "total_deduped_headings": 5,
+          "total_raw_code_blocks": 5,
+          "total_deduped_code_blocks": 3,
+          "duplicate_headings_dropped": 2,
+          "duplicate_code_dropped": 2
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": true,
+            "has_quickstart_guide": true,
+            "install_source_tier": "P0",
+            "total_effective_headings": 5,
+            "recovered_from_multidoc": false
+          },
+          "geo": {
+            "has_runnable_code": true,
+            "code_blocks_count": 3,
+            "root_code_count": 2,
+            "external_code_recovered": 1,
+            "is_citability_eligible": true,
+            "recovered_from_multidoc": false,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": false,
+            "has_verified_external_docs_link": true,
+            "has_nested_workspace_docs": false,
+            "substitution_guard_active": false,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 2,
+        "resolved_nodes": 2,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-018",
+      "repository": "example/multi-external-links",
+      "cohort": "evidence_ambiguity",
+      "doc_strategy": "multi_doc_links",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 43,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 55,
+        "geo": 55
+      },
+      "multi_overall": 45,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 0,
+          "p2_external_count": 2,
+          "p3_excluded_count": 0
+        },
+        "deduplication": {
+          "total_raw_headings": 3,
+          "total_deduped_headings": 3,
+          "total_raw_code_blocks": 2,
+          "total_deduped_code_blocks": 2,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": true,
+            "has_quickstart_guide": false,
+            "install_source_tier": "P2",
+            "total_effective_headings": 3,
+            "recovered_from_multidoc": true
+          },
+          "geo": {
+            "has_runnable_code": true,
+            "code_blocks_count": 2,
+            "root_code_count": 0,
+            "external_code_recovered": 2,
+            "is_citability_eligible": true,
+            "recovered_from_multidoc": true,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": true,
+            "has_nested_workspace_docs": false,
+            "substitution_guard_active": true,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 3,
+        "resolved_nodes": 3,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-019",
+      "repository": "example/interleaved-releases",
+      "cohort": "evidence_ambiguity",
+      "doc_strategy": "interleaved_release_docs",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 39,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 55,
+        "geo": 55
+      },
+      "multi_overall": 45,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 0,
+          "p2_external_count": 1,
+          "p3_excluded_count": 1
+        },
+        "deduplication": {
+          "total_raw_headings": 4,
+          "total_deduped_headings": 4,
+          "total_raw_code_blocks": 2,
+          "total_deduped_code_blocks": 2,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": true,
+            "has_quickstart_guide": true,
+            "install_source_tier": "P2",
+            "total_effective_headings": 4,
+            "recovered_from_multidoc": true
+          },
+          "geo": {
+            "has_runnable_code": true,
+            "code_blocks_count": 2,
+            "root_code_count": 0,
+            "external_code_recovered": 2,
+            "is_citability_eligible": true,
+            "recovered_from_multidoc": true,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": true,
+            "has_nested_workspace_docs": false,
+            "substitution_guard_active": true,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 3,
+        "resolved_nodes": 2,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-020",
+      "repository": "example/nested-docs-partial",
+      "cohort": "evidence_ambiguity",
+      "doc_strategy": "nested_partial_snippets",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 45,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 60,
+        "geo": 55
+      },
+      "multi_overall": 45,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 2,
+          "p2_external_count": 0,
+          "p3_excluded_count": 0
+        },
+        "deduplication": {
+          "total_raw_headings": 5,
+          "total_deduped_headings": 5,
+          "total_raw_code_blocks": 2,
+          "total_deduped_code_blocks": 2,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": true,
+            "has_quickstart_guide": true,
+            "install_source_tier": "P1",
+            "total_effective_headings": 5,
+            "recovered_from_multidoc": true
+          },
+          "geo": {
+            "has_runnable_code": true,
+            "code_blocks_count": 2,
+            "root_code_count": 0,
+            "external_code_recovered": 2,
+            "is_citability_eligible": true,
+            "recovered_from_multidoc": true,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": false,
+            "has_nested_workspace_docs": true,
+            "substitution_guard_active": false,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 3,
+        "resolved_nodes": 3,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-021",
+      "repository": "edge/broken-link-404",
+      "cohort": "edge_failure",
+      "doc_strategy": "http_404_failure",
+      "ground_truth": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 43,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 35,
+        "geo": 25
+      },
+      "multi_overall": 33,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 0,
+          "p2_external_count": 0,
+          "p3_excluded_count": 1
+        },
+        "deduplication": {
+          "total_raw_headings": 1,
+          "total_deduped_headings": 1,
+          "total_raw_code_blocks": 0,
+          "total_deduped_code_blocks": 0,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": false,
+            "has_quickstart_guide": false,
+            "install_source_tier": null,
+            "total_effective_headings": 1,
+            "recovered_from_multidoc": false
+          },
+          "geo": {
+            "has_runnable_code": false,
+            "code_blocks_count": 0,
+            "root_code_count": 0,
+            "external_code_recovered": 0,
+            "is_citability_eligible": false,
+            "recovered_from_multidoc": false,
+            "has_docs_surface": false
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": false,
+            "has_nested_workspace_docs": false,
+            "substitution_guard_active": false,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 2,
+        "resolved_nodes": 1,
+        "unreachable_nodes": 1
+      }
+    },
+    {
+      "fixture_id": "m9-5-022",
+      "repository": "edge/server-error-500",
+      "cohort": "edge_failure",
+      "doc_strategy": "http_500_failure",
+      "ground_truth": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 43,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 35,
+        "geo": 25
+      },
+      "multi_overall": 33,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 0,
+          "p2_external_count": 0,
+          "p3_excluded_count": 1
+        },
+        "deduplication": {
+          "total_raw_headings": 1,
+          "total_deduped_headings": 1,
+          "total_raw_code_blocks": 0,
+          "total_deduped_code_blocks": 0,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": false,
+            "has_quickstart_guide": false,
+            "install_source_tier": null,
+            "total_effective_headings": 1,
+            "recovered_from_multidoc": false
+          },
+          "geo": {
+            "has_runnable_code": false,
+            "code_blocks_count": 0,
+            "root_code_count": 0,
+            "external_code_recovered": 0,
+            "is_citability_eligible": false,
+            "recovered_from_multidoc": false,
+            "has_docs_surface": false
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": false,
+            "has_nested_workspace_docs": false,
+            "substitution_guard_active": false,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 2,
+        "resolved_nodes": 1,
+        "unreachable_nodes": 1
+      }
+    },
+    {
+      "fixture_id": "m9-5-023",
+      "repository": "edge/timeout-unreachable",
+      "cohort": "edge_failure",
+      "doc_strategy": "network_timeout",
+      "ground_truth": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 43,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 35,
+        "geo": 25
+      },
+      "multi_overall": 33,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 0,
+          "p2_external_count": 0,
+          "p3_excluded_count": 1
+        },
+        "deduplication": {
+          "total_raw_headings": 1,
+          "total_deduped_headings": 1,
+          "total_raw_code_blocks": 0,
+          "total_deduped_code_blocks": 0,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": false,
+            "has_quickstart_guide": false,
+            "install_source_tier": null,
+            "total_effective_headings": 1,
+            "recovered_from_multidoc": false
+          },
+          "geo": {
+            "has_runnable_code": false,
+            "code_blocks_count": 0,
+            "root_code_count": 0,
+            "external_code_recovered": 0,
+            "is_citability_eligible": false,
+            "recovered_from_multidoc": false,
+            "has_docs_surface": false
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": false,
+            "has_nested_workspace_docs": false,
+            "substitution_guard_active": false,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 2,
+        "resolved_nodes": 1,
+        "unreachable_nodes": 1
+      }
+    },
+    {
+      "fixture_id": "m9-5-024",
+      "repository": "edge/binary-target-pdf",
+      "cohort": "edge_failure",
+      "doc_strategy": "binary_file_target",
+      "ground_truth": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 43,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 35,
+        "geo": 25
+      },
+      "multi_overall": 33,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 0,
+          "p2_external_count": 1,
+          "p3_excluded_count": 0
+        },
+        "deduplication": {
+          "total_raw_headings": 1,
+          "total_deduped_headings": 1,
+          "total_raw_code_blocks": 0,
+          "total_deduped_code_blocks": 0,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": false,
+            "has_quickstart_guide": false,
+            "install_source_tier": null,
+            "total_effective_headings": 1,
+            "recovered_from_multidoc": false
+          },
+          "geo": {
+            "has_runnable_code": false,
+            "code_blocks_count": 0,
+            "root_code_count": 0,
+            "external_code_recovered": 0,
+            "is_citability_eligible": false,
+            "recovered_from_multidoc": false,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": true,
+            "has_nested_workspace_docs": false,
+            "substitution_guard_active": true,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 2,
+        "resolved_nodes": 2,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-025",
+      "repository": "edge/generic-anchor-text",
+      "cohort": "edge_failure",
+      "doc_strategy": "generic_anchor_rejection",
+      "ground_truth": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 39,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_surfaces": {
+        "seo": 39,
+        "aeo": 35,
+        "geo": 25
+      },
+      "multi_overall": 29,
+      "semantics": null,
+      "graph_summary": {
+        "total_nodes": 1,
+        "resolved_nodes": 1,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-026",
+      "repository": "edge/empty-doc-response",
+      "cohort": "edge_failure",
+      "doc_strategy": "empty_doc_content",
+      "ground_truth": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 39,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 35,
+        "geo": 25
+      },
+      "multi_overall": 33,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 0,
+          "p2_external_count": 1,
+          "p3_excluded_count": 0
+        },
+        "deduplication": {
+          "total_raw_headings": 1,
+          "total_deduped_headings": 1,
+          "total_raw_code_blocks": 0,
+          "total_deduped_code_blocks": 0,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": false,
+            "has_quickstart_guide": false,
+            "install_source_tier": null,
+            "total_effective_headings": 1,
+            "recovered_from_multidoc": false
+          },
+          "geo": {
+            "has_runnable_code": false,
+            "code_blocks_count": 0,
+            "root_code_count": 0,
+            "external_code_recovered": 0,
+            "is_citability_eligible": false,
+            "recovered_from_multidoc": false,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": true,
+            "has_nested_workspace_docs": false,
+            "substitution_guard_active": true,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 2,
+        "resolved_nodes": 2,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-027",
+      "repository": "adversarial/massive-doc-payload",
+      "cohort": "adversarial_stress",
+      "doc_strategy": "guard_a_payload_cap",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 39,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 55,
+        "geo": 65
+      },
+      "multi_overall": 45,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 0,
+          "p2_external_count": 1,
+          "p3_excluded_count": 0
+        },
+        "deduplication": {
+          "total_raw_headings": 44,
+          "total_deduped_headings": 44,
+          "total_raw_code_blocks": 42,
+          "total_deduped_code_blocks": 42,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": true,
+            "has_quickstart_guide": true,
+            "install_source_tier": "P2",
+            "total_effective_headings": 23,
+            "recovered_from_multidoc": true
+          },
+          "geo": {
+            "has_runnable_code": true,
+            "code_blocks_count": 6,
+            "root_code_count": 0,
+            "external_code_recovered": 6,
+            "is_citability_eligible": true,
+            "recovered_from_multidoc": true,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": true,
+            "has_nested_workspace_docs": false,
+            "substitution_guard_active": true,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 2,
+        "resolved_nodes": 2,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-028",
+      "repository": "adversarial/spam-link-readme",
+      "cohort": "adversarial_stress",
+      "doc_strategy": "guard_d_link_spam",
+      "ground_truth": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 43,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "multi_surfaces": {
+        "seo": 43,
+        "aeo": 35,
+        "geo": 25
+      },
+      "multi_overall": 29,
+      "semantics": null,
+      "graph_summary": {
+        "total_nodes": 1,
+        "resolved_nodes": 1,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-029",
+      "repository": "adversarial/stub-root-cheat-seo",
+      "cohort": "adversarial_stress",
+      "doc_strategy": "guard_c_stub_cheating",
+      "ground_truth": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 39,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 55,
+        "geo": 55
+      },
+      "multi_overall": 45,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 0,
+          "p2_external_count": 1,
+          "p3_excluded_count": 0
+        },
+        "deduplication": {
+          "total_raw_headings": 5,
+          "total_deduped_headings": 5,
+          "total_raw_code_blocks": 2,
+          "total_deduped_code_blocks": 2,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": true,
+            "has_quickstart_guide": true,
+            "install_source_tier": "P2",
+            "total_effective_headings": 5,
+            "recovered_from_multidoc": true
+          },
+          "geo": {
+            "has_runnable_code": true,
+            "code_blocks_count": 2,
+            "root_code_count": 0,
+            "external_code_recovered": 2,
+            "is_citability_eligible": true,
+            "recovered_from_multidoc": true,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": true,
+            "has_nested_workspace_docs": false,
+            "substitution_guard_active": true,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 2,
+        "resolved_nodes": 2,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-030",
+      "repository": "adversarial/stub-root-workspace-cheat",
+      "cohort": "adversarial_stress",
+      "doc_strategy": "guard_c_workspace_cheating",
+      "ground_truth": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 2
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 36,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 60,
+        "geo": 55
+      },
+      "multi_overall": 45,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 1,
+          "p2_external_count": 0,
+          "p3_excluded_count": 0
+        },
+        "deduplication": {
+          "total_raw_headings": 4,
+          "total_deduped_headings": 4,
+          "total_raw_code_blocks": 2,
+          "total_deduped_code_blocks": 2,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": true,
+            "has_quickstart_guide": true,
+            "install_source_tier": "P1",
+            "total_effective_headings": 4,
+            "recovered_from_multidoc": true
+          },
+          "geo": {
+            "has_runnable_code": true,
+            "code_blocks_count": 2,
+            "root_code_count": 0,
+            "external_code_recovered": 2,
+            "is_citability_eligible": true,
+            "recovered_from_multidoc": true,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": false,
+            "has_nested_workspace_docs": true,
+            "substitution_guard_active": false,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 2,
+        "resolved_nodes": 2,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-031",
+      "repository": "adversarial/contradictory-examples",
+      "cohort": "adversarial_stress",
+      "doc_strategy": "contradictory_evidence",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 39,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 55,
+        "geo": 60
+      },
+      "multi_overall": 45,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 0,
+          "p2_external_count": 1,
+          "p3_excluded_count": 0
+        },
+        "deduplication": {
+          "total_raw_headings": 4,
+          "total_deduped_headings": 4,
+          "total_raw_code_blocks": 3,
+          "total_deduped_code_blocks": 3,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": true,
+            "has_quickstart_guide": true,
+            "install_source_tier": "P2",
+            "total_effective_headings": 4,
+            "recovered_from_multidoc": true
+          },
+          "geo": {
+            "has_runnable_code": true,
+            "code_blocks_count": 3,
+            "root_code_count": 0,
+            "external_code_recovered": 3,
+            "is_citability_eligible": true,
+            "recovered_from_multidoc": true,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": true,
+            "has_nested_workspace_docs": false,
+            "substitution_guard_active": true,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 2,
+        "resolved_nodes": 2,
+        "unreachable_nodes": 0
+      }
+    },
+    {
+      "fixture_id": "m9-5-032",
+      "repository": "adversarial/circular-reference-docs",
+      "cohort": "adversarial_stress",
+      "doc_strategy": "circular_reference_guard",
+      "ground_truth": {
+        "overall": 3,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "baseline_buckets": {
+        "overall": 1,
+        "seo": 2,
+        "aeo": 2,
+        "geo": 1
+      },
+      "baseline_surfaces": {
+        "seo": 43,
+        "aeo": 35,
+        "geo": 25
+      },
+      "baseline_overall": 29,
+      "multi_buckets": {
+        "overall": 2,
+        "seo": 2,
+        "aeo": 3,
+        "geo": 3
+      },
+      "multi_surfaces": {
+        "seo": 40,
+        "aeo": 60,
+        "geo": 55
+      },
+      "multi_overall": 45,
+      "semantics": {
+        "provenance_summary": {
+          "p0_root_count": 1,
+          "p1_local_count": 2,
+          "p2_external_count": 0,
+          "p3_excluded_count": 0
+        },
+        "deduplication": {
+          "total_raw_headings": 5,
+          "total_deduped_headings": 5,
+          "total_raw_code_blocks": 2,
+          "total_deduped_code_blocks": 2,
+          "duplicate_headings_dropped": 0,
+          "duplicate_code_dropped": 0
+        },
+        "surfaces": {
+          "aeo": {
+            "has_install_instructions": true,
+            "has_quickstart_guide": true,
+            "install_source_tier": "P1",
+            "total_effective_headings": 5,
+            "recovered_from_multidoc": true
+          },
+          "geo": {
+            "has_runnable_code": true,
+            "code_blocks_count": 2,
+            "root_code_count": 0,
+            "external_code_recovered": 2,
+            "is_citability_eligible": true,
+            "recovered_from_multidoc": true,
+            "has_docs_surface": true
+          },
+          "seo": {
+            "is_stub_root": true,
+            "has_verified_external_docs_link": false,
+            "has_nested_workspace_docs": true,
+            "substitution_guard_active": false,
+            "seo_bonus_points": 5
+          }
+        }
+      },
+      "graph_summary": {
+        "total_nodes": 3,
+        "resolved_nodes": 3,
+        "unreachable_nodes": 0
+      }
+    }
+  ]
+}

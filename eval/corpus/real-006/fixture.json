@@ -1,0 +1,125 @@
+{
+  "id": "real-006",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "expressjs/express",
+  "commit": "59a8c14838b0fb60b54fc17342880753f090ccff",
+  "capturedAt": "2026-09-08T11:48:55.670Z",
+  "files": [
+    {
+      "path": "examples/auth/index.js",
+      "sha256": "578f606208dc83b35d953f78bb3d88bd2d5e000df0646a4b646dffb6d2ed8a5d",
+      "sizeBytes": 3704
+    },
+    {
+      "path": "examples/auth/views/foot.ejs",
+      "sha256": "3cd003886c87f03cea861a7beea8c6f6961b03444ef81c92768f3feab1b48fb0",
+      "sizeBytes": 20
+    },
+    {
+      "path": "examples/auth/views/head.ejs",
+      "sha256": "7006f62c38eaccbd7b38036036a419d3ba0559091eeba46c929c67d853513cb7",
+      "sizeBytes": 414
+    },
+    {
+      "path": "examples/auth/views/login.ejs",
+      "sha256": "259cc1dfc00f787dd6f95c33ba37354c5b1af009e7c87b98fe01ab36b29b3410",
+      "sizeBytes": 554
+    },
+    {
+      "path": "examples/content-negotiation/db.js",
+      "sha256": "3a9a08dc810eb6d11728a07c74a4aefeba23e3d62be3b9935adb48d7080bdaa9",
+      "sizeBytes": 155
+    },
+    {
+      "path": "examples/content-negotiation/index.js",
+      "sha256": "12a66ab24b18817ccb544eca0fe400523e77016509c8774d809d6928836ac574",
+      "sizeBytes": 1049
+    },
+    {
+      "path": "examples/content-negotiation/users.js",
+      "sha256": "04b20cf7fd81426323e8c262742a26956c936629d0b59b3968ae0bc48a67c57c",
+      "sizeBytes": 401
+    },
+    {
+      "path": "examples/cookie-sessions/index.js",
+      "sha256": "abd887c754190f339ca104624a3380e760accfaf6186790844bdea19a6db728b",
+      "sizeBytes": 576
+    },
+    {
+      "path": "examples/cookies/index.js",
+      "sha256": "5e9a1a31b7a72a3521849165edabfab601db3af6b4d04cbc2661d5709b1ded50",
+      "sizeBytes": 1364
+    },
+    {
+      "path": "examples/downloads/files/amazing.txt",
+      "sha256": "008329dc26b4a1bed52a3ae6864947d90eaa5c3cdb73a9dae0b9a1f64af527c4",
+      "sizeBytes": 24
+    },
+    {
+      "path": "examples/downloads/files/CCTV大赛上海分赛区.txt",
+      "sha256": "a157d24d63b268d76d429b31287f17f0cdf8dc32fcd85f1544d84ddf8e568551",
+      "sizeBytes": 39
+    },
+    {
+      "path": "examples/downloads/index.js",
+      "sha256": "490ebc660ba731618bdd18fa1886d5260e1fef34e4ebf4d80a2aa952fa08bb27",
+      "sizeBytes": 1233
+    },
+    {
+      "path": "examples/ejs/index.js",
+      "sha256": "cd11c2ac82804b560d7c90e0280a100976cb7c31bd21cada11c56df4830f16d0",
+      "sizeBytes": 1388
+    },
+    {
+      "path": "examples/ejs/views/footer.html",
+      "sha256": "a4d3488a7a5f2b225e010eefdfaee58755eae7598ec9d9fef3f570cfc51f9788",
+      "sizeBytes": 18
+    },
+    {
+      "path": "examples/ejs/views/header.html",
+      "sha256": "7a79646976448917c5f177d2c2f9581cf71917b9201307fabe55159f65dda460",
+      "sizeBytes": 245
+    },
+    {
+      "path": "examples/ejs/views/users.html",
+      "sha256": "7ff567b5bc9b87f97923209c24c4ac5515f8a60ccb417047b251e4f770584f73",
+      "sizeBytes": 216
+    },
+    {
+      "path": "examples/error/index.js",
+      "sha256": "f0142d830f896ff1a3d4522a4dc9aa2dec13d20bed97a1116226ae3de928a003",
+      "sizeBytes": 1386
+    },
+    {
+      "path": "examples/error-pages/index.js",
+      "sha256": "c6f9c245314bc6620302b6cee8f173d1b68172739da85067638c9eef3a3aee84",
+      "sizeBytes": 2768
+    },
+    {
+      "path": "examples/error-pages/views/404.ejs",
+      "sha256": "7568f8a91fcb52be0acbb6ef825c755724c760b119e59f090e7828964b91154b",
+      "sizeBytes": 93
+    },
+    {
+      "path": "examples/error-pages/views/500.ejs",
+      "sha256": "8b23cacf758d32cd550dee5d30148b9abe968af3124ccf509d9a8986ad89f1bb",
+      "sizeBytes": 226
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "3df0132f30cd7cca33e738a679f4e51f74430c8e0a76a6547e25c192d6d74cad",
+      "sizeBytes": 1273
+    },
+    {
+      "path": "package.json",
+      "sha256": "1097b1fa92790b02815678522c570b55c32dbf96df903086c0c67554cf700353",
+      "sizeBytes": 2830
+    },
+    {
+      "path": "Readme.md",
+      "sha256": "54fa2c8c8b82e932cdee54c3ed890fa4e45269eedb79b9ca1025c6fdf76a0c0d",
+      "sizeBytes": 10653
+    }
+  ]
+}

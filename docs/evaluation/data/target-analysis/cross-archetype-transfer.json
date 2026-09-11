@@ -1,0 +1,240 @@
+{
+  "methodology": "Failures occurring across >=6 archetypes are classified as WIDESPREAD (general heuristic deficiency). Failures occurring in <=3 archetypes are ARCHETYPE-SPECIFIC.",
+  "transfer_matrix": {
+    "F01": {
+      "code": "F01",
+      "name": "Missing semantic signal",
+      "modality": "LEXICAL",
+      "total_count": 14,
+      "archetype_counts": {
+        "cli": 2,
+        "library": 2,
+        "framework": 2,
+        "sdk": 0,
+        "devtool": 0,
+        "webapp": 2,
+        "docs": 0,
+        "monorepo": 0,
+        "devops": 2,
+        "data_ml": 2,
+        "plugin": 2,
+        "small_project": 0
+      },
+      "is_widespread": true,
+      "active_archetype_count": 7
+    },
+    "F02": {
+      "code": "F02",
+      "name": "False-positive semantic signal",
+      "modality": "LEXICAL",
+      "total_count": 15,
+      "archetype_counts": {
+        "cli": 0,
+        "library": 6,
+        "framework": 3,
+        "sdk": 3,
+        "devtool": 3,
+        "webapp": 0,
+        "docs": 0,
+        "monorepo": 0,
+        "devops": 0,
+        "data_ml": 0,
+        "plugin": 0,
+        "small_project": 0
+      },
+      "is_widespread": false,
+      "active_archetype_count": 4
+    },
+    "F03": {
+      "code": "F03",
+      "name": "Structural mismatch",
+      "modality": "STRUCTURAL",
+      "total_count": 62,
+      "archetype_counts": {
+        "cli": 8,
+        "library": 6,
+        "framework": 2,
+        "sdk": 12,
+        "devtool": 5,
+        "webapp": 6,
+        "docs": 0,
+        "monorepo": 3,
+        "devops": 5,
+        "data_ml": 6,
+        "plugin": 2,
+        "small_project": 7
+      },
+      "is_widespread": true,
+      "active_archetype_count": 11
+    },
+    "F04": {
+      "code": "F04",
+      "name": "Evidence-quality mismatch",
+      "modality": "WEIGHTING",
+      "total_count": 94,
+      "archetype_counts": {
+        "cli": 4,
+        "library": 9,
+        "framework": 9,
+        "sdk": 4,
+        "devtool": 8,
+        "webapp": 8,
+        "docs": 7,
+        "monorepo": 9,
+        "devops": 14,
+        "data_ml": 11,
+        "plugin": 4,
+        "small_project": 7
+      },
+      "is_widespread": true,
+      "active_archetype_count": 12
+    },
+    "F05": {
+      "code": "F05",
+      "name": "Granularity mismatch",
+      "modality": "WEIGHTING",
+      "total_count": 63,
+      "archetype_counts": {
+        "cli": 7,
+        "library": 8,
+        "framework": 4,
+        "sdk": 9,
+        "devtool": 5,
+        "webapp": 7,
+        "docs": 0,
+        "monorepo": 1,
+        "devops": 8,
+        "data_ml": 10,
+        "plugin": 2,
+        "small_project": 2
+      },
+      "is_widespread": true,
+      "active_archetype_count": 11
+    },
+    "F06": {
+      "code": "F06",
+      "name": "Context/window limitation",
+      "modality": "CONDITIONAL",
+      "total_count": 0,
+      "archetype_counts": {
+        "cli": 0,
+        "library": 0,
+        "framework": 0,
+        "sdk": 0,
+        "devtool": 0,
+        "webapp": 0,
+        "docs": 0,
+        "monorepo": 0,
+        "devops": 0,
+        "data_ml": 0,
+        "plugin": 0,
+        "small_project": 0
+      },
+      "is_widespread": false,
+      "active_archetype_count": 0
+    },
+    "F07": {
+      "code": "F07",
+      "name": "Cross-section reasoning failure",
+      "modality": "COMPOSITIONAL",
+      "total_count": 1,
+      "archetype_counts": {
+        "cli": 0,
+        "library": 0,
+        "framework": 0,
+        "sdk": 0,
+        "devtool": 0,
+        "webapp": 0,
+        "docs": 0,
+        "monorepo": 0,
+        "devops": 0,
+        "data_ml": 1,
+        "plugin": 0,
+        "small_project": 0
+      },
+      "is_widespread": false,
+      "active_archetype_count": 1
+    },
+    "F08": {
+      "code": "F08",
+      "name": "Documentation-architecture failure",
+      "modality": "STRUCTURAL",
+      "total_count": 20,
+      "archetype_counts": {
+        "cli": 0,
+        "library": 0,
+        "framework": 0,
+        "sdk": 0,
+        "devtool": 0,
+        "webapp": 0,
+        "docs": 12,
+        "monorepo": 8,
+        "devops": 0,
+        "data_ml": 0,
+        "plugin": 0,
+        "small_project": 0
+      },
+      "is_widespread": false,
+      "active_archetype_count": 2
+    },
+    "F09": {
+      "code": "F09",
+      "name": "Comparative/evaluative failure",
+      "modality": "COMPOSITIONAL",
+      "total_count": 7,
+      "archetype_counts": {
+        "cli": 1,
+        "library": 0,
+        "framework": 0,
+        "sdk": 0,
+        "devtool": 2,
+        "webapp": 2,
+        "docs": 0,
+        "monorepo": 0,
+        "devops": 1,
+        "data_ml": 1,
+        "plugin": 0,
+        "small_project": 0
+      },
+      "is_widespread": false,
+      "active_archetype_count": 5
+    },
+    "F10": {
+      "code": "F10",
+      "name": "Unknown / unclassified",
+      "modality": "MISSING-CAPABILITY",
+      "total_count": 18,
+      "archetype_counts": {
+        "cli": 1,
+        "library": 1,
+        "framework": 0,
+        "sdk": 1,
+        "devtool": 0,
+        "webapp": 1,
+        "docs": 0,
+        "monorepo": 3,
+        "devops": 3,
+        "data_ml": 6,
+        "plugin": 2,
+        "small_project": 0
+      },
+      "is_widespread": true,
+      "active_archetype_count": 8
+    }
+  },
+  "summary": {
+    "widespread_failures": [
+      "F01",
+      "F03",
+      "F04",
+      "F05",
+      "F10"
+    ],
+    "archetype_specific_failures": [
+      "F02",
+      "F07",
+      "F08",
+      "F09"
+    ]
+  }
+}

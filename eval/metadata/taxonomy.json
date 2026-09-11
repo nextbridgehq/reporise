@@ -1,0 +1,117 @@
+{
+  "release": "corpus-m8-v1.0.0",
+  "archetypes": [
+    {
+      "code": "cli",
+      "name": "CLI / Command-Line Tools",
+      "count": 10
+    },
+    {
+      "code": "library",
+      "name": "Libraries / Packages",
+      "count": 12
+    },
+    {
+      "code": "framework",
+      "name": "Frameworks",
+      "count": 10
+    },
+    {
+      "code": "sdk",
+      "name": "SDKs / API Clients",
+      "count": 12
+    },
+    {
+      "code": "devtool",
+      "name": "Developer Tools & Linters",
+      "count": 10
+    },
+    {
+      "code": "webapp",
+      "name": "Web Applications & Services",
+      "count": 10
+    },
+    {
+      "code": "docs",
+      "name": "Documentation Repositories",
+      "count": 8
+    },
+    {
+      "code": "monorepo",
+      "name": "Monorepos / Multi-Package",
+      "count": 8
+    },
+    {
+      "code": "devops",
+      "name": "DevOps, Infra & CI/CD",
+      "count": 12
+    },
+    {
+      "code": "data_ml",
+      "name": "Data / ML / AI Projects",
+      "count": 14
+    },
+    {
+      "code": "plugin",
+      "name": "Plugins / Extensions",
+      "count": 7
+    },
+    {
+      "code": "small_project",
+      "name": "Small / Minimal Utility Repositories",
+      "count": 7
+    }
+  ],
+  "readme_characteristics": [
+    {
+      "code": "char_minimal",
+      "name": "Minimal / Sparse (< 50 lines)",
+      "count": 8
+    },
+    {
+      "code": "char_standard",
+      "name": "Standard / Balanced",
+      "count": 50
+    },
+    {
+      "code": "char_docs_heavy",
+      "name": "Docs Heavy / Comprehensive (> 300 lines)",
+      "count": 15
+    },
+    {
+      "code": "char_api_reference",
+      "name": "API Reference Heavy",
+      "count": 15
+    },
+    {
+      "code": "char_tutorial",
+      "name": "Tutorial / Walkthrough Style",
+      "count": 31
+    },
+    {
+      "code": "char_architecture",
+      "name": "Architecture / Deep Technical Explanation",
+      "count": 30
+    },
+    {
+      "code": "char_feature_comparison",
+      "name": "Feature Comparison / Why-Us Heavy",
+      "count": 24
+    },
+    {
+      "code": "char_example_heavy",
+      "name": "Example-Heavy / Code-Dense",
+      "count": 32
+    },
+    {
+      "code": "char_install_config",
+      "name": "Install / Configuration Heavy",
+      "count": 46
+    },
+    {
+      "code": "char_mixed",
+      "name": "Mixed / Hybrid Format",
+      "count": 9
+    }
+  ]
+}

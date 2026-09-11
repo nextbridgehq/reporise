@@ -1,0 +1,6 @@
+{
+  "https://pytorch.org/docs/stable/": {
+    "http_status": 200,
+    "content": "# PyTorch Documentation\n\n## Installation\n```bash\npip install torch torchvision\n```\n\n## Introduction\nPyTorch is an optimized tensor library.\n"
+  }
+}

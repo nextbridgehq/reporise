@@ -1,0 +1,125 @@
+{
+  "id": "real-022",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "cli/cli",
+  "commit": "0d121e8c31204cdbe02b4a4b1be5e88bdc3c4662",
+  "capturedAt": "2026-09-08T11:50:12.149Z",
+  "files": [
+    {
+      "path": "docs/api-host-test-harness.md",
+      "sha256": "bc1981676b8c0a3f7ead606b130897930b3a2d84298f4fc43482a59db0c48464",
+      "sizeBytes": 12653
+    },
+    {
+      "path": "docs/api-host.md",
+      "sha256": "c25d83e0022d16d2a5b492e2f29a4f9921cd7356d3477bc9fda6bd2f558027dd",
+      "sizeBytes": 5265
+    },
+    {
+      "path": "docs/codespaces.md",
+      "sha256": "c8a8bda0eb16575ad66e27bbe1a602181b5efef27cf23e635585dcad8eb56ff2",
+      "sizeBytes": 1381
+    },
+    {
+      "path": "docs/command-line-syntax.md",
+      "sha256": "d45341fb96b14525363581fa54819c2127ea30c24636c6f9c6a37aeeb2478141",
+      "sizeBytes": 1580
+    },
+    {
+      "path": "docs/gh-vs-hub.md",
+      "sha256": "1b758026bfb0476b1cf7a556d69fbbbe285615b82310144ef7c104f3691c7cb5",
+      "sizeBytes": 2790
+    },
+    {
+      "path": "docs/install_linux.md",
+      "sha256": "d7933e6076d80b3b83911ad2f42e071616f09569f731d826d65029b959eb194c",
+      "sizeBytes": 15027
+    },
+    {
+      "path": "docs/install_macos.md",
+      "sha256": "8d14f717bd008d3cb29d45507bdf6fdf2198d24c535fb4b52756c804987a5de2",
+      "sizeBytes": 4280
+    },
+    {
+      "path": "docs/install_source.md",
+      "sha256": "06b95b69d4dce9ee224e3427f669771cf3d9fdeb0b3b901d7fe6fc53dd21f32e",
+      "sizeBytes": 1771
+    },
+    {
+      "path": "docs/install_windows.md",
+      "sha256": "f93df1049ac93637bda77a9196391f2b5ebd9b09d0b6f23cee54b037753bcb2c",
+      "sizeBytes": 3408
+    },
+    {
+      "path": "docs/license-compliance.md",
+      "sha256": "ac99b685ece5adc639ec7ba3d85cc739328d57f8e9a57b1aab19d7df98059322",
+      "sizeBytes": 1457
+    },
+    {
+      "path": "docs/macos-keyring.md",
+      "sha256": "5b28cc23c68617a3f43233f85bc0dca97a3c34e7f844d848e348733c13282ea1",
+      "sizeBytes": 3898
+    },
+    {
+      "path": "docs/multiple-accounts.md",
+      "sha256": "39925e31aa9f3679435387c1b92f03dc2bfadaf049f93d0bd67645deac27249d",
+      "sizeBytes": 10808
+    },
+    {
+      "path": "docs/primer/components/README.md",
+      "sha256": "1f9801d8bd5b7386b359e5487d7ba8bf0cd2c965d7b4de36773acadc331b0f09",
+      "sizeBytes": 5770
+    },
+    {
+      "path": "docs/primer/foundations/README.md",
+      "sha256": "b091badb996154b985c4d1b8799786d0448421a31a1ee471e1761727af3fafbf",
+      "sizeBytes": 8078
+    },
+    {
+      "path": "docs/primer/getting-started/README.md",
+      "sha256": "aedffb4224d86c246946ddd5a5bfe90ad763d6ced35288c557c442802cb65fbc",
+      "sizeBytes": 5547
+    },
+    {
+      "path": "docs/primer/README.md",
+      "sha256": "33b946dc997a3dc2f30cf01820fda189625138f8aca4cbaea467c9046073781c",
+      "sizeBytes": 696
+    },
+    {
+      "path": "docs/project-layout.md",
+      "sha256": "d6d23c281ad353d84293feb715e4be13c086508cb61aea17bad06969d7fd3e89",
+      "sizeBytes": 5457
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "9175aaabd4fe804f399b8ed68cddbe093e8306326200c6ef2c40a9a373be8d3e",
+      "sizeBytes": 183
+    },
+    {
+      "path": "docs/release-process-deep-dive.md",
+      "sha256": "d5d98475e1d8896989ab644a827e6f6046d1221219eaba7264f2226a848aceb0",
+      "sizeBytes": 47637
+    },
+    {
+      "path": "docs/releasing.md",
+      "sha256": "cc40bdc8ef10aa57ac15066ca856c0d9fbdb6aa916203fd3ec3a08975f586d0b",
+      "sizeBytes": 2541
+    },
+    {
+      "path": "go.mod",
+      "sha256": "4925865d6b558677945a3025543d7f9875fae64243fb7451ec92c48e496fd4ea",
+      "sizeBytes": 9211
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "8999137010582da29456c10e0a628bf3fa7ead05ab3ae5f424ad25cd0dd94574",
+      "sizeBytes": 1089
+    },
+    {
+      "path": "README.md",
+      "sha256": "86fca2092dc3a83ad64ab29a86995cfc25ef0b34cdfdfd8d854a129154550f58",
+      "sizeBytes": 6384
+    }
+  ]
+}

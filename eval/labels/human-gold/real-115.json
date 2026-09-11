@@ -1,0 +1,25 @@
+{
+  "fixture_id": "real-115",
+  "repository": "sindresorhus/is-plain-obj",
+  "primary_archetype": "small_project",
+  "split": "train",
+  "rubric_version": "m8-label-rubric-v1.0.0",
+  "evaluator_id": "human_gold_panel",
+  "label_source": "human_verified",
+  "human_verified": true,
+  "gold_role": "untouched_evaluation",
+  "scores": {
+    "overall": 3,
+    "seo": 3,
+    "aeo": 3,
+    "geo": 2
+  },
+  "raw_score": 3,
+  "rationale": {
+    "overall": "human_gold: Expert human review rated discoverability at 3/5 based on holistic synthesis under m8-label-rubric-v1.0.0.",
+    "seo": "human_gold: SEO rated 3/5. Evaluated title canonicalization, manifest completeness, and license clarity.",
+    "aeo": "human_gold: AEO rated 3/5. Evaluated answers to 5 canonical questions; verified quickstart usability.",
+    "geo": "human_gold: GEO rated 2/5. Evaluated factual citability, code fencing, tables, and architectural clarity."
+  },
+  "reviewed_at": "2026-09-08T12:32:15.454Z"
+}

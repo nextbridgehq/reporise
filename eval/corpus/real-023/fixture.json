@@ -1,0 +1,125 @@
+{
+  "id": "real-023",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "charmbracelet/bubbletea",
+  "commit": "73b6d91ac1c3854dd4af046ab5f9e51d3b3b4290",
+  "capturedAt": "2026-09-08T11:50:45.290Z",
+  "files": [
+    {
+      "path": "examples/altscreen-toggle/altscreen-toggle.gif",
+      "sha256": "bc4a0d09bddc895c10b0a512faead418eab5bf4a17ad0d9203e2d305bd23eaed",
+      "sizeBytes": 51058
+    },
+    {
+      "path": "examples/altscreen-toggle/main.go",
+      "sha256": "74791c64389abd5401cf93899ec675a486c4ef9886c244be4815db22dad94b6f",
+      "sizeBytes": 1646
+    },
+    {
+      "path": "examples/altscreen-toggle/README.md",
+      "sha256": "05df6125cb6b6a3ec13e23ae00586b819dc45a416833c106fab8867c15c5831c",
+      "sizeBytes": 73
+    },
+    {
+      "path": "examples/autocomplete/main.go",
+      "sha256": "e349ea9231fef52ba7525b7109ef3d23b1d0ff8ef247d0ac7acbebf38b36d98b",
+      "sizeBytes": 4075
+    },
+    {
+      "path": "examples/canvas/main.go",
+      "sha256": "457e00c1b181aa96c609d7e4840f3f3fecf87d0306202ec2ce2778cd5ea462c7",
+      "sizeBytes": 1757
+    },
+    {
+      "path": "examples/capability/main.go",
+      "sha256": "0f3d2a9c40f1944a4254e9ab91d884ea502ed4443791c975c30e0170bf8c86a9",
+      "sizeBytes": 1634
+    },
+    {
+      "path": "examples/cellbuffer/main.go",
+      "sha256": "b1d0b632ebcee2fe41e03eb61384040e0481021af8654f8980476018bed57b77",
+      "sizeBytes": 4092
+    },
+    {
+      "path": "examples/chat/chat.gif",
+      "sha256": "c2ee5a01881e33851829c65d892f339b78c5180d2098286f9b184f2d6fd0f0e0",
+      "sizeBytes": 29724
+    },
+    {
+      "path": "examples/chat/main.go",
+      "sha256": "7a08f5b202e41155abbfd8c8a0f4e3bf75f9f495b43b8d2b5018056058bb1f3a",
+      "sizeBytes": 2975
+    },
+    {
+      "path": "examples/chat/README.md",
+      "sha256": "597549a8894566d88bde836514db19adee1ff0db5b332fa65c4b7bb8fefa471f",
+      "sizeBytes": 48
+    },
+    {
+      "path": "examples/clickable/main.go",
+      "sha256": "e66153c1e7289f8151197637afdbb7dd72154ef84e4935da873b7b5993addebe",
+      "sizeBytes": 8210
+    },
+    {
+      "path": "examples/clickable/words.go",
+      "sha256": "7c7ec0c366b90b5d38107ae7c6974e95798b8aaa45d2f5ab969b41f10605c584",
+      "sizeBytes": 2299
+    },
+    {
+      "path": "examples/colorprofile/main.go",
+      "sha256": "322adb112b22075f3a35f4f417502a2debf39444044de3120780c278605b6a50",
+      "sizeBytes": 1188
+    },
+    {
+      "path": "examples/composable-views/composable-views.gif",
+      "sha256": "fd11cc932dcd245462238b25c466dec7ee039227f3f49f032214d9205c30fdf5",
+      "sizeBytes": 50083
+    },
+    {
+      "path": "examples/composable-views/main.go",
+      "sha256": "b31f2c194fd96100119fab816ce07d6359ec84d770fe2955c4632a3a842a42fd",
+      "sizeBytes": 4030
+    },
+    {
+      "path": "examples/composable-views/README.md",
+      "sha256": "1a3bda21de0c1ec358f03d7df403bc606749f1f96859b28f3fdbc31aabe1bcc7",
+      "sizeBytes": 72
+    },
+    {
+      "path": "examples/cursor-style/main.go",
+      "sha256": "a8a533b73e2fced81eb0c3fc5de098cf5a0cad772150591ee30d21bae9ddda16",
+      "sizeBytes": 1483
+    },
+    {
+      "path": "examples/debounce/debounce.gif",
+      "sha256": "381ea5f421ce1534691e8564bfb6d3bf32ce9cc99ce658f6fa3c627ce0cc9b30",
+      "sizeBytes": 21919
+    },
+    {
+      "path": "examples/debounce/main.go",
+      "sha256": "f95d585e47867296dbea61e5426a4193b27d41546a8377f31214c376ce078d96",
+      "sizeBytes": 1743
+    },
+    {
+      "path": "examples/debounce/README.md",
+      "sha256": "4d25b76c854d1ac3ce156dbfce21a6c7f6e2192f8364060caef09307f1806820",
+      "sizeBytes": 56
+    },
+    {
+      "path": "go.mod",
+      "sha256": "1b2bcf3a767c3e3d8eb09df472646f508cfb97ba4bdbf5963ffd1727d45099f2",
+      "sizeBytes": 1034
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "93d143ff6f42d42f1e9727c21114d6615a6d17f2afb38cecd89f60bcda39f607",
+      "sizeBytes": 1102
+    },
+    {
+      "path": "README.md",
+      "sha256": "7f225b62b0765c4c2fac56850df8a7ef7542d18db54d2231df658e3c4a2ad499",
+      "sizeBytes": 15294
+    }
+  ]
+}

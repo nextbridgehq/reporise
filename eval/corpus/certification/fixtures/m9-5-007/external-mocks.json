@@ -1,0 +1,6 @@
+{
+  "https://kit.svelte.dev/docs": {
+    "http_status": 200,
+    "content": "# SvelteKit Docs\n\n## Getting Started\n```bash\nnpx sv create my-app\ncd my-app\nnpm install\nnpm run dev\n```\n\n## Routing\nSvelteKit uses filesystem-based routing in `src/routes`.\n"
+  }
+}

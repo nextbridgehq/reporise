@@ -1,0 +1,22 @@
+{
+  "fixture_id": "real-033",
+  "repository": "colinhacks/zod",
+  "rubric_version": "m8-label-rubric-v1.0.0",
+  "evaluator_id": "reviewer_a",
+  "label_source": "ai_review",
+  "human_verified": false,
+  "gold_role": "none",
+  "scores": {
+    "overall": 0,
+    "seo": 0,
+    "aeo": 0,
+    "geo": 0
+  },
+  "rationale": {
+    "overall": "reviewer_a: README is absent, empty, or essentially unreadable (Score: 0).",
+    "seo": "reviewer_a: Zero discoverability signals, missing README and basic package context (Score: 0).",
+    "aeo": "reviewer_a: None of the 5 canonical questions can be answered (Score: 0).",
+    "geo": "reviewer_a: Zero technical citability or machine-readable documentation (Score: 0)."
+  },
+  "reviewed_at": "2026-09-08T12:31:34.803Z"
+}

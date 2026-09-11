@@ -1,0 +1,90 @@
+{
+  "id": "real-044",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "stripe/stripe-python",
+  "commit": "885cdaa8d8b335b0768d955b5ee69f951ebe00e3",
+  "capturedAt": "2026-09-08T11:56:15.278Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "dc20fdb1945bf1ca3bcc893974c3ed8a82644dda519f18ea91f121b696ff30a9",
+      "sizeBytes": 364925
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "79321b6066656908c1fb6250dea69cc9a5d9a653bfdf260a556ff83d58b8dd00",
+      "sizeBytes": 3445
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "cb9ed1418e46c229ba36d4ad8bf7ee56feeb61d60a6b13717a61ccd364d03a86",
+      "sizeBytes": 2295
+    },
+    {
+      "path": "examples/async_event_notification_handler_endpoint.py",
+      "sha256": "69aff3f0ed005cae833580bdb47573e51651f69561110168f6df955992436e93",
+      "sizeBytes": 4092
+    },
+    {
+      "path": "examples/event_notification_handler_endpoint.py",
+      "sha256": "af51068c5b38677b51fa841511e1310027966fb7a5d8fe753511a944ee0a810a",
+      "sizeBytes": 3606
+    },
+    {
+      "path": "examples/event_notification_webhook_handler.py",
+      "sha256": "6c4ab4d67ca3126739ec003aab4398618d3694b505f6345c36d535c744ebdad7",
+      "sizeBytes": 4589
+    },
+    {
+      "path": "examples/example_template.py",
+      "sha256": "16def59cebce556d240d6a8506f3230975bcd9237cec98c6336a89bb18acb834",
+      "sizeBytes": 507
+    },
+    {
+      "path": "examples/meter_event_stream.py",
+      "sha256": "0ef15bbc22e6100376036e981c986c663c0c4d5e4e68f33eaa69ac2044f7f29b",
+      "sizeBytes": 1932
+    },
+    {
+      "path": "examples/oauth.py",
+      "sha256": "5823d25351e487bb548075ec2ea9db6f2b83591b3075420efb7a12ed826c96fa",
+      "sizeBytes": 1578
+    },
+    {
+      "path": "examples/proxy.py",
+      "sha256": "6d6857943f37a1d229de58ffb9832b19ddf650dec816499495901d16d8b179ae",
+      "sizeBytes": 979
+    },
+    {
+      "path": "examples/raw_request.py",
+      "sha256": "2273024616508f92c06eb9e7f1a9ab578851d876399670d4e555cb9a94073fb8",
+      "sizeBytes": 427
+    },
+    {
+      "path": "examples/README.md",
+      "sha256": "f1c2e61ff3c100f15892896c7385f39518aadcaf8fbbfed95d1580ede9c6c3b3",
+      "sizeBytes": 379
+    },
+    {
+      "path": "examples/webhooks.py",
+      "sha256": "d36b660596d914f99032a54d5dd3c6321124c6360c517c111f0a6c533550adf8",
+      "sizeBytes": 1060
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "13747fec034a39a4437c78e8bb972e8d9de8835c5d7dde32d1eef725bfd492ff",
+      "sizeBytes": 1113
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "9d8fac355201167e02fa45e602640a9c20af72e1b7c9684a15754ff4b0de5414",
+      "sizeBytes": 3470
+    },
+    {
+      "path": "README.md",
+      "sha256": "c1d6ba4e9d1ef3ed378f03bcb5e9a60ded99c084d56a5fc2cfc7cbe317f1a62c",
+      "sizeBytes": 20919
+    }
+  ]
+}

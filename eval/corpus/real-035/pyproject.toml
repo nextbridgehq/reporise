@@ -1,0 +1,373 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+    "setuptools>=77.0.3",
+    "cython>=3.3; platform_python_implementation == 'CPython'", # Skip cython when using pypy
+]
+
+
+[project]
+name = "SQLAlchemy"
+description = "Database Abstraction Library"
+readme = "README.rst"
+authors = [{name = "Mike Bayer", email = "mike_mp@zzzcomputing.com"}]
+license = "MIT"
+license-files = ["LICENSE", "AUTHORS"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: 3.15",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Database :: Front-Ends",
+]
+requires-python = ">=3.11"
+dependencies = [
+    "typing-extensions >= 4.6.0",
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://www.sqlalchemy.org"
+Documentation = "https://docs.sqlalchemy.org"
+Changelog = "https://docs.sqlalchemy.org/latest/changelog/index.html"
+"Source Code" = "https://github.com/sqlalchemy/sqlalchemy"
+"Issue Tracker" = "https://github.com/sqlalchemy/sqlalchemy/issues"
+Discussions = "https://github.com/sqlalchemy/sqlalchemy/discussions"
+
+[project.optional-dependencies]
+asyncio = ["greenlet>=1"]
+mypy = [
+    "mypy >= 2.3",
+    "types-greenlet >= 2",
+]
+mssql = ["pyodbc"]
+mssql-pymssql = ["pymssql"]
+mssql-pyodbc = ["pyodbc"]
+mssql-python = ["mssql-python>=1.9.0"]
+mysql = ["mysqlclient>=1.4.0"]
+mysql-connector = ["mysql-connector-python"]
+mariadb-connector = ["mariadb>=1.0.1,!=1.1.2,!=1.1.5,!=1.1.10"]
+oracle = ["oracledb>=2.0.1"]
+oracle-cxoracle = ["cx_oracle>=8"]
+oracle-oracledb = ["oracledb>=2.0.1"]
+postgresql = ["psycopg>=3.0.7,!=3.1.15"]
+postgresql-pg8000 = ["pg8000>=1.29.3"]
+postgresql-asyncpg = [
+    "sqlalchemy[asyncio]",
+    "asyncpg",
+]
+postgresql-psycopg2binary = ["psycopg2-binary"]
+postgresql-psycopg2cffi = ["psycopg2cffi"]
+postgresql-psycopg = ["psycopg>=3.0.7,!=3.1.15"]
+postgresql-psycopgbinary = ["psycopg[binary]>=3.0.7,!=3.1.15"]
+pymysql = ["pymysql"]
+cymysql = ["cymysql"]
+aiomysql = [
+    "sqlalchemy[asyncio]",
+    "aiomysql",
+]
+aioodbc = [
+    "sqlalchemy[asyncio]",
+    "aioodbc",
+]
+asyncmy = [
+    "sqlalchemy[asyncio]",
+    "asyncmy>=0.2.12",
+]
+aiosqlite = [
+    "sqlalchemy[asyncio]",
+    "aiosqlite",
+]
+sqlcipher = ["sqlcipher3_binary"]
+
+# legacy pre-pep-685 names. These are ignored by pip >= 23.3.0
+mssql_pymssql = ["sqlalchemy[mssql-pymssql]"]
+mssql_pyodbc = ["sqlalchemy[mssql-pyodbc]"]
+mysql_connector = ["sqlalchemy[mysql-connector]"]
+mariadb_connector = ["sqlalchemy[mariadb-connector]"]
+oracle_oracledb = ["sqlalchemy[oracle-oracledb]"]
+postgresql_pg8000 = ["sqlalchemy[postgresql-pg8000]"]
+postgresql_asyncpg = ["sqlalchemy[postgresql-asyncpg]"]
+postgresql_psycopg2binary = ["sqlalchemy[postgresql-psycopg2binary]"]
+postgresql_psycopg2cffi = ["sqlalchemy[postgresql-psycopg2cffi]"]
+postgresql_psycopg = ["sqlalchemy[postgresql-psycopg]"]
+postgresql_psycopgbinary = ["sqlalchemy[postgresql-psycopgbinary]"]
+
+[dependency-groups]
+tests = [
+    "pytest>=7.0.0,<10",
+    "pytest-xdist",
+]
+
+coverage = ["pytest-cov"]
+
+tests-greenlet = ["sqlalchemy[asyncio]"]
+
+tests-sqlite = []
+
+tests-sqlite-asyncio = [
+    {include-group = "tests-greenlet"},
+    {include-group = "tests-sqlite"},
+    "sqlalchemy[aiosqlite]"
+]
+
+tests-sqlite-file = [{include-group = "tests-sqlite"}]
+tests-sqlite-file-asyncio = [{include-group = "tests-sqlite-asyncio"}]
+
+tests-postgresql = [
+    "sqlalchemy[postgresql-psycopg2binary]",
+    "sqlalchemy[postgresql-psycopgbinary]",
+    "sqlalchemy[postgresql-pg8000]",
+]
+
+tests-postgresql-asyncio = [
+    {include-group = "tests-greenlet"},
+    {include-group = "tests-postgresql"},
+    "sqlalchemy[postgresql-asyncpg]"
+]
+
+tests-mysql = [
+    "sqlalchemy[mysql]",
+    "sqlalchemy[pymysql]",
+    "sqlalchemy[mysql-connector]",
+
+    # originally to fix https://jira.mariadb.org/browse/CONPY-318,
+    # more recent versions still have attribute errors and other random
+    # problems
+    "mariadb>=1.0.1,!=1.1.2,!=1.1.5,!=1.1.10,<1.1.13",
+
+]
+tests-mysql-asyncio = [
+    {include-group = "tests-greenlet"},
+    {include-group = "tests-mysql"},
+    "sqlalchemy[aiomysql]",
+    "sqlalchemy[asyncmy]",
+]
+
+tests-oracle-asyncio = [
+    {include-group = "tests-greenlet"},
+    {include-group = "tests-oracle"},
+]
+tests-oracle = [
+    "sqlalchemy[oracle]",
+]
+
+tests-mssql = [
+    "sqlalchemy[mssql]",
+    "sqlalchemy[mssql-pymssql]",
+    "sqlalchemy[mssql-python]",
+]
+
+tests-mssql-asyncio = [
+    {include-group = "tests-greenlet"},
+    {include-group = "tests-mssql"},
+    "aioodbc"
+]
+
+lint = [
+    {include-group = "tests-greenlet"},
+    "flake8>=7.3.0",
+    "flake8-pyproject",
+    "flake8-import-order>=0.19.2",
+    "flake8-import-single==0.1.5",
+    "flake8-builtins",
+    "flake8-future-annotations>=0.0.5",
+    "flake8-docstrings",
+    "flake8-unused-arguments",
+    "flake8-rst-docstrings",
+    "pydocstyle<4.0.0",
+    "pygments",
+    "black==26.3.1",
+    "slotscheck>=0.17.0",
+    "zimports>=0.7.0",  # required by generate_tuple_map_overloads
+]
+
+mypy = [
+    {include-group = "tests-greenlet"},
+    "sqlalchemy[mypy]",
+    "nox",  # because we check noxfile.py
+    "pytest>8,<10",  # alembic/testing imports pytest
+    "types-greenlet",
+]
+
+[tool.coverage.paths]
+source=["lib/"]
+
+[tool.coverage.run]
+relative_files = true
+omit = [
+    "lib/sqlalchemy/testing/plugin/*",
+    "lib/sqlalchemy/testing/fixtures/mypy.py",
+    "lib/sqlalchemy/testing/profiling.py",
+    "lib/sqlalchemy/util/tool_support.py",
+]
+
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["lib"]
+namespaces = false
+
+[tool.setuptools.dynamic]
+version = {attr = "sqlalchemy.__version__"}
+
+
+[tool.black]
+line-length = 79
+target-version = ['py310']
+
+
+[tool.zimports]
+black-line-length = 79
+
+
+[tool.flake8]
+show-source = false
+enable-extensions = "G"
+
+# E203 is due to https://github.com/PyCQA/pycodestyle/issues/373
+ignore = [
+    "A003","A005",
+    "D",
+    "E203","E305","E701","E704","E711","E712","E721","E722","E741",
+    # F542: t-string without any placeholders (used in documentation examples)
+    "F542",
+    "I300",
+    "N801","N802","N806",
+    "RST304","RST303","RST299","RST399",
+    "W503","W504","W601",
+    "U100","U101"
+]
+
+exclude = [".venv",".git",".tox","dist","doc","*egg","build"]
+import-order-style = "google"
+application-import-names = ["sqlalchemy","test"]
+per-file-ignores =[
+    "**/__init__.py:F401",
+    "test/*:FA100",
+    "test/typing/plain_files/*:F821,E501,FA100",
+    "lib/sqlalchemy/events.py:F401",
+    "lib/sqlalchemy/schema.py:F401",
+    "lib/sqlalchemy/types.py:F401",
+    "lib/sqlalchemy/sql/expression.py:F401",
+    "lib/sqlalchemy/util/typing.py:F401"
+]
+
+unused-arguments-ignore-stub-functions=true
+unused-arguments-ignore-dunder=true
+
+[tool.slotscheck]
+exclude-modules = '''
+^sqlalchemy\.testing
+'''
+
+
+# disable isort, for IDEs that just default isort to be turned on, e.g. vscode.
+# we use flake8-import-order for import sorting, using zimports to actually
+# reformat code.  isort is nicer in many ways but doesn't have our
+# "import *" fixer and also is not 100% compatible with flake8-import-order.
+[tool.isort]
+skip_glob=['*']
+
+
+[tool.pytest.ini_options]
+addopts = "--tb native -v -r sfxX --maxfail=250 -p warnings -p logging --strict-markers"
+norecursedirs = "examples build doc lib"
+python_files = "test_*.py"
+minversion = "6.2"
+filterwarnings = [
+    # NOTE: additional SQLAlchemy specific filters in
+    # sqlalchemy/testing/warnings.py.   SQLAlchemy modules cannot be named
+    # here as pytest loads them immediately, which breaks coverage as well
+    # as sys.path adjustments in conftest.py
+    "error::DeprecationWarning:test",
+    "error::DeprecationWarning:sqlalchemy",
+
+    # sqlite3 warnings due to test/dialect/test_sqlite.py->test_native_datetime,
+    # which is asserting that these deprecated-in-py312 handlers are functional
+    "ignore:The default (date)?(time)?(stamp)? (adapter|converter):DeprecationWarning",
+
+    # warning regarding using "fork" mode for multiprocessing when the parent
+    # has threads; using pytest-xdist introduces threads in the parent
+    # and we use multiprocessing in test/aaa_profiling/test_memusage.py where
+    # we require "fork" mode
+    # https://github.com/python/cpython/pull/100229#issuecomment-2704616288
+    "ignore:This process .* is multi-threaded:DeprecationWarning",
+]
+markers = [
+    "memory_intensive: memory / CPU intensive suite tests",
+    "mypy: mypy integration / plugin tests",
+    "timing_intensive: time-oriented tests that are sensitive to race conditions",
+    "backend: tests that should run on all backends; typically dialect-sensitive",
+    "sparse_backend: tests that should run on just one backend for each kind of db",
+    "sparse_driver_backend: tests that should run on just one kind of driver for each kind of db",
+    "gc_intensive: needs extremely predictable GC behavior",
+]
+
+
+[tool.pyright]
+
+reportPrivateUsage = "none"
+reportUnusedClass = "none"
+reportUnusedFunction = "none"
+reportTypedDictNotRequiredAccess = "warning"
+
+
+[tool.mypy]
+mypy_path = "./lib/"
+show_error_codes = true
+incremental = true
+enable_error_code = "ignore-without-code"
+
+[[tool.mypy.overrides]]
+
+module = [
+    "sqlalchemy.*"
+]
+
+warn_unused_ignores = true
+strict = true
+
+[[tool.mypy.overrides]]
+
+module = ["cython", "cython.*"]
+ignore_missing_imports = true
+
+[tool.cibuildwheel]
+test-requires = "nox pytest pytest-xdist"
+# the pytest flags, test paths and environment needed to test a built wheel
+# are in the test-wheel session in noxfile.py; --no-venv runs it against
+# the wheel cibuildwheel has installed here rather than a new environment.
+# single quoted so the double quotes reach both sh and cmd, which need them
+# to protect the parentheses
+test-command = 'nox -f {project}/noxfile.py --no-venv -s "test-wheel(full)"'
+
+build = "*"
+
+[tool.cibuildwheel.macos]
+archs = ["arm64"]
+
+# On an Linux Intel runner with qemu installed, build Intel and ARM wheels
+# NOTE: this is overridden in the pipeline using the CIBW_ARCHS_LINUX env variable to speed up the build
+[tool.cibuildwheel.linux]
+archs = ["x86_64", "aarch64", "riscv64"]
+
+# riscv64 has no runner and is built under QEMU emulation, where the full
+# suite takes about an hour per wheel; as each Python version produces two
+# wheels (manylinux and musllinux), a job covering more than two versions
+# runs past the six hour limit.  The "reduced" scope covers the compiled
+# extensions, which are the only architecture specific part of a wheel.
+# Matches both libc variants.
+[[tool.cibuildwheel.overrides]]
+select = "*riscv64"
+test-command = 'nox -f {project}/noxfile.py --no-venv -s "test-wheel(reduced)"'

@@ -1,0 +1,150 @@
+{
+  "id": "real-095",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "open-telemetry/opentelemetry-collector",
+  "commit": "af735319546aa0b4b94e25609d9157fff6f93b6c",
+  "capturedAt": "2026-09-08T12:18:45.931Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "7ffa6c35cc5d3eab8432b2252a55c34dab15254bb70c72b06563b156d5146608",
+      "sizeBytes": 298340
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "c6907af3a4c3d841867eb067d6aa747afa1b7a197d1be92ee249e17d3afca833",
+      "sizeBytes": 24531
+    },
+    {
+      "path": "docs/coding-guidelines.md",
+      "sha256": "fe0f8b1a0797d38036361df659513334b10b920c159a25f044ca80f932b85c3f",
+      "sizeBytes": 38739
+    },
+    {
+      "path": "docs/component-stability.md",
+      "sha256": "bdc4b4a526f0bea19906f4da6a03dd6e70b75cfdc80e1578aabea3581b1a3d25",
+      "sizeBytes": 24327
+    },
+    {
+      "path": "docs/component-status.md",
+      "sha256": "93edf43886c2303acfc6241f966795c3e93ca51e0cb7764a3de22c3a0f40bea8",
+      "sizeBytes": 8074
+    },
+    {
+      "path": "docs/ga-roadmap.md",
+      "sha256": "7ed0d134901c5fffd66af4ab236151b657e741d6e23a71e6c28ac666275c316d",
+      "sizeBytes": 4264
+    },
+    {
+      "path": "docs/img/component-status-runtime-states.svg",
+      "sha256": "76f1dfc0a5705486d2a35388ae6ed31421c26888b25a4ec7297b11200a2f5a31",
+      "sizeBytes": 2190
+    },
+    {
+      "path": "docs/img/component-status-state-diagram.svg",
+      "sha256": "90c726ca02c2c80a111ecf3a7318192fb1bd261723111ee79dae3fda9b3da022",
+      "sizeBytes": 4134
+    },
+    {
+      "path": "docs/internal-architecture.md",
+      "sha256": "69ff197e3299bd148efd819dfbbca932143f80d7640cbbf3f3a3f6a0a0984c1f",
+      "sizeBytes": 5789
+    },
+    {
+      "path": "docs/observability.md",
+      "sha256": "262caee0d87100142f108b07183158c6f0f02fb84b959de9d290039d06dd30e3",
+      "sizeBytes": 8160
+    },
+    {
+      "path": "docs/platform-support.md",
+      "sha256": "51beed77dc36e60701639eaaad5effaf3263766e72c92e1601f9c52a94305ded",
+      "sizeBytes": 9426
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "b22b79e1fe1803420b1380d8d1548ebb1c07601ec22e4795a9ede064187acc69",
+      "sizeBytes": 2942
+    },
+    {
+      "path": "docs/release.md",
+      "sha256": "dc16039aadaa9b406f011064462c53911d7afb72af24c7d71482a5dac4844c6a",
+      "sizeBytes": 18635
+    },
+    {
+      "path": "docs/rfcs/batching-migration.md",
+      "sha256": "3cf406fa3bbb6df2d5f6b44df68a2682a9062b3c97374a32f6c473e7a963f590",
+      "sizeBytes": 20262
+    },
+    {
+      "path": "docs/rfcs/component-configuration-schema-roadmap.md",
+      "sha256": "9d6a9b9f69ac1c3800e111280820604d4879ae5a17be7d0cb0e59e159c8e07e6",
+      "sizeBytes": 16700
+    },
+    {
+      "path": "docs/rfcs/component-interfaces.md",
+      "sha256": "6ade1c025d3f184d75c8958c773833c73857f52e488bb74333d16e2b4583e870",
+      "sizeBytes": 12167
+    },
+    {
+      "path": "docs/rfcs/component-status-reporting.md",
+      "sha256": "492111bf1cd122430676c54fb079094d0796975a13b90e4ddfc931a44747cced",
+      "sizeBytes": 10649
+    },
+    {
+      "path": "docs/rfcs/component-universal-telemetry.md",
+      "sha256": "d9847e100efadda54b595c03f0cb8c33b0439b5c5d1bba9935e5f4b2a10b4bd2",
+      "sizeBytes": 12398
+    },
+    {
+      "path": "docs/rfcs/configuration-merging-strategy.md",
+      "sha256": "07d1b606664a87a5fce33d3965850b98c53b5873369b9d4ef6fb06f564a8fd0c",
+      "sizeBytes": 9551
+    },
+    {
+      "path": "docs/rfcs/configuring-confmap-providers.md",
+      "sha256": "14d4f6d165a5cf7ab68979ef1ccc3de2c0134171f6665d62da80415e3c2c0c3c",
+      "sizeBytes": 7372
+    },
+    {
+      "path": "docs/rfcs/env-vars.md",
+      "sha256": "7e158f15a4a35482ea9d3d949feb098c929af54a6ebcb42515e90c09fd466e4a",
+      "sizeBytes": 11646
+    },
+    {
+      "path": "docs/rfcs/experimental-profiling.md",
+      "sha256": "e28724ad48cc40e7970baa5f1a73e4fe4db3ac9241854ed1ee197aaa631db221",
+      "sizeBytes": 3592
+    },
+    {
+      "path": "examples/k8s/otel-config.yaml",
+      "sha256": "52821687f35ee240aa74543a8ca1502c344ede02d2a2e4426cd2d892a657b8da",
+      "sizeBytes": 5773
+    },
+    {
+      "path": "examples/local/otel-config.yaml",
+      "sha256": "c7cc56376b77021ebdd4336ad23bdf96e753e1d8b38995f0da63cfd8cd64af44",
+      "sizeBytes": 720
+    },
+    {
+      "path": "examples/README.md",
+      "sha256": "988876a0a703210e83f422882117ff45c0f0413e108e5cade902d77d881b8e18",
+      "sizeBytes": 167
+    },
+    {
+      "path": "go.mod",
+      "sha256": "2942e54535fc21287bb21d1cff10a59a2456c943bd67978cdd8132d211076a10",
+      "sizeBytes": 1020
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sizeBytes": 11358
+    },
+    {
+      "path": "README.md",
+      "sha256": "a1af388db3685b873d621b3e160ed34aa97e638bfd345f88d14cb6c31e29d1c7",
+      "sizeBytes": 24354
+    }
+  ]
+}

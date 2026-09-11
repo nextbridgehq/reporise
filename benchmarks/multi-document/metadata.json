@@ -1,0 +1,48 @@
+{
+  "track": "multi_document",
+  "title": "RepoRise Multi-Document Evidence Benchmark Suite",
+  "status": "FROZEN",
+  "version": "1.0.0",
+  "freeze_commit": "3743940",
+  "release_tag": "m9.5-certified",
+  "components": {
+    "resolver": "skills/visibility-audit/scripts/lib/resolver.mjs",
+    "evidence_graph": "skills/visibility-audit/scripts/lib/evidence-graph.mjs",
+    "evidence_semantics": "skills/visibility-audit/scripts/lib/evidence-semantics.mjs",
+    "multi_audit": "skills/visibility-audit/scripts/lib/multi-audit.mjs",
+    "attribution": "skills/visibility-audit/scripts/lib/attribution.mjs"
+  },
+  "guardrails": {
+    "guard_a_inflation_defense": "256 KB document cap; max 6 external code blocks; max 10 external headings",
+    "guard_b_semantic_deduplication": "Canonical normalization and cross-document command deduplication",
+    "guard_c_source_substitution_ceiling": "Stub root READMEs capped at Bucket 2 on SEO & Overall",
+    "guard_d_overreach_boundary": "Hop depth strictly bounded to 1; max 5 external targets",
+    "guard_e_fail_closed_isolation": "4xx, 5xx, timeouts, binary files quarantined with 0 score contribution"
+  },
+  "certification_metrics_n32": {
+    "overall_mae": 0.6875,
+    "overall_bootstrap_ci": [
+      -1.0938,
+      -0.8437
+    ],
+    "geo_mae": 0.2813,
+    "geo_bootstrap_ci": [
+      -1.5313,
+      -0.875
+    ],
+    "aeo_mae": 0.0938,
+    "aeo_bootstrap_ci": [
+      -0.8125,
+      -0.5
+    ],
+    "seo_mae": 0.0313,
+    "within_one_pct": 100,
+    "guard_c_stub_violations": 0,
+    "unit_tests_passing": 64
+  },
+  "datasets": {
+    "resolution": "benchmarks/multi-document/resolution-v1.0.0.json",
+    "scoring": "benchmarks/multi-document/scoring-v1.0.0.json",
+    "certification": "benchmarks/certification/certification-v1.0.0.json"
+  }
+}

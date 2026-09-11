@@ -1,0 +1,7 @@
+{
+  "name": "directus-root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

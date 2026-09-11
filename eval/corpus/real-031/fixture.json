@@ -1,0 +1,25 @@
+{
+  "id": "real-031",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "serde-rs/serde",
+  "commit": "a874a1b1bb1cc16cf5ee3b1b7b527af5705742bb",
+  "capturedAt": "2026-09-08T11:51:46.757Z",
+  "files": [
+    {
+      "path": "Cargo.toml",
+      "sha256": "78195c6b5f257f89e952e82412e0720489ac520e721100565f07047de752f826",
+      "sizeBytes": 479
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "65974011f440458c614e9ad841e182b42cfd0ea527bd1552da7d6ee70219a5d2",
+      "sizeBytes": 2079
+    },
+    {
+      "path": "README.md",
+      "sha256": "02c8b01714bd60d8ed61b4c8729ba6e02210c81d40f27abd3b50926b1e69f70d",
+      "sizeBytes": 4472
+    }
+  ]
+}

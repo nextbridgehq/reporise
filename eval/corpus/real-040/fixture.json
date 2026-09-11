@@ -1,0 +1,40 @@
+{
+  "id": "real-040",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "nestjs/nest",
+  "commit": "39fbddae51281ca56bf2fed9123d98e61509066c",
+  "capturedAt": "2026-09-08T11:53:15.946Z",
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "6f257d4b4fd15982c231a7be474fbc99c7abdf8cfc73d49c18b4c5ab771e0239",
+      "sizeBytes": 3426
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "e1146930a484d69e28e68d5a3b1fcf538b89bd7ff41fd4bf3cab899503980067",
+      "sizeBytes": 14478
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "967ff3ea470c2eddd5bc56af9ed559d306b5172a41ec0f2c703c9f2f64bc7eb0",
+      "sizeBytes": 1137
+    },
+    {
+      "path": "package.json",
+      "sha256": "674a037f030eeb372ca788cc783ae3066f7ea1fe82f289fbb1fbf1e03da9c63f",
+      "sizeBytes": 6644
+    },
+    {
+      "path": "Readme.md",
+      "sha256": "35f579b80d50babfc6e04aaef93edb1755d9440b7fa423e23613afab27f329a0",
+      "sizeBytes": 11012
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "cd565c025613443c4a1e670f6df9aef1c665654ead33e480fce001e51b868f63",
+      "sizeBytes": 109
+    }
+  ]
+}

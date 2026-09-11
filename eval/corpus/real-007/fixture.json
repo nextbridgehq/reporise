@@ -1,0 +1,125 @@
+{
+  "id": "real-007",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "requests/requests",
+  "commit": "0a7fb0d97034c7a52efcde1bcdd275ff0d1a4da6",
+  "capturedAt": "2026-09-08T11:47:05.414Z",
+  "files": [
+    {
+      "path": "docs/.nojekyll",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "sizeBytes": 2
+    },
+    {
+      "path": "docs/api.rst",
+      "sha256": "8bcdf03dbf2ab3ab1028ceb372954932e5f42a01d704f49872581480420a2297",
+      "sizeBytes": 7594
+    },
+    {
+      "path": "docs/community/faq.rst",
+      "sha256": "ddf73b85d9992379b1be3426194dc319dc3598977d3217373762617fb64863ca",
+      "sizeBytes": 3835
+    },
+    {
+      "path": "docs/community/out-there.rst",
+      "sha256": "2e86a56cc21e3d0f4ce2227320f1761834f3bba1e8d152e66b0fbdaae37a16b5",
+      "sizeBytes": 631
+    },
+    {
+      "path": "docs/community/recommended.rst",
+      "sha256": "b2c35b4e74daa3025d82ad62cdfbb56fcb2bf29df5ed2ee2e00c97ebd933d09c",
+      "sizeBytes": 2236
+    },
+    {
+      "path": "docs/community/release-process.rst",
+      "sha256": "e53cab96eeee55601a35ae062f27342a22ac8b0cbe9e3c7be59249a5f65622af",
+      "sizeBytes": 2119
+    },
+    {
+      "path": "docs/community/support.rst",
+      "sha256": "94ffcb6a896f4341ebeb50c191c15397ac7da07aa3a1187ae0ebd9ba68169aab",
+      "sizeBytes": 877
+    },
+    {
+      "path": "docs/community/updates.rst",
+      "sha256": "f59fa722bb74ca1de411263d4b03aac797b08967132416a284347e361d93005f",
+      "sizeBytes": 340
+    },
+    {
+      "path": "docs/community/vulnerabilities.rst",
+      "sha256": "ad9afed123ae8dc6b2f0d3f98786cc988d830df5d6af825a10293b6a4025b68b",
+      "sizeBytes": 218
+    },
+    {
+      "path": "docs/conf.py",
+      "sha256": "ba7271074083cde611100ae4c0f74d448a90a8b6a6043926336989157d5a5783",
+      "sizeBytes": 12533
+    },
+    {
+      "path": "docs/dev/authors.rst",
+      "sha256": "bf85da9f103cb1d35f294cc12f9d6677e56ac9c41366b29bb7faf88e33100653",
+      "sizeBytes": 52
+    },
+    {
+      "path": "docs/dev/contributing.rst",
+      "sha256": "324b365329f20ff7d457dbfedcec846f68e57b5b6c4900273cfc1742d1edc158",
+      "sizeBytes": 6749
+    },
+    {
+      "path": "docs/index.rst",
+      "sha256": "4d58ea01c67755f482d81395b48bf3952aa74d4d2d3def9c921b0c4aa9e7f470",
+      "sizeBytes": 3779
+    },
+    {
+      "path": "docs/make.bat",
+      "sha256": "75173bb75a983aaef908c548fe9a3557bbcb57c7d3b87600490a0eb17f9e6848",
+      "sizeBytes": 7258
+    },
+    {
+      "path": "docs/Makefile",
+      "sha256": "0b4aa71cc67203f223101d2eff73f5e309ca5cc92fb2942fcb8eef97ac2113b4",
+      "sizeBytes": 7885
+    },
+    {
+      "path": "docs/requirements.txt",
+      "sha256": "6034ea7697a48ec5a1282bbb0e85d16c7e4b2e4efebdc85fc2287ddacb2713de",
+      "sizeBytes": 90
+    },
+    {
+      "path": "docs/user/advanced.rst",
+      "sha256": "3aeeb651268efd3d3dee2e41ad49829718ee0e05c7fa0c885df2385004855483",
+      "sizeBytes": 43040
+    },
+    {
+      "path": "docs/user/authentication.rst",
+      "sha256": "5b4f09309444feb519c0abb230c0e56b58908050f8c009860985a7b133d1bc22",
+      "sizeBytes": 6009
+    },
+    {
+      "path": "docs/user/install.rst",
+      "sha256": "c5606c4174189422bf71d5207befec38d6ccc835cb94b8e1731f8829bfe10de2",
+      "sizeBytes": 1074
+    },
+    {
+      "path": "docs/user/quickstart.rst",
+      "sha256": "da3f09c4d16f5d8abb43891797c263b6b06cb175d3baa760686edfd63161c592",
+      "sizeBytes": 19786
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "88046bf22d5b4f4b8cc85079ae6aae5424a3a1999db952ed152828ff325b2c6d",
+      "sizeBytes": 10317
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "37e9930f62ed461c813456b322949ca9687fab0aa6c7e5c076ac3e006192a0e5",
+      "sizeBytes": 3529
+    },
+    {
+      "path": "README.md",
+      "sha256": "15b3a5801783809a84a13d65ca0903f8445530451ee7a64499c52e595c150242",
+      "sizeBytes": 2982
+    }
+  ]
+}

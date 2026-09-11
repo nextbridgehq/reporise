@@ -1,0 +1,6 @@
+{
+  "https://payloadcms.com/docs": {
+    "http_status": 200,
+    "content": "# Payload CMS Documentation\n\n## Installation\n```bash\nnpx create-payload-app@latest\n```\n\n## Configuration\nPayload config file.\n"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/nextbridgehq/reporise/schemas/audit.schema.json",
+  "title": "RepoRise audit",
+  "description": "The artifact written to .reporise/audit.json by visibility-audit. Fully derived from the working tree; reproducible offline.",
+  "type": "object",
+  "required": ["version", "generatedAt", "signals", "results", "categories", "surfaces", "overall"],
+  "properties": {
+    "version": { "type": "string" },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "config": { "type": "object" },
+    "signals": {
+      "type": "object",
+      "description": "Raw observations from collect.mjs. Judgement-free by design: no scores here, so a disputed verdict can always be traced back to the underlying fact.",
+      "properties": {
+        "root": { "type": "string" },
+        "repo": { "type": "object" },
+        "readme": { "type": "object" },
+        "manifest": { "type": ["object", "null"] },
+        "files": { "type": "object" },
+        "dirs": { "type": "object" }
+      }
+    },
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "category", "surfaces", "title", "status", "evidence"],
+        "properties": {
+          "id": { "type": "string" },
+          "category": { "type": "string", "enum": ["identity", "discoverability", "answerability", "citability", "hygiene"] },
+          "surfaces": { "type": "array", "items": { "type": "string", "enum": ["seo", "aeo", "geo"] } },
+          "title": { "type": "string" },
+          "status": {
+            "type": "string",
+            "enum": ["pass", "warn", "fail", "skip"],
+            "description": "skip means not determinable offline. Excluded from scoring rather than counted as a failure."
+          },
+          "evidence": { "type": "string", "description": "What was actually observed. Always concrete enough to verify by hand." },
+          "fix": { "type": ["string", "null"] },
+          "confidence": {
+            "type": "string",
+            "enum": ["established", "speculative"],
+            "description": "speculative marks a fix whose payoff is genuinely unproven. Surface this to the user rather than smoothing it away."
+          }
+        }
+      }
+    },
+    "categories": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "label": { "type": "string" },
+          "blurb": { "type": "string" },
+          "weight": { "type": "number" },
+          "score": { "type": ["integer", "null"], "description": "null when every check in the category was skipped." },
+          "counts": { "type": "object" }
+        }
+      }
+    },
+    "surfaces": {
+      "type": "object",
+      "properties": {
+        "seo": { "type": ["integer", "null"] },
+        "aeo": { "type": ["integer", "null"] },
+        "geo": { "type": ["integer", "null"] }
+      }
+    },
+    "overall": { "type": ["integer", "null"] },
+    "topFixes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "status": { "type": "string" },
+          "priority": { "type": "number", "description": "category weight x severity x surface count" }
+        }
+      }
+    }
+  }
+}

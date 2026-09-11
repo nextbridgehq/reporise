@@ -1,0 +1,45 @@
+{
+  "id": "real-009",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "facebook/react",
+  "commit": "c0c6b16d1232840ad09efb46ba12f38d3f6696db",
+  "capturedAt": "2026-09-08T11:47:05.417Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "948246ff77202285930db5558e4dccd7acf91fef3aa8bbbc634e30c7ace8ea18",
+      "sizeBytes": 272684
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "49fd7625ea116e80b0b3f999c981647d7ec28568b9b999382b8e5ba8ed6fa32c",
+      "sizeBytes": 3621
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "511d4e8c3b1be30a6a46f15c6b853d9e2e8927ab3fead253854c6e4811b2db14",
+      "sizeBytes": 213
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "63e8210e6bf3e8c032dc0c69b1d1d2e3ab72c14b02cabcc0dada2618bb188b97",
+      "sizeBytes": 1109
+    },
+    {
+      "path": "package.json",
+      "sha256": "6ae7621cc3f897c6b21b07f5feca1d1173a8601096df4f7ac82ab592fbce6fdd",
+      "sizeBytes": 8775
+    },
+    {
+      "path": "README.md",
+      "sha256": "d421c2d288098805b2e0e4e9cbad0b9373dc68d661ab2fb3f596fde89ef9161a",
+      "sizeBytes": 5395
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "62d419d5dbf7da4ef3192a8311aec3e08f2ec41c25df9af76ef6c54a328c2cf2",
+      "sizeBytes": 407
+    }
+  ]
+}

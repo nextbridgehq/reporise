@@ -1,0 +1,130 @@
+{
+  "id": "real-093",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "containerd/containerd",
+  "commit": "e5e07573b1a5e83c7d5de417f0d5801f0d7f38ff",
+  "capturedAt": "2026-09-08T12:15:42.091Z",
+  "files": [
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "8ad7f0ced6b64c54d21d3c485a592d0c1bbb0f3dedecc821ab49aaf4ba35912c",
+      "sizeBytes": 4100
+    },
+    {
+      "path": "docs/.editorconfig",
+      "sha256": "87d8aa909333b3beca5b392366d0b2c17473b9648e5bc89018dede785c488791",
+      "sizeBytes": 167
+    },
+    {
+      "path": "docs/client-opts.md",
+      "sha256": "ab4cfe1f50dec5f1a66698d98e1fd010a31292a4ccf8bc58c3da19bc25ef6d4e",
+      "sizeBytes": 3671
+    },
+    {
+      "path": "docs/containerd-2.0.md",
+      "sha256": "e2f44368ac217358de2f777d6d8d6e637b2dbdef589a7ae6f5f4b12e378927ff",
+      "sizeBytes": 14187
+    },
+    {
+      "path": "docs/containerd-nri-integration.png",
+      "sha256": "05e5561c371b24ff67d8d7cb2ca7f4a12aa97456e3d98f16f3a82af3abaff3d4",
+      "sizeBytes": 133206
+    },
+    {
+      "path": "docs/content-flow.md",
+      "sha256": "f85547bca3cef9363f1795b455ce9e5d1700cbb723d74035a8df115670d54089",
+      "sizeBytes": 31048
+    },
+    {
+      "path": "docs/cri/architecture.md",
+      "sha256": "295569ef0693f4acb3af18e0132b6a2b89869c80547048c84df5ea9719cbf19b",
+      "sizeBytes": 2057
+    },
+    {
+      "path": "docs/cri/architecture.png",
+      "sha256": "86cc22fce0cd07d52d27c46069637d551b18c6ca2eeaf60e03cccccd855dbf27",
+      "sizeBytes": 127220
+    },
+    {
+      "path": "docs/cri/config.md",
+      "sha256": "3f4ddd67f452da33570f595974abce879e336661ebb47f071fa6280ce426461b",
+      "sizeBytes": 37361
+    },
+    {
+      "path": "docs/cri/cri.png",
+      "sha256": "368f9cb909c33e3a798d29b68d7c6ce24fdb54ce7d51afbbdf237dce4adafa4c",
+      "sizeBytes": 82110
+    },
+    {
+      "path": "docs/cri/crictl.md",
+      "sha256": "6557386b9bc8bf5fb09f036bbacfe5c1e406ca9b9853f195df5cab88e030feca",
+      "sizeBytes": 11156
+    },
+    {
+      "path": "docs/cri/decryption.md",
+      "sha256": "41ef8869cc4bf118918403c548810a8e4b8ab8c9c4520ac248b655f408e5ef33",
+      "sizeBytes": 3274
+    },
+    {
+      "path": "docs/cri/registry.md",
+      "sha256": "e699d50efb9d3270873fc171f99ac96b5191b58cb832f20c6debf886d9e4b833",
+      "sizeBytes": 6970
+    },
+    {
+      "path": "docs/cri/testing.md",
+      "sha256": "dbd65c9790b9171a9437b1f70c80aaab6dd7c1518fd69dd24fecc6940fb6f5df",
+      "sizeBytes": 2608
+    },
+    {
+      "path": "docs/features.md",
+      "sha256": "0ccd9bd15617882bed5338e1c33e80016f57bfb1a4d295de3e907ff0c7676c69",
+      "sizeBytes": 5339
+    },
+    {
+      "path": "docs/fsverity.md",
+      "sha256": "2f1fbcd804271845a1c3f8a706989a5d1ff10e14734307e9af848c3f09a030fc",
+      "sizeBytes": 6557
+    },
+    {
+      "path": "docs/garbage-collection.md",
+      "sha256": "9d43fcd5bdb237806c83168052b2afdd39beab2f6362418af3741696825c996f",
+      "sizeBytes": 9390
+    },
+    {
+      "path": "docs/getting-started.md",
+      "sha256": "dd1991272b304ea26f3ba268efbd9f372bb11bdd14f3c5ef58f6914704197879",
+      "sizeBytes": 23068
+    },
+    {
+      "path": "docs/historical/cri/containerd.png",
+      "sha256": "4dbf4ad16046460010c4f9be2ad6a56140f2d255496d71f015d42745031fcbb3",
+      "sizeBytes": 52793
+    },
+    {
+      "path": "docs/historical/cri/performance.png",
+      "sha256": "3d2921c78756634e4b17fe899a0712545a66dfcf13ad917291e3c75cf944512a",
+      "sizeBytes": 71029
+    },
+    {
+      "path": "docs/historical/cri/proposal.md",
+      "sha256": "2c08150d231eb0ce737c1096f7115a958338b87c174e6598cf55e262d247a153",
+      "sizeBytes": 11806
+    },
+    {
+      "path": "go.mod",
+      "sha256": "5cf39d09b450635d0931dbec9ff47e9d5a963bb535d97d2173a045ab015cf161",
+      "sizeBytes": 7324
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "eca10fcdeedcb6b7a3d1cb8aa2e550270589732e2c81a73347f82f1246ce1e65",
+      "sizeBytes": 10956
+    },
+    {
+      "path": "README.md",
+      "sha256": "99034e0519917493440a2322d96702f950e0761f7f3ff3181a6e43a8f8da1771",
+      "sizeBytes": 11768
+    }
+  ]
+}

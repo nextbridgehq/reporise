@@ -1,0 +1,50 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    name: Publish to npm
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Run Test Suite (64 tests across 5 suites)
+        run: npm test
+
+      - name: Run 5-Phase Benchmark Certification
+        run: npm run benchmark:certify
+
+      - name: Run Boundary & Security Audits
+        run: |
+          node tests/contract-boundary.test.mjs
+          node tests/security-process-audit.test.mjs
+
+      - name: Verify Packaging Integrity
+        run: npm pack --dry-run
+
+      - name: Publish to npm
+        run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

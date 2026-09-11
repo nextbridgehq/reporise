@@ -1,0 +1,7 @@
+{
+  "name": "remix-root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

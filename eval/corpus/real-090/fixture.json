@@ -1,0 +1,35 @@
+{
+  "id": "real-090",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "hashicorp/vault",
+  "commit": "41e571b6606e3691e0ce3f82ae23d6db0e445118",
+  "capturedAt": "2026-09-08T12:14:43.636Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "2670f51be2b009689db3e9d3d6a2c1c3610d10b6b5f643f04ce4a4cf7d8b3952",
+      "sizeBytes": 475240
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "16c5085705bf12955555ed7446c50ae9b26d4c3a1b401f525c75fe0e19745031",
+      "sizeBytes": 6575
+    },
+    {
+      "path": "go.mod",
+      "sha256": "834c9bc45961aaceaef8ad9741453c812b8fb5502d3325c95f06e45200e6d84e",
+      "sizeBytes": 32608
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "c8ff0e181b010cab7708f92d8a7635de2b9fd1462b5f3d77b6a4e5068aa678c8",
+      "sizeBytes": 5034
+    },
+    {
+      "path": "README.md",
+      "sha256": "c31a56cff20a2ac541848a2b57d5533dff3fa525ea8789f0a4e8b5b4f7cd49d6",
+      "sizeBytes": 12854
+    }
+  ]
+}

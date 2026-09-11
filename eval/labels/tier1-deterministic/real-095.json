@@ -1,0 +1,84 @@
+{
+  "fixture_id": "real-095",
+  "repository": "open-telemetry/opentelemetry-collector",
+  "rubric_version": "m8-label-rubric-v1.0.0",
+  "evaluator_id": "reporise_deterministic_v0.2.0",
+  "label_source": "deterministic_audit",
+  "human_verified": false,
+  "gold_role": "none",
+  "scores": {
+    "overall": 4,
+    "seo": 4,
+    "aeo": 4,
+    "geo": 4
+  },
+  "raw_scores": {
+    "overall": 74,
+    "seo": 73,
+    "aeo": 79,
+    "geo": 74
+  },
+  "rationale": {
+    "overall": "Deterministic audit overall score 74% mapped to bucket 4. Top fixes: Comparison / alternatives section; Install/setup section present.",
+    "seo": "Deterministic audit SEO surface score 73% mapped to bucket 4.",
+    "aeo": "Deterministic audit AEO surface score 79% mapped to bucket 4.",
+    "geo": "Deterministic audit GEO surface score 74% mapped to bucket 4."
+  },
+  "top_fixes": [
+    {
+      "id": "comparison-section",
+      "title": "Comparison / alternatives section",
+      "status": "fail",
+      "priority": 100
+    },
+    {
+      "id": "install-section",
+      "title": "Install/setup section present",
+      "status": "fail",
+      "priority": 80
+    },
+    {
+      "id": "manifest-description",
+      "title": "Package manifest has a description",
+      "status": "fail",
+      "priority": 80
+    },
+    {
+      "id": "definitional-opening",
+      "title": "The opening sentence is definitional, not promotional",
+      "status": "warn",
+      "priority": 50
+    },
+    {
+      "id": "faq-section",
+      "title": "FAQ or troubleshooting section",
+      "status": "warn",
+      "priority": 40
+    },
+    {
+      "id": "manifest-links",
+      "title": "Manifest links back to repository and homepage",
+      "status": "warn",
+      "priority": 40
+    },
+    {
+      "id": "citation-metadata",
+      "title": "Machine-readable attribution (CITATION.cff or llms.txt)",
+      "status": "warn",
+      "priority": 25
+    },
+    {
+      "id": "when-to-use",
+      "title": "Explicit scope: when to use, when not to",
+      "status": "warn",
+      "priority": 25
+    },
+    {
+      "id": "question-headings",
+      "title": "Headings phrased the way users ask",
+      "status": "warn",
+      "priority": 20
+    }
+  ],
+  "reviewed_at": "2026-09-08T12:31:13.052Z"
+}

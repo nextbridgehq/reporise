@@ -1,0 +1,40 @@
+{
+  "id": "real-062",
+  "schemaVersion": 1,
+  "source": "github",
+  "repository": "plausible/analytics",
+  "commit": "9236f41a00bbba0fedb74188346115899d54becb",
+  "capturedAt": "2026-09-08T11:59:56.557Z",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "49b22d75ab3d8522ba760430f1ad81ed4afe06f8e714d502e38b282d4e89cd48",
+      "sizeBytes": 45377
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "71fcda40d6dd55a6600bdc62728f837cc1cda614832eae6095032645519d2edb",
+      "sizeBytes": 3380
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "586bb405afb3ef618fcff78454c223abde7d4c219ef167d10de804f1125df609",
+      "sizeBytes": 3978
+    },
+    {
+      "path": "LICENSE.md",
+      "sha256": "6f1e622c82a380075843bb084a7ec3b1f1d12a4a02526d75e78b0924a860aa75",
+      "sizeBytes": 35184
+    },
+    {
+      "path": "README.md",
+      "sha256": "05968b19494e188aa89109126653a1c07ddeef802ed053e7bef975a9b89e6054",
+      "sizeBytes": 12821
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "b08228ba1880bec7be8a2fdfac0c833de6adeecfc0903b88bb2966d27e3f1f6a",
+      "sizeBytes": 1159
+    }
+  ]
+}
